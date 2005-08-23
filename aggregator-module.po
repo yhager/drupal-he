@@ -1,4 +1,5 @@
-# translation of aggregator-module.po to 
+# translation of aggregator-module.po to Hebrew
+# translation of aggregator-module.po to
 # LANGUAGE translation of Drupal (modules/aggregator.module)
 # Generated from file: aggregator.module,v 1.233.2.5 2005/06/01 04:04:02 unconed
 # Copyright YEAR NAME <EMAIL@ADDRESS>.
@@ -8,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: aggregator-module\n"
 "POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-07 13:13+0300\n"
+"PO-Revision-Date: 2005-08-23 13:51+0300\n"
 "Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: \n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: KBabel 1.2beta3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
 
 #: modules/aggregator.module:15
 msgid "\n      <p>Thousands of sites (particularly news sites and weblogs) publish their latest headlines and/or stories in a machine-readable format so that other sites can easily link to them. This content is usually in the form of an <a href=\"http://blogs.law.harvard.edu/tech/rss\">RSS</a> feed (which is an XML-based syndication standard).</p>\n      <p>You can read aggregated content from many sites using RSS feed readers, such as <a href=\"http://www.disobey.com/amphetadesk/\">Amphetadesk</a>.</p>\n      <p>Drupal provides the means to aggregate feeds from many sites and display these aggregated feeds to your site's visitors. To do this, enable the aggregator module in site administration and then go to the aggregator configuration page, where you can subscribe to feeds and set up other options.</p>\n      <h3>How do I find RSS feeds to aggregate?</h3>\n      <p>Many web sites (especially weblogs) display small XML icons or other obvious links on their home page. You can follow these to obtain the web address for the RSS feed. Common extensions for RSS feeds are .rss, .xml and .rdf. For example: <a href=\"http://slashdot.org/slashdot.rdf\">Slashdot RSS</a>.</p>\n      <p>If you can't find a feed for a site, or you want to find several feeds on a given topic, try an RSS syndication directory such as <a href=\"http://www.syndic8.com/\">Syndic8</a>.</p>\n      <p>To learn more about RSS, read Mark Pilgrim's <a href=\"http://www.xml.com/pub/a/2002/12/18/dive-into-xml.html\">What is RSS</a> and WebReference.com's <a href=\"http://www.webreference.com/authoring/languages/xml/rss/1/\">The Evolution of RSS</a> articles.</p>\n      <p>NOTE: Enable your site's XML syndication button by turning on the Syndicate block in block management.</p>\n      <h3>How do I add a news feed?</h3>\n      <p>To subscribe to an RSS feed on another site, use the <a href=\"%admin-news\">aggregation page</a>.</p>\n      <p>Once there, click the <a href=\"%new-feed\">new feed</a> tab.  Drupal will then ask for the following:</p>\n      <ul>\n       <li><strong>Title</strong> -- The text entered here will be used in your news aggregator, within the administration configuration section, and as a title for the news feed block. As a general rule, use the web site name from which the feed originates.</li>\n       <li><strong>URL</strong> -- Here you'll enter the fully-qualified web address for the feed you wish to subscribe to.</li>\n       <li><strong>Update interval</strong> -- This is how often Drupal will scan the feed for new content. This defaults to every hour. Checking a feed more frequently that this is typically a waste of bandwidth and is considered somewhat impolite. For automatic updates to work, cron.php must be called regularly. If it is not, you'll have to manually update the feeds one at a time within the news aggregation administration page by using <a href=\"%update-items\">update items</a>.</li>\n       <li><strong>Categorize news items</strong> -- As items are received from a feed they will be put in any categories you have selected here.</li>\n      </ul>\n      <p>Once you have submitted the new feed, check to make sure it is working properly by selecting <a href=\"%update-items\">update items</a> on the <a href=\"%admin-news\">aggregation page</a>. If you do not see any items listed for that feed, edit the feed and make sure that the URL was entered correctly.</p>\n      <h3>Adding categories</h3>\n      <p>News items can be filed into categories. To create a category, start at the <a href=\"%admin-news\">aggregation page</a>.</p>\n      <p>Once there, select <a href=\"%new-category\">new category</a> from the menu. Drupal will then ask for the following:</p>\n      <ul>\n       <li><strong>Title</strong> -- The title will be used in the <em>news by topics</em> listing in your news aggregator and for the block created for the bundle.</li>\n       <li><strong>Description</strong> -- A short description of the category to tell users more details about what news items they might find in the category.</li>\n      </ul>\n      <h3>Using the news aggregator</h3>\n      <p>The news aggregator has a number of ways that it displays your subscribed content:</p>\n      <ul>\n       <li><strong><a href=\"%news-aggregator\">News aggregator</a></strong> (latest news) -- Displays all incoming items in the order in which they were received.</li>\n       <li><strong><a href=\"%sources\">Sources</a></strong> -- Organizes incoming content by feed, displaying feed titles (each of which links to a page with the latest items from that feed) and item titles (which link to that item's actual story/article).</li>\n       <li><strong><a href=\"%categories\">Categories</a></strong> -- Organizes incoming content by category, displaying category titles (each of which links to a page with the latest items from that category) and item titles (which link to that item's actual story/article).</li>\n      </ul>\n      <p>Pages that display items (for sources, categories, etc.) display the following for each item:\n      <ul>\n       <li>The title of the item (its headline).</li>\n       <li>The categories that the item belongs to, each of which links to that particular category page as detailed above.</li>\n       <li>A description containing the first few paragraphs or a summary of the item (if available).</li>\n       <li>The name of the feed, which links to the individual feed's page, listing information about that feed and items for that feed only. This is not shown on feed pages (they would link to the page you're currently on).</li>\n      </ul>\n      <p>Additionally, users with the <em>administer news feeds permission</em> will see a link to categorize the news items. Clicking this will allow them to select which category(s) each news item is in.</p>\n      <h3>Technical details</h3>\n      <p>Drupal automatically generates an OPML feed file that is available by selecting the XML icon on the News Sources page.</p>\n      <p>When fetching feeds Drupal supports conditional GETs, this reduces the bandwidth usage for feeds that have not been updated since the last check.</p>\n      <p>If a feed is permanently moved to a new location Drupal will automatically update the feed URL to the new address.</p>"
@@ -51,7 +52,7 @@ msgstr "התעלם מפריטי חדשות ישנים מתאריך"
 
 #: modules/aggregator.module:77
 msgid "Older news items will be automatically discarded.  Requires crontab."
-msgstr ""
+msgstr "פריטי חדשות ישנים ימחקו באופן קבוע. אפשרות זו דורשת שימוש בתוכנה crontab."
 
 #: modules/aggregator.module:78
 msgid "Category selection type"
@@ -131,11 +132,11 @@ msgstr "מספר פריטי חדשות במסגרת תצוגה"
 
 #: modules/aggregator.module:236
 msgid "View this feed's recent news."
-msgstr ""
+msgstr "תצוגת החדשות האחרונות בנושא זה."
 
 #: modules/aggregator.module:244
 msgid "View this category's recent news."
-msgstr ""
+msgstr "תצוגת החדשות האחרונות בסיווג זה."
 
 #: modules/aggregator.module:268
 msgid "Removed news items from %site."
@@ -147,7 +148,7 @@ msgstr "אין תוכן חדש מ-%site."
 
 #: modules/aggregator.module:352
 msgid "Updated URL for feed %title to %url."
-msgstr ""
+msgstr "עדכון כתובת אינטרנט %url עבור נושא %title ."
 
 #: modules/aggregator.module:400
 msgid "Syndicated content from %site."
@@ -155,11 +156,11 @@ msgstr "שולב תוכן מ-%site."
 
 #: modules/aggregator.module:406
 msgid "Failed to parse RSS feed %site: %error."
-msgstr ""
+msgstr "שגיאה: error% בעת עיבוד תוכן RSS מאתר: %site ."
 
 #: modules/aggregator.module:464
 msgid "Failed to parse RSS feed %site: %error at line %line."
-msgstr ""
+msgstr "שגיאה: error% בשורה %line בעת עיבוד תוכן RSS מאתר: %site ."
 
 #: modules/aggregator.module:553
 msgid "Failed to parse entry from %site feed: suspicious input data."
