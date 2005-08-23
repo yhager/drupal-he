@@ -1,0 +1,145 @@
+# LANGUAGE translation of Drupal (modules/search.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from file: search.module,v 1.123.2.2 2005/04/23 07:34:42 unconed
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: modules/search.module:51
+msgid "Enables site-wide keyword searching."
+msgstr "מאפשר חיפוש לפי מילות מפתח בכל האתר."
+
+#: modules/search.module:53
+msgid "\n<p>The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly.</p>\n"
+msgstr ""
+"<p>מנוע החיפוש שומר מפתח של תוכן האתר. "
+"ניתן לשנות את ההגדרות למטה כדי להתאים "
+"את התנהגות המיפתוח. לתשומת לב - החיפוש "
+"דורש להגדיר את cron בצורה נכונה.</p>"
+
+#: modules/search.module:57
+msgid "<p><ul>\n<li>Check if your spelling is correct.</li>\n<li>Try using wildcards: <em>walk*</em> matches <em>walker</em>, <em>walking</em>, ...</li>\n<li>Use longer words (words shorter than %number letters are ignored).</li>\n</ul></p>"
+msgstr ""
+"<p><ul> <li>כדאי לבדוק אם האיות נכון.</li> "
+"<li>אפשר לנסות להשתמש ב-*: <em>תזונה*</em> "
+"תואם למילים כגון <em>לתזונה</em>, "
+"<em>בתנוזה</em>, ...</li> <li>שימוש במילים "
+"ארוכות יותר (מילים קצרות יותר מ-%number "
+"אותיות אינן מופיעות בתוצאות "
+"החיפוש).</li> </ul></p>"
+
+#: modules/search.module:78
+msgid "Search form"
+msgstr "טופס חיפוש"
+
+#: modules/search.module:131
+msgid "The index will be rebuilt."
+msgstr "מפתח הנושאים יבנה מחדש."
+
+#: modules/search.module:152
+msgid "%percentage of the site has been indexed."
+msgstr "בוצע מפתוח של %percentage מהאתר."
+
+#: modules/search.module:157
+msgid "Items to index per cron run"
+msgstr "מספר הפריטים למיפתוח בכל הפעלת cron"
+
+#: modules/search.module:157
+msgid "The maximum amount of items that will be indexed in one cron run. Set this number lower if your cron is timing out or if PHP is running out of memory."
+msgstr ""
+"מספר הפריטים המקסימלי שימופתח בריצת "
+"cron אחת. הנמך מספר זה אם מתקבלות שגיאות "
+"timeout בזמן ריצת ה-cron או אם נגמר הזכרון של "
+"php. "
+
+#: modules/search.module:158
+msgid "Indexing throttle"
+msgstr "מיפתוח מצערת "
+
+#: modules/search.module:160
+msgid "<p>Changing the setting below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</p><p>The default settings should be appropriate for the majority of sites.</p>"
+msgstr ""
+"<p>שינוי ההגדרות שלמטה יגרום לבנייה "
+"מחדש של המיפתוח (אינדקס החיפוש) של "
+"האתר. אינדקס החיפוש אינו מנוקה אלא "
+"מעודכן באופן הדרגתי כדי להתאים "
+"להגדרות החדשות. החיפוש ימשיך לעבוד אבל "
+"לא יתבצע מיפתוח שח תוכן חדש עד שבוצע "
+"מיפתוח מחדש של כל התוכן הקיים. "
+"</p><p>הגדרות ברירת המחדל אמורות להתאים "
+"לרוב האתרים.</p>"
+
+#: modules/search.module:161
+msgid "Minimum word length to index"
+msgstr "אורך מילה מינימלי למיפתוח"
+
+#: modules/search.module:161
+msgid "The number of characters a word has to be to be indexed. Words shorter than this will not be searchable."
+msgstr ""
+"מספר התוים שמילה צריכה להכיל כדי "
+"שיתבצע אחרי החיפוש. לא יתבצע חיפוש אחר "
+"מילים קצרות יותר."
+
+#: modules/search.module:162
+msgid "Minimum word length to search for"
+msgstr "אורך מילה מינימלי לחיפוש"
+
+#: modules/search.module:162
+msgid "The number of characters a word has to be to be searched for, including wildcard characters."
+msgstr ""
+"מספר התוים שמילה צריכה להכיל כדי "
+"שיתבצע אחריה החיפוש, כולל *. "
+
+#: modules/search.module:163
+msgid "Indexing settings"
+msgstr "הגדרות בניית מיפתוח (אינדקס)"
+
+#: modules/search.module:576
+msgid "Search: %keys (%type)."
+msgstr "חיפוש: %keys (%type)."
+
+#: modules/search.module:585
+msgid "Search results"
+msgstr "תוצאות החיפוש"
+
+#: modules/search.module:588
+msgid "Your search yielded no results"
+msgstr "לא נמצאו תוצאות."
+
+#: modules/search.module:592
+msgid "Please enter some keywords."
+msgstr "יש להכניס מילת מפתח אחת או יותר לחיפוש."
+
+#: modules/search.module:661
+msgid "Enter your keywords"
+msgstr "מילות מפתח לחיפוש"
+
+#: modules/search.module:150
+msgid "There is 1 item left to index."
+msgid_plural "There are %count items left to index."
+msgstr[0] "נשאר פריט אחד למיפתוח."
+msgstr[1] "נשארו %count פריטים למיפתוח."
+
+#: modules/search.module:502
+msgid "The word %words was not included because it is too short."
+msgid_plural "The words %words were not included because they were too short."
+msgstr[0] "המילה %words לא תיכלל כיוון שהיא קצרה מידי."
+msgstr[1] "המילים %words לא יכללו כיוון שהן קצרות מידי."
+
+#: modules/search.module:69
+msgid "search content"
+msgstr "חיפוש תוכן"
+
+#: modules/search.module:69
+msgid "administer search"
+msgstr "ניהול חיפוש"
+

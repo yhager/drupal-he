@@ -1,0 +1,95 @@
+# translation of drupal-module.po to 
+# LANGUAGE translation of Drupal (modules/drupal.module)
+# Generated from file: drupal.module,v 1.100.2.1 2005/05/18 21:13:52 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-14 11:33+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/drupal.module:15
+msgid "\n<p>The \"Drupal\" module features a capability whereby other drupal sites may <em>call home</em> to report their existence. In turn, this enables a pod of Drupal sites to find, cooperate and advertise each other.</p>\n<p>Currently, the main application of this feature is the <a href=\"%drupal-sites\">Drupal sites</a> page. By default, fresh Drupal installations can use <a href=\"%Drupal\">drupal.org</a> as their <em>directory server</em> and report their existence. This reporting occurs via scheduled <a href=\"%xml-rpc\">XML-RPC</a> pings.</p>\n<p>Drupal administrators should simply enable this feature to get listed on the <a href=\"%drupal-sites\">Drupal sites</a> page. Just set your site's name, e-mail address, slogan and mission statement on the <a href=\"%site-settings\">administer &raquo; settings</a> page. Then make sure that the field called <em>Drupal XML-RPC server</em> on the <a href=\"%drupal-settings\">administer &raquo; settings &raquo; drupal</a> page is set to %drupal-xml-rpc, and enable this feature using the dropdown directly below.</p>\n<p>The listing of your site will occur shortly after your site's next cron run. Note that cron.php should be called using the domain name which you want to have listed at <a href=\"%Drupal\">drupal.org</a>. For example, don't kick off cron by requesting http://127.0.0.1/cron.php. Instead, use a publicly accessible domain name such as http://www.example.com/cron.php.</p>\n<p>Also note that your installation need not use drupal.org as its directory server. For example, this feature is perfectly capable of aggregating pings from all of your departmental drupal installations sites within an enterprise.</p>"
+msgstr ""
+
+#: modules/drupal.module:22
+msgid "Lets users log in using a Drupal ID and can notify a central server about your site."
+msgstr ""
+"מאפשר למשתמשים להיכנס למערכת תוך "
+"שימוש בכינוי דרופל ויכול להודיע לשרת "
+"מרכזי על קיום האתר שלך."
+
+#: modules/drupal.module:24
+msgid "<p>Using this your Drupal site can \"call home\" and add itself to the Drupal directory. If you want it to add itself to a different directory server you can change the <a href=\"%xml-rpc-setting\">Drupal XML-RPC server</a> setting -- but the directory server has to be able to handle Drupal XML. To get all your site information listed, go to the <a href=\"%site-settings\">settings page</a> and set the site name, the e-mail address, the slogan, and the mission statement.</p>"
+msgstr ""
+
+#: modules/drupal.module:26
+msgid "<p><a href=\"%Drupal\">Drupal</a> is the name of the software which powers %this-site. There are Drupal web sites all over the world, and many of them share their registration databases so that users may freely login to any Drupal site using a single <strong>Drupal ID</strong>.</p>\n<p>So please feel free to login to your account here at %this-site with a username from another Drupal site. The format of a Drupal ID is similar to an email address: <strong>username</strong>@<em>server</em>. An example of a valid Drupal ID is <strong>mwlily</strong>@<em>www.drupal.org</em>.</p>"
+msgstr ""
+
+#: modules/drupal.module:37
+msgid "You must set the name of your site on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "שם<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:39
+msgid "You must set an e-mail address for your site on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "כתובת<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:41
+msgid "You must set your site slogan on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:43
+msgid "You must set your site mission on the <a href=\"%url\">administer &raquo; settings</a> page."
+msgstr "<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:45
+msgid "Drupal XML-RPC server"
+msgstr "שרת XML-RPC של דרופל"
+
+#: modules/drupal.module:45
+msgid "The URL of your root Drupal XML-RPC server."
+msgstr "כתובת ה-URL של שרת השורש של XML-RPC של דרופל."
+
+#: modules/drupal.module:46
+msgid "Drupal directory"
+msgstr "מדריך דרופל"
+
+#: modules/drupal.module:46
+msgid "If enabled, your Drupal site will make itself known to the Drupal directory at the specified Drupal XML-RPC server. For this to work properly, you must set your site's name, e-mail address, slogan and mission statement. When the \"Drupal XML-RPC server\" field is set to \"%drupal-xml-rpc\", your web site will get listed on the <a href=\"%drupal-sites\">Drupal sites</a> page. Requires the cron feature to be enabled."
+msgstr ""
+"אם אפשרות זו מאופשרת, אתר דרופל שלך "
+"יפרסם את עצמו למדריך דרופל בכתובת "
+"המצויינת של שרת XML-RPC של דרופל. כדי שזה "
+"יעבוד נכון, חובה להגדיר את שם האתר, "
+"כתובת הדואר האלקטרוני, הסיסמה, והצהרת "
+"המשימה. כששדה 'שרת XML-RPC של דרופל' מוגדר "
+"בתור  '%drupal-xml-rpc', האתר שלך ירשם בעמוד <a "
+"href=\"%drupal-sites\">אתרי דרופל</a>. הדבר דורש גם "
+"שתכונת cron תאופשר. "
+
+#: modules/drupal.module:98
+msgid "Ping from %name (%link)."
+msgstr "בדיקת קשר מ: %name  או %link."
+
+#: modules/drupal.module:148
+msgid "Failed to notify %url at %path: %error."
+msgstr "נכשל בעת דיווח %error לאתר %url בנתיב %path."
+
+#: modules/drupal.module:193
+msgid "Drupal"
+msgstr "דרופל"
+
+#: modules/drupal.module:0
+msgid "drupal"
+msgstr "דרופל"
+

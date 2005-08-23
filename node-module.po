@@ -1,0 +1,491 @@
+# translation of node-module.po to 
+# translation of node-module.po to
+# translation of node-module.po to
+# LANGUAGE translation of Drupal (modules/node.module)
+# Generated from file: node.module,v 1.485.2.9 2005/06/29 19:53:35 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: node-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-17 23:36+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/node.module:17
+msgid "\n      <h3>Nodes</h3>\n      <p>The core of the Drupal system is the node. All of the contents of the system are placed in nodes, or extensions of nodes.\n      A base node contains:<dl>\n      <dt>A Title</dt><dd>Up to 128 characters of text that titles the node.</dd>\n      <dt>A Teaser</dt><dd>A small block of text that is meant to get you interested in the rest of node. Drupal will automatically pull a small amount of the body of the node to make the teaser (To configure how long the teaser will be <a href=\"%teaser\">click here</a>). The teaser can be changed if you don't like what Drupal grabs.</dd>\n      <dt>The Body</dt><dd>The main text that comprises your content.</dd>\n      <dt>A Type</dt><dd>What kind of node is this? Blog, book, forum, comment, unextended, etc.</dd>\n      <dt>An Author</dt><dd>The author's name. It will either be \"anonymous\" or a valid user. You <em>cannot</em> set it to an arbitrary value.</dd>\n      <dt>Authored on</dt><dd>The date the node was written.</dd>\n      <dt>Changed</dt><dd>The last time this node was changed.</dd>\n      <dt>Sticky at top of lists</dt><dd>In listings such as the frontpage or a taxonomy overview the teasers of a selected amount of nodes is displayed. If you want to force a node to appear on the top of such a listing, you must set it to 'sticky'. This way it will float to the top of a listing, and it will not be pushed down by newer content.\n      <dt>Allow user comments</dt><dd>A node can have comments. These comments can be written by other users (Read-write), or only by admins (Read-only).</dd>\n      <dt>Revisions</dt><dd>Drupal has a revision system so that you can \"roll back\" to an older version of a post if the new version is not what you want.</dd>\n      <dt>Promote to front page</dt><dd>To get people to look at the new stuff on your site you can choose to move it to the front page. The front page is configured to show the teasers from only a few of the total nodes you have on your site (To configure how many teasers <a href=\"%teaser\">click here</a>).</dd>\n      <dt>Published</dt><dd>When using Drupal's moderation system a node remains unpublished -- unavailable to non-moderators -- until it is marked Published.</dd></dl>\n      <p>Now that you know what is in a node, here are some of the types of nodes available.</p>"
+msgstr ""
+
+#: modules/node.module:36
+msgid "Node type: %module"
+msgstr "סוג פריט תוכן: %module"
+
+#: modules/node.module:43
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr "מאפשר להגיש תוכן לאתר ולהציגו בעמודים."
+
+#: modules/node.module:46
+msgid "<p>Settings for the core of Drupal. Almost everything is a node so these settings will affect most of the site.</p>"
+msgstr "<p>הגדרות הליבה של דרופל. כמעט כל פריט תוכן יושפע כך ששינוי הגדרות אלו ישפיע על רוב האתר.</p>"
+
+#: modules/node.module:48
+msgid "<p>Below is a list of all of the posts on your site. Other forms of content are listed elsewhere (e.g. <a href=\"%comments\">comments</a>).</p><p>Clicking a title views the post, while clicking an author's name views their user information.</p>"
+msgstr ""
+"<p>להלן רשימה של כל פריטי התוכן באתר. "
+"צורות אחרות של תוכן מוצגות במקום אחר "
+"(לדוגמה, <a href=\"%comments\">תגובות</a>). <br "
+"/>לחיצה על כותרת מציגה את הפרסום שנשלח, "
+"בעוד שלחיצה על שם המחבר מאפשרת לעדכן "
+"את פרטי החברות שלו.</p>"
+
+#: modules/node.module:50
+msgid "<p>Enter a simple pattern to search for a post. This can include the wildcard character *.<br />For example, a search for \"br*\" might return \"bread bakers\", \"our daily bread\" and \"brenda\".</p>"
+msgstr "<p>הזינו תבנית פשוטה לחיפוש פרסום במערכת. תבנית יכולה להכיל תו חיפוש כללי: * .<&br />  תשובות כגון : חדשות , חדר, חדק, חד ... לדוגמא: חיפוש 'חד*' יחזיר </p>"
+
+#: modules/node.module:54
+msgid "The revisions let you track differences between multiple versions of a post."
+msgstr "'מעקב שינויים' מאפשר הבחנה בין גרסאות התוכן השונות של פרסום מסויים."
+
+#: modules/node.module:592
+msgid "Number of posts on main page"
+msgstr "מספר הפרסומים בעמוד הראשי"
+
+#: modules/node.module:592
+msgid "The default maximum number of posts to display per page on overview pages such as the main page."
+msgstr "ברירת המחדל למספר הפרסומים שיוצגו בעמודי סקירה כמו העמוד הראשי."
+
+#: modules/node.module:593
+msgid "Length of trimmed posts"
+msgstr "אורך פרסומים חתוכים"
+
+#: modules/node.module:593
+msgid "200 characters"
+msgstr "200 תוים"
+
+#: modules/node.module:593
+msgid "400 characters"
+msgstr "400 תוים"
+
+#: modules/node.module:593
+msgid "600 characters"
+msgstr "600 תוים"
+
+#: modules/node.module:593
+msgid "800 characters"
+msgstr "800 תוים"
+
+#: modules/node.module:593
+msgid "1000 characters"
+msgstr "1000 תוים"
+
+#: modules/node.module:593
+msgid "1200 characters"
+msgstr "1200 תוים"
+
+#: modules/node.module:593
+msgid "1400 characters"
+msgstr "1400 תוים"
+
+#: modules/node.module:593
+msgid "1600 characters"
+msgstr "1600 תוים"
+
+#: modules/node.module:593
+msgid "1800 characters"
+msgstr "1800 תוים"
+
+#: modules/node.module:593
+msgid "2000 characters"
+msgstr "2000 תוים"
+
+#: modules/node.module:593
+msgid "The maximum number of characters used in the trimmed version of a post.  Drupal will use this setting to determine at which offset long posts should be trimmed.  The trimmed version of a post is typically used as a teaser when displaying the post on the main page, in XML feeds, etc.  To disable teasers, set to 'Unlimited'. Note that this setting will only affect new or updated content and will not affect existing teasers."
+msgstr ""
+"מספר התוים המקסימלי המשמש בזמן יצירת "
+"גירסה מקוצצת של פרסום. דרופל משתמש "
+"בהגדרה זו כדי לקבוע באיזה מקום לחתוך "
+"פרסומים ארוכים. הגירסה החתוכה של פרסום "
+"משמשת בדרך כלל בתור תקציר בזמן הצגת "
+"הפרסום בעמוד הראשי, בהזנות XML, וכו'. כדי "
+"לבטל את החיתוך לתקצירים, יש לסמן \"ללא "
+"הגבלה\". שים לב שהגדרה זו תשפיע רק על "
+"תוכן חדש או מעודכן ולא על תקצירים "
+"קיימים. "
+
+#: modules/node.module:594
+msgid "Preview post"
+msgstr "תצוגה מקדימה של פרסום"
+
+#: modules/node.module:594
+msgid "Must users preview posts before submitting?"
+msgstr "האם חובה להציג את הפרסומים בתצוגה מקדימה לפני הגשתם?"
+
+#: modules/node.module:622
+msgid "read more"
+msgstr "לתוכן המלא"
+
+#: modules/node.module:622
+msgid "Read the rest of this posting."
+msgstr "לקריאת התוכן המלא של הפרסום."
+
+#: modules/node.module:649
+msgid "content types"
+msgstr "סוגי תוכן"
+
+#: modules/node.module:664;1486
+msgid "create content"
+msgstr "יצירת תוכן"
+
+#: modules/node.module:692
+msgid "revisions"
+msgstr "שיפורים"
+
+#: modules/node.module:702
+msgid "'%name' content type"
+msgstr "תכנים מסוג  '%name'"
+
+#: modules/node.module:723
+msgid "Approve the selected posts"
+msgstr "אשרו את הפרסומים הנבחרים"
+
+#: modules/node.module:724
+msgid "Promote the selected posts"
+msgstr "קדמו את הפרסומים הנבחרים"
+
+#: modules/node.module:725
+msgid "Make the selected posts sticky"
+msgstr "הפכו את הפרסומים הנבחרים לנצמדים"
+
+#: modules/node.module:726
+msgid "Demote the selected posts"
+msgstr "הורידו את דירוג הפרסומים הנבחרים"
+
+#: modules/node.module:727
+msgid "Unpublish the selected posts"
+msgstr "ביטול הפרסום של הפרסומים המסומנים."
+
+#: modules/node.module:728
+msgid "Delete the selected posts"
+msgstr "מחיקת הפרסומים המסומנים"
+
+#: modules/node.module:735;902
+msgid "Update"
+msgstr "עדכון"
+
+#: modules/node.module:735;774
+msgid "Delete all"
+msgstr "מחיקה כללית"
+
+#: modules/node.module:738
+msgid "Please select some items to perform the update on."
+msgstr "אנא בחרו את הפריטים עליהם יבוצע עדכון."
+
+#: modules/node.module:749
+msgid "The update has been performed."
+msgstr "העדכון בוצע."
+
+#: modules/node.module:757
+msgid "The items have been deleted."
+msgstr "הפריטים נמחקו."
+
+#: modules/node.module:771
+msgid "Are you sure you want to delete these items?"
+msgstr "האם אתם מעונינים למחוק פריטים אילו?"
+
+#: modules/node.module:792
+msgid "status"
+msgstr "מצב"
+
+#: modules/node.module:793;916
+msgid "published"
+msgstr "פורסם"
+
+#: modules/node.module:793;916
+msgid "not published"
+msgstr "לא פורסם"
+
+#: modules/node.module:794
+msgid "in moderation"
+msgstr "בפיקוח"
+
+#: modules/node.module:794
+msgid "not in moderation"
+msgstr "לא בפיקוח"
+
+#: modules/node.module:795
+msgid "promoted"
+msgstr "קודם בדרגה"
+
+#: modules/node.module:795
+msgid "not promoted"
+msgstr "לא קודם בדרגה"
+
+#: modules/node.module:796
+msgid "sticky"
+msgstr "מקובע"
+
+#: modules/node.module:796
+msgid "not sticky"
+msgstr "לא מקובע"
+
+#: modules/node.module:797
+msgid "type"
+msgstr "סוג"
+
+#: modules/node.module:805
+msgid "category"
+msgstr "תחום"
+
+#: modules/node.module:815;865
+msgid "Refine"
+msgstr "עָדֵן את החיפוש"
+
+#: modules/node.module:820;868
+msgid "Undo"
+msgstr "בטל סינון אחרון"
+
+#: modules/node.module:837
+msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
+msgstr " <em>וגם </em> <strong>%a</strong> הוא <strong>%b</strong>"
+
+#: modules/node.module:837
+msgid "<strong>%a</strong> is <strong>%b</strong>"
+msgstr "<strong>%a</strong> הוא <strong>%b</strong>"
+
+#: modules/node.module:859
+msgid "<dd class=\"a\">%a</dd> <dt>is</dt> <dd class=\"b\">%b</dd>"
+msgstr "<dd class=\"a\">%a</dd> <dt>הוא</dt> <dd class=\"b\">%b</dd>"
+
+#: modules/node.module:862
+msgid "<dt><em>and</em> where</dt> <dd class=\"a\">%a</dd> <dt>is</dt> <dd class=\"b\">%b</dd>"
+msgstr ""
+"<dt><em>וגם</em> </dt> <dd class=\"a\">%a</dd> <dt>הוא</dt> <dd "
+"class=\"b\">%b</dd>"
+
+#: modules/node.module:872
+msgid "Show only items where"
+msgstr "הצג רק פריטי תוכן שבהם"
+
+#: modules/node.module:904
+msgid "Update options"
+msgstr "אפשרויות עדכון"
+
+#: modules/node.module:925
+msgid "No posts available."
+msgstr "לא נמצאו פרסומים."
+
+#: modules/node.module:945
+msgid "Explanation or submission guidelines"
+msgstr "הסבר או הנחיות לשולחים"
+
+#: modules/node.module:945
+msgid "This text will be displayed at the top of the %type submission form. It is useful for helping or instructing your users."
+msgstr "הודעה זו תוצג בראש טופס הגשת התוכן מסוג %type. היא שימושית כדי לעזור לחברי האתר או כדי להנחות אותם."
+
+#: modules/node.module:946
+msgid "Minimum number of words"
+msgstr "מספר מילים מינימלי"
+
+#: modules/node.module:946
+msgid "The minimum number of words a %type must be to be considered valid. This can be useful to rule out submissions that do not meet the site's standards, such as short test posts."
+msgstr ""
+"מספר המילים המינימלי שפריט תוכן מסוג %type צריך להכיל כדי להיחשב תקין. שימושי "
+"כדי לסנן הודעות שאינן מתאימות להנחיות האתר, כמו הודעות קצרות לבדיקה."
+
+#: modules/node.module:947
+msgid "Submission form"
+msgstr "טופס הגשה"
+
+#: modules/node.module:948
+msgid "Workflow"
+msgstr "זרימת עבודה"
+
+#: modules/node.module:974
+msgid "Older revisions"
+msgstr "שיפורים קודמים"
+
+#: modules/node.module:977
+msgid "revision #%r revised by %u on %d"
+msgstr "גירסה מספר %r שונתה על ידי %u בתאריך %d"
+
+#: modules/node.module:977
+msgid "rollback"
+msgstr "חזרה למצב הקודם"
+
+#: modules/node.module:1040
+msgid "Rolled back to revision %revision of %title"
+msgstr "חזרה לגירסה קודמת %revision בנושא %title"
+
+#: modules/node.module:1056
+msgid "Deleted revision %revision of %title"
+msgstr "מחיקת גירסה %revision שכותרתה %title"
+
+#: modules/node.module:1101;1105
+msgid "Syndicate"
+msgstr "שילוב תכנים"
+
+#: modules/node.module:1181
+msgid "You have to specify a title."
+msgstr "יש לרשום כותרת."
+
+#: modules/node.module:1188
+msgid "The body of your %type is too short. You need at least %words words."
+msgstr "התוכן שהוזן '%type' קצר. יש להזין %words מילים לפחות."
+
+#: modules/node.module:1198
+msgid "This content has been modified by another user, unable to save changes."
+msgstr "תוכן זה עודכן על ידי חבר אחר, לא ניתן לשמור את השינויים."
+
+#: modules/node.module:1222
+msgid "The username %name does not exist."
+msgstr "המשתמש %name לא קיים במערכת."
+
+#: modules/node.module:1230
+msgid "You have to specify a valid date."
+msgstr "יש להזין תאריך תיקני."
+
+#: modules/node.module:1295
+msgid "Authored by"
+msgstr "נכתב על ידי"
+
+#: modules/node.module:1296
+msgid "Authored on"
+msgstr "בתאריך"
+
+#: modules/node.module:1299
+msgid "Authoring information"
+msgstr "מידע על המחבר"
+
+#: modules/node.module:1304;1763
+msgid "In moderation queue"
+msgstr "בתור לאישור"
+
+#: modules/node.module:1305;1763
+msgid "Promoted to front page"
+msgstr "קידום לעמוד הראשי"
+
+#: modules/node.module:1306;1763
+msgid "Sticky at top of lists"
+msgstr "קיבוע בראש הרשימות"
+
+#: modules/node.module:1307;1763
+msgid "Create new revision"
+msgstr "יצירת גירסה חדשה"
+
+#: modules/node.module:1310
+msgid "Options"
+msgstr "אפשרויות"
+
+#: modules/node.module:1401;1486
+msgid "Submit %name"
+msgstr "הוספת %name"
+
+#: modules/node.module:1408
+msgid "Add a new %s."
+msgstr "הוספת %s חדש."
+
+#: modules/node.module:1417
+msgid "Choose the appropriate item from the list:"
+msgstr "בחרו את האפשרות המתאימה מהרשימה:"
+
+#: modules/node.module:1501
+msgid "Preview trimmed version"
+msgstr "תצוגה מקדימה של הגירסה המקוצרת"
+
+#: modules/node.module:1503
+msgid "The trimmed version of your post shows what your post looks like when promoted to the main page or when exported for syndication. You can insert the delimiter \"&lt;!--break--&gt;\" (without the quotes) to fine-tune where your post gets split."
+msgstr ""
+"הגירסה המקוצרת של הפרסום שלך מראה איך "
+"הפרסום שלך יראה כשיוצג בעמוד הראשי או "
+"כשיוצג באתרים אחרים. תוכל להכניס את "
+"המפריד \"&lt;!--break--&gt;\" (ללא הגרשיים) כדי "
+"להגדיר בצורה מדוייקת יותר היכן יתבצע "
+"החיתוך."
+
+#: modules/node.module:1504
+msgid "Preview full version"
+msgstr "תצוגה מקדימה של הגירסה המלאה"
+
+#: modules/node.module:1542
+msgid "%type: updated %title."
+msgstr "%type: בוצע עדכון ל-'%title'."
+
+#: modules/node.module:1543
+msgid "The %post was updated."
+msgstr "בוצע עדכון בפרסום %post."
+
+#: modules/node.module:1551
+msgid "%type: added %title."
+msgstr "%type: נוסף '%title'."
+
+#: modules/node.module:1552
+msgid "Your %post was created."
+msgstr "שמירת %post בוצעה."
+
+#: modules/node.module:1585
+msgid "%type: deleted %title."
+msgstr "%type: מחיקה של %title"
+
+#: modules/node.module:1590
+msgid "Are you sure you want to delete %title?"
+msgstr "האם ברצונכם למחוק את '%title'?"
+
+#: modules/node.module:1621
+msgid "\n      <p>Welcome to your new <a href=\"%drupal\">Drupal</a>-powered website. This message will guide you through your first steps with Drupal, and will disappear once you have posted your first piece of content.</p>\n      <p>The first thing you will need to do is <a href=\"%register\">create the first account</a>. This account will have full administration rights and will allow you to configure your website. Once logged in, you can visit the <a href=\"%admin\">administration section</a> and <a href=\"%config\">set up your site's configuration</a>.</p>\n      <p>Drupal comes with various modules, each of which contains a specific piece of functionality. You should visit the <a href=\"%modules\">module list</a> and enable those modules which suit your website's needs.</p>\n      <p><a href=\"%themes\">Themes</a> handle the presentation of your website. You can use one of the existing themes, modify them or create your own from scratch.</p>\n      <p>We suggest you look around the administration section and explore the various options Drupal offers you. For more information, you can refer to the <a href=\"%handbook\">Drupal handbook online</a>.</p>"
+msgstr ""
+"\n"
+"ברוכים הבאים לאתר <a href=\"%drupal\">דרופל</a> "
+"החדש שלכם. הודעה זו תדריך אותכם בצעדים "
+"הראשונים בשימוש בדרופל, ותיעלם ברגע "
+"ששלחתם את הפרסום הראשון. </p>  <p>הפעולה "
+"הראשונה שתצטרכו לבצע היא <a "
+"href=\"%register\">יצירת החשבון הראשון</a>. "
+"לחשבון זה יהיו הרשאות מלאות שיאפשרו "
+"לכם להתאים את תצורת האתר לצרכים. עם "
+"הכניסה למערכת, תוכלו לבקר באיזור <a "
+"href=\"%admin\">ניהול המערכת</a> ושם <a "
+"href=\"%config\">להגדיר את תצורת האתר</a>.</p>  "
+"<p>דרופל מגיע עם רכיבים שונים, כל אחד "
+"מהם מספק תכונות מסויימות. תחילה כדאי "
+"לבקר <a href=\"%modules\">ברשימת הרכיבים</a> "
+"ולאפשר את אותם רכיבים המתאימים לצרכי "
+"האתר. לאחר מכן, כדאי לבחור עיצוב. </p>  <p><a "
+"href=\"%themes\">עיצובים</a> מטפלים בתצוגת "
+"האתר. ניתן לבחור עיצוב מתוך העיצובים "
+"הקיימים, להתאים אותו, או ליצור עיצובים "
+"חדשים משלך.</p>  <p>אנו מציעים שתשוטטו "
+"בממשק המנהל ותסיירו באפשרויות "
+"המגוונות שדרופל מציע. למידע נוסף, כדאי "
+"לעיין <a href=\"%handbook\">במדריך למשתמש</a>.</p>"
+
+#: modules/node.module:1703
+msgid "The node has been deleted."
+msgstr "מחיקת פריט התוכן בוצעה."
+
+#: modules/node.module:1763
+msgid "Default options"
+msgstr "אפשרויות ברירת מחדל"
+
+#: modules/node.module:1763
+msgid "Users with the <em>administer nodes</em> permission will be able to override these options."
+msgstr "חברים עם הרשאת <em>ניהול פריטי תוכן</em> יוכלו לעקוף הגדרות אלו."
+
+#: modules/node.module:547
+msgid "administer nodes"
+msgstr "ניהול פריטי תוכן"
+
+#: modules/node.module:547
+msgid "access content"
+msgstr "גישה לתוכן"
+
+#: modules/node.module:0
+msgid "node"
+msgstr "פריט תוכן"
+

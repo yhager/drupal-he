@@ -1,0 +1,171 @@
+# translation of queue-module.po to 
+# LANGUAGE translation of Drupal (modules/queue.module)
+# Generated from file: queue.module,v 1.128.2.1 2005/04/11 16:42:48 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: queue-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-18 17:58+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/queue.module:15
+msgid "Allows content to be moderated by the community."
+msgstr "מאפשר לתוכן להיות מנוהל על ידי הקהילה."
+
+#: modules/queue.module:17
+msgid "<p>The queue provides a way for your users to vote on submitted content. This is called <strong>moderation</strong>. Users can moderate a post up (give it a point), or down (subtract a point). The settings below give you control over how many points are required for the status of a post to be automatically changed. See individual items for details.</p>"
+msgstr ""
+
+#: modules/queue.module:25
+msgid "Post threshold"
+msgstr "מחסום סף של הודעה"
+
+#: modules/queue.module:25
+msgid "When a post gets this number of moderation points, it is <strong>promoted to the front page</strong> automatically."
+msgstr "כאשר פרסום מקבל כמות זו של ניקוד, הוא <strong>מועבר לדף הראשי</strong> באופן מידי."
+
+#: modules/queue.module:26
+msgid "Dump threshold"
+msgstr "ביטול מחסום סף"
+
+#: modules/queue.module:26
+msgid "When a post drops below this number of points, its status is changed to <strong>unpublished</strong>."
+msgstr "כאשר הניקוד של פרסום יורד תחת סף הניקוד, מצבו משתנה ל <strong>פרסום בוטל</strong>."
+
+#: modules/queue.module:27
+msgid "Expiration threshold"
+msgstr "הסתיים תוקף מחסום הסף"
+
+#: modules/queue.module:27
+msgid "When a post gets this number of points, its status is changed to <strong>unpublished</strong>."
+msgstr "כאשר פרסום מקבל ניקוד כזה, מצבו משתנה ל<strong>פרסום בוטל</strong>."
+
+#: modules/queue.module:28
+msgid "Show comments"
+msgstr "הצגת תגובות"
+
+#: modules/queue.module:28
+msgid "Tick the box to show comments below the moderation form."
+msgstr "מלאו בסימן את התיבה לאפשר הצגת תגובות בתחתית טופס הפיקוח."
+
+#: modules/queue.module:47
+msgid "submission queue"
+msgstr "תור הגשה"
+
+#: modules/queue.module:81
+msgid "Moderation: approved %title."
+msgstr "פיקוח: %title מאושר."
+
+#: modules/queue.module:82
+msgid "The post is promoted."
+msgstr "הפרסום קודם."
+
+#: modules/queue.module:87
+msgid "Moderation: declined %title (rollback)."
+msgstr "פיקוח: %title נדחה (חזרה למצב קודם)."
+
+#: modules/queue.module:88
+msgid "The post has been declined and the previous version has been restored."
+msgstr "הפרסום הנוכחי נדחה וגרסה קודמת מוצגת."
+
+#: modules/queue.module:94
+msgid "Moderation: declined %title."
+msgstr "פיקוח: %title נדחה."
+
+#: modules/queue.module:95
+msgid "The post has been declined."
+msgstr "הפרסום נדחה."
+
+#: modules/queue.module:101
+msgid "Moderation: expired %title (rollback)."
+msgstr "פיקוח: פג תאריך תוקף %title (חזרה לגרסה קודמת)"
+
+#: modules/queue.module:102
+msgid "The post has expired and the previous version has been restored."
+msgstr "פג תאריך תוקף הפרסום הנוכחי וגרסה קודמת מוצגת."
+
+#: modules/queue.module:108
+msgid "Moderation: expired %title."
+msgstr "פיקוח: פג תאריך תוקף %title ."
+
+#: modules/queue.module:109
+msgid "The post has expired."
+msgstr "פג תוקף תאריך הפרסום."
+
+#: modules/queue.module:124
+msgid "Score"
+msgstr "ניקוד"
+
+#: modules/queue.module:145
+msgid "No posts available in queue."
+msgstr "לא קיימים פרסומים בתור."
+
+#: modules/queue.module:152
+msgid "Submission queue"
+msgstr "תור הגשה"
+
+#: modules/queue.module:167
+msgid "neutral (+0)"
+msgstr "חסר משקל"
+
+#: modules/queue.module:167
+msgid "post it (+1)"
+msgstr "פרסמו (+1)"
+
+#: modules/queue.module:167
+msgid "dump it (-1)"
+msgstr "דחו פרסום (-1)"
+
+#: modules/queue.module:179
+msgid "Your vote has been recorded."
+msgstr "הצבעה נשמרה."
+
+#: modules/queue.module:183
+msgid "When new content is submitted, it goes into the submission queue.  Registered users with the appropriate permission can access this queue and vote whether they think the content should be approved or not.  When enough people vote to approve the content, it is displayed on the front page.  On the other hand, if enough people vote to drop it, the content will disappear."
+msgstr ""
+
+#: modules/queue.module:186
+msgid "Your vote"
+msgstr "הצבעתכם"
+
+#: modules/queue.module:195
+msgid "Moderate"
+msgstr "פיקוח"
+
+#: modules/queue.module:226;245
+msgid "Moderation results"
+msgstr "תוצאות הפיקוח"
+
+#: modules/queue.module:242
+msgid "%user voted %vote"
+msgstr "המשתמש %user בחר/ה %vote"
+
+#: modules/queue.module:246
+msgid "This node has not yet been moderated."
+msgstr "פריט תוכן זה לא עבר פיקוח עדיין."
+
+#: modules/queue.module:283
+msgid "The post is queued for approval. You can check the votes in the <a href=\"%queue\">submission queue</a>."
+msgstr "הפרסום מחכה בתור לאישור. ניתן לבדוק את תור הפרסומים המחכים לאישור בקישור <&a href=\"%queue\">תור פרסומים</a>."
+
+#: modules/queue.module:286
+msgid "The post is queued for approval. The editors will decide whether it should be published."
+msgstr "הפרסום מחכה בתור לאישור. עורך האתר יחליט אם יש לפרסמו."
+
+#: modules/queue.module:37
+msgid "access submission queue"
+msgstr "גישה לתור הפרסומים שהוגשו למערכת"
+
+#: modules/queue.module:0
+msgid "queue"
+msgstr "תור"
+

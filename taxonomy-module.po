@@ -1,0 +1,237 @@
+# translation of taxonomy-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/taxonomy.module)
+# Generated from file: taxonomy.module,v 1.192.2.5 2005/05/31 21:13:40 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: taxonomy-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-21 22:18+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/taxonomy.module:61
+msgid "add vocabulary"
+msgstr "הוספת מילון"
+
+#: modules/taxonomy.module:66;358
+msgid "edit vocabulary"
+msgstr "עדכון מילון"
+
+#: modules/taxonomy.module:71
+msgid "preview vocabulary"
+msgstr "תצוגה מקדימה של טופס"
+
+#: modules/taxonomy.module:76;358
+msgid "add term"
+msgstr "הוספת מונח"
+
+#: modules/taxonomy.module:81;364
+msgid "edit term"
+msgstr "עדכון מונח"
+
+#: modules/taxonomy.module:86
+msgid "taxonomy term"
+msgstr "מונח במילון"
+
+#: modules/taxonomy.module:101
+msgid "Vocabulary name"
+msgstr "שם מילון"
+
+#: modules/taxonomy.module:101
+msgid "The name for this vocabulary.  Example: \"Topic\"."
+msgstr "שם המילון. לדוגמה: \"מונח\"."
+
+#: modules/taxonomy.module:102
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "תיאור המילון; ניתן לשימוש על ידי רכיבים אחרים של דרופל."
+
+#: modules/taxonomy.module:103
+msgid "Help text"
+msgstr "עזרה"
+
+#: modules/taxonomy.module:103
+msgid "Instructions to present to the user when choosing a term."
+msgstr "הנחיות המוצגות למשתמש בעת בחירת מונח ממילון זה."
+
+#: modules/taxonomy.module:104
+msgid "Types"
+msgstr "סוגים"
+
+#: modules/taxonomy.module:104
+msgid "A list of node types you want to associate with this vocabulary."
+msgstr ""
+"רשימת הסוגים של פריטי התוכן שעבורם "
+"ברצונך לאפשר להשתמש במילון זה."
+
+#: modules/taxonomy.module:105;213
+msgid "Related terms"
+msgstr "מונחים קרובים (ראה גם...)"
+
+#: modules/taxonomy.module:105
+msgid "Allows <a href=\"%help-url\">related terms</a> in this vocabulary."
+msgstr ""
+"סימון אפשרות זו מאפשר להגדיר <a href=\"%help-url\">מונחים קרובים</a> במילון זה, "
+"כמו באגרון (חשוב על \"ראה גם...\" באנציקלופדיה)."
+
+#: modules/taxonomy.module:106
+msgid "Hierarchy"
+msgstr "סולם דרגות"
+
+#: modules/taxonomy.module:106
+msgid "Single"
+msgstr "יחיד"
+
+#: modules/taxonomy.module:106
+msgid "Multiple"
+msgstr "מרובה"
+
+#: modules/taxonomy.module:106
+msgid "Allows <a href=\"%help-url\">a tree-like hierarchy</a> between terms of this vocabulary."
+msgstr "מאפשר <a href=\"%help-url\">סולם דרגות בצורת עץ</a> בין מונחים במילון זה."
+
+#: modules/taxonomy.module:107
+msgid "Multiple select"
+msgstr "בחירה מרובה"
+
+#: modules/taxonomy.module:107
+msgid "Allows nodes to have more than one term in this vocabulary."
+msgstr "מאפשר לפריטי תוכן לשייך אליהם יותר ממונח אחד ממילון זה."
+
+#: modules/taxonomy.module:108
+msgid "If enabled, every node <strong>must</strong> have at least one term in this vocabulary."
+msgstr "אם מאופשר, לכל פריט תוכן <strong>חובה</strong> לשייך לפחות מונח אחד ממילון זה. "
+
+#: modules/taxonomy.module:109
+msgid "In listings, the heavier vocabularies will sink and the lighter vocabularies will be positioned nearer the top."
+msgstr ""
+"בזמן תצוגת רשימות, מילונים כבדים יותר "
+"שוקעים למטה ומילונים קלים יותר "
+"ממוקמים ליד ראש הרשימה. "
+
+#: modules/taxonomy.module:132
+msgid "Updated vocabulary %name."
+msgstr "עודכן המילון %name."
+
+#: modules/taxonomy.module:144
+msgid "Created new vocabulary %name."
+msgstr "נוצר מילון חדש ששמו %name."
+
+#: modules/taxonomy.module:168
+msgid "deleted vocabulary \"%name\"."
+msgstr "נמחק המילון '%name'."
+
+#: modules/taxonomy.module:178
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "האם אתם מעוניינים במחיקת הכותרת %title ?"
+
+#: modules/taxonomy.module:180
+msgid "Deleting a vocabulary will delete all the terms in it. This action cannot be undone."
+msgstr "מחיקת מילון מונחים תמחק את כל המונחים במילון. אין אפשרות לשחזר פעולה זו."
+
+#: modules/taxonomy.module:191
+msgid "Term name"
+msgstr "שם המונח"
+
+#: modules/taxonomy.module:191
+msgid "The name for this term.  Example: \"Linux\"."
+msgstr "שם המונח. לדוגמה: \"אקולוגיה\"."
+
+#: modules/taxonomy.module:192
+msgid "A description of the term."
+msgstr "תיאור המונח."
+
+#: modules/taxonomy.module:205
+msgid "Parent term"
+msgstr "מונח אב"
+
+#: modules/taxonomy.module:208
+msgid "Parents"
+msgstr "אבות"
+
+#: modules/taxonomy.module:208
+msgid "Parent terms"
+msgstr "מונחי אב"
+
+#: modules/taxonomy.module:216
+msgid "Synonyms"
+msgstr "שמות נרדפים"
+
+#: modules/taxonomy.module:216
+msgid "<a href=\"%help-url\">Synonyms</a> of this term, one synonym per line."
+msgstr "<a href=\"%help-url\">שמות נרדפים</a> למונח זה, שם אחד בשורה."
+
+#: modules/taxonomy.module:217
+msgid "In listings, the heavier terms will sink and the lighter terms will be positioned nearer the top."
+msgstr ""
+"ברשימות, המונחים הכבדים יותר שוקעים "
+"למטה והקלים יותר צפים לראש הרשימה."
+
+#: modules/taxonomy.module:238
+msgid "The term %term has been updated."
+msgstr "המונח %term עודכן."
+
+#: modules/taxonomy.module:248
+msgid "Created new term %term."
+msgstr "נוצר מונח חדש - %term."
+
+#: modules/taxonomy.module:317
+msgid "Deleted term %name."
+msgstr "נמחק המונח %name."
+
+#: modules/taxonomy.module:333
+msgid "Are you sure you want to delete the term %title?"
+msgstr "האם את\\ה בטוח\\ה שברצונך למחוק את המונח %title?"
+
+#: modules/taxonomy.module:335
+msgid "Deleting a term will delete all its children if there are any. This action cannot be undone."
+msgstr "מחיקת מונח תמחק את כל מונח הבן שלו, אם ישנם כאלו. לא ניתן לבטל פעולה זו. "
+
+#: modules/taxonomy.module:358
+msgid "preview form"
+msgstr "הצגת טופס"
+
+#: modules/taxonomy.module:371
+msgid "No categories available."
+msgstr "לא קיימים סיווגים."
+
+#: modules/taxonomy.module:877
+msgid "There are currently no posts in this category."
+msgstr "אין כעת פרסומים בסיווג זה."
+
+#: modules/taxonomy.module:1054
+msgid "Enables the categorization of content."
+msgstr "מאפשר סיווג תוכן לפי מונחים."
+
+#: modules/taxonomy.module:1056
+msgid "<p>The taxonomy module allows you to classify content into categories and subcategories; it allows multiple lists of categories for classification (controlled vocabularies) and offers the possibility of creating thesauri (controlled vocabularies that indicate the relationship of terms) and taxonomies (controlled vocabularies where relationships are indicated hierarchically). To delete a term choose \"edit term\". To delete a vocabulary, and all its terms, choose \"edit vocabulary\".</p>"
+msgstr ""
+"<p>רכיב הטקסונומיה מאפשר לסווג תוכן לפי "
+"מונחים ומונחי משנה. הוא מאפשר ליצור "
+"רשימות מרובות של מונחים (מילונים "
+"מבוקרים) ומציע את האפשרות ליצור "
+"אגרונים (מילונים מבוקרים המצביעים על "
+"הקשר בין מונחים) וטקסונומיות (מילונים "
+"מבוקרים שבהם הקשר בין המונחים מאפיין "
+"היררכייה). כדי למחוק מילון וכל המונחים "
+"שבתוכו, יש להיכנס ל\"עריכת מילון\".</p>"
+
+#: modules/taxonomy.module:1058
+msgid "<p>When you create a controlled vocabulary you are creating a set of terms to use for describing content (known as descriptors in indexing lingo).  Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to Slashdot.org's or Kuro5hin.org's sections. For more complex implementations, you might create a hierarchical list of categories.</p>"
+msgstr ""
+
+#: modules/taxonomy.module:1060
+msgid "\n      <h3>Background</h3>\n      <p>Taxonomy is the study of classification. Drupal's taxonomy module allows you to define vocabularies which are used to classify content. The module supports hierarchical classification and association between terms, allowing for truly flexible information retrieval and classification. For more details about <a href=\"%classification-types\">classification types</a> and insight into the development of the taxonomy module, see this <a href=\"%drupal-dis\">drupal.org discussion</a>.</p>\n      <h3>An example taxonomy: food</h3>\n      <ul><li>Dairy<ul><li>Milk</li></ul></li><li>Drink<ul><li>Alcohol<ul><li>Beer</li><li>Wine</li></ul></li><li>Pop</li><li>Milk</li></ul></li><li>Meat<ul><li>Beef</li><li>Chicken</li><li>Lamb</li></ul></li><li>Spices<ul><li>Sugar</li></ul></li></ul>\n      <p><strong>Notes</strong></p><ul><li>The term <em>Milk</em> appears within both <em>Dairy</em> and <em>Drink</em>.  This is an example of <em>multiple parents</em> for a term.</li><li>In Drupal the order of siblings (e.g. <em>Beef</em>, <em>Chicken</em>, <em>Lamb</em>) in a vocabulary may be controlled with the <em>weight</em> parameter.</li></ul>\n      <h3>Vocabularies</h3>\n      <p>When you create a controlled vocabulary you are creating a set of terms to use for describing content (known as descriptors in indexing lingo). Drupal allows you to describe each piece of content (blog, story, etc.) using one or many of these terms. For simple implementations, you might create a set of categories without subcategories, similar to <a href=\"%slashdot\">Slashdot</a>'s sections.  For more complex implementations, you might create a hierarchical list of categories such as <em>Food</em> taxonomy shown above.</p>\n      <h4>Setting up a vocabulary</h4>\n      <p>When setting up a controlled vocabulary, if you select the <em>hierarchy</em> option, you will be defining a tree structure of terms, as in a thesaurus. If you select the <em>related terms</em> option, you are allowing the definition of related terms (think <em>see also</em>), as in a thesaurus. Selecting <em>multiple select</em> will allow you to describe a piece of content using more than one term. That content will then appear on each term's page, increasing the chance that a user will find it.</p>\n      <p>When setting up a controlled vocabulary you are asked for: <ul>\n      <li><strong>Vocabulary name</strong>: The name for this vocabulary. Example: <em>Dairy</em>.</li>\n      <li><strong>Description</strong>: Description of the vocabulary. This can be used by modules and feeds.</li>\n      <li><strong>Types</strong>: The list of content types you want to associate this vocabulary with. Some available types are blog, book, forum, page, and story.</li>\n      <li><a id=\"related-terms\"></a><strong>Related terms</strong>: Allows relationships between terms within this vocabulary. Think of these as <em>see also</em> references.</li>\n      <li><a id=\"hierarchy\"></a><strong>Hierarchy</strong>: Allows a tree-like vocabulary, as in our <em>Foods</em> example above.</li>\n      <li><strong>Multiple select</strong>: Allows pieces of content to be described using more than one term. Content may then appear on multiple taxonomy pages.</li>\n      <li><strong>Required</strong>: If selected, each piece of content must have a term in this vocabulary associated with it.</li>\n      <li><strong>Weight</strong>: The overall weight for this vocabulary in listings with multiple vocabularies.</li>\n      </ul></p>\n      <h4>Adding terms to a vocabulary</h4>\n      <p>Once done defining the vocabulary, you have to add terms to it to make it useful. The options you see when adding a term to a vocabulary will depend on what you selected for <em>related terms</em>, <em>hierarchy</em> and <em>multiple select</em>. These options are:</p>\n      <p><ul>\n      <li><strong>Term name</strong>: The name for this term. Example: <em>Milk</em>.</li>\n      <li><strong>Description</strong>: Description of the term that may be used by modules and feeds.  This is synonymous with a \"scope note\".</li>\n      <li><strong><a id=\"parent\"></a>Parent</strong>: Select the term under which this term is a subset -- the branch of the hierarchy that this term belongs under. This is also known as the \"Broader term\" indicator used in thesauri.</li>\n      <li><strong><a id=\"synonyms\"></a>Synonyms</strong>: Enter synonyms for this term, one synonym per line. Synonyms can be used for variant spellings, acronyms, and other terms that have the same meaning as the added term, but which are not explicitly listed in this vocabulary (i.e. <em>unauthorized terms</em>).</li>\n      <li><strong>Weight</strong>: The weight is used to sort the terms of this vocabulary.</li>\n      </ul></p>\n      <h3><a id=\"taxonomy-url\"></a>Displaying content organized by terms</h3>\n      <p>In order to view the content associated with a term or a collection of terms, you should browse to a properly formed Taxonomy URL. For example, <a href=\"%taxo-example\">taxonomy/term/1+2</a>.  Taxonomy URLs always contain one or more term IDs at the end of the URL. You may learn the term ID for a given term by hovering over that term in the <a href=\"%taxo-overview\">taxonomy overview</a> page and noting the number at the end or the URL.  To build a Taxonomy URL start with \"taxonomy/term/\". Then list the term IDs, separated by \"+\" to choose content tagged with <strong>any</strong> of the given term IDs, or separated by \",\" to choose content tagged with <strong>all</strong> of the given term IDs. In other words, \"+\" is less specific than \",\". Finally, you may optionally specify a \"depth\" in the vocabulary hierarchy. This defaults to \"0\", which means only the explicitly listed terms are searched. A positive number indicates the number of additional levels of the tree to search. You may also use the value \"all\", which means that all descendant terms are searched.</p>\n      <h3>RSS feeds</h3>\n      <p>Every term, or collection of terms, provides an <a href=\"%userland-rss\">RSS</a> feed to which interested users may subscribe. The URL format for a sample RSS feed is <a href=\"%sample-rss\">taxonomy/term/1+2/0/feed</a>. These are built just like <a href=\"%taxo-help\">Taxonomy URLs</a>, but are followed by the word \"feed\".</p>"
+msgstr ""
+
+#: modules/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "ניהול סיווגים"
+

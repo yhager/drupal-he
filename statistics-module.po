@@ -1,0 +1,199 @@
+# translation of statistics-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/statistics.module)
+# Generated from file: statistics.module,v 1.186.2.5 2005/05/31 21:13:39 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: statistics-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-21 14:26+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/statistics.module:15
+msgid "\n      <h3>Introduction</h3>\n      <p>The statistics module keeps track of numerous statistics for your site but be warned, statistical collection does cause a little overhead, thus everything comes <strong>disabled</strong> by default.</p>\n      <p>The module counts how many times, and from where -- using HTTP referrer -- each of your posts is viewed. Once we have that count the module can do the following with it:\n      <ul>\n      <li>The count can be displayed in the node's link section next to \"# comments\".</li>\n      <li>A configurable block can be added which can display a configurable number of the day's top stories, the all time top stories, and the last stories read.</li>\n      <li>A configurable user page can be added, which can display the day's top stories, the all time top stories, and the last stories read.  You can individually configure how many posts are displayed in each section.</li>\n      </ul>\n      <p>Notes on using the statistics:</p>\n      <ul>\n      <li>If you enable the view counters for content, this adds 1 database query for each node that is viewed (2 queries if it's the first time the node has ever been viewed).</li>\n      <li>If you enable the access log, this adds 1 database query for each page that Drupal displays.  Logged information includes:  HTTP referrer (if any), node being accessed (if any), user ID (if any), the IP address of the user, and the time the page was viewed.</li>\n      </ul>\n      <p>As with any new module, the statistics module needs to be <a href=\"%modules\">enabled</a> before you can use it.  Also refer to the <a href=\"%permissions\">permissions section</a>, as this module supports four separate permissions.</p>\n      <h3>Configuring the statistics module</h3>\n      <p>There are some configuration options added to the main <a href=\"%configuration\">administer &raquo; settings &raquo; statistics</a> section:</p>\n      <ul>\n      <li><em>enable access log</em> -- allows you to turn the access log on and off.  This log is used to store data about every page accessed, such as the remote host's IP address, where they came from (referrer), what node they've viewed, and their user name.  Enabling the log adds one database call per page displayed by Drupal.</li>\n      <li><em>discard access logs older than</em> -- allows you to configure how long an access log entry is saved, after which time it is deleted from the database table. To use this you need to run \"cron.php\"</li>\n      <li><em>enable node view counter</em> -- allows you to turn on and off the node-counting functionality of this module.  If it is turned on, an extra database query is added for each node displayed, which increments a counter.</li>\n      <li><em>display node view counters</em> -- allows you to globally disable the displaying of node view counters.</li>\n      </ul>\n      <h3>Popular content block</h3>\n      <p>This module creates a block that can display the day's top viewed content, the all time top viewed content, and the last content viewed.  Each of these links can be enabled or disabled individually, and the number of posts displayed for each can be configured with a drop down menu.  If you disable all sections of this block, it will not appear.</p>\n      <p>Don't forget to <a href=\"%block\">enable the block</a>.</p>"
+msgstr ""
+
+#: modules/statistics.module:43
+msgid "Logs access statistics for your site."
+msgstr "רושם סטטיסטיקות גישה לאתר שלך."
+
+#: modules/statistics.module:45
+msgid "<p>Settings for the statistical information that Drupal will keep about the site. See <a href=\"%statistics\">site statistics</a> for the actual information.</p>"
+msgstr ""
+"<p>כאן ניתן להגדיר את המידע הסטטיסטי "
+"שדרופל שומר על האתר. המידע האמיתי נמצא "
+"ב <a href=\"%statistics\">יומן הפעילות</a>.</p>"
+
+#: modules/statistics.module:47
+msgid "<p>This page shows you the most recent hits.</p>"
+msgstr "<p>עמוד זה מציג מידע על הכניסות האחרונות לאתר.</p>"
+
+#: modules/statistics.module:49
+msgid "<p>This page shows you all external referrers. These are links pointing to your web site from outside your web site.</p>"
+msgstr ""
+"<p>עמוד זה מציג את כל כתובות ה-URL "
+"החיצוניות שמהן מגיעים אנשים לאתר. אלו "
+"הם קישורים המצביעים לאתר מאתרים "
+"אחרים.</p>"
+
+#: modules/statistics.module:115
+msgid "recent hits"
+msgstr "כניסות אחרונות"
+
+#: modules/statistics.module:118
+msgid "top pages"
+msgstr "עמודים מובילים"
+
+#: modules/statistics.module:121
+msgid "top users"
+msgstr "משתמשים רשומים מובילים"
+
+#: modules/statistics.module:124
+msgid "referrers"
+msgstr "כתובות אתרים המפנים לאתר זה"
+
+#: modules/statistics.module:132
+msgid "track page visits"
+msgstr "מעקב עמודים שנצפו"
+
+#: modules/statistics.module:150
+msgid "Page URL"
+msgstr "כתובת האינטרנט של העמוד"
+
+#: modules/statistics.module:152;169
+msgid "Referrer"
+msgstr "כתובת האתר המפנה לאתר זה"
+
+#: modules/statistics.module:198;227
+msgid "Timestamp"
+msgstr "חותמת זמן"
+
+#: modules/statistics.module:199;228;260
+msgid "Page"
+msgstr "עמוד"
+
+#: modules/statistics.module:259;282;311
+msgid "Hits"
+msgstr "כניסות"
+
+#: modules/statistics.module:272
+msgid "Top pages in the past %interval"
+msgstr "עמודים הכי מבוקשים בזמן של %interval אחרון"
+
+#: modules/statistics.module:298
+msgid "Top users in the past %interval"
+msgstr "חברים מובילים ב%interval אחרון"
+
+#: modules/statistics.module:308
+msgid "Top referrers in the past %interval"
+msgstr "כתובות המקור המובילות ב%interval אחרון."
+
+#: modules/statistics.module:313
+msgid "Last visit"
+msgstr "ביקור אחרון"
+
+#: modules/statistics.module:334
+msgid "Enable access log"
+msgstr "אפשר רישום פעילות"
+
+#: modules/statistics.module:334
+msgid "Log each page access.  Required for referrer statistics."
+msgstr "רישום כל גישה לעמוד. נדרש עבור סטטיסטיקות של כתובות מקור."
+
+#: modules/statistics.module:337
+msgid "Discard access logs older than"
+msgstr "מחיקת רישומים בני יותר מ"
+
+#: modules/statistics.module:337
+msgid "Older access log entries (including referrer statistics) will be automatically discarded.  Requires crontab."
+msgstr ""
+"כניסות ישנות יותר (כולל סטטיסטיקות "
+"לגבי כתובות מקור) יימחקו אוטומטית. "
+"דורש crontab."
+
+#: modules/statistics.module:338
+msgid "Access log settings"
+msgstr "הגדרות רישום פעילויות"
+
+#: modules/statistics.module:341
+msgid "Count content views"
+msgstr "ספירת צפיות בתוכן"
+
+#: modules/statistics.module:341
+msgid "Increment a counter each time content is viewed."
+msgstr "קידום מונה בכל פעם שנצפה תוכן באתר."
+
+#: modules/statistics.module:342
+msgid "Display counter values"
+msgstr "הצגת ערכי מונים"
+
+#: modules/statistics.module:342
+msgid "Display how many times given content has been viewed."
+msgstr "הצגת מספר הפעמים שבהם הוצג כל פריט תוכן. "
+
+#: modules/statistics.module:343
+msgid "Content viewing counter settings"
+msgstr "הגדרות מונה צפיות בתוכן"
+
+#: modules/statistics.module:421;459
+msgid "Popular content"
+msgstr "תוכן מבוקש"
+
+#: modules/statistics.module:428
+msgid "Number of day's top views to display"
+msgstr "מספר הפריטים המובילים של היום שיוצגו ברשימת \"היום\""
+
+#: modules/statistics.module:428
+msgid "How many content items to display in \"day\" list."
+msgstr "מספר פריטי התוכן המוצגים ברשימת 'היום'."
+
+#: modules/statistics.module:429
+msgid "Number of all time views to display"
+msgstr "מספר הפריטים שיוצגו ברשימת \"כל הזמנים\""
+
+#: modules/statistics.module:429
+msgid "How many content items to display in \"all time\" list."
+msgstr "מספר פריטי התוכן המוצגים ברשימת 'כל הזמנים'."
+
+#: modules/statistics.module:430
+msgid "Number of most recent views to display"
+msgstr "מספר הפריטים שיוצגו ברשימת \"נצפו לאחרונה\""
+
+#: modules/statistics.module:430
+msgid "How many content items to display in \"recently viewed\" list."
+msgstr "מספר פריטי התוכן המוצגים ברשימת 'נצפו לאחרונה'."
+
+#: modules/statistics.module:445
+msgid "Today's:"
+msgstr "היום"
+
+#: modules/statistics.module:450
+msgid "All time:"
+msgstr "כל הזמנים:"
+
+#: modules/statistics.module:455
+msgid "Last viewed:"
+msgstr "נצפה לאחרונה:"
+
+#: modules/statistics.module:101
+msgid "1 read"
+msgid_plural "%count reads"
+msgstr[0] "נצפה פעם אחת"
+msgstr[1] "נצפה %count פעמים"
+
+#: modules/statistics.module:87
+msgid "access statistics"
+msgstr "גישה לסטטיסטיקות"
+
+#: modules/statistics.module:0
+msgid "statistics"
+msgstr "סטטיסטיקות"
+

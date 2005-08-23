@@ -1,0 +1,89 @@
+# translation of archive-module.po to 
+# LANGUAGE translation of Drupal (modules/archive.module)
+# Generated from file: archive.module,v 1.79 2005/04/01 15:54:58 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: archive-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-07 13:18+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/archive.module:15
+msgid "Displays a calendar for navigating older content."
+msgstr "מציג לוח שנה לניווט בתוכן ישן יותר."
+
+#: modules/archive.module:93
+msgid "A calendar to browse the archives"
+msgstr "לוח שנה לחיפוש בארכיון."
+
+#: modules/archive.module:94
+msgid "Previous month"
+msgstr "חודש קודם"
+
+#: modules/archive.module:94
+msgid "Next month"
+msgstr "חודש הבא"
+
+#: modules/archive.module:106
+msgid "Su"
+msgstr "רא"
+
+#: modules/archive.module:106
+msgid "Mo"
+msgstr "שנ"
+
+#: modules/archive.module:106
+msgid "Tu"
+msgstr "של"
+
+#: modules/archive.module:106
+msgid "We"
+msgstr "רב"
+
+#: modules/archive.module:106
+msgid "Th"
+msgstr "חמ"
+
+#: modules/archive.module:106
+msgid "Fr"
+msgstr "שי"
+
+#: modules/archive.module:106
+msgid "Sa"
+msgstr "שב"
+
+#: modules/archive.module:188
+msgid "Calendar to browse archives"
+msgstr "לוח שנה לחיפוש בארכיון"
+
+#: modules/archive.module:192
+msgid "Browse archives"
+msgstr "חיפוש בארכיון"
+
+#: modules/archive.module:205
+msgid "archives"
+msgstr "ארכיון"
+
+#: modules/archive.module:223;238
+msgid "Show"
+msgstr "הצג"
+
+#: modules/archive.module:136
+msgid "1 post"
+msgid_plural "%count posts"
+msgstr[0] "פרסום"
+msgstr[1] "פרסום"
+
+#: modules/archive.module:0
+msgid "archive"
+msgstr "ארכיון"
+

@@ -1,0 +1,253 @@
+# translation of profile-module.po to 
+# LANGUAGE translation of Drupal (modules/profile.module)
+# Generated from file: profile.module,v 1.90.2.2 2005/06/01 04:30:07 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: profile-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-18 17:35+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/profile.module:22
+msgid "Supports configurable user profiles."
+msgstr "תמיכה מאפייני משתמש הניתנים להתאמה."
+
+#: modules/profile.module:24
+msgid "<p>Here you can define custom fields that users can fill in in their user profile (such as <em>country</em>, <em>real name</em>, <em>age</em>, ...).</p>"
+msgstr ""
+"<p>כאן ניתן להגדיר מאפיינים מתואמים אישית "
+"שמשתמשים רשומים במערכת יוכלו לשנותם במאפייני המשתמש שלהם "
+"(כמו <em>מדינה</em>, <em>שם מלא</em>, <em>גיל</em>, "
+"...).</p>"
+
+#: modules/profile.module:36;141
+msgid "user list"
+msgstr "רשימת משתמשים רשומים"
+
+#: modules/profile.module:40
+msgid "profiles"
+msgstr "מאפייני משתמשים"
+
+#: modules/profile.module:43
+msgid "add field"
+msgstr "הוספת מאפיין"
+
+#: modules/profile.module:47
+msgid "edit field"
+msgstr "עריכת מאפיין"
+
+#: modules/profile.module:51
+msgid "delete field"
+msgstr "מחיקת מאפיין"
+
+#: modules/profile.module:228
+msgid "The content of this field is private and only visible to yourself."
+msgstr "תוכן מאפיין זה הוא אישי ולכן הוא לא יוצג לשאר המשתמשים באתר."
+
+#: modules/profile.module:241
+msgid "Put each item on a separate line or separate them by commas.  No HTML allowed."
+msgstr "יש לרשום כל פריט בשורה נפרדת או להפרידם בפסיקים. אין להשתמש ב-HTML."
+
+#: modules/profile.module:365
+msgid "The value provided for %field is not a valid URL."
+msgstr "הערך שהוזן בשדה %field אינו כתובת אינטרנט - URL תקינה."
+
+#: modules/profile.module:370
+msgid "The field %field is required."
+msgstr "חובה למלא את השדה %field."
+
+#: modules/profile.module:413
+msgid "You must enter a title."
+msgstr "חובה להזין כותרת."
+
+#: modules/profile.module:419
+msgid "The specified form name contains one or more illegal characters.  Spaces or any other special characters expect dash (-) and underscore (_) are not allowed."
+msgstr "שם הטופס מכיל תו או מספר תווים לא תקינים. התו 'רווח' או תווים מיוחדים אחרים חוץ מהתו 'מקף' או 'קו תחתון' אינם מורשים לשימוש."
+
+#: modules/profile.module:423
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "שם טופס זה שמור לשימוש פנימי של המערכת."
+
+#: modules/profile.module:428
+msgid "You must enter a category."
+msgstr "חובה לבחור סיווג."
+
+#: modules/profile.module:443
+msgid "The specified title is already in use."
+msgstr "הכותרת שהוזנה כבר קיימת במערכת."
+
+#: modules/profile.module:447
+msgid "The specified name is already in use."
+msgstr "השם שהוזן כבר קיים במערכת."
+
+#: modules/profile.module:455
+msgid "The field has been created."
+msgstr "השדה החדש נוצר."
+
+#: modules/profile.module:463
+msgid "Add new %type"
+msgstr "הוספת %type חדש  "
+
+#: modules/profile.module:483
+msgid "The field has been updated."
+msgstr "השדה עודכן."
+
+#: modules/profile.module:491
+msgid "Edit %type"
+msgstr "עריכת %type"
+
+#: modules/profile.module:503
+msgid "The field has been deleted."
+msgstr "השדה נמחק."
+
+#: modules/profile.module:509;548
+msgid "Category"
+msgstr "סיווג"
+
+#: modules/profile.module:509
+msgid "The category the new field should be part of.  Categories are used to group fields logically.  An example category is \"Personal information\"."
+msgstr ""
+"הסיווג שאליו ישתייך השדה החדש. סיווגים "
+"משמשים כדי לקבץ שדות לוגית. דוגמה "
+"לסיווג היא \"מידע אישי\". "
+
+#: modules/profile.module:510
+msgid "The title of the new field.  The title will be shown to the user.  An example title is \"Favorite color\"."
+msgstr ""
+"כותרת השדה החדש. הכותרת תוצג למשתמש. "
+"דוגמה לכותרת היא \"צבע חביב\". "
+
+#: modules/profile.module:511
+msgid "Form name"
+msgstr "שם הטופס"
+
+#: modules/profile.module:511
+msgid "The name of the field.  The form name is not shown to the user but used internally in the HTML code and URLs.\nUnless you know what you are doing, it is highly recommended that you prefix the form name with <code>profile_</code> to avoid name clashes with other fields.  Spaces or any other special characters except dash (-) and underscore (_) are not allowed. An example name is \"profile_favorite_color\" or perhaps just \"profile_color\"."
+msgstr ""
+"שם הטופס. שם זה אינו מוצג לחבר, אלא "
+"משמש באופן פנימי בתוך קוד ה-HTML ובתוך "
+"כתובות ה-URL. מומלץ ביותר לשיום קידומת "
+"של <code>profile_</code> כדי למנוע התנגשות עם "
+"שדות אחרים. רווחים או אותיות מיוחדות "
+"נוספות פרט למינוס ('-') ולקו תחתון ('_') "
+"אינם מותרים. שם לדוגמה: 'profile_favorite_color' "
+"או אולי פשוט 'profile_color'."
+
+#: modules/profile.module:513
+msgid "Explanation"
+msgstr "הסבר"
+
+#: modules/profile.module:513
+msgid "An optional explanation to go with the new field.  The explanation will be shown to the user."
+msgstr ""
+"כאן יש אפשרות להגדיר הסבר של השדה החדש. "
+"ההסבר יוצג למשתמש."
+
+#: modules/profile.module:515
+msgid "Selection options"
+msgstr "אפשרויות בחירה"
+
+#: modules/profile.module:515
+msgid "A list of all options.  Put each option on a separate line.  Example options are \"red\", \"blue\", \"green\", etc."
+msgstr ""
+"רשימה אפשרויות. "
+"יש להזין כל אפשרות בשורה נפרדת."
+"לדוגמה : 'ירוק' , 'ורוד' , 'כחול' ועוד."
+
+#: modules/profile.module:517
+msgid "The weights define the order in which the form fields are shown.  Lighter fields \"float up\" towards the top of the category."
+msgstr ""
+"משקלים מגדירים את הסדר שבו השדות בטופס "
+"מוצגים. שדות קלים יותר \"צפים למעלה\" "
+"לכיוון ראש הסיווג. "
+
+#: modules/profile.module:518
+msgid "Visibility"
+msgstr "תצוגת השדה"
+
+#: modules/profile.module:518
+msgid "Private field, content only available to privileged users."
+msgstr "שדה פרטי, התוכן זמין רק לחברים מורשים."
+
+#: modules/profile.module:518
+msgid "Public field, content shown on profile page but not used on member list pages."
+msgstr ""
+"שדה ציבורי. התוכן מוצג בעמוד מאפייני "
+"המשתמש הנוכחי אבל לא בשימוש בעמודי רשימות "
+"המשתמשים הרשומים."
+
+#: modules/profile.module:518
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr "שדה ציבורי, התוכן מוצג בעמוד מאפייני המשתמש הנוכחי ובעמודי רשימות ההמשתמשים הרשומים."
+
+#: modules/profile.module:520
+msgid "The title of the page showing all users with the specified field.  The word <code>%value</code> will be substituted with the corresponding value.  An example page title is \"People whose favorite color is %value\".  Only applicable if the field is configured to be shown on member list pages."
+msgstr ""
+
+#: modules/profile.module:523
+msgid "The title of the page showing all users with the specified field.  Only applicable if the field is configured to be shown on member listings."
+msgstr ""
+"כותרת העמוד המציג את כל ההמשתמשים עם השדה "
+"הנבחר. אפשרי, רק אם הוגדר שהשדה יוצג בתצוגת פרטי משתמש."
+
+#: modules/profile.module:525
+msgid "The user must enter a value."
+msgstr "שדה חובה."
+
+#: modules/profile.module:526
+msgid "Visible in user registration form."
+msgstr "מוצג בטופס ההצטרפות."
+
+#: modules/profile.module:528
+msgid "Field settings"
+msgstr "הגדרות שדה"
+
+#: modules/profile.module:529
+msgid "Save field"
+msgstr "שמירת שדה"
+
+#: modules/profile.module:545
+msgid "No fields defined."
+msgstr "לא הוגדרו שדות."
+
+#: modules/profile.module:551
+msgid "Add new field"
+msgstr "הוספת שדה חדש"
+
+#: modules/profile.module:579
+msgid "single-line textfield"
+msgstr "שדה תוכן של שורה אחת"
+
+#: modules/profile.module:580
+msgid "multi-line textfield"
+msgstr "שדה תוכן רב-שורות"
+
+#: modules/profile.module:581
+msgid "checkbox"
+msgstr "תיבת סימון"
+
+#: modules/profile.module:582
+msgid "list selection"
+msgstr "בחירה מרשימה"
+
+#: modules/profile.module:583
+msgid "freeform list"
+msgstr "רשימה חופשית"
+
+#: modules/profile.module:585
+msgid "date"
+msgstr "תאריך"
+
+#: modules/profile.module:0
+msgid "profile"
+msgstr "מאפייני משתמש"
+

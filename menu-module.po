@@ -1,0 +1,209 @@
+# translation of menu-module.po to 
+# LANGUAGE translation of Drupal (modules/menu.module)
+# Generated from file: menu.module,v 1.29 2005/03/31 21:18:08 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: menu-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-16 10:34+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/menu.module:16
+msgid "menus"
+msgstr "תפריטים"
+
+#: modules/menu.module:19
+msgid "edit menu item"
+msgstr "עדכון שורה בתפריט"
+
+#: modules/menu.module:23
+msgid "reset menu item"
+msgstr "איתחול שורת תפריט"
+
+#: modules/menu.module:27
+msgid "disable menu item"
+msgstr "חסימת שורת תפריט"
+
+#: modules/menu.module:31
+msgid "delete menu item"
+msgstr "מחיקת שורת תפריט"
+
+#: modules/menu.module:38
+msgid "add menu"
+msgstr "הוספת תפריט"
+
+#: modules/menu.module:42
+msgid "add menu item"
+msgstr "הוספת שורה בתפריט"
+
+#: modules/menu.module:46
+msgid "reset menus"
+msgstr "איתחול תפריטים"
+
+#: modules/menu.module:61
+msgid "Allows administrators to customize the site navigation menu."
+msgstr "מאפשר למנהלי המערכת להתאים את תפריט הניווט של האתר."
+
+#: modules/menu.module:63
+msgid "<p>Select an operation from the list to move, change, or delete a menu item.</p>"
+msgstr "<p>בחר פעולה מהרשימה כדי להזיז, לשנות או למחוק שורת תפריט.</p>"
+
+#: modules/menu.module:65
+msgid "<p>Enter the name for your new menu. Remember to enable the newly created block in the %blocks administration page.</p>"
+msgstr "<p>יש להכניס את השם של התפריט החדש. זכרו לאפשר את התיבה החדשה שנוצרה בעמוד ניהול %blocks.</p>"
+
+#: modules/menu.module:67
+msgid "<p>Enter the title, path, position and the weight for your new menu item.</p>"
+msgstr "כאן ניתן להגדיר כותרת, משקל, נתיב ומיקום לשורת התפריט החדשה."
+
+#: modules/menu.module:116;126
+msgid "Reset all"
+msgstr "איתחול כללי"
+
+#: modules/menu.module:118
+msgid "All menu items reset."
+msgstr "איתחול כללי לתפריט פריטים."
+
+#: modules/menu.module:123
+msgid "Are you sure you want to reset all menu items to their default settings?"
+msgstr "האם אתם בטוחים שאתם מעוניינים לאתחל את פריטי התפריט לערכי בררת המחדל שלהם?"
+
+#: modules/menu.module:125
+msgid "Any custom additions or changes to the menu will be lost."
+msgstr "הוספות מיוחדות או שינויים בתפריט ימחקו."
+
+#: modules/menu.module:164
+msgid "Menu item reset."
+msgstr "איתחול פריט בתפריט."
+
+#: modules/menu.module:170
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr "האם אתם בטוחים שאתם מעוניינים לאתחל את הפריט %item לערך בררת המחדל?"
+
+#: modules/menu.module:172
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr "כל השינויים ימחקו. הפעולה אינה הפיכה."
+
+#: modules/menu.module:192
+msgid "Menu deleted."
+msgstr "התפריט נמחק."
+
+#: modules/menu.module:195
+msgid "Menu item deleted."
+msgstr "פריט מתוך התפריט נמחק."
+
+#: modules/menu.module:201
+msgid "Are you sure you want to delete the menu %item?"
+msgstr "האם אתם בטוחים שאתם מעוניינם למחוק את התפריט %item ?"
+
+#: modules/menu.module:204
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "האם אתם מעוניינים למחוק את הפריט המותאם אישית %item מהתפריט?"
+
+#: modules/menu.module:221
+msgid "Menu item disabled."
+msgstr "פריט חסום בתפריט."
+
+#: modules/menu.module:272
+msgid "The name to display for this link."
+msgstr "השם שיוצג עבור הקישור."
+
+#: modules/menu.module:281
+msgid "The description displayed when hovering over a menu item."
+msgstr "התיאור שיוצג כשעוברים מעל פריט בתפריט."
+
+#: modules/menu.module:283
+msgid "The Drupal path this menu item links to."
+msgstr "נתיב דרופל שאליו מקושר פריט זה בתפריט."
+
+#: modules/menu.module:287
+msgid "Since a menu item \"%old\" already exists for \"%path\", this menu item is shortcut to that location."
+msgstr "כיוון שהפריט '%old' עבור הנתיב '%path' קיים, פריט זה בתפריט הוא קישור לנתיב זה."
+
+#: modules/menu.module:291;294
+msgid "Path"
+msgstr "נתיב"
+
+#: modules/menu.module:298;370
+msgid "Expanded"
+msgstr "מורחב"
+
+#: modules/menu.module:298
+msgid "If selected and this menu item has children, the menu will always appear expanded."
+msgstr "אם תיבת סימון זו מסומנת ולפריט בתפריט יש ילדים, התפריט תמיד יופיע מורחב."
+
+#: modules/menu.module:302
+msgid "Parent item"
+msgstr "פריט אב"
+
+#: modules/menu.module:304
+msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
+msgstr "אפשרי. הפריטים הכבדים יותר בתפריט שוקעים מטה בעוד שהקלים יותר ממוקמים ליד ראש התפריט. "
+
+#: modules/menu.module:326
+msgid "You must specify a title."
+msgstr "יש להזין כותרת."
+
+#: modules/menu.module:331
+msgid "You must specify a path."
+msgstr "יש להזין נתיב."
+
+#: modules/menu.module:351
+msgid "Updated menu item %title."
+msgstr "עודכן הפריט %title בתפריט."
+
+#: modules/menu.module:356
+msgid "Created new menu item %title."
+msgstr "נוסף פריט %title חדש בתפריט."
+
+#: modules/menu.module:360
+msgid "Since a menu item %old already exists for %path, this new menu item was created as a shortcut to that location."
+msgstr ""
+"כיוון שפריט התפריט %old כבר קיים עבור %path, פריט תפריט חדש זה נוצר כקיצור "
+"דרך לנתיב המבוקש."
+
+#: modules/menu.module:370
+msgid "Menu item"
+msgstr "פריט בתפריט"
+
+#: modules/menu.module:426
+msgid "disable"
+msgstr "ביטול"
+
+#: modules/menu.module:431
+msgid "enable"
+msgstr "אפשר"
+
+#: modules/menu.module:438
+msgid "reset"
+msgstr "אתחול"
+
+#: modules/menu.module:450;493
+msgid "disabled"
+msgstr "לא פעיל"
+
+#: modules/menu.module:455
+msgid "Yes"
+msgstr "כן"
+
+#: modules/menu.module:455
+msgid "No"
+msgstr "לא"
+
+#: modules/menu.module:98
+msgid "administer menu"
+msgstr "ניהול תפריט"
+
+#: modules/menu.module:0
+msgid "menu"
+msgstr "תפריט"
+

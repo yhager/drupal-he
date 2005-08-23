@@ -1,0 +1,127 @@
+# translation of common-inc.po to 
+# LANGUAGE translation of Drupal (includes/common.inc)
+# Generated from file: common.inc,v 1.434.2.9 2005/06/05 19:11:02 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: common-inc\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-13 00:59+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: includes/common.inc:205
+msgid "%page not found."
+msgstr "%page לא נמצא."
+
+#: includes/common.inc:215
+msgid "Page not found"
+msgstr "עמוד לא קיים"
+
+#: includes/common.inc:225
+msgid "%page denied access."
+msgstr "%page - אין הרשאה."
+
+#: includes/common.inc:235
+msgid "Access denied"
+msgstr "גישה חסומה"
+
+#: includes/common.inc:387
+msgid "%message in %file on line %line."
+msgstr "%message בקובץ %file בשורה %line."
+
+#: includes/common.inc:471
+msgid "You are not authorized to access this page."
+msgstr "גישה לעמוד זה אינה מורשה."
+
+#: includes/common.inc:478
+msgid "n/a"
+msgstr "לא זמין"
+
+#: includes/common.inc:639
+msgid "Terminated request because of suspicious input data: %data."
+msgstr "בקשה בוטלה עקב קלט מידע חשוד: %data."
+
+#: includes/common.inc:791
+msgid "bytes"
+msgstr "בתים"
+
+#: includes/common.inc:794
+msgid "KB"
+msgstr "קילו-בית"
+
+#: includes/common.inc:798
+msgid "MB"
+msgstr "מגה-בית"
+
+#: includes/common.inc:800
+msgid "%size %suffix"
+msgstr "%size %suffix"
+
+#: includes/common.inc:828
+msgid "0 sec"
+msgstr "אפס שניות"
+
+#: includes/common.inc:949
+msgid "not verified"
+msgstr "לא נבדק"
+
+#: includes/common.inc:1651
+msgid "Could not convert XML encoding '%s' to UTF-8."
+msgstr "לא ניתן לתרגם מסמך XML בקידוד '%s' לקידוד UTF-8."
+
+#: includes/common.inc:1684
+msgid "Unsupported encoding '%s'. Please install iconv, GNU recode or mbstring for PHP."
+msgstr "קידוד לא ניתמך. אנא התקינו את התוכנה iconv, gnu recode או mbstring עבור שפת php."
+
+#: includes/common.inc:205
+msgid "page not found"
+msgstr "עמוד לא נמצא"
+
+#: includes/common.inc:225
+msgid "access denied"
+msgstr "אין גישה"
+
+#: includes/common.inc:0
+msgid "1 year"
+msgid_plural "%count years"
+msgstr[0] "שנה אחת"
+msgstr[1] "שנה אחת"
+
+#: includes/common.inc:0
+msgid "1 week"
+msgid_plural "%count weeks"
+msgstr[0] "שבוע"
+msgstr[1] "שבוע"
+
+#: includes/common.inc:0
+msgid "1 day"
+msgid_plural "%count days"
+msgstr[0] "יום אחד"
+msgstr[1] "יום אחד"
+
+#: includes/common.inc:0
+msgid "1 hour"
+msgid_plural "%count hours"
+msgstr[0] "שעה אחת"
+msgstr[1] "שעה אחת"
+
+#: includes/common.inc:0
+msgid "1 min"
+msgid_plural "%count min"
+msgstr[0] "דקה אחת"
+msgstr[1] "דקה אחת"
+
+#: includes/common.inc:0
+msgid "1 sec"
+msgid_plural "%count sec"
+msgstr[0] "שנייה אחת"
+msgstr[1] "שנייה אחת"
+

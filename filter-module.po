@@ -1,0 +1,532 @@
+# translation of filter-module.po to 
+# LANGUAGE translation of Drupal (modules/filter.module)
+# Generated from file: filter.module,v 1.57.2.6 2005/06/29 19:53:35 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: filter-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-14 21:28+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/filter.module:26
+msgid "Handles the filtering of content in preparation for display."
+msgstr "מטפל בסינון תוכן כדי להכינו להצגה."
+
+#: modules/filter.module:29
+msgid "\n<p><em>Input formats</em> define a way of processing user-supplied text in Drupal. Every input format has its own settings of which <em>filters</em> to apply. Possible filters include stripping out malicious HTML and making URLs clickable.</p>\n<p>Users can choose between the available input formats when submitting content.</p>\n<p>Below you can configure which input formats are available to which roles, as well as choose a default input format (used for imported content, for example).</p>"
+msgstr ""
+"\n<p><em>מבני קלט</em> מגדירים את הדרך שבה "
+"דרופל מעבד טקסט שחבר הקהילה מספק. לכל "
+"מבנה קלט יש הגדרות משלו לגבי אילו "
+"<em>מסננים</em> להפעיל. מסננים אפשריים "
+"כוללים סינון HTML זדוני והפיכת כתובות URL "
+"לכתובות שניתן ללחוץ עליהן.</p> <p> חברי "
+"הקהילה יכולים לבחור בין מבני הקלט "
+"הזמינים בזמן הגשת תוכן.</p> <p>למטה ניתן "
+"להגדיר אילו מבני קלט זמינים עבור אילו "
+"תפקידים, כמו גם לבחור מבני קלט שישמשו "
+"כברירת המערכת (נמצאים בשימוש לדוגמה, "
+"לצורך ייבוא תוכן).</p>"
+
+#: modules/filter.module:35
+msgid "\n<p>Every <em>filter</em> performs one particular change on the user input, for example stripping out malicious HTML or making URLs clickable. Choose which filters you want to apply to text in this input format.</p>\n<p>If you notice some filters are causing conflicts in the output, you can <a href=\"%order\">rearrange them</a>.</p>"
+msgstr ""
+"\n<p>כל <em>מסנן</em> מבצע שינוי מסויים על "
+"הקלט שמגיע מהמשתמש, כמו לדוגמה סינון "
+"HTML זדוני או הפיכת כתובות URL לברות "
+"לחיצה. כאן יש לבחור את המסננים שאותם "
+"אנו מעוניינים להפעיל על הטקסט עבור "
+"מבנה קלט זה. </p> <p> אם מבחינים בכך שכמה "
+"מסננים גורמים התנגשויות בפלט, ניתן <a "
+"href=\"%order\">לסדר אותם מחדש</a>.</p>"
+
+#: modules/filter.module:40
+msgid "\n<p>If you cannot find the settings for a certain filter, make sure you've enabled it on the <a href=\"%url\">list filters</a> tab first.</p>"
+msgstr ""
+"\n<p>אם לא ניתן למצוא את ההגדרות של מסנן "
+"מסויים, בדוק ראשית שהוא מאופשר בלשונית "
+"<a href=\"%url\">רשימת המסננים</a>.</p>"
+
+#: modules/filter.module:44
+msgid "\n<p>Because of the flexible filtering system, you might encounter a situation where one filter prevents another from doing its job. For example: a word in an URL gets converted into a glossary term, before the URL can be converted in a clickable link. When this happens, you will need to rearrange the order in which filters get executed.</p>\n<p>Filters are executed from top-to-bottom. You can use the weight column to rearrange them: heavier filters 'sink' to the bottom.</p>"
+msgstr ""
+"\n<p>"
+"בגלל מערכת הסינון הגמישה, ייתכן "
+"ותיתקל במצב שמסנן אחד מונע ממסנן אחר "
+"לפעול באופן תקין. לדוגמה: מילה בתוך "
+"כתובת URL נהפכת לנושא במילון הנושאים, "
+"כיון שהכתובת מומרת לקישור שאפשר ללחוץ "
+"עליו. כשדבר כזה קורה, יש לארגן מחדש את "
+"הסדר שבו המסננים מתבצעים. </p> <p>המסננים "
+"מתבצעים מלמעלה למטה. ניתן להשתמש "
+"בהגדרת המשקל כדי לארגן אותם מחדש: "
+"מסננים כבדים יותר שוקעים למטה."
+
+#: modules/filter.module:63;65;928
+msgid "Allowed HTML tags"
+msgstr "תגי HTML מותרים"
+
+#: modules/filter.module:70
+msgid "<p>This site allows HTML content. While learning all of HTML may feel intimidating, learning how to use a very small number of the most basic HTML \"tags\" is very easy. This table provides examples for each tag that is enabled on this site.</p>\n<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/\">HTML Specifications</a> or use your favorite search engine to find other sites that explain HTML.</p>"
+msgstr ""
+"<p> תוכן טבלה מאופשרת</p>\n"
+"<p> עוד<a href=\"http://www.w3.org/TR/html/\"></a> חיפוש</p>"
+
+#: modules/filter.module:73
+msgid "Anchors are used to make links to other pages."
+msgstr "עוגנים משמשים לחיבור קישורים לדפים אחרים."
+
+#: modules/filter.module:74
+msgid "By default line break tags are automatically added, so use this tag to add additional ones. Use of this tag is different because it is not used with an open/close pair like all the others. Use the extra \" /\" inside the tag to maintain XHTML 1.0 compatibility"
+msgstr ""
+"כברירת מחדל, תגי מעבר שורה נוספים "
+"באופן אוטומטי. בתג זה ניתן להשתמש כדי "
+"להוסיף מעברי שורה נוספים.השימוש בתג זה "
+"שונה, כי אין צורך בזוג תגים  (של "
+"פתיחה\\סגירה) כמו בכל התגים האחרים. יש "
+"להשתמש בלוכסן הנוסף (\"/\") בתוך התג כדי "
+"לשמור על תאימות עם XHTML 1.0."
+
+#: modules/filter.module:74
+msgid "Text with <br />line break"
+msgstr "מלל בעל תגי <BR> לסיום שורה"
+
+#: modules/filter.module:75
+msgid "By default paragraph tags are automatically added, so use this tag to add additional ones."
+msgstr ""
+"כברירת מחדל תגי פיסקאות נוספים באופן "
+"אוטומטי. ניתן להשתמש בתג זה להוספת תגי "
+"פסקה נוספים."
+
+#: modules/filter.module:75
+msgid "Paragraph one."
+msgstr "פסקה ראשונה."
+
+#: modules/filter.module:75
+msgid "Paragraph two."
+msgstr "פסקה שניה."
+
+#: modules/filter.module:76;76
+msgid "Strong"
+msgstr "חזק"
+
+#: modules/filter.module:77;77
+msgid "Emphasized"
+msgstr "מודגש"
+
+#: modules/filter.module:78;78
+msgid "Cited"
+msgstr "ציטוט"
+
+#: modules/filter.module:79
+msgid "Coded text used to show programming source code"
+msgstr "מלל שורת קוד להצגת שורות קוד מקור של תוכנה"
+
+#: modules/filter.module:79
+msgid "Coded"
+msgstr "מקודד"
+
+#: modules/filter.module:80;80
+msgid "Bolded"
+msgstr "מודגש"
+
+#: modules/filter.module:81;81
+msgid "Underlined"
+msgstr "קו תחתון"
+
+#: modules/filter.module:82;82
+msgid "Italicized"
+msgstr "נטוי"
+
+#: modules/filter.module:83
+msgid "Superscripted"
+msgstr "כתיבה עליונה"
+
+#: modules/filter.module:83
+msgid "<sup>Super</sup>scripted"
+msgstr "<sup>מיוחד</sup> כתיב"
+
+#: modules/filter.module:84
+msgid "Subscripted"
+msgstr "כתיבה תחתית"
+
+#: modules/filter.module:84
+msgid "<sub>Sub</sub>scripted"
+msgstr "<sub>תחתי</sub> כתיב"
+
+#: modules/filter.module:85;85
+msgid "Preformatted"
+msgstr "שעבר עיצוב"
+
+#: modules/filter.module:86;86
+msgid "Block quoted"
+msgstr "קטע מצוטט"
+
+#: modules/filter.module:87;87
+msgid "Quoted inline"
+msgstr "ציטוט בתוך השורה"
+
+#: modules/filter.module:89
+msgid "Table"
+msgstr "טבלה"
+
+#: modules/filter.module:89
+msgid "Table header"
+msgstr "ראש הטבלה"
+
+#: modules/filter.module:89
+msgid "Table cell"
+msgstr "תא בטבלה"
+
+#: modules/filter.module:91;91
+msgid "Deleted"
+msgstr "מחוק"
+
+#: modules/filter.module:92;92
+msgid "Inserted"
+msgstr "הוכנס"
+
+#: modules/filter.module:94
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr ""
+"רשימה ממוספרת -  משתמשים ב- &lt;li&gt; כדי "
+"להתחיל כל פריט ברשימה."
+
+#: modules/filter.module:94;95
+msgid "First item"
+msgstr "פריט ראשון"
+
+#: modules/filter.module:94;95
+msgid "Second item"
+msgstr "פריט שני"
+
+#: modules/filter.module:95
+msgid "Unordered list - use the &lt;li&gt; to begin each list item"
+msgstr "רשימה&lt;&gt; רשימה פריט"
+
+#: modules/filter.module:98
+msgid "Definition lists are similar to other HTML lists. &lt;dl&gt; begins the definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins the definition description."
+msgstr ""
+
+#: modules/filter.module:98
+msgid "First term"
+msgstr "פריט ראשון"
+
+#: modules/filter.module:98
+msgid "First definition"
+msgstr "הגדרה ראשונה"
+
+#: modules/filter.module:98
+msgid "Second term"
+msgstr "פריט שני"
+
+#: modules/filter.module:98
+msgid "Second definition"
+msgstr "הגדרה שניה"
+
+#: modules/filter.module:100;101;102;103;104;105
+msgid "Header"
+msgstr "כותרת"
+
+#: modules/filter.module:101
+msgid "Subtitle"
+msgstr "כותרת משנה"
+
+#: modules/filter.module:102
+msgid "Subtitle three"
+msgstr "כותרת שלישית"
+
+#: modules/filter.module:103
+msgid "Subtitle four"
+msgstr "כותרת רביעית"
+
+#: modules/filter.module:104
+msgid "Subtitle five"
+msgstr "כותרת חמישית"
+
+#: modules/filter.module:105
+msgid "Subtitle six"
+msgstr "כותרת שישית"
+
+#: modules/filter.module:107
+msgid "Tag Description"
+msgstr "תיאור תווית"
+
+#: modules/filter.module:107;135
+msgid "You Type"
+msgstr "אתם כותבים"
+
+#: modules/filter.module:107;135
+msgid "You Get"
+msgstr "אתם מקבלים"
+
+#: modules/filter.module:121
+msgid "No help provided for tag %tag."
+msgstr "אין עזרה עבור תווית %tag."
+
+#: modules/filter.module:127
+msgid "<p>Most unusual characters can be directly entered without any problems.</p>\n<p>If you do encounter problems, try using HTML character entities. A common example looks like &amp;amp; for an ampersand &amp; character. For a full list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/entities.html\">entities</a> page. Some of the available characters include:</p>"
+msgstr ""
+
+#: modules/filter.module:130
+msgid "Ampersand"
+msgstr "סימן חיבור"
+
+#: modules/filter.module:131
+msgid "Greater than"
+msgstr "גדול מ"
+
+#: modules/filter.module:132
+msgid "Less than"
+msgstr "קטן מ"
+
+#: modules/filter.module:133
+msgid "Quotation mark"
+msgstr "סימן ציטוט"
+
+#: modules/filter.module:135
+msgid "Character Description"
+msgstr "תיאור תו"
+
+#: modules/filter.module:149;153
+msgid "No HTML tags allowed"
+msgstr "אף תווי HTML אינם מורשים"
+
+#: modules/filter.module:160
+msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
+msgstr ""
+"באפשרותך לשלוח קוד PHP. עליך לכלול תגי "
+"&lt;?php ?&gt;."
+
+#: modules/filter.module:162
+msgid "\n<h4>Using custom PHP code</h4>\n<p>If you know how to script in PHP, Drupal gives you the power to embed any script you like. It will be executed when the page is viewed and dynamically embedded into the page. This gives you amazing flexibility and power, but of course with that comes danger and insecurity if you don't write good code. If you are not familiar with PHP, SQL or with the site engine, avoid experimenting with PHP because you can corrupt your database or render your site insecure or even unusable! If you don't plan to do fancy stuff with your content then you're probably better off with straight HTML.</p>\n<p>Remember that the code within each PHP item must be valid PHP code - including things like correctly terminating statements with a semicolon. It is highly recommended that you develop your code separately using a simple test script on top of a test database before migrating to your production environment.</p>\n<p>Notes:</p><ul><li>You can use global variables, such as configuration parameters, within the scope of your PHP code but remember that global variables which have been given values in your code will retain these values in the engine afterwards.</li><li>register_globals is now set to <strong>off</strong> by default. If you need form information you need to get it from the \"superglobals\" $_POST, $_GET, etc.</li><li>You can either use the <code>print</code> or <code>return</code> statement to output the actual content for your item.</li></ul>\n<p>A basic example:</p>\n<blockquote><p>You want to have a box with the title \"Welcome\" that you use to greet your visitors. The content for this box could be created by going:</p>\n<pre>\n  print t(\"Welcome visitor, ... welcome message goes here ...\");\n</pre>\n<p>If we are however dealing with a registered user, we can customize the message by using:</p>\n<pre>\n  global $user;\n  if ($user->uid) {\n    print t(\"Welcome $user->name, ... welcome message goes here ...\");\n  }\n  else {\n    print t(\"Welcome visitor, ... welcome message goes here ...\");\n  }\n</pre></blockquote>\n<p>For more in-depth examples, we recommend that you check the existing Drupal code and use it as a starting point, especially for sidebar boxes.</p>"
+msgstr ""
+
+#: modules/filter.module:188
+msgid "Lines and paragraphs break automatically."
+msgstr "מעבר שורות ופסקאות מתבצע אוטומטית."
+
+#: modules/filter.module:190
+msgid "Lines and paragraphs are automatically recognized. The &lt;br /&gt; line break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted automatically. If paragraphs are not recognized simply add a couple blank lines."
+msgstr ""
+
+#: modules/filter.module:204
+msgid "input formats"
+msgstr "מבני קלט"
+
+#: modules/filter.module:208
+msgid "delete input format"
+msgstr "מחיקת מבנה קלט"
+
+#: modules/filter.module:213
+msgid "compose tips"
+msgstr "עצות לעריכה"
+
+#: modules/filter.module:222
+msgid "'%format' input format"
+msgstr "מבנה קלט '%format' "
+
+#: modules/filter.module:239
+msgid "rearrange"
+msgstr "סידור מחדש"
+
+#: modules/filter.module:264;303
+msgid "Save input formats"
+msgstr "שמירת מבני קלט"
+
+#: modules/filter.module:267;309
+msgid "Add input format"
+msgstr "הוספת מבנה קלט"
+
+#: modules/filter.module:304
+msgid "Permissions and settings"
+msgstr "הרשאות והגדרות"
+
+#: modules/filter.module:307
+msgid "<p>To add a new input format, type its name here. After it has been added, you can configure its options.</p>"
+msgstr ""
+"<p>להוספת מבנה קלט חדש, יש לרשום כאן את "
+"שמו . לאחר ההוספה, ניתן להגדיר את "
+"תכונות המבנה.</p>"
+
+#: modules/filter.module:311
+msgid "Add new input format"
+msgstr "הוספת מבנה קלט חדש"
+
+#: modules/filter.module:328;361
+msgid "You must enter a name for this input format."
+msgstr "יש להזין שם עבור מבנה קלט זה."
+
+#: modules/filter.module:348
+msgid "The input format settings have been updated."
+msgstr "עודכנו הגדרות מבני הקלט."
+
+#: modules/filter.module:368
+msgid "Added input format %format."
+msgstr "הוספת מבנה קלט %format."
+
+#: modules/filter.module:389
+msgid "Deleted input format %format."
+msgstr "מחיקת מבנה קלט %format."
+
+#: modules/filter.module:400
+msgid "Are you sure you want to delete the input format %format?"
+msgstr "האם אתם בטוחים שאתם מעוניינים למחוק במנה קלט %format?"
+
+#: modules/filter.module:402
+msgid "If you have any content left in this input format, it will be switched to the default input format. This action cannot be undone."
+msgstr ""
+
+#: modules/filter.module:439
+msgid "Filters"
+msgstr "מסננים"
+
+#: modules/filter.module:443;736
+msgid "More information about formatting options"
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/filter.module:446
+msgid "<p>No guidelines available.</p>"
+msgstr "<p>לא קיימים קווים מנחים</p>"
+
+#: modules/filter.module:448
+msgid "<p>These are the guidelines that users will see for posting in this input format. They are automatically generated from the filter settings.</p>"
+msgstr ""
+"<p>אלו הן ההנחיות המוצגות למשתמש בזמן "
+"כתיבת תוכן באתר. הן נוצרות אוטומטית "
+"מהגדרת המסננים שלמעלה. </p"
+
+#: modules/filter.module:450;757
+msgid "Formatting guidelines"
+msgstr "הנחיות עיצוב"
+
+#: modules/filter.module:481
+msgid "The input format has been updated."
+msgstr "מבנה הקלט עודכן."
+
+#: modules/filter.module:519
+msgid "The filter weights have been saved."
+msgstr "סידרי המסננים נשמרו."
+
+#: modules/filter.module:544
+msgid "No settings are available."
+msgstr "ההגדרות לא קיימות."
+
+#: modules/filter.module:750
+msgid "Input format"
+msgstr "מבנה קלט"
+
+#: modules/filter.module:829
+msgid "Input formats"
+msgstr "מבני קלט"
+
+#: modules/filter.module:881;932
+msgid "HTML filter"
+msgstr "מסנן HTML"
+
+#: modules/filter.module:881
+msgid "PHP evaluator"
+msgstr "PHP בודק פקודות שפה"
+
+#: modules/filter.module:881
+msgid "Line break converter"
+msgstr "ממיר מעברי שורה"
+
+#: modules/filter.module:889
+msgid "Allows you to restrict if users can post HTML and which tags to filter out."
+msgstr ""
+"האם מותר למשתמשים להכניס HTML לתוך "
+"הפרסומים שלהם? מסנן זה מאפשר להגדיר "
+"זאת, וכן להגדיר אילו תגים לסנן."
+
+#: modules/filter.module:891
+msgid "Runs a piece of PHP code. The usage of this filter should be restricted to administrators only!"
+msgstr ""
+"מריץ פיסת קוד PHP. יש להגביל את השימוש "
+"במסנן זה למנהל האתר בלבד!"
+
+#: modules/filter.module:893
+msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
+msgstr ""
+"ממיר מעברי שורה ל-HTML (לדוגמה - תגי  "
+"&lt;br&gt; ו- &lt;p&gt;)."
+
+#: modules/filter.module:927
+msgid "Filter HTML tags"
+msgstr "סינון תווי HTML"
+
+#: modules/filter.module:927
+msgid "Strip tags"
+msgstr "הסרת תווים"
+
+#: modules/filter.module:927
+msgid "Escape tags"
+msgstr "המרה לתווים מקודדים escape"
+
+#: modules/filter.module:927
+msgid "How to deal with HTML tags in user-contributed content. If set to \"Strip tags\", dangerous tags are removed (see below).  If set to \"Escape tags\", all HTML is escaped and presented as it was typed."
+msgstr ""
+"איך לטפל בתגי HTML בתוכן שנתרם על ידי "
+"חברי האתר. אם מגדירים \"הסרה\", תגים "
+"מסוכנים מוסרים (ראה למטה). אם מגדירים "
+"\"המרה\", התגים מומרים כך שיוצגו בדפדפן "
+"כפי שהוקלדו."
+
+#: modules/filter.module:928
+msgid "If \"Strip tags\" is selected, optionally specify tags which should not be stripped. Javascript event attributes are always stripped."
+msgstr ""
+"אם בחרנו \"הסרה\", יש אפשרות לציין תגים "
+"מסויימים שלא יוסרו. מאפיינים של אירועי "
+"Javascript מוסרים תמיד."
+
+#: modules/filter.module:929
+msgid "Display HTML help"
+msgstr "הצגת עזרה עבור שפת HTML"
+
+#: modules/filter.module:929
+msgid "If enabled, Drupal will display some basic HTML help in the long filter tips."
+msgstr "בחירה באפשרות זו, תציג עזרת HTML בסיסת עבור מסננים ארוכים."
+
+#: modules/filter.module:930
+msgid "HTML style attributes"
+msgstr "הגדרות סגנון (CSS) המופיעות בתוך קוד ה-HTML"
+
+#: modules/filter.module:930
+msgid "Allowed"
+msgstr "אפשרי"
+
+#: modules/filter.module:930
+msgid "Removed"
+msgstr "הוסר"
+
+#: modules/filter.module:930
+msgid "If \"Strip tags\" is selected, you can choose whether \"STYLE\" attributes are allowed or removed from input."
+msgstr ""
+"אם בחרנו \"הסרה\", ניתן לבחור האם לאפשר "
+"מאפייני \"style\" של CSS או להסיר אותם מהקלט. "
+
+#: modules/filter.module:931
+msgid "Spam link deterrent"
+msgstr "מרחיק קישורים סתמיים"
+
+#: modules/filter.module:931
+msgid "If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to reduce the effectiveness of spam links. Note: this will also prevent valid links from being followed by search engines, therefore it is likely most effective when enabled for anonymous users."
+msgstr ""
+
+#: modules/filter.module:255
+msgid "administer filters"
+msgstr "ניהול מסננים"
+
+#: modules/filter.module:0
+msgid "filter"
+msgstr "מסנן"
+

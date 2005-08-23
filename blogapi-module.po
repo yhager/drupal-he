@@ -1,0 +1,87 @@
+# translation of blogapi-module.po to 
+# LANGUAGE translation of Drupal (modules/blogapi.module)
+# Generated from file: blogapi.module,v 1.39.2.5 2005/06/06 19:01:31 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blogapi-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-09 11:05+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/blogapi.module:15
+msgid "<p>This module adds support for several XML-RPC based blogging APIs. Specifically, it currently implements the %bloggerAPI, %metaweblogAPI, and most of the %moveabletype extensions.  This allows users to contribute to Drupal using external GUI applications, which can often offer richer functionality that online forms based editing.</p><p>This module also allows site administrators to configure which node types can be posted via the external applications. So, for instance, users can post forum topics as well as blog posts. Where supported, the external applications will display each node type as a separate \"blog\".</p>"
+msgstr ""
+
+#: modules/blogapi.module:17
+msgid "Allows users to post content using applications that support XML-RPC blog APIs."
+msgstr "מאפשר למשתמשים לפרסם תכני יומן בעזרת תוכנות התומכות בפרוטוקול XML-RPM."
+
+#: modules/blogapi.module:143;205
+msgid "Terminated request because of suspicious input data."
+msgstr "הבקשה בוטלה עקב קלט מידע חשוד."
+
+#: modules/blogapi.module:158
+msgid "%type: added %title using blog API."
+msgstr "%type: %title נוסף בעזרת ממשק התוכנה של היומן"
+
+#: modules/blogapi.module:162;224
+msgid "Error storing post."
+msgstr "שגיאה בעת שמירת הפרסום"
+
+#: modules/blogapi.module:220
+msgid "%type: updated %title using blog API."
+msgstr "%type: %title עודכן בעזרת ממשק התוכנה של היומן"
+
+#: modules/blogapi.module:274
+msgid "No file sent."
+msgstr "אף קובץ לא נשלח."
+
+#: modules/blogapi.module:278
+msgid "Error storing file."
+msgstr "שגיאה בעת שמירת הקובץ."
+
+#: modules/blogapi.module:426
+msgid "Not implemented."
+msgstr "אפשרות לא קיימת"
+
+#: modules/blogapi.module:438
+msgid "Invalid post."
+msgstr "פרסום שגוי"
+
+#: modules/blogapi.module:499
+msgid "Wrong username or password."
+msgstr "שם משתמש או סיסמה שגויים."
+
+#: modules/blogapi.module:518
+msgid "XML-RPC Engine"
+msgstr "XML-RPC Engine"
+
+#: modules/blogapi.module:518
+msgid "RSD or Really-Simple-Discovery is a mechanism which allows external blogger tools to discover the APIs they can use to interact with Drupal. Here you can set the preferred method for blogger tools to interact with your site. The common XML-RPC engines are Blogger, MetaWeblog and Movabletype. If you are not sure which is the correct setting, choose Blogger."
+msgstr ""
+
+#: modules/blogapi.module:525
+msgid "Blog types"
+msgstr "סוגי יומנים"
+
+#: modules/blogapi.module:525
+msgid "Select the content types for which you wish to enable posting via blogapi. Each type will appear as a different \"blog\" in the client application (if supported)."
+msgstr ""
+
+#: modules/blogapi.module:535;540
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi.module:0
+msgid "blogapi"
+msgstr "ממשקי תוכנה ליומן"
+

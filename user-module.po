@@ -1,0 +1,1099 @@
+# translation of user-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/user.module)
+# Generated from file: user.module,v 1.454.2.13 2005/06/01 20:16:04 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: user-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-23 12:12+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/user.module:213
+msgid "You must enter a username."
+msgstr "יש להזין שם משתמש"
+
+#: modules/user.module:214
+msgid "The username cannot begin with a space."
+msgstr "שם משתמש אינו יכול להתחיל בתו 'רווח'."
+
+#: modules/user.module:215
+msgid "The username cannot end with a space."
+msgstr ""
+"שם משתמש לא יכול להסתיים ברווח. יש למחוק "
+"את הרווחים המיותרים בסוף שם המשתמש."
+
+#: modules/user.module:216
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "שם משתמש אינו יכול להכיל רצף של תווי 'רווח' ."
+
+#: modules/user.module:217
+msgid "The username contains an illegal character."
+msgstr "שם המשתמש שהוזן מכיל אותיות שאינן מותרות."
+
+#: modules/user.module:218
+msgid "The username is not a valid authentication ID."
+msgstr "שם המשתמש אינו רצף תווי זיהוי תקין."
+
+#: modules/user.module:219
+msgid "The username %name is too long: it must be less than 56 characters."
+msgstr "שם המשתמש %name ארוך מידי: הגודל המרבי הוא 56 תווים."
+
+#: modules/user.module:223
+msgid "You must enter an e-mail address."
+msgstr "חובה להזין כתובת דואר אלקטרוני."
+
+#: modules/user.module:225
+msgid "The e-mail address %mail is not valid."
+msgstr "כתובת הדואר האלקטרוני אינה תקינה."
+
+#: modules/user.module:239
+msgid "The uploaded file was not an image."
+msgstr "הקובץ שהתקבל במערכת אינו תמונה."
+
+#: modules/user.module:245
+msgid "The uploaded image is too large; the maximum file size is %size kB."
+msgstr "הקובץ שהתקבל במערכת גדול מידי; גודל הקובץ המרבי המותר הוא KB %size ."
+
+#: modules/user.module:248
+msgid "The uploaded image is too large; the maximum dimensions are %dimensions pixels."
+msgstr "התמונה שהתקבלה גדולה מידי; המימדים המרבים הם %dimensions ."
+
+#: modules/user.module:256
+msgid "Failed to upload the picture image; the %directory directory doesn't exist."
+msgstr "תקלה בעת קבלת התמונה; הספריה %directory אינה קיימת."
+
+#: modules/user.module:265
+msgid "The %u ID %s is already taken."
+msgstr "זיהוי המשתמש %u כ %s נמצא בשימוש."
+
+#: modules/user.module:428;651
+msgid "users"
+msgstr "משתמשים רשומים"
+
+#: modules/user.module:449
+msgid "Member for"
+msgstr "משתמש רשום במשך"
+
+#: modules/user.module:461
+msgid "account settings"
+msgstr "הגדרות חשבון"
+
+#: modules/user.module:472;519
+msgid "User login"
+msgstr "כניסת משתמש רשום"
+
+#: modules/user.module:474;540
+msgid "Who's new"
+msgstr "מי חדש"
+
+#: modules/user.module:475;580
+msgid "Who's online"
+msgstr "מי מחובר"
+
+#: modules/user.module:481
+msgid "User activity"
+msgstr "פעילות משתמש בקהילה"
+
+#: modules/user.module:481
+msgid "A user is considered online for this long after they have last viewed a page."
+msgstr "משתמש נחשב מחובר למערכת לפרק זמן זה לאחר ביקורו האחרון בדף."
+
+#: modules/user.module:482
+msgid "User list length"
+msgstr "אורך רשימת חברי האתר"
+
+#: modules/user.module:482
+msgid "Maximum number of currently online users to display."
+msgstr "מספר משתמשי האתר המחוברים ברגע זה."
+
+#: modules/user.module:505;837;840;953;1025;1044;1325;1353;1436;1631
+msgid "Username"
+msgstr "שם משתמש"
+
+#: modules/user.module:506;842;1046;1327
+msgid "Password"
+msgstr "סיסמה"
+
+#: modules/user.module:507;843;994;1230
+msgid "Log in"
+msgstr "הזדהות"
+
+#: modules/user.module:513;1037;1226
+msgid "Create new account"
+msgstr "יצירת חשבון משתמש"
+
+#: modules/user.module:513
+msgid "Create a new user account."
+msgstr "יצירת משתמש רשום חדש."
+
+#: modules/user.module:515
+msgid "Request new password"
+msgstr "בקשה לחידוש סיסמה"
+
+#: modules/user.module:515
+msgid "Request new password via e-mail."
+msgstr "בקשת סיסמה חדשה בדואר אלקטרוני."
+
+#: modules/user.module:557
+msgid "There is currently %members and %visitors online."
+msgstr "כרגע מחוברים %members ו%visitors."
+
+#: modules/user.module:560
+msgid "There are currently %members and %visitors online."
+msgstr "כרגע מחוברים לאתר %members ו-%visitors."
+
+#: modules/user.module:576
+msgid "Online users:"
+msgstr "חברים שמחוברים עכשיו:"
+
+#: modules/user.module:598
+msgid "%user's picture"
+msgstr "התמונה של %user"
+
+#: modules/user.module:637
+msgid "user account"
+msgstr "חשבון משתמש"
+
+#: modules/user.module:641
+msgid "log in"
+msgstr "הזדהות"
+
+#: modules/user.module:643
+msgid "register"
+msgstr "הצטרפות"
+
+#: modules/user.module:645
+msgid "request new password"
+msgstr "בקשת סיסמה חדשה"
+
+#: modules/user.module:655
+msgid "add user"
+msgstr "הוספת משתמש"
+
+#: modules/user.module:661
+msgid "access control"
+msgstr "בקרת הרשאות"
+
+#: modules/user.module:663
+msgid "permissions"
+msgstr "הרשאות"
+
+#: modules/user.module:666
+msgid "roles"
+msgstr "תפקידים"
+
+#: modules/user.module:669
+msgid "edit role"
+msgstr "עדכון תפקיד"
+
+#: modules/user.module:672
+msgid "account rules"
+msgstr "כללי גישה"
+
+#: modules/user.module:677
+msgid "add rule"
+msgstr "הוסף כלל"
+
+#: modules/user.module:680
+msgid "check rules"
+msgstr "בדיקת כללים"
+
+#: modules/user.module:683
+msgid "edit rule"
+msgstr "עדכון כלל"
+
+#: modules/user.module:686
+msgid "delete rule"
+msgstr "מחיקת כלל"
+
+#: modules/user.module:698
+msgid "my account"
+msgstr "החשבון שלי"
+
+#: modules/user.module:703
+msgid "log out"
+msgstr "סיום פעילות"
+
+#: modules/user.module:710;809;823;865;882;903;938;942;982;1315;0
+msgid "user"
+msgstr "משתמש רשום"
+
+#: modules/user.module:800
+msgid "The name %s has been denied access."
+msgstr "אין גישה עבור %name."
+
+#: modules/user.module:809
+msgid "Session opened for %name."
+msgstr "התחברות לאתר: %name."
+
+#: modules/user.module:821
+msgid "Sorry. Unrecognized username or password."
+msgstr "מצטערים. שם המשתמש או הסיסמה אינם מוכרים."
+
+#: modules/user.module:821
+msgid "Have you forgotten your password?"
+msgstr "האם שכחתם את סיסמתכם?"
+
+#: modules/user.module:823
+msgid "Login attempt failed for %user: %error."
+msgstr "נסיון כניסה למערכת נכשל עבור  %user: %error."
+
+#: modules/user.module:837
+msgid "Enter your %s username, or an ID from one of our affiliates: %a."
+msgstr "ניתן להזדהות בשם המשתמש שלכם באתר זה, או באחד מהאתרים השותפים: %a."
+
+#: modules/user.module:840
+msgid "Enter your %s username."
+msgstr "הכניסו את הכינוי %s שלכם."
+
+#: modules/user.module:842
+msgid "Enter the password that accompanies your username."
+msgstr "הכניסו את הסיסמתכם."
+
+#: modules/user.module:865
+msgid "External load by %user using module %module."
+msgstr "התקבל ממקור חיצוני ע''י משתמש %user בעזרת רכיב %module ."
+
+#: modules/user.module:868
+msgid "Invalid password for %s."
+msgstr "סיסמה לא נכונה עבור %s ."
+
+#: modules/user.module:882
+msgid "New external user: %user using module %module."
+msgstr "משתמש חיצוני חדש: %user בעזרת רכיב %module ."
+
+#: modules/user.module:903
+msgid "Session closed for %name."
+msgstr "יציאה מהמערכת: %name."
+
+#: modules/user.module:918
+msgid "Sorry. The username %name is not recognized."
+msgstr "שם המשתמש %name אינו מוכר במערכת. בדוק את שם המשתמש שהוזן או הצטרף כמשתמש רשום חדש."
+
+#: modules/user.module:921
+msgid "Sorry. The e-mail address %email is not recognized."
+msgstr "כתובת הדואר האלקטרוני %email אינה מוכרת."
+
+#: modules/user.module:938
+msgid "Password mailed to %name at %email."
+msgstr "סיסמה נשלחה אל %name לכתובת %email. "
+
+#: modules/user.module:939;1003
+msgid "Your password and further instructions have been sent to your e-mail address."
+msgstr "הסיסמתכם והנחיות נוספות נשלחו לכתובת הדואר האלקטרוני שלכם."
+
+#: modules/user.module:942
+msgid "Error mailing password to %name at %email."
+msgstr "שגיאה בעת שליחת סיסמה למשתמש רשום בשם %name בכתובת %email ."
+
+#: modules/user.module:943
+msgid "Unable to send mail. Please contact the site admin."
+msgstr "אין אפשרות לשלוח דואר אלקטרוני מהמערכת. אנא צרו קשר עם מנהל האתר."
+
+#: modules/user.module:949
+msgid "You must provider either a username or e-mail address."
+msgstr "יש לרשום שם משתמש או כתובת דואר אלקטרוני."
+
+#: modules/user.module:952
+msgid "Enter your username <strong><em>or</em></strong> your e-mail address."
+msgstr "יש להזין שם משתמש <strong><em>או</em></strong> כתובת דואר אלקטרוני."
+
+#: modules/user.module:955
+msgid "E-mail new password"
+msgstr "שליחת סיסמה חדשה בדואר האלקטרוני"
+
+#: modules/user.module:978;1148
+msgid "Detected malicious attempt to alter protected user fields."
+msgstr "איתור נסיונות זדוניים לשנות מידע במאפייני משתמש פרטיים."
+
+#: modules/user.module:982;1315
+msgid "New user: %name %email."
+msgstr "משתמש רשום חדש: %name %email."
+
+#: modules/user.module:988
+msgid "drupal user account details for %s"
+msgstr "פרטי חשבון משתמש %s"
+
+#: modules/user.module:988
+msgid "%username,\n\nYou may now login to %uri using the following username and password:\n\n  username: %username\n  password: %password\n\n%edit_uri\n\n--drupal"
+msgstr ""
+
+#: modules/user.module:1011
+msgid "%u has applied for an account.\n\n%uri"
+msgstr ""
+"התקבלה בקשה לפתיחת חשבון מ %u "
+"\n\n%uri"
+
+#: modules/user.module:1012
+msgid "Thank you for applying for an account. Your account is currently pending approval by the site administrator.<br />In the meantime, your password and further instructions have been sent to your e-mail address."
+msgstr ""
+
+#: modules/user.module:1023
+msgid "Note: if you have an account with one of our affiliates (%s), you may <a href=\"%login_uri\">login now</a> instead of registering."
+msgstr "לתשומת לב: אם יש לכם חשבון באחר מהאתרים השותפים שלנו (%s), תוכלו <a href=\"%login_uri\">להיכנס עכשיו</a> במקום להצטרף."
+
+#: modules/user.module:1025
+msgid "Your full name or your preferred username; only letters, numbers and spaces are allowed."
+msgstr "שם מלא או שם משתמש: אותיות, מספרים ורווחים בלבד."
+
+#: modules/user.module:1026
+msgid "A password and instructions will be sent to this e-mail address, so make sure it is accurate."
+msgstr "סיסמה והנחיות נוספות ישלחו לכתובת זו. בידקו שהכתובת מדוייקת."
+
+#: modules/user.module:1030;1053
+msgid "Account information"
+msgstr "מידע על חשבון"
+
+#: modules/user.module:1044
+msgid "Your full name or your preferred username: only letters, numbers and spaces are allowed."
+msgstr "שם מלא או שם משתמש: אותיות, מספרים ורווחים בלבד."
+
+#: modules/user.module:1045
+msgid "Insert a valid e-mail address.  All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail."
+msgstr ""
+"יש לרשום כתובת דואר אלקטרוני בתוקף, "
+"לצורך קבלת דואר מהמערכת. הכתובת תישאר "
+"חסויה ולשימוש האתר בלבד לצורך חידוש "
+"סיסמה, קבלת עדכונים והתרעות וכדומה."
+
+#: modules/user.module:1046
+msgid "Enter your new password twice if you want to change your current password, or leave it blank if you are happy with your current password."
+msgstr "כדי להחליף סיסמה, יש להקליד אותה פעמיים."
+
+#: modules/user.module:1049
+msgid "Blocked"
+msgstr "חסום"
+
+#: modules/user.module:1050;1633
+msgid "Roles"
+msgstr "תפקידים"
+
+#: modules/user.module:1050
+msgid "Select at least one role.  The user receives the combined permissions of all of the selected roles."
+msgstr ""
+"ביחרו לפחות תפקיד אחד. חבר הקהילה מקבל את "
+"ההרשאות המשולבות של כל התפקידים שנבחרו."
+
+#: modules/user.module:1060
+msgid "Delete picture"
+msgstr "מחיקת תמונה"
+
+#: modules/user.module:1060
+msgid "Check this box to delete your current picture."
+msgstr "סמנו תיבה זו כדי למחוק את התמונה הנוכחית שלכם."
+
+#: modules/user.module:1062
+msgid "Upload picture"
+msgstr "קבלת תמונה"
+
+#: modules/user.module:1062
+msgid "Your virtual face or picture.  Maximum dimensions are %dimensions and the maximum size is %size kB."
+msgstr ""
+"הפנים או התמונה שלכם, כפי שתוצג באתר. "
+"גודל תמונה מירבי - %dimentions. גודל קובץ "
+"מירבי - %size קילובייט."
+
+#: modules/user.module:1063
+msgid "Picture"
+msgstr "תמונה"
+
+#: modules/user.module:1075
+msgid "The name %name is already taken."
+msgstr "שם המשתמש %name כבר תפוס. "
+
+#: modules/user.module:1078
+msgid "The name %name has been denied access."
+msgstr "הרשאה גישה למשתמש %name נחסמה."
+
+#: modules/user.module:1086
+msgid "The e-mail address %email is already taken."
+msgstr "כתובת הדואר האלקטרוני %email כבר תפוסה."
+
+#: modules/user.module:1089
+msgid "The e-mail address %email has been denied access."
+msgstr ""
+"לא ניתן להצטרף לאתר דרך כתובת הדואר "
+"האלקטרוני %email. כתובת זו נחסמה על ידי "
+"מנהל האתר. "
+
+#: modules/user.module:1095
+msgid "You must select at least one role."
+msgstr "יש לבחור תפקיד אחד, לפחות."
+
+#: modules/user.module:1128
+msgid "The specified passwords do not match."
+msgstr "אין התאמה בין הססמאות."
+
+#: modules/user.module:1154;1500;1557
+msgid "The changes have been saved."
+msgstr "השינויים נשמרו"
+
+#: modules/user.module:1167
+msgid "The account has been deleted."
+msgstr "החשבון נמחק."
+
+#: modules/user.module:1173
+msgid "Are you sure you want to delete the account %name?"
+msgstr "האמנם ברצונכם למחוק את החשבון %name מהאתר?"
+
+#: modules/user.module:1175
+msgid "Deleting a user will remove all their submissions as well. This action cannot be undone."
+msgstr ""
+"מחיקת משתמש מהאתר תמחק גם את כל פריטי "
+"התוכן שהוגשו על ידו. לא ניתן לבטל פעולה זו."
+
+#: modules/user.module:1262
+msgid "Account details for %username at %site"
+msgstr "פרטי חשבון עבור %username באתר %site"
+
+#: modules/user.module:1264
+msgid "%username,\n\nThank you for registering at %site. You may now log in to %login_uri using the following username and password:\n\nusername: %username\npassword: %password\n\nAfter logging in, you may wish to change your password at %edit_uri\n\nYour new %site membership also enables to you to login to other Drupal powered websites (e.g. http://www.drupal.org/) without registering. Just use the following Drupal ID and password:\n\nDrupal ID: %username@%uri_brief\npassword: %password\n\n\n--  %site team"
+msgstr ""
+"%username, תודה על הרשמתך לאתר '%site'. \r\n"
+"\r\n"
+"אפשר עתה להיכנס לאתר בכתובת \r\n"
+"%login_uri \r\n"
+"תוך שימוש בכינוי ובסיסמה הבאים: \r\n"
+"כינוי: %username, \r\n"
+"סיסמה: %password. \r\n"
+"\r\n"
+"לאחר הכניסה, מומלץ לשנות את הסיסמה \r\n"
+"בכתובת זו: \r\n"
+"%edit_uri. \r\n"
+"\r\n"
+"החברות החדשה שלך באתר '%site' \r\n"
+"מאפשרת לך גם להיכנס לאתרים אחרים, \r\n"
+"מבוססי דרופל (כדוגמת http://www.drupal.org) ללא "
+"הרשמה. \r\n"
+"יש להשתמש בכינוי דרופל ובסיסמה הבאים: "
+"\r\n"
+"כינוי: %username@%uri_brief,\r\n"
+"סיסמה: %password.\r\n"
+"\r\n"
+"בברכה,\r\n"
+"\r\n"
+"צוות '%site'."
+
+#: modules/user.module:1266
+msgid "Account details for %username at %site (pending admin approval)"
+msgstr "פרטי חשבון עבור %username באתר %site (ממתין לאישור מנהל)"
+
+#: modules/user.module:1268
+msgid "%username,\n\nThank you for registering at %site. Your application for an account is currently pending approval. Once it has been granted, you may log in to %login_uri using the following username and password:\n\nusername: %username\npassword: %password\n\nAfter logging in, you may wish to change your password at %edit_uri\n\nYour new %site membership also enables to you to login to other Drupal powered websites (e.g. http://www.drupal.org/) without registering. Just use the following Drupal ID and password:\n\nDrupal ID: %username@%uri_brief\npassword: %password\n\n\n--  %site team"
+msgstr ""
+"%username, תודה על הרשמתך \r\n"
+"לאתר '%'site. \r\n"
+"\r\n"
+"בקשת ההצטרפות שלך מחכה כעת לאישור. \r\n"
+"לאחר האישור, ניתן יהיה להיכנס לאתר \r\n"
+"בכתובת %login_uri תוך שימוש בכינוי \r\n"
+"ובסיסמה הבאים: \r\n"
+"כינוי: %username, \r\n"
+"סיסמה: %password. \r\n"
+"\r\n"
+"לאחר הכניסה, ניתן לשנות את הסיסמה \r\n"
+"בכתובת זו: %edit_uri.\r\n"
+"\r\n"
+"החברות החדשה שלך באתר '%site' מאפשרת\r\n"
+"לך גם להיכנס לאתרים אחרים, \r\n"
+"מבוססי דרופל (כדוגמת \r\n"
+"http://www.drupal.org) \r\n"
+"ללא הרשמה. יש להשתמש בכינוי דרופל \r\n"
+"ובסיסמה הבאים: \r\n"
+"כינוי: %username@%uri_brief, \r\n"
+"סיסמה: %password.\r\n"
+"\r\n"
+"בברכה,\r\n"
+"\r\n"
+"צוות '%site'."
+
+#: modules/user.module:1270
+msgid "Replacement login information for %username at %site"
+msgstr "מידע חילופי לכניסה למערכת עבור %username באתר %site"
+
+#: modules/user.module:1272
+msgid "%username,\n\nHere is your new password for %site. You may now login to %login_uri using the following username and password:\n\nusername: %username\npassword: %password\n\nAfter logging in, you may wish to change your password at %edit_uri"
+msgstr ""
+"%username, \r\n"
+"זוהי הסיסמה החדשה שלך לאתר %site. \r\n"
+"ניתן להיכנס לאתר בכתובת\r\n"
+"%login_uri \r\n"
+"תוך שימוש בכינוי ובסיסמה הבאים: \r\n"
+"\r\n"
+"כינוי: %username \r\n"
+"\r\n"
+"סיסמה: %password \r\n"
+"\r\n"
+"לאחר הכניסה, מומלץ לשנות את הסיסמה \r\n"
+"בכתובת %edit_uri\r\n"
+"\r\n"
+"בברכה,\r\n"
+"\r\n"
+"צוות האתר"
+
+#: modules/user.module:1279
+msgid "Public registrations"
+msgstr "הצטרפות משתמשים חדשים"
+
+#: modules/user.module:1279
+msgid "Only site administrators can create new user accounts."
+msgstr "רק מנהלי האתר יכולים לצרף משתמשים חדשים לאתר."
+
+#: modules/user.module:1279
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr "גולשי האתר יכולים להצטרף ללא אישור מנהל."
+
+#: modules/user.module:1279
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr "גולשי האתר יכולים לבקש להצטרף אך נדרש אישור מנהל."
+
+#: modules/user.module:1280
+msgid "User registration guidelines"
+msgstr "הנחיות הצטרפות"
+
+#: modules/user.module:1280
+msgid "This text is displayed at the top of the user registration form.  It's useful for helping or instructing your users."
+msgstr ""
+"הודעה זו מוצגת בראש טופס ההצטרפות. היא "
+"שימושית כדי לעזור למצטרפים או להנחות אותם. "
+
+#: modules/user.module:1281
+msgid "User registration settings"
+msgstr "הגדרות הצטרפות"
+
+#: modules/user.module:1284
+msgid "Subject of welcome e-mail"
+msgstr "נושא הודעת \"ברוכים הבאים\" הנשלחת לחברים חדשים"
+
+#: modules/user.module:1284
+msgid "Customize the subject of your welcome e-mail, which is sent to new members upon registering."
+msgstr "התאמת נושא ההודעה הנשלחת לחברים חדשים עם ההצטרפות."
+
+#: modules/user.module:1284;1285;1286;1287;1288;1289
+msgid "Available variables are:"
+msgstr "המשתנים הזמינים הם:"
+
+#: modules/user.module:1285
+msgid "Body of welcome e-mail"
+msgstr "תוכן הודעת ההצטרפות לאתר"
+
+#: modules/user.module:1285
+msgid "Customize the body of the welcome e-mail, which is sent to new members upon registering."
+msgstr "התאמת גוף ההודעה הנשלחת לחברים חדשים עם הצטרפותם."
+
+#: modules/user.module:1286
+msgid "Subject of welcome e-mail (awaiting admin approval)"
+msgstr ""
+"נושא הודעת \"ברוכים הבאים\" הנשלחת "
+"למצטרפים חדשים המחכים לאישור מנהל"
+
+#: modules/user.module:1286
+msgid "Customize the subject of your awaiting approval welcome e-mail, which is sent to new members upon registering."
+msgstr ""
+"התאמת את נושא הודעת הדואר האלקטרוני "
+"המודיעה למצטרפים חדשים על כך "
+"שהצטרפותם מחכה לאישור."
+
+#: modules/user.module:1287
+msgid "Body of welcome e-mail (awaiting admin approval)"
+msgstr "תוכן הודעת ההצטרפות לאתר (מחכה לאישור מנהל האתר)"
+
+#: modules/user.module:1287
+msgid "Customize the body of the awaiting approval welcome e-mail, which is sent to new members upon registering."
+msgstr ""
+"התאמת גוף ההודעה הנשלחת לחברים חדשים "
+"עם הרשמתם על כך שהצטרפותם מחכה לאישור"
+
+#: modules/user.module:1288
+msgid "Subject of password recovery e-mail"
+msgstr ""
+"נושא הודעת הדואר האלקטרוני הנשלחת "
+"לצורך שחזור סיסמה"
+
+#: modules/user.module:1288
+msgid "Customize the Subject of your forgotten password e-mail."
+msgstr ""
+"התאמת נושא ההודעה הנשלחת לחברים ששכחו "
+"את הסיסמה שלהם."
+
+#: modules/user.module:1289
+msgid "Body of password recovery e-mail"
+msgstr "גוף הודעת שחזור הסיסמה"
+
+#: modules/user.module:1289
+msgid "Customize the body of the forgotten password e-mail."
+msgstr ""
+"התאמת גוף ההודעה הנשלחת לחברים ששכחו "
+"את הסיסמה שלהם."
+
+#: modules/user.module:1290
+msgid "User email settings"
+msgstr "הגדרות דואר אלקטרוני"
+
+#: modules/user.module:1295
+msgid "Picture support"
+msgstr "תמיכה בתמונות"
+
+#: modules/user.module:1295
+msgid "Enable picture support."
+msgstr ""
+"איפשור תמיכה בתמונות מוסיף מימד אישי "
+"למערכת, אך מגדיל את רוחב הפס הנדרש "
+"לאחסון האתר ודורש בקרה על אופי "
+"התמונות."
+
+#: modules/user.module:1296
+msgid "Picture image path"
+msgstr "ספריית קובץ תמונה"
+
+#: modules/user.module:1296
+msgid "Subdirectory in the directory \"%dir\" where pictures will be stored."
+msgstr "ספריית משנה בתוך הסיפריה <span dir=ltr>\"%dir\"</span>, שבה יאוחסנו התמונות."
+
+#: modules/user.module:1297
+msgid "Default picture"
+msgstr "תמונת ברירת מחדל"
+
+#: modules/user.module:1297
+msgid "URL of picture to display for users with no custom picture selected. Leave blank for none."
+msgstr ""
+"כתובת URL של תמונה שתוצג עבור חברים שלא "
+"בחרו תמונה מותאמת אישית. השאר ריק אם "
+"אין כזו תמונה."
+
+#: modules/user.module:1298
+msgid "Picture maximum dimensions"
+msgstr "מימדי תמונה מירביים"
+
+#: modules/user.module:1298
+msgid "Maximum dimensions for pictures."
+msgstr "מימדים מירביים עבור תמונות."
+
+#: modules/user.module:1299
+msgid "Picture maximum file size"
+msgstr "גודל מירבי של קובץ תמונה"
+
+#: modules/user.module:1299
+msgid "Maximum file size for pictures, in kB."
+msgstr "גודל מירבי של קובץ תמונה, בקילובייט."
+
+#: modules/user.module:1300
+msgid "Picture guidelines"
+msgstr "הנחיות לגבי קבלת תמונות"
+
+#: modules/user.module:1300
+msgid "This text is displayed at the picture upload form in addition to the default guidelines.  It's useful for helping or instructing your users."
+msgstr ""
+"ההודעה המוצגת בטופס קבלת התמונה "
+"בנוסף להנחיות הרגילות. שימושי כדי "
+"לעזור או להנחות את המשתמשים."
+
+#: modules/user.module:1302
+msgid "Pictures"
+msgstr "תמונות"
+
+#: modules/user.module:1319
+msgid "Created a new user account. No e-mail has been sent."
+msgstr "נוצר חשבון חבר חדש. לא נשלח דואר אלקטרוני. "
+
+#: modules/user.module:1325
+msgid "Provide the username of the new account."
+msgstr "קבע את הכינוי (שם המשתמש) של החשבון החדש."
+
+#: modules/user.module:1326
+msgid "Provide the e-mail address associated with the new account."
+msgstr ""
+"רשום את כתובת הדואר האלקטרוני "
+"המשוייכת לחשבון החדש."
+
+#: modules/user.module:1327
+msgid "Provide a password for the new account."
+msgstr "רישמו סיסמה עבור החשבון החדש."
+
+#: modules/user.module:1328;1690
+msgid "Create account"
+msgstr "יצירת חשבון"
+
+#: modules/user.module:1330
+msgid "Create new user account"
+msgstr "יצירת חשבון משתמש חדש"
+
+#: modules/user.module:1346
+msgid "%test is not allowed."
+msgstr "%test אינו מורשה."
+
+#: modules/user.module:1349
+msgid "%test is allowed."
+msgstr "%test מורשה."
+
+#: modules/user.module:1353
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "הזינו שם משתמש כדי לבדוק אם הוא ייחסם או יאופשר."
+
+#: modules/user.module:1355
+msgid "Check username"
+msgstr "בדיקת כינוי משתמש"
+
+#: modules/user.module:1358
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "הזינו כתובת דואר אלקטרוני כדי לבדוק אם היא תיחסם או תאופשר."
+
+#: modules/user.module:1360
+msgid "Check e-mail"
+msgstr "בדיקת דואר אלקטרוני"
+
+#: modules/user.module:1372;1418
+msgid "You must enter a mask."
+msgstr "יש להזין הנחיות סינון תוכן"
+
+#: modules/user.module:1377
+msgid "The access rule has been added."
+msgstr "כלל הגישה החדש נשמר."
+
+#: modules/user.module:1383
+msgid "Add rule"
+msgstr "הוספת כלל"
+
+#: modules/user.module:1394
+msgid "The access rule has been deleted."
+msgstr "כלל הגישה נמחק."
+
+#: modules/user.module:1398;1448
+msgid "username"
+msgstr "שם משתמש"
+
+#: modules/user.module:1398;1448
+msgid "e-mail"
+msgstr "דואר אלקטרוני"
+
+#: modules/user.module:1402
+msgid "Are you sure you want to delete the %type rule for %rule?"
+msgstr "האם אתם מעוניינים למחוק כלל %rule מסוג %type ?"
+
+#: modules/user.module:1422
+msgid "The access rule has been saved."
+msgstr "כלל הגישה נשמר."
+
+#: modules/user.module:1430
+msgid "Save rule"
+msgstr "שמירת כלל"
+
+#: modules/user.module:1435;1446
+msgid "Access type"
+msgstr "סוג גישה"
+
+#: modules/user.module:1435
+msgid "Allow"
+msgstr "אפשרי"
+
+#: modules/user.module:1435
+msgid "Deny"
+msgstr "חסוֹם"
+
+#: modules/user.module:1436;1446
+msgid "Rule type"
+msgstr "סוג כלל"
+
+#: modules/user.module:1437;1446
+msgid "Mask"
+msgstr "מסיכה"
+
+#: modules/user.module:1437
+msgid "Matches any number of characters, even zero characters"
+msgstr "מתאים לכל כמות של תוים, אפילו אפס"
+
+#: modules/user.module:1437
+msgid "Matches exactly one character."
+msgstr "מתאים לתו אחד בדיוק."
+
+#: modules/user.module:1451
+msgid "allow"
+msgstr "אפשרי"
+
+#: modules/user.module:1451
+msgid "deny"
+msgstr "לא אפשרי"
+
+#: modules/user.module:1454
+msgid "There are currently no access rules."
+msgstr "אין כעת כללי גישה."
+
+#: modules/user.module:1523
+msgid "Permission"
+msgstr "הרשאה"
+
+#: modules/user.module:1527
+msgid "%module module"
+msgstr "רכיב %module"
+
+#: modules/user.module:1541
+msgid "Save permissions"
+msgstr "שמירת הרשאות"
+
+#: modules/user.module:1554;1600
+msgid "Save role"
+msgstr "שמירת תפקיד"
+
+#: modules/user.module:1560;1592
+msgid "You must specify a valid role name."
+msgstr "יש להזין שם תפקיד תקין."
+
+#: modules/user.module:1563;1601
+msgid "Delete role"
+msgstr "מחיקת תפקיד"
+
+#: modules/user.module:1582
+msgid "The role has been deleted."
+msgstr "התפקיד נמחק."
+
+#: modules/user.module:1585;1619
+msgid "Add role"
+msgstr "הוספת תפקיד"
+
+#: modules/user.module:1588
+msgid "The role has been added."
+msgstr "התפקיד החדש נשמר."
+
+#: modules/user.module:1599
+msgid "Role name"
+msgstr "שם תפקיד"
+
+#: modules/user.module:1599
+msgid "The name for this role. Example: \"moderator\", \"editorial board\", \"site architect\"."
+msgstr ""
+
+#: modules/user.module:1630
+msgid "ID"
+msgstr "קוד זיהוי"
+
+#: modules/user.module:1634
+msgid "Last access"
+msgstr "כניסה אחרונה"
+
+#: modules/user.module:1641
+msgid "blocked"
+msgstr "חסום"
+
+#: modules/user.module:1641
+msgid "active"
+msgstr "פעיל"
+
+#: modules/user.module:1708
+msgid "<p>Drupal allows users to register, login, logout, maintain user profiles, etc. No participant can use his own name to post content until he signs up for a user account.</p>"
+msgstr ""
+"<p>דרופל מאפשר לחברים להגדיר העדפות, "
+"לנהל מידע אישי, להוסיף תוכן ועוד. רק "
+"חברים שהצטרפו יכולים להשתמש בשמם "
+"למשלוח תוכן. </p>"
+
+#: modules/user.module:1711
+msgid "<p>This web page allows the administrators to register a new users by hand. Note that you cannot have a user where either the e-mail address or the username match another user in the system.</p>"
+msgstr ""
+"<p>עמוד זה מאפשר למנהלים לצרף חברים "
+"חדשים באופן ידני. לתשומת לב: לא ניתן "
+"לצרף חבר שכתובת הדואר האלקטרוני שלו או "
+"הכינוי שלו כבר נמצאים בשימוש של חבר "
+"אחר.</p>"
+
+#: modules/user.module:1713
+msgid "<p>Set up username and e-mail address access rules for new accounts. If a username or email address for a new account matches any deny rule, but not an allow rule, then the new account will not be allowed to be created.</p>"
+msgstr ""
+"<p>הגדרת כללים להצטרפות חברים חדשים "
+"(כתובות דואר אלקטרוני, כינויים מותרים). "
+"אם כינוי משתמש או כתובת דואר אלקטרוני "
+"מתאימים לכלל חסימה, אבל לא לכלל איפשור, "
+"יצירת החשבון החדש תיחסם. </p>"
+
+#: modules/user.module:1715
+msgid "<p>In this area you will define the permissions for each user role (role names are defined on the <a href=\"%role\">user roles page</a>). Each permission describes a fine-grained logical operation, such as being able to access the administration pages, or adding/modifying a user account. You could say a permission represents access granted to a user to perform a set of operations.</p>"
+msgstr ""
+"<p>באיזור זה מוגדרות ההרשאות של כל "
+"תפקיד (שמות התפקידים מוגדרים <a "
+"href=\"%role\">בעמוד תפקידי החברים</a>). כל "
+"הרשאה מתארת פעולה לוגית קטנה, כמו "
+"האפשרות לגשת לעמודי הניהול או האפשרות "
+"לשנות חשבון\\להוסיף חבר. ניתן לומר "
+"שהרשאה מאפשרת לחבר באתר לבצע קבוצת "
+"פעולות.</p>"
+
+#: modules/user.module:1717
+msgid "<p>Roles allow you to fine tune the security and administration of drupal. A role defines a group of users that have certain privileges as defined in <a href=\"%permissions\">user permissions</a>. Examples of roles include: anonymous user, authenticated user, moderator, administrator and so on. In this area you will define the <em>role names</em> of the various roles. To delete a role choose \"edit\".</p><p>By default, Drupal comes with two user roles:</p>\n      <ul>\n      <li>Anonymous user: this role is used for users that don't have a user account or that are not authenticated.</li>\n      <li>Authenticated user: this role is assigned automatically to authenticated users. Most registered users will belong to this user role unless specified otherwise.</li>\n      </ul>"
+msgstr ""
+"<p>תפקידים מאפשרים לעדן את הגדרות "
+"האבטחה והניהול של דרופל. תפקיד מגדיר "
+"קבוצת משתמשים שיש להם זכויות מסויימות "
+"כפי שמוגדרות <a href=\"%permission\">בהרשאות "
+"המשתמש</a>. תפקידים לדוגמה: גולש אנונימי "
+"(anonymous user), חבר מזוהה (authenticated user), מפקח, "
+"מנהל, וכו'. באזור זה מוגדים <em>שמות "
+"התפקיד</em> של התפקידים השונים. כדי "
+"למחוק תפקיד - לחץ על \"עדכן\". <br />\r\n"
+"כברירת מחדל, דרופל מגיע עם שני "
+"תפקידים:\r\n"
+"\r\n"
+" <ul>  <li>גולש אנונימי (anonymous user): תפקיד זה "
+"משמש לגולשים שעדיין אין להם חשבון או "
+"לחברים שאינם מזוהים.</li>  <li>חבר מזוהה "
+"(authenticated user): תפקיד זה משוייך אוטומיטת "
+"לחברים מזוהים. רוב החברים המזוהים "
+"ישתייכו לתפקיד זה אלא אם כן הוגדר "
+"אחרת.</li>  </ul></p>"
+
+#: modules/user.module:1723
+msgid "<p>Enter a simple pattern (\"*\" may be user as a wildcard match) to search for a username.  For example, one may search for \"br\" and Drupal might return \"brian\", \"brad\", and \"brenda\".</p>"
+msgstr "<p> Enter חברי האתר התאמה חיפוש עבור כינוי אחד חיפוש עבור ו- דרופל ו-</p>"
+
+#: modules/user.module:1725
+msgid "Manages the user registration and login system."
+msgstr "מטפל ברישום החברים ובכניסה למערכת."
+
+#: modules/user.module:1728
+msgid "<p>In order to use the full power of Drupal a visitor must sign up for an account. This page lets you setup how a user signs up, logs out, the guidelines from the system about user subscriptions, and the e-mails the system will send to the user.</p>"
+msgstr "<p> דרופל לעמוד האב עבור חשבון עמוד חברי האתר לעמוד האב יומן פעילות מערכת אודות חברי האתר מנויים ו- מערכת חברי האתר</p>"
+
+#: modules/user.module:1732
+msgid "\n      <h3>Distributed authentication<a id=\"da\"></a></h3>\n      <p>One of the more tedious moments in visiting a new website is filling out the registration form. Here at %site, you do not have to fill out a registration form if you are already a member of %help-links. This capability is called <em>distributed authentication</em>, and is unique to <a href=\"%drupal\">Drupal</a>, the software which powers %site.</p>\n      <p>Distributed authentication enables a new user to input a username and password into the login box, and immediately be recognized, even if that user never registered at %site. This works because Drupal knows how to communicate with external registration databases. For example, lets say that new user 'Joe' is already a registered member of <a href=\"%delphi-forums\">Delphi Forums</a>. Drupal informs Joe on registration and login screens that he may login with his Delphi ID instead of registering with %site. Joe likes that idea, and logs in with a username of joe@remote.delphiforums.com and his usual Delphi password. Drupal then contacts the <em>remote.delphiforums.com</em> server behind the scenes (usually using <a href=\"%xml\">XML-RPC</a>, <a href=\"%http-post\">HTTP POST</a>, or <a href=\"%soap\">SOAP</a>) and asks: \"Is the password for user Joe correct?\".  If Delphi replies yes, then we create a new %site account for Joe and log him into it.  Joe may keep on logging into %site in the same manner, and he will always be logged into the same account.</p>"
+msgstr ""
+
+#: modules/user.module:1746
+msgid "\n      <h3>Introduction</h3>\n      <p>Drupal offers a powerful access system that allows users to register, login, logout, maintain user profiles, etc. By using <a href=\"%user-role\">roles</a> you can setup fine grained <a href=\"%user-permission\">permissions</a> allowing each role to do only what you want them to. Each user is assigned to one or more roles. By default there are two roles \"anonymous\" - a user who has not logged in, and \"authorized\" a user who has signed up and who has been authorized. As anonymous users, participants suffer numerous disadvantages, for example they cannot sign their names to nodes, and their moderated posts beginning at a lower score.</p>\n      <p>In contrast, those with a user account can use their own name or handle and are granted various privileges: the most important is probably the ability to moderate new submissions, to rate comments, and to fine-tune the site to their personal liking, with saved personal settings.  Drupal themes make fine tuning quite a pleasure.</p>\n      <p>Registered users need to authenticate by supplying either a local username and password, or a remote username and password such as a <a href=\"%jabber\">Jabber ID</a>, <a href=\"%delphi-forums\">DelphiForums ID</a>, or one from a <a href=\"%drupal\">Drupal powered</a> website. See the <a href=\"%da-auth\">distributed authentication help</a> for more information on this innovative feature.\n      The local username and password, hashed with Message Digest 5 (MD5), are stored in your database. When you enter a password it is also hashed with MD5 and compared with what is in the database. If the hashes match, the username and password are correct. Once a user authenticated session is started, and until that session is over, the user won't have to re-authenticate. To keep track of the individual sessions, Drupal relies on <a href=\"%php-sess\">PHP sessions</a>. A visitor accessing your website is assigned an unique ID, the so-called session ID, which is stored in a cookie. For security's sake, the cookie does not contain personal information but acts as a key to retrieve the information stored on your server. When a visitor accesses your site, Drupal will check whether a specific session ID has been sent with the request. If this is the case, the prior saved environment is recreated.</p>\n      <h3>User preferences and profiles</h3><p>Each Drupal user has a profile, and a set of preferences which may be edited by clicking on the \"<a href=\"%user-prefs\">my account</a>\" link. Of course, a user must be logged into reach those pages. There, users will find a page for changing their preferred time zone, language, username, e-mail address, password, theme, signature, and <a href=\"%da-auth\">distributed authentication names</a>. Changes made here take effect immediately. Also, administrators may make profile and preferences changes in <a href=\"%admin-user\">account administration</a> on behalf of their users.</p>\n\n      <h3>Distributed authentication<a id=\"da\"></a></h3>\n      <p>One of the more tedious moments in visiting a new website is filling out the registration form. The reg form provides helpful information to the website owner, but not much value for the user. The value for the end user is usually the ability to post a messages or receive personalized news, etc. Distributed authentication (DA) gives the user what they want without having to fill out the reg form. Removing this obstacle yields more registered and active users for the website.</p>\n      <p>DA enables a new user to input a username and password into the login box and immediately be recognized, even if that user never registered on your site. This works because Drupal knows how to communicate with external registration databases. For example, lets say that your new user 'Joe' is already a registered member of Delphi Forums. If your Drupal has the delphi module installed, then Drupal will inform Joe on the registration and login screens that he may login with his Delphi ID instead of registering with your Drupal instance. Joe likes that idea, and logs in with a username of joe@remote.delphiforums.com and his usual Delphi password. Drupal then communicates with remote.delphiforums.com (usually using <a href=\"%xml\">XML</a>, <a href=\"%http-post\">HTTP-POST</a>, or <a href=\"%soap\">SOAP</a>) behind the scenes and asks &quot;is this password for username=joe?&quot; If Delphi replies yes, then Drupal will create a new local account for joe and log joe into it. Joe may keep on logging into your Drupal instance in the same manner, and he will be logged into the same joe@remote.delphiforums.com account.</p>\n      <p>One key element of DA is the 'authmap' table, which maps a user's authname (e.g. joe@remote.delphiforums.com) to his local UID (i.e. user identification number). This map is checked whenever a user successfully logs into an external authentication source. Once Drupal knows that the current user is definitely joe@remote.delphiforums.com (because Delphi says so), he looks up Joe's UID and logs Joe into that account.</p>\n      <p>To disable distributed authentication, simply <a href=\"%dis-module\">disable</a> or remove all DA modules. For a virgin install, that means removing/disabling the jabber module and the drupal module.</p>\n      <p>Drupal is setup so that it is very easy to add support for any external authentication source. You currently have the following authentication modules installed ...</p>"
+msgstr ""
+"\n<h3>הקדמה</h3> <p>\n"
+"דרופל מציע מערכת הרשאות חזקה המאפשרת "
+"לחברים להירשם, להיכנס, לצאת מהמערכת, "
+"לנהל את המידע  (הפרופיל) האישי שלהם, "
+"וכו'. על ידי שימוש <a "
+"href=\"%user-role\">בתפקידים</a> ניתן להגדיר <a "
+"href=\"%user-permission\">הרשאות ברמה פרטנית</a> "
+"המאפשרות לכל תפקיד לבצע את הפעולות "
+"הרצויות בלבד. כל חבר ניתן משוייך "
+"לתפקיד אחד או יותר. כברירת מחדל ישנם "
+"שני תפקידים: \"anonymous\" - חבר שלא נכנס "
+"למערכת (או גולש המבקר באתר וטרם נרשם) "
+"ו-\"authorized\" - חבר מורשה שנכנס למערכת. "
+"לשימוש במערכת כמבקר אנונימי יש כמה "
+"חסרונות, לדוגמה הם לא יכולים לחתום "
+"בשמם על פריטי תוכן, ופריטי התוכן שהם "
+"שולחים לאישור מתחילים בניקוד נמוך "
+"יותר.</p> <p>בניגוד לכך, חברים יכולים "
+"להשתמש בשמם וניתנות להם זכויות שונות: "
+"הזכות החשובה ביותר היא כנראה היכולת "
+"לנהל פרסומים חדשים שהוגשו, לדרג הערות, "
+"ולהתאים את האתר לפי העדפתם האישית, על "
+"ידי שמירת העדפות אישיות. ערכות הנושא "
+"של דרופל הופכות את ההתאמה האישית "
+"לתהליך די מהנה. </p> <p>חברים רשומים "
+"צריכים להזדהות על ידי הכינוי והסיסמה "
+"המקומיים שלהם, או על ידי שם משתמש "
+"וסיסמה מרוחקים כגון <a href=\"%jabber\">Jabber "
+"ID</a>, <a href=\"%delphi-forums\">DelphiForums ID</a>, או שם "
+"משתמש מאתר <a href=\"%drupal\">מבוסס דרופל</a>. "
+"ראה את <a href=\"%da-auth\">העזרה בנושא הזדהות "
+"מבוזרת</a> למידע נוסף על תכונה חדשנית "
+"זו. כינוי החבר המקומי, והסיסמה שלו "
+"מאוחסנים בבסיס הנתונים, וממופתחים על "
+"ידי HASH של MD5. כשאתה מכניס סיסמה, גם היא "
+"מומרת על ידי MD5 ומושווית לסיסמה שבבסיס "
+"הנתונים. אם הקידוד מתאים, שם המשתמש "
+"והסיסמה נכונים. מרגע שההתחברות (session) "
+"של חבר מזוהה התחילה, ועד שההתחברות "
+"הסתיימה, החבר לא יצטרך להזדהות שוב. כדי "
+"לעקוב אחר ההתחברויות, דרופל מסץמך על "
+"המנגנון של <a href=\"%php-sess\">PHP sessions</a>. לכל "
+"מבקר הניגש לאתר מוקצה זיהוי יחיד, "
+"הנקרא זיהוי התחברות (session ID) המאוחסן "
+"בתוך עוגייה (cookie).  למען האבטחה, העוגייה "
+"אינה מכילה מידע אישי. היא פועלת רק "
+"כמפתח המשמש כדי לשלוף את המידע על משרת "
+"שלך. כשמבקר ניגש לאתר, דרופל יבדוק האם "
+"נשלח זיהוי התחברות מיוחד עם הבקשה. אם "
+"זה המצב, הסביבה הקודמת נוצרת מחדש. </p> "
+"<h3>העדפות חבר ופרופילים</h3><p>לכל חבר "
+"באתר מבוסס דרופל יש פרופיל, וקבוצת "
+"העדפות שניתן לערוך אותן על ידי לחיצה "
+"על הקישור  \"<a href=\"%user-prefs\">החשבון "
+"שלי</a>\". כמובן, החבר חייב להיכנס למערכת "
+"כדי להגיע לעמודים אלו. שם, חברים ימצאו "
+"עמוד המאפשר לשנות את אזור הזמן האישי "
+"שלהם, השפה, הכינוי, כתובת הדואר "
+"האלקטרוני, הסיסמה, ערכת הנושא, החתימה, "
+"<a href=\"%da-auth\">והגדרות ההרשאה המבוזרת</a>. "
+"שינויים שנעשים כאן משפיעים מיידית. כמו "
+"כן, מנהלים יכולים עשות שינויים בפרופיל "
+"ובהעדפות בדף  <a href=\"%admin-user\">ניהול "
+"חברים</a> בשם חברי האתר.</p> <h3>הרשאה "
+"מבוזרת<a id=\"da\"></a></h3> <p>אחד מהרגעים "
+"המתישים ביותר בכניסה לאתר חדש הוא "
+"מילוי טופס ההרשמה. טופס ההרשמה מספק "
+"מידע שעוזר למנהל האתר, אך אינו מספק ערך "
+"רב לחבר. הערך עבור החבר הוא בדרך כלל "
+"היכולת לשלוח הודעות או לקבל חדשות "
+"אישיות, וכו'. הרשאה מבוזרת (DA) מאפשרת "
+"לחבר לקבל את מה שהוא רוצה בלי למלא שוב "
+"את הטופס. הסרת מכשול זה מניבה יותר "
+"חברים רשומים ופעילים באתר. </p> <p>הרשאה "
+"מבוזרת מאפשרת לחבר חדש להכניס את "
+"הכינוי והסיסמה לשדות המתאימים ולהיות "
+"מזוהה באופן מיידי, אפילו אם הוא אף פעם "
+"לא נרשם באתר שלך. זה עובד כיון שדרופל "
+"יודע איך לתקשר עם מאגרי הרשמה "
+"חיצוניים. לדוגמה הבה ונניח שהמשתמש "
+"החדש 'יוסי' כבר רשום בפורומים של דלפי. "
+"אם בדרופל שלך מותקן רכיב דלפי, דרופל "
+"יודיע ליוסי במסכי ההרשמה והכניסה שוה "
+"יכול להיכנס עם הזיהוי שלו מאתר דלפי "
+"במקום להירשם בדרופל שלך. יוסי אוהב את "
+"הרעיון, ונכנס עם הכינוי   "
+"yossi@remote.delphiforums.com וסיסמת הדלפי הרגילה "
+"שלו. דרופל מתקשר עם האתר המרוחק "
+"remote.delphiforums.com (מאחורי הקלעים, הדבר "
+"מתבצע בדרך כלל על ידי שימוש ב-<a "
+"href=\"%xml\">XML</a>, <a href=\"%http-post\">HTTP-POST</a>, או <a "
+"href=\"%soap\">SOAP</a>)  ושואל &quot;האם זו הסיסמה "
+"של=יוסי?&quot; אם דלפי משיב כן, דרופל "
+"ייצור חשבון מקומי חדש עבור יוסי ויכניס "
+"את יוסי למערכת. יוסי יכול להמשיך "
+"להיכנס לאתר שלך בדרך זו, והוא ימשיך "
+"להיכנס לאותו חשבון  yossi@remote.delphiforums.com.</p> "
+"<p>מרכיב מפתח אחד של ההרשאה המבוזרת הוא "
+"מפת ההרשאות (הנשמרת בטבלה 'authmap', הממפה "
+"את הכינוי המורשה של החבר (לדוגמה  "
+"yossi@remote.delphiforums.com) למספר החבר המקומי "
+"שלו. מפה זו נבדקת בכל פעם שחבר נכנס "
+"בהצלחה תוך שימוש במקור הרשאה חיצוני. "
+"ברגע שדרופל יודע שהחבר הנוכחי הוא "
+"בבירור yossi@remote.delphiforums.com (כיון שדלפי "
+"אומר כך), הוא מחפש את מספר החבר הפנימי "
+"של החבר ומכניס אותו לחשבון.</p> <p>כדי "
+"לבטל את ההרשאה מבוזרת, פשוט <a "
+"href=\"%dis-module\">בטל את האיפשור</a> or או הסר "
+"את כל הרכיבים של הרשאה מבוזרת. בהתקנה "
+"חדשה, פירושו של דבר הסרה או ביטול "
+"האיפשור של הרכיבים Jabber ו-drupal.</p> <p>דרופל "
+"מותקן כך שזה מאד מאד קל להוסיף תמיכה "
+"לכל מקור הרשאה חיצוני. יש לך כעת את "
+"רכיבי ההרשאה הבאים מותקנים...</p>"
+
+#: modules/user.module:557;560
+msgid "1 guest"
+msgid_plural "%count guests"
+msgstr[0] "אורח אחד"
+msgstr[1] "%count אורחים"
+
+#: modules/user.module:406
+msgid "administer users"
+msgstr "ניהול משתמשי האתר"
+
+#: modules/user.module:406
+msgid "access user profiles"
+msgstr "גישה למאפיינים האישיים של המשתמשים"
+

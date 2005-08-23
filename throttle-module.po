@@ -1,0 +1,81 @@
+# translation of throttle-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/throttle.module)
+# Generated from file: throttle.module,v 1.48.2.2 2005/06/01 19:40:01 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: throttle-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-21 22:23+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/throttle.module:101
+msgid "'%value' is not a valid auto-throttle setting.  Please enter a positive numeric value."
+msgstr ""
+
+#: modules/throttle.module:112
+msgid "Handles the auto-throttling mechanism, to control site congestion."
+msgstr "ניהול מנגנון המצערת האוטומטית, המאפשר לשלוט בעומס באתר."
+
+#: modules/throttle.module:114
+msgid "If your site gets linked to by a popular website, or otherwise comes under a \"Denial of Service\" (DoS) attack, your webserver might become overwhelmed.  This module provides a congestion control throttling mechanism for automatically detecting a surge in incoming traffic.  This mechanism is utilized by other Drupal modules to automatically optimize their performance by temporarily disabling CPU-intensive functionality."
+msgstr ""
+
+#: modules/throttle.module:125
+msgid "Auto-throttle on anonymous users"
+msgstr "מצערת אוטומטית עבור משתמשים שאינם מזוהים"
+
+#: modules/throttle.module:125
+msgid "The congestion control throttle can be automatically enabled when the number of anonymous users currently visiting your site exceeds the specified threshold.  For example, to start the throttle when your site has 250 anonymous users online at once, enter '250' in this field. Leave this value blank or set to \"0\" if you do not wish to auto-throttle on anonymous users.  You can inspect the current number of anonymous users using the \"Who's online\" block."
+msgstr ""
+
+#: modules/throttle.module:126
+msgid "Auto-throttle on authenticated users"
+msgstr "מצערת אוטומטית עבור משתמשים מזוהים"
+
+#: modules/throttle.module:126
+msgid "The congestion control throttle can be automatically enabled when the number of authenticated users currently visiting your site exceeds the specified threshold.  For example, to start the throttle when your site has 50 registered users online at once, enter '50' in this field. Leave this value blank or set to \"0\" if you do not wish to auto-throttle on authenticated users.  You can inspect the current number of authenticated users using the \"Who's online\" block."
+msgstr ""
+
+#: modules/throttle.module:128
+msgid "Auto-throttle probability limiter"
+msgstr "הגבלת הסתברות להפעלת מצערת אוטומטית"
+
+#: modules/throttle.module:128
+msgid "The auto-throttle probability limiter is an efficiency mechanism to statistically reduce the overhead of the auto-throttle.  The limiter is expressed as a percentage of page views, so for example if set to the default of 10% we only perform the extra database queries to update the throttle status 1 out of every 10 page views.  The busier your site, the lower you should set the limiter value."
+msgstr ""
+
+#: modules/throttle.module:130
+msgid "Auto-throttle tuning"
+msgstr "כוונון הגדרות מצערת אוטומטית"
+
+#: modules/throttle.module:93;0
+msgid "throttle"
+msgstr "מצערת"
+
+#: modules/throttle.module:70
+msgid "1 user accessing site; throttle enabled."
+msgid_plural "%count users accessing site; throttle enabled."
+msgstr[0] "משתמש אחד פעיל באתר; המצערת פועלת."
+msgstr[1] "%count משתמשים פעילים באתר; המצערת פועלת."
+
+#: modules/throttle.module:78
+msgid "1 guest accessing site; throttle enabled."
+msgid_plural "%count guests accessing site; throttle enabled."
+msgstr[0] "משתמש אורח אחד פעיל באתר; המצערת פועלת."
+msgstr[1] "%count משתמשים אורחים פעילים באתר; המצערת פועלת."
+
+#: modules/throttle.module:88
+msgid "1 guest accessing site; throttle disabled"
+msgid_plural "%count guests accessing site; throttle disabled"
+msgstr[0] "משתמש אורח אחד פעיל באתר;המצערת לא פעילה."
+msgstr[1] "%count משתמשים אורחים פעילים באתר; המצערת לא פעילה."
+

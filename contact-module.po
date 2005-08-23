@@ -1,0 +1,113 @@
+# translation of contact-module.po to Hebrew
+# translation of contact-module.po to
+# LANGUAGE translation of Drupal (modules/contact.module)
+# Generated from file: contact.module,v 1.6.2.1 2005/04/11 11:06:13 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: contact-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-23 12:30+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/contact.module:18
+msgid "Enables the use of personal contact forms."
+msgstr "אפשר שימוש בטפסי קשר לקשר אישי עם המשתמשים באתר."
+
+#: modules/contact.module:31;0
+msgid "contact"
+msgstr "צור קשר"
+
+#: modules/contact.module:46
+msgid "Contact settings"
+msgstr "הגדרות קשר"
+
+#: modules/contact.module:46
+msgid "Personal contact form"
+msgstr "טופס קשר אישי"
+
+#: modules/contact.module:46
+msgid "Allow other users to contact you by e-mail via <a href=\"%url\">your personal contact form</a>. Note that your e-mail address is not made public and that privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
+msgstr ""
+"מאפשר לחברים אחרים ליצור איתך קשר "
+"בדואר אלקטרוני דרך <a href=\"%url\">טופס הקשר "
+"האישי שלך</a>. לתשומת לב: כתובת הדואר "
+"האלקטרוני שלך אינה מוצגת באתר. מנהלי "
+"האתר יכולים ליצור איתך קשר למרות שבחרת "
+"לא לאפשר תכונה זו."
+
+#: modules/contact.module:58
+msgid "%name is not accepting e-mails."
+msgstr "%name אינו מקבל דואר אלקטרוני."
+
+#: modules/contact.module:61
+msgid "Please <a href=\"%login\">login</a> or <a href=\"%register\">register</a> to send %name a message."
+msgstr "כדי לשלוח הודעה ל%name, בבקשה <a href=\"%login\">להיכנס</a> או <a href=\"%register\">להצטרף</a>."
+
+#: modules/contact.module:64
+msgid "You need to provide a valid e-mail address to contact other users. Please edit your <a href=\"%url\">user information</a>."
+msgstr "כתובת צור קשר חברי האתר עדכן<a href=\"%url\"> חברי האתר</a>."
+
+#: modules/contact.module:67
+msgid "You can't contact more than %number users per hour. Please try again later."
+msgstr ""
+"המערכת אינה מאפשרת לך ליצור קשר עם "
+"יותר מ-%number חברים בשעה. אפשר לנסות שוב "
+"מאוחר יותר."
+
+#: modules/contact.module:75
+msgid "You must enter a message."
+msgstr "יש להזין הודעה"
+
+#: modules/contact.module:78
+msgid "You must enter a subject."
+msgstr "יש להזין נושא"
+
+#: modules/contact.module:84
+msgid "%name (%name-url) has sent you a message via your contact form (%form-url) at %site."
+msgstr ""
+"%name (%name-url) שלח לך הודעה דרך טופס הקשר "
+"האישי שלך (%form-url) באתר %site."
+
+#: modules/contact.module:85
+msgid "If you don't want to receive such e-mails, you can change your settings at %url."
+msgstr ""
+"אם אינך רוצה לקבל הודעות כאלו, אפשר "
+"לגשת לכתובת זו: %url ולשנות את ההגדרות."
+
+#: modules/contact.module:86
+msgid "Message:"
+msgstr "תוכן ההודעה:"
+
+#: modules/contact.module:109
+msgid "%name-from sent %name-to an e-mail."
+msgstr " %name-from שלח אל %name-to דואר אלקטרוני."
+
+#: modules/contact.module:112
+msgid "Your message has been sent."
+msgstr "הודעכם נשלחה."
+
+#: modules/contact.module:122
+msgid "From"
+msgstr "מ"
+
+#: modules/contact.module:123
+msgid "To"
+msgstr "אל"
+
+#: modules/contact.module:126
+msgid "Send e-mail"
+msgstr "שליחת דואר אלקטרוני"
+
+#: modules/contact.module:109
+msgid "mail"
+msgstr "דואר"
+

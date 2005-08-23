@@ -1,0 +1,576 @@
+# translation of system-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/system.module)
+# Generated from file: system.module,v 1.204.2.3 2005/06/01 04:17:17 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-21 21:45+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/system.module:17
+msgid "<p>Welcome to the administration section. Below are the most recent system events.</p>"
+msgstr ""
+"<p>ברוכים הבאים לממשק המנהל. להלן "
+"האירועים האחרונים שנרשמו במערכת.</p>"
+
+#: modules/system.module:19
+msgid "<p>General configuration options for your site. Set up the name of the site, e-mail address used in mail-outs, clean URL options, caching, etc.</p>"
+msgstr ""
+"<p>הגדרות תצורה כלליות עבור האתר. מאפשר "
+"להגדיר את שם האתר, הכתובת הנמצאת "
+"בשימוש בדואר יוצר, תצורת השימוש "
+"בכתובות URL נקיות, מטמון, ועוד.</p>"
+
+#: modules/system.module:21
+msgid "<p>Select which themes are available to your users and specify the default theme. To configure site-wide display settings, click the \"configure\" task above. Alternately, to override these settings in a specific theme, click the \"configure\" link for the corresponding theme.</p>"
+msgstr ""
+"<p>יש לסמן אילו עיצובים זמינים לחברי "
+"האתר, וכן מהי ברירת המחדל. כדי להגדיר "
+"הגדרות כלל מערכתיות, אפשר ללחוץ על "
+"הלשונית 'הגדר' למעלה. לחילופין, כדי "
+"לעקוף הגדרות כלליות כלו עבור עיצוב "
+"מסויים, אפשר ללחוץ על הקישור 'הגדר' "
+"המופיע ליד העיצוב.</p>"
+
+#: modules/system.module:23
+msgid "<p>These options control the default display settings for your entire site, across all themes. Unless they have been overridden by a specific theme, these settings will be used.</p>"
+msgstr ""
+"<p>אפשרויות אלו קובעות את הגדרות ברירת "
+"המחדל לתצוגה עבור כל האתר, לרוחב כל "
+"העיצובים. אם לא שינית את ברירת המחדל "
+"עבור עיצוב מסויים, יתבצע שימוש בהגדרות "
+"אלו.</p>"
+
+#: modules/system.module:26
+msgid "<p>These options control the display settings for the <code>%template</code> theme. When your site is displayed using this theme, these settings will be used. By clicking \"Reset to defaults,\" you can choose to use the <a href=\"%global\">global settings</a> for this theme.</p>"
+msgstr ""
+"<p>אפשרויות אלו קובעות את הגדרות התצוגה "
+"עבור העיצוב <code>%template</code>. הגדרות אלו "
+"משמשות כשהאתר מוצג תוך שימוש בעיצוב "
+"זה. בלחיצה על 'חזור להגדרות ברירת "
+"המחדל', ניתן לחזור להשתמש  <a "
+"href=\"%global\">בהגדרות הכלליות</a> עבור עיצוב "
+"זה.</p>"
+
+#: modules/system.module:28
+msgid "<p>Modules are plugins for Drupal that extend its core functionality. Here you can select which modules are enabled. Click on the name of the module in the navigation menu for their individual configuration pages. Once a module is enabled, new <a href=\"%permissions\">permissions</a> might be made available. Modules can automatically be temporarily disabled to reduce server load when your site becomes extremely busy by enabling the throttle.module and checking throttle. The auto-throttle functionality must be enabled on the <a href=\"%throttle\">throttle configuration page</a> after having enabled the throttle module.</p>"
+msgstr ""
+"<p>רכיבים הם תוספים לדרופל המרחיבים את "
+"התכונות הבסיסיות שלו. כאן ניתן לבחור "
+"אילו רכיבים מאופשרים. לחיצה על שם "
+"הרכיב בתפריט הניווט מאפשרת להגדיר את "
+"תצורתו. ברגע שרכיב מאופשר, ייתכן שיש <a "
+"href=\"%permissions\">הרשאות</a> חדשות שהופכות "
+"לזמינות. רכיבים יכולים להיות מכובים "
+"באופן אוטומטי כדי להוריד את העומס על "
+"השרת כשהאתר הופך לעמוס במיוחד. דבר זה "
+"מתבצע על ידי סימון רכיב המצערת. את "
+"תכונת המצערת האוטומטית יש לאפשר בעמוד "
+"<a href=\"%throttle\">הגדרות מצערת</a> לאחר "
+"שאיפשרת את רכיב המצערת.</p>"
+
+#: modules/system.module:30
+msgid "\n      <p>Drupal comes with system-wide defaults but the setting-module provides control over many Drupal preferences, behaviours including visual and operational settings.</p>\n      <h3><a id=\"cron\">Cron</a></h3>\n      <p>Some modules require regularly scheduled actions, such as cleaning up logfiles.  Cron, which stands for chronograph, is a periodic command scheduler executing commands at intervals specified in seconds.  It can be used to control the execution of daily, weekly and monthly jobs (or anything with a period measured in seconds).   Automating tasks is one of the best ways to keep a system running smoothly, and if most of your administration does not require your direct involvement, cron is an ideal solution.</p>\n      <p>The recommended way to set up your cron system is to set up a Unix/Linux crontab entry (see \"man crontab\") that frequently visits %cron-link.  Note that cron does not guarantee the commands will be executed at the specified interval.  However, Drupal will try its best to run the tasks as close to the specified intervals as possible.  The more you visit cron.php, the more accurate cron will be.</p>\n      <p>If your hosting company does not allow you to set up crontab entries, you can always ask someone else to set up an entry for you. After all, virtually any Unix/Linux machine with access to the internet can set up a crontab entry to frequently visit %cron-link.</p>\n      <p>For the Unix/Linux crontab itself, use a browser like <a href=\"%lynx\">lynx</a> or <a href=\"%wget\">wget</a> but make sure the process terminates: either use <code>/usr/bin/lynx -source %base_url/cron.php</code> or <code>/usr/bin/wget -o /dev/null -O /dev/null %cron-link</code>.  Take a look at the example scripts in the <code>scripts</code>-directory. Make sure to adjust them to fit your needs.  A good crontab line to run the cron script once every hour would be:\n      <pre>     00 * * * * /home/www/drupal/scripts/cron-lynx.sh</pre>\n      Note that it is essential to access <code>cron.php</code> using a browser on the web site's domain; do not run it using command line PHP and avoid using <code>localhost</code> or <code>127.0.0.1</code> or some of the environment variables will not be set correctly and features may not work as expected.</p>\n      <h3><a id=\"cache\">Cache</a></h3>\n      <p>Drupal has a caching mechanism which stores dynamically generated web pages in a database.  By caching a web page, Drupal does not have to create the page each time someone wants to view it, instead it takes only one SQL query to display it, reducing response time and the server's load.  Only pages requested by \"anonymous\" users are cached.  In order to reduce server load and save bandwidth, Drupal stores and sends cached pages compressed.</p>"
+msgstr ""
+
+#: modules/system.module:42
+msgid "Handles general site configuration for administrators."
+msgstr "טיפול בניהול אתר ובהגדרות כלליות."
+
+#: modules/system.module:73
+msgid "administer"
+msgstr "ניהול"
+
+#: modules/system.module:79
+msgid "themes"
+msgstr "עיצובי תצוגה"
+
+#: modules/system.module:91
+msgid "global settings"
+msgstr "הגדרות כלליות"
+
+#: modules/system.module:109
+msgid "modules"
+msgstr "רכיבים"
+
+#: modules/system.module:154;431
+msgid "Screenshot for %theme theme"
+msgstr "צילום מסך עבור העיצוב %theme"
+
+#: modules/system.module:154;431
+msgid "no screenshot"
+msgstr "ללא תצלום מסך"
+
+#: modules/system.module:173;448
+msgid "Screenshot"
+msgstr "צילום מסך"
+
+#: modules/system.module:173
+msgid "Selected"
+msgstr "עיצוב נבחר"
+
+#: modules/system.module:174
+msgid "Theme settings"
+msgstr "הגדרות עיצוב"
+
+#: modules/system.module:174
+msgid "Selecting a different theme will change the look and feel of the site."
+msgstr "שינוי העיצוב משנה את מראה האתר."
+
+#: modules/system.module:179
+msgid "Locale settings"
+msgstr "הגדרות מיקום"
+
+#: modules/system.module:179
+msgid "Time zone"
+msgstr "אזור זמן"
+
+#: modules/system.module:179
+msgid "Select your current local time. Dates and times throughout this site will be displayed using this time zone."
+msgstr "המערכת תציג את הזמנים והתאריכים באתר בהתאם לאזור הזמן."
+
+#: modules/system.module:200
+msgid "The name of this web site."
+msgstr "שם אתר זה."
+
+#: modules/system.module:201
+msgid "A valid e-mail address for this website, used by the auto-mailer during registration, new password requests, notifications, etc."
+msgstr ""
+"כתובת דואר אלקטרוני תקינה עבור האתר. "
+"הכתובת נמצאת בשימוש לצורך משלוח דואר "
+"אוטומטי בזמן הצטרפות, משלוח בקשות "
+"לחידוש סיסמה, משלוח התרעות, ועוד. "
+
+#: modules/system.module:202
+msgid "Slogan"
+msgstr "סיסמה"
+
+#: modules/system.module:202
+msgid "The slogan of this website. Some themes display a slogan when available."
+msgstr "סיסמת האתר. כמה עיצובים מציגים סיסמה כשהיא זמינה."
+
+#: modules/system.module:203
+msgid "Mission"
+msgstr "משימה"
+
+#: modules/system.module:203
+msgid "Your site's mission statement or focus."
+msgstr "הצהרת המשימה של האתר, השליחות שלו או המיקוד שלו."
+
+#: modules/system.module:204
+msgid "Footer message"
+msgstr "הודעה בתחתית האתר"
+
+#: modules/system.module:204
+msgid "This text will be displayed at the bottom of each page.  Useful for adding a copyright notice to your pages."
+msgstr "טקסט זה יוצג בתחתית כל עמוד. שימושי להוספת הודעה על זכויות יוצרים."
+
+#: modules/system.module:205
+msgid "Anonymous user"
+msgstr "משתמש אנונימי (לא מזוהה)"
+
+#: modules/system.module:205
+msgid "The name used to indicate anonymous users."
+msgstr "שם זה מציין שפעולה בוצעה על ידי גולש אנונימי, שעדיין לא הצטרף כחבר."
+
+#: modules/system.module:206
+msgid "Default front page"
+msgstr "ברירת המחדל לעמוד ראשי"
+
+#: modules/system.module:206
+msgid "The home page displays content from this relative URL.  If you are not using clean URLs, specify the part after \"?q=\".  If unsure, specify \"node\"."
+msgstr ""
+"עמוד הבית מציג תוכן מכתובת URL יחסית זו. "
+"אם אינך משתמש\\ת בכתובות URL נקיות, יש "
+"לציין את החלק שאחרי \"?q=\". אם אינכם "
+"בטוחים, רשמו \"node\"."
+
+#: modules/system.module:209
+msgid "Clean URLs"
+msgstr "כתובות URL נקיות"
+
+#: modules/system.module:209
+msgid "This option makes Drupal emit clean URLs (i.e. without <code>?q=</code> in the URL). You'll need <code>ModRewrite</code> support for this to work. See the <code>.htaccess</code> file in Drupal's top-level directory for more information."
+msgstr ""
+"<p>אפשרות זו גורמת לדרופל להצג כתובות URL "
+"נקיות (כלומר ללא <code>?q=</code> בכתובת ה-URL). "
+"השרת צריך לתמוך ב- <code>ModRewrite</code> כדי שזה "
+"יעבוד. ראה את הקובץ \"<code><span "
+"dir=ltr>.htaccess</span></code>\" בספרייה הראשית של "
+"דרופל למידע נוסף. </p>"
+
+#: modules/system.module:219
+msgid "Never"
+msgstr "תמיד"
+
+#: modules/system.module:220
+msgid "Default 403 (access denied) page"
+msgstr "ברירת המחדל לעמוד 403 (אין הרשאה)"
+
+#: modules/system.module:220
+msgid "This page is displayed when the requested document is denied to the current user.  If you are not using clean URLs, specify the part after \"?q=\". If unsure, specify nothing."
+msgstr ""
+"עמוד זה מוצג כשאין הרשאה לגשת למסמך "
+"המבוקש. אם לא משתמשים בכתובות URL נקיות, "
+"יש לציין את החלק שאחרי \"?q=\". אם לא "
+"בטוחים, להשאיר ריק. "
+
+#: modules/system.module:221
+msgid "Default 404 (not found) page"
+msgstr "ברירת המחדל לעמוד 404 (לא נמצא)"
+
+#: modules/system.module:221
+msgid "This page is displayed when no other content matches the requested document.  If you are not using clean URLs, specify the part after \"?q=\". If unsure, specify nothing."
+msgstr ""
+"עמוד זה מוצג כשאין תוכן אחר המתאים "
+"למסמך המבוקש. אם לא משתמשים בכתובות URL "
+"נקיות, יש לציין את החלק שאחרי \"?q=\". אם "
+"לא בטוחים, להשאיר ריק. "
+
+#: modules/system.module:222
+msgid "Error reporting"
+msgstr "דיווח שגיאות"
+
+#: modules/system.module:222
+msgid "Write errors to the log"
+msgstr "כתוב שגיאות ליומן הפעילות"
+
+#: modules/system.module:222
+msgid "Write errors to the log and to the screen"
+msgstr "כתוב שגיאות ליומן הפעילות ולמסך"
+
+#: modules/system.module:222
+msgid "Where Drupal, PHP and SQL errors are logged. On a production server it is recommended that errors are only written to the error log. On a test server it can be helpful to write logs to the screen."
+msgstr ""
+"היכן נשמר יומן השגיאות (הכולל שגיאות "
+"של דרופל, שגיאות PHP, ושגיאות בבסיס "
+"הנתונים). בשרת ייצור, מומלץ שהשגיאות "
+"נכתבות רק ליומן השגיאות. בשרת הבדיקות, "
+"כתיבת השגיאות למסך יכולה לעזור."
+
+#: modules/system.module:223
+msgid "Discard log entries older than"
+msgstr "שמור יומן פעילות למשך"
+
+#: modules/system.module:223
+msgid "The time log entries should be kept.  Older entries will be automatically discarded.  Requires crontab."
+msgstr ""
+"הזמן שבו יישמרו רישומים ישנים ביומן "
+"הפעילות. רישומים ישנים יותר יימחקו "
+"באופן אוטומטי. דורש crontab."
+
+#: modules/system.module:225
+msgid "Error handling"
+msgstr "טיפול בשגיאות"
+
+#: modules/system.module:228
+msgid "Cache support"
+msgstr "איפשור זיכרון מטמון"
+
+#: modules/system.module:228
+msgid "Enable or disable the caching of rendered pages.  When caching is enabled, Drupal will flush the cache when required to make sure updates take effect immediately.  Check the <a href=\"%documentation\">cache documentation</a> for information on Drupal's cache system."
+msgstr ""
+"איפשור או ביטול האיפשור של המטמון. "
+"כשהמטמון מאופשר, דרופל ישמור את "
+"העמודים שהוצגו במטמון. דרופל ירוקן את "
+"המטמון כשהוא נדרש להבטיח שהעדכונים "
+"יבוצעו באופן מיידי. בדוק את  <a "
+"href=\"%documentation\">תיעוד המטמון</a> למידע "
+"נוסף על מערכת המטמון בדרופל."
+
+#: modules/system.module:230
+msgid "Cache settings"
+msgstr "הגדרות מטמון"
+
+#: modules/system.module:239
+msgid "File system path"
+msgstr "מיקום קבצי מערכת"
+
+#: modules/system.module:239
+msgid "A file system path where the files will be stored. This directory has to exist and be writable by Drupal. If the download method is set to public this directory has to be relative to Drupal installation directory, and be accessible over the web. When download method is set to private this directory should not be accessible over the web. Changing this location after the site has been in use will cause problems so only change this setting on an existing site if you know what you are doing."
+msgstr ""
+"ספרייה שבה יש לאחסן את קבצי המערכת. "
+"הספרייה חייבת להיות קיימת, וניתנת "
+"לכתיבה על ידי דרופל. אם שיטת ההורדה של "
+"קבצים הוגדרה כציבורית, ספרייה זו חייבת "
+"להיות ניתנת לגישה מספריית ההתקנה של "
+"דרופל בעזרת נתיב יחסי, וכן ניתנת לגישה "
+"דרך האינטרנט. כששיטת ההורדה מוגדרת "
+"כפרטית, חובה לאסור את הגישה לספרייה זו "
+"דרך האינטרנט. שינוי המקום לאחר שהאתר "
+"היה בשימוש ייצור בעיות, כך שיש לשנות "
+"הגדרה זו באתר קיים רק אם אתם יודעים מה "
+"שאתם עושים."
+
+#: modules/system.module:240
+msgid "Temporary directory"
+msgstr "תיקיה זמנית"
+
+#: modules/system.module:240
+msgid "Location where uploaded files will be kept during previews. Relative paths will be resolved relative to the file system path."
+msgstr ""
+"מיקום שבו קבצים שנטענו לאתר יישמרו "
+"בזמן תצוגה מקדימה. נתיב יחסי ימוקם "
+"יחסית למיקום קבצי המערכת."
+
+#: modules/system.module:241
+msgid "Download method"
+msgstr "שיטת הורדת קבצים"
+
+#: modules/system.module:241
+msgid "Public - files are available using http directly."
+msgstr "ציבורית - הקבצים זמינים ישירות בעזרת פרוטוקול http."
+
+#: modules/system.module:241
+msgid "Private - files are transferred by Drupal."
+msgstr "פרטית - הקבצים מועברים על ידי דרופל."
+
+#: modules/system.module:241
+msgid "If you want any sort of access control on the downloading of files, this needs to be set to <em>private</em>. You can change this at any time, however all download URLs will change and there may be unexpected problems so it is not recommended."
+msgstr ""
+"אם נדרשת איזו שהיא בקרת גישה על הורדת "
+"קבצים, יש להגדיר את שיטת הורדת הקבצים "
+"כ<em>פרטית</em>. ניתן לשנות את ההגדרה בכל "
+"עת, אולם כל כתובות ה-URL להורדת קבצים "
+"ישתנו ויכולות להיות תקלות בלתי צפויות. "
+"לכן זה לא  מומלץ."
+
+#: modules/system.module:242
+msgid "File system settings"
+msgstr "הגדרות קבצי מערכת"
+
+#: modules/system.module:248
+msgid "Select an image processing toolkit"
+msgstr "בחירת חבילת תוכנה לעיבוד תמונה"
+
+#: modules/system.module:252
+msgid "Image handling"
+msgstr "עיבוד תמונות"
+
+#: modules/system.module:281
+msgid "Default time zone"
+msgstr "ברירת מחדל לאזור זמן"
+
+#: modules/system.module:281
+msgid "Select the default site time zone."
+msgstr "בחר את אזור הזמן שישמש כברירת מחדל עבור האתר."
+
+#: modules/system.module:282
+msgid "Configurable time zones"
+msgstr "אזורי זמן מותאמים אישית"
+
+#: modules/system.module:282
+msgid "Enable or disable user-configurable time zones.  When enabled, users can set their own time zone and dates will be updated accordingly."
+msgstr ""
+"איפשור או ביטול יכולת להגדיר אזורי זמן "
+"הניתנים להתאמה על ידי חברי הקהילה. אם "
+"התכונה מאופשרת, חברים יכולים להגדיר את "
+"אזור הזמן שלהם, והתאריכים יעודכנו "
+"בהתאמה."
+
+#: modules/system.module:283
+msgid "Short date format"
+msgstr "מבנה תאריך קצר"
+
+#: modules/system.module:283
+msgid "The short format of date display."
+msgstr "המבנה הקצר של תצוגת תאריכים."
+
+#: modules/system.module:284
+msgid "Medium date format"
+msgstr "מבנה תאריך בגודל ביניים"
+
+#: modules/system.module:284
+msgid "The medium sized date display."
+msgstr "מבנה המשמש לתצוגת תאריך בגודל ביניים, בין הקצר לארוך."
+
+#: modules/system.module:285
+msgid "Long date format"
+msgstr "מבנה תאריך ארוך"
+
+#: modules/system.module:285
+msgid "Longer date format used for detailed display."
+msgstr "מבנה תאריך ארוך יותר המשמש לתצוגה מפורטת."
+
+#: modules/system.module:286
+msgid "First day of week"
+msgstr "יום ראשון בשבוע"
+
+#: modules/system.module:286
+msgid "The first day of the week for calendar views."
+msgstr "היום הראשון בשבוע עבור תצוגת תאריכים."
+
+#: modules/system.module:288
+msgid "Date settings"
+msgstr "הגדרות תאריך"
+
+#: modules/system.module:493;495
+msgid "required"
+msgstr "נדרש"
+
+#: modules/system.module:528;562
+msgid "The configuration options have been saved."
+msgstr "ההגדרות נשמרו."
+
+#: modules/system.module:535;544;717
+msgid "Reset to defaults"
+msgstr "חזור להגדרות ברירת המחדל"
+
+#: modules/system.module:550
+msgid "The configuration options have been reset to their default values."
+msgstr "אפשרויות התצורה הוחזרו למצבן ההתחלתי."
+
+#: modules/system.module:555
+msgid "It appears your host is not configured correctly for Clean URLs. Please check for <code>ModRewrite</code> support with your administrator."
+msgstr ""
+
+#: modules/system.module:641
+msgid "Only JPEG, PNG and GIF images are allowed to be used as logos."
+msgstr "רק קבצי תמונות מסוג JPEG, PNG וGIF אפשרים לשימוש בסמל האתר (לוגו)."
+
+#: modules/system.module:650
+msgid "Use the default logo"
+msgstr "השתמש בלוגו ברירת המחדל"
+
+#: modules/system.module:650
+msgid "Check here if you want the theme to use the logo supplied with it."
+msgstr "סמנו כאן אם ברצונכם להשתמש בלוגו המסופק עם העיצוב."
+
+#: modules/system.module:651
+msgid "Path to custom logo"
+msgstr "נתיב לקובץ לוגו מותאם"
+
+#: modules/system.module:651
+msgid "The path to the file you would like to use as your logo file instead of the default logo."
+msgstr "מיקום הקובץ שבו תרצו להשתמש כלוגו במקום לוגו ברירת המחדל"
+
+#: modules/system.module:654
+msgid "Upload logo image"
+msgstr "טעינת תמונת לוגו"
+
+#: modules/system.module:654
+msgid "If you don't have direct file access to the server, use this field to upload your logo."
+msgstr ""
+"אם אין לכם גישה ישירה לקבצים על השרת, "
+"השתמשו בשדה זה כדי לטעון את קובץ הלוגו"
+
+#: modules/system.module:655
+msgid "Upload"
+msgstr "קבלה"
+
+#: modules/system.module:657
+msgid "Logo image settings"
+msgstr "הגדרות תמונת לוגו"
+
+#: modules/system.module:664;685
+msgid "Primary links"
+msgstr "קישורים עיקריים"
+
+#: modules/system.module:664
+msgid "The HTML code for the primary links."
+msgstr "קוד HTML עבור קישורים ראשיים."
+
+#: modules/system.module:665;686
+msgid "Secondary links"
+msgstr "קישורים משניים"
+
+#: modules/system.module:665
+msgid "The HTML code for the secondary links."
+msgstr "קוד HTML עבור קישורים משניים."
+
+#: modules/system.module:666
+msgid "Menu Settings"
+msgstr "הגדרות תפריט"
+
+#: modules/system.module:666
+msgid "Customize the menus that are displayed at the top and/or bottom of the page. This configuration screen is only available in the site wide display configuration."
+msgstr ""
+"התאמת התפריטים המוצגים בראש ו\\או "
+"בתחתית העמוד. הגדרות אלו זמינות רק "
+"במסך ההגדרות הכלליות לכל האתר."
+
+#: modules/system.module:675
+msgid "Display post information on"
+msgstr "הצגת מידע על מחבר הפרסום בכל האתר"
+
+#: modules/system.module:675
+msgid "Enable or disable the \"submitted by Username on date\" text when displaying posts of the above type"
+msgstr "איפשור או ביטול הצגת הכינוי ותאריך ההגשה בזמן הצגת פרסומים מהסוג שלמעלה."
+
+#: modules/system.module:682
+msgid "Site name"
+msgstr "שם האתר"
+
+#: modules/system.module:683
+msgid "Site slogan"
+msgstr "סיסמת האתר"
+
+#: modules/system.module:684
+msgid "Mission statement"
+msgstr "הצהרת משימה"
+
+#: modules/system.module:687
+msgid "User pictures in posts"
+msgstr "תמונות משתמשים רשומים בפרסומים"
+
+#: modules/system.module:688
+msgid "User pictures in comments"
+msgstr "תמונות משתמשים רשומים בתגובות"
+
+#: modules/system.module:689
+msgid "Search box"
+msgstr "תיבת חיפוש"
+
+#: modules/system.module:698
+msgid "Toggle display"
+msgstr "שינוי מאפייני תצוגה"
+
+#: modules/system.module:698
+msgid "Enable or disable the display of certain page elements."
+msgstr "איפשור או ביטול תצוגה של רכיבים מסויימים בעמוד."
+
+#: modules/system.module:708
+msgid "Engine-specific settings"
+msgstr "הגדרות פרטיות עבור כל מנוע עיצוב"
+
+#: modules/system.module:708
+msgid "These settings only exist for all the templates and styles based on the %engine theme engine."
+msgstr ""
+"הגדרות אלו קיימות רק עבור העיצובים "
+"והסגנונות המבוססים על מנוע העיצוב "
+"%engine."
+
+#: modules/system.module:712
+msgid "Theme-specific settings"
+msgstr "הגדרות פרטיות עבור כל ערכת עיצוב"
+
+#: modules/system.module:712
+msgid "These settings only exist for the %theme theme and all the styles based on it."
+msgstr "הגדרות אילו קיימות עבור ערכת עיצוב %theme וכל העיצובים הקשורים בה."
+
+#: modules/system.module:50
+msgid "administer site configuration"
+msgstr "ניהול תצורת האתר"
+
+#: modules/system.module:50
+msgid "access administration pages"
+msgstr "גישה לעמודי ניהול"
+
+#: modules/system.module:50
+msgid "bypass input data check"
+msgstr "עקיפת בדיקות קלט"
+
+#: modules/system.module:0
+msgid "system"
+msgstr "מערכת"
+

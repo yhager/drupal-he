@@ -1,0 +1,75 @@
+# translation of watchdog-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/watchdog.module)
+# Generated from file: watchdog.module,v 1.121 2005/01/26 23:02:44 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: watchdog-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-21 22:53+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: modules/watchdog.module:21
+msgid "<p>The watchdog module monitors your web site, capturing system events in a log to be reviewed by an authorized individual at a later time.  The watchdog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information.  It is vital to check the watchdog report on a regular basis as it is often the only way to tell what is going on.</p>"
+msgstr ""
+
+#: modules/watchdog.module:23
+msgid "Logs and records system events."
+msgstr "רושם ומקליט פעילויות שבוצעו במערכת."
+
+#: modules/watchdog.module:34
+msgid "logs"
+msgstr "יומן פעילות"
+
+#: modules/watchdog.module:65;65;135
+msgid "warning"
+msgstr "אזהרות"
+
+#: modules/watchdog.module:66;66;135
+msgid "error"
+msgstr "שגיאות"
+
+#: modules/watchdog.module:69
+msgid "all messages"
+msgstr "כל ההודעות"
+
+#: modules/watchdog.module:72
+msgid "%type messages"
+msgstr "הודעות %type"
+
+#: modules/watchdog.module:85
+msgid "Filter by message type"
+msgstr "סינון לפי סוג הודעה"
+
+#: modules/watchdog.module:117
+msgid "No log messages available."
+msgstr "לא קיימות הודעות יומן."
+
+#: modules/watchdog.module:135
+msgid "notice"
+msgstr "הודעה"
+
+#: modules/watchdog.module:143
+msgid "Location"
+msgstr "מיקום"
+
+#: modules/watchdog.module:145
+msgid "Severity"
+msgstr "חוּמרה"
+
+#: modules/watchdog.module:47
+msgid "administer watchdog"
+msgstr "ניהול רכיב \"כלב השמירה\""
+
+#: modules/watchdog.module:0
+msgid "watchdog"
+msgstr "'כלב שמירה'"
+

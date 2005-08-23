@@ -1,0 +1,228 @@
+# translation of block-module.po to 
+# translation of block-module.po to
+# LANGUAGE translation of Drupal (modules/block.module)
+# Generated from file: block.module,v 1.162.2.3 2005/05/22 12:50:09 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: block-module\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-09 10:53+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: modules/block.module:15
+msgid "\n<p>Blocks are the boxes visible in the sidebar(s) of your web site. These are usually generated automatically by modules (e.g. recent forum topics), but you can also create your own blocks.</p>\n<p>The sidebar each block appears in depends on both which theme you are using (some are left-only, some right, some both), and on the settings in block management.</p>\n<p>The block management screen lets you specify the vertical sort-order of the blocks within a sidebar. You do this by assigning a weight to each block. Lighter blocks (smaller weight) \"float up\" towards the top of the sidebar. Heavier ones \"sink down\" towards the bottom of it.</p>\n<p>A block's visibility depends on:</p>\n<ul>\n<li>Its enabled checkbox. Disabled blocks are never shown.</li>\n<li>Its throttle checkbox. Throttled blocks are hidden during high server loads.</li>\n<li>Its path options. Blocks can be configured to only show/hide on certain pages.</li>\n<li>User settings. You can choose to let your users decide whether to show/hide certain blocks.</li>\n<li>Its function. Dynamic blocks (such as those defined by modules) may be empty on certain pages and will not be shown.</li>\n</ul>\n\n<h3>Administrator defined blocks</h3>\n<p>An administrator defined block contains content supplied by you (as opposed to being generated automatically by a module). Each admin-defined block consists of a title, a description, and a body which can be as long as you wish. The Drupal engine will render the content of the block.</p>"
+msgstr ""
+
+#: modules/block.module:31
+msgid "Controls the boxes that are displayed around the main content."
+msgstr "אחראי על מסגרות המידע המוצגות סביב התוכן הראשי."
+
+#: modules/block.module:33
+msgid "\n<p>Blocks are the boxes in the left and right side bars of the web site. They are made available by modules or created manually.</p>\n<p>Only enabled blocks are shown. You can position the blocks by deciding which side of the page they will show up on (sidebar) and in which order they appear (weight).</p>\n<p>If you want certain blocks to disable themselves temporarily during high server loads, check the 'Throttle' box. You can configure the auto-throttle on the <a href=\"%throttle\">throttle configuration page</a> after having enabled the throttle module.</p>\n"
+msgstr "\n<p>תיבות הן המלבנים המופיעים בפסים "
+"הצדדיים של האתר, מימין ומשמאל, בהתאם "
+"לערכת הנושא הנבחרת. הם מכילות את התוכן "
+"של רכיבים פעילים או נוצרות באופן "
+"ידני.\r\n"
+"<p>רק תיבות מאופשרות מוצגות. ניתן למקם "
+"את התיבות על ידי החלטה באיזה צד של "
+"העמוד הן תופענה ועל ידי הגדרת משקל. "
+"תיבות קלות יותר (עם ערך נמוך יותר של "
+"משקל) \"צפות למעלה\" לעבר ראש העמוד. \r\n"
+"<p>אם מעוניינים שתיבות מסויימות יחסמו "
+"את עצמן כשהשרת עמוס, ניתן להגדיר שתיבה "
+"תבוטל באופן זמני אם השרת עמוס. הגדרה זו "
+"מתבצעת על ידי סימון המצערת. ניתן לשנות "
+"את הגדרות המצעת האוטומטית <a "
+"href=\"%throttle\">בעמוד הגדרות המצערת</a> לאחר "
+"איפשור רכיב המצערת.</p>"
+
+#: modules/block.module:39
+msgid "<p>Here you can create a new block. Once you have created this block you must make it active and give it a place on the page using <a href=\"%overview\">blocks</a>. The title is used when displaying the block. The description is used in the \"block\" column on the <a href=\"%overview\">blocks</a> page.</p>"
+msgstr ""
+
+#: modules/block.module:62
+msgid "configure block"
+msgstr "אפיון מסגרת מידע"
+
+#: modules/block.module:66
+msgid "delete block"
+msgstr "מחיקת מסגרת מידע"
+
+#: modules/block.module:70
+msgid "add block"
+msgstr "הוסף מסגרת מידע"
+
+#: modules/block.module:120
+msgid "The block settings have been updated."
+msgstr "מאפייני מסגרת המידע עודכנו"
+
+#: modules/block.module:186
+msgid "Block"
+msgstr "יחידת מידע"
+
+#: modules/block.module:186
+msgid "Sidebar"
+msgstr "סרגל ניווט"
+
+#: modules/block.module:207
+msgid "left"
+msgstr "שמאל"
+
+#: modules/block.module:207
+msgid "right"
+msgstr "ימין"
+
+#: modules/block.module:229
+msgid "Left sidebar"
+msgstr "סרגל צד ימני"
+
+#: modules/block.module:233
+msgid "Right sidebar"
+msgstr "סרגל צד שמאלי"
+
+#: modules/block.module:241;382
+msgid "Save blocks"
+msgstr "שמירת יחידות מידע"
+
+#: modules/block.module:258;300;314;321
+msgid "Save block"
+msgstr "שמירת יחידת מידע "
+
+#: modules/block.module:267
+msgid "The block configuration has been saved."
+msgstr "מאפייני יחידת המידע נשמרו."
+
+#: modules/block.module:279
+msgid "Block-specific settings"
+msgstr "מאפיינים מיוחדים ליחידת מידע זו"
+
+#: modules/block.module:287
+msgid "'%name' block"
+msgstr "יחידת מידע: '%name'"
+
+#: modules/block.module:290
+msgid "Custom visibility settings"
+msgstr "מאפייני תצוגה מותאמות"
+
+#: modules/block.module:290
+msgid "Users cannot control whether or not they see this block."
+msgstr "משתמשים רשומים אינם יכולים לקבוע האם יחידת המידע תוצג או לא."
+
+#: modules/block.module:290
+msgid "Show this block by default, but let individual users hide it."
+msgstr "הצג את יחידת המידע כברירת מחדל, אך אפשר למשתמשים רשומים לבחור להחביא אותה."
+
+#: modules/block.module:290
+msgid "Hide this block by default but let individual users show it."
+msgstr "החבא את יחידת המידע כברירת מחדל ואפשר למשתמשים רשומים לבחור להציג אותה."
+
+#: modules/block.module:290
+msgid "Allow individual users to customize the visibility of this block in their account settings."
+msgstr "מאפשר למשתמשים רשומים לקבוע באופן אישי האם "
+"יחידת המידע תהיה גלויה אצלם. הדבר מתבצע על "
+"ידי כניסה להגדרת החשבון האישי שלהם."
+
+#: modules/block.module:291
+msgid "Show block on specific pages"
+msgstr "הצגת יחידת המידע בעמודים מסויימים"
+
+#: modules/block.module:291
+msgid "Show on every page except the listed pages."
+msgstr "הצגה בכל עמוד פרט לעמודים הרשומים."
+
+#: modules/block.module:291
+msgid "Show on only the listed pages."
+msgstr "הצגה רק בעמודים הרשומים."
+
+#: modules/block.module:292
+msgid "Pages"
+msgstr "עמודים"
+
+#: modules/block.module:292
+msgid "Enter one page per line as Drupal paths. The '*' character is a wildcard. Example paths are '<em>blog</em>' for the blog page and '<em>blog/*</em>' for every personal blog. '<em>&lt;front&gt;</em>' is the front page."
+msgstr ""
+
+#: modules/block.module:293
+msgid "Restrict block to specific content types"
+msgstr "הגבל יחידת מידע לסוגי תוכן מסויימים"
+
+#: modules/block.module:293
+msgid "Selecting one or more content types will cause this block to only be shown on pages of the selected types. This feature works alone or in conjunction with page specific visibility settings. For example, you can specify that a block only appear on book pages in the 'FAQ' path."
+msgstr ""
+"בחירת סוג תוכן אחד או יותר תגרום ליחידת מידע "
+"זו להיות מוצגת רק בעמודים מהסוגים "
+"הנבחרים. אפשרות זו עובדת בפני עצמה, או "
+"שניתן להשתמש בה יחד עם הגדרות תצוגה "
+"תלויות עמוד. לדוגמה, ניתן להגדיר שיחידת מידע "
+"תופיע רק בעמודים בנתיב של 'FAQ'."
+
+#: modules/block.module:295
+msgid "User specific visibility settings"
+msgstr "מאפייני תצוגה מותאמות אישית"
+
+#: modules/block.module:296
+msgid "Page specific visibility settings"
+msgstr "הגדרות תצוגה מותאמות לפי עמוד"
+
+#: modules/block.module:297
+msgid "Content specific visibility settings"
+msgstr "הגדרות תצוגה מותאמות לפי תוכן"
+
+#: modules/block.module:316
+msgid "The new block has been added."
+msgstr "יחידת המידע החדשה נוספה."
+
+#: modules/block.module:338
+msgid "The block %name has been deleted."
+msgstr "יחידת מידע בשם %name נמחקה."
+
+#: modules/block.module:344
+msgid "Are you sure you want to delete the block %name?"
+msgstr "האם אתם מעוניינים למחוק יחידת מידע בשם %name ?"
+
+#: modules/block.module:354
+msgid "Block title"
+msgstr "כותרת יחידת המידע"
+
+#: modules/block.module:354
+msgid "The title of the block as shown to the user."
+msgstr "כותרת יחידת המידע כפי שמוצגת למשתמש."
+
+#: modules/block.module:356
+msgid "Block body"
+msgstr "תוכן יחידת המידע"
+
+#: modules/block.module:356
+msgid "The content of the block as shown to the user."
+msgstr "תוכן יחידת המידע כפי שמוצג למשתמש."
+
+#: modules/block.module:357
+msgid "Block description"
+msgstr "תיאור יחידת המידע"
+
+#: modules/block.module:357
+msgid "A brief description of your block. Used on the <a href=\"%overview\">block overview page</a>."
+msgstr ""
+
+#: modules/block.module:410
+msgid "Block configuration"
+msgstr "מאפייני יחידת המידע"
+
+#: modules/block.module:47
+msgid "administer blocks"
+msgstr "ניהול יחידות מידע"
+
+#: modules/block.module:0
+msgid "block"
+msgstr "יחידת מידע"
+

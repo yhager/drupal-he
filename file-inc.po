@@ -1,0 +1,80 @@
+# translation of file-inc.po to 
+# translation of file-inc.po to
+# LANGUAGE translation of Drupal (includes/file.inc)
+# Generated from file: file.inc,v 1.39.2.4 2005/05/18 05:17:56 dries
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: file-inc\n"
+"POT-Creation-Date: 2005-06-30 11:06+0200\n"
+"PO-Revision-Date: 2005-08-14 19:01+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: KBabel 1.2beta3\n"
+
+#: includes/file.inc:87
+msgid "Created directory %directory."
+msgstr "נוצרה הספריה %directory."
+
+#: includes/file.inc:91
+msgid "The directory %directory does not exist."
+msgstr "הספריה %directory לא קיימת."
+
+#: includes/file.inc:100
+msgid "Modified permissions on directory %directory."
+msgstr "עודכן הרשאות עבור ספריה %directory."
+
+#: includes/file.inc:103
+msgid "The directory %directory is not writable."
+msgstr "אין גישת כתיבה לספריה %directory."
+
+#: includes/file.inc:217
+msgid "File copy failed: no directory configured, or it could not be accessed."
+msgstr "העתקת הקובץ נכשלה: הספריה לא קיימת או לא ניתנת לגישה."
+
+#: includes/file.inc:232
+msgid "File copy failed: source file does not exist."
+msgstr "העתקת הקובץ נכשלה: הקובץ המקורי אינו קיים."
+
+#: includes/file.inc:264
+msgid "File copy failed. File already exists."
+msgstr "העתקת הקובץ נכשלה: הקובץ קיים."
+
+#: includes/file.inc:273
+msgid "File copy failed."
+msgstr "העתקת הקובץ נכשלה."
+
+#: includes/file.inc:317
+msgid "Removing original file failed."
+msgstr "מחיקת הקובץ המקורי נכשלה."
+
+#: includes/file.inc:376;420
+msgid "Possible exploit abuse: invalid data."
+msgstr "סבירות לכשל אבטחה: מידע שגוי."
+
+#: includes/file.inc:377;421
+msgid "File upload failed: invalid data."
+msgstr "קבלת הקובץ נכשלה: מידע שגוי."
+
+#: includes/file.inc:387
+msgid "File upload failed: file size too big."
+msgstr "קבלת הקובץ נכשלה: גודל הקובץ גדול מידי."
+
+#: includes/file.inc:391
+msgid "File upload failed: incomplete upload."
+msgstr "קבלת הקובץ נכשלה: תהליך הקבלה לא הושלם."
+
+#: includes/file.inc:394
+msgid "File upload failed: unknown error."
+msgstr "קבלת הקובץ נכשלה: שגיאה לא ידועה."
+
+#: includes/file.inc:428
+msgid "Unable to create file."
+msgstr "יצירת הקובץ אינה אפשרית."
+
