@@ -1,18 +1,21 @@
+# translation of search-module.po to Hebrew
 # LANGUAGE translation of Drupal (modules/search.module)
-# Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from file: search.module,v 1.123.2.2 2005/04/23 07:34:42 unconed
+# Copyright YEAR NAME <EMAIL@ADDRESS>.
+# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: search-module\n"
 "POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
-"Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2005-08-23 13:15+0300\n"
+"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.10.2\n"
 
 #: modules/search.module:51
 msgid "Enables site-wide keyword searching."
@@ -21,10 +24,11 @@ msgstr "מאפשר חיפוש לפי מילות מפתח בכל האתר."
 #: modules/search.module:53
 msgid "\n<p>The search engine works by maintaining an index of the words in your site's content. You can adjust the settings below to tweak the indexing behaviour. Note that the search requires cron to be set up correctly.</p>\n"
 msgstr ""
-"<p>מנוע החיפוש שומר מפתח של תוכן האתר. "
+"\n<p>מנוע החיפוש שומר מפתח של תוכן האתר. "
 "ניתן לשנות את ההגדרות למטה כדי להתאים "
 "את התנהגות המיפתוח. לתשומת לב - החיפוש "
 "דורש להגדיר את cron בצורה נכונה.</p>"
+"\n"
 
 #: modules/search.module:57
 msgid "<p><ul>\n<li>Check if your spelling is correct.</li>\n<li>Try using wildcards: <em>walk*</em> matches <em>walker</em>, <em>walking</em>, ...</li>\n<li>Use longer words (words shorter than %number letters are ignored).</li>\n</ul></p>"
