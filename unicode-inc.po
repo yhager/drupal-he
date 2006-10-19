@@ -1,0 +1,83 @@
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/unicode.inc:34
+msgid ""
+"The PCRE library in your PHP installation is outdated. This will cause "
+"problems when handling Unicode text. If you are running PHP 4.3.3 or higher, "
+"make sure you are using the PCRE library supplied by PHP. Please refer to "
+"the <a href=\"%url\">PHP PCRE documentation</a> for more information."
+msgstr ""
+
+#: includes/unicode.inc:47
+msgid ""
+"Multibyte string function overloading in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.func_overload</em> setting. Please refer to "
+"the <a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr ""
+
+#: includes/unicode.inc:53
+msgid ""
+"Multibyte string input conversion in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.encoding_translation</em> setting. Please "
+"refer to the <a href=\"%url\">PHP mbstring documentation</a> for more "
+"information."
+msgstr ""
+
+#: includes/unicode.inc:59
+msgid ""
+"Multibyte string input conversion in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.http_input</em> setting. Please refer to the "
+"<a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr ""
+
+#: includes/unicode.inc:65
+msgid ""
+"Multibyte string output conversion in PHP is active and must be disabled. "
+"Check the php.ini <em>mbstring.http_output</em> setting. Please refer to the "
+"<a href=\"%url\">PHP mbstring documentation</a> for more information."
+msgstr ""
+
+#: includes/unicode.inc:81
+msgid ""
+"Standard PHP: operations on Unicode strings are emulated on a best-effort "
+"basis. Install the <a href=\"%url\">PHP mbstring extension</a> for improved "
+"Unicode support."
+msgstr ""
+
+#: includes/unicode.inc:82
+msgid ""
+"Multi-byte: operations on Unicode strings are supported through the <a href="
+"\"%url\">PHP mbstring extension</a>."
+msgstr ""
+
+#: includes/unicode.inc:83
+msgid "Invalid: the current configuration is incompatible with Drupal."
+msgstr ""
+
+#: includes/unicode.inc:84
+msgid "String handling method"
+msgstr ""
+
+#: includes/unicode.inc:131
+msgid "Could not convert XML encoding '%s' to UTF-8."
+msgstr "לא ניתן לתרגם מסמך XML בקידוד '%s' לקידוד UTF-8."
+
+#: includes/unicode.inc:164
+msgid ""
+"Unsupported encoding '%s'. Please install iconv, GNU recode or mbstring for "
+"PHP."
+msgstr ""
+"קידוד לא ניתמך. אנא התקינו את התוכנה iconv, gnu recode או mbstring עבור שפת "
+"php."

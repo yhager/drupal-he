@@ -1,0 +1,90 @@
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/page.module:15
+msgid ""
+"The page module allows users to create static pages, which are the most "
+"basic type of content.  Pages are commonly collected in books via the book "
+"module.  Users should create a page if the information on the page is "
+"static.  An example would be an \"about\" page. "
+msgstr ""
+
+#: modules/page.module:16
+msgid ""
+"When a  page is created, a user can set authoring information, configure "
+"publishing options, whether readers will be able to post comments.  They can "
+"also select the content type of the page (e.g., full HTML, filtered HTML). "
+msgstr ""
+
+#: modules/page.module:17
+msgid ""
+"As an administrator, you can set the publishing default for a page (in its "
+"workflow): you can specify whether a page is by default published, sent to "
+"moderation, promoted to the front page, sticky at the top of lists, and "
+"whether revisions are enabled by default.    You can set the permissions "
+"that different user roles have to view, create, and edit pages."
+msgstr ""
+
+#: modules/page.module:18
+msgid ""
+"If the location module is enabled, then location specific information can be "
+"added.  If the trackback module is enabled trackbacks can be configured."
+msgstr ""
+
+#: modules/page.module:19
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>read the node administration help at <a href=\"%admin-help-node"
+"\">administer &gt;&gt; help &gt;&gt; node</a>.</li>\n"
+"<li>read the page administration help at <a href=\"%admin-help-page"
+"\">administer &gt;&gt; help &gt;&gt; page</a>.</li>\n"
+"<li>read the story administration help at <a href=\"%admin-help-story"
+"\">administer &gt;&gt; help &gt;&gt; story</a>.</li>\n"
+"<li>create a page at <a href=\"%node-add-page\">create content &gt;&gt; "
+"page</a>.</li>\n"
+"<li>administer page content type at <a href=\"%admin-settings-content-types-"
+"page\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; "
+"configure page</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/page.module:28
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%page\">Page page</a>."
+msgstr ""
+
+#: modules/page.module:31
+msgid ""
+"Enables the creation of pages that can be added to the navigation system."
+msgstr "מאפשר יצירת עמודים שניתן להוסיף אותם למערכת הניווט של האתר."
+
+#: modules/page.module:33
+msgid ""
+"If you want to add a static page, like a contact page or an about page, use "
+"a page."
+msgstr "משמש להוספת עמודים סטטיים, (לדוגמה - \"אודות האתר\", או \"אנשי קשר\")."
+
+#: modules/page.module:48;75;0
+msgid "page"
+msgstr "עמוד"
+
+#: modules/page.module:41
+msgid "create pages"
+msgstr "צור עמודים"
+
+#: modules/page.module:41
+msgid "edit own pages"
+msgstr "עריכת עמודים עצמית"
