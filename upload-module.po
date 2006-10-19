@@ -1,141 +1,207 @@
 # translation of upload-module.po to Hebrew
-# LANGUAGE translation of Drupal (modules/upload.module)
-# Generated from file: upload.module,v 1.31.2.5 2005/05/25 04:28:59 unconed
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
+# Haggai Eran <haggai.eran@gmail.com>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: upload-module\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-21 22:50+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-15 02:54+0200\n"
+"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
 "Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/upload.module:15
+#: modules/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site.  The ability to "
+"upload files to a site is important for members of a community who want to "
+"share work. It is also useful to administrators who want to keep uploaded "
+"files connected to a node or page."
+msgstr ""
+
+#: modules/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments. You can "
+"choose which post types can take attachments on the content types settings "
+"page.  Each user role can be customized for the file size of uploads, and "
+"the dimension of image files."
+msgstr ""
+
+#: modules/upload.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>administer user permissions at <a href=\"%admin-access\">administer &gt;"
+"&gt; access control</a>.</li>\n"
+"<li>administer content at <a href=\"%admin-content-types\">administer &gt;"
+"&gt; settings &gt;&gt; content types</a>.</li>\n"
+"<li>administer upload at <a href=\"%admin-upload\">administer &gt;&gt; "
+"settings &gt;&gt; upload</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/upload.module:25
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%upload\">Upload page</a>."
+msgstr ""
+
+#: modules/upload.module:28
 msgid "Allows users to upload and attach files to content."
 msgstr "מאפשר לחברים לטעון קבצים ולצרף אותם לתוכן."
 
-#: modules/upload.module:17
-msgid "<p>Users with the <a href=\"%permissions\">upload files permission</a> can upload attachments. You can choose which post types can take attachments on the <a href=\"%types\">content types settings</a> page.</p>"
+#: modules/upload.module:30
+msgid ""
+"<p>Users with the <a href=\"%permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"%permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"%types\">content types "
+"settings</a> page.</p>"
 msgstr ""
 
-#: modules/upload.module:43
+#: modules/upload.module:56
 msgid "Read full article to view attachments."
-msgstr "יש לקרוא את כתבה בשלמותה להצגת הקבצים המצורפים אליה."
+msgstr ""
 
-#: modules/upload.module:58
-msgid "uploads"
-msgstr "קבצים שהתקבלו"
-
-#: modules/upload.module:86
-msgid "Maximum total file size"
-msgstr "ערך מירבי של גודל קובץ"
-
-#: modules/upload.module:86
-msgid "The maximum size of a file a user can upload in megabytes. Enter 0 for unlimited."
-msgstr "גודל קובץ מירבי שניתן לקבל ממשתמש רשום בבמערכת ב MB . להסרת ההגבלה חש להזין 0."
-
-#: modules/upload.module:87
+#: modules/upload.module:107
 msgid "Maximum resolution for uploaded images"
-msgstr "רמת הפרדה מירבית לתמונות שתתקבלנה."
+msgstr ""
 
-#: modules/upload.module:87
-msgid "The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set to 0 for no restriction."
-msgstr "גודל קובץ תמונה מירבי מורשה יחושב כגובה כפול רוחב. (לדוגמה:  640X480 ) . להסרת ההגבלה יש להזין 0."
+#: modules/upload.module:108
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr ""
 
-#: modules/upload.module:94
-msgid "Permitted file extensions"
-msgstr "סיומות קבצים מורשות"
+#: modules/upload.module:111
+msgid "List files by default"
+msgstr ""
 
-#: modules/upload.module:94
-msgid "Extensions that users in this role can upload. Separate extensions with a space and do not include the leading dot."
-msgstr "סיומות קבצים שיכולים להתקבל במערכת ממשתמשים רשומים בעלי תפקיד זה. יש להפריד סיומות אחת מהשניה בעזרת התו 'רווח' ולא להשתמש בתו נקודה לפני הסיומת."
+#: modules/upload.module:114
+msgid ""
+"Set whether files attached to nodes are listed or not in the node view by "
+"default."
+msgstr ""
 
-#: modules/upload.module:95
-msgid "Maximum file size per upload"
-msgstr "גודל קובץ מירבי בכל קבלה"
-
-#: modules/upload.module:95
-msgid "The maximum size of a file a user can upload (in megabytes)."
-msgstr "גודל קובץ מירבי שיכולה המערכת לקבל ממשתמש רשום. (מחושב ב MB)"
-
-#: modules/upload.module:96
-msgid "Total file size per user"
-msgstr "סה''כ נפח הקבצים של כל משתמש רשום"
-
-#: modules/upload.module:96
-msgid "The maximum size of all files a user can have on the site (in megabytes)."
-msgstr "סה''כ נפח כל הקבצים שיכול משתמש רשום להחזיק במערכת (מחושב ב MB)"
-
-#: modules/upload.module:97
+#: modules/upload.module:120
 msgid "Settings for %role"
-msgstr "הגדרות עבור %role"
+msgstr ""
 
-#: modules/upload.module:132;386
+#: modules/upload.module:122
+msgid "Permitted file extensions"
+msgstr ""
+
+#: modules/upload.module:123
+msgid ""
+"Extensions that users in this role can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+
+#: modules/upload.module:126
+msgid "Maximum file size per upload"
+msgstr ""
+
+#: modules/upload.module:127
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr ""
+
+#: modules/upload.module:130
+msgid "Total file size per user"
+msgstr ""
+
+#: modules/upload.module:131
+msgid "The maximum size of all files a user can have on the site (in megabytes)."
+msgstr ""
+
+#: modules/upload.module:234
 msgid "Attachments"
 msgstr "קבצים מצורפים"
 
-#: modules/upload.module:172
-msgid "Error attaching file %name: total file size exceeded"
-msgstr "שגיאה בעת צרוף קובץ %name : חריגה מגודל קובץ מרבי."
+#: modules/upload.module:247
+msgid "File attachments"
+msgstr "קבצים מצורפים"
 
-#: modules/upload.module:210
-msgid "Error attaching file %name: invalid extension"
-msgstr "שגיאה בעת צרוף קובץ %name : סיומת קובץ לא תקינה"
+#: modules/upload.module:250
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr "שינויים הנעשים בקבצים המצורפים אינם קבועים עד שההודעה איננה נשמרת. הקובץ הראשון ברשימה יופיע בקישור ה-RSS."
 
-#: modules/upload.module:213;216
-msgid "Error attaching file %name: exceeds maximum file size"
-msgstr "שגיאה בעת צרוף קובץ %name : חריגה מגודל קובץ מרבי"
+#: modules/upload.module:315
+msgid ""
+"The selected file %name can not be attached to this post, because it is only "
+"possible to attach files with the following extensions: %files-allowed."
+msgstr ""
 
-#: modules/upload.module:242
+#: modules/upload.module:319
+msgid ""
+"The selected file %name can not be attached to this post, because it "
+"exceeded the maximum filesize of %maxsize."
+msgstr ""
+
+#: modules/upload.module:323
+msgid ""
+"The selected file %name can not be attached to this post, because the disk "
+"quota of %quota has been reached."
+msgstr ""
+
+#: modules/upload.module:327
+msgid ""
+"The selected file %name can not be attached to this post, because the "
+"filename is too long."
+msgstr ""
+
+#: modules/upload.module:442
 msgid "Attachment"
 msgstr "קובץ מצורף"
 
-#: modules/upload.module:242;364
+#: modules/upload.module:442;673
 msgid "Size"
 msgstr "גודל"
 
-#: modules/upload.module:364
-msgid "List"
-msgstr "רשימה"
+#: modules/upload.module:524
+msgid "Your filename has been renamed to conform to site policy."
+msgstr "שם הקובץ שלך שונה על מנת להתאים למדיניות האתר."
 
-#: modules/upload.module:382
+#: modules/upload.module:658
 msgid "Attach new file"
-msgstr "צרוף קובץ חדש"
+msgstr "צרף קובץ חדש"
 
-#: modules/upload.module:383
+#: modules/upload.module:659
 msgid "Attach"
-msgstr "צרפו קובץ"
+msgstr "צרף"
 
-#: modules/upload.module:386
-msgid "Changes made to the attachments are not permanent until you save this post.  The first \"listed\" file will be included in RSS feeds."
-msgstr "השינויים בקובץ המצורף לא יקבעו עד לשמירת הפרסום הנוכחי. הקובץ המצורף הראשון ב'רשימת הקבצים המצורפים' יכלל ברשימת ה RSS ."
+#: modules/upload.module:673
+msgid "List"
+msgstr ""
 
-#: modules/upload.module:415
-msgid "Your image was resized to fit within the maximum allowed resolution of %resolution pixels."
+#: modules/upload.module:723
+#, fuzzy
+msgid ""
+"The image was resized to fit within the maximum allowed resolution of %"
+"resolution pixels."
 msgstr "התמונה שהתקבלה הותאמה לגודל חדש לפי הגודל המרבי המותר %resolution ."
 
-#: modules/upload.module:43;293
+#: modules/upload.module:56;409
 msgid "1 attachment"
 msgid_plural "%count attachments"
-msgstr[0] "קובץ אחד מצורף"
-msgstr[1] "%count קבצים מצורפים"
+msgstr[0] ""
+msgstr[1] ""
 
-#: modules/upload.module:25
+#: modules/upload.module:38
 msgid "upload files"
-msgstr "קבלת קבצים"
+msgstr ""
 
-#: modules/upload.module:25
+#: modules/upload.module:38
 msgid "view uploaded files"
-msgstr "הצגת הקבצים שהתקבלו"
+msgstr ""
 
 #: modules/upload.module:0
 msgid "upload"
-msgstr "קבלה"
+msgstr ""
 

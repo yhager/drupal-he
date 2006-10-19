@@ -1,81 +1,149 @@
-# translation of throttle-module.po to Hebrew
-# LANGUAGE translation of Drupal (modules/throttle.module)
-# Generated from file: throttle.module,v 1.48.2.2 2005/06/01 19:40:01 unconed
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: throttle-module\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-21 22:23+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: Hebrew\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.10.2\n"
 
-#: modules/throttle.module:101
-msgid "'%value' is not a valid auto-throttle setting.  Please enter a positive numeric value."
+#: modules/throttle.module:96
+msgid ""
+"'%value' is not a valid auto-throttle setting.  Please enter a positive "
+"numeric value."
 msgstr ""
 
-#: modules/throttle.module:112
+#: modules/throttle.module:107
+#, fuzzy
+msgid ""
+"The throttle module provides a congestion control throttling mechanism for "
+"automatically detecting a surge in incoming traffic. If the site gets linked "
+"to by a popular website, or otherwise comes under a \"Denial of Service"
+"\" (DoS) attack, your webserver might become overwhelmed. This mechanism is "
+"utilized by other modules to automatically optimize their performance by "
+"temporarily disabling CPU-intensive functionality.  For example, in the site "
+"theme, you might choose to disable pictures when the site is too busy "
+"(reducing bandwidth), or in modules, you might choose to disable some "
+"complicated logic (reducing CPU utilization)."
+msgstr ""
+"אם האתר שלך הומלץ על ידי אתר מבוקש, או מותקף על ידי מתקפת \"הכחשת שירות"
+"\" (DoS), השרת שלך יכול להיות עמוס מדי. רכיב זה מספק מנגנון לזיהוי אוטומטי "
+"של הצפה בתנועה נכנסת. המנגנון נמצא בשימוש על רכיבים אחרים של דרופל כדי לאפשר "
+"שיפור אוטומטי של הביצועים שלהם. הדבר מתבצע על ידי ביטול זמני של תפקודים "
+"זוללי עוצמת מחשוב. כדי להשתמש במצערת האוטומטית, חובה להפעיל את יומן הפעילות, "
+"הרושם את העמודים הנצפים במערכת. מומלץ לקרוא בקפידה את ההסברים שלמטה, ואחר כך "
+"להתאים ההגדרות בהתאם לדרישות האתר וליכולת השרת. "
+
+#: modules/throttle.module:108
+msgid ""
+"The congestion control throttle can be automatically enabled when the number "
+"of anonymous or authenticated users currently visiting the site exceeds the "
+"specified threshold. "
+msgstr ""
+
+#: modules/throttle.module:109
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>enable throttle for modules at <a href=\"%admin-modules\">administer &gt;"
+"&gt; module</a>.</li>\n"
+"<li>enable throttle for blocks at <a href=\"%admin-block\">administer &gt;"
+"&gt; block</a>.</li>\n"
+"<li>administer throttle at <a href=\"%admin-settings-throttle\">administer "
+"&gt;&gt; settings &gt;&gt; throttle</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/throttle.module:116
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%throttle\">Throttle page</a>."
+msgstr ""
+
+#: modules/throttle.module:119
 msgid "Handles the auto-throttling mechanism, to control site congestion."
 msgstr "ניהול מנגנון המצערת האוטומטית, המאפשר לשלוט בעומס באתר."
 
-#: modules/throttle.module:114
-msgid "If your site gets linked to by a popular website, or otherwise comes under a \"Denial of Service\" (DoS) attack, your webserver might become overwhelmed.  This module provides a congestion control throttling mechanism for automatically detecting a surge in incoming traffic.  This mechanism is utilized by other Drupal modules to automatically optimize their performance by temporarily disabling CPU-intensive functionality."
+#: modules/throttle.module:121
+msgid ""
+"If your site gets linked to by a popular website, or otherwise comes under a "
+"\"Denial of Service\" (DoS) attack, your webserver might become "
+"overwhelmed.  This module provides a congestion control throttling mechanism "
+"for automatically detecting a surge in incoming traffic.  This mechanism is "
+"utilized by other Drupal modules to automatically optimize their performance "
+"by temporarily disabling CPU-intensive functionality."
 msgstr ""
 
-#: modules/throttle.module:125
+#: modules/throttle.module:135
 msgid "Auto-throttle on anonymous users"
 msgstr "מצערת אוטומטית עבור משתמשים שאינם מזוהים"
 
-#: modules/throttle.module:125
-msgid "The congestion control throttle can be automatically enabled when the number of anonymous users currently visiting your site exceeds the specified threshold.  For example, to start the throttle when your site has 250 anonymous users online at once, enter '250' in this field. Leave this value blank or set to \"0\" if you do not wish to auto-throttle on anonymous users.  You can inspect the current number of anonymous users using the \"Who's online\" block."
+#: modules/throttle.module:139
+msgid ""
+"The congestion control throttle can be automatically enabled when the number "
+"of anonymous users currently visiting your site exceeds the specified "
+"threshold.  For example, to start the throttle when your site has 250 "
+"anonymous users online at once, enter '250' in this field. Leave this value "
+"blank or set to \"0\" if you do not wish to auto-throttle on anonymous "
+"users.  You can inspect the current number of anonymous users using the "
+"\"Who's online\" block."
 msgstr ""
 
-#: modules/throttle.module:126
+#: modules/throttle.module:143
 msgid "Auto-throttle on authenticated users"
 msgstr "מצערת אוטומטית עבור משתמשים מזוהים"
 
-#: modules/throttle.module:126
-msgid "The congestion control throttle can be automatically enabled when the number of authenticated users currently visiting your site exceeds the specified threshold.  For example, to start the throttle when your site has 50 registered users online at once, enter '50' in this field. Leave this value blank or set to \"0\" if you do not wish to auto-throttle on authenticated users.  You can inspect the current number of authenticated users using the \"Who's online\" block."
+#: modules/throttle.module:147
+msgid ""
+"The congestion control throttle can be automatically enabled when the number "
+"of authenticated users currently visiting your site exceeds the specified "
+"threshold.  For example, to start the throttle when your site has 50 "
+"registered users online at once, enter '50' in this field. Leave this value "
+"blank or set to \"0\" if you do not wish to auto-throttle on authenticated "
+"users.  You can inspect the current number of authenticated users using the "
+"\"Who's online\" block."
 msgstr ""
 
-#: modules/throttle.module:128
+#: modules/throttle.module:151
 msgid "Auto-throttle probability limiter"
 msgstr "הגבלת הסתברות להפעלת מצערת אוטומטית"
 
-#: modules/throttle.module:128
-msgid "The auto-throttle probability limiter is an efficiency mechanism to statistically reduce the overhead of the auto-throttle.  The limiter is expressed as a percentage of page views, so for example if set to the default of 10% we only perform the extra database queries to update the throttle status 1 out of every 10 page views.  The busier your site, the lower you should set the limiter value."
+#: modules/throttle.module:154
+msgid ""
+"The auto-throttle probability limiter is an efficiency mechanism to "
+"statistically reduce the overhead of the auto-throttle.  The limiter is "
+"expressed as a percentage of page views, so for example if set to the "
+"default of 10% we only perform the extra database queries to update the "
+"throttle status 1 out of every 10 page views.  The busier your site, the "
+"lower you should set the limiter value."
 msgstr ""
 
-#: modules/throttle.module:130
-msgid "Auto-throttle tuning"
-msgstr "כוונון הגדרות מצערת אוטומטית"
-
-#: modules/throttle.module:93;0
+#: modules/throttle.module:88;0
 msgid "throttle"
 msgstr "מצערת"
 
-#: modules/throttle.module:70
+#: modules/throttle.module:65
+#, fuzzy
 msgid "1 user accessing site; throttle enabled."
 msgid_plural "%count users accessing site; throttle enabled."
 msgstr[0] "משתמש אחד פעיל באתר; המצערת פועלת."
-msgstr[1] "%count משתמשים פעילים באתר; המצערת פועלת."
+msgstr[1] "משתמש אחד פעיל באתר; המצערת פועלת."
 
-#: modules/throttle.module:78
+#: modules/throttle.module:73
+#, fuzzy
 msgid "1 guest accessing site; throttle enabled."
 msgid_plural "%count guests accessing site; throttle enabled."
 msgstr[0] "משתמש אורח אחד פעיל באתר; המצערת פועלת."
-msgstr[1] "%count משתמשים אורחים פעילים באתר; המצערת פועלת."
+msgstr[1] "משתמש אורח אחד פעיל באתר; המצערת פועלת."
 
-#: modules/throttle.module:88
+#: modules/throttle.module:83
+#, fuzzy
 msgid "1 guest accessing site; throttle disabled"
 msgid_plural "%count guests accessing site; throttle disabled"
 msgstr[0] "משתמש אורח אחד פעיל באתר;המצערת לא פעילה."
-msgstr[1] "%count משתמשים אורחים פעילים באתר; המצערת לא פעילה."
-
+msgstr[1] "משתמש אורח אחד פעיל באתר;המצערת לא פעילה."

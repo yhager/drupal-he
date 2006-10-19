@@ -1,153 +1,193 @@
-# translation of poll-module.po to 
-# LANGUAGE translation of Drupal (modules/poll.module)
-# Generated from file: poll.module,v 1.162.2.1 2005/05/31 21:13:39 unconed
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: poll-module\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-18 00:00+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: \n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.2beta3\n"
 
 #: modules/poll.module:16
-msgid "\n      <p>Users with the correct <a href=\"%permissions\">permissions</a> can create and/or vote on polls.</p>\n      <ul>\n      <li>To create a poll a user needs the \"create polls\" permission.</li>\n      <li>To vote on a poll question a user must have the \"vote on polls\" permission.</li>\n      <li>To view the results one needs the \"access content\" permission.</li>\n      <li>To administer polls you need the \"administer nodes\" permission.</li>\n      </ul>\n      <p>Creating a poll is much like creating any other node. Click \"create poll\" in your user box. The title of the poll should be the question, then enter the answers and the \"base\" vote counts. You can also choose the time period over which the vote will run.</p><p>The <a href=\"%poll\">Poll</a> item in the navigation links will take you to a page where you can see all the current polls, vote on them (if you haven't already) and view the results.</p>"
+msgid ""
+"The poll module can be used to create simple polls for site users.  A poll "
+"is a simple multiple choice questionnaire which displays the cumulative "
+"results of the answers to the poll.  Having polls on the site is a good way "
+"to get instant feedback from community members."
 msgstr ""
 
-#: modules/poll.module:26
-msgid "Allows your site to capture votes on different topics in the form of multiple choice questions."
+#: modules/poll.module:17
+msgid ""
+"Users can create a poll. The title of the poll should be the question, then "
+"enter the answers and the \"base\" vote counts. You can also choose the time "
+"period over which the vote will run.The <a href=\"%poll\">poll</a> item in "
+"the navigation menu will take you to a page where you can see all the "
+"current polls, vote on them (if you haven't already) and view the results."
+msgstr ""
+
+#: modules/poll.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view the <a href=\"%poll\">polls page</a>.</li>\n"
+"<li><a href=\"%admin-node-configure-types-poll\">administer &gt;&gt; "
+"settings &gt;&gt; content types &gt;&gt; configure poll</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/poll.module:24
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%poll\">Poll page</a>."
+msgstr ""
+
+#: modules/poll.module:27
+msgid ""
+"Allows your site to capture votes on different topics in the form of "
+"multiple choice questions."
 msgstr "מאפשר לאתר להציג סקרים בנושאים שונים בצורה של שאלות רב-ברירה."
 
-#: modules/poll.module:28
+#: modules/poll.module:29
 msgid "A poll is a multiple-choice question which visitors can vote on."
-msgstr "סקר הוא שאלה בעלת מספר תשובות שעליה מבקרי האתר יכולים להצביע."
+msgstr "סקר הוא שאלת רב-ברירה שעליה מבקרי האתר יכולים להצביע."
 
-#: modules/poll.module:49
+#: modules/poll.module:50
 msgid "Most recent poll"
 msgstr "סקר אחרון"
 
-#: modules/poll.module:64
+#: modules/poll.module:65
 msgid "Poll"
 msgstr "סקר"
 
-#: modules/poll.module:105
+#: modules/poll.module:116
 msgid "Negative values are not allowed."
 msgstr "ערכים שליליים אינם מורשים."
 
-#: modules/poll.module:110
+#: modules/poll.module:121
 msgid "You must fill in at least two choices."
 msgstr "יש למלא לפחות שתי ברירות."
 
-#: modules/poll.module:141
-msgid "Choice %n"
-msgstr "ברירה %n"
+#: modules/poll.module:132
+#, fuzzy
+msgid "Question"
+msgstr "תיאור"
 
-#: modules/poll.module:143
-msgid "Votes for choice %n"
-msgstr "קולות עבור ברירה %n"
-
-#: modules/poll.module:147
+#: modules/poll.module:135
 msgid "Need more choices"
 msgstr "צריך ברירות נוספות"
 
-#: modules/poll.module:147
-msgid "If the amount of boxes above isn't enough, check this box and click the Preview button below to add some more."
+#: modules/poll.module:135
+msgid ""
+"If the amount of boxes above isn't enough, check this box and click the "
+"Preview button below to add some more."
 msgstr ""
-"אם כמות הברירות שלמעלה אינה מספיקה, "
-"אפשר להציג ברירות נוספות על ידי סימון "
-"תיבה זו ולחיצה על כפתור \"תצוגה "
-"מקדימה\"."
+"אם כמות הברירות שלמעלה אינה מספיקה, אפשר להציג ברירות נוספות על ידי סימון "
+"תיבה זו ולחיצה על כפתור \"תצוגה מקדימה\"."
 
-#: modules/poll.module:148
+#: modules/poll.module:146
 msgid "Choices"
 msgstr "ברירות"
 
-#: modules/poll.module:153
+#: modules/poll.module:148
+msgid "Choice %n"
+msgstr "ברירה %n"
+
+#: modules/poll.module:150
+msgid "Votes for choice %n"
+msgstr "קולות עבור ברירה %n"
+
+#: modules/poll.module:156
 msgid "Closed"
-msgstr "הסתיים"
+msgstr "סגור"
 
-#: modules/poll.module:156
-msgid "Poll status"
-msgstr "מצב סקר"
-
-#: modules/poll.module:156
-msgid "When a poll is closed, visitors can no longer vote for it."
-msgstr "כשסקר הסתיים, אי אפשר להצביע עליו יותר."
-
-#: modules/poll.module:158
-msgid "Poll duration"
-msgstr "משך סקר"
-
-#: modules/poll.module:158
-msgid "After this period, the poll will be closed automatically."
-msgstr "לאחר תקופה זו, הסקר ייסגר באופן עצמאי."
-
-#: modules/poll.module:160
+#: modules/poll.module:159
 msgid "Settings"
 msgstr "הגדרות"
 
-#: modules/poll.module:191;264;0
+#: modules/poll.module:160
+msgid "Poll status"
+msgstr "מצב סקר"
+
+#: modules/poll.module:160
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "כשסקר נסגר, אי אפשר יותר להצביע עליו."
+
+#: modules/poll.module:162
+msgid "Poll duration"
+msgstr "משך סקר"
+
+#: modules/poll.module:162
+msgid "After this period, the poll will be closed automatically."
+msgstr "לאחר תקופה זו, הסקר ייסגר אוטומטית."
+
+#: modules/poll.module:192;254;0
 msgid "poll"
 msgstr "סקר"
 
-#: modules/poll.module:193
+#: modules/poll.module:194
 msgid "polls"
 msgstr "סקרים"
 
-#: modules/poll.module:274
+#: modules/poll.module:200
+msgid "vote"
+msgstr "הצבעה"
+
+#: modules/poll.module:264
 msgid "open"
 msgstr "פתוח"
 
-#: modules/poll.module:274
+#: modules/poll.module:264
 msgid "closed"
-msgstr "הסתיים"
+msgstr "סגור"
 
-#: modules/poll.module:352
-msgid "Total votes"
-msgstr "סה''כ קולות"
+#: modules/poll.module:295;307
+msgid "Vote"
+msgstr "הצבע"
 
-#: modules/poll.module:390
+#: modules/poll.module:355;362
+#, fuzzy
+msgid "Total votes: %votes"
+msgstr "סה\"כ קולות"
+
+#: modules/poll.module:424
 msgid "Your vote was recorded."
-msgstr "ההצבעה נשמרה."
+msgstr "הצבעתך נשמרה."
 
-#: modules/poll.module:393
+#: modules/poll.module:427
 msgid "You're not allowed to vote on this poll."
 msgstr "אינכם מורשים להצביעה בסקר זה."
 
-#: modules/poll.module:397
+#: modules/poll.module:431
 msgid "You didn't specify a valid poll choice."
 msgstr "לא צויינה אפשרות בחירה תקינה."
 
-#: modules/poll.module:431
+#: modules/poll.module:458
 msgid "older polls"
 msgstr "סקרים קודמים"
 
-#: modules/poll.module:431
+#: modules/poll.module:458
 msgid "View the list of polls on this site."
-msgstr "הצגת רשימת הסקרים באתר."
+msgstr "הצג את רשימת הסקרים באתר."
 
-#: modules/poll.module:433
+#: modules/poll.module:460
 msgid "View the current poll results."
-msgstr "הצגת תוצאות הסקר הנוכחי."
+msgstr "הצג את תוצאות הסקר הנוכחי."
 
-#: modules/poll.module:274;349
+#: modules/poll.module:264;341
+#, fuzzy
 msgid "1 vote"
 msgid_plural "%count votes"
 msgstr[0] "קול אחד"
 msgstr[1] "קול אחד"
 
-#: modules/poll.module:285
+#: modules/poll.module:275
 msgid "create polls"
 msgstr "יצירת סקרים"
 
-#: modules/poll.module:285
+#: modules/poll.module:275
 msgid "vote on polls"
 msgstr "הצבעה על סקרים"
-
