@@ -1,706 +1,1095 @@
 # translation of general.po to Hebrew
-# translation of general.po to
-# translation of general.po to
-# translation of general.po to
-# translation of general.po to
-# translation of general.po to
-# LANGUAGE translation of Drupal (general)
-# Generated from files:
-#  common.inc,v 1.434.2.9 2005/06/05 19:11:02 unconed
-#  aggregator.module,v 1.233.2.5 2005/06/01 04:04:02 unconed
-#  blogapi.module,v 1.39.2.5 2005/06/06 19:01:31 dries
-#  book.module,v 1.288.2.7 2005/06/22 20:24:35 dries
-#  comment.module,v 1.347.2.5 2005/06/29 19:53:35 dries
-#  legacy.module,v 1.5 2005/02/12 09:23:06 dries
-#  node.module,v 1.485.2.9 2005/06/29 19:53:35 dries
-#  user.module,v 1.454.2.13 2005/06/01 20:16:04 dries
-#  image.inc,v 1.4.2.1 2005/06/19 08:59:31 dries
-#  file.inc,v 1.39.2.4 2005/05/18 05:17:56 dries
-#  locale.inc,v 1.42.2.1 2005/04/25 17:57:42 dries
-#  block.module,v 1.162.2.3 2005/05/22 12:50:09 dries
-#  drupal.module,v 1.100.2.1 2005/05/18 21:13:52 unconed
-#  filter.module,v 1.57.2.6 2005/06/29 19:53:35 dries
-#  queue.module,v 1.128.2.1 2005/04/11 16:42:48 dries
-#  statistics.module,v 1.186.2.5 2005/05/31 21:13:39 unconed
-#  system.module,v 1.204.2.3 2005/06/01 04:17:17 unconed
-#  upload.module,v 1.31.2.5 2005/05/25 04:28:59 unconed
-#  forum.module,v 1.243.2.10 2005/06/19 08:44:25 dries
-#  menu.module,v 1.29 2005/03/31 21:18:08 dries
-#  path.module,v 1.56.2.1 2005/06/19 19:28:08 dries
-#  profile.module,v 1.90.2.2 2005/06/01 04:30:07 unconed
-#  taxonomy.module,v 1.192.2.5 2005/05/31 21:13:40 unconed
-#  watchdog.module,v 1.121 2005/01/26 23:02:44 dries
-#  locale.module,v 1.120.2.1 2005/05/03 05:22:41 dries
-#  search.module,v 1.123.2.2 2005/04/23 07:34:42 unconed
-#  xtemplate.engine,v 1.12 2005/03/31 09:25:33 unconed
-#  menu.inc,v 1.79.2.1 2005/06/05 09:47:51 dries
-#  theme.inc,v 1.228.2.7 2005/06/19 08:59:31 dries
-#  blog.module,v 1.213.2.2 2005/05/31 21:13:38 unconed
-#  tracker.module,v 1.114.2.1 2005/05/14 17:13:30 dries
-#  archive.module,v 1.79 2005/04/01 15:54:58 dries
-#  throttle.module,v 1.48.2.2 2005/06/01 19:40:01 unconed
-#  page.module,v 1.132 2005/02/08 19:44:39 dries
-#  story.module,v 1.167 2005/04/01 15:55:01 dries
-#  contact.module,v 1.6.2.1 2005/04/11 11:06:13 unconed
-#  poll.module,v 1.162.2.1 2005/05/31 21:13:39 unconed
-#  ping.module,v 1.29 2005/04/01 15:55:00 dries
-#  help.module,v 1.45 2005/04/01 15:55:00 dries
-#  cron.php,v 1.28 2005/01/09 09:22:38 dries
-#  pager.inc,v 1.42 2005/03/31 09:25:33 unconed
-#  tablesort.inc,v 1.32 2005/03/31 09:25:33 unconed
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
-#
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Amnon Levav <amnon@levavie.com>, 2006
+# Haggai Eran <haggai.eran@gmail.com>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-23 13:46+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-15 02:46+0200\n"
+"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
 "Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: includes/common.inc:225 modules/aggregator.module:144;160 modules/blogapi.module:158;220 modules/book.module:688 modules/comment.module:140;545;648 modules/legacy.module:45;51;57 modules/node.module:674;678;977;1542;1551 modules/user.module:712
-msgid "view"
-msgstr "תצוגה"
-
-#: includes/common.inc:931 modules/user.module:601
-msgid "View user profile."
-msgstr "תצוגת פרופיל משתמש."
-
-#: includes/common.inc:387;1651;1684 includes/image.inc:61
+#: database/updates.inc:1229;1459 includes/common.inc:503
+#: includes/image.inc:61 includes/unicode.inc:131;164
 msgid "php"
-msgstr "php"
+msgstr ""
 
-#: includes/common.inc:639 includes/file.inc:376;420 modules/user.module:978;1148
+#: database/updates.inc:1729 modules/legacy.module:0
+msgid "legacy"
+msgstr "גרסאות קודמות"
+
+#: includes/common.inc:281 modules/system.module:475
+msgid ""
+"%site is currently under maintenance. We should be back shortly. Thank you "
+"for your patience."
+msgstr ""
+
+#: includes/common.inc:281 modules/system.module:475
+msgid "This Drupal site"
+msgstr ""
+
+#: includes/common.inc:317 modules/aggregator.module:123;144;385;518
+#: modules/blogapi.module:233;287 modules/book.module:892;968
+#: modules/comment.module:140;566;639;1014 modules/contact.module:231;237
+#: modules/filter.module:110 modules/legacy.module:61;67;73
+#: modules/menu.module:529 modules/node.module:865;869;1838;1847
+#: modules/profile.module:326;363 modules/user.module:793
+msgid "view"
+msgstr "הצג"
+
+#: includes/file.inc:123 modules/user.module:1223;1425
 msgid "security"
 msgstr "אבטחה"
 
-#: includes/locale.inc:43 modules/block.module:186 modules/comment.module:318 modules/drupal.module:46 modules/filter.module:424 modules/queue.module:28 modules/statistics.module:334;341;342 modules/system.module:209;228;282;448;469 modules/upload.module:132 modules/user.module:1295
-msgid "Enabled"
-msgstr "פעיל"
+#: includes/form.inc:228;234 modules/filter.module:846
+msgid "An illegal choice has been detected. Please contact the site administrator."
+msgstr "בחירה לא חוקית זוהתה בטופס. אנא פנו למנהל האתר."
 
-#: includes/locale.inc:43 modules/filter.module:277 modules/system.module:448
+#: includes/form.inc:229;235 modules/filter.module:847
+msgid "Illegal choice %choice in %name element."
+msgstr "בחירה לא חוקית %choice בשדה %name בטופס."
+
+#: includes/form.inc:229;235 modules/filter.module:847
+msgid "form"
+msgstr "טופס"
+
+#: includes/locale.inc:77 modules/contact.module:287
+#: modules/filter.module:442;549 modules/system.module:745;833;865;957
+msgid "Save configuration"
+msgstr "שמור תצורה"
+
+#: includes/locale.inc:89;1313 modules/block.module:234
+#: modules/book.module:894 modules/comment.module:676
+#: modules/contact.module:141 modules/filter.module:314
+#: modules/menu.module:607;670 modules/node.module:876;1290
+#: modules/path.module:302 modules/profile.module:376
+#: modules/user.module:799;1673
+msgid "delete"
+msgstr "מחק"
+
+#: includes/locale.inc:92 modules/block.module:334 modules/comment.module:413
+#: modules/drupal.module:74 modules/statistics.module:341
+#: modules/system.module:289;336;431;854;975 modules/upload.module:235
+#: modules/user.module:1958
+msgid "Enabled"
+msgstr "מאופשר"
+
+#: includes/locale.inc:92 modules/filter.module:342 modules/system.module:854
 msgid "Default"
 msgstr "ברירת מחדל"
 
-#: includes/locale.inc:43;1046 modules/aggregator.module:705;716 modules/block.module:190 modules/book.module:714;762 modules/comment.module:1017;1155;1209 modules/filter.module:281 modules/forum.module:231 modules/menu.module:370 modules/node.module:908;953;974 modules/path.module:262 modules/profile.module:548 modules/statistics.module:171;200;230 modules/system.module:448 modules/taxonomy.module:347 modules/user.module:1446;1610;1635 modules/watchdog.module:94
+#: includes/locale.inc:92;1305 modules/aggregator.module:967;978
+#: modules/block.module:338 modules/book.module:879;1003
+#: modules/comment.module:966 modules/contact.module:143
+#: modules/filter.module:342 modules/forum.module:573 modules/menu.module:598
+#: modules/node.module:1163;1243;1260 modules/path.module:295
+#: modules/profile.module:382 modules/statistics.module:182;209;237;291
+#: modules/system.module:854 modules/taxonomy.module:142;154
+#: modules/user.module:1668;1894;1914 modules/watchdog.module:108
 msgid "Operations"
-msgstr "פעולות"
+msgstr "פעולות אפשריות"
 
-#: includes/locale.inc:58;1055 modules/block.module:197 modules/book.module:688 modules/comment.module:685;1034 modules/locale.module:87 modules/menu.module:379;435 modules/node.module:685;977;1698 modules/path.module:269 modules/profile.module:542 modules/user.module:717;1161;1451
-msgid "delete"
-msgstr "מחיקה"
+#: includes/locale.inc:327;346 modules/search.module:142;997;1040
+#: modules/user.module:1978
+msgid "Search"
+msgstr "חפש"
 
-#: includes/locale.inc:62 modules/filter.module:436;505 modules/locale.module:264 modules/system.module:510;534;552;578;588;716
-msgid "Save configuration"
-msgstr "שמירת תצורה"
-
-#: includes/locale.inc:74;81 modules/locale.module:343
-msgid "Add language"
-msgstr "הוספת שפה"
-
-#: includes/locale.inc:109 modules/locale.module:380
-msgid "Import"
-msgstr "ייבוא"
-
-#: includes/locale.inc:705;712 modules/locale.module:413
-msgid "Export"
-msgstr "ייצוא"
-
-#: includes/locale.inc:957 modules/locale.module:446
-msgid "Save translations"
-msgstr "שמירת תרגום"
-
-#: includes/locale.inc:1055 modules/aggregator.module:708;719 modules/book.module:688 modules/comment.module:686;691;1033;1158;1212 modules/locale.module:85 modules/menu.module:376;420 modules/node.module:680;917 modules/path.module:269 modules/profile.module:542 modules/user.module:714;882;982;1451;1613;1651
-msgid "edit"
-msgstr "עריכה"
-
-#: includes/locale.inc:1089 modules/locale.module:111
+#: includes/locale.inc:337 modules/locale.module:156
 msgid "Language"
 msgstr "שפה"
 
-#: includes/locale.inc:1092 modules/locale.module:441 modules/node.module:1087 modules/search.module:83;667 modules/user.module:1687 themes/engines/xtemplate/xtemplate.engine:167
-msgid "Search"
-msgstr "חיפוש"
+#: includes/locale.inc:1313 modules/aggregator.module:970;981
+#: modules/book.module:893 modules/comment.module:677;682;978
+#: modules/contact.module:141 modules/menu.module:604;649
+#: modules/node.module:871;1147 modules/path.module:302
+#: modules/profile.module:376 modules/taxonomy.module:167
+#: modules/user.module:796;985;1228;1673;1897;1926
+msgid "edit"
+msgstr "עדכן"
 
-#: includes/locale.inc:33;260;772;793 modules/locale.module:305;394;0
+#: includes/locale.inc:32;264;478;1082;1103 modules/locale.module:351;0
 msgid "locale"
-msgstr "שפה מקומית"
+msgstr "מיקום"
 
-#: includes/menu.inc:467 modules/node.module:1486
+#: includes/menu.inc:537 modules/node.module:1797
+#: themes/bluemarine/page.tpl.php:16;16;17
+#: themes/chameleon/chameleon.theme:45;45
+#: themes/pushbutton/page.tpl.php:18;18;24
 msgid "Home"
-msgstr "ראשי"
+msgstr "בית"
 
-#: includes/menu.inc:758 modules/user.module:473;526
+#: includes/menu.inc:1026 modules/user.module:510;564
 msgid "Navigation"
 msgstr "ניווט"
 
-#: includes/theme.inc:906 modules/menu.module:206 modules/node.module:773;1592 modules/user.module:1404
-msgid "This action cannot be undone."
-msgstr "לא ניתן לבטל פעולה זו."
+#: includes/pager.inc:390 modules/book.module:517
+msgid "Go to previous page"
+msgstr "לעמוד הקודם"
 
-#: includes/theme.inc:915 modules/filter.module:404 modules/forum.module:139 modules/locale.module:328 modules/node.module:775;1594 modules/taxonomy.module:182;337 modules/user.module:1406
-msgid "Cancel"
-msgstr "ביטול"
+#: includes/pager.inc:391 modules/book.module:525
+msgid "Go to next page"
+msgstr "לעמוד הבא"
 
-#: modules/aggregator.module:72 modules/taxonomy.module:213;387
-msgid "none"
-msgstr "חסר"
+#: includes/theme.inc:832 themes/engines/phptemplate/phptemplate.engine:268
+msgid "new"
+msgstr "חדש"
 
-#: modules/aggregator.module:121 modules/block.module:60 modules/comment.module:98 modules/filter.module:227 modules/forum.module:427 modules/locale.module:66 modules/menu.module:36 modules/node.module:641 modules/path.module:83 modules/system.module:82 modules/taxonomy.module:58 modules/user.module:653;675
+#: includes/theme.inc:969 modules/user.module:634
+msgid "View user profile."
+msgstr "הצג מידע נוסף על החבר."
+
+#: modules/aggregator.module:60 modules/contact.module:64
+msgid "add category"
+msgstr "הוסף נושא"
+
+#: modules/aggregator.module:75 modules/block.module:71 modules/book.module:94
+#: modules/comment.module:108 modules/contact.module:58
+#: modules/filter.module:72 modules/forum.module:64 modules/locale.module:82
+#: modules/menu.module:57 modules/node.module:830 modules/path.module:64
+#: modules/system.module:113 modules/taxonomy.module:60;104
+#: modules/user.module:723;746
 msgid "list"
 msgstr "רשימה"
 
-#: modules/aggregator.module:135 modules/taxonomy.module:54
+#: modules/aggregator.module:89 modules/contact.module:52
+#: modules/taxonomy.module:55
 msgid "categories"
-msgstr "סווגים"
+msgstr "נושאים"
 
-#: modules/aggregator.module:149;165 modules/block.module:212 modules/comment.module:100 modules/filter.module:233;296 modules/forum.module:436 modules/node.module:643;957 modules/system.module:86;440 modules/user.module:658
+#: modules/aggregator.module:132;153 modules/block.module:232
+#: modules/comment.module:110 modules/filter.module:118;313
+#: modules/forum.module:79 modules/node.module:1247
+#: modules/system.module:117;823
 msgid "configure"
-msgstr "מאפיינים"
+msgstr "הגדר"
 
-#: modules/aggregator.module:236;244;970;1019 modules/blog.module:281 modules/forum.module:352
+#: modules/aggregator.module:195 modules/system.module:341
+#: modules/taxonomy.module:375;545
+msgid "none"
+msgstr "ללא"
+
+#: modules/aggregator.module:199 modules/filter.module:157;159;1018
+msgid "Allowed HTML tags"
+msgstr "תגי HTML מותרים"
+
+#: modules/aggregator.module:287;295;1148;1248 modules/blog.module:297
+#: modules/forum.module:283
 msgid "more"
-msgstr "יותר"
+msgstr "עוד"
 
-#: modules/aggregator.module:599;632;705;716 modules/book.module:714;762 modules/filter.module:100 modules/menu.module:272 modules/node.module:908;1319 modules/profile.module:510;548
+#: modules/aggregator.module:314;418;967;978 modules/blog.module:224
+#: modules/book.module:251;879 modules/filter.module:197
+#: modules/menu.module:195;316;351 modules/node.module:1163
+#: modules/page.module:87 modules/profile.module:219;382
+#: modules/statistics.module:162 modules/story.module:81
 msgid "Title"
 msgstr "כותרת"
 
-#: modules/aggregator.module:600 modules/filter.module:424 modules/forum.module:151;173 modules/menu.module:281 modules/system.module:469 modules/taxonomy.module:102;192
+#: modules/aggregator.module:320 modules/forum.module:447;492
+#: modules/menu.module:201;357 modules/system.module:975
+#: modules/taxonomy.module:197;354 modules/upload.module:673
 msgid "Description"
-msgstr "תאור"
+msgstr "תיאור"
 
-#: modules/aggregator.module:601;649;728;781;811 modules/comment.module:919;948 modules/forum.module:96;157;179 modules/menu.module:140;235;307 modules/node.module:1349;1679;1689 modules/taxonomy.module:110;219;1019 modules/user.module:1142;1183
+#: modules/aggregator.module:323;337;454;468 modules/contact.module:188
+#: modules/forum.module:463;505 modules/menu.module:326;405
+#: modules/node.module:1652 modules/taxonomy.module:255;392
+#: modules/user.module:1410
 msgid "Submit"
-msgstr "עדכון"
+msgstr "הגש"
 
-#: modules/aggregator.module:604;651;741;778;808 modules/block.module:347 modules/comment.module:983 modules/filter.module:403 modules/forum.module:88;138;159;181 modules/locale.module:327 modules/menu.module:189;206 modules/node.module:1353;1593;1694 modules/taxonomy.module:113;181;222;336;1005 modules/upload.module:364 modules/user.module:1159;1176;1185;1405
+#: modules/aggregator.module:326;356;457;489 modules/block.module:487
+#: modules/comment.module:900 modules/contact.module:252
+#: modules/filter.module:361 modules/forum.module:432;466;480;507;555
+#: modules/locale.module:337 modules/menu.module:438
+#: modules/node.module:1654;1876;2041 modules/path.module:108
+#: modules/profile.module:350
+#: modules/taxonomy.module:257;338;395;525;1266;1279 modules/upload.module:673
+#: modules/user.module:1395;1398;1412;1604
 msgid "Delete"
-msgstr "מחיקה"
+msgstr "מחק"
 
-#: modules/aggregator.module:633;1039 modules/profile.module:584
+#: modules/aggregator.module:425 modules/profile.module:781
+#: modules/statistics.module:161
 msgid "URL"
-msgstr "URL"
+msgstr "כתובת URL"
 
-#: modules/aggregator.module:708;1043 modules/comment.module:170 modules/statistics.module:320 modules/tracker.module:107
+#: modules/aggregator.module:970;1268 modules/comment.module:177
+#: modules/statistics.module:328 modules/tracker.module:117
+#: modules/user.module:1925
 msgid "%time ago"
 msgstr "לפני %time"
 
-#: modules/archive.module:106 modules/locale.module:0 modules/system.module:286
+#: modules/aggregator.module:970;970;1271 modules/user.module:1925
+msgid "never"
+msgstr "אף פעם"
+
+#: modules/aggregator.module:1181 modules/node.module:813;1441
+msgid "read more"
+msgstr "הצג את ההמשך"
+
+#: modules/aggregator.module:1194;1194 modules/drupal.module:332
+msgid "Drupal"
+msgstr "דרופל"
+
+#: modules/aggregator.module:1354 modules/taxonomy.module:665
+msgid "Categories"
+msgstr "סיווגים"
+
+#: modules/archive.module:143 modules/locale.module:0
+#: modules/system.module:452
 msgid "Sunday"
-msgstr "יום ראשון"
+msgstr "ראשון"
 
-#: modules/archive.module:106 modules/locale.module:0 modules/system.module:286
+#: modules/archive.module:143 modules/locale.module:0
+#: modules/system.module:452
 msgid "Monday"
-msgstr "יום שני"
+msgstr "שני"
 
-#: modules/archive.module:106 modules/locale.module:0 modules/system.module:286
+#: modules/archive.module:143 modules/locale.module:0
+#: modules/system.module:452
 msgid "Tuesday"
-msgstr "יום שלישי"
+msgstr "שלישי"
 
-#: modules/archive.module:106 modules/locale.module:0 modules/system.module:286
+#: modules/archive.module:143 modules/locale.module:0
+#: modules/system.module:452
 msgid "Wednesday"
-msgstr "יום רביעי"
+msgstr "רביעי"
 
-#: modules/archive.module:106 modules/locale.module:0;0 modules/system.module:286
+#: modules/archive.module:143 modules/locale.module:0;0
+#: modules/system.module:452
 msgid "Thursday"
-msgstr "יום חמישי"
+msgstr "חמישי"
 
-#: modules/archive.module:106 modules/locale.module:0 modules/system.module:286
+#: modules/archive.module:143 modules/locale.module:0
+#: modules/system.module:452
 msgid "Friday"
-msgstr "יום שישי"
+msgstr "שישי"
 
-#: modules/archive.module:106 modules/locale.module:0 modules/system.module:286
+#: modules/archive.module:143 modules/locale.module:0
+#: modules/system.module:452
 msgid "Saturday"
 msgstr "שבת"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "January"
 msgstr "ינואר"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "February"
 msgstr "פברואר"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "March"
 msgstr "מרץ"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "April"
 msgstr "אפריל"
 
-#: modules/archive.module:234 modules/locale.module:0;0
+#: modules/archive.module:256 modules/locale.module:0;0
 msgid "May"
 msgstr "מאי"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "June"
 msgstr "יוני"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "July"
 msgstr "יולי"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "August"
 msgstr "אוגוסט"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "September"
 msgstr "ספטמבר"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "October"
 msgstr "אוקטובר"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "November"
 msgstr "נובמבר"
 
-#: modules/archive.module:234 modules/locale.module:0
+#: modules/archive.module:256 modules/locale.module:0
 msgid "December"
 msgstr "דצמבר"
 
-#: modules/block.module:57 modules/menu.module:65
-msgid "blocks"
-msgstr "יחידות"
+#: modules/block.module:313 modules/comment.module:243;259;413
+#: modules/drupal.module:74 modules/statistics.module:341;427
+#: modules/system.module:289;336;431 modules/taxonomy.module:217
+#: modules/upload.module:235 modules/user.module:1958
+msgid "Disabled"
+msgstr "מבוטל"
 
-#: modules/block.module:186 modules/book.module:235;280;714;762 modules/comment.module:1155;1171 modules/filter.module:497 modules/forum.module:154;176 modules/menu.module:304 modules/profile.module:517 modules/taxonomy.module:109;217
+#: modules/block.module:334 modules/book.module:274;305;879
+#: modules/contact.module:174 modules/filter.module:558
+#: modules/forum.module:454;499 modules/menu.module:220;393
+#: modules/node.module:749 modules/profile.module:244
+#: modules/taxonomy.module:241;379
 msgid "Weight"
 msgstr "משקל"
 
-#: modules/block.module:188 modules/system.module:471 modules/throttle.module:93
+#: modules/block.module:336 modules/system.module:977
+#: modules/throttle.module:88
 msgid "Throttle"
 msgstr "מצערת"
 
-#: modules/block.module:237 modules/comment.module:242;250;318 modules/drupal.module:46 modules/statistics.module:334;341;342;427 modules/system.module:209;228;282 modules/taxonomy.module:106 modules/upload.module:132 modules/user.module:1295
-msgid "Disabled"
-msgstr "לא פעיל"
+#: modules/block.module:487 modules/comment.module:901;1068
+#: modules/contact.module:252 modules/filter.module:361
+#: modules/forum.module:555 modules/locale.module:337
+#: modules/node.module:1207;1876 modules/path.module:108
+#: modules/profile.module:350 modules/search.module:238
+#: modules/system.module:1270 modules/taxonomy.module:339;526
+#: modules/user.module:1395;1605
+msgid "Cancel"
+msgstr "ביטול"
 
-#: modules/blogapi.module:158;220 modules/book.module:744 modules/comment.module:530;545;648;669;998;1613 modules/node.module:556;636;639;660;1542;1551;1585 modules/queue.module:81;87;94;101;108
-msgid "content"
-msgstr "תוכן"
-
-#: modules/blog.module:45 modules/user.module:449
+#: modules/blog.module:49 modules/user.module:483
 msgid "History"
 msgstr "היסטוריה"
 
-#: modules/blog.module:213 modules/book.module:230 modules/forum.module:537 modules/page.module:74 modules/story.module:76
+#: modules/blog.module:225 modules/book.module:257 modules/forum.module:394
+#: modules/page.module:89 modules/story.module:82
 msgid "Body"
 msgstr "תוכן"
 
-#: modules/blog.module:0 modules/legacy.module:39
+#: modules/blog.module:0 modules/legacy.module:55
 msgid "blog"
-msgstr "פסקה"
+msgstr "יומן"
 
-#: modules/book.module:224;279 modules/forum.module:153;175 modules/taxonomy.module:205
+#: modules/blogapi.module:233;287 modules/book.module:968
+#: modules/comment.module:552;566;639;658;1014;1605 modules/forum.module:564
+#: modules/node.module:594;827;847;1317;1342;1838;1847;1916
+#: themes/engines/phptemplate/phptemplate.engine:30
+msgid "content"
+msgstr "תוכן"
+
+#: modules/book.module:242;299 modules/forum.module:452;497
+#: modules/taxonomy.module:367
 msgid "Parent"
 msgstr "אב"
 
-#: modules/book.module:396 modules/node.module:1289;1346;1348;1674;1676
-msgid "Preview"
-msgstr "תצוגה מקדימה"
+#: modules/book.module:266;311 modules/page.module:93
+msgid "Log message"
+msgstr "הודעה ליומן הפעילות"
 
-#: modules/comment.module:111 modules/node.module:647 modules/system.module:102
+#: modules/book.module:269 modules/page.module:94
+msgid ""
+"An explanation of the additions or updates being made to help other authors "
+"understand your motivations."
+msgstr ""
+"הסבר של התוספות או העדכונים שנעשו, כדי לעזור למחברים אחרים להבין את הסיבה "
+"לעדכון."
+
+#: modules/book.module:517 modules/forum.module:1075
+msgid "‹ "
+msgstr ""
+
+#: modules/book.module:525 modules/forum.module:1078
+msgid " ›"
+msgstr ""
+
+#: modules/book.module:968 modules/node.module:1838
+msgid "%type: updated %title."
+msgstr "%type: בוצע עדכון ל-'%title'."
+
+#: modules/comment.module:121 modules/contact.module:83
+#: modules/system.module:135
 msgid "settings"
 msgstr "הגדרות"
 
-#: modules/comment.module:319 modules/node.module:594
+#: modules/comment.module:421 modules/node.module:784
 msgid "Optional"
 msgstr "אפשרי"
 
-#: modules/comment.module:319 modules/node.module:594 modules/taxonomy.module:108
+#: modules/comment.module:421 modules/node.module:784
+#: modules/taxonomy.module:236
 msgid "Required"
 msgstr "נדרש"
 
-#: modules/comment.module:450 modules/node.module:1255
-msgid "The supplied input format is invalid."
-msgstr "תצורת ההזנה שהוזנה אינה תקינה."
+#: modules/comment.module:949 modules/node.module:1129
+msgid "Update options"
+msgstr "אפשרויות עדכון"
 
-#: modules/comment.module:934;1209 modules/filter.module:277;308;424;497 modules/forum.module:231 modules/profile.module:548 modules/system.module:173;200;448;469 modules/taxonomy.module:347 modules/user.module:1610
-msgid "Name"
-msgstr "שם"
+#: modules/comment.module:957 modules/node.module:1138
+msgid "Update"
+msgstr "עדכן"
 
-#: modules/comment.module:935;1394;1399 modules/user.module:1358;1436
-msgid "E-mail"
-msgstr "כתובת דואר אלקטרוני"
-
-#: modules/comment.module:940;1014 modules/node.module:908 modules/queue.module:124 modules/tracker.module:115
-msgid "Author"
-msgstr "מחבר"
-
-#: modules/comment.module:942;1013;1405 modules/contact.module:124 modules/queue.module:124
+#: modules/comment.module:963;1314 modules/contact.module:332;444
+#: modules/forum.module:385
 msgid "Subject"
 msgstr "נושא"
 
-#: modules/comment.module:945;1015 modules/node.module:908 modules/user.module:1049;1632
-msgid "Status"
-msgstr "מצב"
+#: modules/comment.module:964 modules/node.module:1163
+#: modules/tracker.module:121
+msgid "Author"
+msgstr "מחבר"
 
-#: modules/comment.module:945;1031 modules/node.module:1303;1763
-msgid "Published"
-msgstr "פורסם"
-
-#: modules/comment.module:1016 modules/statistics.module:168
+#: modules/comment.module:965 modules/statistics.module:179
 msgid "Time"
 msgstr "זמן"
 
-#: modules/comment.module:1170 modules/poll.module:317 modules/queue.module:174;188
-msgid "Vote"
-msgstr "הצבעה"
+#: modules/comment.module:1018 modules/node.module:1097
+msgid "The update has been performed."
+msgstr "העדכון בוצע."
 
-#: modules/comment.module:1394;1399 modules/profile.module:245
+#: modules/comment.module:1067 modules/contact.module:252
+#: modules/menu.module:438 modules/node.module:1206;1875
+#: modules/path.module:107 modules/system.module:1262 modules/user.module:1603
+msgid "This action cannot be undone."
+msgstr "לא ניתן לבטל פעולה זו."
+
+#: modules/comment.module:1155 modules/node.module:1550
+msgid "You have to specify a valid date."
+msgstr "יש להזין תאריך תיקני."
+
+#: modules/comment.module:1245;1261 modules/node.module:1628
+msgid "Authored by"
+msgstr "נכתב על ידי"
+
+#: modules/comment.module:1269;1300;1308 modules/user.module:1511;1645
+msgid "E-mail"
+msgstr "כתובת דואר אלקטרוני"
+
+#: modules/comment.module:1273;1300;1308 modules/profile.module:601
 msgid "The content of this field is kept private and will not be shown publicly."
 msgstr "ערך מאפיין זה ישאר פרטי ולא יוצג באופן ציבורי."
 
-#: modules/comment.module:1642 modules/forum.module:293
+#: modules/comment.module:1285 modules/node.module:1629
+msgid "Authored on"
+msgstr "בתאריך"
+
+#: modules/comment.module:1287 modules/node.module:1163
+#: modules/user.module:1305;1911
+msgid "Status"
+msgstr "מצב"
+
+#: modules/comment.module:1287 modules/node.module:1637;2138
+msgid "Published"
+msgstr "פורסם"
+
+#: modules/comment.module:1291;1297;1306 modules/contact.module:432
+msgid "Your name"
+msgstr "שמך"
+
+#: modules/comment.module:1640 modules/forum.module:195
 msgid "Date - newest first"
 msgstr "תאריך - חדש תחילה"
 
-#: modules/comment.module:1642 modules/forum.module:293
+#: modules/comment.module:1641 modules/forum.module:195
 msgid "Date - oldest first"
 msgstr "תאריך - ישן תחילה"
 
-#: modules/comment.module:195;283 modules/node.module:82
+#: modules/comment.module:198;307 modules/node.module:75
 msgid "1 comment"
 msgid_plural "%count comments"
-msgstr[0] "הערה"
-msgstr[1] "הערה"
+msgstr[0] "תגובה אחת"
+msgstr[1] "%count תגובות"
 
-#: modules/contact.module:125 modules/watchdog.module:92;144
+#: modules/contact.module:141;180 modules/menu.module:690
+#: modules/upload.module:113
+msgid "Yes"
+msgstr "כן"
+
+#: modules/contact.module:141;180 modules/menu.module:690
+#: modules/upload.module:113
+msgid "No"
+msgstr "לא"
+
+#: modules/contact.module:143;156;455 modules/profile.module:213;382
+msgid "Category"
+msgstr "סיווג"
+
+#: modules/contact.module:143;179 modules/system.module:232
+msgid "Selected"
+msgstr "עיצוב נבחר"
+
+#: modules/contact.module:199 modules/profile.module:296
+msgid "You must enter a category."
+msgstr "חובה להכניס סיווג."
+
+#: modules/contact.module:290 modules/system.module:746;762;786;796;834
+msgid "Reset to defaults"
+msgstr "חזור להגדרות ברירת המחדל"
+
+#: modules/contact.module:337;469 modules/watchdog.module:106;164
 msgid "Message"
 msgstr "הודעה"
 
-#: modules/drupal.module:98;148 modules/ping.module:66
-msgid "directory ping"
-msgstr "בדיקת ספריה"
+#: modules/filter.module:342;558 modules/forum.module:573
+#: modules/profile.module:382 modules/system.module:232;255;854;975
+#: modules/taxonomy.module:142;154 modules/user.module:1894
+msgid "Name"
+msgstr "שם"
 
-#: modules/forum.module:215 modules/taxonomy.module:205;208
+#: modules/filter.module:342;411 modules/user.module:1311
+msgid "Roles"
+msgstr "תפקידים"
+
+#: modules/forum.module:620 modules/taxonomy.module:367;370
 msgid "root"
-msgstr "מקור"
+msgstr "שורש"
 
-#: modules/forum.module:658 modules/tracker.module:115
+#: modules/forum.module:754 modules/tracker.module:121
 msgid "Replies"
 msgstr "תגובות"
 
-#: modules/forum.module:836 modules/tracker.module:115
+#: modules/forum.module:931 modules/tracker.module:121
 msgid "Last post"
 msgstr "תגובה אחרונה"
 
-#: modules/help.module:16;0 modules/user.module:647
+#: modules/forum.module:962;997 modules/tracker.module:108
+msgid "1 new"
+msgid_plural "%count new"
+msgstr[0] "אחת חדשה"
+msgstr[1] "%count חדשות"
+
+#: modules/help.module:18;0 modules/user.module:717
 msgid "help"
 msgstr "עזרה"
 
-#: modules/legacy.module:29;34 modules/taxonomy.module:0
+#: modules/legacy.module:45;50 modules/taxonomy.module:0
 msgid "taxonomy"
 msgstr "ניהול סיווגים"
 
-#: modules/menu.module:162;173 modules/node.module:810;868
+#: modules/menu.module:182 modules/node.module:1651;1666;1673;1796
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: modules/menu.module:466 modules/node.module:1006;1078
 msgid "Reset"
 msgstr "איתחול"
 
-#: modules/menu.module:416 modules/user.module:1616
+#: modules/menu.module:644 modules/user.module:1900
 msgid "locked"
 msgstr "נעול"
 
-#: modules/node.module:593 modules/poll.module:152
+#: modules/node.module:776 modules/poll.module:155
 msgid "Unlimited"
 msgstr "ללא הגבלה"
 
-#: modules/node.module:654 modules/search.module:95;100;575;0 modules/user.module:691
+#: modules/node.module:834 modules/search.module:154;906;0
+#: modules/user.module:762
 msgid "search"
 msgstr "חיפוש"
 
-#: modules/node.module:815;865 modules/watchdog.module:81;86
+#: modules/node.module:1003;1062 modules/watchdog.module:99
 msgid "Filter"
-msgstr "סינון"
+msgstr "סנן"
 
-#: modules/node.module:908;953 modules/profile.module:548 modules/queue.module:124 modules/taxonomy.module:347 modules/tracker.module:115 modules/watchdog.module:90;140
+#: modules/node.module:1163;1243 modules/profile.module:382
+#: modules/taxonomy.module:142 modules/tracker.module:121
+#: modules/watchdog.module:104;164
 msgid "Type"
 msgstr "סוג"
 
-#: modules/poll.module:153 modules/user.module:1049
+#: modules/poll.module:156 modules/user.module:1305
 msgid "Active"
 msgstr "פעיל"
 
-#: modules/poll.module:199 modules/queue.module:136
-msgid "vote"
-msgstr "הצבעה"
-
-#: modules/poll.module:210;433 modules/search.module:578
+#: modules/poll.module:211;460 modules/search.module:906
 msgid "results"
 msgstr "תוצאות"
 
-#: modules/profile.module:520;523 modules/statistics.module:151
-msgid "Page title"
-msgstr "כותרת עמוד"
-
-#: modules/statistics.module:126;179;207;241 modules/watchdog.module:36;109
+#: modules/statistics.module:128;190;216;248 modules/watchdog.module:47
 msgid "details"
 msgstr "פירוט"
 
-#: modules/statistics.module:137 modules/tracker.module:46
+#: modules/statistics.module:139 modules/tracker.module:52
 msgid "track"
 msgstr "מעקב"
 
-#: modules/statistics.module:153 modules/watchdog.module:91;141
+#: modules/statistics.module:163;180 modules/watchdog.module:164
+msgid "Referrer"
+msgstr "כתובת מקור"
+
+#: modules/statistics.module:164 modules/watchdog.module:105;164
 msgid "Date"
 msgstr "תאריך"
 
-#: modules/statistics.module:154;170;229;283 modules/watchdog.module:93;142
+#: modules/statistics.module:165;181;236 modules/watchdog.module:107;164
 msgid "User"
-msgstr "משתמש"
+msgstr "כינוי"
 
-#: modules/statistics.module:155 modules/watchdog.module:146
+#: modules/statistics.module:166 modules/user.module:1518
+#: modules/watchdog.module:164
 msgid "Hostname"
-msgstr "שם מארח"
+msgstr "שם שרת"
 
-#: modules/statistics.module:312 modules/upload.module:364
-msgid "Url"
-msgstr "כתובת url"
-
-#: modules/system.module:60 modules/upload.module:70
+#: modules/system.module:97 modules/upload.module:91
 msgid "file download"
-msgstr "הורדת קובץ"
+msgstr "הורדת קבצים"
 
-#: modules/system.module:201 modules/user.module:954;1026;1045;1326
+#: modules/system.module:251 modules/upload.module:105
+msgid "General settings"
+msgstr "הגדרות כלליות"
+
+#: modules/system.module:259 modules/user.module:1023;1172;1294
 msgid "E-mail address"
 msgstr "כתובת דואר אלקטרוני"
 
-#: modules/system.module:215 modules/upload.module:89
-msgid "General settings"
-msgstr "מאפיינים כללים"
-
-#: modules/throttle.module:87 modules/user.module:557;560
+#: modules/throttle.module:82 modules/user.module:595;598
 msgid "1 user"
 msgid_plural "%count users"
 msgstr[0] "חבר אחד"
-msgstr[1] "חבר אחד"
+msgstr[1] "%count חברים"
+
+#: modules/watchdog.module:79;79;160
+#: themes/engines/phptemplate/phptemplate.engine:326
+msgid "error"
+msgstr "שגיאות"
+
+#: themes/chameleon/chameleon.theme:19
+#: themes/engines/phptemplate/phptemplate.engine:28
+msgid "left sidebar"
+msgstr "פס צד שמאלי"
+
+#: themes/chameleon/chameleon.theme:20
+#: themes/engines/phptemplate/phptemplate.engine:29
+msgid "right sidebar"
+msgstr "פס צד ימני"
 
 #: cron.php:19
 msgid "Last cron run did not complete."
 msgstr "פעולת ה- CRON האחרונה לא הסתיימה בהצלחה."
 
-#: cron.php:30
+#: cron.php:31
 msgid "Cron run completed"
 msgstr "הרצת cron הסתיימה"
 
-#: cron.php:19;30
+#: cron.php:19;31
 msgid "cron"
-msgstr "cron"
+msgstr ""
+
+#: includes/database.pgsql.inc:351
+msgid ""
+"Your PostgreSQL database is set up with the wrong character encoding (%"
+"encoding). It is possible it will not work as expected. It is advised to "
+"recreate it with UTF-8/Unicode encoding. More information can be found in "
+"the <a href=\"%url\">PostgreSQL documentation</a>."
+msgstr ""
+
+#: includes/form.inc:172
+msgid ""
+"Validation error, please try again.  If this error persists, please contact "
+"the site administrator."
+msgstr ""
+
+#: includes/form.inc:213
+msgid "%name field is required."
+msgstr "חובה למלא את השדה %name."
+
+#: includes/form.inc:757
+msgid "The specified passwords do not match."
+msgstr ""
+
+#: includes/form.inc:761
+msgid "Password field is required."
+msgstr "חובה למלא את שדה הסיסמה."
+
+#: includes/form.inc:840
+msgid "The specified date is invalid."
+msgstr "התאריך שהוזן איננו תקין."
 
 #: includes/image.inc:21
 msgid "Built-in GD2 toolkit"
-msgstr "נבנה בעזרת GD2 toolkit"
+msgstr ""
 
 #: includes/image.inc:61
-msgid "The selected image handling toolkit '%toolkit' can not correctly process '%function'."
-msgstr "תוכנת עיבוד התמונה שנבחרה '%toolkit' אינה יכולה לבצע באופן תקין את הפקודה '%function'."
+msgid ""
+"The selected image handling toolkit '%toolkit' can not correctly process '%"
+"function'."
+msgstr ""
+"תוכנת עיבוד התמונה שנבחרה '%toolkit' אינה יכולה לבצע באופן תקין את הפקודה '%"
+"function'."
 
-#: includes/image.inc:180
+#: includes/image.inc:184
 msgid "The built-in GD2 toolkit is installed and working properly."
-msgstr "GD2 toolkit מותקן ופועל באופן תקין."
+msgstr "ארגז הכלים של GD2 מותקן ועובד היטב."
 
-#: includes/image.inc:183
-msgid "The built-in GD image toolkit requires that the GD module for PHP be installed and configured properly. For more information see %url."
-msgstr "תוכנת עיבוד התמונה GD דורשת התקנת רכיב GD עבור שפת PHP והתאמתו באופן אישי למערכת. למידע נוסף %url ."
+#: includes/image.inc:187
+msgid ""
+"The built-in GD image toolkit requires that the GD module for PHP be "
+"installed and configured properly. For more information see %url."
+msgstr ""
+"תוכנת עיבוד התמונה GD דורשת התקנת רכיב GD עבור שפת PHP והתאמתו באופן אישי "
+"למערכת. למידע נוסף %url ."
 
-#: includes/pager.inc:106
-msgid "first page"
-msgstr "עמוד ראשון"
+#: includes/menu.inc:856
+msgid "edit primary links"
+msgstr "ערוך קישורים ראשיים"
 
-#: includes/pager.inc:107
-msgid "previous page"
-msgstr "עמוד קודם"
+#: includes/menu.inc:1350
+msgid "Operating in off-line mode."
+msgstr ""
 
-#: includes/pager.inc:109
-msgid "next page"
-msgstr "עמוד הבא"
+#: includes/pager.inc:126;389
+msgid "« first"
+msgstr "« לעמוד הראשון"
 
-#: includes/pager.inc:110
-msgid "last page"
-msgstr "עמוד אחרון"
+#: includes/pager.inc:127;390
+msgid "‹ previous"
+msgstr "‹ לעמוד הקודם"
 
-#: includes/tablesort.inc:78
+#: includes/pager.inc:129;391
+msgid "next ›"
+msgstr "לעמוד הבא ›"
+
+#: includes/pager.inc:130;392
+msgid "last »"
+msgstr "לעמוד האחרון »"
+
+#: includes/pager.inc:389
+msgid "Go to first page"
+msgstr "לעמוד הראשון"
+
+#: includes/pager.inc:392
+msgid "Go to last page"
+msgstr "לעמוד האחרון"
+
+#: includes/pager.inc:399
+msgid "Go to page %number"
+msgstr "עבור לעמוד %number"
+
+#: includes/tablesort.inc:66
 msgid "sort by %s"
 msgstr "מין לפי %s"
 
-#: includes/tablesort.inc:82
-msgid "sort ascending"
-msgstr "סדר עולה"
-
-#: includes/tablesort.inc:82
-msgid "sort descending"
-msgstr "סדר יורד"
-
-#: includes/tablesort.inc:83
-msgid "sort icon"
-msgstr "סמל מיון"
-
-#: includes/theme.inc:38
-msgid "The base theme"
-msgstr "ערכת נושא בסיסית"
-
-#: includes/theme.inc:228
-msgid "edit primary links"
-msgstr "עדכון קישורים ראשיים"
-
-#: includes/theme.inc:229
-msgid "edit secondary links"
-msgstr "עדכון קישורים משניים"
-
-#: includes/theme.inc:805
-msgid "[<a href=\"%link\">more help...</a>]"
-msgstr "[<a href=\"%link\">עזרה נוספת...</a>]"
-
-#: includes/theme.inc:812;812
-msgid "XML feed"
-msgstr "מקור הזנת XML"
-
-#: includes/theme.inc:914
-msgid "Confirm"
-msgstr "אישור"
-
-#: includes/theme.inc:0
-msgid "theme"
-msgstr "עיצוב"
-
-#: modules/help.module:39
-msgid "\n  <p>This guide explains what the various modules in <a href=\"%Drupal\">Drupal</a> do and how to configure them.</p>\n  <p>It is not a substitute for the <a href=\"%handbook\">Drupal handbook</a> available online and should be used in conjunction with it. The online reference handbook might be more up-to-date and has helpful user-contributed comments. It is your definitive reference point for all Drupal documentation.</p>\n  <h2>Help topics</h2>\n  <p>Help is available on the following items:</p>\n  %help_pages\n  <h2>Glossary of Drupal terminology</h2>\n  <dl>\n   <dt>Block</dt><dd>A small box containing information or content placed in the left-hand or right-hand sidebar of a web page.</dd>\n   <dt>Comment</dt><dd>A note attached to a node. Usually intended to clarify, explain, criticize, or express an opinion on the original material.</dd>\n   <dt>Moderation</dt>\n   <dd>The activity of making sure a post to a Drupal site fits in with what is expected for that Drupal site.\n    <dl>\n     <dt>Approved</dt><dd>A moderated post which has been accepted by the moderators for publication. (See published).</dd>\n     <dt>Waiting</dt><dd>A moderated post which is still being voted on to be accepted for publication. (See published.)</dd>\n    </dl>\n   </dd>\n   <dt>Node</dt><dd>The basic data unit in Drupal. Everything is a node or an extension of a node.</dd>\n   <dt>Public</dt><dd>See published.</dd>\n   <dt>Published</dt><dd>A node that is viewable by everyone. (See unpublished.)</dd>\n   <dt>Role</dt><dd>A classification users are placed into for the purpose of setting users' permissions.</dd>\n   <dt>Taxonomy</dt><dd>A division of a collection of things into ordered, classified groups. (See <a href=\"%taxonomy\">taxonomy help</a>.)</dd>\n   <dt>Unpublished</dt><dd>A node that is only viewable by administrators and moderators.</dd>\n   <dt>User</dt><dd>A person who has an account at your Drupal site, and is logged in with that account.</dd>\n   <dt>Visitor</dt><dd>A person who does not have an account at your Drupal site or a person who has an account at your Drupal site but is <strong>not</strong> logged in with that account. Also termed \"anonymous user\".</dd>\n  </dl>"
+#: includes/xmlrpc.inc:448
+msgid "Parse error. Not well formed"
 msgstr ""
 
-#: modules/help.module:88
-msgid "Manages the display of online help."
-msgstr "ניהול תצורת עזרה מכוונת."
+#: includes/xmlrpcs.inc:53
+msgid "parse error. not well formed"
+msgstr ""
 
-#: modules/help.module:100
+#: includes/xmlrpcs.inc:56
+msgid ""
+"server error. invalid xml-rpc. not conforming to spec. Request must be a "
+"method_call"
+msgstr ""
+
+#: includes/xmlrpcs.inc:126
+msgid "Recursive calls to system.multicall are forbidden"
+msgstr ""
+
+#: includes/xmlrpcs.inc:174;247
+msgid "server error. requested method %methodname not specified."
+msgstr ""
+
+#: includes/xmlrpcs.inc:184
+msgid "server error. wrong number of method parameters"
+msgstr ""
+
+#: includes/xmlrpcs.inc:221
+msgid "server error. invalid method parameters"
+msgstr ""
+
+#: includes/xmlrpcs.inc:227
+msgid "server error. requested method %methodname does not exist."
+msgstr ""
+
+#: includes/xmlrpcs.inc:239
+msgid "server error. requested function %method does not exist."
+msgstr ""
+
+#: includes/xmlrpcs.inc:250
+msgid "server error. requested method %methodname signature not specified."
+msgstr ""
+
+#: modules/help.module:39
+msgid ""
+"\n"
+"  <h2>Help topics</h2>\n"
+"  <p>Help is available on the following items:</p>\n"
+"  %help_pages\n"
+"  <h2>Glossary of Drupal terminology</h2>\n"
+"  <dl>\n"
+"   <dt>Block</dt><dd>A small box containing information or content placed in "
+"the left-hand or right-hand sidebar of a web page.</dd>\n"
+"   <dt>Comment</dt><dd>A note attached to a node. Usually intended to "
+"clarify, explain, criticize, or express an opinion on the original material."
+"</dd>\n"
+"   <dt>Moderation</dt>\n"
+"   <dd>The activity of making sure a post to a Drupal site fits in with what "
+"is expected for that Drupal site.\n"
+"    <dl>\n"
+"     <dt>Approved</dt><dd>A moderated post which has been accepted by the "
+"moderators for publication. (See published).</dd>\n"
+"     <dt>Waiting</dt><dd>A moderated post which is still being voted on to "
+"be accepted for publication. (See published.)</dd>\n"
+"    </dl>\n"
+"   </dd>\n"
+"   <dt>Node</dt><dd>The basic data unit in Drupal. Everything is a node or "
+"an extension of a node.</dd>\n"
+"   <dt>Public</dt><dd>See published.</dd>\n"
+"   <dt>Published</dt><dd>A node that is viewable by everyone. (See "
+"unpublished.)</dd>\n"
+"   <dt>Role</dt><dd>A classification users are placed into for the purpose "
+"of setting users' permissions.</dd>\n"
+"   <dt>Taxonomy</dt><dd>A division of a collection of things into ordered, "
+"classified groups. (See <a href=\"%taxonomy\">taxonomy help</a>.)</dd>\n"
+"   <dt>Unpublished</dt><dd>A node that is only viewable by administrators "
+"and moderators.</dd>\n"
+"   <dt>User</dt><dd>A person who has an account at your Drupal site, and is "
+"logged in with that account.</dd>\n"
+"   <dt>Visitor</dt><dd>A person who does not have an account at your Drupal "
+"site or a person who has an account at your Drupal site but is <strong>not</"
+"strong> logged in with that account. Also termed \"anonymous user\".</dd>\n"
+"  </dl>"
+msgstr ""
+
+#: modules/help.module:96
+msgid ""
+"<p>This guide explains what the various modules in <a href=\"%Drupal"
+"\">Drupal</a> do and how to configure them.</p>\n"
+"<p>It is not a substitute for the <a href=\"%handbook\">Drupal handbook</a> "
+"available online and should be used in conjunction with it. The online "
+"reference handbook might be more up-to-date and has helpful user-contributed "
+"comments. It is your definitive reference point for all Drupal documentation."
+"</p>\n"
+msgstr ""
+
+#: modules/help.module:101
+msgid ""
+"The help module displays context sensitive help information. Users can learn "
+"how to use modules and accomplish tasks quicker with less errors by clicking "
+"on links in provided by the help module."
+msgstr ""
+
+#: modules/help.module:102
+msgid ""
+"<p>Modules can make documentation available to other modules with this "
+"module. All user help should be presented using this module.  Some examples "
+"of help: </p>\n"
+"<ul>\n"
+"<li>The name of a module (unused, but there).</li>\n"
+"<li>The description found on the admin/system/modules page.</li>\n"
+"<li>The module's help text, displayed on the admin/help page and through the "
+"module's individual help link.</li>\n"
+"<li>The help for a distributed authorization module (if applicable).</li>\n"
+"<li>The description of a post type (if applicable).</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/help.module:111
+msgid "You can not administer the help system."
+msgstr ""
+
+#: modules/help.module:112
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%help\">Help page</a>."
+msgstr ""
+
+#: modules/help.module:115
+msgid "Manages the display of online help."
+msgstr "מטפל בתצוגת העזרה המקוונת."
+
+#: modules/help.module:128
 msgid "No help is available for module %module."
 msgstr "אין עזרה לתוסף %module."
 
 #: modules/legacy.module:15
-msgid "Provides legacy handlers for upgrades from older Drupal installations."
-msgstr "מאפשר טיפול ברכיבים מגרסאות דרופל ישנות."
+msgid ""
+"The legacy module provides legacy handlers for upgrades from older "
+"installations.  These handlers help automatically redirect references to "
+"pages from old installations and prevent <em>page not found</em> errors for "
+"your site."
+msgstr ""
 
-#: modules/legacy.module:106
+#: modules/legacy.module:16
+msgid ""
+"The legacy module handles legacy style taxonomy page, taxonomy feed, and "
+"blog feed paths.  It also handles URL upgrades from Drupal 4.1.   It "
+"rewrites old-style URLs to new-style URLs (clean URLs). "
+msgstr ""
+
+#: modules/legacy.module:17
+msgid ""
+"<p>Example Mappings:</p>\n"
+"<ul>\n"
+"<li><em>taxonomy/page/or/52,97</em> to <em>taxonomy/term/52+97</em>.</li>\n"
+"<li><em>taxonomy/feed/or/52,97</em> to <em>taxonomy/term/52+97/0/feed</em>.</"
+"li>\n"
+"<li><em>blog/feed/52</em> to <em>blog/52/feed</em>.</li>\n"
+"<li><em>node/view/52</em> to <em>node/52</em>.</li>\n"
+"<li><em>book/view/52</em> to <em>node/52</em>.</li>\n"
+"<li><em>user/view/52</em> to <em>user/52</em>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/legacy.module:27
+msgid "Legacy module has no configurable options."
+msgstr ""
+
+#: modules/legacy.module:28
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%legacy\">Legacy page</a>."
+msgstr ""
+
+#: modules/legacy.module:31
+msgid "Provides legacy handlers for upgrades from older Drupal installations."
+msgstr "טיפול בשדרוגים מגירסאות דרופל ישנות."
+
+#: modules/legacy.module:122
 msgid "Legacy filter"
 msgstr "מסנן גרסאות קודמות"
 
-#: modules/legacy.module:109
+#: modules/legacy.module:125
 msgid "Replaces URLs from Drupal 4.1 (and lower) with updated equivalents."
 msgstr "ממיר URL מגרסאות דרופאל 4.1 (וגרסאות קודמות) לגירסה נוכחית."
 
-#: modules/legacy.module:0
-msgid "legacy"
-msgstr "גרסאות קודמות"
-
-#: modules/page.module:15
-msgid "Enables the creation of pages that can be added to the navigation system."
-msgstr "מאפשר יצירה של דפי מידע שניתן להוסיפם לתפריט הניווט הראשי של המערכת."
-
-#: modules/page.module:17
-msgid "If you want to add a static page, like a contact page or an about page, use a page."
-msgstr "אם אתם מעוניינים להוסף דף מידע קבועה (סטטי) כגון 'דף אודות' או 'דף קשר' השתמשו בדף זה."
-
-#: modules/page.module:32;59;0
-msgid "page"
-msgstr "עמוד"
-
-#: modules/page.module:25
-msgid "create pages"
-msgstr "יצירת עמודים"
-
-#: modules/page.module:25
-msgid "edit own pages"
-msgstr "עריכת עמודים אישיים"
-
 #: modules/ping.module:15
-msgid "\n      <p>Drupal can automatically send notifications (called \"pings\") to the %pingomatic to tell them that your site has changed.  In turn pingomatic.com will ping other services like weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover, etc.</p>\n      <p>The ping feature requires crontab.</p>"
+msgid ""
+"The ping module is useful for notifying interested sites that your site has "
+"changed.  It automatically sends notifications (called \"pings\") to the <a "
+"href=\"%external-http-pingomatic-com\">pingomatic</a> service to tell it "
+"that your site has changed. In turn pingomatic will ping other services such "
+"as weblogs.com, Technorati, blo.gs, BlogRolling, Feedster.com, Moreover, etc."
 msgstr ""
 
-#: modules/ping.module:21
-msgid "Alerts other sites when your site has been updated."
-msgstr "ידע אתרים אחרים כאשר אתרך עודכן."
+#: modules/ping.module:16
+msgid ""
+"The ping module requires <code>cron</code> or a similar periodic job "
+"scheduler to be enabled."
+msgstr ""
 
-#: modules/ping.module:66
+#: modules/ping.module:17
+msgid ""
+"<p>You can:</p>\n"
+"<ul>\n"
+"<li> enable or disable the ping module at <a href=\"%admin-modules"
+"\">administer &gt;&gt; modules</a>.</li>\n"
+"<li>run your cron job at your sites <a href=\"%file-cron\">cron page</a>.</"
+"li>\n"
+"<li>read about <a href=\"%external-http-drupal-org-node-23714\">configuring "
+"cron jobs</a>.</li>\n"
+"</ul></p>\n"
+msgstr ""
+
+#: modules/ping.module:24
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%ping\">Ping page</a>."
+msgstr ""
+
+#: modules/ping.module:27
+msgid "Alerts other sites when your site has been updated."
+msgstr "מודיע לאתרים אחרים כשהאתר שלך עודכן."
+
+#: modules/ping.module:64
 msgid "Failed to notify pingomatic.com (site)."
-msgstr "שגיאה בעת גישה/דיווח לאתר pingomatic.com ."
+msgstr "נכשל נסיון להודיע לאתר-pingomatic.com על שינויים באתר."
+
+#: modules/ping.module:64
+msgid "directory ping"
+msgstr ""
 
 #: modules/ping.module:0
 msgid "ping"
-msgstr "בדיקה (ping)"
+msgstr ""
 
 #: modules/story.module:15
-msgid "Allows users to submit stories, articles or similar content."
-msgstr "אפשר למשתמשים להוסיף סיפורים, כתבות ותוכן דומה."
+msgid ""
+"The story module is used to create a content post type called <em>stories.</"
+"em> Stories are articles in their simplest form: they have a title, a teaser "
+"and a body. Stories are typically used to post news articles or as a group "
+"blog. "
+msgstr ""
+
+#: modules/story.module:16
+msgid ""
+"The story administration interface allows for complex configuration. It "
+"provides a submission form, workflow, default view permission, default edit "
+"permission, permissions for permission, and attachments.  Trackbacks can "
+"also be enabled."
+msgstr ""
 
 #: modules/story.module:17
-msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
-msgstr "סיפורים הם מאמרים בצורתם הפשוטה. הם מורכבים מכותרת, קדימון, וגוף תוכן. אך הם יכולים להיות מורחבים ע''י רכיבים שונים המותקנים במערכת. ניתן להשתמש בסיפורים כיומני רשת (בלוגים) או דיווח על חדשות."
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>post a story at <a href=\"%node-add-story\">create content &gt;&gt; "
+"story</a>.</li>\n"
+"<li>configure story at <a href=\"%admin-settings-content-types-story"
+"\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; configure "
+"story</a>.</li>\n"
+"</ul>\n"
+msgstr ""
 
-#: modules/story.module:25;59;0
+#: modules/story.module:23
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%story\">Story page</a>."
+msgstr ""
+
+#: modules/story.module:26
+msgid "Allows users to submit stories, articles or similar content."
+msgstr "מאפשר לחברי האתר להגיש כתבות, מאמרים, ותוכן דומה."
+
+#: modules/story.module:28
+msgid ""
+"Stories are articles in their simplest form: they have a title, a teaser and "
+"a body, but can be extended by other modules. The teaser is part of the body "
+"too. Stories may be used as a personal blog or for news articles."
+msgstr ""
+"כתבות בבסיסן הן מאמרים: יש להם כותרת, תקציר, ותוכן, אבל ניתן "
+"להרחיב אותם על ידי רכיבים אחרים. התקציר הוא גם חלק מתוכן הכתבה. ניתן להשתמש "
+"בכתבות כיומן אישי או לצורך פרסום מאמרי חדשות."
+
+#: modules/story.module:36;70;0
 msgid "story"
 msgstr "כתבה"
 
-#: modules/story.module:32
+#: modules/story.module:43
 msgid "create stories"
-msgstr "יצירת כתבות"
+msgstr "צור כתבות"
 
-#: modules/story.module:32
+#: modules/story.module:43
 msgid "edit own stories"
-msgstr "עריכת כתבות אישיות"
+msgstr "עריכת כתבות עצמית"
 
-#: modules/tracker.module:15
-msgid "<p>The tracker module is a handy module for displaying the most recently added or updated content to a Drupal site.  The link to the tracker is labeled <em>recent posts</em> in the user's navigation block.  Updates include changes to the text by either the original author or someone else that has permission to edit the content, such as an editor or administrator as well as all comments added to an item.</p>\n<p>The Tracker module presents a page listing the recently-updated content written by the user with the content type, the title, the user's name, how many comments that item has received, as well as how long ago it was updated.  If an item was written by someone else, tracker will show that item at the top of the list.  An example:</p>\n<p>A user named Jessica writes a blog post, then some time passes, and others write blog posts.  Then if John posts a comment to Jessica's post, and you have bookmarked John's tracker page (see below on how to do this) then Jessica's content will appear at the top.</p>\n<p>If an user with <i>administer comments</i> (e.g. an administrator or editor of a site) deletes a comment (e.g. it is off-topic, inappropriate language, or unsolicited advertisement), the content item will drop down to when it was updated previous to that deleted comment.</p>\n<p>To use the Tracker module to \"watch\" for a user's updated content, click on that user's profile, then the \"track\" tab.</p>"
+#: themes/chameleon/chameleon.theme:134;155
+msgid "By %author at %date"
+msgstr "על ידי %author ב%date"
+
+#: themes/chameleon/chameleon.theme:0
+msgid "chameleon"
 msgstr ""
 
-#: modules/tracker.module:21
-msgid "Enables tracking of recent posts for users."
-msgstr "מאפשר מעקב אחר פרסומים שונים של משתמשים."
+#: themes/engines/phptemplate/phptemplate.engine:31
+msgid "header"
+msgstr "כותרת"
 
-#: modules/tracker.module:33
-msgid "recent posts"
-msgstr "פרסומים תוכן אחרונים"
+#: themes/engines/phptemplate/phptemplate.engine:32
+msgid "footer"
+msgstr "תחתית"
 
-#: modules/tracker.module:38
-msgid "all recent posts"
-msgstr "כל פרסומים התוכן האחרונים"
-
-#: modules/tracker.module:40
-msgid "my recent posts"
-msgstr "רשימת הפרסומים האחרונים שלי"
-
-#: modules/tracker.module:49
-msgid "track posts"
-msgstr "מעקב פרסומים"
-
-#: modules/tracker.module:98
-msgid "%num new"
-msgstr "%num חדשים"
-
-#: modules/tracker.module:115
-msgid "Post"
-msgstr "הודעה"
-
-#: modules/tracker.module:0
-msgid "tracker"
-msgstr "עוקב"
-
-#: themes/engines/xtemplate/xtemplate.engine:44;84
+#: themes/engines/phptemplate/phptemplate.engine:247;270
 msgid "Submitted by %a on %b."
-msgstr "נוסף עי %a בתאריך %b."
+msgstr "הוגש ע\"י %a ביום %b."
 
-#: themes/engines/xtemplate/xtemplate.engine:83
-msgid "new"
-msgstr "חדש"
+#: themes/engines/phptemplate/phptemplate.engine:326
+msgid ""
+"PHPTemplate was instructed to override the %name theme function, but no "
+"valid template file was found."
+msgstr ""
 
-#: themes/engines/xtemplate/xtemplate.engine:168
-msgid "Enter the terms you wish to search for."
-msgstr "הזינו את המושגים אותם אתם מחפשים."
+#: themes/pushbutton/page.tpl.php:12;12
+msgid "Skip navigation"
+msgstr "דלג על הניווט"
 

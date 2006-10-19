@@ -1,87 +1,231 @@
-# translation of blogapi-module.po to 
-# LANGUAGE translation of Drupal (modules/blogapi.module)
-# Generated from file: blogapi.module,v 1.39.2.5 2005/06/06 19:01:31 dries
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: blogapi-module\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-09 11:05+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: \n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.2beta3\n"
 
 #: modules/blogapi.module:15
-msgid "<p>This module adds support for several XML-RPC based blogging APIs. Specifically, it currently implements the %bloggerAPI, %metaweblogAPI, and most of the %moveabletype extensions.  This allows users to contribute to Drupal using external GUI applications, which can often offer richer functionality that online forms based editing.</p><p>This module also allows site administrators to configure which node types can be posted via the external applications. So, for instance, users can post forum topics as well as blog posts. Where supported, the external applications will display each node type as a separate \"blog\".</p>"
+msgid ""
+"The blog API module enables a post to be posted to a site via external GUI "
+"applications.  Many users prefer to use external tools to improve their "
+"ability to read and post responses in a customized way.   The blog api "
+"provides users the freedom to use the blogging tools they want but still "
+"have the blogging server of choice."
+msgstr ""
+
+#: modules/blogapi.module:16
+msgid ""
+"When this module is enabled and configured you can use programs like <a href="
+"\"%external-http-ecto-kung-foo-tv\">Ecto</a> to create and publish posts "
+"from your desktop. Blog API module supports several XML-RPC based blogging "
+"APIs such as the <a href=\"%-\">Blogger API</a>, <a href=\"%external-http-"
+"www-xmlrpc-com-metaWeblogApi\">MetaWeblog API</a>, and most of the <a href="
+"\"%external-http-www-movabletype-org-docs-mtmanual_programmatic-html"
+"\">Movable Type API</a>. Any desktop blogging tools or other services (e.g. "
+"<a href=\"%external-http-www-flickr-com\">Flickr's</a> \"post to blog\") "
+"that support these APIs should work with this site."
 msgstr ""
 
 #: modules/blogapi.module:17
-msgid "Allows users to post content using applications that support XML-RPC blog APIs."
-msgstr "מאפשר למשתמשים לפרסם תכני יומן בעזרת תוכנות התומכות בפרוטוקול XML-RPM."
+msgid ""
+"This module also allows site administrators to configure which content types "
+"can be posted via the external applications. So, for instance, users can "
+"post forum topics as well as blog posts. Where supported, the external "
+"applications will display each content type as a separate \"blog\".<!--"
+"break-->"
+msgstr ""
 
-#: modules/blogapi.module:143;205
-msgid "Terminated request because of suspicious input data."
-msgstr "הבקשה בוטלה עקב קלט מידע חשוד."
+#: modules/blogapi.module:18
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view the XML-RPC page on your site at &gt;&gt; <a href=\"%file-xmlrpc"
+"\">xmlrpc.php</a>.</li>\n"
+"<li><a href=\"%admin-settings-blogapi\">administer &gt;&gt; settings &gt;"
+"&gt; blog api</a>.</li>\n"
+"</ul>\n"
+msgstr ""
 
-#: modules/blogapi.module:158
+#: modules/blogapi.module:24
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%blogapi\">BlogApi page</a>."
+msgstr ""
+
+#: modules/blogapi.module:27
+msgid ""
+"Allows users to post content using applications that support XML-RPC blog "
+"APIs."
+msgstr ""
+
+#: modules/blogapi.module:40
+msgid "Returns a list of weblogs to which an author has posting privileges."
+msgstr ""
+
+#: modules/blogapi.module:45
+msgid "Returns information about an author in the system."
+msgstr ""
+
+#: modules/blogapi.module:50;75
+msgid "Creates a new post, and optionally publishes it."
+msgstr ""
+
+#: modules/blogapi.module:55
+#, fuzzy
+msgid "Updates the information about an existing post."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi.module:60;85
+#, fuzzy
+msgid "Returns information about a specific post."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi.module:65
+#, fuzzy
+msgid "Deletes a post."
+msgstr "מחיקת הצבעה"
+
+#: modules/blogapi.module:70;100
+msgid "Returns a list of the most recent posts in the system."
+msgstr ""
+
+#: modules/blogapi.module:80
+#, fuzzy
+msgid "Updates information about an existing post."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi.module:90
+msgid "Uploads a file to your webserver."
+msgstr ""
+
+#: modules/blogapi.module:95;115
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr ""
+
+#: modules/blogapi.module:105
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr ""
+
+#: modules/blogapi.module:110
+msgid "Returns a list of all categories defined in the weblog."
+msgstr ""
+
+#: modules/blogapi.module:120
+#, fuzzy
+msgid "Sets the categories for a post."
+msgstr "מאפשר סיווג תוכן לפי נושאים."
+
+#: modules/blogapi.module:125
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr ""
+
+#: modules/blogapi.module:130
+#, fuzzy
+msgid ""
+"Retrieve information about the text formatting plugins supported by the "
+"server."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi.module:135
+msgid ""
+"Retrieve the list of TrackBack pings posted to a particular entry. This "
+"could be used to programmatically retrieve the list of pings for a "
+"particular entry, then iterate through each of those pings doing the same, "
+"until one has built up a graph of the web of entries referencing one another "
+"on a particular topic."
+msgstr ""
+
+#: modules/blogapi.module:140
+msgid ""
+"Publish (rebuild) all of the static files related to an entry from your "
+"weblog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr ""
+
+#: modules/blogapi.module:218
+#, fuzzy
+msgid ""
+"You do not have permission to create the type of post you wanted to create."
+msgstr "בחר\\י את סוג המוצר שברצונך ליצור. "
+
+#: modules/blogapi.module:233
 msgid "%type: added %title using blog API."
 msgstr "%type: %title נוסף בעזרת ממשק התוכנה של היומן"
 
-#: modules/blogapi.module:162;224
+#: modules/blogapi.module:238;291
 msgid "Error storing post."
 msgstr "שגיאה בעת שמירת הפרסום"
 
-#: modules/blogapi.module:220
+#: modules/blogapi.module:260;500
+msgid "You do not have permission to update this post."
+msgstr ""
+
+#: modules/blogapi.module:287
 msgid "%type: updated %title using blog API."
 msgstr "%type: %title עודכן בעזרת ממשק התוכנה של היומן"
 
-#: modules/blogapi.module:274
+#: modules/blogapi.module:372
 msgid "No file sent."
 msgstr "אף קובץ לא נשלח."
 
-#: modules/blogapi.module:278
+#: modules/blogapi.module:376
 msgid "Error storing file."
 msgstr "שגיאה בעת שמירת הקובץ."
 
-#: modules/blogapi.module:426
+#: modules/blogapi.module:482
 msgid "Not implemented."
 msgstr "אפשרות לא קיימת"
 
-#: modules/blogapi.module:438
+#: modules/blogapi.module:495
 msgid "Invalid post."
 msgstr "פרסום שגוי"
 
-#: modules/blogapi.module:499
+#: modules/blogapi.module:535
+msgid ""
+"You either tried to edit somebody else's blog or you don't have permission "
+"to edit your own blog."
+msgstr ""
+
+#: modules/blogapi.module:539
 msgid "Wrong username or password."
 msgstr "שם משתמש או סיסמה שגויים."
 
-#: modules/blogapi.module:518
+#: modules/blogapi.module:559
 msgid "XML-RPC Engine"
 msgstr "XML-RPC Engine"
 
-#: modules/blogapi.module:518
-msgid "RSD or Really-Simple-Discovery is a mechanism which allows external blogger tools to discover the APIs they can use to interact with Drupal. Here you can set the preferred method for blogger tools to interact with your site. The common XML-RPC engines are Blogger, MetaWeblog and Movabletype. If you are not sure which is the correct setting, choose Blogger."
+#: modules/blogapi.module:561
+msgid ""
+"RSD or Really-Simple-Discovery is a mechanism which allows external blogger "
+"tools to discover the APIs they can use to interact with Drupal. Here you "
+"can set the preferred method for blogger tools to interact with your site. "
+"The common XML-RPC engines are Blogger, MetaWeblog and Movabletype. If you "
+"are not sure which is the correct setting, choose Blogger."
 msgstr ""
 
-#: modules/blogapi.module:525
+#: modules/blogapi.module:567
 msgid "Blog types"
 msgstr "סוגי יומנים"
 
-#: modules/blogapi.module:525
-msgid "Select the content types for which you wish to enable posting via blogapi. Each type will appear as a different \"blog\" in the client application (if supported)."
+#: modules/blogapi.module:569
+msgid ""
+"Select the content types for which you wish to enable posting via blogapi. "
+"Each type will appear as a different \"blog\" in the client application (if "
+"supported)."
 msgstr ""
 
-#: modules/blogapi.module:535;540
+#: modules/blogapi.module:581;586
 msgid "RSD"
 msgstr "RSD"
 
 #: modules/blogapi.module:0
 msgid "blogapi"
 msgstr "ממשקי תוכנה ליומן"
-

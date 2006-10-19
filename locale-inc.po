@@ -1,980 +1,1037 @@
-# translation of locale-inc.po to 
-# LANGUAGE translation of Drupal (includes/locale.inc)
-# Generated from file: locale.inc,v 1.42.2.1 2005/04/25 17:57:42 dries
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# translation of locale-inc.po to Hebrew
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
+# Haggai Eran <haggai.eran@gmail.com>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: locale-inc\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-14 22:05+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-15 02:32+0200\n"
+"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.2beta3\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: includes/locale.inc:26
-msgid "%locale language added. You can now import a translation. See the <a href=\"%locale-help\">help screen</a> for more information."
+msgid ""
+"The language %locale has been created, and can now be used to import a "
+"translation. More information is available in the <a href=\"%locale-help"
+"\">help screen</a>."
 msgstr ""
-"השפה %locale נוספה. ניתן עכשיו ליבא את התרגום לשפה."
-"ראו <a href=\"%locale-help\">דף עזרה</a> למידע נוסף."
+"השפה %locale נוספה. ניתן עכשיו ליבא את התרגום לשפה.ראו <a href=\"%locale-help"
+"\">דף עזרה</a> למידע נוסף."
 
 #: includes/locale.inc:29
-msgid "%locale language added."
+msgid "The language %locale has been created."
 msgstr "השפה %locale נוספה."
 
-#: includes/locale.inc:33
-msgid "%language language (%locale) added."
+#: includes/locale.inc:32
+msgid "The %language language (%locale) has been created."
 msgstr "השפה %language (%locale) נוספה."
 
-#: includes/locale.inc:43
+#: includes/locale.inc:92
 msgid "Code"
 msgstr "קוד"
 
-#: includes/locale.inc:43
+#: includes/locale.inc:92
 msgid "English name"
 msgstr "שם אנגלי"
 
-#: includes/locale.inc:43
+#: includes/locale.inc:92
 msgid "Translated"
 msgstr "מתורגם"
 
-#: includes/locale.inc:72
-msgid "From language list"
-msgstr "מרשימת השפות"
+#: includes/locale.inc:118
+msgid "Configuration saved."
+msgstr "ההגדרות נשמרו."
 
-#: includes/locale.inc:73;704
+#: includes/locale.inc:134
+msgid "Language list"
+msgstr "רשימת השפות"
+
+#: includes/locale.inc:138;286
 msgid "Language name"
 msgstr "שם שפה"
 
-#: includes/locale.inc:73
+#: includes/locale.inc:141
 msgid "Select your language here, or add it below, if you are unable to find it."
 msgstr ""
-"יש לבחור שפה. אם לא ניתן למצוא את השפה, "
-"ניתן להוסיף אותה למטה כשפה מותאמת אישית."
+"יש לבחור שפה. אם לא ניתן למצוא את השפה, ניתן להוסיף אותה למטה כשפה מותאמת "
+"אישית."
 
-#: includes/locale.inc:78
+#: includes/locale.inc:143
+msgid "Add language"
+msgstr "הוסף שפה"
+
+#: includes/locale.inc:149
 msgid "Custom language"
 msgstr "שפה מותאמת אישית"
 
-#: includes/locale.inc:79
+#: includes/locale.inc:153
 msgid "Language code"
 msgstr "קוד השפה"
 
-#: includes/locale.inc:79
-msgid "Commonly this is an <a href=\"%iso-codes\">ISO 639 language code</a> with an optional country code for regional variants. Examples include 'en', 'en-US' and 'zh-cn'."
+#: includes/locale.inc:157
+msgid ""
+"Commonly this is an <a href=\"%iso-codes\">ISO 639 language code</a> with an "
+"optional country code for regional variants. Examples include 'en', 'en-US' "
+"and 'zh-cn'."
 msgstr ""
-"בדרך כלל זהו <a href=\"%iso-codes\">קוד שפה "
-"בפורמט ISO639</a> עם קוד מדינה אופציונלי "
-"עבור גירסאות אזוריות של השפה. לדוגמה: "
-"'en', 'en-US' ו-'zh-cn'."
+"בדרך כלל זהו <a href=\"%iso-codes\">קוד שפה בפורמט ISO639</a> עם קוד מדינה "
+"אופציונלי עבור גירסאות אזוריות של השפה. לדוגמה: 'en', 'en-US' ו-'zh-cn'."
 
-#: includes/locale.inc:80
+#: includes/locale.inc:160
 msgid "Language name in English"
 msgstr "שם השפה באנגלית"
 
-#: includes/locale.inc:80
+#: includes/locale.inc:163
 msgid "Name of the language. Will be available for translation in all languages."
 msgstr "שם השפה. יהיה זמין בכל השפות לצורך תרגום."
 
-#: includes/locale.inc:101
+#: includes/locale.inc:165
+msgid "Add custom language"
+msgstr "הוספת שפה מותאמת אישית"
+
+#: includes/locale.inc:178
+msgid "The language %language (%code) already exists."
+msgstr "השפה %language (%locale) כבר הותקנה בהצלחה."
+
+#: includes/locale.inc:184
+msgid "Invalid language code."
+msgstr "קוד השפה לא תקין"
+
+#: includes/locale.inc:218
 msgid "Already added languages"
 msgstr "שפות אלו כבר קיימות"
 
-#: includes/locale.inc:102
+#: includes/locale.inc:219
 msgid "Languages not yet added"
 msgstr "שפות אלו לא קיימות עדיין"
 
-#: includes/locale.inc:106
+#: includes/locale.inc:225
+msgid "Import translation"
+msgstr "ייבא תרגום"
+
+#: includes/locale.inc:228
 msgid "Language file"
 msgstr "קובץ שפה"
 
-#: includes/locale.inc:106
+#: includes/locale.inc:230
 msgid "A gettext Portable Object (.po) file."
-msgstr "קובץ פרוטבילי של gettext (עם סיומת <span dir=ltr>.po</span>)."
+msgstr "קובץ פורטבילי של gettext (עם סיומת <span dir=ltr>.po</span>)."
 
-#: includes/locale.inc:107
+#: includes/locale.inc:233
 msgid "Import into"
-msgstr "יבוא לתוך"
+msgstr "יבא לתוך"
 
-#: includes/locale.inc:107
-msgid "Choose the language you want to add strings into. If you choose a language which is not yet set up, then it will be added."
+#: includes/locale.inc:235
+msgid ""
+"Choose the language you want to add strings into. If you choose a language "
+"which is not yet set up, then it will be added."
 msgstr ""
-"בחר את השפה שעבורה ברצונך להכניס "
-"מחרוזות. אם תבחר שפה שעדיין אינה "
-"מוגדרת, היא תתווסף לרשימה."
+"בחר את השפה שעבורה ברצונך להכניס מחרוזות. אם תבחר שפה שעדיין אינה מוגדרת, "
+"היא תתווסף לרשימה."
 
-#: includes/locale.inc:108
+#: includes/locale.inc:238
 msgid "Mode"
 msgstr "אופן ביצוע"
 
-#: includes/locale.inc:108
+#: includes/locale.inc:240
 msgid "Strings in the uploaded file replace existing ones, new ones are added"
 msgstr "מחרוזות בקובץ שנטען מחליפות מחרוזות קיימות, מחרוזות חדשות מוספות לתרגום."
 
-#: includes/locale.inc:108
+#: includes/locale.inc:240
 msgid "Existing strings are kept, only new strings are added"
 msgstr "מחרוזות קיימות נשמרות. רק מחרוזות חדשות מוספות."
 
-#: includes/locale.inc:129
-msgid "Unsupported language selected for import."
-msgstr "שפות לא נתמכות שנבחרו ליבוא."
+#: includes/locale.inc:242
+msgid "Import"
+msgstr "יבוא"
 
-#: includes/locale.inc:135
-msgid "Translation file %filename broken: Could not be read."
-msgstr "קובץ תרגום %filename לא תקין : לא ניתן לקריאה."
+#: includes/locale.inc:262
+msgid "The translation import of %filename failed."
+msgstr "יבוא תרגום מקובץ %filename נכשל."
 
-#: includes/locale.inc:157
-msgid "Translation file %filename broken: No header."
-msgstr "קובץ תרגום %filename לא תקין : כותרת חסרה."
-
-#: includes/locale.inc:259
-msgid "Translation successfully imported. %number translated strings added to language, %update strings updated."
-msgstr ""
-"ייבוא התרגום הושלם בהצלחה. %number "
-"מחרוזות מתורגמות נוספו לשפה, %update "
-"מחרוזות עודכנו."
-
-#: includes/locale.inc:260
-msgid "Imported %file into %locale: %number new strings added and %update updated."
-msgstr ""
-"בוצע ייבוא של %file לתוך %locale: %number "
-"מחרוזות חדשות נוספו. %update מחרוזות עודכנו."
-
-#: includes/locale.inc:275
-msgid "Translation import failed: file %filename cannot be read."
-msgstr "יבוא תרגום נכשל: הקובץ %filename לא קריא."
-
-#: includes/locale.inc:307
-msgid "Translation file %filename broken: expected 'msgstr' in line %line."
-msgstr "קובץ תרגום %filename שבור: 'msgstr' מצופה בשורה %line."
-
-#: includes/locale.inc:313
-msgid "Translation file %filename broken: unexpected 'msgid_plural' in line %line."
-msgstr "קובץ תרגום %filename שבור: 'msgid_plural' לא צפוי בשורה %line."
-
-#: includes/locale.inc:319;337;349;357;371;380
-msgid "Translation file %filename broken: syntax error in line %line."
-msgstr "קובץ תרגום %filename שבור: שגיאת תחביר בשורה %line."
-
-#: includes/locale.inc:331
-msgid "Translation file %filename broken: unexpected 'msgid' in line %line."
-msgstr "קובץ תרגום %filename שבור: 'msgid' לא צפוי בשורה %line."
-
-#: includes/locale.inc:345
-msgid "Translation file %filename broken: unexpected 'msgstr[]' in line %line."
-msgstr "קובץ תרגום %filename שבור: 'msgstr[]' לא צפוי בשורה %line."
-
-#: includes/locale.inc:365
-msgid "Translation file %filename broken: unexpected 'msgstr' in line %line."
-msgstr "קובץ תרגום %filename שבור: 'msgstr' לא צפוי בשורה %line."
-
-#: includes/locale.inc:393
-msgid "Translation file %filename broken: unexpected string in line %line."
-msgstr "קובץ תרגום %filename שבור: מחרוזת לא צפויה בשורה %line."
-
-#: includes/locale.inc:404
-msgid "Translation file %filename broken: unexpected end of file at line %line."
-msgstr "קובץ תרגום %filename שבור: סופ שורה לא צפוי בשורה %line."
-
-#: includes/locale.inc:469
-msgid "Translation file %filename broken: plural formula couldn't get parsed."
-msgstr "קובץ תרגום %filename שבור: נוסחאת תרגום מבנה שפה 'רבים' לא הצליחה."
-
-#: includes/locale.inc:703
+#: includes/locale.inc:282
 msgid "Export translation"
 msgstr "יצוא תרגום"
 
-#: includes/locale.inc:704
-msgid "Select the language you would like to export in gettext Portable Object (.po) format."
-msgstr "יש לבחור את השפה לייצוא. השפה תיוצא במבנה של gettext Portable Object  <span dir=ltr>(.po)</span>."
+#: includes/locale.inc:288
+msgid ""
+"Select the language you would like to export in gettext Portable Object (."
+"po) format."
+msgstr ""
+"יש לבחור את השפה לייצוא. השפה תיוצא במבנה של gettext Portable Object  <span "
+"dir=ltr>(.po)</span>."
 
-#: includes/locale.inc:710
+#: includes/locale.inc:290;301
+msgid "Export"
+msgstr "יצוא"
+
+#: includes/locale.inc:297
 msgid "Export template"
 msgstr "יצוא תבנית"
 
-#: includes/locale.inc:711
-msgid "<p>Generate a gettext Portable Object Template (.pot) file with all the interface strings from the Drupal locale database.</p>"
+#: includes/locale.inc:299
+msgid ""
+"Generate a gettext Portable Object Template (.pot) file with all the "
+"interface strings from the Drupal locale database."
 msgstr ""
-"<p>יצירת קובץ תבנית בפורמט  gettext Portable Object "
-"Template  <span dir=ltr>(.pot)</span> עם כל מחרוזות "
-"הממשק מתוך ההגדרות בבסיס הנתונים של האתר.</p>"
+"<p>\n"
+"יצירת קובץ תבנית בפורמט  gettext Portable Object Template  <span dir=ltr>(."
+"pot)</span> עם כל מחרוזות הממשק מתוך ההגדרות בבסיס הנתונים של האתר.</p>"
 
-#: includes/locale.inc:772
-msgid "Exported %locale translation file: %filename."
-msgstr "בוצע ייצוא של השפה %locale לקובץ תרגום: %filename."
-
-#: includes/locale.inc:793
-msgid "Exported translation file: %filename."
-msgstr "בוצע ייצוא לקובץ תרגום: %filename. "
-
-#: includes/locale.inc:908
-msgid "Deleted string"
-msgstr "המחרוזת נמחקה"
-
-#: includes/locale.inc:935
-msgid "Saved string"
-msgstr "המחרוזת נשמרה"
-
-#: includes/locale.inc:955
-msgid "Original text"
-msgstr "מלל מקורי"
-
-#: includes/locale.inc:1046
-msgid "String"
-msgstr "מחרוזת"
-
-#: includes/locale.inc:1046
-msgid "Locales"
-msgstr "שפות"
-
-#: includes/locale.inc:1088
+#: includes/locale.inc:330
 msgid "Strings to search for"
 msgstr "מחרוזות לחיפוש"
 
-#: includes/locale.inc:1088
+#: includes/locale.inc:334
 msgid "Leave blank to show all strings. The search is case sensitive."
 msgstr ""
-"השאר ריק להצגת כל המחרוזות. החיפוש "
-"רגיש להבדל בין אותיות אנגליות קטנות וגדולות."
+"השאר ריק להצגת כל המחרוזות. החיפוש רגיש להבדל בין אותיות אנגליות קטנות "
+"וגדולות."
 
-#: includes/locale.inc:1089
+#: includes/locale.inc:339
 msgid "All languages"
 msgstr "כל השפות"
 
-#: includes/locale.inc:1089
+#: includes/locale.inc:339
 msgid "English (provided by Drupal)"
 msgstr "אנגלית (סופקה על ידי דרופל)"
 
-#: includes/locale.inc:1090
+#: includes/locale.inc:342
 msgid "Search in"
 msgstr "חפש ב"
 
-#: includes/locale.inc:1090
+#: includes/locale.inc:344
 msgid "All strings in that language"
 msgstr "כל המחרוזות בשפה זו"
 
-#: includes/locale.inc:1090
+#: includes/locale.inc:344
 msgid "Only translated strings"
 msgstr "רק מחרוזות שתורגמו"
 
-#: includes/locale.inc:1090
+#: includes/locale.inc:344
 msgid "Only untranslated strings"
-msgstr " רק מחרוזות שטרם תורגמו"
+msgstr "רק מחרוזות שטרם תורגמו"
 
-#: includes/locale.inc:1093
-msgid "Search strings"
-msgstr "חיפוש מחרוזות"
+#: includes/locale.inc:379
+msgid "String not found."
+msgstr "מחרוזת לא נמצאה."
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:385
+msgid "Original text"
+msgstr "טקסט מקורי"
+
+#: includes/locale.inc:399
+msgid "Save translations"
+msgstr "שמור תרגום"
+
+#: includes/locale.inc:420
+msgid "The string has been saved."
+msgstr "המחרוזת נשמרה."
+
+#: includes/locale.inc:437
+msgid "The string has been removed."
+msgstr "המחרוזת נמחקה."
+
+#: includes/locale.inc:457
+msgid "The language selected for import is not supported."
+msgstr "השפות שנבחרו ליבוא אינן נתמכות."
+
+#: includes/locale.inc:468
+msgid "The translation file %filename appears to have a missing or malformed header."
+msgstr "קובץ תרגום %filename לא תקין: כותרת חסרה."
+
+#: includes/locale.inc:477
+msgid ""
+"The translation was successfully imported. There are %number newly created "
+"translated strings and %update strings were updated."
+msgstr ""
+"ייבוא התרגום הושלם בהצלחה. %number מחרוזות מתורגמות נוספו לשפה, %update "
+"מחרוזות עודכנו."
+
+#: includes/locale.inc:478
+msgid "Imported %file into %locale: %number new strings added and %update updated."
+msgstr ""
+"בוצע ייבוא של %file לתוך %locale: %number מחרוזות חדשות נוספו. %update "
+"מחרוזות עודכנו."
+
+#: includes/locale.inc:493
+msgid "The translation import failed, because the file %filename could not be read."
+msgstr "יבוא תרגום נכשל: הקובץ %filename לא קריא."
+
+#: includes/locale.inc:518
+msgid ""
+"The translation file %filename contains an error: \"msgstr\" was expected "
+"but not found on line %line."
+msgstr "קובץ תרגום %filename שבור: במקום \"msgstr\" מחרוזת לא צפויה בשורה %line."
+
+#: includes/locale.inc:524
+msgid ""
+"The translation file %filename contains an error: \"msgid_plural\" was "
+"expected but not found on line %line."
+msgstr "קובץ תרגום %filename שבור: במקום \"msgid_plural\" מחרוזת לא צפויה בשורה %line."
+
+#: includes/locale.inc:530;548;560;568;582;591
+msgid "The translation file %filename contains a syntax error on line %line."
+msgstr "קובץ תרגום %filename שבור: שגיאת תחביר בשורה %line."
+
+#: includes/locale.inc:542
+msgid ""
+"The translation file %filename contains an error: \"msgid\" is unexpected on "
+"line %line."
+msgstr "קובץ תרגום %filename שבור: במקום \"msgid\" מחרוזת לא צפויה בשורה %line."
+
+#: includes/locale.inc:556
+msgid ""
+"The translation file %filename contains an error: \"msgstr[]\" is unexpected "
+"on line %line."
+msgstr "קובץ תרגום %filename שבור: \"msgstr[]\" לא צפוי בשורה %line."
+
+#: includes/locale.inc:576
+msgid ""
+"The translation file %filename contains an error: \"msgstr\" is unexpected "
+"on line %line."
+msgstr "קובץ תרגום %filename שבור: \"msgstr\" לא צפוי בשורה %line."
+
+#: includes/locale.inc:604
+msgid ""
+"The translation file %filename contains an error: there is an unexpected "
+"string on line %line."
+msgstr "קובץ תרגום %filename שבור: מחרוזת לא צפויה בשורה %line."
+
+#: includes/locale.inc:615
+msgid "The translation file %filename ended unexpectedly at line %line."
+msgstr "קובץ תרגום %filename שבור: הקובץ מסתיים באופן לא צפוי בשורה %line."
+
+#: includes/locale.inc:799
+msgid ""
+"The translation file %filename contains an error: the plural formula could "
+"not be parsed."
+msgstr "קובץ תרגום %filename שבור: נוסחת הריבוי אינה ניתנת לפענוח."
+
+#: includes/locale.inc:1082
+msgid "Exported %locale translation file: %filename."
+msgstr "בוצע ייצוא של השפה %locale לקובץ תרגום: %filename."
+
+#: includes/locale.inc:1103
+msgid "Exported translation file: %filename."
+msgstr "בוצע ייצוא לקובץ תרגום: %filename. "
+
+#: includes/locale.inc:1305
+msgid "String"
+msgstr "מחרוזת"
+
+#: includes/locale.inc:1305
+msgid "Locales"
+msgstr "שפות"
+
+#: includes/locale.inc:1365
 msgid "Afar"
 msgstr "אפרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Abkhazian"
 msgstr "אבקזית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Avestan"
 msgstr "אבסטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Afrikaans"
 msgstr "אפריקנס"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Akan"
 msgstr "אקנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Amharic"
 msgstr "אמהרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Arabic"
 msgstr "ערבית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Assamese"
 msgstr "אסמס"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Avar"
 msgstr "אוורית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Aymara"
 msgstr "אימרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Azerbaijani"
 msgstr "אזרביג'נית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bashkir"
 msgstr "בשקירית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Belarusian"
 msgstr "ביילורוסית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bulgarian"
 msgstr "בולגרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bihari"
 msgstr "ביהרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bislama"
 msgstr "ביסלמית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bambara"
 msgstr "במברית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bengali"
 msgstr "בנגלית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tibetan"
 msgstr "טיבטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Breton"
 msgstr "ברטונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bosnian"
 msgstr "בוסנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Catalan"
 msgstr "קטלונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Chechen"
 msgstr "צ'צנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Chamorro"
 msgstr "צ'מורית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Corsican"
 msgstr "קורסיקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Cree"
 msgstr "קרי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Czech"
 msgstr "צ'כית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Old Slavonic"
 msgstr "סלובנית עתיקה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Welsh"
 msgstr "וולסית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Welch"
 msgstr "וולשית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Danish"
 msgstr "דנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "German"
 msgstr "גרמנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Maldivian"
 msgstr "מולדבית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Bhutani"
 msgstr "בהוטנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Ewe"
 msgstr "איווית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Greek"
 msgstr "יוונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "English"
 msgstr "אנגלית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Esperanto"
 msgstr "אספרנטו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Spanish"
 msgstr "ספרדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Estonian"
 msgstr "אסטונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Basque"
 msgstr "בסקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Persian"
 msgstr "פרסית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Fulah"
 msgstr "פולית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Finnish"
 msgstr "פינית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Fiji"
-msgstr "פיגי "
+msgstr ""
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Faeroese"
 msgstr "פרוסית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "French"
 msgstr "צרפתית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Frisian"
 msgstr "פריסית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Irish"
 msgstr "אירית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Scots Gaelic"
 msgstr "גלית סקוטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Galician"
 msgstr "גליצית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Guarani"
 msgstr "גוארנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Gujarati"
 msgstr "גוג'רטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Manx"
 msgstr "מנקס"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Hausa"
 msgstr "הונסה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Hebrew"
 msgstr "עברית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Hindi"
 msgstr "הינדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Hiri Motu"
 msgstr "הירי מוטו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Croatian"
 msgstr "קרואטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Hungarian"
 msgstr "הונגרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Armenian"
 msgstr "ארמנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Herero"
 msgstr "הררו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Interlingua"
 msgstr "אינטרלינגית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Indonesian"
 msgstr "אינדונזית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Interlingue"
 msgstr "אינטרלינגו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Igbo"
 msgstr "איגבו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Inupiak"
 msgstr "אינופיאק"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Icelandic"
 msgstr "איסלנדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Italian"
 msgstr "איטלקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Inuktitut"
 msgstr "אינוקטיטוט"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Japanese"
 msgstr "יפנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Javanese"
 msgstr "ג'אואנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Georgian"
 msgstr "גו'רגית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kongo"
 msgstr "קונגו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kikuyu"
 msgstr "קיקויו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kwanyama"
 msgstr "קוואנאימה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kazakh"
 msgstr "קזקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Greenlandic"
 msgstr "גרינלנדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Cambodian"
 msgstr "קמבודית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kannada"
 msgstr "קנדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Korean"
 msgstr "קוריאנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kanuri"
 msgstr "קנורית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kashmiri"
 msgstr "קשמירית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kurdish"
 msgstr "כורדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Komi"
 msgstr "קומי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Cornish"
 msgstr "קורנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kirghiz"
 msgstr "קירגיזית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Latin"
 msgstr "לטינית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Luxembourgish"
 msgstr "לוקסמבורגית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Luganda"
 msgstr "לוגנדה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Lingala"
 msgstr "לינגולה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Laothian"
 msgstr "לאוטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Lithuanian"
 msgstr "ליטבאית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Latvian"
 msgstr "לטבית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Malagasy"
 msgstr "מלגשית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Marshallese"
 msgstr "מרשלית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Maori"
 msgstr "מאורית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Macedonian"
 msgstr "מקדונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Malayalam"
 msgstr "מלאיהלם"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Mongolian"
 msgstr "מונגולית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Moldavian"
 msgstr "מולדבית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Marathi"
 msgstr "מרטי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Malay"
 msgstr "מלאית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Maltese"
 msgstr "מלטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Burmese"
 msgstr "בורמזית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Nauru"
-msgstr "נאורו"
+msgstr "Nauru"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "North Ndebele"
 msgstr "נדבלה הצפונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Nepali"
 msgstr "נפלית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Ndonga"
 msgstr "נדונגה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Dutch"
 msgstr "הולנדית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Norwegian"
 msgstr "נורווגית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "South Ndebele"
 msgstr "נדבלה הדרומית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Navajo"
 msgstr "נבחו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Chichewa"
 msgstr "צ'יצוונית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Occitan"
 msgstr "אוקיטנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Oromo"
 msgstr "אומורו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Oriya"
 msgstr "אוריה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Ossetian"
 msgstr "אוסטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Punjabi"
 msgstr "פונג'בית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Pali"
 msgstr "פאלית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Polish"
 msgstr "פולנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Pashto"
 msgstr "פשטו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Portuguese"
 msgstr "פורטוגזית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Quechua"
 msgstr "קיוצ'ואה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Rhaeto-Romance"
 msgstr "רטו-רומנס"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kirundi"
 msgstr "קירונדאי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Romanian"
 msgstr "רומנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Russian"
 msgstr "רוסית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Kinyarwanda"
 msgstr "קינירוונדה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Sanskrit"
 msgstr "סנסקריט"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Sardinian"
 msgstr "סרדינית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Sindhi"
 msgstr "סידהית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Northern Sami"
 msgstr "צפון סמי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Sango"
 msgstr "סנגו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Serbo-Croatian"
 msgstr "סרבו-קרואטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Singhalese"
 msgstr "סינגולזית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Slovak"
 msgstr "סלובקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Slovenian"
 msgstr "סלובנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Samoan"
 msgstr "סמואית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Shona"
 msgstr "שונה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Somali"
 msgstr "סומלית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Albanian"
 msgstr "אלבנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Serbian"
 msgstr "סרבית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Siswati"
 msgstr "סיסווטי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Sesotho"
 msgstr "ססטו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Sudanese"
 msgstr "סודנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Swedish"
 msgstr "שוודית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Swahili"
 msgstr "סואהילית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tamil"
 msgstr "טמילית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Telugu"
 msgstr "טגולו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tajik"
 msgstr "טגי'קית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Thai"
 msgstr "תאית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tigrinya"
 msgstr "טיגרינייה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Turkmen"
 msgstr "טורקמנית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tagalog"
 msgstr "טגלוג"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Setswana"
 msgstr "סטסוונה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tonga"
-msgstr "טונגה"
+msgstr ""
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Turkish"
 msgstr "טורקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tsonga"
 msgstr "צונגה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tatar"
 msgstr "טטרית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Twi"
 msgstr "טווי"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Tahitian"
 msgstr "טהיטית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Uighur"
 msgstr "אוגיהור"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Ukrainian"
 msgstr "אוקראינית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Urdu"
 msgstr "אורדו"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Uzbek"
 msgstr "אוזבקית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Venda"
 msgstr "וונדה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Vietnamese"
 msgstr "וייטנמית"
 
-#: includes/locale.inc:1129
-msgid "Volapük"
-msgstr "וולופוק"
-
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Wolof"
 msgstr "וולוף"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Xhosa"
 msgstr "קסהוסה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Yiddish"
 msgstr "אידיש"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Yoruba"
 msgstr "יורובה"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Zhuang"
 msgstr "זהונג"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Chinese, Simplified"
 msgstr "סינית מפושטת"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Chinese, Traditional"
 msgstr "סינית מסורתית"
 
-#: includes/locale.inc:1129
+#: includes/locale.inc:1365
 msgid "Zulu"
 msgstr "זולו"
 

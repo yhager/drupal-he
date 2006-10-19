@@ -1,80 +1,122 @@
-# translation of file-inc.po to 
-# translation of file-inc.po to
-# LANGUAGE translation of Drupal (includes/file.inc)
-# Generated from file: file.inc,v 1.39.2.4 2005/05/18 05:17:56 dries
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: file-inc\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-14 19:01+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: \n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.2beta3\n"
 
-#: includes/file.inc:87
-msgid "Created directory %directory."
-msgstr "נוצרה הספריה %directory."
+#: includes/file.inc:92
+#, fuzzy
+msgid "The directory %directory has been created."
+msgstr "אין גישת כתיבה לספריה %directory."
 
-#: includes/file.inc:91
+#: includes/file.inc:97
 msgid "The directory %directory does not exist."
 msgstr "הספריה %directory לא קיימת."
 
-#: includes/file.inc:100
-msgid "Modified permissions on directory %directory."
-msgstr "עודכן הרשאות עבור ספריה %directory."
-
-#: includes/file.inc:103
-msgid "The directory %directory is not writable."
+#: includes/file.inc:106
+#, fuzzy
+msgid ""
+"The permissions of directory %directory have been changed to make it "
+"writable."
 msgstr "אין גישת כתיבה לספריה %directory."
 
+#: includes/file.inc:109
+#, fuzzy
+msgid "The directory %directory is not writable"
+msgstr "אין גישת כתיבה לספריה %directory."
+
+#: includes/file.inc:110
+#, fuzzy
+msgid ""
+"The directory %directory is not writable, because it does not have the "
+"correct permissions set."
+msgstr "אין גישת כתיבה לספריה %directory."
+
+#: includes/file.inc:121
+msgid ""
+"Security warning: Couldn't write .htaccess file. Please create a .htaccess "
+"file in your %directory directory which contains the following lines: <code>%"
+"htaccess</code>"
+msgstr ""
+
+#: includes/file.inc:207
+msgid ""
+"The file %file could not be saved, because it exceeds the maximum allowed "
+"size for uploads."
+msgstr ""
+
+#: includes/file.inc:212
+msgid "The file %file could not be saved, because the upload did not complete."
+msgstr ""
+
 #: includes/file.inc:217
-msgid "File copy failed: no directory configured, or it could not be accessed."
-msgstr "העתקת הקובץ נכשלה: הספריה לא קיימת או לא ניתנת לגישה."
+msgid "The file %file could not be saved. An unknown error has occurred."
+msgstr ""
 
-#: includes/file.inc:232
-msgid "File copy failed: source file does not exist."
-msgstr "העתקת הקובץ נכשלה: הקובץ המקורי אינו קיים."
-
-#: includes/file.inc:264
-msgid "File copy failed. File already exists."
-msgstr "העתקת הקובץ נכשלה: הקובץ קיים."
-
-#: includes/file.inc:273
-msgid "File copy failed."
-msgstr "העתקת הקובץ נכשלה."
-
-#: includes/file.inc:317
-msgid "Removing original file failed."
-msgstr "מחיקת הקובץ המקורי נכשלה."
-
-#: includes/file.inc:376;420
-msgid "Possible exploit abuse: invalid data."
-msgstr "סבירות לכשל אבטחה: מידע שגוי."
-
-#: includes/file.inc:377;421
-msgid "File upload failed: invalid data."
-msgstr "קבלת הקובץ נכשלה: מידע שגוי."
-
-#: includes/file.inc:387
-msgid "File upload failed: file size too big."
-msgstr "קבלת הקובץ נכשלה: גודל הקובץ גדול מידי."
-
-#: includes/file.inc:391
-msgid "File upload failed: incomplete upload."
+#: includes/file.inc:240
+#, fuzzy
+msgid "File upload error. Could not move uploaded file."
 msgstr "קבלת הקובץ נכשלה: תהליך הקבלה לא הושלם."
 
-#: includes/file.inc:394
-msgid "File upload failed: unknown error."
-msgstr "קבלת הקובץ נכשלה: שגיאה לא ידועה."
+#: includes/file.inc:241
+msgid ""
+"Upload Error. Could not move uploaded file(%file) to destination(%"
+"destination)."
+msgstr ""
 
-#: includes/file.inc:428
-msgid "Unable to create file."
-msgstr "יצירת הקובץ אינה אפשרית."
+#: includes/file.inc:321
+msgid ""
+"The selected file %file could not be uploaded, because the destination %"
+"directory is not properly configured."
+msgstr ""
 
+#: includes/file.inc:322
+msgid ""
+"The selected file %file could not not be uploaded, because the destination %"
+"directory could not be found, or because its permissions do not allow the "
+"file to be written."
+msgstr ""
+
+#: includes/file.inc:337
+msgid ""
+"The selected file %file could not be copied, because no file by that name "
+"exists.  Please check that you supplied the correct filename."
+msgstr ""
+
+#: includes/file.inc:369
+msgid ""
+"The selected file %file could not be copied, because a file by that name "
+"already exists in the destination."
+msgstr ""
+
+#: includes/file.inc:375
+#, fuzzy
+msgid "The selected file %file could not be copied."
+msgstr "קובץ תרגום %filename לא תקין : לא ניתן לקריאה."
+
+#: includes/file.inc:424
+#, fuzzy
+msgid "The removal of the original file %file has failed."
+msgstr "מחיקת הקובץ המקורי נכשלה."
+
+#: includes/file.inc:527
+#, fuzzy
+msgid "The file could not be created."
+msgstr "השדה החדש נוצר."
+
+#: includes/file.inc:110;322
+#, fuzzy
+msgid "file system"
+msgstr "מיקום קבצי מערכת"
+
+#: includes/file.inc:241
+msgid "file"
+msgstr "קובץ"

@@ -1,95 +1,266 @@
-# translation of drupal-module.po to 
-# LANGUAGE translation of Drupal (modules/drupal.module)
-# Generated from file: drupal.module,v 1.100.2.1 2005/05/18 21:13:52 unconed
-# Copyright YEAR NAME <EMAIL@ADDRESS>.
-# Nadav Kavalerchik <nadavkav@netvision.net.il>, 2005.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: drupal-module\n"
-"POT-Creation-Date: 2005-06-30 11:06+0200\n"
-"PO-Revision-Date: 2005-08-14 11:33+0300\n"
-"Last-Translator: Nadav Kavalerchik <nadavkav@netvision.net.il>\n"
-"Language-Team: \n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.2beta3\n"
 
 #: modules/drupal.module:15
-msgid "\n<p>The \"Drupal\" module features a capability whereby other drupal sites may <em>call home</em> to report their existence. In turn, this enables a pod of Drupal sites to find, cooperate and advertise each other.</p>\n<p>Currently, the main application of this feature is the <a href=\"%drupal-sites\">Drupal sites</a> page. By default, fresh Drupal installations can use <a href=\"%Drupal\">drupal.org</a> as their <em>directory server</em> and report their existence. This reporting occurs via scheduled <a href=\"%xml-rpc\">XML-RPC</a> pings.</p>\n<p>Drupal administrators should simply enable this feature to get listed on the <a href=\"%drupal-sites\">Drupal sites</a> page. Just set your site's name, e-mail address, slogan and mission statement on the <a href=\"%site-settings\">administer &raquo; settings</a> page. Then make sure that the field called <em>Drupal XML-RPC server</em> on the <a href=\"%drupal-settings\">administer &raquo; settings &raquo; drupal</a> page is set to %drupal-xml-rpc, and enable this feature using the dropdown directly below.</p>\n<p>The listing of your site will occur shortly after your site's next cron run. Note that cron.php should be called using the domain name which you want to have listed at <a href=\"%Drupal\">drupal.org</a>. For example, don't kick off cron by requesting http://127.0.0.1/cron.php. Instead, use a publicly accessible domain name such as http://www.example.com/cron.php.</p>\n<p>Also note that your installation need not use drupal.org as its directory server. For example, this feature is perfectly capable of aggregating pings from all of your departmental drupal installations sites within an enterprise.</p>"
+msgid ""
+"The Drupal module uses the XML-RPC network communication protocol to connect "
+"your site with a central server that maintains a directory of client sites."
 msgstr ""
 
-#: modules/drupal.module:22
-msgid "Lets users log in using a Drupal ID and can notify a central server about your site."
+#: modules/drupal.module:16
+msgid ""
+"<p>Enabling the Drupal module will allow you to:</p>\n"
+"<ul>\n"
+"  <li>register your site with a server, including (optionally) posting "
+"information on your installed modules and themes and summary statistics on "
+"your number of posts and users, information that can help rank Drupal "
+"modules and themes</li>\n"
+"  <li>enable other sites to register with your site</li>\n"
+"  <li>allow members on all sites using the Drupal module to log in to your "
+"site without registering using their distributed identification</li>\n"
+"  <li>allow members to log in to any other site that uses the Drupal module, "
+"using a login name that looks much like an e-mail address: "
+"<em>username@example.com</em></li>\n"
+"</ul>\n"
 msgstr ""
-"מאפשר למשתמשים להיכנס למערכת תוך "
-"שימוש בכינוי דרופל ויכול להודיע לשרת "
-"מרכזי על קיום האתר שלך."
 
 #: modules/drupal.module:24
-msgid "<p>Using this your Drupal site can \"call home\" and add itself to the Drupal directory. If you want it to add itself to a different directory server you can change the <a href=\"%xml-rpc-setting\">Drupal XML-RPC server</a> setting -- but the directory server has to be able to handle Drupal XML. To get all your site information listed, go to the <a href=\"%site-settings\">settings page</a> and set the site name, the e-mail address, the slogan, and the mission statement.</p>"
+msgid ""
+"The Drupal module administration page allows you to set the xml-rpc server "
+"page and other related options."
 msgstr ""
 
-#: modules/drupal.module:26
-msgid "<p><a href=\"%Drupal\">Drupal</a> is the name of the software which powers %this-site. There are Drupal web sites all over the world, and many of them share their registration databases so that users may freely login to any Drupal site using a single <strong>Drupal ID</strong>.</p>\n<p>So please feel free to login to your account here at %this-site with a username from another Drupal site. The format of a Drupal ID is similar to an email address: <strong>username</strong>@<em>server</em>. An example of a valid Drupal ID is <strong>mwlily</strong>@<em>www.drupal.org</em>.</p>"
+#: modules/drupal.module:25
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"  <li>run your cron job at your site's <a href=\"%file-cron\">cron page</a></"
+"li>\n"
+"  <li>view your <a href=\"%file-xmlrpc\">XML-RPC page</a>.</li>\n"
+"  <li>administer Drupal <a href=\"%admin-settings-drupal\">administer &gt;"
+"&gt; settings &gt;&gt; drupal</a>.</li>\n"
+"</ul>\n"
 msgstr ""
 
-#: modules/drupal.module:37
-msgid "You must set the name of your site on the <a href=\"%url\">administer &raquo; settings</a> page."
-msgstr "שם<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
-
-#: modules/drupal.module:39
-msgid "You must set an e-mail address for your site on the <a href=\"%url\">administer &raquo; settings</a> page."
-msgstr "כתובת<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
-
-#: modules/drupal.module:41
-msgid "You must set your site slogan on the <a href=\"%url\">administer &raquo; settings</a> page."
-msgstr "<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
-
-#: modules/drupal.module:43
-msgid "You must set your site mission on the <a href=\"%url\">administer &raquo; settings</a> page."
-msgstr "<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+#: modules/drupal.module:32
+msgid ""
+"If you maintain a directory of sites, you can list them on a page using the "
+"<code>drupal_client_page()</code> function. Sample instructions:\n"
+"<ul>\n"
+"  <li>Enable the page module. Select create content &gt;&gt; page.</li>\n"
+"  <li>For input format, select PHP code.</li>\n"
+"  <li>Give the page a title. For body, put:\n"
+"<pre>\n"
+"&lt;?php\n"
+"print drupal_client_page();\n"
+"?&gt;\n"
+"</pre>\n"
+"  <li>Save the page.</li>\n"
+"</ul>"
+msgstr ""
 
 #: modules/drupal.module:45
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%drupal\">Drupal page</a>."
+msgstr ""
+
+#: modules/drupal.module:48
+msgid ""
+"Lets you register your site with a central server and improve ranking of "
+"Drupal projects by posting information on your installed modules and themes; "
+"also enables users to log in using a Drupal ID."
+msgstr ""
+
+#: modules/drupal.module:50
+#, fuzzy
+msgid ""
+"<p>Using this your site can \"call home\" to another Drupal server. By "
+"calling home to drupal.org and sending a list of your installed modules and "
+"themes, you help rank projects on drupal.org and so assist all Drupal "
+"administrators to find the best components for meeting their needs. If you "
+"want to register with a different server, you can change the Drupal XML-RPC "
+"server setting -- but the server has to be able to handle Drupal XML. Some "
+"XML-RPC servers may present directories of all registered sites. To get all "
+"your site information listed, go to the <a href=\"%site-settings\">settings "
+"page</a> and set the site name, the e-mail address, the slogan, and the "
+"mission statement.</p>"
+msgstr ""
+"מסך זה מאפשר לאתר דרופל שלך \"להתקשר הביתה\" ולהוסיף את עצמו למדריך האתרים "
+"של דרופל. אם אתה רוצה שהאתר שלך יוסיף את עצמו למדריך אחר תוכל לשנות את "
+"הגדרות <a href=\"%xml-rpc-setting\">שרת XML-RPC של דרופל</a> -- אבל שרת "
+"המדריך צריך להיות מסוגל לטפל ב-XML של דרופל. כדי שכל המידע על האתר שלך "
+"יירשם, לך אל עמוד <a href=\"%site-settings\">ניהול &raquo; הגדרות</a> והגדר "
+"את שם האתר, כתובת הדואר האלקטרוני, הסיסמה, והצהרת המשימה."
+
+#: modules/drupal.module:52
+#, fuzzy
+msgid ""
+"<p><a href=\"%Drupal\">Drupal</a> is the name of the software that powers %"
+"this-site. There are Drupal web sites all over the world, and many of them "
+"share their registration databases so that users may freely log in to any "
+"Drupal site using a single <strong>Drupal ID</strong>.</p>\n"
+"<p>So please feel free to log in to your account here at %this-site with a "
+"username from another Drupal site. The format of a Drupal ID is similar to "
+"an e-mail address: <strong>username</strong>@<em>server</em>. An example of "
+"a valid Drupal ID is <strong>mwlily</strong>@<em>drupal.org</em>.</p>"
+msgstr ""
+"<p><a href=\"%Drupal\">דרופל</a> הוא שם התוכנה שמאחורי %this-site. ישנם אתרי "
+"דרופל בכל העולם, ורבים מהם משתפים את נתוני ההצטרפות שלהם כך שמתמשים יוכלו "
+"להיכנס בחופשיות לכל אתר דרופל תוך שימוש   <strong>בכינוי דרופל</strong> יחיד."
+"</p> <p>לכן, הרגש חופשי להיכנס לחשבון שלך באתר  %this-site עם כינוי מאתר "
+"דרופל אחר. הפורמט של מזהה דרופל דומה לכתובת דואר אלקטרוני:  <strong>כינוי</"
+"strong>@<em>שרת</em>. דוגמה למזהה דדופל תקין הוא <strong>mwlily</"
+"strong>@<em>www.drupal.org</em>.</p>\r\n"
+
+#: modules/drupal.module:63
+msgid ""
+"You must set the name of your site on the <a href=\"%url\">administer "
+"&raquo; settings</a> page."
+msgstr "שם<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:66
+msgid ""
+"You must set an e-mail address for your site on the <a href=\"%url"
+"\">administer &raquo; settings</a> page."
+msgstr "כתובת<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:69
+msgid ""
+"You must set your site slogan on the <a href=\"%url\">administer &raquo; "
+"settings</a> page."
+msgstr "<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:72
+msgid ""
+"You must set your site mission on the <a href=\"%url\">administer &raquo; "
+"settings</a> page."
+msgstr "<a href=\"%url\"> ניהול&raquo; הגדרות</a> עמוד."
+
+#: modules/drupal.module:78
+msgid "Post data to another site"
+msgstr ""
+
+#: modules/drupal.module:84
+msgid "Register with a Drupal server"
+msgstr ""
+
+#: modules/drupal.module:87
+#, fuzzy
+msgid ""
+"If enabled, your Drupal site will register itself with the specified Drupal "
+"XML-RPC server. For this to work properly, you must set your site's name, e-"
+"mail address, slogan and mission statement. When the \"Drupal XML-RPC server"
+"\" field is set to \"%drupal-xml-rpc\", your web site will register itself "
+"with drupal.org. Requires the cron feature to be enabled."
+msgstr ""
+"אם אפשרות זו מאופשרת, אתר דרופל שלך יפרסם את עצמו למדריך דרופל בכתובת "
+"המצויינת של שרת XML-RPC של דרופל. כדי שזה יעבוד נכון, חובה להגדיר את שם "
+"האתר, כתובת הדואר האלקטרוני, הסיסמה, והצהרת המשימה. כששדה 'שרת XML-RPC של "
+"דרופל' מוגדר בתור  '%drupal-xml-rpc', האתר שלך ירשם בעמוד <a href=\"%drupal-"
+"sites\">אתרי דרופל</a>. הדבר דורש גם שתכונת cron תאופשר. "
+
+#: modules/drupal.module:92
 msgid "Drupal XML-RPC server"
 msgstr "שרת XML-RPC של דרופל"
 
-#: modules/drupal.module:45
-msgid "The URL of your root Drupal XML-RPC server."
+#: modules/drupal.module:94
+#, fuzzy
+msgid "The URL of the Drupal XML-RPC server you wish to register with."
 msgstr "כתובת ה-URL של שרת השורש של XML-RPC של דרופל."
 
-#: modules/drupal.module:46
-msgid "Drupal directory"
-msgstr "מדריך דרופל"
+#: modules/drupal.module:99
+#, fuzzy
+msgid "Send system information"
+msgstr "מידע על השולח"
 
-#: modules/drupal.module:46
-msgid "If enabled, your Drupal site will make itself known to the Drupal directory at the specified Drupal XML-RPC server. For this to work properly, you must set your site's name, e-mail address, slogan and mission statement. When the \"Drupal XML-RPC server\" field is set to \"%drupal-xml-rpc\", your web site will get listed on the <a href=\"%drupal-sites\">Drupal sites</a> page. Requires the cron feature to be enabled."
+#: modules/drupal.module:102
+msgid ""
+"If enabled, your site will send information on its installed components "
+"(modules, themes, and theme engines). This information can help in compiling "
+"statistics on usage of Drupal projects."
 msgstr ""
-"אם אפשרות זו מאופשרת, אתר דרופל שלך "
-"יפרסם את עצמו למדריך דרופל בכתובת "
-"המצויינת של שרת XML-RPC של דרופל. כדי שזה "
-"יעבוד נכון, חובה להגדיר את שם האתר, "
-"כתובת הדואר האלקטרוני, הסיסמה, והצהרת "
-"המשימה. כששדה 'שרת XML-RPC של דרופל' מוגדר "
-"בתור  '%drupal-xml-rpc', האתר שלך ירשם בעמוד <a "
-"href=\"%drupal-sites\">אתרי דרופל</a>. הדבר דורש גם "
-"שתכונת cron תאופשר. "
 
-#: modules/drupal.module:98
+#: modules/drupal.module:107
+#, fuzzy
+msgid "Send statistics"
+msgstr "סטטיסטיקות"
+
+#: modules/drupal.module:110
+msgid ""
+"If enabled, your site will send summary statistics on the number of "
+"registered users and the total number of posts. No private information will "
+"be sent. These data help to improve the ranking statistics of Drupal "
+"projects."
+msgstr ""
+
+#: modules/drupal.module:115
+msgid "Receive data from other sites"
+msgstr ""
+
+#: modules/drupal.module:121
+msgid "Allow other Drupal sites to register"
+msgstr ""
+
+#: modules/drupal.module:124
+msgid ""
+"If enabled, your Drupal site will allow other sites to register with your "
+"site and send information to this site. This functionality can be used to "
+"maintain a list of related sites."
+msgstr ""
+
+#: modules/drupal.module:129
+#, fuzzy
+msgid "Authentication service"
+msgstr "זיהוי לקוחות"
+
+#: modules/drupal.module:132
+msgid ""
+"If enabled, your Drupal site will accept logins with the user names of other "
+"Drupal sites, and likewise provide authentication for users logging into "
+"other Drupal sites, based on their user accounts here."
+msgstr ""
+
+#: modules/drupal.module:196
 msgid "Ping from %name (%link)."
 msgstr "בדיקת קשר מ: %name  או %link."
 
-#: modules/drupal.module:148
-msgid "Failed to notify %url at %path: %error."
-msgstr "נכשל בעת דיווח %error לאתר %url בנתיב %path."
+#: modules/drupal.module:248
+msgid "Handling ping request"
+msgstr ""
 
-#: modules/drupal.module:193
-msgid "Drupal"
-msgstr "דרופל"
+#: modules/drupal.module:256
+msgid "Logging into a Drupal site"
+msgstr ""
+
+#: modules/drupal.module:291
+msgid ""
+"Failed to notify %server; error code: %errno; error message: %error_msg."
+msgstr ""
+
+#: modules/drupal.module:317
+msgid "Error %code : %message"
+msgstr ""
+
+#: modules/drupal.module:196
+msgid "client ping"
+msgstr ""
+
+#: modules/drupal.module:291
+msgid "server ping"
+msgstr ""
 
 #: modules/drupal.module:0
 msgid "drupal"
 msgstr "דרופל"
-
