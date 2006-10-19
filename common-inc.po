@@ -1,13 +1,13 @@
 # Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Copyright (c) 2006 אמנון לבב <amnon@levavie.com>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2006-06-05 17:49+0200\n"
 "PO-Revision-Date: 2006-07-06 15:48-0400\n"
-"Last-Translator: ליאור <lior@linnovate.net>\n"
-"Language-Team: Hebrew <lior@linnovate.net>\n"
+"Last-Translator: Amnon Levav <amnon@levavie.com>\n"
+"Language-Team: Hebrew <amnon@levavie.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +39,7 @@ msgstr "אינך מורשה לגשת לעמוד זה."
 
 #: includes/common.inc:503
 msgid "%message in %file on line %line."
-msgstr ""
+msgstr "%message בקובץ %file בשורה %line."
 
 #: includes/common.inc:541
 msgid "n/a"
@@ -78,39 +78,39 @@ msgstr "אין הרשאה"
 msgid "1 year"
 msgid_plural "%count years"
 msgstr[0] "שנה אחת"
-msgstr[1] "שנה אחת"
+msgstr[1] "%count שנים"
 
 #: includes/common.inc:0
 #, fuzzy
 msgid "1 week"
 msgid_plural "%count weeks"
 msgstr[0] "שבוע"
-msgstr[1] "שבוע"
+msgstr[1] "%count שבועות"
 
 #: includes/common.inc:0
 #, fuzzy
 msgid "1 day"
 msgid_plural "%count days"
 msgstr[0] "יום אחד"
-msgstr[1] "יום אחד"
+msgstr[1] "%count ימים"
 
 #: includes/common.inc:0
 #, fuzzy
 msgid "1 hour"
 msgid_plural "%count hours"
 msgstr[0] "שעה אחת"
-msgstr[1] "שעה אחת"
+msgstr[1] "%count שעות"
 
 #: includes/common.inc:0
 #, fuzzy
 msgid "1 min"
 msgid_plural "%count min"
 msgstr[0] "דקה אחת"
-msgstr[1] "דקה אחת"
+msgstr[1] "%count דקות"
 
 #: includes/common.inc:0
 #, fuzzy
 msgid "1 sec"
 msgid_plural "%count sec"
 msgstr[0] "שנייה אחת"
-msgstr[1] "שנייה אחת"
+msgstr[1] "%count שניות"

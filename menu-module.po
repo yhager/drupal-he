@@ -180,7 +180,7 @@ msgstr "קישורים עיקריים"
 
 #: modules/menu.module:258
 msgid "Primary and secondary links settings"
-msgstr ""
+msgstr "הגדרות קישורים ראשיים ומשניים"
 
 #: modules/menu.module:262
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: modules/menu.module:266
 msgid "Menu containing primary links"
-msgstr ""
+msgstr "התפריט המכיל את הקישורים הראשיים"
 
 #: modules/menu.module:272
 #, fuzzy
@@ -203,13 +203,13 @@ msgstr "קישורים משניים"
 #: modules/menu.module:275
 #, fuzzy
 msgid "Menu containing secondary links"
-msgstr "קוד HTML עבור קישורים משניים."
+msgstr "התפריט המכיל את הקישורים המשניים"
 
 #: modules/menu.module:278
 msgid ""
 "If you select the same menu as primary links then secondary links will "
 "display the appropriate second level of your navigation hierarchy."
-msgstr ""
+msgstr "בחירת אותו התפריט עבור קישורים ראשיים ומשניים תביא להצגת הרמה השנייה המתאימה של היררכיית הניווט שלך."
 
 #: modules/menu.module:282
 #, fuzzy
@@ -238,7 +238,7 @@ msgstr "הגבל חיפוש ל"
 msgid ""
 "Choose the menu to be made available in the post authoring form. Only this "
 "menu item and its children will be shown."
-msgstr ""
+msgstr "בחירת התפריט שיהיה זמין בזמן עריכה \ הוספת תוכן. יוצג רק תפריט זה וצאצאיו."
 
 #: modules/menu.module:318
 #, fuzzy
@@ -320,7 +320,7 @@ msgstr "התגובה נשמרה."
 #: modules/menu.module:525
 #, fuzzy
 msgid "The menu item %title has been updated."
-msgstr "הנושא %term עודכן."
+msgstr "שורת התפריט %title עודכנה."
 
 #: modules/menu.module:528
 #, fuzzy
@@ -351,7 +351,7 @@ msgstr "אפשר"
 
 #: modules/menu.module:673
 msgid "reset"
-msgstr ""
+msgstr "אתחל"
 
 #: modules/menu.module:685;742
 msgid "disabled"
