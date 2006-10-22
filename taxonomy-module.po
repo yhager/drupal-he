@@ -174,11 +174,11 @@ msgstr "נמחק המילון '%name'."
 
 #: modules/taxonomy.module:352
 msgid "Term name"
-msgstr "שם הנושא"
+msgstr "שם הסיווג"
 
 #: modules/taxonomy.module:352
 msgid "The name for this term.  Example: \"Linux\"."
-msgstr "שם הנושא. לדוגמה: \"אקולוגיה\"."
+msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
 
 #: modules/taxonomy.module:354
 msgid "A description of the term."
@@ -202,17 +202,17 @@ msgstr "שמות נרדפים"
 
 #: modules/taxonomy.module:378
 msgid "<a href=\"%help-url\">Synonyms</a> of this term, one synonym per line."
-msgstr "<a href=\"%help-url\">שמות נרדפים</a> לנושא זה, שם אחד בשורה."
+msgstr "<a href=\"%help-url\">שמות נרדפים</a>  לסיווג זה, שם אחד בשורה."
 
 #: modules/taxonomy.module:379
 msgid ""
 "In listings, the heavier terms will sink and the lighter terms will be "
 "positioned nearer the top."
-msgstr "ברשימות, הנושאים הכבדים יותר שוקעים למטה והקלים יותר צפים לראש הרשימה."
+msgstr "ברשימות, הסיווגים הכבדים יותר שוקעים למטה והקלים יותר צפים לראש הרשימה."
 
 #: modules/taxonomy.module:411
 msgid "Created new term %term."
-msgstr "נוצר נושא חדש - %term."
+msgstr "נוצר סיווג חדש - %term."
 
 #: modules/taxonomy.module:414
 msgid "The term %term has been updated."
