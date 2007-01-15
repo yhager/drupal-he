@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"POT-Creation-Date: 2007-01-10 22:16+0100\n"
 "PO-Revision-Date: 2006-07-06 15:48-0400\n"
 "Last-Translator: ליאור <lior@linnovate.net>\n"
 "Language-Team: Hebrew <lior@linnovate.net>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: modules/statistics.module:15
+#: modules/statistics/statistics.module:15
 msgid ""
 "The statistics module keeps track of numerous statistics of site usage. It "
 "counts how many times, and from where each of your posts is viewed. The "
@@ -20,7 +20,7 @@ msgid ""
 "are interacting with each other and with your site."
 msgstr ""
 
-#: modules/statistics.module:16
+#: modules/statistics/statistics.module:16
 msgid ""
 "<p>Statistics module features</p>\n"
 "<ul>\n"
@@ -40,7 +40,7 @@ msgid ""
 "</ul>\n"
 msgstr ""
 
-#: modules/statistics.module:27
+#: modules/statistics/statistics.module:27
 msgid ""
 "<p>Configuring the statistics module</p>\n"
 "<ul>\n"
@@ -58,233 +58,254 @@ msgid ""
 "</ul>\n"
 msgstr ""
 
-#: modules/statistics.module:34
-msgid ""
-"<p>You can</p>\n"
-"<ul>\n"
-"<li>administer statistics <a href=\"%admin-settings-statistics\">administer "
-"&gt;&gt; settings &gt;&gt; statistics</a>.</li>\n"
-"<li>access statistics logs <a href=\"%admin-logs\">administer &gt;&gt; logs</"
-"a>.</li>\n"
-"<li>view recent hits <a href=\"%admin-logs-hits\">administer &gt;&gt; logs "
-"&gt;&gt; recent hits</a>.</li>\n"
-"<li>enable 'popular content' block in block administration <a href=\"%admin-"
-"block\">administer &gt;&gt; blocks </a> but only after you have enabled "
-"'Count content views' in settings.</li>\n"
-"</ul>\n"
-msgstr ""
-
-#: modules/statistics.module:42
+#: modules/statistics/statistics.module:34
 msgid ""
 "For more information please read the configuration and customization "
-"handbook <a href=\"%statistics\">Statistics page</a>."
+"handbook <a href=\"@statistics\">Statistics page</a>."
 msgstr ""
 
-#: modules/statistics.module:45
-msgid "Logs access statistics for your site."
-msgstr "רושם סטטיסטיקות גישה לאתר שלך."
-
-#: modules/statistics.module:47
+#: modules/statistics/statistics.module:37
+#, fuzzy
 msgid ""
-"<p>Settings for the statistical information that Drupal will keep about the "
-"site. See <a href=\"%statistics\">site statistics</a> for the actual "
-"information.</p>"
+"Settings for the statistical information that Drupal will keep about the "
+"site. See <a href=\"@statistics\">site statistics</a> for the actual "
+"information."
 msgstr ""
 "<p>כאן ניתן להגדיר את המידע הסטטיסטי שדרופל שומר על האתר. המידע האמיתי נמצא "
 "ב <a href=\"%statistics\">יומן הפעילות</a>.</p>"
 
-#: modules/statistics.module:49
-msgid "<p>This page shows you the most recent hits.</p>"
+#: modules/statistics/statistics.module:39
+#, fuzzy
+msgid "This page shows you the most recent hits."
 msgstr "<p>עמוד זה מציג מידע על הכניסות האחרונות לאתר.</p>"
 
-#: modules/statistics.module:51
+#: modules/statistics/statistics.module:41
+#, fuzzy
 msgid ""
-"<p>This page shows you all external referrers. These are links pointing to "
-"your web site from outside your web site.</p>"
+"This page shows you all external referrers. These are links pointing to your "
+"web site from outside your web site."
 msgstr ""
 "<p>עמוד זה מציג את כל כתובות ה-URL החיצוניות שמהן מגיעים אנשים לאתר. אלו הם "
 "קישורים המצביעים לאתר מאתרים אחרים.</p>"
 
-#: modules/statistics.module:53
+#: modules/statistics/statistics.module:43
 msgid ""
-"<p>When you ban a visitor, you prevent his IP address from accessing your "
-"site. Unlike blocking a user, banning a visitor works even for anonymous "
-"users. The most common use for this is to block bots/web crawlers that are "
-"consuming too many resources.</p>"
+"When you ban a visitor, you prevent the visitor's IP address from accessing "
+"your site. Unlike blocking a user, banning a visitor works even for "
+"anonymous users. The most common use for this is to block bots/web crawlers "
+"that are consuming too many resources."
 msgstr ""
 
-#: modules/statistics.module:117
-msgid "recent hits"
+#: modules/statistics/statistics.module:109
+#, fuzzy
+msgid "Recent hits"
 msgstr "כניסות אחרונות"
 
-#: modules/statistics.module:120
-msgid "top pages"
+#: modules/statistics/statistics.module:110
+msgid "View pages that have recently been visited."
+msgstr ""
+
+#: modules/statistics/statistics.module:115
+#, fuzzy
+msgid "Top pages"
 msgstr "עמודים מובילים"
 
-#: modules/statistics.module:123
+#: modules/statistics/statistics.module:116
+msgid "View pages that have been hit frequently."
+msgstr ""
+
+#: modules/statistics/statistics.module:122
 #, fuzzy
-msgid "top visitors"
+msgid "Top visitors"
 msgstr "חברים מובילים"
 
-#: modules/statistics.module:126
-msgid "referrers"
+#: modules/statistics/statistics.module:123
+msgid "View visitors that hit many pages."
+msgstr ""
+
+#: modules/statistics/statistics.module:129
+#, fuzzy
+msgid "Top referrers"
 msgstr "כתובות מקור"
 
-#: modules/statistics.module:134
-msgid "track page visits"
+#: modules/statistics/statistics.module:130
+#, fuzzy
+msgid "View top referrers."
+msgstr "כתובות מקור"
+
+#: modules/statistics/statistics.module:136
+#, fuzzy
+msgid "View access log."
+msgstr "אפשר רישום פעילות"
+
+#: modules/statistics/statistics.module:142;367
+msgid "Access log settings"
+msgstr "הגדרות רישום פעילויות"
+
+#: modules/statistics/statistics.module:143
+msgid "Control details about what and how your site logs."
+msgstr ""
+
+#: modules/statistics/statistics.module:154
+#, fuzzy
+msgid "Track page visits"
 msgstr "מעקב עמודים שנצפו"
 
-#: modules/statistics.module:207;234
+#: modules/statistics/statistics.module:216;242;274
+msgid "details"
+msgstr ""
+
+#: modules/statistics/statistics.module:233;260
 msgid "Timestamp"
 msgstr "חותמת זמן"
 
-#: modules/statistics.module:208;235;265
-msgid "Page"
-msgstr "עמוד"
-
-#: modules/statistics.module:264;288;319
+#: modules/statistics/statistics.module:290;314;345
 msgid "Hits"
 msgstr "כניסות"
 
-#: modules/statistics.module:266
+#: modules/statistics/statistics.module:292
 msgid "Average page generation time"
 msgstr ""
 
-#: modules/statistics.module:267;290
+#: modules/statistics/statistics.module:293;316
 msgid "Total page generation time"
 msgstr ""
 
-#: modules/statistics.module:273
+#: modules/statistics/statistics.module:299
 #, fuzzy
 msgid "%time ms"
 msgstr "לפני %time"
 
-#: modules/statistics.module:276
+#: modules/statistics/statistics.module:302
 msgid "Top pages in the past %interval"
 msgstr "עמודים הכי מבוקשים בזמן של %interval אחרון"
 
-#: modules/statistics.module:289
-msgid "Visitor"
-msgstr ""
-
-#: modules/statistics.module:300
+#: modules/statistics/statistics.module:326
 msgid "unban"
 msgstr ""
 
-#: modules/statistics.module:300
+#: modules/statistics/statistics.module:326
 #, fuzzy
 msgid "ban"
 msgstr "ינו'"
 
-#: modules/statistics.module:304
+#: modules/statistics/statistics.module:330
 #, fuzzy
 msgid "Top visitors in the past %interval"
 msgstr "חברים מובילים ב%interval אחרון"
 
-#: modules/statistics.module:316
+#: modules/statistics/statistics.module:342
 msgid "Top referrers in the past %interval"
 msgstr "כתובות המקור המובילות ב%interval אחרון."
 
-#: modules/statistics.module:320
+#: modules/statistics/statistics.module:346
 msgid "Url"
 msgstr "כתובת url"
 
-#: modules/statistics.module:321
+#: modules/statistics/statistics.module:347
 msgid "Last visit"
 msgstr "ביקור אחרון"
 
-#: modules/statistics.module:342
-msgid "Access log settings"
-msgstr "הגדרות רישום פעילויות"
-
-#: modules/statistics.module:343
+#: modules/statistics/statistics.module:370
 msgid "Enable access log"
 msgstr "אפשר רישום פעילות"
 
-#: modules/statistics.module:343
-msgid "Log each page access.  Required for referrer statistics."
+#: modules/statistics/statistics.module:373
+#, fuzzy
+msgid "Log each page access. Required for referrer statistics."
 msgstr "רישום כל גישה לעמוד. נדרש עבור סטטיסטיקות של כתובות מקור."
 
-#: modules/statistics.module:345
+#: modules/statistics/statistics.module:377
 msgid "Discard access logs older than"
 msgstr "מחק רישומים בני יותר מ"
 
-#: modules/statistics.module:345
+#: modules/statistics/statistics.module:380
+#, fuzzy
 msgid ""
 "Older access log entries (including referrer statistics) will be "
-"automatically discarded.  Requires crontab."
+"automatically discarded. Requires crontab."
 msgstr ""
 "כניסות ישנות יותר (כולל סטטיסטיקות לגבי כתובות מקור) יימחקו אוטומטית. דורש "
 "crontab."
 
-#: modules/statistics.module:348
+#: modules/statistics/statistics.module:385
 msgid "Content viewing counter settings"
 msgstr "הגדרות מונה צפיות בתוכן"
 
-#: modules/statistics.module:349
+#: modules/statistics/statistics.module:388
 msgid "Count content views"
 msgstr "ספור צפיות בתוכן"
 
-#: modules/statistics.module:349
+#: modules/statistics/statistics.module:391
 msgid "Increment a counter each time content is viewed."
 msgstr "קדם מונה בכל פעם שנצפה תוכן באתר."
 
-#: modules/statistics.module:421;460
+#: modules/statistics/statistics.module:463;502
 msgid "Popular content"
 msgstr "תוכן מבוקש"
 
-#: modules/statistics.module:428
+#: modules/statistics/statistics.module:470
 msgid "Number of day's top views to display"
 msgstr "מספר הפריטים המובילים של היום שיוצגו ברשימת \"היום\""
 
-#: modules/statistics.module:428
+#: modules/statistics/statistics.module:470
 msgid "How many content items to display in \"day\" list."
 msgstr ""
 
-#: modules/statistics.module:429
+#: modules/statistics/statistics.module:471
 msgid "Number of all time views to display"
 msgstr "מספר הפריטים שיוצגו ברשימת \"כל הזמנים\""
 
-#: modules/statistics.module:429
+#: modules/statistics/statistics.module:471
 msgid "How many content items to display in \"all time\" list."
 msgstr ""
 
-#: modules/statistics.module:430
+#: modules/statistics/statistics.module:472
 msgid "Number of most recent views to display"
 msgstr "מספר הפריטים שיוצגו ברשימת \"נצפו לאחרונה\""
 
-#: modules/statistics.module:430
+#: modules/statistics/statistics.module:472
 msgid "How many content items to display in \"recently viewed\" list."
 msgstr ""
 
-#: modules/statistics.module:445
+#: modules/statistics/statistics.module:487
 msgid "Today's:"
 msgstr "היום:"
 
-#: modules/statistics.module:450
+#: modules/statistics/statistics.module:492
 msgid "All time:"
 msgstr "כל הזמנים:"
 
-#: modules/statistics.module:455
+#: modules/statistics/statistics.module:497
 msgid "Last viewed:"
 msgstr "נצפה לאחרונה:"
 
-#: modules/statistics.module:102
+#: modules/statistics/statistics.module:92
 #, fuzzy
 msgid "1 read"
-msgid_plural "%count reads"
+msgid_plural "@count reads"
 msgstr[0] "<span title='נצפה: פעם אחת'>נצפה: 1</span>"
 msgstr[1] "<span title='נצפה: פעם אחת'>נצפה: 1</span>"
 
-#: modules/statistics.module:89
+#: modules/statistics/statistics.module:79
 msgid "access statistics"
 msgstr "גישה לסטטיסטיקות"
 
-#: modules/statistics.module:89
+#: modules/statistics/statistics.module:79
 #, fuzzy
 msgid "view post access counter"
 msgstr "גישה לתוכן"
 
-#: modules/statistics.module:0
+#: modules/statistics/statistics.module:0
 msgid "statistics"
 msgstr "סטטיסטיקות"
+
+#, fuzzy
+#~ msgid "Statistics"
+#~ msgstr "סטטיסטיקות"
+
+#~ msgid "Logs access statistics for your site."
+#~ msgstr "רושם סטטיסטיקות גישה לאתר שלך."
+
+#~ msgid "Page"
+#~ msgstr "עמוד"

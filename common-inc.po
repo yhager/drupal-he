@@ -1,116 +1,120 @@
+# translation of common-inc.po to Hebrew
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 אמנון לבב <amnon@levavie.com>
 #
+# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2006-06-05 17:49+0200\n"
-"PO-Revision-Date: 2006-07-06 15:48-0400\n"
-"Last-Translator: Amnon Levav <amnon@levavie.com>\n"
-"Language-Team: Hebrew <amnon@levavie.com>\n"
+"Project-Id-Version: common-inc\n"
+"POT-Creation-Date: 2007-01-10 22:16+0100\n"
+"PO-Revision-Date: 2007-01-14 15:59+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: includes/common.inc:279
-#, fuzzy
+#: includes/common.inc:324
 msgid "Site off-line"
-msgstr "שם האתר"
+msgstr "האתר לא פעיל"
 
-#: includes/common.inc:289
-msgid "%page not found."
-msgstr "%page לא נמצא."
-
-#: includes/common.inc:307
+#: includes/common.inc:353
 msgid "Page not found"
 msgstr "עמוד לא קיים"
 
-#: includes/common.inc:317
-msgid "%page denied access."
-msgstr "%page - אין הרשאה."
-
-#: includes/common.inc:335
+#: includes/common.inc:382
 msgid "Access denied"
 msgstr "גישה חסומה"
 
-#: includes/common.inc:336
+#: includes/common.inc:383
 msgid "You are not authorized to access this page."
 msgstr "אינך מורשה לגשת לעמוד זה."
 
-#: includes/common.inc:503
+#: includes/common.inc:555
 msgid "%message in %file on line %line."
 msgstr "%message בקובץ %file בשורה %line."
 
-#: includes/common.inc:541
-msgid "n/a"
-msgstr "ללא"
-
-#: includes/common.inc:811
-msgid "bytes"
-msgstr ""
-
-#: includes/common.inc:814
+#: includes/common.inc:997
 msgid "KB"
-msgstr ""
+msgstr "ק\"ב"
 
-#: includes/common.inc:818
-msgid "MB"
-msgstr ""
+#: includes/common.inc:1002
+msgid "@size @suffix"
+msgstr "@size @suffix"
 
-#: includes/common.inc:820
-msgid "%size %suffix"
-msgstr ""
-
-#: includes/common.inc:848
+#: includes/common.inc:1031
 msgid "0 sec"
 msgstr "אפס שניות"
 
-#: includes/common.inc:289
+#: includes/common.inc:1992
+msgid "Cron has been running for more than an hour and is most likely stuck."
+msgstr "תהליך cron רץ כבר יותר משעה וכנראה תקוע."
+
+#: includes/common.inc:1999
+msgid "Attempting to re-run cron while it is already running."
+msgstr "מנסה להריץ מחדש את תהליך cron, בזמן שהוא עדיין רץ."
+
+#: includes/common.inc:2014
+msgid "Cron run completed."
+msgstr "תהליך cron הסתיים."
+
+#: includes/common.inc:2030
+msgid "Cron run exceeded the time limit and was aborted."
+msgstr "תהליך cron נמשך מעבר לזמן המוקצב ולכן הופסק."
+
+#: includes/common.inc:335
 msgid "page not found"
 msgstr "עמוד לא נמצא"
 
-#: includes/common.inc:317
+#: includes/common.inc:364
 msgid "access denied"
 msgstr "אין הרשאה"
 
+#: includes/common.inc:1992;1999;2014;2030
+msgid "cron"
+msgstr "cron"
+
+#: includes/common.inc:993
+msgid "1 byte"
+msgid_plural "@count bytes"
+msgstr[0] "בית אחד"
+msgstr[1] "@count בתים"
+
 #: includes/common.inc:0
-#, fuzzy
 msgid "1 year"
-msgid_plural "%count years"
+msgid_plural "@count years"
 msgstr[0] "שנה אחת"
-msgstr[1] "%count שנים"
+msgstr[1] "@count שנים"
 
 #: includes/common.inc:0
-#, fuzzy
 msgid "1 week"
-msgid_plural "%count weeks"
-msgstr[0] "שבוע"
-msgstr[1] "%count שבועות"
+msgid_plural "@count weeks"
+msgstr[0] "שבוע אחד"
+msgstr[1] "@count שבועות"
 
 #: includes/common.inc:0
-#, fuzzy
 msgid "1 day"
-msgid_plural "%count days"
+msgid_plural "@count days"
 msgstr[0] "יום אחד"
-msgstr[1] "%count ימים"
+msgstr[1] "@count ימים"
 
 #: includes/common.inc:0
-#, fuzzy
 msgid "1 hour"
-msgid_plural "%count hours"
+msgid_plural "@count hours"
 msgstr[0] "שעה אחת"
-msgstr[1] "%count שעות"
+msgstr[1] "@count שעות"
 
 #: includes/common.inc:0
-#, fuzzy
 msgid "1 min"
-msgid_plural "%count min"
+msgid_plural "@count min"
 msgstr[0] "דקה אחת"
-msgstr[1] "%count דקות"
+msgstr[1] "@count דקות"
 
 #: includes/common.inc:0
-#, fuzzy
 msgid "1 sec"
-msgid_plural "%count sec"
+msgid_plural "@count sec"
 msgstr[0] "שנייה אחת"
-msgstr[1] "%count שניות"
+msgstr[1] "@count שניות"
+

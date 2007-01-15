@@ -3,68 +3,68 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
+# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: theme-inc\n"
-"POT-Creation-Date: 2006-06-05 17:49+0200\n"
-"PO-Revision-Date: 2006-10-15 02:19+0200\n"
-"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
-"Language-Team: Hebrew\n"
+"POT-Creation-Date: 2007-01-10 22:16+0100\n"
+"PO-Revision-Date: 2007-01-04 10:51+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: includes/theme.inc:581
-msgid "%title by %name"
-msgstr ""
+#: includes/theme.inc:670
+msgid "!title by !name"
+msgstr "!title מאת !name"
 
-#: includes/theme.inc:584
-msgid "by %name"
-msgstr "לפי %name"
+#: includes/theme.inc:673
+msgid "by !name"
+msgstr "מאת !name"
 
-#: includes/theme.inc:624
-msgid "This field is required."
-msgstr "חובה למלא שדה זה."
+#: includes/theme.inc:818
+msgid "Select all rows in this table"
+msgstr "בחר את כל השורות בטבלה"
 
-#: includes/theme.inc:628;631
-msgid "%title: %required"
-msgstr ""
+#: includes/theme.inc:818
+msgid "Deselect all rows in this table"
+msgstr "בטל בחירת כל השורות בטבלה"
 
-#: includes/theme.inc:771;774
+#: includes/theme.inc:834;837
 msgid "sort icon"
 msgstr "סמל מיון"
 
-#: includes/theme.inc:771
+#: includes/theme.inc:834
 msgid "sort ascending"
 msgstr "מיין בסדר עולה"
 
-#: includes/theme.inc:774
+#: includes/theme.inc:837
 msgid "sort descending"
 msgstr "מיין בסדר יורד"
 
-#: includes/theme.inc:835
+#: includes/theme.inc:898
 msgid "updated"
 msgstr "עודכן"
 
-#: includes/theme.inc:889
-msgid "[<a href=\"%link\">more help...</a>]"
-msgstr " [<a href=\"%link\">עזרה נוספת...</a>]"
+#: includes/theme.inc:963
+msgid "[<a href=\"@link\">more help...</a>]"
+msgstr " [<a href=\"@link\">עזרה נוספת...</a>]"
 
-#: includes/theme.inc:896;896
+#: includes/theme.inc:970;970
 msgid "XML feed"
 msgstr "מקור הזנת XML"
 
-#: includes/theme.inc:905;905
+#: includes/theme.inc:979;979
 msgid "Syndicate content"
 msgstr "שלב תוכן"
 
-#: includes/theme.inc:987
+#: includes/theme.inc:1061
 msgid "not verified"
 msgstr "לא נבדק"
 
 #: includes/theme.inc:0
 msgid "theme"
 msgstr "עיצוב"
-

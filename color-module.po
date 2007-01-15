@@ -1,0 +1,65 @@
+# translation of color-module.po to Hebrew
+# LANGUAGE translation of Drupal (modules/color/color.module)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#
+# Yuval Hager <yuval@avramzon.net>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: color-module\n"
+"POT-Creation-Date: 2006-12-15 11:16+0100\n"
+"PO-Revision-Date: 2007-01-04 11:03+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/color/color.module:13
+msgid "Color scheme"
+msgstr "סכמת צבעים"
+
+#: modules/color/color.module:107
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: modules/color/color.module:110
+msgid "Color set"
+msgstr "קבוצת צבעים"
+
+#: modules/color/color.module:118
+msgid "Base color"
+msgstr "צבע בסיס"
+
+#: modules/color/color.module:119
+msgid "Link color"
+msgstr "צבע קישור"
+
+#: modules/color/color.module:120
+msgid "Header top"
+msgstr "ראש הכותרת"
+
+#: modules/color/color.module:121
+msgid "Header bottom"
+msgstr "תחתית הכותרת"
+
+#: modules/color/color.module:122
+msgid "Text color"
+msgstr "צבע הטקסט"
+
+#: modules/color/color.module:204
+msgid "There is not enough memory available to PHP to change this theme's color scheme. You need at least %size more. Check the <a href=\"%url\">PHP documentation</a> for more information."
+msgstr "אין מספיק זיכרון ל-PHP כדי לשנות את הצבע של ערכת עיצוב זו. צריך לפחות עוד %size. בדוק את <a href=\"%url\">התיעוד של PHP</a> למידע נוסף."
+
+#: modules/color/color.info:0
+msgid "Color"
+msgstr "צבע"
+
+#: modules/color/color.info:0
+msgid "Allows the user to change the color scheme of certain themes."
+msgstr "מאפשר לשנות את סכמת הצבעים של חלק מערכות העיצוב"
+

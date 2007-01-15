@@ -1,246 +1,30 @@
+# translation of book-module.po to Hebrew
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
+# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2006-06-05 17:49+0200\n"
-"PO-Revision-Date: 2006-07-06 15:48-0400\n"
-"Last-Translator: ליאור <lior@linnovate.net>\n"
-"Language-Team: Hebrew <lior@linnovate.net>\n"
+"Project-Id-Version: book-module\n"
+"POT-Creation-Date: 2007-01-10 22:16+0100\n"
+"PO-Revision-Date: 2007-01-11 17:50+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/book.module:13;83
-msgid "book page"
+#: modules/book/book.module:15
+msgid "Book page"
 msgstr "עמוד ספר"
 
-#: modules/book.module:61
-msgid "add child page"
-msgstr "הוסף עמוד בן"
-
-#: modules/book.module:64
-msgid "printer-friendly version"
-msgstr "גירסה ידידותית למדפסת"
-
-#: modules/book.module:66
-msgid "Show a printer-friendly version of this book page and its sub-pages."
-msgstr "הצג תצוגה ידידותית למדפסת של עמוד זה בספר ושל עמודי המשנה שלו."
-
-#: modules/book.module:87;104
-msgid "books"
-msgstr "ספרים"
-
-#: modules/book.module:98
-msgid "orphan pages"
-msgstr "עמודים יתומים"
-
-#: modules/book.module:123;1001
-msgid "outline"
-msgstr "מתאר"
-
-#: modules/book.module:145
-msgid "Book navigation"
-msgstr "ניווט בספר"
-
-#: modules/book.module:246
-#, fuzzy
-msgid ""
-"The parent section in which to place this page.  Note that each page whose "
-"parent is &lt;top-level&gt; is an independent, top-level book."
-msgstr ""
-"האב שאליו עמוד זה משוייך. שים לב שעמודים שאביהם הוא &lt;ראשי&gt; הם ספרים "
-"עצמאיים, ברמה ראשית."
-
-#: modules/book.module:246
-#, fuzzy
-msgid "The parent that this page belongs in."
-msgstr "עמוד אב בספר."
-
-#: modules/book.module:278;308
-msgid "Pages at a given level are ordered first by weight and then by title."
-msgstr "עמודים ברמה נתונה מסודרים ראשית לפי משקלם, ואז לפי כותרת."
-
-#: modules/book.module:302
-msgid "The parent page in the book."
-msgstr "עמוד אב בספר."
-
-#: modules/book.module:313
-#, fuzzy
-msgid ""
-"An explanation to help other authors understand your motivations to put this "
-"post into the book."
-msgstr ""
-"הסבר של התוספות או העדכונים שנעשו, כדי לעזור למחברים אחרים להבין את הסיבה "
-"לעדכון."
-
-#: modules/book.module:319;346
-msgid "Update book outline"
-msgstr "עדכן מתאר ספר"
-
-#: modules/book.module:322;351
-msgid "Remove from book outline"
-msgstr "הסר ממתאר ספר"
-
-#: modules/book.module:326;341
-msgid "Add to book outline"
-msgstr "הוסף למתאר ספר"
-
-#: modules/book.module:344
-#, fuzzy
-msgid "The post has been added to the book."
-msgstr "ההצבעה החדשה נוספה."
-
-#: modules/book.module:349
-#, fuzzy
-msgid "The book outline has been updated."
-msgstr "התיבה עודכנה."
-
-#: modules/book.module:353
-#, fuzzy
-msgid "The post has been removed from the book."
-msgstr "הפרסום נדחה."
-
-#: modules/book.module:471
-#, fuzzy
-msgid ""
-"The post has been submitted for moderation and won't be accessible until it "
-"has been approved."
-msgstr "הפרסום הנוכחי נדחה וגרסה קודמת מוצגת."
-
-#: modules/book.module:521
-msgid "up"
-msgstr "לעמוד האב"
-
-#: modules/book.module:521
-#, fuzzy
-msgid "Go to parent page"
-msgstr "קידום לעמוד הראשי"
-
-#: modules/book.module:575
-msgid "top-level"
-msgstr "ראשי"
-
-#: modules/book.module:679
-msgid "Unknown export format."
-msgstr ""
-
-#: modules/book.module:913;949
-msgid "Save book pages"
-msgstr "שמור עמודי ספר"
-
-#: modules/book.module:955
-#, fuzzy
-msgid "There are no orphan pages."
-msgstr "עמודים יתומים"
-
-#: modules/book.module:968;0
-msgid "book"
-msgstr "ספר"
-
-#: modules/book.module:975
-msgid "Updated book %title."
-msgstr "עודכן הספר '%title'."
-
-#: modules/book.module:979
-#, fuzzy
-msgid "Updated orphan book pages."
-msgstr "עריכת ספרים עצמית"
-
-#: modules/book.module:1003
-#, fuzzy
-msgid "Book"
-msgstr "ספרים"
-
-#: modules/book.module:1014
-msgid ""
-"The <em>book</em> content type is suited for creating structured, multi-page "
-"hypertexts such as site resource guides, manuals, and Frequently Asked "
-"Questions (FAQs).  It permits a document to have chapters, sections, "
-"subsections, etc.  Authors with suitable permissions can add pages to a "
-"collaborative book,  placing them into the existing document by adding them "
-"to a table of contents menu. "
-msgstr ""
-
-#: modules/book.module:1015
-msgid ""
-"Books have additional <em>previous</em>, <em>up</em>, and <em>next</em> "
-"navigation elements at the bottom of each page for moving through the text.  "
-"Additional navigation may be provided by enabling the <em>book navigation "
-"block</em> on the <a href=\"%admin-block\">block administration page</a>."
-msgstr ""
-
-#: modules/book.module:1016
-msgid ""
-"Users can select the <em>printer-friendly version</em> link visible at the "
-"bottom of a book page to generate a printer-friendly display of the page and "
-"all of its subsections. "
-msgstr ""
-
-#: modules/book.module:1017
-msgid ""
-"Administrators can view a book outline, from which is it possible to change "
-"the titles of sections, and their <i>weight</i> (thus reordering "
-"sections).   From this outline, it is also possible to edit and/or delete "
-"book pages.   Many content types besides pages (for example, blog entries, "
-"stories, and polls) can be added to a collaborative book by choosing the "
-"<em>outline</em> tab when viewing the post."
-msgstr ""
-
-#: modules/book.module:1018
-msgid ""
-"<p>You can</p>\n"
-"<ul>\n"
-"<li>create new book pages: <a href=\"%node-add-book\">create content &gt;"
-"&gt; book page</a>.</li>\n"
-"<li>administer individual books (choose a book from list): <a href=\"%admin-"
-"node-book\">administer &gt;&gt; content &gt;&gt; books</a>.</li>\n"
-"<li>set workflow and other global book settings on the book configuration "
-"page: <a href=\"%admin-settings-content-types-book-page\" title=\"book page "
-"content type\">administer &gt;&gt; settings &gt;&gt; content types &gt;&gt; "
-"configure book page</a>.</li>\n"
-"<li>enable the book navigation block: <a href=\"%admin-block\">administer "
-"&gt;&gt; blocks</a>.</li>\n"
-"<li>control who can create, edit, and outline posts in books by setting "
-"access permissions: <a href=\"%admin-access\">administer &gt;&gt; access "
-"control</a>.</li>\n"
-"</ul>\n"
-msgstr ""
-
-#: modules/book.module:1027
-msgid ""
-"For more information please read the configuration and customization "
-"handbook <a href=\"%book\">Book page</a>."
-msgstr ""
-
-#: modules/book.module:1030
-msgid "Allows users to collaboratively author a book."
-msgstr "מאפשר לחברי הקהילה לחבר ספר במשותף."
-
-#: modules/book.module:1032
-#, fuzzy
-msgid ""
-"<p>The book module offers a means to organize content, authored by many "
-"users, in an online manual, outline or FAQ.</p>"
-msgstr ""
-"רכיב הספרים מאפשר לאחרגן תוכן, שנכתב על ידי מחברים רבים, במדריך מקוון, "
-"במתווה (outline) או במאגר ידע המכיל תשובות לשאלות נפוצות (FAQ)."
-
-#: modules/book.module:1034
-msgid ""
-"<p>Pages in a book are like a tree. As pages are edited, reorganized and "
-"removed, child pages might be left with no link to the rest of the book.  "
-"Such pages are referred to as \"orphan pages\".  On this page, "
-"administrators can review their books for orphans and reattach those pages "
-"as desired.</p>"
-msgstr ""
-
-#: modules/book.module:1036
+#: modules/book/book.module:17
 msgid ""
 "A book is a collaborative writing effort: users can collaborate writing the "
 "pages of the book, positioning the pages in the right order, and reviewing "
-"or modifying pages previously written.  So when you have some information to "
+"or modifying pages previously written. So when you have some information to "
 "share or when you read a page of the book and you didn't like it, or if you "
 "think a certain page could have been written better, you can do something "
 "about it."
@@ -250,37 +34,230 @@ msgstr ""
 "לך מידע לשתף או כשקראת עמוד מהספר ואינך אוהב אותו, או אם אתה חושב שצריך "
 "לכתוב עמוד מסויים טוב יותר, אתה יכול לעשות משהו בנידון. "
 
-#: modules/book.module:1040
+#: modules/book/book.module:68
+msgid "Add child page"
+msgstr "הוסף עמוד בן"
+
+#: modules/book/book.module:74
+msgid "Printer-friendly version"
+msgstr "גרסה להדפסה"
+
+#: modules/book/book.module:76
+msgid "Show a printer-friendly version of this book page and its sub-pages."
+msgstr "הצג תצוגה ידידותית למדפסת של עמוד זה בספר ושל עמודי המשנה שלו."
+
+#: modules/book/book.module:94;111
+msgid "Books"
+msgstr "ספרים"
+
+#: modules/book/book.module:95
+msgid "Manage site's books and orphaned book pages."
+msgstr "ניהול הספרים באתר ודפים יתומים"
+
+#: modules/book/book.module:104
+msgid "Orphan pages"
+msgstr "עמודים יתומים"
+
+#: modules/book/book.module:134
+msgid "Outline"
+msgstr "מתאר"
+
+#: modules/book/book.module:156
+msgid "Book navigation"
+msgstr "ניווט בספר"
+
+#: modules/book/book.module:216
 msgid ""
-"The outline feature allows you to include posts in the <a href=\"%book"
-"\">book hierarchy</a>."
+"The parent section in which to place this page. Note that each page whose "
+"parent is &lt;top-level&gt; is an independent, top-level book."
 msgstr ""
-"שימוש במתאר מאפשר לך לכלול פרסומים בתוך <a href=\"%book\">מתאר של ספר</a>."
+"האב שאליו עמוד זה משוייך. שים לב שעמודים שאביהם הוא &lt;ראשי&gt; הם ספרים "
+"עצמאיים, ברמה הראשית."
 
-#: modules/book.module:20
-#, fuzzy
+#: modules/book/book.module:216
+msgid "The parent that this page belongs in."
+msgstr "עמוד אב בספר."
+
+#: modules/book/book.module:240;272
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr "עמודים ברמה נתונה מסודרים ראשית לפי משקלם, ואז לפי כותרת."
+
+#: modules/book/book.module:266
+msgid "The parent page in the book."
+msgstr "עמוד אב בספר."
+
+#: modules/book/book.module:276
+msgid ""
+"An explanation to help other authors understand your motivations to put this "
+"post into the book."
+msgstr ""
+"הסבר של התוספות או העדכונים שנעשו, כדי לעזור למחברים אחרים להבין את הסיבה "
+"לעדכון."
+
+#: modules/book/book.module:282;309
+msgid "Update book outline"
+msgstr "עדכן מתאר ספר"
+
+#: modules/book/book.module:285;314
+msgid "Remove from book outline"
+msgstr "הסר ממתאר ספר"
+
+#: modules/book/book.module:289;304
+msgid "Add to book outline"
+msgstr "הוסף למתאר ספר"
+
+#: modules/book/book.module:307
+msgid "The post has been added to the book."
+msgstr "הפרסום נוסף לספר."
+
+#: modules/book/book.module:312
+msgid "The book outline has been updated."
+msgstr "מתאר הספר עודכן."
+
+#: modules/book/book.module:316
+msgid "The post has been removed from the book."
+msgstr "הפרסום הוסר מהספר."
+
+#: modules/book/book.module:493
+msgid "up"
+msgstr "לעמוד האב"
+
+#: modules/book/book.module:493
+msgid "Go to parent page"
+msgstr "לעמוד האב"
+
+#: modules/book/book.module:548
+msgid "top-level"
+msgstr "ראשי"
+
+#: modules/book/book.module:653
+msgid "Unknown export format."
+msgstr "מבנה לא מוכר לייצוא"
+
+#: modules/book/book.module:884;918
+msgid "Save book pages"
+msgstr "שמור עמודי ספר"
+
+#: modules/book/book.module:923
+msgid "There are no orphan pages."
+msgstr "לא נמצאו עמודים יתומים."
+
+#: modules/book/book.module:938
+msgid "%type: updated %title."
+msgstr "%type: עודכן הספר %title."
+
+#: modules/book/book.module:938;0
+msgid "book"
+msgstr "ספר"
+
+#: modules/book/book.module:945
+msgid "Updated book %title."
+msgstr "עודכן הספר '%title'."
+
+#: modules/book/book.module:949
+msgid "Updated orphan book pages."
+msgstr "עודכנו דפים יתומים."
+
+#: modules/book/book.module:971
+msgid "outline"
+msgstr "מתאר"
+
+#: modules/book/book.module:984
+msgid ""
+"The <em>book</em> module is suited for creating structured, multi-page "
+"hypertexts such as site resource guides, manuals, and Frequently Asked "
+"Questions (FAQs). It permits a document to have chapters, sections, "
+"subsections, etc. Authors with suitable permissions can add pages to a "
+"collaborative book,  placing them into the existing document by adding them "
+"to a table of contents menu."
+msgstr ""
+
+#: modules/book/book.module:985
+msgid ""
+"Book pages have navigation elements at the bottom of the page for moving "
+"through the text.  These link to the previous and next pages in the book, as "
+"well as a link labeled <em>up</em>, leading to the level above in the "
+"structure.  More comprehensive navigation may be provided by enabling the "
+"<em>book navigation block</em> on the <a href=\"@admin-block\">block "
+"administration page</a>."
+msgstr ""
+
+#: modules/book/book.module:986
+msgid ""
+"Users can select the <em>printer-friendly version</em> link visible at the "
+"bottom of a book page to generate a printer-friendly display of the page and "
+"all of its subsections. "
+msgstr ""
+
+#: modules/book/book.module:987
+msgid ""
+"Posts of type %book are automatically added to the book hierarchy. Users "
+"with the <em>outline posts in books</em> permission can also add content of "
+"any other type to a book, placing it into the existing book structure "
+"through the interface that's available by clicking on the <em>outline</em> "
+"tab while viewing that post."
+msgstr ""
+
+#: modules/book/book.module:988
+msgid ""
+"Administrators can view a list of all books on the <a href=\"@admin-node-book"
+"\">book administration page</a>.  In this list there is a link to an outline "
+"page for each book, from which is it possible to change the titles of "
+"sections, or to change their weight, thus reordering sections. From this "
+"administrative interface, it is also possible to determine whether there are "
+"any orphan pages - pages that have become disconnected from the rest of the "
+"book structure."
+msgstr ""
+
+#: modules/book/book.module:989
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"@book\">Book page</a>."
+msgstr ""
+
+#: modules/book/book.module:992
+msgid ""
+"The book module offers a means to organize content, authored by many users, "
+"in an online manual, outline or FAQ."
+msgstr ""
+"רכיב הספרים מאפשר לארגן תוכן, שנכתב על ידי מחברים רבים, במדריך מקוון, "
+"במתווה (outline) או במאגר ידע המכיל תשובות לשאלות נפוצות (FAQ)."
+
+#: modules/book/book.module:994
+msgid ""
+"Pages in a book are like a tree. As pages are edited, reorganized and "
+"removed, child pages might be left with no link to the rest of the book. "
+"Such pages are referred to as \"orphan pages\". On this page, administrators "
+"can review their books for orphans and reattach those pages as desired."
+msgstr ""
+
+#: modules/book/book.module:998
+msgid ""
+"The outline feature allows you to include posts in the <a href=\"@book"
+"\">book hierarchy</a>."
+msgstr "שימוש במתאר מאפשר לך לכלול פרסומים אחרים באתר בתוך <a href=\"@book\">מתאר של ספר</a>."
+
+#: modules/book/book.module:26
 msgid "outline posts in books"
-msgstr "ניהול ספרים"
+msgstr "מתאר הפרסומים בספרים"
 
-#: modules/book.module:20
+#: modules/book/book.module:26
 msgid "create book pages"
 msgstr "צור עמודים בספר"
 
-#: modules/book.module:20
-#, fuzzy
+#: modules/book/book.module:26
 msgid "create new books"
-msgstr "צור עמודים בספר"
+msgstr "צור ספרים חדשים"
 
-#: modules/book.module:20
-#, fuzzy
+#: modules/book/book.module:26
 msgid "edit book pages"
-msgstr "עריכת ספרים עצמית"
+msgstr "עריכת עמודי ספר"
 
-#: modules/book.module:20
+#: modules/book/book.module:26
 msgid "edit own book pages"
 msgstr "עריכת ספרים עצמית"
 
-#: modules/book.module:20
-#, fuzzy
+#: modules/book/book.module:26
 msgid "see printer-friendly version"
-msgstr "גירסה ידידותית למדפסת"
+msgstr "צפייה בגרסה להדפסה"
+

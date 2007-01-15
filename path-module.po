@@ -3,28 +3,29 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
+# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: path-module\n"
-"POT-Creation-Date: 2006-06-05 17:49+0200\n"
-"PO-Revision-Date: 2006-10-15 02:49+0200\n"
-"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
-"Language-Team: Hebrew\n"
+"POT-Creation-Date: 2007-01-10 22:16+0100\n"
+"PO-Revision-Date: 2007-01-04 01:52+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/path.module:15
+#: modules/path/path.module:15
 msgid ""
-"The path module allows you to specify aliases for Drupal URLs.  Such aliases "
+"The path module allows you to specify aliases for Drupal URLs. Such aliases "
 "improve readability of URLs for your users and may help internet search "
-"engines to index your content more effectively.  More than one alias may be "
+"engines to index your content more effectively. More than one alias may be "
 "created for a given page."
 msgstr ""
 
-#: modules/path.module:16
+#: modules/path/path.module:16
 msgid ""
 "<p>Some examples of URL aliases are:</p>\n"
 "<ul>\n"
@@ -35,184 +36,155 @@ msgid ""
 "</ul>\n"
 msgstr ""
 
-#: modules/path.module:24
+#: modules/path/path.module:24
 msgid ""
 "The path module enables an extra field for aliases in all node input and "
-"editing forms (when users have the appropriate permissions).  It also "
-"provides an interface to view and edit all URL aliases.  The two permissions "
-"are related to URL aliasing are \"administer a list of URL aliases\" and "
-"\"add url aliases\".  "
+"editing forms (when users have the appropriate permissions). It also "
+"provides an interface to view and edit all URL aliases. The two permissions "
+"related to URL aliasing are \"administer url aliases\" and \"create url "
+"aliases\". "
 msgstr ""
 
-#: modules/path.module:25
+#: modules/path/path.module:25
 msgid ""
 "This module also comes with user-defined mass URL aliasing capabilities, "
 "which is useful if you wish to uniformly use URLs different from the "
-"default.  For example, you may want to have your URLs presented in a "
+"default. For example, you may want to have your URLs presented in a "
 "different language. Access to the Drupal source code on the web server is "
 "required to set up these kinds of aliases. "
 msgstr ""
 
-#: modules/path.module:26
-msgid ""
-"<p>You can</p>\n"
-"<ul>\n"
-"<li>set the path for a post with the path module.</li>\n"
-"<li>add a URL alias: <a href=\"%admin-path-add\">administer &gt;&gt; url "
-"aliases &gt;&gt; add alias</a>.</li>\n"
-"<li>administer the list of URL aliases: <a href=\"%admin-path\">administer "
-"&gt;&gt; url aliases</a>.</li>\n"
-"<li>read how to <a href=\"%external-http-drupal-org-node-15365\">configure "
-"clean URLs</a> for your webserver.\n"
-"<li>enable clean url's to remove the =? at <a href=\"%admin-settings"
-"\">administer &gt;&gt; settings</a>.</li>\n"
-"</ul>\n"
-msgstr ""
-
-#: modules/path.module:35
+#: modules/path/path.module:26
 msgid ""
 "For more information please read the configuration and customization "
-"handbook <a href=\"%path\">Path page</a>."
+"handbook <a href=\"@path\">Path page</a>."
 msgstr ""
 
-#: modules/path.module:38
-msgid "Allows users to rename URLs."
-msgstr ""
-"מאפשר לחברים מורשים להגדיר ולשנות את המיקום (כתובת ה-URL) של כל פריט תוכן "
-"באתר למיקום ידידותי יותר."
-
-#: modules/path.module:40
+#: modules/path/path.module:29
 msgid ""
-"<p>Drupal provides users complete control over URLs through aliasing.  This "
-"feature is typically used to make URLs human-readable or easy to remember.  "
+"Drupal provides users complete control over URLs through aliasing. This "
+"feature is typically used to make URLs human-readable or easy to remember. "
 "For example, one could map the relative URL 'node/1' onto 'about'. Each "
-"system path can have multiple aliases.</p>"
+"system path can have multiple aliases."
 msgstr ""
 "דרופל מאפשר לחברים שליטה מלאה על כתובות URL דרך שימוש במיקומים. תכונה זו "
 "משמשת כדי להקל על קריאת הכתובות באתר או על זכירתן. לדוגמה, ניתן לגשת לכתובת "
 "היחסית 'node/1' דרך המיקום 'אודות'. ניתן להגדיר מיקומים רבים לכל כתובת URL "
 "במערכת. "
 
-#: modules/path.module:42
+#: modules/path/path.module:31
 msgid ""
-"<p>Enter the path you wish to create the alias for, followed by the name of "
-"the new alias.</p>"
+"Enter the path you wish to create the alias for, followed by the name of the "
+"new alias."
 msgstr ""
-"<p>יש לרשום את כתובת הדף שעבורו ברצונך ליצור מיקום, ולאחריה את המיקום החדש.</"
-"p>"
+"יש לרשום את כתובת הדף שעבורו ברצונך ליצור מיקום, ולאחריה את המיקום החדש."
 
-#: modules/path.module:53
-msgid "url aliases"
+#: modules/path/path.module:42
+msgid "URL aliases"
 msgstr "מיקומים"
 
-#: modules/path.module:56
-msgid "edit alias"
+#: modules/path/path.module:43
+msgid "Change your site's URL paths by aliasing them."
+msgstr "שנה את כתובות ה-URL של האתר שלך ע\"י יצירת מיקומים חלופיים עבורן."
+
+#: modules/path/path.module:46
+msgid "Edit alias"
 msgstr "עדכן מיקום"
 
-#: modules/path.module:60
-msgid "delete alias"
+#: modules/path/path.module:51
+msgid "Delete alias"
 msgstr "מחק מיקום"
 
-#: modules/path.module:66
-msgid "add alias"
+#: modules/path/path.module:58
+msgid "Add alias"
 msgstr "הוסף מיקום"
 
-#: modules/path.module:106
-#, fuzzy
+#: modules/path/path.module:99
 msgid "Are you sure you want to delete path alias %title?"
-msgstr "האם אתם מעוניינים במחיקת הכותרת %title ?"
+msgstr "האמנם למחוק את המיקום %title?"
 
-#: modules/path.module:129
+#: modules/path/path.module:122
 msgid "The alias has been deleted."
 msgstr "המיקום נמחק."
 
-#: modules/path.module:184
+#: modules/path/path.module:180
 msgid "Existing system path"
 msgstr "כתובת URL במערכת"
 
-#: modules/path.module:184
+#: modules/path/path.module:184
 msgid ""
 "Specify the existing path you wish to alias. For example: node/28, forum/1, "
 "taxonomy/term/1+2."
 msgstr "כתובת URL קיימת במערכת. לדוגמה: node/28, forum/1, taxonomy/term/1+2."
 
-#: modules/path.module:185
+#: modules/path/path.module:192
 msgid ""
-"Specify an alternative path by which this data can be accessed.  For "
-"example, type \"about\" when writing an about page.  Use a relative path and "
-"don't add a trailing slash or the URL alias won't work."
+"Specify an alternative path by which this data can be accessed. For example, "
+"type \"about\" when writing an about page. Use a relative path and don't add "
+"a trailing slash or the URL alias won't work."
 msgstr ""
 "רשום מיקום חילופי שבעזרתו ניתן יהיה לגשת למידע זה. לדוגמה , כתוב \"about\" "
 "כשאתה כותב עמוד אודות האתר. השתמש בנתיב יחסי ואל תוסיף בסוף לוכסן, אחרת זה "
 "לא יעבוד."
 
-#: modules/path.module:189
+#: modules/path/path.module:198
 msgid "Update alias"
 msgstr "עדכן מיקום"
 
-#: modules/path.module:192
+#: modules/path/path.module:201
 msgid "Create new alias"
 msgstr "צור מיקום חדש"
 
-#: modules/path.module:210
-msgid "The path is invalid."
-msgstr "המיקום אינו נכון."
-
-#: modules/path.module:213
+#: modules/path/path.module:219
 msgid "The path is already in use."
 msgstr "מיקום זה כבר נמצא בשימוש."
 
-#: modules/path.module:257
+#: modules/path/path.module:263
 msgid "URL path settings"
 msgstr "הגדרת מיקום חלופי"
 
-#: modules/path.module:268
+#: modules/path/path.module:275
 msgid ""
-"Optionally specify an alternative URL by which this node can be accessed.  "
-"For example, type \"about\" when writing an about page.  Use a relative path "
+"Optionally specify an alternative URL by which this node can be accessed. "
+"For example, type \"about\" when writing an about page. Use a relative path "
 "and don't add a trailing slash or the URL alias won't work."
 msgstr ""
 "ניתן להגדיר גם מיקום חילופי שדרכו ניתן לגשת לפריט תוכן זה. לדוגמה, רשום "
-"\"אודות\" כשאתה כותב עמוד אודות האתר. יש להשתמש במיקום יחסי ולא להוסיף לוכסן "
+"\"about\" כשאתה כותב עמוד אודות האתר. יש להשתמש במיקום יחסי ולא להוסיף לוכסן "
 "בסוף, אחרת זה לא יעבוד."
 
-#: modules/path.module:293
+#: modules/path/path.module:300
 msgid "Alias"
 msgstr "מיקום"
 
-#: modules/path.module:294
-msgid "System"
-msgstr "כתובת URL במערכת"
-
-#: modules/path.module:306
+#: modules/path/path.module:313
 msgid "No URL aliases available."
 msgstr "טרם הוגדרו מיקומים."
 
-#: modules/path.module:331
-msgid "The system path %path is invalid."
-msgstr "נתיב המערכת %path אינו תקין."
-
-#: modules/path.module:335
-msgid "The alias %alias is invalid."
-msgstr "הקישור %alias אינו תקין."
-
-#: modules/path.module:339
+#: modules/path/path.module:337
 msgid "The alias %alias is already in use."
-msgstr ""
+msgstr "המיקום %alias כבר נמצא בשימוש."
 
-#: modules/path.module:348
+#: modules/path/path.module:347
 msgid "The alias has been saved."
 msgstr "המיקום נשמר."
 
-#: modules/path.module:284
+#: modules/path/path.module:291
 msgid "create url aliases"
 msgstr "יצירת מיקומים"
 
-#: modules/path.module:284
+#: modules/path/path.module:291
 msgid "administer url aliases"
 msgstr "ניהול מיקומים"
 
-#: modules/path.module:0
+#: modules/path/path.module:0
 msgid "path"
 msgstr "מיקום"
 
+#~ msgid "Path"
+#~ msgstr "מיקום"
+
+#~ msgid "Allows users to rename URLs."
+#~ msgstr ""
+#~ "מאפשר לחברים מורשים להגדיר ולשנות את המיקום (כתובת ה-URL) של כל פריט תוכן "
+#~ "באתר למיקום ידידותי יותר."
