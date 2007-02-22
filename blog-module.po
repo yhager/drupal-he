@@ -36,7 +36,7 @@ msgstr "הצג הודעות אחרונות ביומן"
 #: modules/blog/blog.module:52;241
 #, fuzzy
 msgid "Read @username's latest blog entries."
-msgstr "הצג את הודעות היומן האחרונות של %username."
+msgstr "הצג את הודעות היומן האחרונות של @username."
 
 #: modules/blog/blog.module:65
 msgid ""
@@ -78,7 +78,7 @@ msgstr ""
 #: modules/blog/blog.module:134;223
 #, fuzzy
 msgid "@name's blog"
-msgstr "היומן של %name"
+msgstr "היומן של @name"
 
 #: modules/blog/blog.module:137
 msgid "Post new blog entry."
@@ -105,7 +105,7 @@ msgstr "יומן"
 #: modules/blog/blog.module:239
 #, fuzzy
 msgid "@username's blog"
-msgstr "הבלוג של %username"
+msgstr "היומן של @username"
 
 #: modules/blog/blog.module:261
 #, fuzzy
