@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: watchdog-module\n"
 "POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-06 19:08+0200\n"
+"PO-Revision-Date: 2007-02-26 11:33+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr ""
 msgid ""
 "For more information please read the configuration and customization "
 "handbook <a href=\"@watchdog\">Watchdog page</a>."
-msgstr ""
+msgstr "למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב השמירה</a>."
 
 #: modules/watchdog/watchdog.module:26
 msgid ""
@@ -63,27 +63,27 @@ msgstr ""
 
 #: modules/watchdog/watchdog.module:37
 msgid "Recent log entries"
-msgstr ""
+msgstr "הודעות יומן פעילות אחרונות"
 
 #: modules/watchdog/watchdog.module:38
 msgid "View events that have recently been logged."
-msgstr ""
+msgstr "צפה באירועים שתועדו לאחרונה"
 
 #: modules/watchdog/watchdog.module:41
 msgid "Top 'page not found' errors"
-msgstr ""
+msgstr "שגיאות 'עמוד לא נמצא' מובילות"
 
 #: modules/watchdog/watchdog.module:42
 msgid "View 'page not found' errors (404s)."
-msgstr ""
+msgstr "צפה בשגיאות 'עמוד לא נמצא' (שגיאות 404)."
 
 #: modules/watchdog/watchdog.module:45
 msgid "Top 'access denied' errors"
-msgstr ""
+msgstr "שגיאות 'גישה חסומה' מובילות"
 
 #: modules/watchdog/watchdog.module:46
 msgid "View 'access denied' errors (403s)."
-msgstr ""
+msgstr "צפה בשגיאות 'גישה חסומה' (403)."
 
 #: modules/watchdog/watchdog.module:83
 msgid "all messages"
@@ -107,11 +107,11 @@ msgstr "לא קיימות הודעות יומן."
 
 #: modules/watchdog/watchdog.module:166
 msgid "Count"
-msgstr ""
+msgstr "כמות"
 
 #: modules/watchdog/watchdog.module:198
 msgid "notice"
-msgstr ""
+msgstr "הודעה"
 
 #: modules/watchdog/watchdog.module:216
 msgid "Location"
@@ -125,8 +125,3 @@ msgstr "חוּמרה"
 msgid "watchdog"
 msgstr "'כלב שמירה'"
 
-#~ msgid "Watchdog"
-#~ msgstr "'כלב שמירה'"
-
-#~ msgid "Logs and records system events."
-#~ msgstr "רושם ומקליט פעילויות שבוצעו במערכת."
