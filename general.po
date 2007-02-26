@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: general\n"
 "POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-11 21:19+0200\n"
+"PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "שרת ה - MySQL ישן מדי. דרופל דורשת גרסה %version
 
 #: includes/file.inc:97 modules/system/system.install:116
 msgid "The directory %directory does not exist."
-msgstr "הספריה %directory לא קיימת"
+msgstr "הספריה %directory לא קיימת."
 
 #: includes/file.inc:124 modules/user/user.module:1225;1469;2187
 msgid "security"

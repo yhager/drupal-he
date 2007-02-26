@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: system-install\n"
 "POT-Creation-Date: 2006-12-15 11:16+0100\n"
-"PO-Revision-Date: 2007-01-11 19:36+0200\n"
+"PO-Revision-Date: 2007-02-26 11:55+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,11 +31,11 @@ msgstr "כתבה"
 
 #: modules/system/system.install:3256
 msgid "Stories are articles in their simplest form: they have a title, a teaser and a body, but can be extended by other modules. The teaser is part of the body too. Stories may be used as a personal blog or for news articles."
-msgstr ""
+msgstr "כתבות הן מאמרים פשוטים: יש להם כותרת, תקציר, ותוכן. ניתן להרחיב אותם בעזרת רכיבים נוספים. התקציר גם הוא חלק מהתוכן. ניתן להשתמש בכתבות לפרסום בלוג אישי או מאמרי חדשות."
 
 #: modules/system/system.install:3356
 msgid "URL Filter module was disabled; this functionality has now been added to core."
-msgstr ""
+msgstr "רכיב סינון כתובות URL מבוטל. תכונות אלו התווספו לליבה של דרופל."
 
 #: modules/system/system.install:30
 msgid "Web server"
@@ -43,11 +43,11 @@ msgstr "שרת אינטרנט"
 
 #: modules/system/system.install:39
 msgid "Your Apache server is too old. Drupal requires at least Apache %version."
-msgstr ""
+msgstr "שרת Apache שלך ישן מדי. דרופל דורש גרסה %version ומעלה."
 
 #: modules/system/system.install:45
 msgid "The web server you're using has not been tested with Drupal and might not work properly."
-msgstr ""
+msgstr "שרת ה-Web שאתה משתמש בו לא נבדק עם דרופל, ויכול להיות שלא יעבוד טוב."
 
 #: modules/system/system.install:51
 msgid "Unknown"
@@ -55,11 +55,11 @@ msgstr "לא ידוע"
 
 #: modules/system/system.install:52
 msgid "Unable to determine your web server type and version. Drupal might not work properly."
-msgstr ""
+msgstr "לא מצליח לגלות את סוג שרת הWeb והגרסה. יכול להיות שדרופל לא יעבוד בצורה טובה."
 
 #: modules/system/system.install:62
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
-msgstr ""
+msgstr "התקנת PHP שלך ישנה מדי. דרופל דורש גרסה %version ומעלה."
 
 #: modules/system/system.install:76
 msgid "Not protected"
@@ -67,7 +67,7 @@ msgstr "לא מוגן"
 
 #: modules/system/system.install:78
 msgid "The file %file is not protected from modifications and poses a security risk. You must change the file's permissions to be non-writable."
-msgstr ""
+msgstr "הקובץ %file אינו מוגן משינויי כתיבה, ולכן זהו סיכון אבטחה. חובה לשנות את הרשאות הכתיבה כך לא ניתן יהיה לכתוב את הקובץ."
 
 #: modules/system/system.install:83
 msgid "Protected"
@@ -83,7 +83,7 @@ msgstr "ריצה אחרונה לפני !time"
 
 #: modules/system/system.install:98
 msgid "Cron has not run. It appears cron jobs have not been setup on your system. Please check the help pages for <a href=\"@url\">configuring cron jobs</a>."
-msgstr ""
+msgstr "תהליך cron לא רץ עדיין. כנראה שלא הוגדרו משימות cron במערכת. אנא בדוק את עמודי העזרה עבור <a href=\"@url\">הגדרת משימות cron</a>."
 
 #: modules/system/system.install:100
 msgid "Never run"
@@ -103,7 +103,7 @@ msgstr "לא ניתן לכתוב"
 
 #: modules/system/system.install:124
 msgid "You may need to set the correct directory at the <a href=\"@admin-file-system\">file system settings page</a> or change the current directory's permissions so that it is writable."
-msgstr ""
+msgstr "צריך לקבוע את הספריה ב<a href=\"@admin-file-system\">עמוד הגדרות קבצי המערכת</a>, או להחליף את ההרשאות של הספריה הנוכחית כדי שיהיה אפשר לכתובת אליה."
 
 #: modules/system/system.install:130
 msgid "Writable (<em>public</em> download method)"
@@ -127,5 +127,5 @@ msgstr "לא מעודכן"
 
 #: modules/system/system.install:158
 msgid "Some modules have database schema updates to install. You should run the <a href=\"@update\">database update script</a> immediately."
-msgstr ""
+msgstr "יש רכיבים שצריכים לעדכן את סכמת מסד הנתונים. יש להריץ את <a href=\"@update\">תסריט עדכון מסד הנתנים</a> לאלתר."
 
