@@ -1,5 +1,5 @@
 # translation of installer.po to Hebrew
-# $Id: installer.po,v 1.1 2007/02/26 08:59:38 yhager Exp $
+# $Id: installer.po,v 1.1.2.1 2007/03/11 08:17:03 yhager Exp $
 # LANGUAGE translation of Drupal (installer)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
@@ -64,7 +64,7 @@ msgstr "כדי להגדיר את מסד הנתונים שלך עבור @drupal, 
 
 #: install.php:198
 msgid "Database type"
-msgstr "סוג מסדהנתונים"
+msgstr "סוג מסד הנתונים"
 
 #: install.php:202
 msgid "The type of database your @drupal data will be stored in."
