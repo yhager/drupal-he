@@ -1,156 +1,146 @@
-# translation of taxonomy-module.po to Hebrew
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
-# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: taxonomy-module\n"
-"POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-11 21:20+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/taxonomy/taxonomy.module:78
-msgid "Create vocabularies and terms to categorize your content."
-msgstr "צור מילונים ונושאים כדי לסווג את התוכן."
-
-#: modules/taxonomy/taxonomy.module:88
-msgid "Add vocabulary"
+#: modules/taxonomy.module:65
+msgid "add vocabulary"
 msgstr "הוסף מילון"
 
-#: modules/taxonomy/taxonomy.module:95
-msgid "Edit vocabulary"
-msgstr "עדכן מילון"
-
-#: modules/taxonomy/taxonomy.module:101
-msgid "Edit term"
-msgstr "עדכן נושא"
-
-#: modules/taxonomy/taxonomy.module:107
-msgid "Taxonomy term"
-msgstr "סיווג במילון"
-
-#: modules/taxonomy/taxonomy.module:113
-msgid "Autocomplete taxonomy"
-msgstr "השלמה אוטומטית של סיווגים"
-
-#: modules/taxonomy/taxonomy.module:122
-msgid "List terms"
-msgstr "הצג סיווגים"
-
-#: modules/taxonomy/taxonomy.module:134
-msgid "Add term"
-msgstr "הוסף סיווג"
-
-#: modules/taxonomy/taxonomy.module:159
+#: modules/taxonomy.module:71;134
 msgid "edit vocabulary"
 msgstr "עדכן מילון"
 
-#: modules/taxonomy/taxonomy.module:160
+#: modules/taxonomy.module:77
+msgid "edit term"
+msgstr "עדכן נושא"
+
+#: modules/taxonomy.module:83
+msgid "taxonomy term"
+msgstr "סיווג במילון"
+
+#: modules/taxonomy.module:89
+#, fuzzy
+msgid "autocomplete taxonomy"
+msgstr "ניהול סיווגים"
+
+#: modules/taxonomy.module:97;135
+#, fuzzy
 msgid "list terms"
 msgstr "הצג סיווגים"
 
-#: modules/taxonomy/taxonomy.module:161
+#: modules/taxonomy.module:109
+msgid "add term"
+msgstr "הוסף סיווג"
+
+#: modules/taxonomy.module:136
+#, fuzzy
 msgid "add terms"
 msgstr "הוסף סיווגים"
 
-#: modules/taxonomy/taxonomy.module:165
+#: modules/taxonomy.module:140
 msgid "No categories available."
-msgstr "לא הוגדרו סיווגים."
+msgstr "לא הוגדרו סיווגים"
 
-#: modules/taxonomy/taxonomy.module:202
+#: modules/taxonomy.module:172
+#, fuzzy
 msgid "No terms available."
 msgstr "אין סיווגים זמינים."
 
-#: modules/taxonomy/taxonomy.module:220
+#: modules/taxonomy.module:190
 msgid "Vocabulary name"
 msgstr "שם מילון"
 
-#: modules/taxonomy/taxonomy.module:223
-msgid "The name for this vocabulary. Example: \"Topic\"."
+#: modules/taxonomy.module:193
+msgid "The name for this vocabulary.  Example: \"Topic\"."
 msgstr "שם המילון. לדוגמה: \"נושא\"."
 
-#: modules/taxonomy/taxonomy.module:229
+#: modules/taxonomy.module:199
 msgid "Description of the vocabulary; can be used by modules."
 msgstr "תיאור המילון; ניתן לשימוש על ידי רכיבים אחרים של דרופל."
 
-#: modules/taxonomy/taxonomy.module:232
+#: modules/taxonomy.module:202
 msgid "Help text"
 msgstr "טקסט עזרה"
 
-#: modules/taxonomy/taxonomy.module:234
+#: modules/taxonomy.module:205
 msgid "Instructions to present to the user when choosing a term."
 msgstr "הנחיות המוצגות למשתמש בעת בחירת סיווג ממילון זה."
 
-#: modules/taxonomy/taxonomy.module:237
+#: modules/taxonomy.module:208
 msgid "Types"
 msgstr "סוגים"
 
-#: modules/taxonomy/taxonomy.module:240
+#: modules/taxonomy.module:211
 msgid "A list of node types you want to associate with this vocabulary."
 msgstr "רשימת הסוגים של פריטי התוכן שעבורם ברצונך לאפשר להשתמש במילון זה."
 
-#: modules/taxonomy/taxonomy.module:244
+#: modules/taxonomy.module:215
 msgid "Hierarchy"
 msgstr "היררכייה"
 
-#: modules/taxonomy/taxonomy.module:246
+#: modules/taxonomy.module:217
 msgid "Single"
 msgstr "יחיד"
 
-#: modules/taxonomy/taxonomy.module:246
+#: modules/taxonomy.module:217
 msgid "Multiple"
 msgstr "מרובה"
 
-#: modules/taxonomy/taxonomy.module:247
+#: modules/taxonomy.module:218
 msgid ""
-"Allows <a href=\"@help-url\">a tree-like hierarchy</a> between terms of this "
+"Allows <a href=\"%help-url\">a tree-like hierarchy</a> between terms of this "
 "vocabulary."
-msgstr "מאפשר <a href=\"@help-url\">היררכייה בצורת עץ</a> בין סיווגים במילון זה."
+msgstr ""
+"מאפשר <a href=\"%help-url\">היררכייה בצורת עץ</a> בין סיווגים במילון זה."
 
-#: modules/taxonomy/taxonomy.module:250;413
+#: modules/taxonomy.module:221;375
 msgid "Related terms"
 msgstr "סיווגים קרובים (ראה גם...)"
 
-#: modules/taxonomy/taxonomy.module:252
-msgid "Allows <a href=\"@help-url\">related terms</a> in this vocabulary."
+#: modules/taxonomy.module:223
+msgid "Allows <a href=\"%help-url\">related terms</a> in this vocabulary."
 msgstr ""
-"סימון אפשרות זו מאפשר להגדיר <a href=\"@help-url\">סיווגים קרובים</a> במילון "
+"סימון אפשרות זו מאפשר להגדיר <a href=\"%help-url\">סיווגים קרובים</a> במילון "
 "זה, כמו באגרון (חשוב על \"ראה גם...\" באנציקלופדיה)."
 
-#: modules/taxonomy/taxonomy.module:255
+#: modules/taxonomy.module:226
 msgid "Free tagging"
 msgstr "תיוג חופשי"
 
-#: modules/taxonomy/taxonomy.module:257
+#: modules/taxonomy.module:228
 msgid "Content is categorized by typing terms instead of choosing from a list."
 msgstr "התוכן מסווג על ידי הקלדת סיווגים במקום בחירתם מרשימה."
 
-#: modules/taxonomy/taxonomy.module:260
+#: modules/taxonomy.module:231
 msgid "Multiple select"
 msgstr "בחירה מרובה"
 
-#: modules/taxonomy/taxonomy.module:262
+#: modules/taxonomy.module:233
+#, fuzzy
 msgid ""
 "Allows nodes to have more than one term from this vocabulary (always true "
 "for free tagging)."
-msgstr "מאפשר לפריטי תוכן לשייך אליהם יותר  מסיווג אחד ממילון זה."
+msgstr "מאפשר לפריטי תוכן לשייך אליהם יותר  מסיווג אחד ממילון זה.\n"
 
-#: modules/taxonomy/taxonomy.module:267
+#: modules/taxonomy.module:238
 msgid ""
 "If enabled, every node <strong>must</strong> have at least one term in this "
 "vocabulary."
 msgstr ""
-"אם מסומן, <strong>חובה</strong> לשייך לכל פריט תוכן לפחות סיווג אחד ממילון "
+"אם מאופשר, לכל פריט תוכן <strong>חובה</strong> לשייך לפחות סיווג אחד ממילון "
 "זה. "
 
-#: modules/taxonomy/taxonomy.module:272
+#: modules/taxonomy.module:243
 msgid ""
 "In listings, the heavier vocabularies will sink and the lighter vocabularies "
 "will be positioned nearer the top."
@@ -158,137 +148,137 @@ msgstr ""
 "בזמן תצוגת רשימות, מילונים כבדים יותר שוקעים למטה ומילונים קלים יותר ממוקמים "
 "ליד ראש הרשימה. "
 
-#: modules/taxonomy/taxonomy.module:292
+#: modules/taxonomy.module:272
 msgid "Created new vocabulary %name."
 msgstr "נוצר מילון חדש ששמו %name."
 
-#: modules/taxonomy/taxonomy.module:295
+#: modules/taxonomy.module:275
 msgid "Updated vocabulary %name."
 msgstr "עודכן המילון %name."
 
-#: modules/taxonomy/taxonomy.module:363
+#: modules/taxonomy.module:335
 msgid "Are you sure you want to delete the vocabulary %title?"
 msgstr "האם אתם מעוניינים במחיקת הכותרת %title ?"
 
-#: modules/taxonomy/taxonomy.module:366
+#: modules/taxonomy.module:337
 msgid ""
 "Deleting a vocabulary will delete all the terms in it. This action cannot be "
 "undone."
-msgstr "מחיקת מילון מונחים תמחק את כל הסיווגים במילון. אין אפשרות לשחזר פעולה זו."
+msgstr ""
+"מחיקת מילון מונחים תמחק את כל הסיווגים במילון. אין אפשרות לשחזר פעולה זו."
 
-#: modules/taxonomy/taxonomy.module:373
+#: modules/taxonomy.module:344
+#, fuzzy
 msgid "Deleted vocabulary %name."
 msgstr "נמחק המילון '%name'."
 
-#: modules/taxonomy/taxonomy.module:382
+#: modules/taxonomy.module:352
 msgid "Term name"
 msgstr "שם הסיווג"
 
-#: modules/taxonomy/taxonomy.module:385
-msgid "The name of this term."
+#: modules/taxonomy.module:352
+msgid "The name for this term.  Example: \"Linux\"."
 msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
 
-#: modules/taxonomy/taxonomy.module:392
+#: modules/taxonomy.module:354
 msgid "A description of the term."
 msgstr "תיאור הסיווג."
 
-#: modules/taxonomy/taxonomy.module:405
+#: modules/taxonomy.module:367
 msgid "Parent term"
 msgstr "סיווג אב"
 
-#: modules/taxonomy/taxonomy.module:408
+#: modules/taxonomy.module:370
 msgid "Parents"
 msgstr "אבות"
 
-#: modules/taxonomy/taxonomy.module:408
+#: modules/taxonomy.module:370
 msgid "Parent terms"
 msgstr "סיווגי אב בהיררכייה"
 
-#: modules/taxonomy/taxonomy.module:418
+#: modules/taxonomy.module:378
 msgid "Synonyms"
 msgstr "שמות נרדפים"
 
-#: modules/taxonomy/taxonomy.module:420
-msgid "<a href=\"@help-url\">Synonyms</a> of this term, one synonym per line."
-msgstr "<a href=\"@help-url\">שמות נרדפים</a>  לסיווג זה, שם אחד בשורה."
+#: modules/taxonomy.module:378
+msgid "<a href=\"%help-url\">Synonyms</a> of this term, one synonym per line."
+msgstr "<a href=\"%help-url\">שמות נרדפים</a>  לסיווג זה, שם אחד בשורה."
 
-#: modules/taxonomy/taxonomy.module:425
+#: modules/taxonomy.module:379
 msgid ""
 "In listings, the heavier terms will sink and the lighter terms will be "
 "positioned nearer the top."
 msgstr "ברשימות, הסיווגים הכבדים יותר שוקעים למטה והקלים יותר צפים לראש הרשימה."
 
-#: modules/taxonomy/taxonomy.module:454
+#: modules/taxonomy.module:411
 msgid "Created new term %term."
 msgstr "נוצר סיווג חדש - %term."
 
-#: modules/taxonomy/taxonomy.module:457
+#: modules/taxonomy.module:414
 msgid "The term %term has been updated."
 msgstr "הסיווג %term עודכן."
 
-#: modules/taxonomy/taxonomy.module:583
+#: modules/taxonomy.module:521
 msgid "Are you sure you want to delete the term %title?"
 msgstr "האם את\\ה בטוח\\ה שברצונך למחוק את  הסיווג%title?"
 
-#: modules/taxonomy/taxonomy.module:586
+#: modules/taxonomy.module:524
 msgid ""
 "Deleting a term will delete all its children if there are any. This action "
 "cannot be undone."
-msgstr "מחיקת סיווג תמחק את כל סיווגי הבן שלו, אם ישנם כאלו. לא ניתן לבטל פעולה זו. "
+msgstr ""
+"מחיקת סיווג תמחק את כל סיווגי הבן שלו, אם ישנם כאלו. לא ניתן לבטל פעולה זו. "
 
-#: modules/taxonomy/taxonomy.module:593
+#: modules/taxonomy.module:531
 msgid "Deleted term %name."
 msgstr "נמחק הסיווג %name."
 
-#: modules/taxonomy/taxonomy.module:701
+#: modules/taxonomy.module:639
 msgid ""
-"A comma-separated list of terms describing this content. Example: funny, "
+"A comma-separated list of terms describing this content.  Example: funny, "
 "bungee jumping, \"Company, Inc.\"."
-msgstr ""
-"רשימה מופרדת בפסיקים של סיווגים המתארים פריט תוכן זה. לדוגמה: מצחיק, קפיצת "
-"בנג'י, \"חברה, בע\"מ\"."
+msgstr "רשימה מופרדת בפסיקים של סיווגים המתארים פריט תוכן זה. לדוגמה: מצחיק, קפיצת בנג'י, \"חברה, בע\"מ\"."
 
-#: modules/taxonomy/taxonomy.module:781
+#: modules/taxonomy.module:710
 msgid "The %name vocabulary can not be modified in this way."
 msgstr "לא ניתן לעדכן את המילון %name בדרך זו."
 
-#: modules/taxonomy/taxonomy.module:1268
+#: modules/taxonomy.module:1147
 msgid "There are currently no posts in this category."
 msgstr "אין כעת פרסומים בסיווג זה."
 
-#: modules/taxonomy/taxonomy.module:1442
+#: modules/taxonomy.module:1307
 msgid ""
 "The taxonomy module is one of the most popular features because users often "
-"want to create categories to organize content by type. A simple example "
-"would be organizing a list of music reviews by musical genre."
-msgstr ""
-"רכיב הסיווגים הוא אחד הרכיבים הכי מבוקשים כי חברי האתר מבקשים לעיתים קרובות "
-"ליצור סיווגים כדי לארגן את התוכן לפי סוג. רכיב הסיווגים יכול לשמש לסיווג "
-"אוטומטי של תוכן חדש, דבר היכול להיות מאד שימושי לארגון תוכן אוטומטי תוך כדי "
-"תנועה. דוגמה פשוטה : ארגון רשימת סקירות של שירים לפי ז'אנר מוסיקלי."
+"want to create categories to organize content by type. It can automatically "
+"classify new content, which is very useful for organizing content on-the-"
+"fly. A simple example would be organizing a list of music reviews by musical "
+"genre."
+msgstr "רכיב הסיווגים הוא אחד הרכיבים הכי מבוקשים כי חברי האתר מבקשים לעיתים קרובות ליצור סיווגים כדי לארגן את התוכן לפי סוג. רכיב הסיווגים יכול לשמש לסיווג אוטומטי של תוכן חדש, דבר היכול להיות מאד שימושי לארגון תוכן אוטומטי תוך כדי תנועה. דוגמה פשוטה : ארגון רשימת סקירות של שירים לפי ז'אנר מוסיקלי."
 
-#: modules/taxonomy/taxonomy.module:1443
+#: modules/taxonomy.module:1308
+#, fuzzy
 msgid ""
-"Taxonomy is the study of classification. The taxonomy module allows you to "
-"define vocabularies (sets of categories) which are used to classify content. "
-"The module supports hierarchical classification and association between "
-"terms, allowing for truly flexible information retrieval and classification. "
-"The taxonomy module allows multiple lists of categories for classification "
-"(controlled vocabularies) and offers the possibility of creating thesauri "
-"(controlled vocabularies that indicate the relationship of terms) and "
-"taxonomies (controlled vocabularies where relationships are indicated "
-"hierarchically). To view and manage the terms of each vocabulary, click on "
-"the associated <em>list terms</em> link. To delete a vocabulary and all its "
-"terms, choose <em>edit vocabulary.</em>"
+"Taxonomy is also the study of classification. The taxonomy module allows you "
+"to define vocabularies (sets of categories) which are used to classify "
+"content. The module supports hierarchical classification and association "
+"between terms, allowing for truly flexible information retrieval and "
+"classification. The taxonomy module allows multiple lists of categories for "
+"classification (controlled vocabularies) and offers the possibility of "
+"creating thesauri (controlled vocabularies that indicate the relationship of "
+"terms) and taxonomies (controlled vocabularies where relationships are "
+"indicated hierarchically). To view and manage the terms of each vocabulary, "
+"click on the associated <em>list terms</em> link. To delete a vocabulary and "
+"all its terms, choose <em>edit vocabulary.</em>"
 msgstr ""
-"<p>רכיב הטקסונומיה מאפשר לסווג תוכן לפי סיווגים וסיווגי משנה. הוא מאפשר "
-"ליצור רשימות מרובות של סיווגים (מילונים מבוקרים) ומציע את האפשרות ליצור "
-"אגרונים (מילונים מבוקרים המצביעים על הקשר בין נושאים) וטקסונומיות (מילונים "
-"מבוקרים שבהם הקשר בין  הסיווגים מאפיין היררכייה). "
-"כדי ל צפות בכל הערכים במילון יש להכנס ל<em>רשימת מילים</em>."
-"כדי למחוק מילון וכל הסיווגים שבתוכו, יש להיכנס ל\"עריכת מילון\".</p>"
+"<p>רכיב הטקסונומיה מאפשר לסווג תוכן לפי סיווגים וסיווגי משנה. הוא מאפשר ליצור "
+"רשימות מרובות של סיווגים (מילונים מבוקרים) ומציע את האפשרות ליצור אגרונים "
+"(מילונים מבוקרים המצביעים על הקשר בין נושאים) וטקסונומיות (מילונים מבוקרים "
+"שבהם הקשר בין  הסיווגים מאפיין היררכייה). כדי למחוק מילון וכל  הסיווגים שבתוכו, "
+"יש להיכנס ל\"עריכת מילון\".</p>"
 
-#: modules/taxonomy/taxonomy.module:1444
+#: modules/taxonomy.module:1309
+#, fuzzy
 msgid ""
 "A controlled vocabulary is a set of terms to use for describing content "
 "(known as descriptors in indexing lingo). Drupal allows you to describe each "
@@ -301,21 +291,40 @@ msgstr ""
 "( הסיווגים שבמילונים אלו ידועים כ\"ציינים\" - ציין הוא מילה או סימן כלשהו "
 "שתפקידם לתאר, לזהות או למפתח פריט מסוים במסד נתונים). דרופל מאפשר לתאר כל "
 "פיסת תוכן (בלוג, כתבה, וכו') תוך שימוש באחד או יותר  מהסיווגים שבמילון. עבור "
-"יישומים פשוטים, ניתן ליצור מילון שטוח, המכיל רשימת  סיווגים ללא  סיווגי "
-"משנה, בדומה למצב במדורים של Slashdot.org או Kuro5nin.org. ליישומים מורכבים "
-"יותר, ניתן ליצור מילון המכיל רשימה היררכית של סיווגים."
+"יישומים פשוטים, ניתן ליצור מילון שטוח, המכיל רשימת  סיווגים ללא  סיווגי משנה, "
+"בדומה למצב במדורים של Slashdot.org או Kuro5nin.org. ליישומים מורכבים יותר, "
+"ניתן ליצור מילון המכיל רשימה היררכית של סיווגים. \n"
 
-#: modules/taxonomy/taxonomy.module:1445
+#: modules/taxonomy.module:1310
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>add a vocabulary at <a href=\"%admin-taxonomy-add-vocabulary"
+"\">administer &gt;&gt; categories &gt;&gt;  add vocabulary</a>.</li>\n"
+"<li>administer taxonomy at <a href=\"%admin-taxonomy\">administer &gt;&gt; "
+"categories</a>.</li>\n"
+"<li>restrict content access by category for specific users roles using the "
+"<a href=\"%external-http-drupal-org-project-taxonomy_access\">taxonomy "
+"access module</a>.</li>\n"
+"<li>build a custom view of your categories using the <a href=\"%external-"
+"http-drupal-org-project-taxonomy_browser\">taxonomy browser</a>.</li>\n"
+"</ul>\n"
+msgstr ""
+
+#: modules/taxonomy.module:1318
 msgid ""
 "For more information please read the configuration and customization "
-"handbook <a href=\"@taxonomy\">Taxonomy page</a>."
-msgstr ""
-"למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
-"הגדרת התצורה וההתאמה."
+"handbook <a href=\"%taxonomy\">Taxonomy page</a>."
+msgstr "למידע נוסף בבקשה קרא את <a href=\"%taxonomy\">עמוד הסיווגים</a> של מדריך הגדרת התצורה וההתאמה."
 
-#: modules/taxonomy/taxonomy.module:1448
+#: modules/taxonomy.module:1321
+msgid "Enables the categorization of content."
+msgstr "מאפשר סיווג תוכן לפי נושאים."
+
+#: modules/taxonomy.module:1323
+#, fuzzy
 msgid ""
-"The taxonomy module allows you to classify content into categories and "
+"<p>The taxonomy module allows you to classify content into categories and "
 "subcategories; it allows multiple lists of categories for classification "
 "(controlled vocabularies) and offers the possibility of creating thesauri "
 "(controlled vocabularies that indicate the relationship of terms), "
@@ -323,36 +332,25 @@ msgid ""
 "hierarchically), and free vocabularies where terms, or tags, are defined "
 "during content creation. To view and manage the terms of each vocabulary, "
 "click on the associated <em>list terms</em> link. To delete a vocabulary and "
-"all its terms, choose \"edit vocabulary\"."
+"all its terms, choose \"edit vocabulary\".</p>"
 msgstr ""
-"רכיב הטקסונומיה מאפשר לסווג תוכן לפי נושאים ונושאי משנה. הוא מאפשר ליצור "
+"<p>רכיב הטקסונומיה מאפשר לסווג תוכן לפי נושאים ונושאי משנה. הוא מאפשר ליצור "
 "רשימות מרובות של נושאים (מילונים מבוקרים) ומציע את האפשרות ליצור אגרונים "
 "(מילונים מבוקרים המצביעים על הקשר בין נושאים) וטקסונומיות (מילונים מבוקרים "
-"שבהם הקשר בין הנושאים מאפיין היררכייה). כי לצפות ברשימת הערכים במילון יש להכנס ל<em>רשימת סיווגים</em>. כדי למחוק מילון וכל הנושאים שבתוכו, "
-"יש להיכנס ל\"עריכת מילון\"."
+"שבהם הקשר בין הנושאים מאפיין היררכייה). כדי למחוק מילון וכל הנושאים שבתוכו, "
+"יש להיכנס ל\"עריכת מילון\".</p>"
 
-#: modules/taxonomy/taxonomy.module:1450
+#: modules/taxonomy.module:1325
 msgid ""
-"When you create a controlled vocabulary you are creating a set of terms to "
-"use for describing content (known as descriptors in indexing lingo). Drupal "
-"allows you to describe each piece of content (blog, story, etc.) using one "
-"or many of these terms. For simple implementations, you might create a set "
-"of categories without subcategories. For more complex implementations, you "
-"might create a hierarchical list of categories."
+"<p>When you create a controlled vocabulary you are creating a set of terms "
+"to use for describing content (known as descriptors in indexing lingo).  "
+"Drupal allows you to describe each piece of content (blog, story, etc.) "
+"using one or many of these terms. For simple implementations, you might "
+"create a set of categories without subcategories, similar to Slashdot.org's "
+"or Kuro5hin.org's sections. For more complex implementations, you might "
+"create a hierarchical list of categories.</p>"
 msgstr ""
-"יצירת מילון מבוקר מתבצעת על ידי יצירת מילונים המשמשים לתיאור התוכן  שבאתר "
-"( הסיווגים שבמילונים אלו ידועים כ\"ציינים\" - ציין הוא מילה או סימן כלשהו "
-"שתפקידם לתאר, לזהות או למפתח פריט מסוים במסד נתונים). דרופל מאפשר לתאר כל "
-"פיסת תוכן (בלוג, כתבה, וכו') תוך שימוש באחד או יותר  מהסיווגים שבמילון. עבור "
-"יישומים פשוטים, ניתן ליצור מילון שטוח, המכיל רשימת  סיווגים ללא  סיווגי "
-"משנה, בדומה למצב במדורים של Slashdot.org או Kuro5nin.org. ליישומים מורכבים "
-"יותר, ניתן ליצור מילון המכיל רשימה היררכית של סיווגים. "
 
-#: modules/taxonomy/taxonomy.module:13
+#: modules/taxonomy.module:13
 msgid "administer taxonomy"
 msgstr "ניהול סיווגים"
-
-#: modules/taxonomy/taxonomy.module:0
-msgid "taxonomy"
-msgstr "סיווג במילון"
-

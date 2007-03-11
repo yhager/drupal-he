@@ -3,21 +3,20 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: locale-module\n"
-"POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-04 12:32+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-15 02:45+0200\n"
+"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/locale/locale.module:22
+#: modules/locale.module:22
 msgid ""
 "The locale module allows you to present your Drupal site in a language other "
 "than the default English. You can use it to set up a multi-lingual web site "
@@ -28,18 +27,18 @@ msgid ""
 "look up untranslated strings easily."
 msgstr ""
 
-#: modules/locale/locale.module:23
+#: modules/locale.module:23
 msgid ""
 "The locale module provides two options for providing translations. The first "
 "is the integrated web interface, via which you can search for untranslated "
 "strings, and specify their translations. An easier and less time-consuming "
-"method is to import existing translations for your language. These "
+"method is to import existing translations for your language.  These "
 "translations are available as <em>GNU gettext Portable Object files</em> "
-"(<em>.po</em> files for short). Translations for many languages are "
+"(<em>.po</em> files for short).  Translations for many languages are "
 "available for download from the translation page."
 msgstr ""
 
-#: modules/locale/locale.module:24
+#: modules/locale.module:24
 msgid ""
 "If an existing translation does not meet your needs, the <em>.po</em> files "
 "are easily edited with special editing tools. The locale module's import "
@@ -48,267 +47,256 @@ msgid ""
 "generating Portable Object files from your site strings."
 msgstr ""
 
-#: modules/locale/locale.module:25
+#: modules/locale.module:25
 msgid ""
-"For more information please read the configuration and customization "
-"handbook <a href=\"@locale\">Locale page</a>."
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>administer localization at <a href=\"%admin-locale\">administer &gt;&gt; "
+"localization</a>.</li>\n"
+"<li>manage strings for the localization: <a href=\"%admin-locale-string-"
+"search\">administer &gt;&gt; localization &gt;&gt; manage strings</a>.</li>\n"
+"<li>add a locale language: <a href=\"%admin-locale-language-add\">administer "
+"&gt;&gt; localization &gt;&gt; add language</a>.</li>\n"
+"<li>download translation files from the <a href=\"%external-http-drupal-org-"
+"project-Translations\">Drupal translations page</a>.\n"
+"</li>\n"
+"</ul>\n"
 msgstr ""
 
-#: modules/locale/locale.module:29
+#: modules/locale.module:34
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%locale\">Locale page</a>."
+msgstr ""
+
+#: modules/locale.module:37
+msgid ""
+"Enables the translation of the user interface to languages other than "
+"English."
+msgstr "מאפשר את תרגום ממשק המשתמש מאנגלית לשפות אחרות."
+
+#: modules/locale.module:40
 msgid ""
 "<p>Drupal provides support for the translation of its interface text into "
-"different languages. This page provides an overview of the installed "
-"languages. You can add a language on the <a href=\"@add-language\">add "
-"language page</a>, or directly by <a href=\"@import\">importing a "
+"different languages.  This page provides an overview of the installed "
+"languages. You can add a language on the <a href=\"%add-language\">add "
+"language page</a>, or directly by <a href=\"%import\">importing a "
 "translation</a>. If multiple languages are enabled, registered users will be "
-"able to set their preferred language. The site default will be used for "
+"able to set their preferred language.  The site default will be used for "
 "anonymous visitors and for users without their own settings.</p><p>Drupal "
 "interface translations may be added or extended by several courses: by <a "
-"href=\"@import\">importing</a> an existing translation, by <a href=\"@search"
+"href=\"%import\">importing</a> an existing translation, by <a href=\"%search"
 "\">translating everything</a> from scratch, or by a combination of these "
 "approaches.</p>"
 msgstr ""
-"<p>דרופל מאפשר לתרגם את ממשק המשתמש מאנגלית לשפות אחרות. עמוד זה מציג את "
-"השפות המותקנות. ניתן להוסיף שפות נוספות בעמוד <a href=\"@add-language"
-"\">הוספת שפה</a>, או באופן ישיר על ידי <a href=\"@import\">ייבוא של קובץ "
-"תרגום</a>. אם יש כמה שפות מאופשרות, חברים יוכלו להגדיר את העדפותיהם. ברירת "
-"המחדל תשמש לחברים שלא הגדירו את העדפתם, ולמבקרים שטרם הצטרפו.</p> <p> ישנן "
-"דרכים שונות לתרגום ממשק המשתמש של דרופל:  <a href=\"@import\">ייבוא</a> קובץ "
-"תרגום קיים, <a href=\"@search\">תרגום הכל בעצמך</a>, או שילוב של השניים.</p>"
+"<p> "
+"דרופל מאפשר לתרגם את ממשק המשתמש מאנגלית לשפות אחרות. עמוד זה מציג את "
+"השפות המותקנות. ניתן להוסיף שפות נוספות בעמוד "
+"<a href=\"%add-language\">הוספת שפה</a>, "
+"או באופן ישיר על ידי "
+"<a href=\"%import\">יבוא של קובץ תרגום</a>. "
+"אם יש כמה שפות מאופשרות, חברים יוכלו להגדיר את העדפותיהם. ברירת "
+"המחדל תשמש לחברים שלא הגדירו את העדפתם, ולמבקרים שטרם הצטרפו.</p> "
+"<p> "
+"ישנן דרכים שונות לתרגום ממשק המשתמש של דרופל:  <a href=\"%import\">ייבוא</a> "
+"קובץ תרגום קיים, <a href=\"%search\">תרגום הכל בעצמך</a>, או שילוב של השניים.</p>"
 
-#: modules/locale/locale.module:31
+#: modules/locale.module:42
+#, fuzzy
 msgid ""
-"You need to add all languages in which you would like to display the site "
+"<p>You need to add all languages in which you would like to display the site "
 "interface. If you can't find the desired language in the quick-add dropdown, "
 "then you will need to provide the proper language code yourself. The "
 "language code may be used to negotiate with browsers and to present flags, "
 "etc., so it is important to pick a code that is standardised for the desired "
-"language. You can also add a language by <a href=\"@import\">importing a "
-"translation</a>."
+"language. You can also add a language by <a href=\"%import\">importing a "
+"translation</a>.</p>"
 msgstr ""
-"יש להוסיף את כל השפות שבהן האתר נדרש להציג ממשק. אם לא ניתן למצוא את השפה "
+"<p>יש להוסיף את כל השפות שבהן האתר נדרש להציג ממשק. אם לא ניתן למצוא את השפה "
 "המבוקשת בתיבת הבחירה של הוספה מהירה, יש להגדיר את קוד השפה המתאים בעצמך. קוד "
-"השפה משמש כדי להתקשר עם דפדפנים, להציג סמלי דגלים ועוד, כך שחשוב להגדיר קוד "
-"שפה סטנדרטי עבור אותה שפה. ניתם גם להוסיף שפות על ידי <a href=\"@import"
-"\">יייבוא תרגומים</a>."
+"השפה משמש כדי ליצור משא ומתן עם דפדפנים, כך שחשוב להגדיר קוד שפה סטנדרטי "
+"עבור אותה שפה. ניתם גם להוסיף שפות על ידי <a href=\"%import\">יייבוא "
+"תרגומים</a> באופן ישיר לתוך שפה שעדיין לא הוגדרה.</p>\n"
 
-#: modules/locale/locale.module:33
+#: modules/locale.module:44
 msgid ""
-"This page allows you to import a translation provided in the gettext "
-"Portable Object (.po) format. The easiest way to get your site translated is "
-"to obtain an existing Drupal translation and to import it. You can find "
-"existing translations on the <a href=\"@url\">Drupal translation page</a>. "
-"Note that importing a translation file might take a while."
+"<p>This page allows you to import a translation provided in the gettext "
+"Portable Object (.po) format.  The easiest way to get your site translated "
+"is to obtain an existing Drupal translation and to import it.  You can find "
+"existing translations on the <a href=\"%url\">Drupal translation page</a>. "
+"Note that importing a translation file might take a while.</p>"
 msgstr ""
-"עמוד זה מאפשר לייבא תרגום שסופק במבנה <span dir=ltr> gettext Portable Object "
-"(.po)</span>). הדרך הקלה ביותר לתרגום האתר היא להשיג תרגום קיים של דרופל "
-"ולייבא אותו. ניתן להשיג תרגומים ב<a href=\"@url\">עמוד התרגומים של דרופל</"
-"a>. לתשומת לבכם - ייבוא קובץ תרגום יכול לקחת קצת זמן."
+"<p>עמוד זה מאפשר לייבא תרגום שסופק במבנה <span dir=ltr> gettext Portable "
+"Object (.po)</span>). הדרך הקלה ביותר לתרגום האתר היא להשיג תרגום קיים של "
+"דרופל ולייבא אותו. ניתן להשיג תרגומים <a href=\"%url\">עמוד התרגומים של "
+"דרופל</a>. לתשומת לבכם - ייבוא קובץ תרגום יכול לקחת קצת זמן.</p>"
 
-#: modules/locale/locale.module:35
+#: modules/locale.module:46
+#, fuzzy
 msgid ""
-"This page allows you to export Drupal strings. The first option is to export "
-"a translation so it can be shared. The second option generates a translation "
-"template, which contains all Drupal strings, but without their translations. "
-"You can use this template to start a new translation using various software "
-"packages designed for this task."
+"<p>This page allows you to export Drupal strings. The first option is to "
+"export a translation so it can be shared.  The second option generates a "
+"translation template, which contains all Drupal strings, but without their "
+"translations. You can use this template to start a new translation using "
+"various software packages designed for this task.</p>"
 msgstr ""
-"עמוד זה מאפשר לייצא את מחרוזות השפה של דרופל. האפשרות הראשונה היא לייצא "
+"<p>עמוד זה מאפשר לייצא את מחרוזות השפה של דרופל. האפשרות הראשונה היא לייצא "
 "תרגום, כך שאפשר לשתף אותו. האפשרות השנייה היא לייצר תבנית תרגום, שמכילה את "
 "כל המחרוזות של דרופל, אבל ללא התרגומים שלהן. ניתן להשתמש בתבנית זו כדי "
-"להתחיל תרגום חדש תוך שימוש במגוון התכנות המיועדות לכך."
+"להתחיל תרגום חדש תוך שימוש בתכנית ייעודית שתרוץ באופן מקומי על המחשב שלך.</p>"
+"\n"
 
-#: modules/locale/locale.module:37
+#: modules/locale.module:48
+#, fuzzy
 msgid ""
-"It is often convenient to get the strings from your setup on the <a href="
-"\"@export\">export page</a>, and use a desktop Gettext translation editor to "
-"edit the translations. On this page you can search in the translated and "
-"untranslated strings, and the default English texts provided by Drupal."
+"<p>It is often convenient to get the strings from your setup on the <a href="
+"\"%export\">export page</a>, and use a desktop Gettext translation editor to "
+"edit the translations.  On this page you can search in the translated and "
+"untranslated strings, and the default English texts provided by Drupal.</p>"
 msgstr ""
-"לעתים קרובות נוח יותר לקבל את המחרוזות תוך שימוש <a href=\"@export\">בעמוד "
-"הייצוא</a>, ולהתחיל את התרגום עם עורך Gettext. בעמוד זה ניתן לחפש אחר "
-"מחרוזות שתורגמו או טרם תורגמו, ואחר הטקסטים האנגליים המקוריים שהם ברירת "
-"המחדל של דרופל."
+"<p>לעיתים קרובות נוח יותר לקבל את המחרוזות תוך שימוש <a href=\"%export"
+"\">בעמוד היצוא</a>, ולהתחיל את התרגום עם עורך Gettext. היתרון בתרגום ישיר "
+"דרך האתר הוא יכולת החיפוש אחר מחרוזות שתורגמו או טרם תורגמו, ואחר הטקסטים "
+"האנגליים המקוריים שהם ברירת המחדל של דרופל.</p>"
 
-#: modules/locale/locale.module:51
-msgid "Localization"
+#: modules/locale.module:63
+msgid "localization"
 msgstr "תרגום"
 
-#: modules/locale/locale.module:52
-msgid "Configure site localization and user interface translation."
-msgstr "הגדר את ההתאמות האיזוריות של האתר ותרגום ממשק המשתמש."
-
-#: modules/locale/locale.module:58
-msgid "Manage languages"
+#: modules/locale.module:69
+msgid "manage languages"
 msgstr "ניהול שפות"
 
-#: modules/locale/locale.module:63
-msgid "Manage strings"
+#: modules/locale.module:74
+msgid "manage strings"
 msgstr "ניהול מחרוזות"
 
-#: modules/locale/locale.module:107
-msgid "Edit string"
-msgstr "עדכן מחרוזת"
+#: modules/locale.module:88
+msgid "add language"
+msgstr "הוסף שפה"
 
-#: modules/locale/locale.module:113
-msgid "Delete string"
-msgstr "מחק מחרוזת"
+#: modules/locale.module:94
+msgid "import"
+msgstr "יבוא"
 
-#: modules/locale/locale.module:142
+#: modules/locale.module:100
+msgid "export"
+msgstr "יצוא"
+
+#: modules/locale.module:108
+msgid "confirm"
+msgstr "אשר"
+
+#: modules/locale.module:117
+#, fuzzy
+msgid "edit string"
+msgstr "המחרוזת נשמרה"
+
+#: modules/locale.module:123
+#, fuzzy
+msgid "delete string"
+msgstr "המחרוזת נמחקה"
+
+#: modules/locale.module:152
 msgid "Interface language settings"
 msgstr "הגדרות שפת ממשק"
 
-#: modules/locale/locale.module:149
-msgid ""
-"Selecting a different locale will change the interface language of the site."
+#: modules/locale.module:159
+msgid "Selecting a different locale will change the interface language of the site."
 msgstr "בחירת מיקום שונה תשנה את שפת הממשק של האתר."
 
-#: modules/locale/locale.module:314
+#: modules/locale.module:325
 msgid "The English locale cannot be deleted."
 msgstr "לא ניתן למחוק את המיקום \"אנגלית\"."
 
-#: modules/locale/locale.module:326
+#: modules/locale.module:337
 msgid "Are you sure you want to delete the language %name?"
 msgstr "האם אתם בטוחים שאתם מעוניינים למחוק את השפה %name?"
 
-#: modules/locale/locale.module:326
+#: modules/locale.module:337
 msgid ""
 "Deleting a language will remove all data associated with it. This action "
 "cannot be undone."
 msgstr "מחיקת השפה תסיר כל מידע הקשור בה (תרגום) . פעולה זו אינה הפיכה."
 
-#: modules/locale/locale.module:338
+#: modules/locale.module:349
+#, fuzzy
 msgid "The language %locale has been removed."
-msgstr "השפה %locale נמחקה."
+msgstr "התיבה החדשה נוספה."
 
-#: modules/locale/locale.module:128
+#: modules/locale.module:138
 msgid "administer locales"
 msgstr "ניהול שפות"
 
-#: modules/locale/locale.module:0
-msgid "January"
-msgstr "ינואר"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Jan"
 msgstr "ינו'"
 
-#: modules/locale/locale.module:0
-msgid "February"
-msgstr "פברואר"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Feb"
 msgstr "פבר'"
 
-#: modules/locale/locale.module:0
-msgid "March"
-msgstr "מרץ"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Mar"
 msgstr "מרץ"
 
-#: modules/locale/locale.module:0
-msgid "April"
-msgstr "אפריל"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Apr"
 msgstr "אפר'"
 
-#: modules/locale/locale.module:0;0
-msgid "May"
-msgstr "מאי"
-
-#: modules/locale/locale.module:0
-msgid "June"
-msgstr "יוני"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Jun"
-msgstr "יוני"
+msgstr "יונ'"
 
-#: modules/locale/locale.module:0
-msgid "July"
-msgstr "יולי"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Jul"
-msgstr "יולי"
+msgstr "יול'"
 
-#: modules/locale/locale.module:0
-msgid "August"
-msgstr "אוגוסט"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Aug"
 msgstr "אוג'"
 
-#: modules/locale/locale.module:0
-msgid "September"
-msgstr "ספטמבר"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Sep"
 msgstr "ספט'"
 
-#: modules/locale/locale.module:0
-msgid "October"
-msgstr "אוקטובר"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Oct"
 msgstr "אוק'"
 
-#: modules/locale/locale.module:0
-msgid "November"
-msgstr "נובמבר"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Nov"
 msgstr "נוב'"
 
-#: modules/locale/locale.module:0
-msgid "December"
-msgstr "דצמבר"
-
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Dec"
 msgstr "דצמ'"
 
-#: modules/locale/locale.module:0;0
+#: modules/locale.module:0;0
 msgid "Thu"
 msgstr "ה'"
 
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Fri"
 msgstr "ו'"
 
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Sat"
 msgstr "ש'"
 
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Sun"
 msgstr "א'"
 
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Mon"
 msgstr "ב'"
 
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Tue"
 msgstr "ג'"
 
-#: modules/locale/locale.module:0
+#: modules/locale.module:0
 msgid "Wed"
 msgstr "ד'"
 
-#~ msgid "Locale"
-#~ msgstr "תרגום"
-
-#~ msgid ""
-#~ "Enables the translation of the user interface to languages other than "
-#~ "English."
-#~ msgstr "מאפשר את תרגום ממשק המשתמש מאנגלית לשפות אחרות."

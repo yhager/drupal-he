@@ -1,22 +1,18 @@
-# translation of profile-module.po to Hebrew
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
-# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: profile-module\n"
-"POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-06 17:26+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/profile/profile.module:35
+#: modules/profile.module:23
 msgid ""
 "The profile module allows you to define custom fields (such as country, real "
 "name, age, ...) in the user profile. This permits users of a site to share "
@@ -24,7 +20,7 @@ msgid ""
 "organize users around profile fields."
 msgstr ""
 
-#: modules/profile/profile.module:36
+#: modules/profile.module:24
 msgid ""
 "<p>The following types of fields can be added to the user profile:</p>\n"
 "<ul>\n"
@@ -38,104 +34,102 @@ msgid ""
 "</ul>\n"
 msgstr ""
 
-#: modules/profile/profile.module:47
+#: modules/profile.module:35
 msgid ""
-"For more information please read the configuration and customization "
-"handbook <a href=\"@profile\">Profile page</a>."
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>view user <a href=\"%profile\">profiles</a>.</li>\n"
+"<li>administer profile settings: <a href=\"%admin-settings-profile"
+"\">administer &gt;&gt; settings &gt;&gt; profiles</a>.</li>\n"
+"</ul>\n"
 msgstr ""
 
-#: modules/profile/profile.module:50
+#: modules/profile.module:41
 msgid ""
-"Here you can define custom fields that users can fill in in their user "
-"profile (such as <em>country</em>, <em>real name</em>, <em>age</em>, ...)."
+"For more information please read the configuration and customization "
+"handbook <a href=\"%profile\">Profile page</a>."
+msgstr ""
+
+#: modules/profile.module:44
+msgid "Supports configurable user profiles."
+msgstr "תמיכה בפרופילי חברים הניתנים להתאמה."
+
+#: modules/profile.module:46
+msgid ""
+"<p>Here you can define custom fields that users can fill in in their user "
+"profile (such as <em>country</em>, <em>real name</em>, <em>age</em>, ...).</"
+"p>"
 msgstr ""
 "<p>כאן ניתן להגדיר שדות תפורים אישית שחברים יוכלו למלאם בפרופיל החבר שלהם "
 "(כמו <em>מדינה</em>, <em>שם מלא</em>, <em>גיל</em>, ...).</p>"
 
-#: modules/profile/profile.module:62
-#, fuzzy
-msgid "User list"
+#: modules/profile.module:58;489
+msgid "user list"
 msgstr "רשימת חברים"
 
-#: modules/profile/profile.module:67
-#, fuzzy
-msgid "Profiles"
+#: modules/profile.module:63
+msgid "profiles"
 msgstr "פרופילי חברים"
 
-#: modules/profile/profile.module:68
-msgid "Create customizable fields for your users."
-msgstr ""
-
-#: modules/profile/profile.module:71
-#, fuzzy
-msgid "Add field"
+#: modules/profile.module:66
+msgid "add field"
 msgstr "הוסף שדה"
 
-#: modules/profile/profile.module:76
-msgid "Profile category autocomplete"
-msgstr ""
-
-#: modules/profile/profile.module:81
-#, fuzzy
-msgid "Edit field"
+#: modules/profile.module:70
+msgid "edit field"
 msgstr "עדכן שדה"
 
-#: modules/profile/profile.module:86
-#, fuzzy
-msgid "Delete field"
+#: modules/profile.module:74
+msgid "delete field"
 msgstr "מחק שדה"
 
-#: modules/profile/profile.module:90
-msgid "Profile autocomplete"
-msgstr ""
-
-#: modules/profile/profile.module:105
+#: modules/profile.module:88
 #, fuzzy
 msgid "Author information"
 msgstr "מידע על המחבר"
 
-#: modules/profile/profile.module:116
+#: modules/profile.module:99
 #, fuzzy
 msgid "Link to full user profile"
 msgstr "הצג מידע נוסף על החבר."
 
-#: modules/profile/profile.module:118
+#: modules/profile.module:101
 #, fuzzy
 msgid "Profile fields to display"
 msgstr "כתבות שיוצגו"
 
-#: modules/profile/profile.module:121
+#: modules/profile.module:104
 msgid ""
 "Select which profile fields you wish to display in the block. Only fields "
-"designated as public in the <a href=\"@profile-admin\">profile field "
+"designated as public in the <a href=\"%profile-admin\">profile field "
 "configuration</a> are available."
 msgstr ""
 
-#: modules/profile/profile.module:152
+#: modules/profile.module:135
 #, fuzzy
 msgid "View full user profile"
 msgstr "הצג מידע נוסף על החבר."
 
-#: modules/profile/profile.module:157
+#: modules/profile.module:140
 #, fuzzy
 msgid "About %name"
 msgstr "הכנס %name"
 
-#: modules/profile/profile.module:204
+#: modules/profile.module:187
 #, fuzzy
 msgid "edit %title"
 msgstr "עדכן נושא"
 
-#: modules/profile/profile.module:222
+#: modules/profile.module:205
 #, fuzzy
 msgid "add new %type"
 msgstr "הוסף שדה חדש מסוג %type"
 
-#: modules/profile/profile.module:227
+#: modules/profile.module:210
 msgid "Field settings"
 msgstr "הגדרות שדה"
 
-#: modules/profile/profile.module:233
+#: modules/profile.module:215
 #, fuzzy
 msgid ""
 "The category the new field should be part of. Categories are used to group "
@@ -144,18 +138,18 @@ msgstr ""
 "הסיווג שאליו ישתייך השדה החדש. סיווגים משמשים כדי לקבץ שדות לוגית. דוגמה "
 "לסיווג היא \"מידע אישי\". "
 
-#: modules/profile/profile.module:239
+#: modules/profile.module:221
 #, fuzzy
 msgid ""
 "The title of the new field. The title will be shown to the user. An example "
 "title is \"Favorite color\"."
 msgstr "כותרת השדה החדש. הכותרת תוצג למשתמש. דוגמה לכותרת היא \"צבע חביב\". "
 
-#: modules/profile/profile.module:243
+#: modules/profile.module:225
 msgid "Form name"
 msgstr "שם השדה בטופס"
 
-#: modules/profile/profile.module:245
+#: modules/profile.module:227
 #, fuzzy
 msgid ""
 "The name of the field. The form name is not shown to the user but used "
@@ -172,28 +166,28 @@ msgstr ""
 "('-') ולקו תחתון ('_') אינם מותרים. שם לדוגמה: 'profile_favorite_color' או "
 "אולי פשוט 'profile_color'."
 
-#: modules/profile/profile.module:250
+#: modules/profile.module:232
 msgid "Explanation"
 msgstr "הסבר"
 
-#: modules/profile/profile.module:252
+#: modules/profile.module:234
 #, fuzzy
 msgid ""
 "An optional explanation to go with the new field. The explanation will be "
 "shown to the user."
 msgstr "כאן יש אפשרות להגדיר הסבר של השדה החדש. ההסבר יוצג למשתמש."
 
-#: modules/profile/profile.module:256
+#: modules/profile.module:238
 msgid "Selection options"
 msgstr "אפשרויות בחירה"
 
-#: modules/profile/profile.module:258
+#: modules/profile.module:240
 msgid ""
 "A list of all options. Put each option on a separate line. Example options "
 "are \"red\", \"blue\", \"green\", etc."
 msgstr ""
 
-#: modules/profile/profile.module:265
+#: modules/profile.module:247
 #, fuzzy
 msgid ""
 "The weights define the order in which the form fields are shown. Lighter "
@@ -202,35 +196,35 @@ msgstr ""
 "משקלים מגדירים את הסדר שבו השדות בטופס מוצגים. שדות קלים יותר \"צפים למעלה\" "
 "לכיוון ראש הסיווג. "
 
-#: modules/profile/profile.module:268
+#: modules/profile.module:250
 msgid "Visibility"
 msgstr "מתי השדה מוצג"
 
-#: modules/profile/profile.module:270
+#: modules/profile.module:252
 msgid ""
 "Hidden profile field, only accessible by administrators, modules and themes."
 msgstr ""
 
-#: modules/profile/profile.module:270
+#: modules/profile.module:252
 msgid "Private field, content only available to privileged users."
 msgstr "שדה פרטי, התוכן זמין רק לחברים מורשים."
 
-#: modules/profile/profile.module:270
+#: modules/profile.module:252
 msgid ""
 "Public field, content shown on profile page but not used on member list "
 "pages."
 msgstr ""
 "שדה ציבורי. התוכן מוצג בעמוד פרופיל החבר אבל לא בשימוש בעמודי רשימות החברים."
 
-#: modules/profile/profile.module:270
+#: modules/profile.module:252
 msgid "Public field, content shown on profile page and on member list pages."
 msgstr "שדה ציבורי, התוכן מוצג בעמוד פרופיל החבר ובעמודי רשימות החברים."
 
-#: modules/profile/profile.module:274;281
+#: modules/profile.module:256;263
 msgid "Page title"
 msgstr "כותרת עמוד"
 
-#: modules/profile/profile.module:276
+#: modules/profile.module:258
 msgid ""
 "To enable browsing this field by value, enter a title for the resulting "
 "page. The word <code>%value</code> will be substituted with the "
@@ -238,30 +232,26 @@ msgid ""
 "is %value\". This is only applicable for a public field."
 msgstr ""
 
-#: modules/profile/profile.module:283
+#: modules/profile.module:265
 msgid ""
 "To enable browsing this field by value, enter a title for the resulting "
 "page. An example page title is \"People who are employed\". This is only "
 "applicable for a public field."
 msgstr ""
 
-#: modules/profile/profile.module:287
-msgid "Form will auto-complete while user is typing."
-msgstr ""
-
-#: modules/profile/profile.module:291
+#: modules/profile.module:269
 msgid "The user must enter a value."
 msgstr "שדה חובה."
 
-#: modules/profile/profile.module:295
+#: modules/profile.module:273
 msgid "Visible in user registration form."
 msgstr "מוצג בטופס ההצטרפות."
 
-#: modules/profile/profile.module:299
+#: modules/profile.module:277
 msgid "Save field"
 msgstr "שמור שדה"
 
-#: modules/profile/profile.module:310
+#: modules/profile.module:288
 #, fuzzy
 msgid ""
 "The specified form name contains one or more illegal characters. Spaces or "
@@ -271,116 +261,114 @@ msgstr ""
 "שם הטופס מכיל תו או מספר תווים לא תקינים. התו 'רווח' או תווים מיוחדים אחרים "
 "חוץ מהתו 'מקף' או 'קו תחתון' אינם מורשים לשימוש."
 
-#: modules/profile/profile.module:314
+#: modules/profile.module:292
 msgid "The specified form name is reserved for use by Drupal."
 msgstr "שם טופס זה שמור לשימוש פנימי של המערכת."
 
-#: modules/profile/profile.module:321
+#: modules/profile.module:299
 #, fuzzy
 msgid "The specified category name is reserved for use by Drupal."
 msgstr "שם טופס זה שמור לשימוש פנימי של המערכת."
 
-#: modules/profile/profile.module:333
+#: modules/profile.module:311
 msgid "The specified title is already in use."
 msgstr "הכותרת שהוזנה כבר קיימת במערכת."
 
-#: modules/profile/profile.module:336
+#: modules/profile.module:314
 msgid "The specified name is already in use."
 msgstr "השם שהוזן כבר קיים במערכת."
 
-#: modules/profile/profile.module:347
+#: modules/profile.module:325
 msgid "The field has been created."
 msgstr "השדה החדש נוצר."
 
-#: modules/profile/profile.module:348
+#: modules/profile.module:326
 msgid "Profile field %field added under category %category."
 msgstr ""
 
-#: modules/profile/profile.module:353
+#: modules/profile.module:331
 msgid "The field has been updated."
 msgstr "השדה עודכן."
 
-#: modules/profile/profile.module:373
+#: modules/profile.module:350
 #, fuzzy
 msgid "Are you sure you want to delete the field %field?"
 msgstr "האם אתם בטוחים שאתם מעוניינם למחוק את התפריט %item ?"
 
-#: modules/profile/profile.module:374
+#: modules/profile.module:350
 msgid ""
 "This action cannot be undone. If users have entered values into this field "
 "in their profile, these entries will also be deleted. If you want to keep "
 "the user-entered data, instead of deleting the field you may wish to <a href="
-"\"@edit-field\">edit this field</a> and change it to a hidden profile field "
-"so that it may only be accessed by administrators."
+"\"%edit-field\">edit this field</a> and change it to a %hidden-field so that "
+"it may only be accessed by administrators."
 msgstr ""
 
-#: modules/profile/profile.module:387
+#: modules/profile.module:350
+#, fuzzy
+msgid "hidden profile field"
+msgstr "מחק שדה"
+
+#: modules/profile.module:362
 #, fuzzy
 msgid "The field %field has been deleted."
 msgstr "השדה נמחק."
 
-#: modules/profile/profile.module:388
+#: modules/profile.module:363
 #, fuzzy
 msgid "Profile field %field deleted."
 msgstr "חובה למלא את השדה %field."
 
-#: modules/profile/profile.module:404
+#: modules/profile.module:379
 msgid "No fields defined."
 msgstr "לא הוגדרו שדות."
 
-#: modules/profile/profile.module:410
+#: modules/profile.module:385
 msgid "Add new field"
 msgstr "הוסף שדה חדש"
 
-#: modules/profile/profile.module:513
-msgid "user list"
-msgstr "רשימת חברים"
+#: modules/profile.module:581
+msgid "The content of this field is private and only visible to yourself."
+msgstr "תוכן מאפיין זה הוא אישי ולכן הוא לא יוצג לשאר המשתמשים באתר."
 
-#: modules/profile/profile.module:614
+#: modules/profile.module:597
 #, fuzzy
 msgid ""
 "Put each item on a separate line or separate them by commas. No HTML allowed."
 msgstr "יש לרשום כל פריט בשורה נפרדת או להפרידם בפסיקים. אין להשתמש ב-HTML."
 
-#: modules/profile/profile.module:731
+#: modules/profile.module:720
 msgid "The value provided for %field is not a valid URL."
 msgstr "הערך שהוזן בשדה %field אינו כתובת אינטרנט - URL תקינה."
 
-#: modules/profile/profile.module:736
+#: modules/profile.module:725
 msgid "The field %field is required."
 msgstr "חובה למלא את השדה %field."
 
-#: modules/profile/profile.module:787
+#: modules/profile.module:776
 msgid "single-line textfield"
 msgstr "שדה טקסט של שורה אחת"
 
-#: modules/profile/profile.module:788
+#: modules/profile.module:777
 msgid "multi-line textfield"
 msgstr "שדה טקסט רב-שורות"
 
-#: modules/profile/profile.module:789
+#: modules/profile.module:778
 msgid "checkbox"
 msgstr "תיבת סימון"
 
-#: modules/profile/profile.module:790
+#: modules/profile.module:779
 msgid "list selection"
 msgstr "בחירה מרשימה"
 
-#: modules/profile/profile.module:791
+#: modules/profile.module:780
 msgid "freeform list"
 msgstr "רשימה חופשית"
 
-#: modules/profile/profile.module:793
+#: modules/profile.module:782
 msgid "date"
 msgstr "תאריך"
 
-#: modules/profile/profile.module:348;388;0
+#: modules/profile.module:326;363;0
 msgid "profile"
 msgstr "פרופיל חבר"
-
-#, fuzzy
-#~ msgid "Profile"
-#~ msgstr "פרופיל חבר"
-
-#~ msgid "Supports configurable user profiles."
-#~ msgstr "תמיכה בפרופילי חברים הניתנים להתאמה."

@@ -3,26 +3,25 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: menu-module\n"
-"POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-11 18:56+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-10-15 02:48+0200\n"
+"Last-Translator: Haggai Eran <haggai.eran@gmail.com>\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/menu/menu.module:15
+#: modules/menu.module:15
 msgid ""
 "<p>Menus are a collection of links (menu items) used to navigate a website. "
 "The menu module provides an interface to control and customize the powerful "
-"menu system that comes with Drupal. Menus are primarily displayed as a "
-"hierarchical list of links using Drupal's highly flexible <a href=\"@admin-"
+"menu system that comes with Drupal.  Menus are primarily displayed as a "
+"hierarchical list of links using Drupal's highly flexible <a href=\"%admin-"
 "block\">blocks</a> feature. Each menu automatically creates a block of the "
 "same name. By default, new menu items are placed inside a built-in menu "
 "labelled %navigation, but administrators can also create custom menus.</p>\n"
@@ -30,7 +29,7 @@ msgid ""
 "commonly labelled %primary-links and %secondary-links. These are sets of "
 "links which are usually displayed in the header or footer of each page "
 "(depending on the currently active theme). Any menu can be designated as the "
-"primary or secondary links menu via the <a href=\"@menu-settings\">menu "
+"primary or secondary links menu via the <a href=\"%menu-settings\">menu "
 "settings page</a>.</p>\n"
 "Menu administration tabs:\n"
 "<ul>\n"
@@ -53,88 +52,109 @@ msgid ""
 "</ul>"
 msgstr ""
 
-#: modules/menu/menu.module:23
+#: modules/menu.module:23
 msgid ""
-"For more information please read the configuration and customization "
-"handbook <a href=\"@menu\">Menu page</a>."
+"<p>You can</p>\n"
+"<ul>\n"
+"  <li>administer menus at <a href=\"%admin-menu\">administer &gt;&gt; menus</"
+"a>.</li>\n"
+"  <li>add a menu at <a href=\"%admin-menu-menu-add\">administer &gt;&gt; "
+"menus &gt;&gt; add menu</a>.</li>\n"
+"  <li>add a menu item at <a href=\"%admin-menu-item-add\">administer &gt;"
+"&gt; menus &gt;&gt; add menu item</a>.</li>\n"
+"  <li>modify menu settings (in particular, to specify a menu to use for "
+"primary or secondary links) at <a href=\"%admin-settings-menus\">administer "
+"&gt;&gt; settings &gt;&gt; menus</a>.</li>\n"
+"  <li>manage menu blocks at <a href=\"%admin-block\">administer &gt;&gt; "
+"blocks</a>.</li>\n"
+"</ul>\n"
 msgstr ""
 
-#: modules/menu/menu.module:26
+#: modules/menu.module:32
+msgid ""
+"For more information please read the configuration and customization "
+"handbook <a href=\"%menu\">Menu page</a>."
+msgstr ""
+
+#: modules/menu.module:35
+msgid "Allows administrators to customize the site navigation menu."
+msgstr "מאפשר למנהלי המערכת להתאים את תפריט הניווט של האתר."
+
+#: modules/menu.module:37
 msgid ""
 "Menus are a collection of links (menu items) used to navigate a website. The "
 "list(s) below display the currently available menus along with their menu "
 "items. Select an operation from the list to manage each menu or menu item."
 msgstr ""
 
-#: modules/menu/menu.module:28
+#: modules/menu.module:39
+#, fuzzy
 msgid ""
 "Enter the name for your new menu. Remember to enable the newly created block "
-"in the <a href=\"@blocks\">blocks administration page</a>."
-msgstr "יש להכניס את השם של התפריט החדש. זכרו לאפשר את התיבה החדשה שנוצרה <a href=\"@blocks\">בעמוד ניהול התיבות</a>"
+"in the <a href=\"%blocks\">blocks administration page</a>."
+msgstr ""
+"יש להכניס את השם של התפריט החדש. זכרו לאפשר את התיבה החדשה שנוצרה בעמוד "
+"ניהול %blocks."
 
-#: modules/menu/menu.module:30
+#: modules/menu.module:41
 msgid "Enter the title, path, position and the weight for your new menu item."
 msgstr "כאן ניתן להגדיר כותרת, משקל, נתיב ומיקום לשורת התפריט החדשה."
 
-#: modules/menu/menu.module:42
-msgid "Menus"
+#: modules/menu.module:53;104
+msgid "menus"
 msgstr "תפריטים"
 
-#: modules/menu/menu.module:43
-msgid ""
-"Control your site's navigation menu, primary links and secondary links. as "
-"well as rename and reorganize menu items."
-msgstr ""
-
-#: modules/menu/menu.module:52
-msgid "Add menu item"
+#: modules/menu.module:62
+msgid "add menu item"
 msgstr "הוספת שורה בתפריט"
 
-#: modules/menu/menu.module:58
-msgid "Edit menu item"
+#: modules/menu.module:67
+msgid "edit menu item"
 msgstr "עדכון שורה בתפריט"
 
-#: modules/menu/menu.module:64
-msgid "Reset menu item"
+#: modules/menu.module:72
+msgid "reset menu item"
 msgstr "איתחול שורת תפריט"
 
-#: modules/menu/menu.module:70
-msgid "Disable menu item"
+#: modules/menu.module:77
+msgid "disable menu item"
 msgstr "חסימת שורת תפריט"
 
-#: modules/menu/menu.module:75
-msgid "Delete menu item"
+#: modules/menu.module:82
+msgid "delete menu item"
 msgstr "מחק שורת תפריט"
 
-#: modules/menu/menu.module:82
-msgid "Add menu"
+#: modules/menu.module:88
+msgid "add menu"
 msgstr "הוספת תפריט"
 
-#: modules/menu/menu.module:88
-msgid "Edit menu"
-msgstr "עדכון תפריט"
+#: modules/menu.module:93
+#, fuzzy
+msgid "edit menu"
+msgstr "עדכון שורה בתפריט"
 
-#: modules/menu/menu.module:94
-msgid "Delete menu"
-msgstr "מחק תפריט"
+#: modules/menu.module:98
+#, fuzzy
+msgid "delete menu"
+msgstr "מחק שורת תפריט"
 
-#: modules/menu/menu.module:185
+#: modules/menu.module:187
 msgid "Menu settings"
 msgstr "הגדרות תפריט"
 
-#: modules/menu/menu.module:196
-msgid "The name to display for this menu link."
+#: modules/menu.module:197
+msgid "The name to display for this link."
 msgstr "השם שיוצג עבור התפריט."
 
-#: modules/menu/menu.module:202;358
+#: modules/menu.module:203;359
 msgid "The description displayed when hovering over a menu item."
 msgstr "התיאור שיוצג כשעומדים על שורה בתפריט."
 
-#: modules/menu/menu.module:209;387
+#: modules/menu.module:210;388
 msgid "Parent item"
 msgstr "שורת אב"
 
-#: modules/menu/menu.module:222;394
+#: modules/menu.module:223;395
 msgid ""
 "Optional. In the menu, the heavier items will sink and the lighter items "
 "will be positioned nearer the top."
@@ -142,185 +162,206 @@ msgstr ""
 "אופציונלי. השורות הכבדות יותר בתפריט שוקעות למטה בעוד שהקלות יותר ממוקמות "
 "ליד ראש התפריט. "
 
-#: modules/menu/menu.module:235
+#: modules/menu.module:236
+#, fuzzy
 msgid "Check to delete this menu item."
-msgstr "בחר כדי למחוק שורה זו בתפריט."
+msgstr "מחק שורת תפריט"
 
-#: modules/menu/menu.module:240
+#: modules/menu.module:241
 msgid ""
-"You may also <a href=\"@edit\">edit the advanced settings</a> for this menu "
+"You may also <a href=\"%edit\">edit the advanced settings</a> for this menu "
 "item."
 msgstr ""
 
-#: modules/menu/menu.module:253
+#: modules/menu.module:255
+#, fuzzy
 msgid "No primary links"
-msgstr "אין קישורים ראשיים"
+msgstr "קישורים עיקריים"
 
-#: modules/menu/menu.module:256
+#: modules/menu.module:258
 msgid "Primary and secondary links settings"
 msgstr "הגדרות קישורים ראשיים ומשניים"
 
-#: modules/menu/menu.module:260
+#: modules/menu.module:262
 msgid ""
 "Primary and secondary links provide a navigational menu system which usually "
 "(depending on your theme) appears at the top-right of the browser window. "
 "The links displayed can be generated either from a custom list created via "
-"the <a href=\"@menu\">menu administration</a> page or from a built-in list "
+"the <a href=\"%menu\">menu administration</a> page or from a built-in list "
 "of menu items such as the navigation menu links."
 msgstr ""
 
-#: modules/menu/menu.module:264
+#: modules/menu.module:266
 msgid "Menu containing primary links"
 msgstr "התפריט המכיל את הקישורים הראשיים"
 
-#: modules/menu/menu.module:270
+#: modules/menu.module:272
+#, fuzzy
 msgid "No secondary links"
-msgstr "אין קישורים משניים"
+msgstr "קישורים משניים"
 
-#: modules/menu/menu.module:273
+#: modules/menu.module:275
+#, fuzzy
 msgid "Menu containing secondary links"
 msgstr "התפריט המכיל את הקישורים המשניים"
 
-#: modules/menu/menu.module:276
+#: modules/menu.module:278
 msgid ""
 "If you select the same menu as primary links then secondary links will "
 "display the appropriate second level of your navigation hierarchy."
-msgstr ""
-"בחירת אותו התפריט עבור קישורים ראשיים ומשניים תביא להצגת הרמה השנייה המתאימה "
-"של היררכיית הניווט שלך."
+msgstr "בחירת אותו התפריט עבור קישורים ראשיים ומשניים תביא להצגת הרמה השנייה המתאימה של היררכיית הניווט שלך."
 
-#: modules/menu/menu.module:280
-msgid "Content authoring form settings"
-msgstr "הגדרות טופס עריכת תוכן"
+#: modules/menu.module:282
+#, fuzzy
+msgid "Post authoring form settings"
+msgstr "מידע על המחבר"
 
-#: modules/menu/menu.module:284
+#: modules/menu.module:286
 msgid ""
-"The menu module allows on-the-fly creation of menu links in the content "
+"The menu module allows on-the-fly creation of menu links in the post "
 "authoring forms. The following option limits the menus in which a new link "
-"may be added. E.g., this can be used to force new menu items to be created "
-"in the primary links menu or to hide admin menu items."
+"may be added. For e.g. this can be used to force new menu items to be "
+"created in the primary links menu or to hide admin menu items."
 msgstr ""
 
-#: modules/menu/menu.module:288
+#: modules/menu.module:290
+#, fuzzy
 msgid "Show all menus"
-msgstr "הצג את כל התפריטים"
+msgstr "הצגת תגובות"
 
-#: modules/menu/menu.module:291
+#: modules/menu.module:293
+#, fuzzy
 msgid "Restrict parent items to"
-msgstr "הגבל פריטי אב ל"
+msgstr "הגבל חיפוש ל"
 
-#: modules/menu/menu.module:294
+#: modules/menu.module:296
 msgid ""
-"Choose the menu to be made available in the content authoring form. Only "
-"this menu item and its children will be shown."
-msgstr "בחירת התפריט שיהיה זמין בזמן עריכת תוכן. יוצג רק תפריט זה וצאצאיו."
+"Choose the menu to be made available in the post authoring form. Only this "
+"menu item and its children will be shown."
+msgstr "בחירת התפריט שיהיה זמין בזמן עריכה הוספת תוכן. יוצג רק תפריט זה וצאצאיו."
 
-#: modules/menu/menu.module:316
+#: modules/menu.module:318
+#, fuzzy
 msgid "The name of the menu."
-msgstr "שם התפריט."
+msgstr "שם הנושא."
 
-#: modules/menu/menu.module:352
+#: modules/menu.module:353
+#, fuzzy
 msgid "The name of the menu item."
-msgstr "שם שורת התפריט."
+msgstr "שם אתר זה."
 
-#: modules/menu/menu.module:365
+#: modules/menu.module:364;372
+msgid "Path"
+msgstr "מיקום"
+
+#: modules/menu.module:366
 msgid ""
 "The path this menu item links to. This can be an internal Drupal path such "
 "as %add-node or an external URL such as %drupal. Enter %front to link to the "
 "front page."
 msgstr ""
 
-#: modules/menu/menu.module:379;599
+#: modules/menu.module:380;598
 msgid "Expanded"
 msgstr "מורחב"
 
-#: modules/menu/menu.module:381
+#: modules/menu.module:382
 msgid ""
 "If selected and this menu item has children, the menu will always appear "
 "expanded."
 msgstr "אם תיבת סימון זו מסומנת ולשורת התפריט יש ילדים, התפריט תמיד יופיע מורחב."
 
-#: modules/menu/menu.module:431
+#: modules/menu.module:432
 msgid "Are you sure you want to delete the menu %item?"
 msgstr "האם אתם בטוחים שאתם מעוניינם למחוק את התפריט %item ?"
 
-#: modules/menu/menu.module:434
+#: modules/menu.module:435
 msgid "Are you sure you want to delete the custom menu item %item?"
 msgstr "האמנם ברצונך למחוק את שורת התפריט %item? "
 
-#: modules/menu/menu.module:448
+#: modules/menu.module:449
+#, fuzzy
 msgid "The menu %title has been deleted."
-msgstr "התפריט %title נמחק."
+msgstr "התפקיד נמחק."
 
-#: modules/menu/menu.module:449
+#: modules/menu.module:450
+#, fuzzy
 msgid "Deleted menu %title."
-msgstr "מחק תפריט %title/"
+msgstr "מחק שורת תפריט"
 
-#: modules/menu/menu.module:452
+#: modules/menu.module:453
+#, fuzzy
 msgid "The menu item %title has been deleted."
-msgstr "שורת התפריט %title נמחקה."
+msgstr "השדה נמחק."
 
-#: modules/menu/menu.module:453
+#: modules/menu.module:454
+#, fuzzy
 msgid "Deleted menu item %title."
-msgstr "שורת התפריט %title נמחקה."
+msgstr "עודכנה שורת תפריט %title."
 
-#: modules/menu/menu.module:465
+#: modules/menu.module:466
 msgid "Are you sure you want to reset the item %item to its default values?"
 msgstr "האם אתם בטוחים שאתם מעוניינים לאתחל את הפריט %item לערך בררת המחדל?"
 
-#: modules/menu/menu.module:465
+#: modules/menu.module:466
 msgid "Any customizations will be lost. This action cannot be undone."
 msgstr "כל השינויים ימחקו. הפעולה אינה הפיכה."
 
-#: modules/menu/menu.module:477
+#: modules/menu.module:478
+#, fuzzy
 msgid "The menu item was reset to its default settings."
-msgstr "שורת התפריט אותחלה להגדרות ברירת המחדל."
+msgstr "האם אתם בטוחים שאתם מעוניינים לאתחל את פריטי התפריט לערכי בררת המחדל שלהם?"
 
-#: modules/menu/menu.module:492
+#: modules/menu.module:493
+#, fuzzy
 msgid "The menu item has been disabled."
-msgstr "שורת התפריט נחסמה."
+msgstr "התגובה נשמרה."
 
-#: modules/menu/menu.module:526
+#: modules/menu.module:525
+#, fuzzy
 msgid "The menu item %title has been updated."
 msgstr "שורת התפריט %title עודכנה."
 
-#: modules/menu/menu.module:529
+#: modules/menu.module:528
+#, fuzzy
 msgid "The menu item %title has been added."
-msgstr "שורת התפריט %title נוספה."
+msgstr "התיבה החדשה נוספה."
 
-#: modules/menu/menu.module:530
+#: modules/menu.module:529
+#, fuzzy
 msgid "Added menu item %title."
-msgstr "שורת התפריט %title נוספה."
+msgstr "עודכנה שורת תפריט %title."
 
-#: modules/menu/menu.module:599
+#: modules/menu.module:598
 msgid "Menu item"
 msgstr "שורה בתפריט"
 
-#: modules/menu/menu.module:611
-msgid "Add item"
+#: modules/menu.module:609
+#, fuzzy
+msgid "add item"
 msgstr "הוספת שורה בתפריט"
 
-#: modules/menu/menu.module:615
-msgid "No menu items defined."
-msgstr "לא הוגדרו שורות בתפריט."
-
-#: modules/menu/menu.module:667
+#: modules/menu.module:662
 msgid "disable"
 msgstr "בצע חסימה"
 
-#: modules/menu/menu.module:670
+#: modules/menu.module:665
 msgid "enable"
 msgstr "אפשר"
 
-#: modules/menu/menu.module:678
+#: modules/menu.module:673
 msgid "reset"
 msgstr "אתחל"
 
-#: modules/menu/menu.module:690;747
+#: modules/menu.module:685;742
 msgid "disabled"
 msgstr "חסום"
 
-#: modules/menu/menu.module:167
+#: modules/menu.module:450;454;529;0
+msgid "menu"
+msgstr "תפריט"
+
+#: modules/menu.module:166
 msgid "administer menu"
 msgstr "ניהול תפריט"
 

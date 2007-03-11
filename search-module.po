@@ -1,64 +1,74 @@
-# translation of search-module.po to Hebrew
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
-# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: search-module\n"
-"POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-01-03 20:45+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2006-06-05 17:49+0200\n"
+"PO-Revision-Date: 2006-07-06 15:48-0400\n"
+"Last-Translator: ליאור <lior@linnovate.net>\n"
+"Language-Team: Hebrew <lior@linnovate.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/search/search.module:99
+#: modules/search.module:99
 msgid ""
-"The search module adds the ability to search for content by keywords. Search "
-"is often the only practical way to find content on a large site. Search is "
-"useful for finding users and posts by searching on keywords."
+"The search module adds the ability to search for content by keywords.  "
+"Search is often the only practical way to find content on a large site.  "
+"Search is useful for finding users and posts by searching on keywords."
 msgstr ""
-"רכיב החיפוש מוסיף את האפשרות לחפש תוכן בעזרת מילות מפתח. חיפוש היא לעתים "
-"קרובות הדרך המעשית היחידה למציאת תוכן באתר גדול. החיפוש שימושי למציאת "
-"משתמשים או פרסומים לפי מילות מפתח."
 
-#: modules/search/search.module:100
+#: modules/search.module:100
+#, fuzzy
 msgid ""
 "The search engine works by maintaining an index of the words in your site's "
-"content. It indexes the posts and users. You can adjust the settings to "
+"content. It indexes the posts and users.  You can adjust the settings to "
 "tweak the indexing behaviour. Note that the search requires cron to be set "
-"up correctly. The index percentage sets the maximum amount of items that "
+"up correctly.  The index percentage sets the maximum amount of items that "
 "will be indexed in one cron run. Set this number lower if your cron is "
 "timing out or if PHP is running out of memory."
 msgstr ""
-"מנוע החיפוש שומר מפתח של תוכן האתר. המפתח מכיל פרסומים וחברים. ניתן לשנות את "
-"ההגדרות למטה כדי להתאים את התנהגות המיפתוח. לתשומת לב - החיפוש דורש להגדיר "
-"את cron בצורה נכונה. אחוז המפתוח מציין את הכמות המירבית של פריטים שימופתחו "
-"בריצת cron אחת. יש להקטין ערך זה אם מתקבלות שגיאות תום זמן מוקצב, או של-PHP "
-"נגמר הזכרון."
+"<p>מנוע החיפוש שומר מפתח של תוכן האתר. ניתן לשנות את ההגדרות למטה כדי להתאים "
+"את התנהגות המיפתוח. לתשומת לב - החיפוש דורש להגדיר את cron בצורה נכונה.</p>"
 
-#: modules/search/search.module:101
+#: modules/search.module:101
+msgid ""
+"<p>You can</p>\n"
+"<ul>\n"
+"<li>read about how your site uses cron in the <a href=\"%admin-help-system"
+"\">administer &gt;&gt; help &gt;&gt; system</a>.</li>\n"
+"<li>run your <a href=\"%file-cron\">cron.php</a>.</li>\n"
+"<li>read about <a href=\"%external-http-drupal-org-node-23714\">configuring "
+"cron jobs</a>.</li>\n"
+"<li><a href=\"%admin-settings-search\">administer &gt;&gt; settings &gt;&gt; "
+"search</a>.</ul>\n"
+msgstr ""
+
+#: modules/search.module:108
 msgid ""
 "For more information please read the configuration and customization "
-"handbook <a href=\"@search\">Search page</a>."
+"handbook <a href=\"%search\">Search page</a>."
 msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
 
-#: modules/search/search.module:104
+#: modules/search.module:111
+msgid "Enables site-wide keyword searching."
+msgstr "מאפשר חיפוש לפי מילות מפתח בכל האתר."
+
+#: modules/search.module:113
 msgid ""
-"The search engine works by maintaining an index of the words in your site's "
-"content. You can adjust the settings below to tweak the indexing behaviour. "
-"Note that the search requires cron to be set up correctly."
+"\n"
+"<p>The search engine works by maintaining an index of the words in your "
+"site's content. You can adjust the settings below to tweak the indexing "
+"behaviour. Note that the search requires cron to be set up correctly.</p>\n"
+"\n"
 msgstr ""
-"מנוע החיפוש שומר מפתח של תוכן האתר. ניתן לשנות את ההגדרות למטה כדי להתאים את "
-"התנהגות המיפתוח. לתשומת לב - החיפוש דורש להגדיר את cron בצורה נכונה."
+"\n"
+"<p>מנוע החיפוש שומר מפתח של תוכן האתר. ניתן לשנות את ההגדרות למטה כדי להתאים "
+"את התנהגות המיפתוח. לתשומת לב - החיפוש דורש להגדיר את cron בצורה נכונה.</p>\n"
+"\n"
 
-#: modules/search/search.module:106
+#: modules/search.module:117
 msgid ""
 "<ul>\n"
 "<li>Check if your spelling is correct.</li>\n"
@@ -68,63 +78,41 @@ msgid ""
 "match less than <em>blue OR smurf</em>.</li>\n"
 "</ul>"
 msgstr ""
-"<ul>\n"
-"<li>בדוק שהאיות נכון.</li>\n"
-"<li>נסה למחוק מרכאות מסביב לביטויים כדי להתאים לכל מילה בנפרד: <em>\"דרדס "
-"כחול\"</em> ייתן פחות תוצאות מאשר  <em>דרדס כחול</em>.</li>\n"
-"<li>נסה לעדן את השאילתא בעזרת המילית <em>OR</em>: <em>דרדס כחול</em> ייתן "
-"פחות תוצאות מאשר  <em>דרדס OR כחול</em>.</li>\n"
-"</ul>"
 
-#: modules/search/search.module:126
+#: modules/search.module:137
 msgid "Search form"
 msgstr "טופס חיפוש"
 
-#: modules/search/search.module:150
-msgid "Search settings"
-msgstr "הגדרות חיפוש"
-
-#: modules/search/search.module:151
-msgid "Configure relevance settings for search and other indexing options"
-msgstr "הגדרות רלוונטיות בחיפוש  ואפשרויות מיפתוח נוספות"
-
-#: modules/search/search.module:157
+#: modules/search.module:158
 msgid "Clear index"
-msgstr "נקה אינדקס"
+msgstr ""
 
-#: modules/search/search.module:162
-msgid "Top search phrases"
-msgstr "חיפושים מובילים"
-
-#: modules/search/search.module:163
-msgid "View most popular search phrases."
-msgstr "צפה בחיפושים הכי פופולרים."
-
-#: modules/search/search.module:190;220;244
+#: modules/search.module:185;215;238
 msgid "Re-index site"
-msgstr "בצע מפתוח מחדש לאתר"
+msgstr ""
 
-#: modules/search/search.module:196;253
+#: modules/search.module:191;247
 msgid "The index will be rebuilt."
 msgstr "מפתח הנושאים יבנה מחדש."
 
-#: modules/search/search.module:217
+#: modules/search.module:212
 msgid "%percentage of the site has been indexed."
 msgstr "בוצע מפתוח של %percentage מהאתר."
 
-#: modules/search/search.module:218
+#: modules/search.module:213
+#, fuzzy
 msgid "Indexing status"
-msgstr "מצב המיפתוח"
+msgstr "הגדרות בניית מיפתוח (אינדקס)"
 
-#: modules/search/search.module:225
+#: modules/search.module:220
 msgid "Indexing throttle"
 msgstr "מצערת מיפתוח"
 
-#: modules/search/search.module:226
+#: modules/search.module:221
 msgid "Items to index per cron run"
 msgstr "פריטים למיפתוח בכל הפעלת cron"
 
-#: modules/search/search.module:226
+#: modules/search.module:221
 msgid ""
 "The maximum amount of items that will be indexed in one cron run. Set this "
 "number lower if your cron is timing out or if PHP is running out of memory."
@@ -132,11 +120,12 @@ msgstr ""
 "מספר הפריטים המקסימלי שימופתח בריצת cron אחת. הנמך מספר זה אם מתקבלות שגיאות "
 "timeout בזמן ריצת ה-cron או אם נגמר הזכרון של php. "
 
-#: modules/search/search.module:228
+#: modules/search.module:223
 msgid "Indexing settings"
 msgstr "הגדרות בניית מיפתוח (אינדקס)"
 
-#: modules/search/search.module:229
+#: modules/search.module:224
+#, fuzzy
 msgid ""
 "<p>Changing the settings below will cause the site index to be rebuilt. The "
 "search index is not cleared but systematically updated to reflect the new "
@@ -148,103 +137,91 @@ msgstr ""
 "האתר. אינדקס החיפוש אינו מנוקה אלא מעודכן באופן הדרגתי כדי להתאים להגדרות "
 "החדשות. החיפוש ימשיך לעבוד אבל לא יתבצע מיפתוח שח תוכן חדש עד שבוצע מיפתוח "
 "מחדש של כל התוכן הקיים. </p><p>הגדרות ברירת המחדל אמורות להתאים לרוב האתרים."
-"</p>"
+"</p>\n"
 
-#: modules/search/search.module:230
+#: modules/search.module:225
 msgid "Minimum word length to index"
 msgstr "אורך מילה מינימלי למיפתוח"
 
-#: modules/search/search.module:230
+#: modules/search.module:225
 msgid ""
 "The number of characters a word has to be to be indexed. A lower setting "
 "means better search result ranking, but also a larger database. Each search "
 "query must contain at least one keyword that is this size (or longer)."
 msgstr ""
-"מספר האותיות המינימלי שיש למילה במפתח. ערך נמוך ייתן תוצאות טובות יותר, אך "
-"מבנה הנתונים יהיה גדול יותר. כל שאילתא חייבת להכיל לפכות מילה אחת באורך זה "
-"לפחות."
 
-#: modules/search/search.module:231
+#: modules/search.module:226
+#, fuzzy
 msgid "Simple CJK handling"
-msgstr "טיפול בשפות מזרח אסיאתיות"
+msgstr "טיפול בתמונות"
 
-#: modules/search/search.module:231
+#: modules/search.module:226
 msgid ""
 "Whether to apply a simple Chinese/Japanese/Korean tokenizer based on "
 "overlapping sequences. Turn this off if you want to use an external "
 "preprocessor for this instead. Does not affect other languages."
 msgstr ""
 
-#: modules/search/search.module:243
+#: modules/search.module:237
+#, fuzzy
 msgid "Are you sure you want to re-index the site?"
-msgstr "האמנם ברצונך לבצע מיפתוח מחדש של האתר?"
+msgstr "האמנם ברצונך למחוק את '%title'?"
 
-#: modules/search/search.module:244
+#: modules/search.module:238
+#, fuzzy
 msgid ""
 " The search index is not cleared but systematically updated to reflect the "
 "new settings. Searching will continue to work but new content won't be "
 "indexed until all existing content has been re-indexed. This action cannot "
 "be undone."
 msgstr ""
-"אינדקס החיפוש אינו מנוקה אלא מעודכן באופן הדרגתי כדי להתאים להגדרות החדשות. "
-"החיפוש ימשיך לעבוד אבל לא יתבצע מיפתוח של תוכן חדש עד שבוצע מיפתוח מחדש של "
-"כל התוכן הקיים. לא ניתן לבטל פעולה זו."
+" <p>שינוי ההגדרות שלמטה יגרום לבנייה מחדש של המיפתוח (אינדקס החיפוש) של "
+"האתר. אינדקס החיפוש אינו מנוקה אלא מעודכן באופן הדרגתי כדי להתאים להגדרות "
+"החדשות. החיפוש ימשיך לעבוד אבל לא יתבצע מיפתוח שח תוכן חדש עד שבוצע מיפתוח "
+"מחדש של כל התוכן הקיים. </p><p>הגדרות ברירת המחדל אמורות להתאים לרוב האתרים."
+"</p>\n"
 
-#: modules/search/search.module:844
+#: modules/search.module:838
 msgid ""
-"You must include at least one positive keyword with @count characters or "
+"You must include at least one positive keyword with %count characters or "
 "more."
-msgstr "יש להכניס לפחות מילת חיפוש אחת עם @count אותיות או יותר."
-
-#: modules/search/search.module:910
-msgid "%keys (@type)."
 msgstr ""
 
-#: modules/search/search.module:910
-msgid "results"
-msgstr "תוצאות"
+#: modules/search.module:906
+msgid "Search: %keys (%type)."
+msgstr "חיפוש: %keys (%type)."
 
-#: modules/search/search.module:916
+#: modules/search.module:912
 msgid "Search results"
 msgstr "תוצאות החיפוש"
 
-#: modules/search/search.module:919
+#: modules/search.module:915
 msgid "Your search yielded no results"
 msgstr "לא נמצאו תוצאות."
 
-#: modules/search/search.module:981
+#: modules/search.module:977
 msgid "Enter your keywords"
 msgstr "מילות מפתח לחיפוש"
 
-#: modules/search/search.module:1022
+#: modules/search.module:1018
 msgid "Please enter some keywords."
 msgstr "יש להכניס מילת מפתח אחת או יותר לחיפוש."
 
-#: modules/search/search.module:1039
+#: modules/search.module:1035
 msgid "Enter the terms you wish to search for."
 msgstr "הנושאים שברצונך לחפש."
 
-#: modules/search/search.module:910;0
-msgid "search"
-msgstr "חיפוש"
-
-#: modules/search/search.module:215
+#: modules/search.module:210
+#, fuzzy
 msgid "There is 1 item left to index."
-msgid_plural "There are @count items left to index."
+msgid_plural "There are %count items left to index."
 msgstr[0] "נשאר פריט אחד למיפתוח."
-msgstr[1] "נשארו @count פריטים למיפתוח."
+msgstr[1] "נשאר פריט אחד למיפתוח."
 
-#: modules/search/search.module:118
+#: modules/search.module:129
 msgid "search content"
 msgstr "חיפוש תוכן"
 
-#: modules/search/search.module:118
-msgid "use advanced search"
-msgstr "חיפוש מתקדם"
-
-#: modules/search/search.module:118
+#: modules/search.module:129
 msgid "administer search"
 msgstr "ניהול חיפוש"
-
-#~ msgid "Enables site-wide keyword searching."
-#~ msgstr "מאפשר חיפוש לפי מילות מפתח בכל האתר."
