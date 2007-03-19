@@ -110,11 +110,10 @@ msgid "Show"
 msgstr "הצג"
 
 #: modules/archive.module:173
-#, fuzzy
 msgid "1 post"
 msgid_plural "%count posts"
-msgstr[0] "פרסום"
-msgstr[1] "פרסום"
+msgstr[0] "פרסום אחד"
+msgstr[1] "%count פרסומים"
 
 #: modules/archive.module:0
 msgid "archive"

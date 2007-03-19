@@ -423,11 +423,10 @@ msgid "%ago ago"
 msgstr "לפני %ago"
 
 #: modules/aggregator/aggregator.module:986;997;1406
-#, fuzzy
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] "פריט אחד"
-msgstr[1] "%count פריטים"
+msgstr[1] "@count פריטים"
 
 #: modules/aggregator/aggregator.module:229
 msgid "administer news feeds"

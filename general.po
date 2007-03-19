@@ -554,7 +554,7 @@ msgstr "תאריך - ישן תחילה"
 msgid "1 comment"
 msgid_plural "@count comments"
 msgstr[0] "תגובה אחת"
-msgstr[1] "%count תגובות"
+msgstr[1] "@count תגובות"
 
 #: modules/comment/comment.info:0
 msgid "Allows users to comment on and discuss published content."
@@ -644,7 +644,7 @@ msgstr "פורום"
 msgid "1 new"
 msgid_plural "@count new"
 msgstr[0] "אחת חדשה"
-msgstr[1] "%count חדשות"
+msgstr[1] "@count חדשות"
 
 #: modules/forum/forum.info:0
 msgid "Enables threaded discussions about general topics."
@@ -940,7 +940,7 @@ msgstr "מאפשר סיווג תוכן לפי נושאים."
 msgid "1 user"
 msgid_plural "@count users"
 msgstr[0] "חבר אחד"
-msgstr[1] "%count חברים"
+msgstr[1] "@count חברים"
 
 #: modules/throttle/throttle.info:0
 msgid "Handles the auto-throttling mechanism, to control site congestion."

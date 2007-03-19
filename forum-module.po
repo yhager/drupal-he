@@ -334,9 +334,8 @@ msgid ""
 msgstr ""
 
 #: modules/forum/forum.module:694
-#, fuzzy
 msgid "@time ago<br />by !author"
-msgstr "לפני %time <br />ע\"י %author"
+msgstr "לפני @time <br />ע\"י !author"
 
 #: modules/forum/forum.module:779
 msgid "Topic"
