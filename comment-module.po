@@ -1,16 +1,20 @@
+# translation of comment-module.po to Hebrew
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 #
+# Yuval Hager <yuval@avramzon.net>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
+"Project-Id-Version: comment-module\n"
 "POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2006-07-06 15:48-0400\n"
-"Last-Translator: ליאור <lior@linnovate.net>\n"
-"Language-Team: Hebrew <lior@linnovate.net>\n"
+"PO-Revision-Date: 2007-05-15 22:33+0300\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/comment/comment.module:129
 msgid ""
@@ -73,27 +77,22 @@ msgid "List and edit site comments and the comment moderation queue."
 msgstr ""
 
 #: modules/comment/comment.module:164
-#, fuzzy
 msgid "Published comments"
-msgstr "תגובות"
+msgstr "תגובות שפורסמו"
 
 #: modules/comment/comment.module:166
-#, fuzzy
 msgid "Approval queue"
 msgstr "תור לאישור"
 
 #: modules/comment/comment.module:181
-#, fuzzy
 msgid "Delete comment"
 msgstr "מחק תגובה"
 
 #: modules/comment/comment.module:185
-#, fuzzy
 msgid "Edit comment"
 msgstr "עדכן תגובה"
 
 #: modules/comment/comment.module:193
-#, fuzzy
 msgid "Reply to comment"
 msgstr "תשובה לתגובה"
 
@@ -107,16 +106,15 @@ msgstr "עבור לתגובה הראשונה לפרסום זה."
 
 #: modules/comment/comment.module:316
 msgid "Jump to the first new comment of this posting."
-msgstr ""
+msgstr "עבור לתגובה הראשונה בפרסום זה."
 
 #: modules/comment/comment.module:325;346
-#, fuzzy
 msgid "Add new comment"
 msgstr "הוסף תגובה חדשה"
 
 #: modules/comment/comment.module:327
 msgid "Add a new comment to this page."
-msgstr "הוסף תגובה חדשה לעמוד זה"
+msgstr "הוסף תגובה חדשה לעמוד זה."
 
 #: modules/comment/comment.module:348
 msgid "Share your thoughts and opinions related to this posting."
@@ -150,7 +148,7 @@ msgstr "חתימה"
 
 #: modules/comment/comment.module:465
 msgid "Your signature will be publicly displayed at the end of your comments."
-msgstr "החתימה שלך תוצג באתר בסוף כל תגובה שתכתוב. "
+msgstr "החתימה שלך תוצג באתר בסוף כל תגובה שתכתוב."
 
 #: modules/comment/comment.module:481
 msgid "Viewing options"
@@ -158,17 +156,17 @@ msgstr "אפשרויות תצוגה"
 
 #: modules/comment/comment.module:487
 msgid "Default display mode"
-msgstr ""
+msgstr "מצב תצוגה ברירת מחדל"
 
 #: modules/comment/comment.module:490
 msgid ""
 "The default view for comments. Expanded views display the body of the "
 "comment. Threaded views keep replies together."
-msgstr ""
+msgstr "תצוגת ברירת מחדל לתגובות. תצוגה מורחבת תציג את גוף ההודעה. תצוגת אשכולות תשאיר את התגובות יחד."
 
 #: modules/comment/comment.module:495
 msgid "Default display order"
-msgstr ""
+msgstr "סדר תצוגת ברירת המחדל"
 
 #: modules/comment/comment.module:498
 msgid ""
@@ -190,23 +188,23 @@ msgstr ""
 
 #: modules/comment/comment.module:511
 msgid "Comment controls"
-msgstr ""
+msgstr "כלי ניהול תגובה"
 
 #: modules/comment/comment.module:514
 msgid "Display above the comments"
-msgstr ""
+msgstr "הצג מעל התגובות"
 
 #: modules/comment/comment.module:515
 msgid "Display below the comments"
-msgstr ""
+msgstr "הצג מתחת לתגובות"
 
 #: modules/comment/comment.module:516
 msgid "Display above and below the comments"
-msgstr ""
+msgstr "הצג מעל ומתחת לתגובות"
 
 #: modules/comment/comment.module:517
 msgid "Do not display"
-msgstr ""
+msgstr "אל תציג"
 
 #: modules/comment/comment.module:518
 msgid ""
@@ -215,26 +213,24 @@ msgid ""
 msgstr ""
 
 #: modules/comment/comment.module:523
-#, fuzzy
 msgid "Posting settings"
-msgstr "הגדרות בניית מיפתוח (אינדקס)"
+msgstr "הגדרת משלוח"
 
 #: modules/comment/comment.module:529
-#, fuzzy
 msgid "Anonymous commenting"
-msgstr "משתמש אנונימי"
+msgstr "תגובות אנונימיות"
 
 #: modules/comment/comment.module:532
 msgid "Anonymous posters may not enter their contact information"
-msgstr ""
+msgstr "מגיבים לכותבים אנונימיים להכניס מידע ליצירת קשר"
 
 #: modules/comment/comment.module:533
 msgid "Anonymous posters may leave their contact information"
-msgstr ""
+msgstr "מגיבים אנונימיים יכולים להכניס מידע ליצירת קשר"
 
 #: modules/comment/comment.module:534
 msgid "Anonymous posters must leave their contact information"
-msgstr ""
+msgstr "מגיבים אנונימיים חייבים להשאיר מידע ליצירת קשר"
 
 #: modules/comment/comment.module:535
 msgid ""
@@ -244,11 +240,11 @@ msgstr ""
 
 #: modules/comment/comment.module:543
 msgid "Comment subject field"
-msgstr ""
+msgstr "שדה הנושא בתגובה"
 
 #: modules/comment/comment.module:546
 msgid "Can users provide a unique subject for their comments?"
-msgstr ""
+msgstr "האם משתמשים יכולים לכתוב שדה יחודי לתגובות שלהם?"
 
 #: modules/comment/comment.module:551;633;1547;1553;1557;1581
 msgid "Preview comment"
@@ -256,24 +252,23 @@ msgstr "הצג תגובה לפני משלוח"
 
 #: modules/comment/comment.module:558
 msgid "Location of comment submission form"
-msgstr ""
+msgstr "מיקום טופס כתיבת התגובה"
 
 #: modules/comment/comment.module:560
 msgid "Display on separate page"
-msgstr ""
+msgstr "הצג בעמוד נפרד"
 
 #: modules/comment/comment.module:560
 msgid "Display below post or comments"
-msgstr ""
+msgstr "התג מתחת לפרסום או לתגובות"
 
 #: modules/comment/comment.module:638;678
 msgid "You are not authorized to post comments."
 msgstr "אינך מורשה לשלוח תגובות."
 
 #: modules/comment/comment.module:651;660
-#, fuzzy
 msgid "The comment you are replying to does not exist."
-msgstr "הספריה %directory לא קיימת."
+msgstr "התגובה אליה אתה מגיב לא קיימת."
 
 #: modules/comment/comment.module:671
 msgid "This discussion is closed: you can't post new comments."
@@ -297,7 +292,7 @@ msgstr "נושא תגובה %subject קיים."
 
 #: modules/comment/comment.module:795
 msgid "Comment: added %subject."
-msgstr "תגובה חדשה: %subject"
+msgstr "תגובה חדשה: %subject."
 
 #: modules/comment/comment.module:804
 msgid ""
@@ -306,7 +301,6 @@ msgid ""
 msgstr "תגובתך נמצאת בתור לאישור מנהלי האתר ותפורסם לאחר אישור."
 
 #: modules/comment/comment.module:813
-#, fuzzy
 msgid ""
 "Comment: unauthorized comment submitted or comment submitted to a closed "
 "node %subject."
@@ -341,24 +335,20 @@ msgid "Any replies to this comment will be lost. This action cannot be undone."
 msgstr "כל התגובות לתגובה זו יאבדו. לא ניתן לבטל פעולה זו לאחר אישור ביצועה."
 
 #: modules/comment/comment.module:1120;1132
-#, fuzzy
 msgid "Publish the selected comments"
-msgstr "בטל את פרסום הפרסומים הנבחרים."
+msgstr "פרסם את התגובות הנבחרות"
 
 #: modules/comment/comment.module:1121;1127;1134
-#, fuzzy
 msgid "Delete the selected comments"
-msgstr "מחק את הפרסומים הנבחרים"
+msgstr "מחק את התגובות הנבחרות"
 
 #: modules/comment/comment.module:1126;1133
-#, fuzzy
 msgid "Unpublish the selected comments"
-msgstr "בטל את פרסום הפרסומים הנבחרים."
+msgstr "בטל את פרסום התגובות הנבחרות"
 
 #: modules/comment/comment.module:1199
-#, fuzzy
 msgid "Please select one or more comments to perform the update on."
-msgstr "אנא בחרו את הפריטים עליהם יבוצע עדכון."
+msgstr "אנא בחרו הודעה אחת או יותר עליהן יבוצע עדכון."
 
 #: modules/comment/comment.module:1245
 msgid "No comments available."
@@ -371,24 +361,20 @@ msgid ""
 msgstr ""
 
 #: modules/comment/comment.module:1284
-#, fuzzy
 msgid "Are you sure you want to delete these comments and all their children?"
-msgstr "האמנם ברצונך למחוק את התגובה '%title'?"
+msgstr "האמנם ברצונך למחוק את התגובה והבנים שלה?"
 
 #: modules/comment/comment.module:1286
-#, fuzzy
 msgid "Delete comments"
 msgstr "מחק תגובה"
 
 #: modules/comment/comment.module:1301
-#, fuzzy
 msgid "The comments have been deleted."
-msgstr "פריטי התוכן נמחקו."
+msgstr "התגובות נמחקו."
 
 #: modules/comment/comment.module:1378
-#, fuzzy
 msgid "You have to specify a valid author."
-msgstr "יש להזין תאריך תיקני."
+msgstr "יש להזין כותב תקף."
 
 #: modules/comment/comment.module:1388
 msgid "The name you used belongs to a registered user."
@@ -407,7 +393,6 @@ msgid "You have to leave an e-mail address."
 msgstr "יש להזין כתובת דואר אלקטרוני."
 
 #: modules/comment/comment.module:1407
-#, fuzzy
 msgid ""
 "The URL of your homepage is not valid. Remember that it must be fully "
 "qualified, i.e. of the form <code>http://example.com/directory</code>."
@@ -416,13 +401,12 @@ msgstr ""
 "com/directory</code>."
 
 #: modules/comment/comment.module:1454
-#, fuzzy
 msgid "Administration"
-msgstr "ניהול הפיקוח"
+msgstr "ניהול"
 
 #: modules/comment/comment.module:1497;1522;1529
 msgid "Homepage"
-msgstr ""
+msgstr "עמוד הבית"
 
 #: modules/comment/comment.module:1506
 msgid "Not published"
@@ -434,12 +418,11 @@ msgstr "שלח תגובה"
 
 #: modules/comment/comment.module:1656
 msgid "(No subject)"
-msgstr ""
+msgstr "(ללא נושא)"
 
 #: modules/comment/comment.module:1725
-#, fuzzy
 msgid "!a comments per page"
-msgstr " %a תגובות לעמוד"
+msgstr "!a תגובות לעמוד"
 
 #: modules/comment/comment.module:1734
 msgid "Save settings"
@@ -468,26 +451,24 @@ msgid "you can't post comments"
 msgstr "אין באפשרותכם לפרסם תגובות"
 
 #: modules/comment/comment.module:1818
-#, fuzzy
 msgid ""
 "<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post "
 "comments"
 msgstr ""
-"חברי האתר יכולים לשלוח תגובה - <a href=\"%login\">כניסה</a> , <a href=\"%"
-"register\">הצטרפות</a>."
+"חברי האתר יכולים לשלוח תגובה - <a href=\"@login\">כניסה</a> , <a href=\"@"
+"register\">הצטרפות</a>"
 
 #: modules/comment/comment.module:1821
-#, fuzzy
 msgid "<a href=\"@login\">Login</a> to post comments"
-msgstr "<a href=\"%login\">הזדהו</a> לפרסום תגובות"
+msgstr "<a href=\"@login\">הזדהו</a> לפרסום תגובות"
 
 #: modules/comment/comment.module:1835
 msgid "Can not delete non-existent comment."
-msgstr ""
+msgstr "לא ניתן למחוק הערה שלא קיימת."
 
 #: modules/comment/comment.module:1841
 msgid "Comment: deleted %subject."
-msgstr "תגובה שנמחקה: %subject"
+msgstr "תגובה שנמחקה: %subject."
 
 #: modules/comment/comment.module:1861
 msgid "Flat list - collapsed"
@@ -506,11 +487,10 @@ msgid "Threaded list - expanded"
 msgstr "רשימה משורשרת - מורחבת"
 
 #: modules/comment/comment.module:314
-#, fuzzy
 msgid "1 new comment"
 msgid_plural "@count new comments"
 msgstr[0] "תגובה חדשה אחת"
-msgstr[1] "תגובה חדשה אחת"
+msgstr[1] "@count תגובות חדשות"
 
 #: modules/comment/comment.module:215
 msgid "access comments"
@@ -532,14 +512,3 @@ msgstr "משלוח תגובות ללא אישור"
 msgid "comment"
 msgstr "תגובות"
 
-#~ msgid "Comment"
-#~ msgstr "תגובה"
-
-#~ msgid "Allows users to comment on and discuss published content."
-#~ msgstr "מאפשר לחברים להגיב ולדון על תוכן שפורסם."
-
-#~ msgid "comments"
-#~ msgstr "תגובות"
-
-#~ msgid "delete comment"
-#~ msgstr "מחק תגובה"
