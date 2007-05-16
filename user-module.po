@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user-module\n"
 "POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-02-25 16:04+0200\n"
+"PO-Revision-Date: 2007-05-17 00:43+0300\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: modules/user/user.module:242
 msgid "You must enter a username."
-msgstr ""
+msgstr "חובה להכניס שם משתמש."
 
 #: modules/user/user.module:243
 msgid "The username cannot begin with a space."
@@ -121,7 +121,7 @@ msgstr "מי מחובר"
 
 #: modules/user/user.module:522
 msgid "Number of users to display"
-msgstr ""
+msgstr "מספר משתמשים להצגה"
 
 #: modules/user/user.module:530
 msgid "User activity"
@@ -129,7 +129,7 @@ msgstr "פעילות חבר הקהילה"
 
 #: modules/user/user.module:530
 msgid "A user is considered online for this long after they have last viewed a page."
-msgstr ""
+msgstr "המשתמש נחשב מחובר לזמן זה שאחרי הפעם האחרונה שהוא צפה בדף כלשהוא."
 
 #: modules/user/user.module:531
 msgid "User list length"
@@ -137,7 +137,7 @@ msgstr "אורך רשימת חברי האתר"
 
 #: modules/user/user.module:531
 msgid "Maximum number of currently online users to display."
-msgstr ""
+msgstr "מספר מקסימלי של משתמשים מחוברים שיש להציג."
 
 #: modules/user/user.module:589
 msgid "There is currently %members and %visitors online."
@@ -173,11 +173,11 @@ msgstr "ניהול חברי האתר"
 
 #: modules/user/user.module:719
 msgid "Manage your site's users, groups and access to site features."
-msgstr ""
+msgstr "נהל את משתמשי האתר שלך, קבוצות המשתמשים, וזכויות גישה לחלקי האתר השונים."
 
 #: modules/user/user.module:725
 msgid "List, add, and edit users."
-msgstr ""
+msgstr "הצג, הוסף וערוך משתמשים."
 
 #: modules/user/user.module:729
 msgid "Add user"
@@ -191,7 +191,7 @@ msgstr "הגדרות חברי האתר"
 msgid ""
 "Configure default behavior of users, including registration requirements, e-"
 "mails, and user pictures."
-msgstr ""
+msgstr "קבע הנהגות ברירת מחדל עבור משתמשים, כולל דרישות רישום, כתובות דוא\"ל ותמונות משתמשים."
 
 #: modules/user/user.module:737
 msgid "Access control"
@@ -199,11 +199,11 @@ msgstr "הרשאות גישה"
 
 #: modules/user/user.module:738
 msgid "Determine access to features by selecting permissions for roles."
-msgstr ""
+msgstr "קבע את הרשאות הגישה ע\"י בחירת הרשאות לתפקידים."
 
 #: modules/user/user.module:741
 msgid "List, edit, or add user roles."
-msgstr ""
+msgstr "הצג, עדכן או הוסף תפקידים."
 
 #: modules/user/user.module:744
 msgid "Edit role"
@@ -217,7 +217,7 @@ msgstr "כללי גישה"
 msgid ""
 "List and create rules to disallow usernames, e-mail addresses, and IP "
 "addresses."
-msgstr ""
+msgstr "הצג וצור חוקים כדי לחסום שמות משתמשים, כתובות דוא\"ל וכתובות IP."
 
 #: modules/user/user.module:752;1648
 msgid "Add rule"
@@ -275,7 +275,7 @@ msgstr "הכינוי %name הוא מילה שמורה."
 msgid ""
 "Sorry, unrecognized username or password. <a href=\"@password\">Have you "
 "forgotten your password?</a>"
-msgstr ""
+msgstr "צר לי, אך שם המשתמש והסיסמא אינם מוכרים. <a href=\"@password\">האם שכחת את סיסמתך?</a>"
 
 #: modules/user/user.module:933
 msgid "Login attempt failed for %user."
@@ -291,7 +291,7 @@ msgstr "התקבל ממקור חיצוני ע''י משתמש %user בעזרת ר
 
 #: modules/user/user.module:1001
 msgid "New external user: %user using module %module."
-msgstr ""
+msgstr "משתמש חיצוני חדש: %user משתמש ברכיב %module."
 
 #: modules/user/user.module:1016
 msgid "Session closed for %name."
@@ -311,7 +311,7 @@ msgstr "סליחה, אך %name לא מוכר ככינוי או ככתובת דו
 
 #: modules/user/user.module:1071
 msgid "Password reset instructions mailed to %name at %email."
-msgstr "ססמה נשלחה אל %name לכתובת %email. "
+msgstr "סיסמא נשלחה אל %name לכתובת %email."
 
 #: modules/user/user.module:1072
 msgid "Further instructions have been sent to your e-mail address."
@@ -337,11 +337,11 @@ msgstr ""
 msgid ""
 "You have tried to use a one-time login link that has expired. Please request "
 "a new one using the form below."
-msgstr ""
+msgstr "ניסית להשתמש בקישור לכניסה חד פעמית אשר אינו תקף יותר. יש לבקש חדש בטופס הבא."
 
 #: modules/user/user.module:1106
 msgid "User %name used one-time login link at time %timestamp."
-msgstr ""
+msgstr "המשתמש %name השתמש בכניסה חד פעמית ב%timestamp."
 
 #: modules/user/user.module:1115
 msgid ""
@@ -363,13 +363,13 @@ msgstr ""
 
 #: modules/user/user.module:1120
 msgid "This login can be used only once."
-msgstr ""
+msgstr "ניתן להשתמש בכניסה זו פעם אחת בלבד."
 
 #: modules/user/user.module:1127
 msgid ""
 "You have tried to use a one-time login link which has either been used or is "
 "no longer valid. Please request a new one using the form below."
-msgstr ""
+msgstr "ניסית להשתמש בכניסה חד פעמית אשר אינה תקפה יותר. יש לבקש סיסמא חדשה בטופס הבא."
 
 #: modules/user/user.module:1167
 msgid ""
@@ -381,7 +381,7 @@ msgstr ""
 
 #: modules/user/user.module:1174
 msgid "Notify user of new account"
-msgstr ""
+msgstr "הודע למשתמש על חשבון חדש"
 
 #: modules/user/user.module:1225;1468;2187
 msgid "Detected malicious attempt to alter protected user fields."
@@ -408,6 +408,16 @@ msgid ""
 "\n"
 "--drupal"
 msgstr ""
+"!username,\n"
+"\n"
+"ניתן כעת להכנס אל !uri בעזרת הכינוי והסיסמא הבאים:\n"
+"\n"
+"  כינוי: !username\n"
+"  סיסמא: !password\n"
+"\n"
+"!edit_uri\n"
+"\n"
+"--דרופל"
 
 #: modules/user/user.module:1244
 msgid ""
@@ -429,7 +439,7 @@ msgstr ""
 
 #: modules/user/user.module:1251
 msgid "Created a new user account. No e-mail has been sent."
-msgstr "נוצר חשבון חבר חדש. לא נשלח דואר אלקטרוני. "
+msgstr "נוצר חשבון חבר חדש. לא נשלח דואר אלקטרוני."
 
 #: modules/user/user.module:1269
 msgid "Password and further instructions have been e-mailed to the new user %user."
@@ -445,13 +455,16 @@ msgid ""
 "\n"
 "!edit_uri"
 msgstr ""
+"!username הגיש בקשה לפתיחת חשבון.\n"
+"\n"
+"!edit_uri"
 
 #: modules/user/user.module:1283
 msgid ""
 "Thank you for applying for an account. Your account is currently pending "
 "approval by the site administrator.<br />In the meantime, your password and "
 "further instructions have been sent to your e-mail address."
-msgstr ""
+msgstr "תודה על בקשתך לפתיחת חשבון. החשבון שלך כרגע ממתין לאישור אצל מנהל האתר.<br />בינתיים, הסיסמא, וכן הוראות נוספות נשלחו לכתובת הדוא\"ל שציינת."
 
 #: modules/user/user.module:1294
 msgid "Account information"
@@ -523,7 +536,7 @@ msgstr ""
 
 #: modules/user/user.module:1359
 msgid "The name %name is already taken."
-msgstr "הכינוי %name כבר תפוס. "
+msgstr "הכינוי %name כבר תפוס."
 
 #: modules/user/user.module:1362
 msgid "The name %name has been denied access."
@@ -533,13 +546,13 @@ msgstr "הרשאה ל-%name נחסמה."
 msgid ""
 "The e-mail address %email is already registered. <a href=\"@password\">Have "
 "you forgotten your password?</a>"
-msgstr ""
+msgstr "כתובת הדוא\"ל %email כבר רשומה. <a href=\"@password\">האם שכחת את הסיסמא?</a>"
 
 #: modules/user/user.module:1374
 msgid "The e-mail address %email has been denied access."
 msgstr ""
 "לא ניתן להצטרף לאתר דרך כתובת הדואר האלקטרוני %email. כתובת זו נחסמה על ידי "
-"מנהל האתר. "
+"מנהל האתר."
 
 #: modules/user/user.module:1402
 msgid "The account does not exist or has already been deleted."
@@ -567,7 +580,7 @@ msgstr "%name נמחק."
 
 #: modules/user/user.module:1488;1875
 msgid "The changes have been saved."
-msgstr "השינויים נשמרו"
+msgstr "השינויים נשמרו."
 
 #: modules/user/user.module:1536
 msgid "Account details for !username at !site"
@@ -596,32 +609,19 @@ msgid ""
 "\n"
 "--  !site team"
 msgstr ""
-"%username,\n"
-"\n"
-"תודה על הרשמתך לאתר '%site'. \n"
-"\n"
-"אפשר עתה להיכנס לאתר בכתובת \n"
-"%login_uri \n"
-"תוך שימוש בכינוי ובסיסמה הבאים: \n"
-"כינוי: %username, \n"
-"סיסמה: %password. \n"
-"\n"
-"לאחר הכניסה, מומלץ לשנות את הסיסמה בכתובת זו: \n"
-"%edit_uri. \n"
-"\n"
-"החברות החדשה שלך באתר '%site' מאפשרת לך גם להיכנס לאתרים אחרים, מבוססי דרופל "
-"(כדוגמת http://www.drupal.org) ללא הרשמה. יש להשתמש בכינוי דרופל ובסיסמה "
-"הבאים: \n"
-"כינוי: %username@%uri_brief,\n"
-"סיסמה: %password.\n"
-"\n"
-"בברכה,\n"
-"\n"
-"צוות '%site'."
+"!username,"
+"תודה על הרשמתך לאתר !site. אפשר עתה להיכנס לאתר בכתובת !login_uri תוך שימוש בכינוי ובסיסמה הבאים: "
+"כינוי: !username "
+"סיסמה: !password "
+"ניתן להכנס גם בלחיצה על הקישור הבא, או העתקתו והדבקתו אל הדפדפן: "
+"!login_url"
+"זוהי כניסה חד פעמית, וניתן להשתמש בה פעם אחת בלבד. "
+"לאחר שנכנסת, תופנה ל!edit_uri כדי שתוכל לשנות את סיסמתך. "
+"-- צוות !site"
 
 #: modules/user/user.module:1540
 msgid "An administrator created an account for you at !site"
-msgstr "מנהל יצר עבורך חשבון באתר !site."
+msgstr "מנהל יצר עבורך חשבון באתר !site"
 
 #: modules/user/user.module:1542
 msgid ""
@@ -769,7 +769,7 @@ msgstr "בדיקת מחשב"
 
 #: modules/user/user.module:1594
 msgid "No value entered. Please enter a test string and try again."
-msgstr ""
+msgstr "לא הוכנס כל ערך. אנא הכנס מחרוזת לבדיקה ונסה שוב."
 
 #: modules/user/user.module:1602
 msgid "The username %name is not allowed."
@@ -797,7 +797,7 @@ msgstr "המחשב %host מורשה להכנס."
 
 #: modules/user/user.module:1635;1681
 msgid "You must enter a mask."
-msgstr "יש להזין הנחיות סינון תוכן"
+msgstr "יש להזין הנחיות סינון תוכן."
 
 #: modules/user/user.module:1640
 msgid "The access rule has been added."
@@ -809,7 +809,7 @@ msgstr "כינוי"
 
 #: modules/user/user.module:1655;1729
 msgid "e-mail"
-msgstr ""
+msgstr "דוא\"ל"
 
 #: modules/user/user.module:1655;1729
 msgid "host"
@@ -895,7 +895,7 @@ msgstr "שם תפקיד"
 msgid ""
 "The name for this role. Example: \"moderator\", \"editorial board\", \"site "
 "architect\"."
-msgstr ""
+msgstr "שם התפקיד. לדוגמא: \"עורך\", \"כתב\", \"עורך ראשי\", \"מנהל אתר\"."
 
 #: modules/user/user.module:1908;1932;1949
 msgid "Save role"
@@ -911,7 +911,7 @@ msgstr "הוסף תפקיד"
 
 #: modules/user/user.module:1934;1939
 msgid "The role name %name already exists. Please choose another role name."
-msgstr ""
+msgstr "התפקיד %role כבר קיים. אנא בחר שם תפקיד אחר."
 
 #: modules/user/user.module:1944
 msgid "You must specify a valid role name."
@@ -951,31 +951,31 @@ msgstr "פעיל"
 
 #: modules/user/user.module:2083
 msgid "No users available."
-msgstr ""
+msgstr "אין משתמשים זמינים."
 
 #: modules/user/user.module:2122
 msgid "No users selected."
-msgstr ""
+msgstr "לא נבחרו משתמשים."
 
 #: modules/user/user.module:2134
 msgid "Unblock the selected users"
-msgstr ""
+msgstr "הסר חסימה מהמשתמשים שנבחרו"
 
 #: modules/user/user.module:2138
 msgid "Block the selected users"
-msgstr ""
+msgstr "חסום את המשתמשים שנבחרו"
 
 #: modules/user/user.module:2142
 msgid "Delete the selected users"
-msgstr ""
+msgstr "מחק את המשתמשים שנבחרו"
 
 #: modules/user/user.module:2162
 msgid "Add a role to the selected users"
-msgstr ""
+msgstr "הוסף תפקיד למשתמשים שנבחרו"
 
 #: modules/user/user.module:2165
 msgid "Remove a role from the selected users"
-msgstr ""
+msgstr "מחק תפקיד מהמשתמשים שנבחרו"
 
 #: modules/user/user.module:2266
 msgid "Are you sure you want to delete these users?"
@@ -1007,7 +1007,7 @@ msgstr "גולשי האתר יכולים לבקש להצטרף אך נדרש א�
 
 #: modules/user/user.module:2285
 msgid "Require e-mail verification when a visitor creates an account"
-msgstr ""
+msgstr "דרוש אישור בדוא\"ל כאשר אורח יוצר חשבון משתמש"
 
 #: modules/user/user.module:2285
 msgid ""
@@ -1027,7 +1027,7 @@ msgid ""
 "for helping or instructing your users."
 msgstr ""
 "הודעה זו מוצגת בראש טופס ההצטרפות. היא שימושית כדי לעזור למצטרפים או להנחות "
-"אותם. "
+"אותם."
 
 #: modules/user/user.module:2289
 msgid "User e-mail settings"
@@ -1099,7 +1099,7 @@ msgstr "תוכן ההודעה"
 msgid ""
 "Customize the body of the awaiting approval welcome e-mail, which is sent to "
 "new members upon registering."
-msgstr "התאמת גוף ההודעה הנשלחת לחברים חדשים עם הרשמתם על כך שהצטרפותם מחכה לאישור"
+msgstr "התאמת גוף ההודעה הנשלחת לחברים חדשים עם הרשמתם על כך שהצטרפותם מחכה לאישור."
 
 #: modules/user/user.module:2296
 msgid "Subject of password recovery e-mail"
@@ -1137,7 +1137,7 @@ msgstr "מיקום קובץ תמונה"
 
 #: modules/user/user.module:2307
 msgid "Subdirectory in the directory %dir where pictures will be stored."
-msgstr "תיקיית משנה בתוך התיקייה <span dir=ltr>\"%dir\"</span>, שבה יאוחסנו התמונות."
+msgstr "תיקיית משנה בתוך התיקייה <span dir=\"ltr\">%dir</span>, שבה יאוחסנו התמונות."
 
 #: modules/user/user.module:2308
 msgid "Default picture"
@@ -1292,7 +1292,7 @@ msgstr ""
 
 #: modules/user/user.module:2377
 msgid "one of our affiliates"
-msgstr ""
+msgstr "אחד מהאתרים החברים שלנו"
 
 #: modules/user/user.module:2380
 msgid ""
@@ -1335,11 +1335,11 @@ msgstr "הרשאה"
 
 #: modules/user/user.module:2537
 msgid "Show only users where"
-msgstr ""
+msgstr "הראה רק משתמשים עבורם"
 
 #: modules/user/user.module:933;950;982;1001;1016;1071;1075;1106;1237;1459;0
 msgid "user"
-msgstr "חברי האתר"
+msgstr "משתמש"
 
 #: modules/user/user.module:589;592
 msgid "1 guest"
