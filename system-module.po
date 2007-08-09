@@ -504,7 +504,7 @@ msgstr ""
 
 #: modules/system/system.module:632
 msgid "Never"
-msgstr "תמיד"
+msgstr "אף פעם"
 
 #: modules/system/system.module:635
 msgid "Discard log entries older than"
