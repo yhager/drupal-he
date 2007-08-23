@@ -38,7 +38,7 @@ msgstr "%message בקובץ %file בשורה %line."
 
 #: includes/common.inc:997
 msgid "KB"
-msgstr "ק\"ב"
+msgstr "קילובייט"
 
 #: includes/common.inc:1002
 msgid "@size @suffix"
