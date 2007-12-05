@@ -1221,7 +1221,7 @@ msgid ""
 "etc. Users of the site may not use their own names to post content until "
 "they have signed up for a user account."
 msgstr ""
-"דרופל מאפשר לחברים להרשם, ךהכנס, לצאת, להגדיר העדפות, לנהל מידע אישי, להוסיף "
+"דרופל מאפשר לחברים להרשם, להכנס, לצאת, להגדיר העדפות, לנהל מידע אישי, להוסיף "
 "תוכן ועוד. רק חברים שהצטרפו יכולים להשתמש בשמם למשלוח תוכן."
 
 #: modules/user/user.module:2356
