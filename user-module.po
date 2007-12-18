@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: user-module\n"
 "POT-Creation-Date: 2007-01-10 22:16+0100\n"
-"PO-Revision-Date: 2007-12-11 13:06+0200\n"
+"PO-Revision-Date: 2007-12-18 12:57+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1063,7 +1063,7 @@ msgstr "התאמת גוף ההודעה הנשלחת לחברים חדשים עם
 
 #: modules/user/user.module:2292
 msgid "Subject of welcome e-mail (user created by administrator)"
-msgstr "נושא הודעת \"ברוכים הבאים\" הנשלחת למצטרפים חדשים המחכים לאישור מנהל"
+msgstr "נושא הודעת \"ברוכים הבאים\" (משתמש הנוצר ע\"י מנהל)"
 
 #: modules/user/user.module:2292
 msgid ""
@@ -1097,7 +1097,7 @@ msgstr ""
 
 #: modules/user/user.module:2295
 msgid "Body of welcome e-mail (awaiting admin approval)"
-msgstr "תוכן ההודעה"
+msgstr "תוכן ההודעה (ממתין לאישור מנהל)"
 
 #: modules/user/user.module:2295
 msgid ""
