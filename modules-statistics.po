@@ -1,0 +1,401 @@
+# translation of general.po to Hebrew
+# Amnon Levav <amnon@levavie.com>, 2006.
+# Haggai Eran <haggai.eran@gmail.com>, 2006.
+# Yuval Hager <yuval@avramzon.net>, 2007.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 6.0\n"
+"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/statistics/statistics.admin.inc:14
+#: modules/statistics/statistics.pages.inc:46
+msgid "Timestamp"
+msgstr "חותמת זמן"
+
+#: modules/statistics/statistics.admin.inc:29
+#: modules/statistics/statistics.pages.inc:25;56
+msgid "details"
+msgstr "פרטים"
+
+#: modules/statistics/statistics.admin.inc:33;63;96;128
+#: modules/statistics/statistics.pages.inc:29;60
+#, fuzzy
+msgid "No statistics available."
+msgstr "אין פרסומים מתאימים"
+
+#: modules/statistics/statistics.admin.inc:49;78;114
+msgid "Hits"
+msgstr "כניסות"
+
+#: modules/statistics/statistics.admin.inc:51
+msgid "Average page generation time"
+msgstr "זמן יצירת עמוד ממוצע"
+
+#: modules/statistics/statistics.admin.inc:52;80
+msgid "Total page generation time"
+msgstr "זמן יצירת עמוד כולל"
+
+#: modules/statistics/statistics.admin.inc:59
+msgid "%time ms"
+msgstr "%time מילישניות"
+
+#: modules/statistics/statistics.admin.inc:66
+msgid "Top pages in the past %interval"
+msgstr "עמודים הכי מבוקשים ב%interval האחרון"
+
+#: modules/statistics/statistics.admin.inc:91
+msgid "unban"
+msgstr "בטל חסימה"
+
+#: modules/statistics/statistics.admin.inc:91
+msgid "ban"
+msgstr "חסום"
+
+#: modules/statistics/statistics.admin.inc:99
+msgid "Top visitors in the past %interval"
+msgstr "חברים מובילים ב%interval אחרון"
+
+#: modules/statistics/statistics.admin.inc:111
+msgid "Top referrers in the past %interval"
+msgstr "מפנים מובילים ב%interval אחרון."
+
+#: modules/statistics/statistics.admin.inc:115
+msgid "Url"
+msgstr "כתובת url"
+
+#: modules/statistics/statistics.admin.inc:116
+msgid "Last visit"
+msgstr "ביקור אחרון"
+
+#: modules/statistics/statistics.admin.inc:187
+#: modules/statistics/statistics.module:136
+msgid "Access log settings"
+msgstr "הגדרות רישום פעילויות"
+
+#: modules/statistics/statistics.admin.inc:190
+msgid "Enable access log"
+msgstr "אפשר רישום פעילות"
+
+#: modules/statistics/statistics.admin.inc:193
+msgid "Log each page access. Required for referrer statistics."
+msgstr "רישום כל גישה לעמוד. נדרש עבור סטטיסטיקות מפנים."
+
+#: modules/statistics/statistics.admin.inc:197
+msgid "Discard access logs older than"
+msgstr "מחק רישומים בני יותר מ"
+
+#: modules/statistics/statistics.admin.inc:200
+#, fuzzy
+msgid ""
+"Older access log entries (including referrer statistics) will be "
+"automatically discarded. (Requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>.)"
+msgstr ""
+"כניסות ישנות יותר (כולל סטטיסטיקות לגבי כתובות מקור) יימחקו אוטומטית. דורש "
+"crontab."
+
+#: modules/statistics/statistics.admin.inc:205
+msgid "Content viewing counter settings"
+msgstr "הגדרות מונה צפיות בתוכן"
+
+#: modules/statistics/statistics.admin.inc:208
+msgid "Count content views"
+msgstr "ספור צפיות בתוכן"
+
+#: modules/statistics/statistics.admin.inc:211
+msgid "Increment a counter each time content is viewed."
+msgstr "קדם מונה בכל פעם שנצפה תוכן באתר."
+
+#: modules/statistics/statistics.module:15
+#, fuzzy
+msgid ""
+"The statistics module keeps track of numerous site usage statistics, "
+"including the number of times, and from where, each of your posts is viewed. "
+"These statistics are useful in determining how users are interacting with "
+"each other and with your site, and are required for the display of some "
+"Drupal blocks."
+msgstr ""
+"רכיב הסטטיסטיקות עוקב אחר נתונים רבים על דרך השימוש באתר. הוא סופר כמה "
+"פעמים, ומהיכן נצפה כל אחד מהפרסומים שלך. ניתן להשתמש ברכיב הסטטיסטיקות כדי "
+"ללמוד דברים רבים ומועילים על הדרך בה הגולשים מתקשרים אחד עם השני ועם האתר "
+"שלך."
+
+#: modules/statistics/statistics.module:16
+msgid "The statistics module provides:"
+msgstr ""
+
+#: modules/statistics/statistics.module:17
+msgid ""
+"a counter for each post on your site that increments each time the post is "
+"viewed. (Enable <em>Count content views</em> on the <a href=\"@accesslog"
+"\">access log settings page</a>, and determine if the post access counters "
+"should be visible to any user roles on the <a href=\"@permissions"
+"\">permissions page</a>.)"
+msgstr ""
+
+#: modules/statistics/statistics.module:18
+msgid ""
+"a <a href=\"@recent-hits\">recent hits</a> log that displays information "
+"about the latest activity on your site, including the URL and title of the "
+"page accessed, the user name (if available) and IP address of the accessing "
+"party."
+msgstr ""
+
+#: modules/statistics/statistics.module:19
+msgid ""
+"a <a href=\"@top-referrers\">top referrers</a> log that displays the "
+"referring parties for your site visits (where your visitors came from)."
+msgstr ""
+
+#: modules/statistics/statistics.module:20
+msgid ""
+"a <a href=\"@top-pages\">top pages</a> log that displays site content in "
+"descending order by number of views."
+msgstr ""
+
+#: modules/statistics/statistics.module:21
+msgid ""
+"a <a href=\"@top-visitors\">top visitors</a> log that displays the most "
+"active users on your site."
+msgstr ""
+
+#: modules/statistics/statistics.module:22
+msgid ""
+"a <em>Popular content</em> block that displays the day's most viewed "
+"content, the all-time most viewed content, and the last content viewed. "
+"(Enable the <em>Popular content</em> block on the <a href=\"@blocks\">blocks "
+"administration page</a>.)"
+msgstr ""
+
+#: modules/statistics/statistics.module:23
+msgid "Configuring the statistics module"
+msgstr ""
+
+#: modules/statistics/statistics.module:24
+msgid ""
+"When the <em>Enable access log</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> is enabled, data about every page accessed "
+"(including the remote host's IP address, referrer, node accessed, and user "
+"name) is stored in the access log. The access log must be enabled for the <a "
+"href=\"@recent-hits\">recent hits</a>, <a href=\"@top-referrers\">top "
+"referrers</a>, <a href=\"@top-pages\">top pages</a>, and <a href=\"@top-"
+"visitors\">top visitors</a> log pages to function. Enabling the access log "
+"adds one additional database call per page displayed by Drupal."
+msgstr ""
+
+#: modules/statistics/statistics.module:25
+msgid ""
+"The <em>Discard access logs older than</em> setting on the <a href="
+"\"@accesslog\">access log settings page</a> specifies the length of time "
+"entries are retained in the access log before they are deleted. Automatic "
+"access log entry deletion requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+
+#: modules/statistics/statistics.module:26
+msgid ""
+"The <em>Count content views</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> enables a counter for each post on your site "
+"that increments each time the post is viewed. This option must be enabled to "
+"provide post-specific access counts. Enabling this option adds one "
+"additional database call per each post displayed by Drupal."
+msgstr ""
+
+#: modules/statistics/statistics.module:27
+#, fuzzy
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@statistics"
+"\">Statistics module</a>."
+msgstr ""
+"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
+"החיפוש</a>."
+
+#: modules/statistics/statistics.module:30
+msgid ""
+"Settings for the statistical information that Drupal will keep about the "
+"site. See <a href=\"@statistics\">site statistics</a> for the actual "
+"information."
+msgstr ""
+"כאן ניתן להגדיר את המידע הסטטיסטי שדרופל שומר על האתר. המידע האמיתי נמצא ב "
+"<a href=\"@statistics\">יומן הפעילות</a>."
+
+#: modules/statistics/statistics.module:32
+#, fuzzy
+msgid "This page displays the site's most recent hits."
+msgstr "עמוד זה מציג מידע על הכניסות האחרונות לאתר."
+
+#: modules/statistics/statistics.module:34
+#, fuzzy
+msgid ""
+"This page displays all external referrers, or external references to your "
+"website."
+msgstr ""
+"עמוד זה מציג את כל המפנים החיצוניים לאתר. אלו הם קישורים המצביעים לאתר שלך "
+"מאתרים אחרים."
+
+#: modules/statistics/statistics.module:36
+#, fuzzy
+msgid ""
+"When you ban a visitor, you prevent the visitor's IP address from accessing "
+"your site. Unlike blocking a user, banning a visitor works even for "
+"anonymous users. This is most commonly used to block resource-intensive bots "
+"or web crawlers."
+msgstr ""
+"כאשר אתה חוסם אורח, את חוסם את כתובת ה-IP שלו מגישה לאתר שלך. שלא כמו חסימה "
+"של משתמש, חסימת אורח עובדת גם למשתמשים לא רשומים. השימוש הכי נפוץ בחסימה כזו "
+"הוא עבור רובוטים או זוחלי-רשת שונים, כאשר הם לוקחים יותר מדי משאבי מערכת."
+
+#: modules/statistics/statistics.module:243;285
+msgid "Popular content"
+msgstr "תוכן מבוקש"
+
+#: modules/statistics/statistics.module:253
+msgid "Number of day's top views to display"
+msgstr "מספר הפריטים המובילים של היום שיוצגו ברשימת \"היום\""
+
+#: modules/statistics/statistics.module:253
+msgid "How many content items to display in \"day\" list."
+msgstr "כמה פריטי תוכן להציג ברשימת \"יום\"."
+
+#: modules/statistics/statistics.module:254
+msgid "Number of all time views to display"
+msgstr "מספר הפריטים שיוצגו ברשימת \"כל הזמנים\""
+
+#: modules/statistics/statistics.module:254
+msgid "How many content items to display in \"all time\" list."
+msgstr "כמה פריטי תוכן להציג ברשימת \"כל הזמנים\"."
+
+#: modules/statistics/statistics.module:255
+msgid "Number of most recent views to display"
+msgstr "מספר הפריטים שיוצגו ברשימת \"נצפו לאחרונה\""
+
+#: modules/statistics/statistics.module:255
+msgid "How many content items to display in \"recently viewed\" list."
+msgstr "כמה פריטי תוכן להציג ברשימת \"נצפו לאחרונה\"."
+
+#: modules/statistics/statistics.module:269
+msgid "Today's:"
+msgstr "היום:"
+
+#: modules/statistics/statistics.module:274
+msgid "All time:"
+msgstr "כל הזמנים:"
+
+#: modules/statistics/statistics.module:279
+msgid "Last viewed:"
+msgstr "נצפה לאחרונה:"
+
+#: modules/statistics/statistics.module:85
+msgid "1 read"
+msgid_plural "@count reads"
+msgstr[0] "נצפה פעם אחת"
+msgstr[1] "@count צפיות"
+
+#: modules/statistics/statistics.module:72
+msgid "access statistics"
+msgstr "גישה לסטטיסטיקות"
+
+#: modules/statistics/statistics.module:72
+msgid "view post access counter"
+msgstr "צפה במונה הגישות לתוכן"
+
+#: modules/statistics/statistics.module:97
+msgid "Recent hits"
+msgstr "כניסות אחרונות"
+
+#: modules/statistics/statistics.module:98
+msgid "View pages that have recently been visited."
+msgstr "צפה בעמודים שביקרו בהם לאחרונה."
+
+#: modules/statistics/statistics.module:104
+msgid "Top pages"
+msgstr "עמודים מובילים"
+
+#: modules/statistics/statistics.module:105
+msgid "View pages that have been hit frequently."
+msgstr "צפה בעמודים אשר צפו בהם בתדירות גבוהה."
+
+#: modules/statistics/statistics.module:112
+msgid "Top visitors"
+msgstr "חברים מובילים"
+
+#: modules/statistics/statistics.module:113
+msgid "View visitors that hit many pages."
+msgstr "צפה בחברים שצופים בעמודים רבים."
+
+#: modules/statistics/statistics.module:120
+msgid "Top referrers"
+msgstr "מפנים מובילים"
+
+#: modules/statistics/statistics.module:121
+msgid "View top referrers."
+msgstr "צפה במפנים החיצוניים לפי מספר ההפניות."
+
+#: modules/statistics/statistics.module:128
+msgid "View access log."
+msgstr "צפה ביומן פעילות."
+
+#: modules/statistics/statistics.module:137
+msgid "Control details about what and how your site logs."
+msgstr "שליטה מדויקת על מה ואיך נרשם ביומן הפעילות של האתר."
+
+#: modules/statistics/statistics.module:146
+msgid "Track page visits"
+msgstr "מעקב עמודים שנצפו"
+
+#: modules/statistics/statistics.module:0
+msgid "statistics"
+msgstr "סטטיסטיקות"
+
+#: modules/statistics/statistics.install:52
+#, fuzzy
+msgid "Stores site access information for statistics."
+msgstr "רישום כל גישה לעמוד. נדרש עבור סטטיסטיקות מפנים."
+
+#: modules/statistics/statistics.install:57
+msgid "Primary Key: Unique accesslog ID."
+msgstr ""
+
+#: modules/statistics/statistics.install:64
+msgid "Browser session ID of user that visited page."
+msgstr ""
+
+#: modules/statistics/statistics.install:70
+#, fuzzy
+msgid "Title of page visited."
+msgstr "מעקב עמודים שנצפו"
+
+#: modules/statistics/statistics.install:76
+msgid "Internal path to page visited (relative to Drupal root.)"
+msgstr ""
+
+#: modules/statistics/statistics.install:82
+#, fuzzy
+msgid "Referrer URI."
+msgstr "כתובת מקור"
+
+#: modules/statistics/statistics.install:88
+msgid "Hostname of user that visited the page."
+msgstr ""
+
+#: modules/statistics/statistics.install:95
+msgid "User {users}.uid that visited the page."
+msgstr ""
+
+#: modules/statistics/statistics.install:102
+msgid "Time in milliseconds that the page took to load."
+msgstr ""
+
+#: modules/statistics/statistics.install:109
+msgid "Timestamp of when the page was visited."
+msgstr ""

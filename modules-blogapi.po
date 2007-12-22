@@ -1,0 +1,194 @@
+# translation of general.po to Hebrew
+# Amnon Levav <amnon@levavie.com>, 2006.
+# Haggai Eran <haggai.eran@gmail.com>, 2006.
+# Yuval Hager <yuval@avramzon.net>, 2007.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 6.0\n"
+"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/blogapi/blogapi.module:15
+msgid ""
+"The Blog API module allows your site's users to access and post to their "
+"blogs from external blogging clients. External blogging clients are "
+"available for a wide range of desktop operating systems, and generally "
+"provide a feature-rich graphical environment for creating and editing posts."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:16
+msgid ""
+"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS "
+"X and Microsoft Windows, can be used with Blog API. Blog API also supports "
+"<a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api"
+"\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable "
+"Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr"
+"\">Flickr's</a> \"post to blog\") that support these APIs may also be "
+"compatible."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:17
+msgid ""
+"Select the content types available to external clients on the <a href="
+"\"@blogapi-settings\">Blog API settings page</a>. If supported and "
+"available, each content type will be displayed as a separate \"blog\" by the "
+"external client."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:18
+#, fuzzy
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@blogapi"
+"\">Blog API module</a>."
+msgstr ""
+"למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
+"השמירה</a>."
+
+#: modules/blogapi/blogapi.module:32
+msgid "Returns a list of blogs to which an author has posting privileges."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:37
+msgid "Returns information about an author in the system."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:42;67
+msgid "Creates a new post, and optionally publishes it."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:47
+#, fuzzy
+msgid "Updates the information about an existing post."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi/blogapi.module:52;77
+#, fuzzy
+msgid "Returns information about a specific post."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi/blogapi.module:57
+#, fuzzy
+msgid "Deletes a post."
+msgstr "מחק מיקום"
+
+#: modules/blogapi/blogapi.module:62;92
+msgid "Returns a list of the most recent posts in the system."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:72
+#, fuzzy
+msgid "Updates information about an existing post."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi/blogapi.module:82
+msgid "Uploads a file to your webserver."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:87;107
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:97
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:102
+msgid "Returns a list of all categories defined in the blog."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:112
+#, fuzzy
+msgid "Sets the categories for a post."
+msgstr "מאפשר סיווג תוכן לפי נושאים."
+
+#: modules/blogapi/blogapi.module:117
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:122
+#, fuzzy
+msgid ""
+"Retrieve information about the text formatting plugins supported by the "
+"server."
+msgstr "מידע נוסף על אפשרויות מבנה קלט"
+
+#: modules/blogapi/blogapi.module:127
+msgid ""
+"Publish (rebuild) all of the static files related to an entry from your "
+"blog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:204
+msgid "You do not have permission to create this type of post."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:226;281
+msgid "Error storing post."
+msgstr "שגיאה בעת שמירת הפרסום"
+
+#: modules/blogapi/blogapi.module:248;482
+msgid "You do not have permission to update this post."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:362
+msgid "No file sent."
+msgstr "אף קובץ לא נשלח."
+
+#: modules/blogapi/blogapi.module:366
+msgid "Error storing file."
+msgstr "שגיאה בעת שמירת הקובץ."
+
+#: modules/blogapi/blogapi.module:477
+msgid "Invalid post."
+msgstr "פרסום שגוי"
+
+#: modules/blogapi/blogapi.module:517
+msgid "You do not have permission to edit this blog."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:521
+msgid "Wrong username or password."
+msgstr "שם משתמש או סיסמה שגויים."
+
+#: modules/blogapi/blogapi.module:544
+msgid "Enable for external blogging clients"
+msgstr ""
+
+#: modules/blogapi/blogapi.module:548
+msgid ""
+"Select the content types available to external blogging clients via Blog "
+"API. If supported, each enabled content type will be displayed as a separate "
+"\"blog\" by the external client."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:577;556
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi/blogapi.module:221
+#, fuzzy
+msgid "@type: added %title using blog API."
+msgstr "@type: נוסף '%title'."
+
+#: modules/blogapi/blogapi.module:277
+#, fuzzy
+msgid "@type: updated %title using Blog API."
+msgstr "@type: %title עודכן."
+
+#: modules/blogapi/blogapi.module:563
+msgid "Configure the content types available to external blogging clients."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:0
+msgid "blogapi"
+msgstr "ממשקי תוכנה ליומן"

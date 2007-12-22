@@ -1,0 +1,602 @@
+# translation of general.po to Hebrew
+# Amnon Levav <amnon@levavie.com>, 2006.
+# Haggai Eran <haggai.eran@gmail.com>, 2006.
+# Yuval Hager <yuval@avramzon.net>, 2007.
+# Hebrew translation of דרופל ישראל
+# Copyright (c) 2006 ליאור <lior@linnovate.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: Drupal 6.0\n"
+"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: modules/aggregator/aggregator-feed-source.tpl.php:30
+msgid "URL:"
+msgstr ""
+
+#: modules/aggregator/aggregator-feed-source.tpl.php:33
+#, fuzzy
+msgid "Updated:"
+msgstr "עדכן"
+
+#: modules/aggregator/aggregator-item.tpl.php:42
+#: modules/aggregator/aggregator.pages.inc:63
+#: modules/aggregator/aggregator.module:151
+msgid "Categories"
+msgstr "סיווגים"
+
+#: modules/aggregator/aggregator-summary-items.tpl.php:23
+msgid "More"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:25
+msgid "Feed overview"
+msgstr "רשימת מקורות"
+
+#: modules/aggregator/aggregator.admin.inc:27;38
+msgid "Items"
+msgstr "פריטים"
+
+#: modules/aggregator/aggregator.admin.inc:27
+msgid "Last update"
+msgstr "עדכון אחרון"
+
+#: modules/aggregator/aggregator.admin.inc:27
+msgid "Next update"
+msgstr "העדכון הבא"
+
+#: modules/aggregator/aggregator.admin.inc:30
+msgid "%time left"
+msgstr "נשאר %time"
+
+#: modules/aggregator/aggregator.admin.inc:30
+msgid "remove items"
+msgstr "הסר פריטים"
+
+#: modules/aggregator/aggregator.admin.inc:30
+msgid "update items"
+msgstr "בדוק עדכונים"
+
+#: modules/aggregator/aggregator.admin.inc:36
+msgid "Category overview"
+msgstr "רשימת נושאים"
+
+#: modules/aggregator/aggregator.admin.inc:66
+#, fuzzy
+msgid "The name of the feed (or the name of the website providing the feed)."
+msgstr "שם המקור. בדרך כלל זהו שם האתר שממנו אנו רוצים לשלב תוכן."
+
+#: modules/aggregator/aggregator.admin.inc:73
+msgid "The fully-qualified URL of the feed."
+msgstr "כתובת ה-URL המלאה של המקור, כולל קידומת."
+
+#: modules/aggregator/aggregator.admin.inc:77
+msgid "Update interval"
+msgstr "תדירות עדכון"
+
+#: modules/aggregator/aggregator.admin.inc:80
+msgid ""
+"The length of time between feed updates. (Requires a correctly configured <a "
+"href=\"@cron\">cron maintenance task</a>.)"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:93
+msgid "Categorize news items"
+msgstr "סיווג נושאי הפריטים"
+
+#: modules/aggregator/aggregator.admin.inc:96
+#, fuzzy
+msgid "New feed items are automatically filed in the checked categories."
+msgstr "פריטים חדשים בהזנה זו יתוייקו אוטומטית בסיווגים המסומנים עם קבלתם"
+
+#: modules/aggregator/aggregator.admin.inc:116
+msgid ""
+"The URL %url is invalid. Please enter a fully-qualified URL, such as http://"
+"www.example.com/feed.xml."
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:127
+msgid "A feed named %feed already exists. Please enter a unique title."
+msgstr "מקור בשם %feed כבר קיים. בבקשה להכניס כותרת ייחודית."
+
+#: modules/aggregator/aggregator.admin.inc:130
+#, fuzzy
+msgid "A feed with this URL %url already exists. Please enter a unique URL."
+msgstr "מקור בשם %feed כבר קיים. בבקשה להכניס כותרת ייחודית."
+
+#: modules/aggregator/aggregator.admin.inc:150
+#, fuzzy
+msgid "The feed %feed has been updated."
+msgstr "השדה עודכן."
+
+#: modules/aggregator/aggregator.admin.inc:162
+#, fuzzy
+msgid "The feed %feed has been deleted."
+msgstr "השדה %field נמחק."
+
+#: modules/aggregator/aggregator.admin.inc:175
+#, fuzzy
+msgid "The feed %feed has been added."
+msgstr "השדה %field נמחק."
+
+#: modules/aggregator/aggregator.admin.inc:214
+msgid ""
+"A space-separated list of HTML tags allowed in the content of feed items. "
+"(Tags in this list are not removed by Drupal.)"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:218
+msgid "Items shown in sources and categories pages"
+msgstr "מספר הפריטים המוצגים בעמודי מקור \\ עמודי נושא"
+
+#: modules/aggregator/aggregator.admin.inc:220
+#, fuzzy
+msgid "Number of feed items displayed in feed and category summary pages."
+msgstr "מספר הפריטים שיוצגו עבור כל מקור או נושא בעמודי סיכום המקור והנושא."
+
+#: modules/aggregator/aggregator.admin.inc:224
+#, fuzzy
+msgid "Discard items older than"
+msgstr "התעלם מפריטי חדשות ישנים מתאריך"
+
+#: modules/aggregator/aggregator.admin.inc:226
+msgid ""
+"The length of time to retain feed items before discarding. (Requires a "
+"correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:230
+msgid "Category selection type"
+msgstr "סוג בחירת נושא"
+
+#: modules/aggregator/aggregator.admin.inc:231
+msgid "checkboxes"
+msgstr "תיבות סימון"
+
+#: modules/aggregator/aggregator.admin.inc:231
+msgid "multiple selector"
+msgstr "בחירה מרובה"
+
+#: modules/aggregator/aggregator.admin.inc:232
+#, fuzzy
+msgid ""
+"The type of category selection widget displayed on categorization pages. "
+"(For a small number of categories, checkboxes are easier to use, while a "
+"multiple selector work well with large numbers of categories.)"
+msgstr ""
+"זהו סוג הפקד שימש לצורך בחירת הנושא המוצג בעמודי הסיווג. תיבות סימון קלות "
+"יותר לשימוש, אך בחירה מרובה טובה לטיפול כשיש מספר גדולים של נושאים."
+
+#: modules/aggregator/aggregator.admin.inc:279
+msgid "A category named %category already exists. Please enter a unique title."
+msgstr "סיווג בשם %category כבר קיים. בבקשה לבחור כותרת ייחודית."
+
+#: modules/aggregator/aggregator.admin.inc:298
+#, fuzzy
+msgid "The category %category has been updated."
+msgstr "הנושא %category עודכן."
+
+#: modules/aggregator/aggregator.admin.inc:310
+#, fuzzy
+msgid "The category %category has been deleted."
+msgstr "הנושא %category נמחק."
+
+#: modules/aggregator/aggregator.admin.inc:323
+#, fuzzy
+msgid "The category %category has been added."
+msgstr "הנושא %category התווסף."
+
+#: modules/aggregator/aggregator.admin.inc:161;174;309;322
+#: modules/aggregator/aggregator.pages.inc:16
+#: modules/aggregator/aggregator.module:602;649;656;726;0
+msgid "aggregator"
+msgstr "צובר"
+
+#: modules/aggregator/aggregator.admin.inc:161
+#, fuzzy
+msgid "Feed %feed deleted."
+msgstr "המקור %feed נוסף."
+
+#: modules/aggregator/aggregator.admin.inc:174
+msgid "Feed %feed added."
+msgstr "המקור %feed נוסף."
+
+#: modules/aggregator/aggregator.admin.inc:309
+#, fuzzy
+msgid "Category %category deleted."
+msgstr "הסיווג %category נוסף."
+
+#: modules/aggregator/aggregator.admin.inc:322
+msgid "Category %category added."
+msgstr "הסיווג %category נוסף."
+
+#: modules/aggregator/aggregator.admin.inc:30;41
+#: modules/aggregator/aggregator.module:957
+msgid "1 item"
+msgid_plural "@count items"
+msgstr[0] "פריט אחד"
+msgstr[1] "@count פריטים"
+
+#: modules/aggregator/aggregator.pages.inc:68
+#, fuzzy
+msgid "aggregator - @title"
+msgstr "צובר"
+
+#: modules/aggregator/aggregator.pages.inc:175
+msgid "Save categories"
+msgstr "שמור סיווג"
+
+#: modules/aggregator/aggregator.pages.inc:185
+#, fuzzy
+msgid "You are not allowed to categorize this feed item."
+msgstr "אינך מורשה לשלוח נושא חדש בקבוצות הדיון."
+
+#: modules/aggregator/aggregator.pages.inc:203
+msgid "The categories have been saved."
+msgstr "סיווג הפריטים נשמר."
+
+#: modules/aggregator/aggregator.pages.inc:228
+#: modules/aggregator/aggregator.module:185;213
+msgid "Categorize"
+msgstr "בחר נושא"
+
+#: modules/aggregator/aggregator.pages.inc:262
+msgid "%ago ago"
+msgstr "לפני %ago"
+
+#: modules/aggregator/aggregator.pages.inc:293
+#: modules/aggregator/aggregator.module:164
+#, fuzzy
+msgid "OPML feed"
+msgstr "מקור הזנת XML"
+
+#: modules/aggregator/aggregator.pages.inc:377
+msgid "@site_name - aggregated feeds in category @title"
+msgstr ""
+
+#: modules/aggregator/aggregator.pages.inc:377
+msgid "@site_name - aggregated feeds"
+msgstr ""
+
+#: modules/aggregator/aggregator.pages.inc:381
+#, fuzzy
+msgid "@site_name aggregator"
+msgstr "צובר"
+
+#: modules/aggregator/aggregator.pages.inc:459
+msgid "%age old"
+msgstr "בן %age"
+
+#: modules/aggregator/aggregator.pages.inc:477
+#, fuzzy
+msgid "!title feed"
+msgstr "!title: !required"
+
+#: modules/aggregator/aggregator.module:15
+msgid ""
+"The aggregator is a powerful on-site syndicator and news reader that gathers "
+"fresh content from RSS-, RDF-, and Atom-based feeds made available across "
+"the web. Thousands of sites (particularly news sites and blogs) publish "
+"their latest headlines and posts in feeds, using a number of standardized "
+"XML-based formats. Formats supported by the aggregator include <a href=\"@rss"
+"\">RSS</a>, <a href=\"@rdf\">RDF</a>, and <a href=\"@atom\">Atom</a>."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:16
+msgid ""
+"Feeds contain feed items, or individual posts published by the site "
+"providing the feed. Feeds may be grouped in categories, generally by topic. "
+"Users view feed items in the <a href=\"@aggregator\">main aggregator "
+"display</a> or by <a href=\"@aggregator-sources\">their source</a>. "
+"Administrators can <a href=\"@feededit\">add, edit and delete feeds</a> and "
+"choose how often to check each feed for newly updated items. The most recent "
+"items in either a feed or category can be displayed as a block through the "
+"<a href=\"@admin-block\">blocks administration page</a>. A <a href="
+"\"@aggregator-opml\">machine-readable OPML file</a> of all feeds is "
+"available. A correctly configured <a href=\"@cron\">cron maintenance task</"
+"a> is required to update feeds automatically."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:17
+#, fuzzy
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@aggregator"
+"\">Aggregator module</a>."
+msgstr ""
+"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
+"החיפוש</a>."
+
+#: modules/aggregator/aggregator.module:20
+msgid ""
+"Thousands of sites (particularly news sites and blogs) publish their latest "
+"headlines and posts in feeds, using a number of standardized XML-based "
+"formats. Formats supported by the aggregator include <a href=\"@rss\">RSS</"
+"a>, <a href=\"@rdf\">RDF</a>, and <a href=\"@atom\">Atom</a>."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:21
+msgid ""
+"Current feeds are listed below, and <a href=\"@addfeed\">new feeds may be "
+"added</a>. For each feed or feed category, the <em>latest items</em> block "
+"may be enabled at the <a href=\"@block\">blocks administration page</a>."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:24
+msgid "Add a feed in RSS, RDF or Atom format. A feed may only have one entry."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:26
+msgid ""
+"Categories allow feed items from different feeds to be grouped together. For "
+"example, several sport-related feeds may belong to a category named "
+"<em>Sports</em>. Feed items may be grouped automatically (by selecting a "
+"category when creating or editing a feed) or manually (via the "
+"<em>Categorize</em> page available from feed item listings). Each category "
+"provides its own feed page and block."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:305
+#, fuzzy
+msgid "!title category latest items"
+msgstr "השלמה אוטומטית של סיווג הפרופיל"
+
+#: modules/aggregator/aggregator.module:309
+msgid "!title feed latest items"
+msgstr ""
+
+#: modules/aggregator/aggregator.module:320
+msgid "Number of news items in block"
+msgstr "מספר פריטי חדשות במסגרת תצוגה"
+
+#: modules/aggregator/aggregator.module:339
+msgid "View this feed's recent news."
+msgstr "תצוגת החדשות האחרונות בנושא זה."
+
+#: modules/aggregator/aggregator.module:347
+msgid "View this category's recent news."
+msgstr "הצג את החדשות האחרונות בסיווג זה"
+
+#: modules/aggregator/aggregator.module:457
+#, fuzzy
+msgid "The news items from %site have been removed."
+msgstr "המחרוזת נמחקה."
+
+#: modules/aggregator/aggregator.module:598
+msgid "There is no new syndicated content from %site."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:650;649
+msgid "There is new syndicated content from %site."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:653
+msgid "feed not parseable"
+msgstr ""
+
+#: modules/aggregator/aggregator.module:657
+msgid "The feed from %site seems to be broken, because of error \"%error\"."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:727
+msgid ""
+"The feed from %site seems to be broken, because of error \"%error\" on line %"
+"line."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:925;925
+msgid "blog it"
+msgstr "עדכון ביומן"
+
+#: modules/aggregator/aggregator.module:926
+msgid "Comment on this news item in your personal blog."
+msgstr "תגובה לפריט ביומן האישי."
+
+#: modules/aggregator/aggregator.module:602
+msgid "Updated URL for feed %title to %url."
+msgstr "עדכון כתובת אינטרנט %url עבור נושא %title ."
+
+#: modules/aggregator/aggregator.module:656
+msgid "The feed from %site seems to be broken, due to \"%error\"."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:726
+msgid ""
+"The feed from %site seems to be broken, due to an error \"%error\" on line %"
+"line."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:280
+msgid "administer news feeds"
+msgstr "ניהול חדשות שנצברו"
+
+#: modules/aggregator/aggregator.module:280
+msgid "access news feeds"
+msgstr "גישה לחדשות שנצברו מאתרים אחרים"
+
+#: modules/aggregator/aggregator.module:83;138
+#, fuzzy
+msgid "Feed aggregator"
+msgstr "צובר"
+
+#: modules/aggregator/aggregator.module:84
+msgid ""
+"Configure which content your site aggregates from other sites, how often it "
+"polls them, and how they're categorized."
+msgstr ""
+
+#: modules/aggregator/aggregator.module:90
+#, fuzzy
+msgid "Add feed"
+msgstr "הוסף שדה"
+
+#: modules/aggregator/aggregator.module:108
+#, fuzzy
+msgid "Remove items"
+msgstr "הסר פריטים"
+
+#: modules/aggregator/aggregator.module:116
+#, fuzzy
+msgid "Update items"
+msgstr "בדוק עדכונים"
+
+#: modules/aggregator/aggregator.module:145
+msgid "Sources"
+msgstr ""
+
+#: modules/aggregator/aggregator.module:230
+#, fuzzy
+msgid "Edit feed"
+msgstr "עדכן שדה"
+
+#: modules/aggregator/aggregator.module:238
+#, fuzzy
+msgid "Edit category"
+msgstr "הוסף נושא"
+
+#: modules/aggregator/aggregator.install:30
+msgid "Stores categories for aggregator feeds and feed items."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:35
+msgid "Primary Key: Unique aggregator category ID."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:42
+#, fuzzy
+msgid "Title of the category."
+msgstr "רק בנושא(ים)"
+
+#: modules/aggregator/aggregator.install:48
+#, fuzzy
+msgid "Description of the category"
+msgstr "תיאור הסיווג."
+
+#: modules/aggregator/aggregator.install:55
+#, fuzzy
+msgid "The number of recent items to show within the category block."
+msgstr "מספר הפעמים בהם השרת נאלץ לחכות לנעילה."
+
+#: modules/aggregator/aggregator.install:63
+msgid "Bridge table; maps feeds to categories."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:69
+msgid "The feed's {aggregator_feed}.fid."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:75
+msgid "The {aggregator_category}.cid to which the feed is being assigned."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:83
+msgid "Bridge table; maps feed items to categories."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:89
+msgid "The feed item's {aggregator_item}.iid."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:95
+msgid "The {aggregator_category}.cid to which the feed item is being assigned."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:103
+msgid "Stores feeds to be parsed by the aggregator."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:108
+msgid "Primary Key: Unique feed ID."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:115
+#, fuzzy
+msgid "Title of the feed."
+msgstr "שם התפריט."
+
+#: modules/aggregator/aggregator.install:122
+msgid "URL to the feed."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:128
+msgid "How often to check for new feed items, in seconds."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:134
+msgid "Last time feed was checked for new items, as Unix timestamp."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:141
+msgid ""
+"The parent website of the feed; comes from the <link> element in the feed."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:147
+msgid ""
+"The parent website's description; comes from the <description> element in "
+"the feed."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:153
+msgid "An image representing the feed."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:160
+msgid "Entity tag HTTP response header, used for validating cache."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:166
+msgid "When the feed was last modified, as a Unix timestamp."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:173
+#, fuzzy
+msgid "Number of items to display in the feed's block."
+msgstr "מספר פריטי חדשות לערוץ"
+
+#: modules/aggregator/aggregator.install:184
+msgid "Stores the individual items imported from feeds."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:189
+msgid "Primary Key: Unique ID for feed item."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:195
+#, fuzzy
+msgid "The {aggregator_feed}.fid to which this item belongs."
+msgstr "עמוד אב בספר."
+
+#: modules/aggregator/aggregator.install:202
+#, fuzzy
+msgid "Title of the feed item."
+msgstr "שם שורת התפריט."
+
+#: modules/aggregator/aggregator.install:209
+#, fuzzy
+msgid "Link to the feed item."
+msgstr "שם שורת התפריט."
+
+#: modules/aggregator/aggregator.install:216
+#, fuzzy
+msgid "Author of the feed item."
+msgstr "שם שורת התפריט."
+
+#: modules/aggregator/aggregator.install:222
+#, fuzzy
+msgid "Body of the feed item."
+msgstr "תצוגה של פריטי תוכן מסוג XML."
+
+#: modules/aggregator/aggregator.install:227
+msgid "Post date of feed item, as a Unix timestamp."
+msgstr ""
+
+#: modules/aggregator/aggregator.install:233
+msgid "Unique identifier for the feed item."
+msgstr ""
