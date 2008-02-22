@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of root.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: root\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 21:41+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: install.php:640
 msgid "Installing @drupal"
-msgstr ""
+msgstr "התקנת @drupal"
 
 #: install.php:641
 msgid "The installation has encountered an error."
-msgstr ""
+msgstr "קרתה שגיאה בזמן ההתקנה."
 
 #: update.php:200
 msgid ""
@@ -32,3 +32,7 @@ msgid ""
 "In order to update %module module, you will first <a href=\"@upgrade\">need "
 "to upgrade</a> to the last version in which these updates were available."
 msgstr ""
+"לא ניתן לעדכן את הרכיב %module. גרסת הסכמה היא %schema_version. "
+"עדכונים עד וכולל את %last_removed הוצאו מגרסה זו. "
+"על מנת לעדכן את הרכיב %module, יש צורך <a href=\"@upgrade\">לשדרג</a> לגרסה האחרונה בה עדכונים אלה היו זמינים."
+

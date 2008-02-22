@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of modules-translation.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-translation\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 21:51+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,24 +18,20 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/translation/translation.pages.inc:41
-#, fuzzy
 msgid "outdated"
-msgstr "עודכן"
+msgstr "לא מעודכן"
 
 #: modules/translation/translation.pages.inc:50
-#, fuzzy
 msgid "add translation"
-msgstr "שמור תרגום"
+msgstr "הוסף תרגום"
 
 #: modules/translation/translation.pages.inc:52
-#, fuzzy
 msgid "Not translated"
-msgstr "מתורגם"
+msgstr "לא מתורגם"
 
 #: modules/translation/translation.pages.inc:57
-#, fuzzy
 msgid "Translations of %title"
-msgstr "גרסאות של %title"
+msgstr "תרגומים של %title"
 
 #: modules/translation/translation.module:34
 msgid ""
@@ -118,13 +114,10 @@ msgid ""
 msgstr ""
 
 #: modules/translation/translation.module:45
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href="
 "\"@translation\">Translation module</a>."
-msgstr ""
-"למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
-"הגדרת התצורה וההתאמה."
+msgstr "למידע נוסף בבקשה קרא את ספר ההדרכה של<a href=\"@translation\">רכיב התרגומים</a>."
 
 #: modules/translation/translation.module:48
 msgid ""
@@ -136,9 +129,8 @@ msgid ""
 msgstr ""
 
 #: modules/translation/translation.module:102
-#, fuzzy
 msgid "Enabled, with translation"
-msgstr "שמור תרגום"
+msgstr "מופעל, עם תרגום"
 
 #: modules/translation/translation.module:104
 msgid ""
@@ -152,14 +144,12 @@ msgid ""
 msgstr ""
 
 #: modules/translation/translation.module:127
-#, fuzzy
 msgid "Translation settings"
-msgstr "הגדרות הצטרפות"
+msgstr "הגדרות תרגום"
 
 #: modules/translation/translation.module:138
-#, fuzzy
 msgid "Flag translations as outdated"
-msgstr "שמור תרגום"
+msgstr "סמן תרגומים כלא מעודכנים"
 
 #: modules/translation/translation.module:140
 msgid ""
@@ -181,16 +171,14 @@ msgid ""
 msgstr ""
 
 #: modules/translation/translation.module:89
-#, fuzzy
 msgid "translate content"
-msgstr "יצירת תוכן"
+msgstr "תרגם תוכן"
 
 #: modules/translation/translation.module:59
-#, fuzzy
 msgid "Translate"
-msgstr "מתורגם"
+msgstr "תרגם"
 
 #: modules/translation/translation.module:0
-#, fuzzy
 msgid "translation"
-msgstr "שמור תרגום"
+msgstr "תרגום"
+

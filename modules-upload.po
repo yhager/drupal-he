@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of modules-upload.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-upload\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 21:43+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -139,9 +139,8 @@ msgid "Total file size per user"
 msgstr ""
 
 #: modules/upload/upload.admin.inc:144
-#, fuzzy
 msgid "The maximum size of all files a user can have on the site."
-msgstr "מספר הפעמים שמותר להגיש את טופס יצירת הקשר בשעה אחת."
+msgstr "הגודל המקסימלי של כל הקבצים שמותר למשתמש לשמור באתר."
 
 #: modules/upload/upload.module:16
 msgid ""
@@ -160,13 +159,10 @@ msgid ""
 msgstr ""
 
 #: modules/upload/upload.module:18
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@upload"
 "\">Upload module</a>."
-msgstr ""
-"למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
-"השמירה</a>."
+msgstr "למידע נוסף, קרא את ספר ההדרכה של <a href=\"@upload\">רכיב העלאת הקבצים</a>."
 
 #: modules/upload/upload.module:21
 msgid ""
@@ -286,9 +282,8 @@ msgid "Primary Key: The {node}.vid associated with the uploaded file."
 msgstr ""
 
 #: modules/upload/upload.install:53
-#, fuzzy
 msgid "Description of the uploaded file."
-msgstr "תיאור הסיווג."
+msgstr "תיאור הקובץ."
 
 #: modules/upload/upload.install:61
 msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
@@ -297,3 +292,4 @@ msgstr ""
 #: modules/upload/upload.install:68
 msgid "Weight of this upload in relation to other uploads in this node."
 msgstr ""
+

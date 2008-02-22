@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of modules-throttle.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-throttle\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 21:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -68,7 +68,6 @@ msgid ""
 msgstr ""
 
 #: modules/throttle/throttle.module:121
-#, fuzzy
 msgid ""
 "The throttle module provides a congestion control mechanism that "
 "automatically adjusts to a surge in incoming traffic. If your site is "
@@ -79,13 +78,10 @@ msgid ""
 "module, modules may choose to disable resource-intensive blocks or the code "
 "within the site theme may temporarily disable user pictures in posts."
 msgstr ""
-"אם האתר שלך הומלץ על ידי אתר מבוקש, או מותקף על ידי מתקפת \"הכחשת שירות"
-"\" (DoS), השרת שלך יכול להיות עמוס מדי. רכיב זה מספק מנגנון לזיהוי אוטומטי "
-"של הצפה בתנועה נכנסת. המנגנון נמצא בשימוש על ידי רכיבים אחרים של דרופל כדי "
+"רכיב המצערת מספק מנגנון לזיהוי אוטומטי של הצפה בתנועה נכנסת. אם האתר שלך הומלץ על ידי אתר נפוץ, או מותקף על ידי מתקפת \"הפרעה לשירות"
+"\" (DoS), השרת שלך יכול להיות עמוס מדי. המנגנון נמצא בשימוש על ידי רכיבים אחרים של דרופל כדי "
 "לאפשר שיפור אוטומטי של הביצועים שלהם. הדבר מתבצע על ידי ביטול זמני של "
-"תפקודים זוללי עוצמת מחשוב. לדוגמא, בעיצוב האתר תוכל לבחור לבטל תמונות בשעת "
-"עמוס (וע\"י כך להקטין את התעבורה) או ברכיבים, תוכל לבחור לבטל לוגיקה מסובכת "
-"(ולהפחית את השימוש במעבד)."
+"פעולות זוללות עוצמת מחשוב. לדוגמא, רכיבים יכולים לבחור לבטל לוגיקה מסובכת, או שהקוד שמרכיב את עיצוב האתר יכול לבטל הצגת תמונות בפרסומים."
 
 #: modules/throttle/throttle.module:122
 msgid ""
@@ -95,16 +91,12 @@ msgid ""
 msgstr ""
 
 #: modules/throttle/throttle.module:123
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@throttle"
 "\">Throttle module</a>."
-msgstr ""
-"למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
-"השמירה</a>."
+msgstr "למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@throttle\">רכיב המצערת</a>."
 
 #: modules/throttle/throttle.module:126
-#, fuzzy
 msgid ""
 "The throttle module provides a congestion control mechanism that "
 "automatically adjusts to a surge in incoming traffic. If your site is "
@@ -113,22 +105,18 @@ msgid ""
 "mechanism is utilized by modules to temporarily disable CPU-intensive "
 "functionality, increasing performance."
 msgstr ""
-"אם האתר שלך הומלץ על ידי אתר מבוקש, או מותקף על ידי מתקפת \"הכחשת שירות"
-"\" (DoS), השרת שלך יכול להיות עמוס מדי. רכיב זה מספק מנגנון לזיהוי אוטומטי "
-"של הצפה בתנועה נכנסת. המנגנון נמצא בשימוש על ידי רכיבים אחרים של דרופל כדי "
+"רכיב המצערת מספק מנגנון לזיהוי אוטומטי של הצפה בתנועה נכנסת. אם האתר שלך הומלץ על ידי אתר נפוץ, או מותקף על ידי מתקפת \"הפרעה לשירות"
+"\" (DoS), השרת שלך יכול להיות עמוס מדי. המנגנון נמצא בשימוש על ידי רכיבים אחרים של דרופל כדי "
 "לאפשר שיפור אוטומטי של הביצועים שלהם. הדבר מתבצע על ידי ביטול זמני של "
-"תפקודים זוללי עוצמת מחשוב. לדוגמא, בעיצוב האתר תוכל לבחור לבטל תמונות בשעת "
-"עמוס (וע\"י כך להקטין את התעבורה) או ברכיבים, תוכל לבחור לבטל לוגיקה מסובכת "
-"(ולהפחית את השימוש במעבד)."
+"פעולות זוללות עוצמת מחשוב."
 
 #: modules/throttle/throttle.module:110;0
 msgid "throttle"
 msgstr "מצערת"
 
 #: modules/throttle/throttle.module:110
-#, fuzzy
 msgid "Throttle: %message"
-msgstr "הודעה בתחתית האתר"
+msgstr "מצערת: %message"
 
 #: modules/throttle/throttle.module:87
 msgid "1 user accessing site; throttle enabled."
@@ -151,3 +139,4 @@ msgstr[1] "משתמשים אורחים פעילים באתר;המצערת לא �
 #: modules/throttle/throttle.module:12
 msgid "Control how your site cuts out content during heavy load."
 msgstr ""
+

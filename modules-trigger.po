@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of modules-trigger.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-trigger\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 21:48+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/trigger/trigger.admin.inc:74
-#, fuzzy
 msgid "Are you sure you want to unassign the action %title?"
-msgstr "האמנם ברצונך למחוק את התגובה '%title'?"
+msgstr "האם ברצונך לבטל את השמת הפעולה %title?"
 
 #: modules/trigger/trigger.admin.inc:76
 msgid "You can assign it again later if you wish."
@@ -31,9 +30,8 @@ msgid "Unassign"
 msgstr ""
 
 #: modules/trigger/trigger.admin.inc:88;87
-#, fuzzy
 msgid "Action %action has been unassigned."
-msgstr "הנושא %category עודכן."
+msgstr "הפעולה %action כעת ללא השמה."
 
 #: modules/trigger/trigger.admin.inc:143
 msgid "Trigger: "
@@ -66,9 +64,8 @@ msgid ""
 msgstr ""
 
 #: modules/trigger/trigger.admin.inc:236
-#, fuzzy
 msgid "Operation"
-msgstr "פעולות אפשריות"
+msgstr "פעולה"
 
 #: modules/trigger/trigger.module:14
 msgid ""
@@ -130,13 +127,10 @@ msgid ""
 msgstr ""
 
 #: modules/trigger/trigger.module:29
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@trigger"
 "\">Trigger module</a>."
-msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
+msgstr "למידע נוסף על הגדרות והתאמות קרא בספר השימוש של<a href=\"@trigger\">רכיב trigger</a>."
 
 #: modules/trigger/trigger.module:39
 msgid "Triggers"
@@ -181,3 +175,4 @@ msgstr ""
 #: modules/trigger/trigger.install:55
 msgid "The weight of the trigger assignment in relation to other triggers."
 msgstr ""
+

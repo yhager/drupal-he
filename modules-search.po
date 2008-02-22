@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of modules-search.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-search\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 22:01+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: modules/search/search.admin.inc:13
 msgid "Are you sure you want to re-index the site?"
-msgstr "האמנם ברצונך לבצע מיפתוח מחדש של האתר?"
+msgstr "האמנם ברצונך לבצע אינדוקס מחדש של האתר?"
 
 #: modules/search/search.admin.inc:14
 msgid ""
@@ -53,9 +53,8 @@ msgid "Indexing throttle"
 msgstr "מצערת מיפתוח"
 
 #: modules/search/search.admin.inc:58
-#, fuzzy
 msgid "Number of items to index per cron run"
-msgstr "פריטים למיפתוח בכל הפעלת cron"
+msgstr "פריטים לאינדוקס בכל הפעלת cron"
 
 #: modules/search/search.admin.inc:58
 msgid ""
@@ -139,7 +138,6 @@ msgid "%keys (@type)."
 msgstr ""
 
 #: modules/search/search.module:99
-#, fuzzy
 msgid ""
 "The search module adds the ability to search for content by keywords. Search "
 "is often the only practical way to find content on a large site, and is "
@@ -162,12 +160,11 @@ msgid ""
 msgstr ""
 
 #: modules/search/search.module:101
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@search"
 "\">Search module</a>."
 msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
+"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">רכיב "
 "החיפוש</a>."
 
 #: modules/search/search.module:104
@@ -217,9 +214,8 @@ msgid "Enter your keywords"
 msgstr "מילות מפתח לחיפוש"
 
 #: modules/search/search.module:1052
-#, fuzzy
 msgid "Search this site"
-msgstr "הגדרות חיפוש"
+msgstr "חפש באתר"
 
 #: modules/search/search.module:1056
 msgid "Enter the terms you wish to search for."
@@ -286,13 +282,11 @@ msgid "The {search_total}.word that is associated with the search item."
 msgstr ""
 
 #: modules/search/search.install:76;123;130
-msgid ""
-"The {search_dataset}.sid of the searchable item to which the word belongs."
+msgid "The {search_dataset}.sid of the searchable item to which the word belongs."
 msgstr ""
 
 #: modules/search/search.install:82
-msgid ""
-"The {search_dataset}.type of the searchable item to which the word belongs."
+msgid "The {search_dataset}.type of the searchable item to which the word belongs."
 msgstr ""
 
 #: modules/search/search.install:87
@@ -314,10 +308,10 @@ msgid ""
 msgstr ""
 
 #: modules/search/search.install:137
-#, fuzzy
 msgid "The {node}.nid that this item links to."
-msgstr "עמוד אב בספר."
+msgstr "ה {node}.nid שאליו מקושר פריט זה"
 
 #: modules/search/search.install:143
 msgid "The text used to link to the {node}.nid."
 msgstr ""
+

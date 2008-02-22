@@ -1,4 +1,4 @@
-# translation of general.po to Hebrew
+# translation of modules-tracker.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
 # Yuval Hager <yuval@avramzon.net>, 2007.
@@ -6,9 +6,9 @@
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-tracker\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2007-12-22 21:51+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: modules/tracker/tracker.pages.inc:57
 msgid "!time ago"
-msgstr ""
+msgstr "לפני !time"
 
 #: modules/tracker/tracker.pages.inc:65
 msgid "Post"
@@ -54,13 +54,10 @@ msgid ""
 msgstr ""
 
 #: modules/tracker/tracker.module:17
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@tracker"
 "\">Tracker module</a>."
-msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
+msgstr "למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@tracker\">רכיב המעקב</a>."
 
 #: modules/tracker/tracker.module:27
 msgid "Recent posts"
@@ -81,3 +78,4 @@ msgstr "עקוב אחר פרסומים"
 #: modules/tracker/tracker.module:0
 msgid "tracker"
 msgstr "מעקב"
+
