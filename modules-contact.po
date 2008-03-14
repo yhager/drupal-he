@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -140,29 +140,29 @@ msgstr ""
 msgid "Your e-mail address"
 msgstr "כתובת הדואר האלקטרוני שלך"
 
-#: modules/contact/contact.pages.inc:88;194
+#: modules/contact/contact.pages.inc:88;197
 msgid "Send yourself a copy."
 msgstr "שלח לי עותק."
 
-#: modules/contact/contact.pages.inc:96
+#: modules/contact/contact.pages.inc:99
 msgid ""
 "The contact form has not been configured. <a href=\"@add\">Add one or more "
 "categories</a> to the form."
 msgstr ""
 
-#: modules/contact/contact.pages.inc:106
+#: modules/contact/contact.pages.inc:109
 msgid "You must select a valid category."
 msgstr "חובה להכניס נושא."
 
-#: modules/contact/contact.pages.inc:109
+#: modules/contact/contact.pages.inc:112
 msgid "You must enter a valid e-mail address."
 msgstr "חובה להכניס כתובת דואר אלקטרוני תקפה."
 
-#: modules/contact/contact.pages.inc:144
+#: modules/contact/contact.pages.inc:147
 msgid "Your message has been sent."
 msgstr "ההודעה שלך נשלחה."
 
-#: modules/contact/contact.pages.inc:158
+#: modules/contact/contact.pages.inc:161
 msgid ""
 "You need to provide a valid e-mail address to contact other users. Please "
 "update your <a href=\"@url\">user information</a> and try again."
@@ -170,30 +170,30 @@ msgstr ""
 "יש להזין כתובת דואר אלקטרוני תקפה כדי להתקשר עם חברים אחרים. אנא עדכן את <a "
 "href=\"@url\">מידע המשתמש</a> שלך ונסה שוב."
 
-#: modules/contact/contact.pages.inc:161
+#: modules/contact/contact.pages.inc:164
 msgid ""
 "You cannot contact more than %number users per hour. Please try again later."
 msgstr ""
 "המערכת אינה מאפשרת לך ליצור קשר עם יותר מ-%number חברים בשעה. אפשר לנסות שוב "
 "מאוחר יותר."
 
-#: modules/contact/contact.pages.inc:176
+#: modules/contact/contact.pages.inc:179
 msgid "From"
 msgstr "מ"
 
-#: modules/contact/contact.pages.inc:180
+#: modules/contact/contact.pages.inc:183
 msgid "To"
 msgstr "אל"
 
-#: modules/contact/contact.pages.inc:229
+#: modules/contact/contact.pages.inc:232
 msgid "The message has been sent."
 msgstr "ההודעה נשלחה."
 
-#: modules/contact/contact.pages.inc:143
+#: modules/contact/contact.pages.inc:146
 msgid "%name-from sent an e-mail regarding %category."
 msgstr "%name-from שלח דואר אלקטרוני בנושא %category."
 
-#: modules/contact/contact.pages.inc:228
+#: modules/contact/contact.pages.inc:231
 msgid "%name-from sent %name-to an e-mail."
 msgstr " %name-from שלח אל %name-to דואר אלקטרוני."
 

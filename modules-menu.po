@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -22,23 +22,23 @@ msgstr ""
 msgid "There are no menu items yet."
 msgstr "שם שורת התפריט."
 
-#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:236
+#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:235
 msgid "disabled"
 msgstr "חסום"
 
-#: modules/menu/menu.admin.inc:103
+#: modules/menu/menu.admin.inc:104
 msgid "reset"
 msgstr "אתחל"
 
-#: modules/menu/menu.admin.inc:174
+#: modules/menu/menu.admin.inc:175
 msgid "Menu item"
 msgstr "שורה בתפריט"
 
-#: modules/menu/menu.admin.inc:175;299
+#: modules/menu/menu.admin.inc:177;299
 msgid "Expanded"
 msgstr "מורחב"
 
-#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:359
+#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:358
 msgid "Menu settings"
 msgstr "הגדרות תפריט"
 
@@ -49,7 +49,7 @@ msgid ""
 "front page."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:386
+#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:385
 #, fuzzy
 msgid "Menu link title"
 msgstr "כותרת התיבה"
@@ -74,14 +74,14 @@ msgid ""
 msgstr ""
 "אם תיבת סימון זו מסומנת ולשורת התפריט יש ילדים, התפריט תמיד יופיע מורחב."
 
-#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:402
+#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:401
 msgid ""
 "The maximum depth for an item and all its children is fixed at !maxdepth. "
 "Some menu items may not be available as parents if selecting them would "
 "exceed this limit."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:322 modules/menu/menu.module:411
+#: modules/menu/menu.admin.inc:323 modules/menu/menu.module:411
 msgid ""
 "Optional. In the menu, the heavier items will sink and the lighter items "
 "will be positioned nearer the top."
@@ -89,23 +89,17 @@ msgstr ""
 "אופציונלי. השורות הכבדות יותר בתפריט שוקעות למטה בעוד שהקלות יותר ממוקמות "
 "ליד ראש התפריט. "
 
-#: modules/menu/menu.admin.inc:337
-msgid ""
-"The menu system stores system paths only, but will use the URL alias for "
-"display. %link_path has been stored as %normal_path"
-msgstr ""
-
-#: modules/menu/menu.admin.inc:378 modules/menu/menu.module:303
+#: modules/menu/menu.admin.inc:379 modules/menu/menu.module:302
 #, fuzzy
 msgid "There was an error saving the menu link."
 msgstr "השם שיוצג עבור התפריט."
 
-#: modules/menu/menu.admin.inc:402
+#: modules/menu/menu.admin.inc:403
 #, fuzzy
 msgid "Menu name"
 msgstr "שמך"
 
-#: modules/menu/menu.admin.inc:404
+#: modules/menu/menu.admin.inc:405
 msgid ""
 "The machine-readable name of this menu. This text will be used for "
 "constructing the URL of the <em>menu overview</em> page for this menu. This "
@@ -113,84 +107,103 @@ msgid ""
 "unique."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:459
+#: modules/menu/menu.admin.inc:460
 #, fuzzy
 msgid "Are you sure you want to delete the custom menu %title?"
 msgstr "האמנם ברצונך למחוק את התגובה '%title'?"
 
-#: modules/menu/menu.admin.inc:491
+#: modules/menu/menu.admin.inc:492
 #, fuzzy
 msgid "The custom menu %title has been deleted."
 msgstr "התפריט %title נמחק."
 
-#: modules/menu/menu.admin.inc:501
+#: modules/menu/menu.admin.inc:502
 msgid ""
 "The menu name may only consist of lowercase letters, numbers, and hyphens."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:511
+#: modules/menu/menu.admin.inc:512
 #, fuzzy
 msgid "The menu already exists."
 msgstr "התגובה אינה קיימת."
 
-#: modules/menu/menu.admin.inc:563
+#: modules/menu/menu.admin.inc:564
 msgid "Are you sure you want to delete the custom menu item %item?"
 msgstr "האמנם ברצונך למחוק את שורת התפריט %item? "
 
-#: modules/menu/menu.admin.inc:573
+#: modules/menu/menu.admin.inc:574
 msgid "The menu item %title has been deleted."
 msgstr "שורת התפריט %title נמחקה."
 
-#: modules/menu/menu.admin.inc:583
+#: modules/menu/menu.admin.inc:584
 msgid "Are you sure you want to reset the item %item to its default values?"
 msgstr "האם אתם בטוחים שאתם מעוניינים לאתחל את הפריט %item לערך בררת המחדל?"
 
-#: modules/menu/menu.admin.inc:583
+#: modules/menu/menu.admin.inc:584
 msgid "Any customizations will be lost. This action cannot be undone."
 msgstr "כל השינויים ימחקו. הפעולה אינה הפיכה."
 
-#: modules/menu/menu.admin.inc:592
+#: modules/menu/menu.admin.inc:593
 msgid "The menu item was reset to its default settings."
 msgstr "שורת התפריט אותחלה להגדרות ברירת המחדל."
 
-#: modules/menu/menu.admin.inc:602
+#: modules/menu/menu.admin.inc:603
 msgid ""
 "The menu module allows on-the-fly creation of menu links in the content "
 "authoring forms. The following option sets the default menu in which a new "
 "link will be added."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:607
+#: modules/menu/menu.admin.inc:609
 msgid "Default menu for content"
 msgstr ""
 
-#: modules/menu/menu.admin.inc:610
+#: modules/menu/menu.admin.inc:612
 msgid ""
 "Choose the menu to be the default in the menu options in the content "
 "authoring form."
 msgstr ""
 
 #: modules/menu/menu.admin.inc:616
+msgid "No primary links"
+msgstr ""
+
+#: modules/menu/menu.admin.inc:619
+#, fuzzy
+msgid "Source for the primary links"
+msgstr "אין קישורים משניים"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:626
+#, fuzzy
+msgid "No secondary links"
+msgstr "אין קישורים משניים"
+
+#: modules/menu/menu.admin.inc:629
 #, fuzzy
 msgid "Source for the secondary links"
 msgstr "אין קישורים משניים"
 
-#: modules/menu/menu.admin.inc:620
+#: modules/menu/menu.admin.inc:633
 msgid ""
-"Select what should be displayed as the secondary links. If %primary is "
-"chosen, the children of the active primary menu link (if any) will be shown "
-"instead of the links in the %secondary menu."
+"Select what should be displayed as the secondary links. You can choose the "
+"same menu for secondary links as for primary links (currently %primary). If "
+"you do this, the children of the active primary menu link will be displayed "
+"as secondary links."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:492
+#: modules/menu/menu.admin.inc:493
 msgid "Deleted custom menu %title and all its menu items."
 msgstr ""
 
-#: modules/menu/menu.admin.inc:574
+#: modules/menu/menu.admin.inc:575
 msgid "Deleted menu item %title."
 msgstr "שורת התפריט %title נמחקה."
 
-#: modules/menu/menu.admin.inc:456
+#: modules/menu/menu.admin.inc:457
 msgid ""
 "<strong>Warning:</strong> There is currently 1 menu item in %title. It will "
 "be deleted (system-defined items will be reset)."
@@ -200,7 +213,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: modules/menu/menu.admin.inc:504
+#: modules/menu/menu.admin.inc:505
 #, fuzzy
 msgid "The menu name can't be longer than 1 character."
 msgid_plural "The menu name can't be longer than @count characters."
@@ -270,12 +283,12 @@ msgstr ""
 msgid "Enter the title and path for your new menu item."
 msgstr "כאן ניתן להגדיר כותרת, משקל, נתיב ומיקום לשורת התפריט החדשה."
 
-#: modules/menu/menu.module:373
+#: modules/menu/menu.module:372
 #, fuzzy
 msgid "Delete this menu item."
 msgstr "מחק שורת תפריט"
 
-#: modules/menu/menu.module:388
+#: modules/menu/menu.module:387
 msgid ""
 "The link text corresponding to this item that should appear in the menu. "
 "Leave blank if you do not wish to add this post to the menu."
@@ -338,22 +351,43 @@ msgstr "איתחול שורת תפריט"
 msgid "Delete menu item"
 msgstr "מחק שורת תפריט"
 
-#: modules/menu/menu.install:29
+#: modules/menu/menu.install:31
 msgid ""
 "Holds definitions for top-level custom menus (for example, Primary Links)."
 msgstr ""
 
-#: modules/menu/menu.install:36
+#: modules/menu/menu.install:38
 msgid ""
 "Primary Key: Unique key for menu. This is used as a block delta so length is "
 "32."
 msgstr ""
 
-#: modules/menu/menu.install:43
+#: modules/menu/menu.install:45
 msgid "Menu title; displayed at top of block."
 msgstr ""
 
-#: modules/menu/menu.install:48
+#: modules/menu/menu.install:50
 #, fuzzy
 msgid "Menu description."
 msgstr "אל תראה תיאורים"
+
+#: (duplicate) modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""

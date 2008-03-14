@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-tracker\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-12-22 21:51+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -28,12 +28,6 @@ msgstr "הודעה"
 #: modules/tracker/tracker.pages.inc:65
 msgid "Last updated"
 msgstr ""
-
-#: modules/tracker/tracker.pages.inc:48
-msgid "1 new"
-msgid_plural "@count new"
-msgstr[0] "אחת חדשה"
-msgstr[1] "@count חדשות"
 
 #: modules/tracker/tracker.module:15
 msgid ""
@@ -57,7 +51,9 @@ msgstr ""
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@tracker"
 "\">Tracker module</a>."
-msgstr "למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@tracker\">רכיב המעקב</a>."
+msgstr ""
+"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@tracker\">רכיב "
+"המעקב</a>."
 
 #: modules/tracker/tracker.module:27
 msgid "Recent posts"
@@ -79,3 +75,7 @@ msgstr "עקוב אחר פרסומים"
 msgid "tracker"
 msgstr "מעקב"
 
+#~ msgid "1 new"
+#~ msgid_plural "@count new"
+#~ msgstr[0] "אחת חדשה"
+#~ msgstr[1] "@count חדשות"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -22,79 +22,84 @@ msgstr ""
 msgid "Timestamp"
 msgstr "חותמת זמן"
 
+#: modules/statistics/statistics.admin.inc:15;51
+#: modules/statistics/statistics.pages.inc:47
+msgid "Page"
+msgstr ""
+
 #: modules/statistics/statistics.admin.inc:29
 #: modules/statistics/statistics.pages.inc:25;56
 msgid "details"
 msgstr "פרטים"
 
-#: modules/statistics/statistics.admin.inc:33;63;96;128
+#: modules/statistics/statistics.admin.inc:33;64;97;129
 #: modules/statistics/statistics.pages.inc:29;60
 #, fuzzy
 msgid "No statistics available."
 msgstr "אין פרסומים מתאימים"
 
-#: modules/statistics/statistics.admin.inc:49;78;114
+#: modules/statistics/statistics.admin.inc:50;79;115
 msgid "Hits"
 msgstr "כניסות"
 
-#: modules/statistics/statistics.admin.inc:51
+#: modules/statistics/statistics.admin.inc:52
 msgid "Average page generation time"
 msgstr "זמן יצירת עמוד ממוצע"
 
-#: modules/statistics/statistics.admin.inc:52;80
+#: modules/statistics/statistics.admin.inc:53;81
 msgid "Total page generation time"
 msgstr "זמן יצירת עמוד כולל"
 
-#: modules/statistics/statistics.admin.inc:59
+#: modules/statistics/statistics.admin.inc:60
 msgid "%time ms"
 msgstr "%time מילישניות"
 
-#: modules/statistics/statistics.admin.inc:66
+#: modules/statistics/statistics.admin.inc:67
 msgid "Top pages in the past %interval"
 msgstr "עמודים הכי מבוקשים ב%interval האחרון"
 
-#: modules/statistics/statistics.admin.inc:91
+#: modules/statistics/statistics.admin.inc:92
 msgid "unban"
 msgstr "בטל חסימה"
 
-#: modules/statistics/statistics.admin.inc:91
+#: modules/statistics/statistics.admin.inc:92
 msgid "ban"
 msgstr "חסום"
 
-#: modules/statistics/statistics.admin.inc:99
+#: modules/statistics/statistics.admin.inc:100
 msgid "Top visitors in the past %interval"
 msgstr "חברים מובילים ב%interval אחרון"
 
-#: modules/statistics/statistics.admin.inc:111
+#: modules/statistics/statistics.admin.inc:112
 msgid "Top referrers in the past %interval"
 msgstr "מפנים מובילים ב%interval אחרון."
 
-#: modules/statistics/statistics.admin.inc:115
+#: modules/statistics/statistics.admin.inc:116
 msgid "Url"
 msgstr "כתובת url"
 
-#: modules/statistics/statistics.admin.inc:116
+#: modules/statistics/statistics.admin.inc:117
 msgid "Last visit"
 msgstr "ביקור אחרון"
 
-#: modules/statistics/statistics.admin.inc:187
+#: modules/statistics/statistics.admin.inc:188
 #: modules/statistics/statistics.module:136
 msgid "Access log settings"
 msgstr "הגדרות רישום פעילויות"
 
-#: modules/statistics/statistics.admin.inc:190
+#: modules/statistics/statistics.admin.inc:191
 msgid "Enable access log"
 msgstr "אפשר רישום פעילות"
 
-#: modules/statistics/statistics.admin.inc:193
+#: modules/statistics/statistics.admin.inc:194
 msgid "Log each page access. Required for referrer statistics."
 msgstr "רישום כל גישה לעמוד. נדרש עבור סטטיסטיקות מפנים."
 
-#: modules/statistics/statistics.admin.inc:197
+#: modules/statistics/statistics.admin.inc:198
 msgid "Discard access logs older than"
 msgstr "מחק רישומים בני יותר מ"
 
-#: modules/statistics/statistics.admin.inc:200
+#: modules/statistics/statistics.admin.inc:201
 #, fuzzy
 msgid ""
 "Older access log entries (including referrer statistics) will be "
@@ -104,15 +109,15 @@ msgstr ""
 "כניסות ישנות יותר (כולל סטטיסטיקות לגבי כתובות מקור) יימחקו אוטומטית. דורש "
 "crontab."
 
-#: modules/statistics/statistics.admin.inc:205
+#: modules/statistics/statistics.admin.inc:206
 msgid "Content viewing counter settings"
 msgstr "הגדרות מונה צפיות בתוכן"
 
-#: modules/statistics/statistics.admin.inc:208
+#: modules/statistics/statistics.admin.inc:209
 msgid "Count content views"
 msgstr "ספור צפיות בתוכן"
 
-#: modules/statistics/statistics.admin.inc:211
+#: modules/statistics/statistics.admin.inc:212
 msgid "Increment a counter each time content is viewed."
 msgstr "קדם מונה בכל פעם שנצפה תוכן באתר."
 
@@ -255,43 +260,43 @@ msgstr ""
 "של משתמש, חסימת אורח עובדת גם למשתמשים לא רשומים. השימוש הכי נפוץ בחסימה כזו "
 "הוא עבור רובוטים או זוחלי-רשת שונים, כאשר הם לוקחים יותר מדי משאבי מערכת."
 
-#: modules/statistics/statistics.module:243;285
+#: modules/statistics/statistics.module:246;288
 msgid "Popular content"
 msgstr "תוכן מבוקש"
 
-#: modules/statistics/statistics.module:253
+#: modules/statistics/statistics.module:256
 msgid "Number of day's top views to display"
 msgstr "מספר הפריטים המובילים של היום שיוצגו ברשימת \"היום\""
 
-#: modules/statistics/statistics.module:253
+#: modules/statistics/statistics.module:256
 msgid "How many content items to display in \"day\" list."
 msgstr "כמה פריטי תוכן להציג ברשימת \"יום\"."
 
-#: modules/statistics/statistics.module:254
+#: modules/statistics/statistics.module:257
 msgid "Number of all time views to display"
 msgstr "מספר הפריטים שיוצגו ברשימת \"כל הזמנים\""
 
-#: modules/statistics/statistics.module:254
+#: modules/statistics/statistics.module:257
 msgid "How many content items to display in \"all time\" list."
 msgstr "כמה פריטי תוכן להציג ברשימת \"כל הזמנים\"."
 
-#: modules/statistics/statistics.module:255
+#: modules/statistics/statistics.module:258
 msgid "Number of most recent views to display"
 msgstr "מספר הפריטים שיוצגו ברשימת \"נצפו לאחרונה\""
 
-#: modules/statistics/statistics.module:255
+#: modules/statistics/statistics.module:258
 msgid "How many content items to display in \"recently viewed\" list."
 msgstr "כמה פריטי תוכן להציג ברשימת \"נצפו לאחרונה\"."
 
-#: modules/statistics/statistics.module:269
+#: modules/statistics/statistics.module:272
 msgid "Today's:"
 msgstr "היום:"
 
-#: modules/statistics/statistics.module:274
+#: modules/statistics/statistics.module:277
 msgid "All time:"
 msgstr "כל הזמנים:"
 
-#: modules/statistics/statistics.module:279
+#: modules/statistics/statistics.module:282
 msgid "Last viewed:"
 msgstr "נצפה לאחרונה:"
 

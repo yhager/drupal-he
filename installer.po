@@ -1,16 +1,16 @@
-# translation of general.po to Hebrew
+# translation of installer.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"Project-Id-Version: installer\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"PO-Revision-Date: 2008-03-14 08:08+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -114,27 +114,21 @@ msgid "Table prefix"
 msgstr "קידומת לטבלאות"
 
 #: install.php:322
-#, fuzzy
 msgid ""
 "If more than one application will be sharing this database, enter a table "
 "prefix such as %prefix for your @drupal site here."
-msgstr ""
-"אם יש יותר מאתר @drupal אחד שחולק את מסד הנתונים הזה, הכנס את קידומת הטבלאות "
-"הדרושה לאתר @drupal שלך כאן."
+msgstr "אם יש יותר מיישום אחד שחולק את מסד הנתונים הזה, הכנס קידומת לטבלאות כמו למשל %prefix לאתר @drupal שלך כאן."
 
-#: install.php:327;474;1061
+#: install.php:327;474;1079
 msgid "Save and continue"
 msgstr ""
 
 #: install.php:355
-#, fuzzy
 msgid ""
 "The database table prefix you have entered, %db_prefix, is invalid. The "
 "table prefix can only contain alphanumeric characters, periods, or "
 "underscores."
-msgstr ""
-"קידומת הטבלאות שהכנסת, %db_prefix, אינה תקפה. על קידומת זו להכיל אותיות, "
-"מספרים, קוים תחתיים ונקודות בלבד."
+msgstr "קידומת הטבלאות שהכנסת, %db_prefix, אינה תקפה. קידומת זו יכולה להכיל תוים, נקודות או קוים תחתיים בלבד."
 
 #: install.php:359
 msgid "Database port must be a number."
@@ -172,10 +166,9 @@ msgstr ""
 msgid "Select an installation profile"
 msgstr "בחר את תצורת ההתקנה"
 
-#: install.php:508;550;911
-#, fuzzy
+#: install.php:508;550;929
 msgid "Choose language"
-msgstr "שפה מותאמת אישית"
+msgstr "בחר שפה"
 
 #: install.php:510
 msgid ""
@@ -214,23 +207,20 @@ msgid ""
 msgstr ""
 
 #: install.php:515
-#, fuzzy
 msgid "How should the installation continue?"
-msgstr "התקנת @drupal הושלמה"
+msgstr "כיצד להמשיך בהתקנה?"
 
 #: install.php:516
-#, fuzzy
 msgid "Continue installation in English"
-msgstr "שם השפה באנגלית"
+msgstr "המשך התקנה באנגלית"
 
 #: install.php:516
 msgid "Return to choose a language"
 msgstr ""
 
 #: install.php:519
-#, fuzzy
 msgid "Install Drupal in English"
-msgstr "שם השפה באנגלית"
+msgstr "התקן את דרופל באנגלית"
 
 #: install.php:519
 msgid "Learn how to install Drupal in other languages"
@@ -245,9 +235,8 @@ msgid "(built-in)"
 msgstr "(מובנה)"
 
 #: install.php:578
-#, fuzzy
 msgid "Select language"
-msgstr "כל השפות"
+msgstr "בחר שפה"
 
 #: install.php:588
 msgid "No profiles available"
@@ -267,7 +256,6 @@ msgid "Drupal already installed"
 msgstr "דרופל כבר מותקן"
 
 #: install.php:601
-#, fuzzy
 msgid ""
 "<ul><li>To start over, you must empty your existing database.</li><li>To "
 "install to a different database, edit the appropriate <em>settings.php</em> "
@@ -275,15 +263,27 @@ msgid ""
 "installation, proceed to the <a href=\"@base-url/update.php\">update script</"
 "a>.</li><li>View your <a href=\"@base-url\">existing site</a>.</li></ul>"
 msgstr ""
-"<ul><li> כדי להתחיל מחדש, עליך לרוקן את מסד הנתונים.</li><li> כדי להתקין "
-"למסד נתונים אחר, ערוך את קובץ ההגדרות המתאים -  <em> settings.php </em>  "
-"בתיקיה<em> sites</em>. </li><li> כדי לשדרג התקנה קיימת, עבור אל<a href="
-"\"@base-url/update.php\"> תסריט השדרוג</a>. </li></ul>"
+"<ul><li> "
+"כדי להתחיל מחדש, עליך לרוקן את מסד הנתונים. "
+"</li><li> "
+"כדי להתקין למסד נתונים אחר, ערוך את קובץ ההגדרות <em>settings.php</em> המתאים בספריה <em>sites</em>. "
+"</li><li> "
+"כדי לשדרג התקנה קיימת, עבור אל<a href=\"@base-url/update.php\"> תסריט השדרוג</a>. "
+"</li><li> "
+"הכנס ל<a href=\"@base-url\">אתר הקיים</a> שלך."
+"</li></ul>"
 
-#: install.php:697;916
-#, fuzzy
+#: install.php:640
+msgid "Installing @drupal"
+msgstr "התקנת @drupal"
+
+#: install.php:641
+msgid "The installation has encountered an error."
+msgstr ""
+
+#: install.php:697;934
 msgid "Configure site"
-msgstr "הגדר"
+msgstr "הגדר את האתר"
 
 #: install.php:703
 #, fuzzy
@@ -330,18 +330,13 @@ msgstr "ברכות, @drupal הותקן בהצלחה."
 msgid ""
 "Please review the messages above before continuing on to <a href=\"@url"
 "\">your new site</a>."
-msgstr ""
-"אנא בדוק את ההודעות למעלה לפני שתמשיך ל<a href=\"@url\">אתר החדש שלך</a>."
+msgstr "אנא בדוק את ההודעות למעלה לפני שתמשיך ל<a href=\"@url\">אתר החדש שלך</a>."
 
 #: install.php:782
 msgid "You may now visit <a href=\"@url\">your new site</a>."
 msgstr "תוכל כעת לגלוש אל <a href=\"@url\">האתר החדש שלך</a>."
 
-#: install.php:871
-msgid "Currently using !item !version"
-msgstr "כרגע מתוקנת !item !version."
-
-#: install.php:899
+#: install.php:887
 #, fuzzy
 msgid ""
 "The @drupal installer requires write permissions to %file during the "
@@ -351,75 +346,70 @@ msgstr ""
 "מערכת ההתקנה של @drupal צריכה הרשאות כתיבה לקובץ <span dir=\"ltr\">%file</"
 "span> בזמן תהליך ההתקנה."
 
-#: install.php:910
-#, fuzzy
-msgid "Choose profile"
-msgstr "פרופיל משתמש"
+#: install.php:902;914
+msgid "Currently using !item !version"
+msgstr "כרגע מתוקנת !item !version."
 
-#: install.php:912
+#: install.php:928
+msgid "Choose profile"
+msgstr "בחר פרופיל התקנה"
+
+#: install.php:930
 msgid "Verify requirements"
 msgstr ""
 
-#: install.php:913
-#, fuzzy
+#: install.php:931
 msgid "Set up database"
-msgstr "העדכון הבא"
+msgstr "התקנת בסיס הנתונים"
 
-#: install.php:914
-#, fuzzy
+#: install.php:932
 msgid "Install profile"
-msgstr "פרופיל משתמש"
+msgstr "התקנה פרופיל"
 
-#: install.php:915
-#, fuzzy
+#: install.php:933
 msgid "Set up translations"
-msgstr "שמור תרגום"
+msgstr "התקנת תרגומים"
 
-#: install.php:927
+#: install.php:945
 msgid "Install site"
-msgstr ""
+msgstr "התקנת האתר"
 
-#: install.php:947
-#, fuzzy
+#: install.php:965
 msgid "Finish translations"
-msgstr "שמור תרגום"
+msgstr "סיום תרגומים"
 
-#: install.php:952
-#, fuzzy
+#: install.php:970
 msgid "Finished"
-msgstr "פינית"
+msgstr "סיום"
 
-#: install.php:969
-#, fuzzy
+#: install.php:987
 msgid "To configure your website, please provide the following information."
-msgstr "כדי להגדיר את מסד הנתונים שלך עבור @drupal, יש להזין את הפרטים הבאים."
+msgstr "כדי להגדיר את האתר שלך, אנא ענה על השאלות הבאות."
 
-#: install.php:974
+#: install.php:992
 msgid "Site information"
 msgstr "מידע על האתר"
 
-#: install.php:979
+#: install.php:997
 msgid "Site name"
 msgstr "שם האתר"
 
-#: install.php:985
-#, fuzzy
+#: install.php:1003
 msgid "Site e-mail address"
-msgstr "כתובת הדואר האלקטרוני שלך"
+msgstr "כתובת הדואר האלקטרוני של האתר"
 
-#: install.php:987
+#: install.php:1005
 msgid ""
 "The <em>From</em> address in automated e-mails sent during registration and "
 "new password requests, and other notifications. (Use an address ending in "
 "your site's domain to help prevent this e-mail being flagged as spam.)"
 msgstr ""
 
-#: install.php:993
-#, fuzzy
+#: install.php:1011
 msgid "Administrator account"
-msgstr "ניהול"
+msgstr "חשבון מנהל"
 
-#: install.php:998
+#: install.php:1016
 msgid ""
 "The administrator account has complete access to the site; it will "
 "automatically be granted all permissions and can perform any administrative "
@@ -427,23 +417,21 @@ msgid ""
 "so keep its credentials safe."
 msgstr ""
 
-#: install.php:1003
+#: install.php:1021
 msgid "Username"
 msgstr "כינוי"
 
-#: install.php:1005
-#, fuzzy
+#: install.php:1023
 msgid ""
 "Spaces are allowed; punctuation is not allowed except for periods, hyphens, "
 "and underscores."
-msgstr ""
-"שם המשתמש המועדף עליך. אסור להשתמש בסימני פיסוק, מלבד נקודה, מקף וקו תחתי."
+msgstr "ניתן להשתמש ברווחים; סימני פיסוק אסורים מלבד נקודה, מקף וקו תחתי."
 
-#: install.php:1011
+#: install.php:1029
 msgid "E-mail address"
 msgstr "כתובת דואר אלקטרוני"
 
-#: install.php:1013
+#: install.php:1031
 #, fuzzy
 msgid ""
 "All e-mails from the system will be sent to this address. The e-mail address "
@@ -453,35 +441,31 @@ msgstr ""
 "כתובת דואר תקפה. כל הודעות הדואל מהמערכת יישלחו לכתובת זו. הכתובת תישאר "
 "חסויה ולשימוש האתר בלבד לצורך חידוש סיסמה, קבלת עדכונים והתרעות וכדומה."
 
-#: install.php:1026
-#, fuzzy
+#: install.php:1044
 msgid "Server settings"
-msgstr "שמור הגדרות"
+msgstr "הגדרות שרת"
 
-#: install.php:1031
+#: install.php:1049
 msgid "Default time zone"
 msgstr "ברירת מחדל לאזור זמן"
 
-#: install.php:1034
-#, fuzzy
-msgid ""
-"By default, dates in this site will be displayed in the chosen time zone."
-msgstr "המערכת תציג את הזמנים והתאריכים באתר בהתאם לאזור הזמן."
+#: install.php:1052
+msgid "By default, dates in this site will be displayed in the chosen time zone."
+msgstr "כברירת מחדל, התארים באתר יוצגו לפי איזור הזמן הנבחר."
 
-#: install.php:1040
+#: install.php:1058
 msgid "Clean URLs"
 msgstr "כתובות URL נקיות"
 
-#: install.php:1042
+#: (duplicate) install.php:1060 modules/system/system.install:60
 msgid "Disabled"
 msgstr "מבוטל"
 
-#: (duplicate) install.php:1042 modules/system/system.install:242
+#: (duplicate) install.php:1060 modules/system/system.install:282
 msgid "Enabled"
 msgstr "מופעל"
 
-#: install.php:1043
-#, fuzzy
+#: install.php:1061
 msgid ""
 "This option makes Drupal emit \"clean\" URLs (i.e. without <code>?q=</code> "
 "in the URL)."
@@ -489,16 +473,15 @@ msgstr ""
 "אפשרות זאת גורמת לדרופל לייצר כתובות \"נקיות\" (קרי, ללא ה-<code>?q=</code> "
 "בכתובת)."
 
-#: (duplicate) install.php:1052 modules/system/system.install:253
-#, fuzzy
+#: (duplicate) install.php:1070 modules/system/system.install:293
 msgid "Update notifications"
-msgstr "אפשרויות עדכון"
+msgstr "הודעות עדכונים"
 
-#: install.php:1053
+#: install.php:1071
 msgid "Check for updates automatically"
 msgstr ""
 
-#: install.php:1055
+#: install.php:1073
 msgid ""
 "With this option enabled, Drupal will notify you when new releases are "
 "available. This will significantly enhance your site's security and is "
@@ -508,11 +491,11 @@ msgid ""
 "\">update notification information</a>."
 msgstr ""
 
-#: (duplicate) includes/database.mysql.inc:26 includes/database.mysqli.inc:30
+#: (duplicate) includes/database.mysql.inc:26 includes/database.mysqli.inc:29
 msgid "MySQL database"
 msgstr "מסד נתונים מסוג MySQL"
 
-#: (duplicate) includes/database.mysql.inc:32 includes/database.mysqli.inc:36
+#: (duplicate) includes/database.mysql.inc:32 includes/database.mysqli.inc:35
 msgid "Your MySQL Server is too old. Drupal requires at least MySQL %version."
 msgstr "שרת ה - MySQL ישן מדי. דרופל דורשת גרסה %version ומעלה."
 
@@ -534,47 +517,45 @@ msgid ""
 "the <a href=\"@url\">PostgreSQL documentation</a>."
 msgstr ""
 
-#: (duplicate) includes/form.inc:649
+#: (duplicate) includes/form.inc:672
 msgid "!name field is required."
 msgstr "חובה למלא את השדה !name."
 
-#: (duplicate) includes/form.inc:654
+#: (duplicate) includes/form.inc:677
 msgid ""
 "!name cannot be longer than %max characters but is currently %length "
 "characters long."
-msgstr ""
-"השדה !name לא יכול להכיל יותר מאשר %max תוים, אבל יש בו כרגע %length תוים."
+msgstr "השדה !name לא יכול להכיל יותר מאשר %max תוים, אבל יש בו כרגע %length תוים."
 
-#: (duplicate) includes/form.inc:668 ;674
-msgid ""
-"An illegal choice has been detected. Please contact the site administrator."
+#: (duplicate) includes/form.inc:691 ;697
+msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr "בחירה לא חוקית זוהתה בטופס. אנא פנו למנהל האתר."
 
-#: (duplicate) includes/form.inc:2111
+#: (duplicate) includes/form.inc:2161
 msgid "This field is required."
 msgstr "חובה למלא שדה זה."
 
-#: (duplicate) includes/form.inc:2116 ;2119
+#: (duplicate) includes/form.inc:2166 ;2169
 msgid "!title: !required"
 msgstr "!title: !required"
 
-#: (duplicate) includes/form.inc:2356
+#: (duplicate) includes/form.inc:2406
 msgid "Processing"
 msgstr ""
 
-#: (duplicate) includes/form.inc:2357
+#: (duplicate) includes/form.inc:2407
 msgid "Initializing."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2358
+#: (duplicate) includes/form.inc:2408
 msgid "Remaining @remaining of @total."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2359
+#: (duplicate) includes/form.inc:2409
 msgid "An error has occurred."
 msgstr ""
 
-#: (duplicate) includes/form.inc:2432
+#: (duplicate) includes/form.inc:2482
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
 msgstr ""
 
@@ -590,8 +571,7 @@ msgstr "פתיחת %settings נכשלה, אנא וודא שהרשאות הקוב
 msgid ""
 "The %module module is required but was not found. Please move it into the "
 "<em>modules</em> subdirectory."
-msgstr ""
-"הרכיב %module נדרש אך לא נמצא. אנא הזה אותו לתיקית המשנה <em>modules</em>."
+msgstr "הרכיב %module נדרש אך לא נמצא. אנא הזה אותו לתיקית המשנה <em>modules</em>."
 
 #: includes/install.mysql.inc:24
 msgid "PHP MySQL support not enabled."
@@ -771,19 +751,17 @@ msgid ""
 "following error %error."
 msgstr ""
 
-#: (duplicate) includes/locale.inc:1015
-msgid ""
-"The translation import failed, because the file %filename could not be read."
+#: (duplicate) includes/locale.inc:1021
+msgid "The translation import failed, because the file %filename could not be read."
 msgstr "יבוא תרגום נכשל: הקובץ %filename לא קריא."
 
-#: (duplicate) includes/locale.inc:1044
+#: (duplicate) includes/locale.inc:1050
 msgid ""
 "The translation file %filename contains an error: \"msgstr\" was expected "
 "but not found on line %line."
-msgstr ""
-"קובץ תרגום %filename שבור: במקום \"msgstr\" מחרוזת לא צפויה בשורה %line."
+msgstr "קובץ תרגום %filename שבור: במקום \"msgstr\" מחרוזת לא צפויה בשורה %line."
 
-#: (duplicate) includes/locale.inc:1050
+#: (duplicate) includes/locale.inc:1056
 msgid ""
 "The translation file %filename contains an error: \"msgid_plural\" was "
 "expected but not found on line %line."
@@ -791,52 +769,49 @@ msgstr ""
 "קובץ תרגום %filename שבור: במקום \"msgid_plural\" מחרוזת לא צפויה בשורה %"
 "line."
 
-#: (duplicate) includes/locale.inc:1056 ;1074 ;1086 ;1094 ;1108 ;1117
+#: (duplicate) includes/locale.inc:1062 ;1080 ;1092 ;1100 ;1114 ;1123
 msgid "The translation file %filename contains a syntax error on line %line."
 msgstr "קובץ תרגום %filename שבור: שגיאת תחביר בשורה %line."
 
-#: (duplicate) includes/locale.inc:1068
+#: (duplicate) includes/locale.inc:1074
 msgid ""
 "The translation file %filename contains an error: \"msgid\" is unexpected on "
 "line %line."
-msgstr ""
-"קובץ תרגום %filename שבור: במקום \"msgid\" מחרוזת לא צפויה בשורה %line."
+msgstr "קובץ תרגום %filename שבור: במקום \"msgid\" מחרוזת לא צפויה בשורה %line."
 
-#: (duplicate) includes/locale.inc:1082
+#: (duplicate) includes/locale.inc:1088
 msgid ""
 "The translation file %filename contains an error: \"msgstr[]\" is unexpected "
 "on line %line."
 msgstr "קובץ תרגום %filename שבור: \"msgstr[]\" לא צפוי בשורה %line."
 
-#: (duplicate) includes/locale.inc:1102
+#: (duplicate) includes/locale.inc:1108
 msgid ""
 "The translation file %filename contains an error: \"msgstr\" is unexpected "
 "on line %line."
 msgstr "קובץ תרגום %filename שבור: \"msgstr\" לא צפוי בשורה %line."
 
-#: (duplicate) includes/locale.inc:1130
+#: (duplicate) includes/locale.inc:1136
 msgid ""
 "The translation file %filename contains an error: there is an unexpected "
 "string on line %line."
 msgstr "קובץ תרגום %filename שבור: מחרוזת לא צפויה בשורה %line."
 
-#: (duplicate) includes/locale.inc:1141
+#: (duplicate) includes/locale.inc:1147
 msgid "The translation file %filename ended unexpectedly at line %line."
 msgstr "קובץ תרגום %filename שבור: הקובץ מסתיים באופן לא צפוי בשורה %line."
 
-#: (duplicate) includes/locale.inc:2508
-#, fuzzy
+#: (duplicate) includes/locale.inc:2514
 msgid "Importing interface translations"
-msgstr "ייבא תרגום"
+msgstr "ייבא תרגום ממשק"
 
-#: (duplicate) includes/locale.inc:2509
+#: (duplicate) includes/locale.inc:2515
 msgid "Starting import"
 msgstr ""
 
-#: (duplicate) includes/locale.inc:2510
-#, fuzzy
+#: (duplicate) includes/locale.inc:2516
 msgid "Error importing interface translations"
-msgstr "הגדר את ההתאמות האיזוריות של האתר ותרגום ממשק המשתמש."
+msgstr "שגיאה בייבוא תרגום ממשק"
 
 #: includes/theme.maintenance.inc:122
 msgid ""
@@ -858,6 +833,14 @@ msgstr ""
 "a>."
 
 #: includes/theme.maintenance.inc:130
+msgid "The following installation warnings should be carefully reviewed"
+msgstr "יש לקרוא בתשומת לב את האזהרות הבאות לגבי תהליך ההתקנה"
+
+#: includes/theme.maintenance.inc:130
+msgid "The following installation warning should be carefully reviewed"
+msgstr "יש לקרוא בתשומת לב את האזהרה הבאה לגבי תהליך ההתקנה"
+
+#: includes/theme.maintenance.inc:137
 msgid ""
 "The following installation warnings should be carefully reviewed, but in "
 "most cases may be safely ignored"
@@ -865,7 +848,7 @@ msgstr ""
 "יש לקרוא בתשומת לב את האזהרות הבאות לגבי תהליך ההתקנה, אולם ברוב המקרים אין "
 "להן משמעות מעשית."
 
-#: includes/theme.maintenance.inc:130
+#: includes/theme.maintenance.inc:137
 msgid ""
 "The following installation warning should be carefully reviewed, but in most "
 "cases may be safely ignored"
@@ -932,6 +915,39 @@ msgstr "שגיאה"
 msgid "Unicode library"
 msgstr "ספרית Unicode"
 
+#: (duplicate) modules/menu/menu.install:12
+msgid "Navigation"
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13
+msgid "Primary links"
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14
+msgid "Secondary links"
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""
+
 #: (duplicate) modules/system/system.install:20
 msgid "Drupal"
 msgstr "דרופל"
@@ -940,42 +956,80 @@ msgstr "דרופל"
 msgid "Web server"
 msgstr "שרת אינטרנט"
 
-#: (duplicate) modules/system/system.install:39
-msgid ""
-"Your Apache server is too old. Drupal requires at least Apache %version."
-msgstr "שרת Apache שלך ישן מדי. דרופל דורש גרסה %version ומעלה."
-
-#: (duplicate) modules/system/system.install:45
-msgid ""
-"The web server you're using has not been tested with Drupal and might not "
-"work properly."
-msgstr "שרת ה-Web שאתה משתמש בו לא נבדק עם דרופל, ויכול להיות שלא יעבוד טוב."
-
-#: (duplicate) modules/system/system.install:51
-msgid "Unknown"
-msgstr "לא ידוע"
-
-#: (duplicate) modules/system/system.install:52
-msgid ""
-"Unable to determine your web server type and version. Drupal might not work "
-"properly."
-msgstr ""
-"לא מצליח לגלות את סוג שרת הWeb והגרסה. יכול להיות שדרופל לא יעבוד בצורה טובה."
-
-#: (duplicate) modules/system/system.install:58
+#: (duplicate) modules/system/system.install:36
 msgid "PHP"
 msgstr "PHP"
 
-#: (duplicate) modules/system/system.install:62
-msgid ""
-"Your PHP installation is too old. Drupal requires at least PHP %version."
+#: (duplicate) modules/system/system.install:40
+msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
 msgstr "התקנת PHP שלך ישנה מדי. דרופל דורש גרסה %version ומעלה."
 
-#: (duplicate) modules/system/system.install:78 ;214
+#: (duplicate) modules/system/system.install:46
+msgid "PHP register globals"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:55
+msgid ""
+"<em>register_globals</em> is enabled. Drupal requires this configuration "
+"directive to be disabled. Your site may not be secure when "
+"<em>register_globals</em> is enabled. The PHP manual has instructions for <a "
+"href=\"http://php.net/configuration.changes\">how to change configuration "
+"settings</a>."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:57
+msgid "Enabled ('@value')"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:66
+msgid "PHP memory limit"
+msgstr ""
+
+#: (duplicate) modules/system/system.install:73
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the installation process."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:76
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the update process."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:79
+msgid ""
+"Depending on your configuration, Drupal can run with a %memory_limit PHP "
+"memory limit. However, a %memory_minimum_limit PHP memory limit or above is "
+"recommended, especially if your site uses additional custom or contributed "
+"modules."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:84
+msgid ""
+"Increase the memory limit by editing the memory_limit parameter in the file %"
+"configuration-file and then restart your web server (or contact your system "
+"administrator or hosting provider for assistance)."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:87
+msgid ""
+"Contact your system administrator or hosting provider for assistance with "
+"increasing your PHP memory limit."
+msgstr ""
+
+#: (duplicate) modules/system/system.install:90
+#, fuzzy
+msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
+msgstr ""
+"נתגלתה לפחות בעיה אחת עם התקנת דרופל. בדוק את <a href=\"@status\">דו\"ח "
+"המצב</a> לקבלת מידע נוסף."
+
+#: (duplicate) modules/system/system.install:107 ;254
 msgid "Not protected"
 msgstr "לא מוגן"
 
-#: (duplicate) modules/system/system.install:83
+#: (duplicate) modules/system/system.install:112
 #, fuzzy
 msgid ""
 "The directory %file is not protected from modifications and poses a security "
@@ -984,7 +1038,7 @@ msgstr ""
 "הקובץ %file אינו מוגן משינויי כתיבה, ולכן זהו סיכון אבטחה. חובה לשנות את "
 "הרשאות הכתיבה כך לא ניתן יהיה לכתוב את הקובץ."
 
-#: (duplicate) modules/system/system.install:86
+#: (duplicate) modules/system/system.install:115
 msgid ""
 "The file %file is not protected from modifications and poses a security "
 "risk. You must change the file's permissions to be non-writable."
@@ -992,15 +1046,15 @@ msgstr ""
 "הקובץ %file אינו מוגן משינויי כתיבה, ולכן זהו סיכון אבטחה. חובה לשנות את "
 "הרשאות הכתיבה כך לא ניתן יהיה לכתוב את הקובץ."
 
-#: (duplicate) modules/system/system.install:91 ;221
+#: (duplicate) modules/system/system.install:120 ;261
 msgid "Protected"
 msgstr "מוגן"
 
-#: (duplicate) modules/system/system.install:94
+#: (duplicate) modules/system/system.install:123
 msgid "Configuration file"
 msgstr "קובץ הגדרות"
 
-#: (duplicate) modules/system/system.install:104
+#: (duplicate) modules/system/system.install:133
 #, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@cron-"
@@ -1009,7 +1063,7 @@ msgstr ""
 "למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
 "השמירה</a>."
 
-#: (duplicate) modules/system/system.install:128
+#: (duplicate) modules/system/system.install:157
 #, fuzzy
 msgid ""
 "Cron has not run. Please visit the <a href=\"@status\">status report</a> for "
@@ -1018,43 +1072,47 @@ msgstr ""
 "נתגלתה לפחות בעיה אחת עם התקנת דרופל. בדוק את <a href=\"@status\">דו\"ח "
 "המצב</a> לקבלת מידע נוסף."
 
-#: (duplicate) modules/system/system.install:133
+#: (duplicate) modules/system/system.install:162
 msgid "Never run"
 msgstr "לא הורץ מעולם"
 
-#: (duplicate) modules/system/system.install:134
+#: (duplicate) modules/system/system.install:163
 msgid "Cron has not run."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:137
+#: (duplicate) modules/system/system.install:166
 msgid "Last run !time ago"
 msgstr "ריצה אחרונה לפני !time"
 
-#: (duplicate) modules/system/system.install:140
+#: (duplicate) modules/system/system.install:169
 msgid "Cron has not run recently."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:145
+#: (duplicate) modules/system/system.install:174
 msgid "Cron maintenance tasks"
 msgstr "משימות תחזוקת cron"
 
-#: (duplicate) modules/system/system.install:148
+#: (duplicate) modules/system/system.install:177
 msgid "You can <a href=\"@cron\">run cron manually</a>."
 msgstr "ניתן <a href=\"@cron\">להריץ את cron ידנית</a>."
 
-#: (duplicate) modules/system/system.install:158
-msgid "The directory %directory does not exist."
-msgstr "הספריה %directory לא קיימת."
+#: (duplicate) modules/system/system.install:184
+msgid "File system"
+msgstr "מערכת קבצים"
 
-#: (duplicate) modules/system/system.install:161
-msgid "The directory %directory is not writable."
-msgstr "לא ניתן לכתוב לספריה %directory."
-
-#: (duplicate) modules/system/system.install:164
+#: (duplicate) modules/system/system.install:196
 msgid "Not writable"
 msgstr "לא ניתן לכתוב"
 
-#: (duplicate) modules/system/system.install:168
+#: (duplicate) modules/system/system.install:198
+msgid "The directory %directory does not exist."
+msgstr "הספריה %directory לא קיימת."
+
+#: (duplicate) modules/system/system.install:201
+msgid "The directory %directory is not writable."
+msgstr "לא ניתן לכתוב לספריה %directory."
+
+#: (duplicate) modules/system/system.install:205
 msgid ""
 "You may need to set the correct directory at the <a href=\"@admin-file-system"
 "\">file system settings page</a> or change the current directory's "
@@ -1064,40 +1122,36 @@ msgstr ""
 "המערכת</a>, או להחליף את ההרשאות של הספריה הנוכחית כדי שיהיה אפשר לכתובת "
 "אליה."
 
-#: (duplicate) modules/system/system.install:173
+#: (duplicate) modules/system/system.install:210
 msgid ""
-"To proceed with the installation, please ensure that the files directory "
-"exists and is writable by the installer. If you are unsure how to create "
-"this directory and modify its permissions, please consult the <a href="
-"\"@handbook_url\">on-line handbook</a> or INSTALL.txt."
+"An automated attempt to create this directory failed, possibly due to a "
+"permissions problem. To proceed with the installation, either create the "
+"directory and modify its permissions manually, or ensure that the installer "
+"has the permissions to create it automatically. For more information, please "
+"see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:179
+#: (duplicate) modules/system/system.install:220
 msgid "Writable (<em>public</em> download method)"
 msgstr "ניתן לכתוב (שיטת הורדה <em>ציבורית</em>)"
 
-#: (duplicate) modules/system/system.install:182
+#: (duplicate) modules/system/system.install:223
 msgid "Writable (<em>private</em> download method)"
 msgstr "ניתן לכתוב (שיטת הורדה <em>פרטית</em>)"
 
-#: (duplicate) modules/system/system.install:185
-msgid "File system"
-msgstr "מערכת קבצים"
-
-#: (duplicate) modules/system/system.install:190
-#, fuzzy
+#: (duplicate) modules/system/system.install:230
 msgid "Database updates"
-msgstr "סוג מסד הנתונים"
+msgstr "עדכוני בסיס נתונים"
 
-#: (duplicate) modules/system/system.install:192
+#: (duplicate) modules/system/system.install:232
 msgid "Up to date"
 msgstr "מעודכן"
 
-#: (duplicate) modules/system/system.install:202
+#: (duplicate) modules/system/system.install:242
 msgid "Out of date"
 msgstr "לא מעודכן"
 
-#: (duplicate) modules/system/system.install:203
+#: (duplicate) modules/system/system.install:243
 msgid ""
 "Some modules have database schema updates to install. You should run the <a "
 "href=\"@update\">database update script</a> immediately."
@@ -1105,24 +1159,22 @@ msgstr ""
 "יש רכיבים שצריכים לעדכן את סכמת מסד הנתונים. יש להריץ את <a href=\"@update"
 "\">תסריט עדכון מסד הנתנים</a> לאלתר."
 
-#: (duplicate) modules/system/system.install:216
+#: (duplicate) modules/system/system.install:256
 msgid ""
 "The update.php script is accessible to everyone without authentication "
 "check, which is a security risk. You must change the $update_free_access "
 "value in your settings.php back to FALSE."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:224
-#, fuzzy
+#: (duplicate) modules/system/system.install:264
 msgid "Access to update.php"
-msgstr "סוג גישה"
+msgstr "גישה ל update.php"
 
-#: (duplicate) modules/system/system.install:235
-#, fuzzy
+#: (duplicate) modules/system/system.install:275
 msgid "Not enabled"
-msgstr "אפשר"
+msgstr "מבוטל"
 
-#: (duplicate) modules/system/system.install:237
+#: (duplicate) modules/system/system.install:277
 msgid ""
 "Update notifications are not enabled. It is <strong>highly recommended</"
 "strong> that you enable the update status module from the <a href=\"@module"
@@ -1131,16 +1183,15 @@ msgid ""
 "status handbook page</a>."
 msgstr ""
 
-#: (duplicate) modules/system/system.install:246
+#: (duplicate) modules/system/system.install:286
 msgid "HTTP request status"
 msgstr ""
 
-#: (duplicate) modules/system/system.install:247
-#, fuzzy
+#: (duplicate) modules/system/system.install:287
 msgid "Fails"
-msgstr "פירוט"
+msgstr "נכשל"
 
-#: (duplicate) modules/system/system.install:249
+#: (duplicate) modules/system/system.install:289
 msgid ""
 "Your system or network configuration does not allow Drupal to access web "
 "pages, resulting in reduced functionality. This could be due to your "
@@ -1174,3 +1225,4 @@ msgid ""
 "automatically featured on the site's initial home page, and provides the "
 "ability to post comments."
 msgstr ""
+

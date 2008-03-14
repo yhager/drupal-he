@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-upload\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-12-22 21:43+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -23,13 +23,13 @@ msgid ""
 "to 0 for no restriction."
 msgstr ""
 
-#: modules/upload/upload.admin.inc:17
-msgid "Your PHP settings limit the maximum file size per upload to %size MB."
+#: modules/upload/upload.admin.inc:17;110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
 msgstr ""
 
 #: modules/upload/upload.admin.inc:18
 msgid ""
-"Depending on your sever environment, these settings may be changed in the "
+"Depending on your server environment, these settings may be changed in the "
 "system-wide php.ini file, a php.ini file in your Drupal root directory, in "
 "your Drupal site's settings.php file, or in the .htaccess file in your "
 "Drupal root directory."
@@ -105,10 +105,6 @@ msgstr ""
 msgid "The default maximum size of all files a user can have on the site."
 msgstr ""
 
-#: modules/upload/upload.admin.inc:110
-msgid "Your PHP settings limit the maximum file size per upload to %size."
-msgstr ""
-
 #: modules/upload/upload.admin.inc:118
 msgid "Settings for @role"
 msgstr ""
@@ -162,7 +158,8 @@ msgstr ""
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@upload"
 "\">Upload module</a>."
-msgstr "למידע נוסף, קרא את ספר ההדרכה של <a href=\"@upload\">רכיב העלאת הקבצים</a>."
+msgstr ""
+"למידע נוסף, קרא את ספר ההדרכה של <a href=\"@upload\">רכיב העלאת הקבצים</a>."
 
 #: modules/upload/upload.module:21
 msgid ""
@@ -177,15 +174,15 @@ msgstr ""
 msgid "Read full article to view attachments."
 msgstr ""
 
-#: modules/upload/upload.module:206
+#: modules/upload/upload.module:212
 msgid "Attachments"
 msgstr "קבצים מצורפים"
 
-#: modules/upload/upload.module:219
+#: modules/upload/upload.module:225
 msgid "File attachments"
 msgstr "קבצים מצורפים"
 
-#: modules/upload/upload.module:222
+#: modules/upload/upload.module:228
 msgid ""
 "Changes made to the attachments are not permanent until you save this post. "
 "The first \"listed\" file will be included in RSS feeds."
@@ -193,53 +190,53 @@ msgstr ""
 "שינויים הנעשים בקבצים המצורפים אינם קבועים עד שההודעה איננה נשמרת. הקובץ "
 "הראשון ברשימה יופיע בקישור ה-RSS."
 
-#: modules/upload/upload.module:240
+#: modules/upload/upload.module:246
 msgid ""
 "File attachments are disabled. The file directories have not been properly "
 "configured."
 msgstr ""
 
-#: modules/upload/upload.module:242
+#: modules/upload/upload.module:248
 msgid ""
 "Please visit the <a href=\"@admin-file-system\">file system configuration "
 "page</a>."
 msgstr ""
 
-#: modules/upload/upload.module:245
+#: modules/upload/upload.module:251
 msgid "Please contact the site administrator."
 msgstr ""
 
-#: modules/upload/upload.module:347
+#: modules/upload/upload.module:353
 msgid "Attachment"
 msgstr "קובץ מצורף"
 
-#: modules/upload/upload.module:347;526
+#: modules/upload/upload.module:353;530
 msgid "Size"
 msgstr "גודל"
 
-#: modules/upload/upload.module:498
+#: modules/upload/upload.module:502
 msgid "Attach new file"
 msgstr "צרף קובץ חדש"
 
-#: modules/upload/upload.module:500
+#: modules/upload/upload.module:504
 msgid "Images are larger than %resolution will be resized. "
 msgstr ""
 
-#: modules/upload/upload.module:500
+#: modules/upload/upload.module:504
 msgid ""
 "The maximum upload size is %filesize. Only files with the following "
 "extensions may be uploaded: %extensions. "
 msgstr ""
 
-#: modules/upload/upload.module:504
+#: modules/upload/upload.module:508
 msgid "Attach"
 msgstr "צרף"
 
-#: modules/upload/upload.module:509
+#: modules/upload/upload.module:513
 msgid "Please wait..."
 msgstr ""
 
-#: modules/upload/upload.module:65;312
+#: modules/upload/upload.module:65;318
 msgid "1 attachment"
 msgid_plural "@count attachments"
 msgstr[0] ""
@@ -265,31 +262,30 @@ msgstr "שולט על דרך צירוף קבצים לתכנים"
 msgid "upload"
 msgstr ""
 
-#: modules/upload/upload.install:25
+#: modules/upload/upload.install:29
 msgid "Stores uploaded file information and table associations."
 msgstr ""
 
-#: modules/upload/upload.install:32
+#: modules/upload/upload.install:36
 msgid "Primary Key: The {files}.fid."
 msgstr ""
 
-#: modules/upload/upload.install:39
+#: modules/upload/upload.install:43
 msgid "The {node}.nid associated with the uploaded file."
 msgstr ""
 
-#: modules/upload/upload.install:46
+#: modules/upload/upload.install:50
 msgid "Primary Key: The {node}.vid associated with the uploaded file."
 msgstr ""
 
-#: modules/upload/upload.install:53
+#: modules/upload/upload.install:57
 msgid "Description of the uploaded file."
 msgstr "תיאור הקובץ."
 
-#: modules/upload/upload.install:61
+#: modules/upload/upload.install:65
 msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
 msgstr ""
 
-#: modules/upload/upload.install:68
+#: modules/upload/upload.install:72
 msgid "Weight of this upload in relation to other uploads in this node."
 msgstr ""
-

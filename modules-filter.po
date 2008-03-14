@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -37,42 +37,37 @@ msgstr "ברירת מחדל עודכנה."
 msgid "Add input format"
 msgstr "הוספת מבנה קלט"
 
-#: modules/filter/filter.admin.inc:85
-#, fuzzy
-msgid "%format input format"
-msgstr "מבנה קלט '!format' "
-
-#: modules/filter/filter.admin.inc:100
+#: modules/filter/filter.admin.inc:97
 msgid "All roles for the default format must be enabled and cannot be changed."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:107
+#: modules/filter/filter.admin.inc:104
 msgid "Specify a unique name for this filter format."
 msgstr "יש להזין שם ייחודי עבור מבנה קלט זה."
 
-#: modules/filter/filter.admin.inc:114
+#: modules/filter/filter.admin.inc:111
 msgid ""
 "Choose which roles may use this filter format. Note that roles with the "
 "\"administer filters\" permission can always use all the filter formats."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:133
+#: modules/filter/filter.admin.inc:130
 msgid "Filters"
 msgstr "מסננים"
 
-#: modules/filter/filter.admin.inc:134
+#: modules/filter/filter.admin.inc:131
 msgid "Choose the filters that will be used in this filter format."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:149 modules/filter/filter.module:574
+#: modules/filter/filter.admin.inc:146 modules/filter/filter.module:583
 msgid "More information about formatting options"
 msgstr "מידע נוסף על אפשרויות מבנה קלט"
 
-#: modules/filter/filter.admin.inc:152
+#: modules/filter/filter.admin.inc:149
 msgid "No guidelines available."
 msgstr "לא נמצאו הנחיות."
 
-#: modules/filter/filter.admin.inc:154
+#: modules/filter/filter.admin.inc:151
 msgid ""
 "These are the guidelines that users will see for posting in this input "
 "format. They are automatically generated from the filter settings."
@@ -80,56 +75,56 @@ msgstr ""
 "אלו הן ההנחיות המוצגות למשתמש בזמן כתיבת תוכן באתר. הן נוצרות אוטומטית "
 "מהגדרת המסננים."
 
-#: modules/filter/filter.admin.inc:156 modules/filter/filter.module:503
+#: modules/filter/filter.admin.inc:153 modules/filter/filter.module:512
 msgid "Formatting guidelines"
 msgstr "הנחיות שימוש"
 
-#: modules/filter/filter.admin.inc:171
+#: modules/filter/filter.admin.inc:168
 msgid ""
 "Filter format names need to be unique. A format named %name already exists."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:190
+#: modules/filter/filter.admin.inc:187
 msgid "Added input format %format."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:193
+#: modules/filter/filter.admin.inc:190
 msgid "The input format settings have been updated."
 msgstr "עודכנו הגדרות מבני קלט."
 
-#: modules/filter/filter.admin.inc:255
+#: modules/filter/filter.admin.inc:252
 msgid "Are you sure you want to delete the input format %format?"
 msgstr ""
 
-#: modules/filter/filter.admin.inc:255
+#: modules/filter/filter.admin.inc:252
 msgid ""
 "If you have any content left in this input format, it will be switched to "
 "the default input format. This action cannot be undone."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:258
+#: modules/filter/filter.admin.inc:255
 msgid "The default format cannot be deleted."
 msgstr "לא ניתן למחוק את מבנה ברירת המחדל."
 
-#: modules/filter/filter.admin.inc:281
+#: modules/filter/filter.admin.inc:278
 msgid "Deleted input format %format."
 msgstr ""
 
-#: modules/filter/filter.admin.inc:292
+#: modules/filter/filter.admin.inc:289
 #, fuzzy
 msgid "Configure %format"
 msgstr "הגדר"
 
-#: modules/filter/filter.admin.inc:315
+#: modules/filter/filter.admin.inc:312
 msgid "No settings are available."
 msgstr "לא נמצאו הגדרות."
 
-#: modules/filter/filter.admin.inc:325
+#: modules/filter/filter.admin.inc:330
 #, fuzzy
 msgid "Rearrange %format"
 msgstr "סדר מחדש"
 
-#: modules/filter/filter.admin.inc:386
+#: modules/filter/filter.admin.inc:391
 msgid "The filter ordering has been saved."
 msgstr "סדר המסננים נשמר."
 
@@ -237,16 +232,20 @@ msgstr ""
 
 #: modules/filter/filter.module:38
 msgid ""
-"Filters are executed from top-to-bottom. You can use the weight column to "
-"rearrange them: heavier filters \"sink\" to the bottom."
+"Filters are executed from top-to-bottom. To change the order of the filters, "
+"modify the values in the <em>Weight</em> column or grab a drag-and-drop "
+"handle under the <em>Name</em> column and drag filters to new locations in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
 msgstr ""
 
-#: modules/filter/filter.module:167;169
+#: modules/filter/filter.module:176;178
 #, fuzzy
 msgid "Allowed HTML tags: @tags"
 msgstr "תגי HTML מותרים"
 
-#: modules/filter/filter.module:174
+#: modules/filter/filter.module:183
 msgid ""
 "\n"
 "<p>This site allows HTML content. While learning all of HTML may feel "
@@ -258,11 +257,11 @@ msgid ""
 "sites that explain HTML.</p>"
 msgstr ""
 
-#: modules/filter/filter.module:178
+#: modules/filter/filter.module:187
 msgid "Anchors are used to make links to other pages."
 msgstr ""
 
-#: modules/filter/filter.module:179
+#: modules/filter/filter.module:188
 msgid ""
 "By default line break tags are automatically added, so use this tag to add "
 "additional ones. Use of this tag is different because it is not used with an "
@@ -274,11 +273,11 @@ msgstr ""
 "\\סגירה) כמו בכל התגים האחרים. יש להשתמש בלוכסן הנוסף (\"/\") בתוך התג כדי "
 "לשמור על תאימות עם XHTML 1.0."
 
-#: modules/filter/filter.module:179
+#: modules/filter/filter.module:188
 msgid "Text with <br />line break"
 msgstr ""
 
-#: modules/filter/filter.module:180
+#: modules/filter/filter.module:189
 msgid ""
 "By default paragraph tags are automatically added, so use this tag to add "
 "additional ones."
@@ -286,190 +285,186 @@ msgstr ""
 "כברירת מחדל תגי פיסקאות נוספים באופן אוטומטי. ניתן להשתמש בתג זה להוספת תגי "
 "פסקה נוספים."
 
-#: modules/filter/filter.module:180
+#: modules/filter/filter.module:189
 msgid "Paragraph one."
 msgstr ""
 
-#: modules/filter/filter.module:180
+#: modules/filter/filter.module:189
 msgid "Paragraph two."
 msgstr ""
 
-#: modules/filter/filter.module:181;181
+#: modules/filter/filter.module:190;190
 msgid "Strong"
 msgstr ""
 
-#: modules/filter/filter.module:182;182
+#: modules/filter/filter.module:191;191
 msgid "Emphasized"
 msgstr ""
 
-#: modules/filter/filter.module:183;183
+#: modules/filter/filter.module:192;192
 msgid "Cited"
 msgstr ""
 
-#: modules/filter/filter.module:184
+#: modules/filter/filter.module:193
 msgid "Coded text used to show programming source code"
 msgstr ""
 
-#: modules/filter/filter.module:184
+#: modules/filter/filter.module:193
 msgid "Coded"
 msgstr ""
 
-#: modules/filter/filter.module:185;185
+#: modules/filter/filter.module:194;194
 msgid "Bolded"
 msgstr ""
 
-#: modules/filter/filter.module:186;186
+#: modules/filter/filter.module:195;195
 msgid "Underlined"
 msgstr ""
 
-#: modules/filter/filter.module:187;187
+#: modules/filter/filter.module:196;196
 msgid "Italicized"
 msgstr ""
 
-#: modules/filter/filter.module:188
+#: modules/filter/filter.module:197
 msgid "Superscripted"
 msgstr ""
 
-#: modules/filter/filter.module:188
+#: modules/filter/filter.module:197
 msgid "<sup>Super</sup>scripted"
 msgstr ""
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:198
 msgid "Subscripted"
 msgstr ""
 
-#: modules/filter/filter.module:189
+#: modules/filter/filter.module:198
 msgid "<sub>Sub</sub>scripted"
 msgstr ""
 
-#: modules/filter/filter.module:190;190
+#: modules/filter/filter.module:199;199
 msgid "Preformatted"
 msgstr ""
 
-#: modules/filter/filter.module:191
+#: modules/filter/filter.module:200
 msgid "Abbreviation"
 msgstr "קיצור"
 
-#: modules/filter/filter.module:191
+#: modules/filter/filter.module:200
 msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
 msgstr ""
 
-#: modules/filter/filter.module:192
+#: modules/filter/filter.module:201
 msgid "Acronym"
 msgstr ""
 
-#: modules/filter/filter.module:192
+#: modules/filter/filter.module:201
 msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
 msgstr " <acronym title=\"מספר קטלוגי\">מק''ט</acronym>"
 
-#: modules/filter/filter.module:193;193
+#: modules/filter/filter.module:202;202
 msgid "Block quoted"
 msgstr "ציטוט"
 
-#: modules/filter/filter.module:194;194
+#: modules/filter/filter.module:203;203
 msgid "Quoted inline"
 msgstr "ציטוט משולב"
 
-#: modules/filter/filter.module:196
+#: modules/filter/filter.module:205
 msgid "Table"
 msgstr "טבלה"
 
-#: modules/filter/filter.module:196
+#: modules/filter/filter.module:205
 msgid "Table header"
 msgstr "כותרת טבלה"
 
-#: modules/filter/filter.module:196
+#: modules/filter/filter.module:205
 msgid "Table cell"
 msgstr "תא בטבלה"
 
-#: modules/filter/filter.module:198;198
+#: modules/filter/filter.module:207;207
 msgid "Deleted"
 msgstr "נמחק"
 
-#: modules/filter/filter.module:199;199
+#: modules/filter/filter.module:208;208
 msgid "Inserted"
 msgstr "הוכנס"
 
-#: modules/filter/filter.module:201
+#: modules/filter/filter.module:210
 msgid "Ordered list - use the &lt;li&gt; to begin each list item"
 msgstr "רשימה ממוספרת -  משתמשים ב- &lt;li&gt; כדי להתחיל כל פריט ברשימה."
 
-#: modules/filter/filter.module:201;202
+#: modules/filter/filter.module:210;211
 msgid "First item"
 msgstr "פריט ראשון"
 
-#: modules/filter/filter.module:201;202
+#: modules/filter/filter.module:210;211
 msgid "Second item"
 msgstr "פריט שני"
 
-#: modules/filter/filter.module:202
+#: modules/filter/filter.module:211
 msgid "Unordered list - use the &lt;li&gt; to begin each list item"
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:214
 msgid ""
 "Definition lists are similar to other HTML lists. &lt;dl&gt; begins the "
 "definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins "
 "the definition description."
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:214
 msgid "First term"
 msgstr "נושא ראשון"
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:214
 msgid "First definition"
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:214
 msgid "Second term"
 msgstr ""
 
-#: modules/filter/filter.module:205
+#: modules/filter/filter.module:214
 msgid "Second definition"
 msgstr ""
 
-#: modules/filter/filter.module:207;208;209;210;211;212
-msgid "Header"
-msgstr ""
-
-#: modules/filter/filter.module:208
+#: modules/filter/filter.module:217
 msgid "Subtitle"
 msgstr "כותרת משנה"
 
-#: modules/filter/filter.module:209
+#: modules/filter/filter.module:218
 msgid "Subtitle three"
 msgstr "כותרת שלישית"
 
-#: modules/filter/filter.module:210
+#: modules/filter/filter.module:219
 msgid "Subtitle four"
 msgstr "כותרת רביעית"
 
-#: modules/filter/filter.module:211
+#: modules/filter/filter.module:220
 msgid "Subtitle five"
 msgstr "כותרת חמישית"
 
-#: modules/filter/filter.module:212
+#: modules/filter/filter.module:221
 msgid "Subtitle six"
 msgstr "כותרת שישית"
 
-#: modules/filter/filter.module:214
+#: modules/filter/filter.module:223
 msgid "Tag Description"
 msgstr ""
 
-#: modules/filter/filter.module:214;243
+#: modules/filter/filter.module:223;252
 msgid "You Type"
 msgstr ""
 
-#: modules/filter/filter.module:214;243
+#: modules/filter/filter.module:223;252
 msgid "You Get"
 msgstr ""
 
-#: modules/filter/filter.module:228
+#: modules/filter/filter.module:237
 msgid "No help provided for tag %tag."
 msgstr "אין עזרה עבור תווית %tag."
 
-#: modules/filter/filter.module:234
+#: modules/filter/filter.module:243
 msgid ""
 "\n"
 "<p>Most unusual characters can be directly entered without any problems.</"
@@ -481,35 +476,35 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: modules/filter/filter.module:238
+#: modules/filter/filter.module:247
 msgid "Ampersand"
 msgstr ""
 
-#: modules/filter/filter.module:239
+#: modules/filter/filter.module:248
 msgid "Greater than"
 msgstr ""
 
-#: modules/filter/filter.module:240
+#: modules/filter/filter.module:249
 msgid "Less than"
 msgstr ""
 
-#: modules/filter/filter.module:241
+#: modules/filter/filter.module:250
 msgid "Quotation mark"
 msgstr ""
 
-#: modules/filter/filter.module:243
+#: modules/filter/filter.module:252
 msgid "Character Description"
 msgstr ""
 
-#: modules/filter/filter.module:257
+#: modules/filter/filter.module:266
 msgid "No HTML tags allowed"
 msgstr "אף תווי HTML אינם מורשים"
 
-#: modules/filter/filter.module:265
+#: modules/filter/filter.module:274
 msgid "Lines and paragraphs break automatically."
 msgstr "מעבר שורות ופסקאות מתבצע אוטומטית."
 
-#: modules/filter/filter.module:267
+#: modules/filter/filter.module:276
 msgid ""
 "Lines and paragraphs are automatically recognized. The &lt;br /&gt; line "
 "break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted "
@@ -517,62 +512,62 @@ msgid ""
 "lines."
 msgstr ""
 
-#: modules/filter/filter.module:271
+#: modules/filter/filter.module:280
 msgid "Web page addresses and e-mail addresses turn into links automatically."
 msgstr ""
 
-#: modules/filter/filter.module:475
+#: modules/filter/filter.module:484
 msgid "Input format"
 msgstr "מבנה קלט"
 
-#: modules/filter/filter.module:595;646
+#: modules/filter/filter.module:604;655
 msgid "HTML filter"
 msgstr "מסנן HTML"
 
-#: modules/filter/filter.module:595
+#: modules/filter/filter.module:604
 msgid "Line break converter"
 msgstr "ממיר מעברי שורה"
 
-#: modules/filter/filter.module:595;706
+#: modules/filter/filter.module:604;715
 msgid "URL filter"
 msgstr "מסנן כתובות URL"
 
-#: modules/filter/filter.module:595
+#: modules/filter/filter.module:604
 msgid "HTML corrector"
 msgstr ""
 
-#: modules/filter/filter.module:600
+#: modules/filter/filter.module:609
 msgid ""
 "Allows you to restrict whether users can post HTML and which tags to filter "
 "out. It will also remove harmful content such as JavaScript events, "
 "JavaScript URLs and CSS styles from those tags that are not removed."
 msgstr ""
 
-#: modules/filter/filter.module:602
+#: modules/filter/filter.module:611
 msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
 msgstr "ממיר מעברי שורה ל-HTML (לדוגמה - תגי  &lt;br&gt; ו- &lt;p&gt;)."
 
-#: modules/filter/filter.module:604
+#: modules/filter/filter.module:613
 msgid "Turns web and e-mail addresses into clickable links."
 msgstr ""
 
-#: modules/filter/filter.module:606
+#: modules/filter/filter.module:615
 msgid "Corrects faulty and chopped off HTML in postings."
 msgstr ""
 
-#: modules/filter/filter.module:651
+#: modules/filter/filter.module:660
 msgid "Filter HTML tags"
 msgstr "סינון תגי HTML"
 
-#: modules/filter/filter.module:653
+#: modules/filter/filter.module:662
 msgid "Strip disallowed tags"
 msgstr ""
 
-#: modules/filter/filter.module:653
+#: modules/filter/filter.module:662
 msgid "Escape all tags"
 msgstr "המרת את כל התגים"
 
-#: modules/filter/filter.module:654
+#: modules/filter/filter.module:663
 msgid ""
 "How to deal with HTML tags in user-contributed content. If set to \"Strip "
 "disallowed tags\", dangerous tags are removed (see below). If set to "
@@ -582,7 +577,7 @@ msgstr ""
 "מסוכנים מוסרים (ראה למטה). אם מגדירים \"המרה\", התגים מומרים כך שיוצגו "
 "בדפדפן כפי שהוקלדו."
 
-#: modules/filter/filter.module:662
+#: modules/filter/filter.module:671
 msgid ""
 "If \"Strip disallowed tags\" is selected, optionally specify tags which "
 "should not be stripped. JavaScript event attributes are always stripped."
@@ -590,20 +585,20 @@ msgstr ""
 "אם בחרנו \"הסרה\", יש אפשרות לציין תגים מסויימים שלא יוסרו. מאפיינים של "
 "אירועי Javascript מוסרים תמיד."
 
-#: modules/filter/filter.module:666
+#: modules/filter/filter.module:675
 msgid "Display HTML help"
 msgstr ""
 
-#: modules/filter/filter.module:668
+#: modules/filter/filter.module:677
 msgid ""
 "If enabled, Drupal will display some basic HTML help in the long filter tips."
 msgstr ""
 
-#: modules/filter/filter.module:672
+#: modules/filter/filter.module:681
 msgid "Spam link deterrent"
 msgstr ""
 
-#: modules/filter/filter.module:674
+#: modules/filter/filter.module:683
 msgid ""
 "If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to "
 "reduce the effectiveness of spam links. Note: this will also prevent valid "
@@ -611,18 +606,18 @@ msgid ""
 "effective when enabled for anonymous users."
 msgstr ""
 
-#: modules/filter/filter.module:711
+#: modules/filter/filter.module:720
 msgid "Maximum link text length"
 msgstr ""
 
-#: modules/filter/filter.module:714
+#: modules/filter/filter.module:723
 msgid ""
 "URLs longer than this number of characters will be truncated to prevent long "
 "strings that break formatting. The link itself will be retained; just the "
 "text portion of the link will be truncated."
 msgstr ""
 
-#: modules/filter/filter.module:144
+#: modules/filter/filter.module:153
 msgid "administer filters"
 msgstr "ניהול מסננים"
 
@@ -644,7 +639,7 @@ msgstr "מחיקת מבנה קלט"
 msgid "Compose tips"
 msgstr "עצות לעריכה"
 
-#: modules/filter/filter.module:126
+#: modules/filter/filter.module:128
 msgid "Rearrange"
 msgstr "סדר מחדש"
 
@@ -706,3 +701,7 @@ msgid ""
 "Cache table for the Filter module to store already filtered pieces of text, "
 "identified by input format and md5 hash of the text."
 msgstr ""
+
+#, fuzzy
+#~ msgid "%format input format"
+#~ msgstr "מבנה קלט '!format' "

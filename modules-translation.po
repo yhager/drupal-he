@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-translation\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-12-22 21:51+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: modules/translation/translation.module:44
 msgid ""
-"Use the <href=\"@blocks\">language switcher block</a> provided by locale "
+"Use the <a href=\"@blocks\">language switcher block</a> provided by locale "
 "module to allow users to select a language. If available, both the site "
 "interface and site content are presented in the language selected."
 msgstr ""
@@ -117,7 +117,9 @@ msgstr ""
 msgid ""
 "For more information, see the online handbook entry for <a href="
 "\"@translation\">Translation module</a>."
-msgstr "למידע נוסף בבקשה קרא את ספר ההדרכה של<a href=\"@translation\">רכיב התרגומים</a>."
+msgstr ""
+"למידע נוסף בבקשה קרא את ספר ההדרכה של<a href=\"@translation\">רכיב התרגומים</"
+"a>."
 
 #: modules/translation/translation.module:48
 msgid ""
@@ -181,4 +183,3 @@ msgstr "תרגם"
 #: modules/translation/translation.module:0
 msgid "translation"
 msgstr "תרגום"
-

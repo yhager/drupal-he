@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -40,7 +40,7 @@ msgstr "שם מילון"
 
 #: modules/taxonomy/taxonomy.admin.inc:125
 #, fuzzy
-msgid "The name for this vocabulary. i.e. <em>\"Tags\"</em>."
+msgid "The name for this vocabulary, e.g., <em>\"Tags\"</em>."
 msgstr "שם המילון. לדוגמה: \"נושא\"."
 
 #: modules/taxonomy/taxonomy.admin.inc:131
@@ -54,8 +54,8 @@ msgstr "טקסט עזרה"
 #: modules/taxonomy/taxonomy.admin.inc:137
 #, fuzzy
 msgid ""
-"Instructions to present to the user when selecting terms. i.e. <em>\"Enter a "
-"comma separated list of words\".</em>"
+"Instructions to present to the user when selecting terms, e.g., <em>\"Enter "
+"a comma separated list of words\"</em>."
 msgstr "הנחיות המוצגות למשתמש בעת בחירת סיווג ממילון זה."
 
 #: modules/taxonomy/taxonomy.admin.inc:148
@@ -132,6 +132,10 @@ msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
 msgid ""
 "A description of the term. To be displayed on taxonomy/term pages and RSS "
 "feeds."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.admin.inc:676
+msgid "Advanced options"
 msgstr ""
 
 #: modules/taxonomy/taxonomy.admin.inc:695
@@ -274,11 +278,11 @@ msgstr "שם מילון"
 msgid "The %name vocabulary can not be modified in this way."
 msgstr "לא ניתן לעדכן את המילון %name בדרך זו."
 
-#: modules/taxonomy/taxonomy.module:1128
+#: modules/taxonomy/taxonomy.module:1133
 msgid "There are currently no posts in this category."
 msgstr "אין כעת פרסומים בסיווג זה."
 
-#: modules/taxonomy/taxonomy.module:1231
+#: modules/taxonomy/taxonomy.module:1236
 msgid ""
 "The taxonomy module allows you to categorize content using various systems "
 "of classification. Free-tagging vocabularies are created by users on the fly "
@@ -290,7 +294,7 @@ msgid ""
 "classifying and presenting your content."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1232
+#: modules/taxonomy/taxonomy.module:1237
 msgid ""
 "For example, when creating a recipe site, you might want to classify posts "
 "by both the type of meal and preparation time. A vocabulary for each allows "
@@ -298,15 +302,15 @@ msgid ""
 "tag for every possible combination."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1233
+#: modules/taxonomy/taxonomy.module:1238
 msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1234
+#: modules/taxonomy/taxonomy.module:1239
 msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1235
+#: modules/taxonomy/taxonomy.module:1240
 msgid ""
 "Each taxonomy term (often called a 'category' or 'tag' in other systems) "
 "automatically provides lists of posts and a corresponding RSS feed. These "
@@ -319,7 +323,7 @@ msgid ""
 "organization of terms."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1236
+#: modules/taxonomy/taxonomy.module:1241
 msgid ""
 "Terms can also be organized in parent/child relationships from the admin "
 "interface. An example would be a vocabulary grouping countries under their "
@@ -328,14 +332,14 @@ msgid ""
 "East' and 'Europe'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1237
+#: modules/taxonomy/taxonomy.module:1242
 msgid ""
 "The taxonomy module supports the use of both synonyms and related terms, but "
 "does not directly use this functionality. However, optional contributed or "
 "custom modules may make full use of these advanced features."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1238
+#: modules/taxonomy/taxonomy.module:1243
 #, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@taxonomy"
@@ -344,7 +348,7 @@ msgstr ""
 "למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
 "הגדרת התצורה וההתאמה."
 
-#: modules/taxonomy/taxonomy.module:1241
+#: modules/taxonomy/taxonomy.module:1246
 msgid ""
 "The taxonomy module allows you to categorize your content using both tags "
 "and administrator defined terms. It is a flexible tool for classifying "
@@ -354,20 +358,34 @@ msgid ""
 "properties of your content, for example 'Countries' or 'Colors'."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1245
+#: modules/taxonomy/taxonomy.module:1247
+msgid ""
+"Use the list below to configure and review the vocabularies defined on your "
+"site, or to list and manage the terms (tags) they contain. A vocabulary may "
+"(optionally) be tied to specific content types as shown in the <em>Type</em> "
+"column and, if so, will be displayed when creating or editing posts of that "
+"type. Multiple vocabularies tied to the same content type will be displayed "
+"in the order shown below. To change the order of a vocabulary, grab a drag-"
+"and-drop handle under the <em>Name</em> column and drag it to a new location "
+"in the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+
+#: modules/taxonomy/taxonomy.module:1252
 msgid ""
 "%capital_name is a free-tagging vocabulary. To change the name or "
 "description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1249
+#: modules/taxonomy/taxonomy.module:1256
 msgid ""
 "%capital_name is a flat vocabulary. You may organize the terms in the %name "
 "vocabulary by using the handles on the left side of the table. To change the "
 "name or description of a term, click the <em>edit</em> link next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1251
+#: modules/taxonomy/taxonomy.module:1258
 msgid ""
 "%capital_name is a single hierarchy vocabulary. You may organize the terms "
 "in the %name vocabulary by using the handles on the left side of the table. "
@@ -375,7 +393,7 @@ msgid ""
 "next to the term."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1253
+#: modules/taxonomy/taxonomy.module:1260
 msgid ""
 "%capital_name is a multiple hierarchy vocabulary. To change the name or "
 "description of a term, click the <em>edit</em> link next to the term. Drag "
@@ -383,7 +401,7 @@ msgid ""
 "drag and drop support by editing each term to include only a single parent."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1256
+#: modules/taxonomy/taxonomy.module:1263
 msgid ""
 "Define how your vocabulary will be presented to administrators and users, "
 "and which content types to categorize with it. Tags allows users to create "
@@ -392,16 +410,16 @@ msgid ""
 "the \"administer taxonomy\" permission."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1295
-msgid "After saving a new term to the database."
+#: modules/taxonomy/taxonomy.module:1302
+msgid "After saving a new term to the database"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1298
-msgid "After saving an updated term to the database."
+#: modules/taxonomy/taxonomy.module:1305
+msgid "After saving an updated term to the database"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.module:1301
-msgid "After deleting a term."
+#: modules/taxonomy/taxonomy.module:1308
+msgid "After deleting a term"
 msgstr ""
 
 #: modules/taxonomy/taxonomy.module:13
@@ -526,77 +544,77 @@ msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
 msgid "The name of the synonym."
 msgstr "שם התפריט."
 
-#: modules/taxonomy/taxonomy.install:173
+#: modules/taxonomy/taxonomy.install:171
 #, fuzzy
 msgid "Stores vocabulary information."
 msgstr "מידע על האתר"
 
-#: modules/taxonomy/taxonomy.install:179
+#: modules/taxonomy/taxonomy.install:177
 #, fuzzy
 msgid "Primary Key: Unique vocabulary ID."
 msgstr "נוצר מילון חדש ששמו %name."
 
-#: modules/taxonomy/taxonomy.install:186
+#: modules/taxonomy/taxonomy.install:184
 #, fuzzy
 msgid "Name of the vocabulary."
 msgstr "עדכן מילון"
 
-#: modules/taxonomy/taxonomy.install:192
+#: modules/taxonomy/taxonomy.install:190
 #, fuzzy
 msgid "Description of the vocabulary."
 msgstr "תיאור המילון; ניתן לשימוש על ידי רכיבים אחרים של דרופל."
 
-#: modules/taxonomy/taxonomy.install:199
+#: modules/taxonomy/taxonomy.install:197
 #, fuzzy
 msgid "Help text to display for the vocabulary."
 msgstr "השם שיוצג עבור התפריט."
 
-#: modules/taxonomy/taxonomy.install:207
+#: modules/taxonomy/taxonomy.install:205
 msgid ""
 "Whether or not related terms are enabled within the vocabulary. (0 = "
 "disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:215
+#: modules/taxonomy/taxonomy.install:213
 msgid ""
 "The type of hierarchy allowed within the vocabulary. (0 = disabled, 1 = "
 "single, 2 = multiple)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:223
+#: modules/taxonomy/taxonomy.install:221
 msgid ""
 "Whether or not multiple terms from this vocabulary may be assigned to a "
 "node. (0 = disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:231
+#: modules/taxonomy/taxonomy.install:229
 msgid ""
 "Whether or not terms are required for nodes using this vocabulary. (0 = "
 "disabled, 1 = enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:239
+#: modules/taxonomy/taxonomy.install:237
 msgid ""
 "Whether or not free tagging is enabled for the vocabulary. (0 = disabled, 1 "
 "= enabled)"
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:246
+#: modules/taxonomy/taxonomy.install:244
 msgid "The module which created the vocabulary."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:253
+#: modules/taxonomy/taxonomy.install:251
 msgid "The weight of the vocabulary in relation to other vocabularies."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:263
+#: modules/taxonomy/taxonomy.install:261
 msgid "Stores which node types vocabularies may be used with."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:270
+#: modules/taxonomy/taxonomy.install:268
 msgid "Primary Key: the {vocabulary}.vid of the vocabulary."
 msgstr ""
 
-#: modules/taxonomy/taxonomy.install:277
+#: modules/taxonomy/taxonomy.install:275
 msgid "The {node}.type of the node type for which the vocabulary may be used."
 msgstr ""

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -251,22 +251,28 @@ msgstr ""
 msgid "Language settings"
 msgstr "הגדרות תמונת לוגו"
 
-#: modules/locale/locale.module:233
-msgid "Sets the default site interface and e-mail language for this account."
+#: modules/locale/locale.module:235
+msgid ""
+"This account's default language for e-mails, and preferred language for site "
+"presentation."
 msgstr ""
 
-#: modules/locale/locale.module:253
+#: modules/locale/locale.module:235
+msgid "This account's default language for e-mails."
+msgstr ""
+
+#: modules/locale/locale.module:255
 msgid ""
 "A path alias set for a specific language will always be used when displaying "
 "this page in that language, and takes precedence over path aliases set for "
 "<am>All languages</em>."
 msgstr ""
 
-#: modules/locale/locale.module:262
+#: modules/locale/locale.module:264
 msgid "Multilingual support"
 msgstr ""
 
-#: modules/locale/locale.module:265
+#: modules/locale/locale.module:267
 msgid ""
 "Enable multilingual support for this content type. If enabled, a language "
 "selection field will be added to the editing form, allowing you to select "
@@ -275,17 +281,17 @@ msgid ""
 "affected by changing this option."
 msgstr ""
 
-#: modules/locale/locale.module:428
+#: modules/locale/locale.module:437
 #, fuzzy
 msgid "All"
 msgstr "אפשר"
 
-#: modules/locale/locale.module:549
+#: modules/locale/locale.module:558
 #, fuzzy
 msgid "Language switcher"
 msgstr "רשימת השפות"
 
-#: modules/locale/locale.module:501
+#: modules/locale/locale.module:510
 msgid "Parsed JavaScript file %file."
 msgstr ""
 
@@ -314,7 +320,7 @@ msgid "Translate interface"
 msgstr "מתורגם"
 
 #: modules/locale/locale.module:128
-msgid "Translate the built in interface as well as menu items and taxonomies."
+msgid "Translate the built in interface and optionally other text."
 msgstr ""
 
 #: modules/locale/locale.module:134
@@ -471,109 +477,109 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
-#: modules/locale/locale.install:190
+#: modules/locale/locale.install:229
 msgid "List of all available languages in the system."
 msgstr ""
 
-#: modules/locale/locale.install:197
+#: modules/locale/locale.install:236
 msgid "Language code, e.g. 'de' or 'en-US'."
 msgstr ""
 
-#: modules/locale/locale.install:204
+#: modules/locale/locale.install:243
 #, fuzzy
 msgid "Language name in English."
 msgstr "שם השפה באנגלית"
 
-#: modules/locale/locale.install:211
+#: modules/locale/locale.install:250
 #, fuzzy
 msgid "Native language name."
 msgstr "שם שפה"
 
-#: modules/locale/locale.install:217
+#: modules/locale/locale.install:256
 msgid "Direction of language (Left-to-Right = 0, Right-to-Left = 1)."
 msgstr ""
 
-#: modules/locale/locale.install:223
+#: modules/locale/locale.install:262
 msgid "Enabled flag (1 = Enabled, 0 = Disabled)."
 msgstr ""
 
-#: modules/locale/locale.install:229
+#: modules/locale/locale.install:268
 #, fuzzy
 msgid "Number of plural indexes in this language."
 msgstr "מספר השאילתות במטמון."
 
-#: modules/locale/locale.install:236
+#: modules/locale/locale.install:275
 msgid "Plural formula in PHP code to evaluate to get plural indexes."
 msgstr ""
 
-#: modules/locale/locale.install:243
+#: modules/locale/locale.install:282
 msgid "Domain to use for this language."
 msgstr ""
 
-#: modules/locale/locale.install:250
+#: modules/locale/locale.install:289
 msgid "Path prefix to use for this language."
 msgstr ""
 
-#: modules/locale/locale.install:256
+#: modules/locale/locale.install:295
 msgid "Weight, used in lists of languages."
 msgstr ""
 
-#: modules/locale/locale.install:263
+#: modules/locale/locale.install:302
 msgid "Location of JavaScript translation file."
 msgstr ""
 
-#: modules/locale/locale.install:273
+#: modules/locale/locale.install:312
 msgid "List of English source strings."
 msgstr ""
 
-#: modules/locale/locale.install:278
+#: modules/locale/locale.install:317
 #, fuzzy
 msgid "Unique identifier of this string."
 msgstr "הצג את ההמשך."
 
-#: modules/locale/locale.install:285
+#: modules/locale/locale.install:324
 msgid ""
 "Drupal path in case of online discovered translations or file path in case "
 "of imported strings."
 msgstr ""
 
-#: modules/locale/locale.install:292
+#: modules/locale/locale.install:331
 msgid "A module defined group of translations, see hook_locale()."
 msgstr ""
 
-#: modules/locale/locale.install:298
+#: modules/locale/locale.install:337
 msgid "The original string in English."
 msgstr ""
 
-#: modules/locale/locale.install:305
+#: modules/locale/locale.install:344
 msgid ""
 "Version of Drupal, where the string was last used (for locales optimization)."
 msgstr ""
 
-#: modules/locale/locale.install:315
+#: modules/locale/locale.install:354
 #, fuzzy
 msgid "Stores translated versions of strings."
 msgstr "רק מחרוזות שתורגמו"
 
-#: modules/locale/locale.install:321
+#: modules/locale/locale.install:360
 msgid "Source string ID. References {locales_source}.lid."
 msgstr ""
 
-#: modules/locale/locale.install:327
+#: modules/locale/locale.install:366
 #, fuzzy
 msgid "Translation string value in this language."
 msgstr "כל המחרוזות בשפה זו"
 
-#: modules/locale/locale.install:334
+#: modules/locale/locale.install:373
 msgid "Language code. References {languages}.language."
 msgstr ""
 
-#: modules/locale/locale.install:340
+#: modules/locale/locale.install:379
 msgid ""
 "Parent lid (lid of the previous string in the plural chain) in case of "
 "plural strings. References {locales_source}.lid."
 msgstr ""
 
-#: modules/locale/locale.install:346
+#: modules/locale/locale.install:385
 msgid "Plural index number in case of plural strings."
 msgstr ""

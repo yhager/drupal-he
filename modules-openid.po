@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -33,20 +33,20 @@ msgstr ""
 msgid "OpenID login cancelled."
 msgstr ""
 
-#: modules/openid/openid.pages.inc:38
+#: modules/openid/openid.pages.inc:39
 msgid "Successfully added %identity"
 msgstr ""
 
-#: modules/openid/openid.pages.inc:65
+#: modules/openid/openid.pages.inc:66
 msgid "Add an OpenID"
 msgstr ""
 
-#: modules/openid/openid.pages.inc:73
+#: modules/openid/openid.pages.inc:74
 #, fuzzy
 msgid "That OpenID is already in use on this site."
 msgstr "מיקום זה כבר נמצא בשימוש."
 
-#: modules/openid/openid.pages.inc:87
+#: modules/openid/openid.pages.inc:88
 msgid "OpenID deleted."
 msgstr ""
 
@@ -124,31 +124,31 @@ msgstr ""
 msgid "Once you have verified your email address, you may log in via OpenID."
 msgstr ""
 
-#: modules/openid/openid.module:88;93
+#: modules/openid/openid.module:90;107
 msgid "Log in using OpenID"
 msgstr ""
 
-#: modules/openid/openid.module:89
+#: modules/openid/openid.module:94
 msgid "Cancel OpenID login"
 msgstr ""
 
-#: modules/openid/openid.module:97
+#: modules/openid/openid.module:111
 msgid "What is OpenID?"
 msgstr ""
 
-#: modules/openid/openid.module:146
+#: modules/openid/openid.module:160
 msgid ""
 "Sorry, that is not a valid OpenID. Please ensure you have spelled your ID "
 "correctly."
 msgstr ""
 
-#: modules/openid/openid.module:368
+#: modules/openid/openid.module:395
 msgid ""
 "You must validate your email address for this account before logging in via "
 "OpenID"
 msgstr ""
 
-#: modules/openid/openid.module:386
+#: modules/openid/openid.module:413
 msgid ""
 "OpenID registration failed for the reasons listed. You may register now, or "
 "if you already have an account you can <a href=\"@login\">log in</a> now and "

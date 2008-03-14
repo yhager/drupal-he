@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -17,110 +17,176 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/update/update.compare.inc:343;390
+#: modules/update/update.compare.inc:155
+msgid "Unknown"
+msgstr ""
+
+#: modules/update/update.compare.inc:258
+msgid "Project not secure"
+msgstr ""
+
+#: modules/update/update.compare.inc:259
+msgid ""
+"This project has been labeled insecure by the Drupal security team, and is "
+"no longer available for download. Immediately disabling everything included "
+"by this project is strongly recommended!"
+msgstr ""
+
+#: modules/update/update.compare.inc:270
+msgid "Project revoked"
+msgstr ""
+
+#: modules/update/update.compare.inc:271
+msgid ""
+"This project has been revoked, and is no longer available for download. "
+"Disabling everything included by this project is strongly recommended!"
+msgstr ""
+
+#: modules/update/update.compare.inc:281
+msgid "Project not supported"
+msgstr ""
+
+#: modules/update/update.compare.inc:282
+msgid ""
+"This project is no longer supported, and is no longer available for "
+"download. Disabling everything included by this project is strongly "
+"recommended!"
+msgstr ""
+
+#: modules/update/update.compare.inc:348;497;546
 msgid "No available releases found"
 msgstr ""
 
-#: modules/update/update.compare.inc:373
+#: modules/update/update.compare.inc:365
+msgid "Release revoked"
+msgstr ""
+
+#: modules/update/update.compare.inc:366
+msgid ""
+"Your currently installed release has been revoked, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+
+#: modules/update/update.compare.inc:377
+msgid "Release not supported"
+msgstr ""
+
+#: modules/update/update.compare.inc:378
+msgid ""
+"Your currently installed release is now unsupported, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+
+#: modules/update/update.compare.inc:529
 msgid "Unknown release date"
 msgstr ""
 
-#: modules/update/update.compare.inc:385
+#: modules/update/update.compare.inc:541
 #, fuzzy
 msgid "Invalid info"
 msgstr "פרסום שגוי"
 
-#: modules/update/update.fetch.inc:14;50
+#: modules/update/update.fetch.inc:14;57
 msgid "Fetched information about all available new releases and updates."
 msgstr ""
 
-#: modules/update/update.fetch.inc:17;54
+#: modules/update/update.fetch.inc:17;61
 msgid ""
 "Unable to fetch any information about available new releases and updates."
 msgstr ""
 
-#: modules/update/update.fetch.inc:50;54 modules/update/update.module:0
+#: modules/update/update.fetch.inc:57;61 modules/update/update.module:0
 #, fuzzy
 msgid "update"
 msgstr "עודכן"
 
 #: modules/update/update.report.inc:30
 #, fuzzy
-msgid "Last checked: "
+msgid "Last checked: @time ago"
 msgstr "נצפה לאחרונה:"
 
 #: modules/update/update.report.inc:30
 #, fuzzy
-msgid "ago"
-msgstr "סנגו"
-
-#: modules/update/update.report.inc:30
-msgid "Never"
-msgstr "אף פעם"
+msgid "Last checked: never"
+msgstr "נצפה לאחרונה:"
 
 #: modules/update/update.report.inc:31
 #, fuzzy
 msgid "Check manually"
 msgstr "בדיקת דואר אלקטרוני"
 
-#: modules/update/update.report.inc:72
+#: modules/update/update.report.inc:48;48
+msgid "ok"
+msgstr ""
+
+#: modules/update/update.report.inc:70
 msgid "Security update required!"
 msgstr ""
 
+#: modules/update/update.report.inc:73 modules/update/update.module:259
+msgid "Revoked!"
+msgstr ""
+
 #: modules/update/update.report.inc:76
+msgid "Not supported!"
+msgstr ""
+
+#: modules/update/update.report.inc:79
 #, fuzzy
 msgid "Update available"
 msgstr "עדכן מיקום"
 
-#: modules/update/update.report.inc:130
+#: modules/update/update.report.inc:137
 #, fuzzy
 msgid "Recommended version:"
 msgstr "גרסה מקוצרת"
 
-#: modules/update/update.report.inc:136
+#: modules/update/update.report.inc:143
 #, fuzzy
 msgid "Security update:"
 msgstr "העדכון הבא"
 
-#: modules/update/update.report.inc:142
+#: modules/update/update.report.inc:149
 msgid "Latest version:"
 msgstr ""
 
-#: modules/update/update.report.inc:147
+#: modules/update/update.report.inc:155
 #, fuzzy
 msgid "Development version:"
 msgstr "גרסה מקוצרת"
 
-#: modules/update/update.report.inc:153
+#: modules/update/update.report.inc:161
 #, fuzzy
 msgid "Also available:"
 msgstr "אין תצורות התקנה זמינות"
 
-#: modules/update/update.report.inc:173
+#: modules/update/update.report.inc:181
 msgid "Includes: %includes"
 msgstr ""
 
-#: modules/update/update.report.inc:188
+#: modules/update/update.report.inc:196
 #, fuzzy
 msgid "Drupal core"
 msgstr "דרופל"
 
-#: modules/update/update.report.inc:191
+#: modules/update/update.report.inc:199
 #, fuzzy
 msgid "Disabled modules"
 msgstr "מבוטל"
 
-#: modules/update/update.report.inc:192
+#: modules/update/update.report.inc:200
 #, fuzzy
 msgid "Disabled themes"
 msgstr "מבוטל"
 
-#: modules/update/update.report.inc:221
+#: modules/update/update.report.inc:229
 #, fuzzy
 msgid "Download"
 msgstr "שיטת הורדת קבצים"
 
-#: modules/update/update.report.inc:225
+#: modules/update/update.report.inc:233
 msgid "Release notes"
 msgstr ""
 
@@ -187,7 +253,7 @@ msgstr "%recipient אינה כתובת דואר אלקטרוני תקפה."
 msgid "%emails are not valid e-mail addresses."
 msgstr "%recipient אינה כתובת דואר אלקטרוני תקפה."
 
-#: modules/update/update.module:50
+#: modules/update/update.module:61
 msgid ""
 "Here you can find information about available updates for your installed "
 "modules and themes. Note that each module or theme is part of a \"project\", "
@@ -195,27 +261,27 @@ msgid ""
 "or themes within it."
 msgstr ""
 
-#: modules/update/update.module:51
+#: modules/update/update.module:62
 msgid ""
 "To extend the functionality or to change the look of your site, a number of "
 "contributed <a href=\"@modules\">modules</a> and <a href=\"@themes\">themes</"
 "a> are available."
 msgstr ""
 
-#: modules/update/update.module:68
+#: modules/update/update.module:79
 msgid ""
 "See the <a href=\"@available_updates\">available updates</a> page for "
 "information on installed modules and themes with new versions released."
 msgstr ""
 
-#: modules/update/update.module:76
+#: modules/update/update.module:87
 msgid ""
 "The Update status module periodically checks for new versions of your site's "
 "software (including contributed modules and themes), and alerts you to "
 "available updates."
 msgstr ""
 
-#: modules/update/update.module:77
+#: modules/update/update.module:88
 msgid ""
 "The <a href=\"@update-report\">report of available updates</a> will alert "
 "you when new releases are available for download. You may configure options "
@@ -223,14 +289,14 @@ msgid ""
 "settings\">Update status module settings page</a>."
 msgstr ""
 
-#: modules/update/update.module:78
+#: modules/update/update.module:89
 msgid ""
 "Please note that in order to provide this information, anonymous usage "
 "statistics are sent to drupal.org. If desired, you may disable the Update "
 "status module from the <a href=\"@modules\">module administration page</a>."
 msgstr ""
 
-#: modules/update/update.module:79
+#: modules/update/update.module:90
 #, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@update"
@@ -239,33 +305,37 @@ msgstr ""
 "למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
 "השמירה</a>."
 
-#: modules/update/update.module:182
+#: modules/update/update.module:211;243
 msgid "Drupal core update status"
 msgstr ""
 
-#: modules/update/update.module:189
-msgid "Out of date (version @version available)"
-msgstr ""
-
-#: modules/update/update.module:196
-#, fuzzy
-msgid "Not secure! (version @version available)"
-msgstr "אין משתמשים זמינים."
-
-#: modules/update/update.module:210
-msgid "Module and theme update status"
-msgstr ""
-
-#: modules/update/update.module:216
-msgid "Not secure!"
-msgstr ""
-
-#: modules/update/update.module:236
+#: modules/update/update.module:212
 #, fuzzy
 msgid "No update data available"
 msgstr "אין משתמשים זמינים."
 
-#: modules/update/update.module:276
+#: modules/update/update.module:246
+msgid "Module and theme update status"
+msgstr ""
+
+#: modules/update/update.module:256
+msgid "Not secure!"
+msgstr ""
+
+#: modules/update/update.module:262
+msgid "Unsupported release"
+msgstr ""
+
+#: modules/update/update.module:270
+msgid "Can not determine status"
+msgstr ""
+
+#: modules/update/update.module:277
+#, fuzzy
+msgid "(version @version available)"
+msgstr "אין משתמשים זמינים."
+
+#: modules/update/update.module:314
 msgid ""
 "No information is available about potential new releases for currently "
 "installed modules and themes. To check for updates, you may need to <a href="
@@ -274,63 +344,109 @@ msgid ""
 "long time, so please be patient."
 msgstr ""
 
-#: modules/update/update.module:339
+#: modules/update/update.module:415
 msgid "New release(s) available for !site_name"
 msgstr ""
 
-#: modules/update/update.module:343
+#: modules/update/update.module:419
 msgid "See the available updates page for more information:"
 msgstr ""
 
-#: modules/update/update.module:373
+#: modules/update/update.module:448
+msgid ""
+"There is a security update available for your version of Drupal. To ensure "
+"the security of your server, you should update immediately!"
+msgstr ""
+
+#: modules/update/update.module:451
+msgid ""
+"There are security updates available for one or more of your modules or "
+"themes. To ensure the security of your server, you should update immediately!"
+msgstr ""
+
+#: modules/update/update.module:457
+msgid ""
+"Your version of Drupal has been revoked and is no longer available for "
+"download. Upgrading is strongly recommended!"
+msgstr ""
+
+#: modules/update/update.module:460
+msgid ""
+"The installed version of at least one of your modules or themes has been "
+"revoked and is no longer available for download. Upgrading or disabling is "
+"strongly recommended!"
+msgstr ""
+
+#: modules/update/update.module:466
+msgid ""
+"Your version of Drupal is no longer supported. Upgrading is strongly "
+"recommended!"
+msgstr ""
+
+#: modules/update/update.module:469
+msgid ""
+"The installed version of at least one of your modules or themes is no longer "
+"supported. Upgrading or disabling is strongly recommended! Please see the "
+"project homepage for more details."
+msgstr ""
+
+#: modules/update/update.module:475
 msgid ""
 "There are updates available for your version of Drupal. To ensure the proper "
 "functioning of your site, you should update as soon as possible."
 msgstr ""
 
-#: modules/update/update.module:376
+#: modules/update/update.module:478
 msgid ""
 "There are updates available for one or more of your modules or themes. To "
 "ensure the proper functioning of your site, you should update as soon as "
 "possible."
 msgstr ""
 
-#: modules/update/update.module:382
+#: modules/update/update.module:485
 msgid ""
-"There is a security update available for your version of Drupal. To ensure "
-"the security of your server, you should update immediately!"
+"There was a problem determining the status of available updates for your "
+"version of Drupal."
 msgstr ""
 
-#: modules/update/update.module:385
+#: modules/update/update.module:488
+#, fuzzy
 msgid ""
-"There are security updates available for one or more of your modules or "
-"themes. To ensure the security of your server, you should update immediately!"
-msgstr ""
+"There was a problem determining the status of available updates for one or "
+"more of your modules or themes."
+msgstr "קבל דו\"ח על פעילות האתר ובעיות שזוהו."
 
-#: modules/update/update.module:391
+#: modules/update/update.module:494
 msgid ""
 "See the <a href=\"@available_updates\">available updates</a> page for more "
 "information."
 msgstr ""
 
-#: modules/update/update.module:109
+#: modules/update/update.module:120
 #, fuzzy
 msgid "Available updates"
 msgstr "המשתנים הזמינים הם:"
 
-#: modules/update/update.module:110
+#: modules/update/update.module:121
 #, fuzzy
 msgid ""
 "Get a status report about available updates for your installed modules and "
 "themes."
 msgstr "קבל דו\"ח על פעילות האתר ובעיות שזוהו."
 
-#: modules/update/update.module:132
+#: modules/update/update.module:143
 msgid "Manual update check"
 msgstr ""
 
-#: modules/update/update.install:37
+#: modules/update/update.install:39
 msgid ""
 "Cache table for the Update module to store information about available "
 "releases, fetched from central server."
 msgstr ""
+
+#, fuzzy
+#~ msgid "ago"
+#~ msgstr "סנגו"
+
+#~ msgid "Never"
+#~ msgstr "אף פעם"

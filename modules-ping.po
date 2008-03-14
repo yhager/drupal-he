@@ -1,16 +1,16 @@
-# translation of general.po to Hebrew
+# translation of modules-ping.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-ping\n"
 "POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2008-02-25 23:38+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,17 +34,14 @@ msgid ""
 msgstr ""
 
 #: modules/ping/ping.module:17
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@ping"
 "\">Ping module</a>."
-msgstr ""
-"למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
-"הגדרת התצורה וההתאמה."
+msgstr "למידע נוסף קרא את ספר ההדרכה של <a href=\"@ping\">רכיב ההודעות</a>."
 
 #: modules/ping/ping.module:55
 msgid "directory ping"
-msgstr "פינג לספריה"
+msgstr "הודעה על ספריה"
 
 #: modules/ping/ping.module:55
 msgid "Failed to notify pingomatic.com (site)."
@@ -52,4 +49,5 @@ msgstr "נכשל נסיון להודיע לאתר-pingomatic.com על שינוי
 
 #: modules/ping/ping.module:0
 msgid "ping"
-msgstr "פינג"
+msgstr "הודעות (ping)"
+

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:111
+#: modules/blog/blog.pages.inc:15 modules/blog/blog.module:108
 msgid "@name's blog"
 msgstr "היומן של @name"
 
@@ -29,11 +29,30 @@ msgstr "פרסם הודעה חדשה ביומן."
 msgid "You are not allowed to post a new blog entry."
 msgstr "אינכם מורשים לפרסם הודעת יומן חדשה."
 
-#: modules/blog/blog.pages.inc:33
+#: modules/blog/blog.pages.inc:41
+#, fuzzy
+msgid "You have not created any blog entries."
+msgstr "אינכם מורשים לפרסם הודעת יומן חדשה."
+
+#: modules/blog/blog.pages.inc:44
+#, fuzzy
+msgid "!author has not created any blog entries."
+msgstr "הצג את ההודעות האחרונות."
+
+#: modules/blog/blog.pages.inc:47
 msgid "RSS - !title"
 msgstr "RSS - !title"
 
-#: modules/blog/blog.pages.inc:52
+#: modules/blog/blog.pages.inc:62
+#, fuzzy
+msgid "Create new blog entry."
+msgstr "פרסם הודעה חדשה ביומן."
+
+#: modules/blog/blog.pages.inc:79
+msgid "No blog entries have been created."
+msgstr ""
+
+#: modules/blog/blog.pages.inc:81
 msgid "RSS - blogs"
 msgstr "יומנים - RSS"
 
@@ -51,7 +70,7 @@ msgstr ""
 msgid "View recent blog entries"
 msgstr "הצג הודעות אחרונות ביומן"
 
-#: modules/blog/blog.module:52;127
+#: modules/blog/blog.module:52;124
 msgid "Read @username's latest blog entries."
 msgstr "הצג את הודעות היומן האחרונות של @username."
 
@@ -104,27 +123,48 @@ msgstr ""
 "למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
 "השמירה</a>."
 
-#: modules/blog/blog.module:111;140;155;163
+#: modules/blog/blog.module:108;137;152;160
 msgid "Blogs"
 msgstr "יומנים"
 
-#: modules/blog/blog.module:125
+#: modules/blog/blog.module:122
 msgid "@username's blog"
 msgstr "היומן של @username"
 
-#: modules/blog/blog.module:181;190
+#: modules/blog/blog.module:178;187
 msgid "Recent blog posts"
 msgstr "חדש ביומן"
 
-#: modules/blog/blog.module:189
+#: modules/blog/blog.module:186
 msgid "Read the latest blog entries."
 msgstr "הצג את ההודעות האחרונות."
 
 #: modules/blog/blog.module:26
-msgid "edit own blog"
+#, fuzzy
+msgid "create blog entries"
+msgstr "הצג הודעות אחרונות ביומן"
+
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "delete own blog entries"
+msgstr "הצג הודעות אחרונות ביומן"
+
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "delete any blog entry"
+msgstr "פרסם הודעה חדשה ביומן."
+
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "edit own blog entries"
 msgstr "ניהול יומן רשת עצמי"
 
-#: modules/blog/blog.module:147
+#: modules/blog/blog.module:26
+#, fuzzy
+msgid "edit any blog entry"
+msgstr "פרסם הודעה חדשה ביומן."
+
+#: modules/blog/blog.module:144
 msgid "My blog"
 msgstr "היומן שלי"
 

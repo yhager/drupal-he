@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -107,8 +107,9 @@ msgstr "האמנם ברצונך למחוק את קבוצת הדיון %name?"
 #: modules/forum/forum.admin.inc:168
 #, fuzzy
 msgid ""
-"Deleting a forum or container will also delete its sub-forums and posts, if "
-"any. This action cannot be undone."
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
 msgstr ""
 "מחיקת סיווג תמחק את כל סיווגי הבן שלו, אם ישנם כאלו. לא ניתן לבטל פעולה זו. "
 
@@ -280,50 +281,50 @@ msgid ""
 "vocabulary page</a>."
 msgstr ""
 
-#: modules/forum/forum.module:223
+#: modules/forum/forum.module:230
 msgid ""
 "The item %forum is only a container for forums. Please select one of the "
 "forums below it."
 msgstr ""
 
-#: modules/forum/forum.module:289
+#: modules/forum/forum.module:296
 #, fuzzy
 msgid "Forum topic"
 msgstr "נושא דיון"
 
-#: modules/forum/forum.module:291
+#: modules/forum/forum.module:298
 msgid ""
 "A <em>forum topic</em> is the initial post to a new discussion thread within "
 "a forum."
 msgstr ""
 
-#: modules/forum/forum.module:358
+#: modules/forum/forum.module:361
 msgid ""
 "This is the designated forum vocabulary. Some of the normal vocabulary "
 "options have been removed."
 msgstr ""
 
-#: modules/forum/forum.module:400;416
+#: modules/forum/forum.module:403;419
 msgid "Active forum topics"
 msgstr "חדש בקבוצות הדיון"
 
-#: modules/forum/forum.module:401;423
+#: modules/forum/forum.module:404;426
 msgid "New forum topics"
 msgstr "חדש בקבוצות הדיון"
 
-#: modules/forum/forum.module:405
+#: modules/forum/forum.module:408
 msgid "Number of topics"
 msgstr "מספר הנושאים"
 
-#: modules/forum/forum.module:432
+#: modules/forum/forum.module:435
 msgid "Read the latest forum topics."
 msgstr ""
 
-#: modules/forum/forum.module:451
+#: modules/forum/forum.module:454
 msgid "Leave shadow copy"
 msgstr "השאר העתק צל"
 
-#: modules/forum/forum.module:451
+#: modules/forum/forum.module:454
 msgid ""
 "If you move this topic, you can leave a link in the old forum to the new "
 "forum."
@@ -331,63 +332,69 @@ msgstr ""
 "אם נושא זה מועבר לקבוצת דיון אחרת, סימון אפשרות זו מאפשר לשמור קישור מהנושא "
 "בקבוצת הדיון הישנה אל קבוצת הדיון החדשה."
 
-#: modules/forum/forum.module:558
+#: modules/forum/forum.module:561
 msgid "Topic"
 msgstr "נושא"
 
-#: modules/forum/forum.module:560
+#: modules/forum/forum.module:563
 msgid "Created"
 msgstr "נוצר"
 
-#: modules/forum/forum.module:561
+#: modules/forum/forum.module:564
 msgid "Last reply"
 msgstr "תשובה אחרונה"
 
-#: modules/forum/forum.module:674
+#: modules/forum/forum.module:677
 #, fuzzy
 msgid "Post new @node_type"
 msgstr "פרסום תגובה חדשה"
 
-#: modules/forum/forum.module:681
+#: modules/forum/forum.module:684
 #, fuzzy
 msgid "You are not allowed to post new content in forum."
 msgstr "אינכם מורשים לפרסם הודעת יומן חדשה."
 
-#: modules/forum/forum.module:685
+#: modules/forum/forum.module:688
 #, fuzzy
 msgid "<a href=\"@login\">Login</a> to post new content in forum."
 msgstr "<a href=\"@login\">הזדהו</a> לפרסום תגובות"
 
-#: modules/forum/forum.module:723
+#: modules/forum/forum.module:726
 msgid "No forums defined"
 msgstr "לא הוגדרו קבוצות דיון"
 
-#: modules/forum/forum.module:760;822
-msgid "!count new"
-msgstr ""
-
-#: modules/forum/forum.module:809
+#: modules/forum/forum.module:812
 msgid "This topic has been moved"
 msgstr "הנושא הועבר"
 
-#: modules/forum/forum.module:319
+#: modules/forum/forum.module:322
 msgid "create forum topics"
 msgstr "יצירת נושאים"
 
-#: modules/forum/forum.module:319
+#: modules/forum/forum.module:322
+#, fuzzy
+msgid "delete own forum topics"
+msgstr "עריכת הודעות עצמית"
+
+#: modules/forum/forum.module:322
+#, fuzzy
+msgid "delete any forum topic"
+msgstr "עריכת הודעות עצמית"
+
+#: modules/forum/forum.module:322
 msgid "edit own forum topics"
 msgstr "עריכת הודעות עצמית"
 
-#: modules/forum/forum.module:319
+#: modules/forum/forum.module:322
 #, fuzzy
 msgid "edit any forum topic"
 msgstr "עריכת הודעות עצמית"
 
-#: modules/forum/forum.module:319
+#: modules/forum/forum.module:322
 msgid "administer forums"
 msgstr "ניהול קבוצות דיון"
 
-#: modules/forum/forum.module:86;93 modules/forum/forum.install:22
+#: modules/forum/forum.module:86;93 modules/forum/forum.install:27;116
 #, fuzzy
 msgid "Forums"
 msgstr "פורום"
@@ -416,15 +423,15 @@ msgstr "עדכן תיקיה"
 msgid "Edit forum"
 msgstr "עדכן קבוצת דיון"
 
-#: modules/forum/forum.install:61
+#: modules/forum/forum.install:69
 msgid "Stores the relationship of nodes to forum terms."
 msgstr ""
 
-#: modules/forum/forum.install:68
+#: modules/forum/forum.install:76
 #, fuzzy
 msgid "The {node}.nid of the node."
 msgstr "שם התפריט."
 
-#: modules/forum/forum.install:82
+#: modules/forum/forum.install:90
 msgid "The {term_data}.tid of the forum term assigned to the node."
 msgstr ""

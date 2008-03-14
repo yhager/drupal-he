@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -53,139 +53,149 @@ msgstr ""
 "למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
 "השמירה</a>."
 
-#: modules/blogapi/blogapi.module:32
+#: modules/blogapi/blogapi.module:39
 msgid "Returns a list of blogs to which an author has posting privileges."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:37
+#: modules/blogapi/blogapi.module:44
 msgid "Returns information about an author in the system."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:42;67
+#: modules/blogapi/blogapi.module:49;74
 msgid "Creates a new post, and optionally publishes it."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:47
+#: modules/blogapi/blogapi.module:54
 #, fuzzy
 msgid "Updates the information about an existing post."
 msgstr "מידע נוסף על אפשרויות מבנה קלט"
 
-#: modules/blogapi/blogapi.module:52;77
+#: modules/blogapi/blogapi.module:59;84
 #, fuzzy
 msgid "Returns information about a specific post."
 msgstr "מידע נוסף על אפשרויות מבנה קלט"
 
-#: modules/blogapi/blogapi.module:57
+#: modules/blogapi/blogapi.module:64
 #, fuzzy
 msgid "Deletes a post."
 msgstr "מחק מיקום"
 
-#: modules/blogapi/blogapi.module:62;92
+#: modules/blogapi/blogapi.module:69;99
 msgid "Returns a list of the most recent posts in the system."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:72
+#: modules/blogapi/blogapi.module:79
 #, fuzzy
 msgid "Updates information about an existing post."
 msgstr "מידע נוסף על אפשרויות מבנה קלט"
 
-#: modules/blogapi/blogapi.module:82
+#: modules/blogapi/blogapi.module:89
 msgid "Uploads a file to your webserver."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:87;107
+#: modules/blogapi/blogapi.module:94;114
 msgid "Returns a list of all categories to which the post is assigned."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:97
+#: modules/blogapi/blogapi.module:104
 msgid ""
 "Returns a bandwidth-friendly list of the most recent posts in the system."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:102
+#: modules/blogapi/blogapi.module:109
 msgid "Returns a list of all categories defined in the blog."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:112
+#: modules/blogapi/blogapi.module:119
 #, fuzzy
 msgid "Sets the categories for a post."
 msgstr "מאפשר סיווג תוכן לפי נושאים."
 
-#: modules/blogapi/blogapi.module:117
+#: modules/blogapi/blogapi.module:124
 msgid "Retrieve information about the XML-RPC methods supported by the server."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:122
+#: modules/blogapi/blogapi.module:129
 #, fuzzy
 msgid ""
 "Retrieve information about the text formatting plugins supported by the "
 "server."
 msgstr "מידע נוסף על אפשרויות מבנה קלט"
 
-#: modules/blogapi/blogapi.module:127
+#: modules/blogapi/blogapi.module:134
 msgid ""
 "Publish (rebuild) all of the static files related to an entry from your "
 "blog. Equivalent to saving an entry in the system (but without the ping)."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:204
+#: modules/blogapi/blogapi.module:216
 msgid "You do not have permission to create this type of post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:226;281
+#: modules/blogapi/blogapi.module:238;293
 msgid "Error storing post."
 msgstr "שגיאה בעת שמירת הפרסום"
 
-#: modules/blogapi/blogapi.module:248;482
+#: modules/blogapi/blogapi.module:260;502
 msgid "You do not have permission to update this post."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:362
+#: modules/blogapi/blogapi.module:378
 msgid "No file sent."
 msgstr "אף קובץ לא נשלח."
 
-#: modules/blogapi/blogapi.module:366
+#: modules/blogapi/blogapi.module:382
 msgid "Error storing file."
 msgstr "שגיאה בעת שמירת הקובץ."
 
-#: modules/blogapi/blogapi.module:477
+#: modules/blogapi/blogapi.module:497
 msgid "Invalid post."
 msgstr "פרסום שגוי"
 
-#: modules/blogapi/blogapi.module:517
+#: modules/blogapi/blogapi.module:537
 msgid "You do not have permission to edit this blog."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:521
+#: modules/blogapi/blogapi.module:541
 msgid "Wrong username or password."
 msgstr "שם משתמש או סיסמה שגויים."
 
-#: modules/blogapi/blogapi.module:544
+#: modules/blogapi/blogapi.module:564
 msgid "Enable for external blogging clients"
 msgstr ""
 
-#: modules/blogapi/blogapi.module:548
+#: modules/blogapi/blogapi.module:568
 msgid ""
 "Select the content types available to external blogging clients via Blog "
 "API. If supported, each enabled content type will be displayed as a separate "
 "\"blog\" by the external client."
 msgstr ""
 
-#: modules/blogapi/blogapi.module:577;556
+#: modules/blogapi/blogapi.module:597;576
 msgid "RSD"
 msgstr "RSD"
 
-#: modules/blogapi/blogapi.module:221
+#: modules/blogapi/blogapi.module:715
+msgid ""
+"Blog API module is not configured to support the %type content type, or you "
+"don't have sufficient permissions to post this type of content."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:233
 #, fuzzy
 msgid "@type: added %title using blog API."
 msgstr "@type: נוסף '%title'."
 
-#: modules/blogapi/blogapi.module:277
+#: modules/blogapi/blogapi.module:289
 #, fuzzy
 msgid "@type: updated %title using Blog API."
 msgstr "@type: %title עודכן."
 
-#: modules/blogapi/blogapi.module:563
+#: modules/blogapi/blogapi.module:27
+msgid "administer content with blog api"
+msgstr ""
+
+#: modules/blogapi/blogapi.module:583
 msgid "Configure the content types available to external blogging clients."
 msgstr ""
 

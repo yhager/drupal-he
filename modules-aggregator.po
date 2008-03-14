@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -126,45 +126,55 @@ msgstr "השדה %field נמחק."
 msgid "The feed %feed has been added."
 msgstr "השדה %field נמחק."
 
-#: modules/aggregator/aggregator.admin.inc:214
+#: modules/aggregator/aggregator.admin.inc:187
+msgid "Are you sure you want to remove all items from the feed %feed?"
+msgstr ""
+
+#: modules/aggregator/aggregator.admin.inc:190
+#: modules/aggregator/aggregator.module:108
+#, fuzzy
+msgid "Remove items"
+msgstr "הסר פריטים"
+
+#: modules/aggregator/aggregator.admin.inc:230
 msgid ""
 "A space-separated list of HTML tags allowed in the content of feed items. "
 "(Tags in this list are not removed by Drupal.)"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:218
+#: modules/aggregator/aggregator.admin.inc:234
 msgid "Items shown in sources and categories pages"
 msgstr "מספר הפריטים המוצגים בעמודי מקור \\ עמודי נושא"
 
-#: modules/aggregator/aggregator.admin.inc:220
+#: modules/aggregator/aggregator.admin.inc:236
 #, fuzzy
 msgid "Number of feed items displayed in feed and category summary pages."
 msgstr "מספר הפריטים שיוצגו עבור כל מקור או נושא בעמודי סיכום המקור והנושא."
 
-#: modules/aggregator/aggregator.admin.inc:224
+#: modules/aggregator/aggregator.admin.inc:240
 #, fuzzy
 msgid "Discard items older than"
 msgstr "התעלם מפריטי חדשות ישנים מתאריך"
 
-#: modules/aggregator/aggregator.admin.inc:226
+#: modules/aggregator/aggregator.admin.inc:242
 msgid ""
 "The length of time to retain feed items before discarding. (Requires a "
 "correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
 msgstr ""
 
-#: modules/aggregator/aggregator.admin.inc:230
+#: modules/aggregator/aggregator.admin.inc:246
 msgid "Category selection type"
 msgstr "סוג בחירת נושא"
 
-#: modules/aggregator/aggregator.admin.inc:231
+#: modules/aggregator/aggregator.admin.inc:247
 msgid "checkboxes"
 msgstr "תיבות סימון"
 
-#: modules/aggregator/aggregator.admin.inc:231
+#: modules/aggregator/aggregator.admin.inc:247
 msgid "multiple selector"
 msgstr "בחירה מרובה"
 
-#: modules/aggregator/aggregator.admin.inc:232
+#: modules/aggregator/aggregator.admin.inc:248
 #, fuzzy
 msgid ""
 "The type of category selection widget displayed on categorization pages. "
@@ -174,28 +184,28 @@ msgstr ""
 "זהו סוג הפקד שימש לצורך בחירת הנושא המוצג בעמודי הסיווג. תיבות סימון קלות "
 "יותר לשימוש, אך בחירה מרובה טובה לטיפול כשיש מספר גדולים של נושאים."
 
-#: modules/aggregator/aggregator.admin.inc:279
+#: modules/aggregator/aggregator.admin.inc:295
 msgid "A category named %category already exists. Please enter a unique title."
 msgstr "סיווג בשם %category כבר קיים. בבקשה לבחור כותרת ייחודית."
 
-#: modules/aggregator/aggregator.admin.inc:298
+#: modules/aggregator/aggregator.admin.inc:314
 #, fuzzy
 msgid "The category %category has been updated."
 msgstr "הנושא %category עודכן."
 
-#: modules/aggregator/aggregator.admin.inc:310
+#: modules/aggregator/aggregator.admin.inc:326
 #, fuzzy
 msgid "The category %category has been deleted."
 msgstr "הנושא %category נמחק."
 
-#: modules/aggregator/aggregator.admin.inc:323
+#: modules/aggregator/aggregator.admin.inc:339
 #, fuzzy
 msgid "The category %category has been added."
 msgstr "הנושא %category התווסף."
 
-#: modules/aggregator/aggregator.admin.inc:161;174;309;322
+#: modules/aggregator/aggregator.admin.inc:161;174;325;338
 #: modules/aggregator/aggregator.pages.inc:16
-#: modules/aggregator/aggregator.module:602;649;656;726;0
+#: modules/aggregator/aggregator.module:602;636;643;713;0
 msgid "aggregator"
 msgstr "צובר"
 
@@ -208,17 +218,17 @@ msgstr "המקור %feed נוסף."
 msgid "Feed %feed added."
 msgstr "המקור %feed נוסף."
 
-#: modules/aggregator/aggregator.admin.inc:309
+#: modules/aggregator/aggregator.admin.inc:325
 #, fuzzy
 msgid "Category %category deleted."
 msgstr "הסיווג %category נוסף."
 
-#: modules/aggregator/aggregator.admin.inc:322
+#: modules/aggregator/aggregator.admin.inc:338
 msgid "Category %category added."
 msgstr "הסיווג %category נוסף."
 
 #: modules/aggregator/aggregator.admin.inc:30;41
-#: modules/aggregator/aggregator.module:957
+#: modules/aggregator/aggregator.module:923
 msgid "1 item"
 msgid_plural "@count items"
 msgstr[0] "פריט אחד"
@@ -372,29 +382,29 @@ msgstr "המחרוזת נמחקה."
 msgid "There is no new syndicated content from %site."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:650;649
+#: modules/aggregator/aggregator.module:637;636
 msgid "There is new syndicated content from %site."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:653
+#: modules/aggregator/aggregator.module:640
 msgid "feed not parseable"
 msgstr ""
 
-#: modules/aggregator/aggregator.module:657
+#: modules/aggregator/aggregator.module:644
 msgid "The feed from %site seems to be broken, because of error \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:727
+#: modules/aggregator/aggregator.module:714
 msgid ""
 "The feed from %site seems to be broken, because of error \"%error\" on line %"
 "line."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:925;925
+#: modules/aggregator/aggregator.module:891;891
 msgid "blog it"
 msgstr "עדכון ביומן"
 
-#: modules/aggregator/aggregator.module:926
+#: modules/aggregator/aggregator.module:892
 msgid "Comment on this news item in your personal blog."
 msgstr "תגובה לפריט ביומן האישי."
 
@@ -402,11 +412,11 @@ msgstr "תגובה לפריט ביומן האישי."
 msgid "Updated URL for feed %title to %url."
 msgstr "עדכון כתובת אינטרנט %url עבור נושא %title ."
 
-#: modules/aggregator/aggregator.module:656
+#: modules/aggregator/aggregator.module:643
 msgid "The feed from %site seems to be broken, due to \"%error\"."
 msgstr ""
 
-#: modules/aggregator/aggregator.module:726
+#: modules/aggregator/aggregator.module:713
 msgid ""
 "The feed from %site seems to be broken, due to an error \"%error\" on line %"
 "line."
@@ -435,11 +445,6 @@ msgstr ""
 #, fuzzy
 msgid "Add feed"
 msgstr "הוסף שדה"
-
-#: modules/aggregator/aggregator.module:108
-#, fuzzy
-msgid "Remove items"
-msgstr "הסר פריטים"
 
 #: modules/aggregator/aggregator.module:116
 #, fuzzy

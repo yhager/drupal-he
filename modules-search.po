@@ -1,16 +1,16 @@
 # translation of modules-search.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-search\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2007-12-22 22:01+0200\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
+"PO-Revision-Date: 2008-02-25 23:42+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,7 +68,6 @@ msgid "Indexing settings"
 msgstr "הגדרות בניית מיפתוח (אינדקס)"
 
 #: modules/search/search.admin.inc:61
-#, fuzzy
 msgid ""
 "<p><em>Changing the settings below will cause the site index to be rebuilt. "
 "The search index is not cleared but systematically updated to reflect the "
@@ -76,11 +75,11 @@ msgid ""
 "indexed until all existing content has been re-indexed.</em></p><p><em>The "
 "default settings should be appropriate for the majority of sites.</em></p>"
 msgstr ""
-" <p>שינוי ההגדרות שלמטה יגרום לבנייה מחדש של המיפתוח (אינדקס החיפוש) של "
-"האתר. אינדקס החיפוש אינו מנוקה אלא מעודכן באופן הדרגתי כדי להתאים להגדרות "
-"החדשות. החיפוש ימשיך לעבוד אבל לא יתבצע מיפתוח שח תוכן חדש עד שבוצע מיפתוח "
-"מחדש של כל התוכן הקיים. </p><p>הגדרות ברירת המחדל אמורות להתאים לרוב האתרים."
-"</p>"
+"<p><em> "
+"שינוי ההגדרות שלמטה יגרום לבנייה מחדש של אינדקס החיפוש של האתר. אינדקס החיפוש אינו נבנה מחדש אלא מעודכן באופן הדרגתי כדי להתאים להגדרות החדשות. החיפוש ימשיך לעבוד אבל לא יתבצע מיפתוח של תוכן חדש עד שיסתיים המעבר על כל התוכן הקיים. "
+"</em></p><p><em> "
+"הגדרות ברירת המחדל אמורות להתאים לרוב האתרים."
+"</em></p>"
 
 #: modules/search/search.admin.inc:62
 msgid "Minimum word length to index"
@@ -197,27 +196,27 @@ msgstr ""
 msgid "Search form"
 msgstr "טופס חיפוש"
 
-#: modules/search/search.module:907
+#: modules/search/search.module:917
 msgid ""
 "You must include at least one positive keyword with @count characters or "
 "more."
 msgstr "יש להכניס לפחות מילת חיפוש אחת עם @count אותיות או יותר."
 
-#: modules/search/search.module:911
+#: modules/search/search.module:921
 msgid ""
 "Search for either of the two terms with uppercase <strong>OR</strong>. For "
 "example, <strong>cats OR dogs</strong>."
 msgstr ""
 
-#: modules/search/search.module:1018
+#: modules/search/search.module:1028
 msgid "Enter your keywords"
 msgstr "מילות מפתח לחיפוש"
 
-#: modules/search/search.module:1052
+#: modules/search/search.module:1062
 msgid "Search this site"
 msgstr "חפש באתר"
 
-#: modules/search/search.module:1056
+#: modules/search/search.module:1066
 msgid "Enter the terms you wish to search for."
 msgstr "הנושאים שברצונך לחפש."
 
@@ -281,7 +280,7 @@ msgstr ""
 msgid "The {search_total}.word that is associated with the search item."
 msgstr ""
 
-#: modules/search/search.install:76;123;130
+#: modules/search/search.install:76
 msgid "The {search_dataset}.sid of the searchable item to which the word belongs."
 msgstr ""
 
@@ -307,11 +306,29 @@ msgid ""
 "probability distribution."
 msgstr ""
 
-#: modules/search/search.install:137
+#: modules/search/search.install:117
+msgid ""
+"Stores items (like nodes) that link to other nodes, used to improve search "
+"scores for nodes that are frequently linked to."
+msgstr ""
+
+#: modules/search/search.install:124
+msgid ""
+"The {search_dataset}.sid of the searchable item containing the link to the "
+"node."
+msgstr ""
+
+#: modules/search/search.install:131
+msgid ""
+"The {search_dataset}.type of the searchable item containing the link to the "
+"node."
+msgstr ""
+
+#: modules/search/search.install:138
 msgid "The {node}.nid that this item links to."
 msgstr "ה {node}.nid שאליו מקושר פריט זה"
 
-#: modules/search/search.install:143
+#: modules/search/search.install:144
 msgid "The text used to link to the {node}.nid."
 msgstr ""
 

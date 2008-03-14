@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -151,15 +151,15 @@ msgstr ""
 msgid "The alias has been deleted."
 msgstr "המיקום נמחק."
 
-#: modules/path/path.module:139
+#: modules/path/path.module:140
 msgid "The path is already in use."
 msgstr "מיקום זה כבר נמצא בשימוש."
 
-#: modules/path/path.module:181
+#: modules/path/path.module:182
 msgid "URL path settings"
 msgstr "הגדרת מיקום חלופי"
 
-#: modules/path/path.module:193
+#: modules/path/path.module:194
 msgid ""
 "Optionally specify an alternative URL by which this node can be accessed. "
 "For example, type \"about\" when writing an about page. Use a relative path "
@@ -169,11 +169,11 @@ msgstr ""
 "\"about\" כשאתה כותב עמוד אודות האתר. יש להשתמש במיקום יחסי ולא להוסיף לוכסן "
 "בסוף, אחרת זה לא יעבוד."
 
-#: modules/path/path.module:208
+#: modules/path/path.module:209
 msgid "create url aliases"
 msgstr "יצירת מיקומים"
 
-#: modules/path/path.module:208
+#: modules/path/path.module:209
 msgid "administer url aliases"
 msgstr "ניהול מיקומים"
 

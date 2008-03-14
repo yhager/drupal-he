@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -262,27 +262,27 @@ msgstr ""
 msgid "The following types of fields can be added to a user profile:"
 msgstr ""
 
-#: modules/profile/profile.module:37;538
+#: modules/profile/profile.module:37;541
 msgid "single-line textfield"
 msgstr "שדה טקסט של שורה אחת"
 
-#: modules/profile/profile.module:38;539
+#: modules/profile/profile.module:38;542
 msgid "multi-line textfield"
 msgstr "שדה טקסט רב-שורות"
 
-#: modules/profile/profile.module:39;540
+#: modules/profile/profile.module:39;543
 msgid "checkbox"
 msgstr "תיבת סימון"
 
-#: modules/profile/profile.module:40;541
+#: modules/profile/profile.module:40;544
 msgid "list selection"
 msgstr "בחירה מרשימה"
 
-#: modules/profile/profile.module:41;542
+#: modules/profile/profile.module:41;545
 msgid "freeform list"
 msgstr "רשימה חופשית"
 
-#: modules/profile/profile.module:43;544
+#: modules/profile/profile.module:43;547
 msgid "date"
 msgstr "תאריך"
 
@@ -309,19 +309,19 @@ msgid ""
 "button at the bottom of the page."
 msgstr ""
 
-#: modules/profile/profile.module:136
+#: modules/profile/profile.module:137
 msgid "Author information"
 msgstr "מידע על המחבר"
 
-#: modules/profile/profile.module:147
+#: modules/profile/profile.module:148
 msgid "Link to full user profile"
 msgstr "קישור לפרופיל המשתמש המלא"
 
-#: modules/profile/profile.module:149
+#: modules/profile/profile.module:150
 msgid "Profile fields to display"
 msgstr "שדות הפרופיל שיוצגו"
 
-#: modules/profile/profile.module:152
+#: modules/profile/profile.module:153
 msgid ""
 "Select which profile fields you wish to display in the block. Only fields "
 "designated as public in the <a href=\"@profile-admin\">profile field "
@@ -330,24 +330,24 @@ msgstr ""
 "בחר את השדות שיוצגו בתיבה. רק שדות שמוגדרים כציבוריים ב<a href=\"@profile-"
 "admin\">הגדרת שדות הפרופיל</a> זמינים."
 
-#: modules/profile/profile.module:184
+#: modules/profile/profile.module:185
 msgid "View full user profile"
 msgstr "הצג את פרופיל המשתמש המלא"
 
-#: modules/profile/profile.module:189
+#: modules/profile/profile.module:190
 msgid "About %name"
 msgstr "אודות %name"
 
-#: modules/profile/profile.module:330
+#: modules/profile/profile.module:333
 msgid ""
 "Put each item on a separate line or separate them by commas. No HTML allowed."
 msgstr "יש לרשום כל פריט בשורה נפרדת או להפרידם בפסיקים. אין להשתמש ב-HTML."
 
-#: modules/profile/profile.module:432
+#: modules/profile/profile.module:435
 msgid "The value provided for %field is not a valid URL."
 msgstr "הערך שהוזן בשדה %field אינו כתובת אינטרנט - URL תקינה."
 
-#: modules/profile/profile.module:437
+#: modules/profile/profile.module:440
 msgid "The field %field is required."
 msgstr "חובה למלא את השדה %field."
 
@@ -359,23 +359,23 @@ msgstr "פרופילי משתמשים"
 msgid "Create customizable fields for your users."
 msgstr "צור שדות הניתנים להתאמה עבור המשתמשים."
 
-#: modules/profile/profile.module:94
+#: modules/profile/profile.module:95
 msgid "Add field"
 msgstr "הוסף שדה"
 
-#: modules/profile/profile.module:101
+#: modules/profile/profile.module:102
 msgid "Profile category autocomplete"
 msgstr "השלמה אוטומטית של סיווג הפרופיל"
 
-#: modules/profile/profile.module:107
+#: modules/profile/profile.module:108
 msgid "Edit field"
 msgstr "עדכן שדה"
 
-#: modules/profile/profile.module:114
+#: modules/profile/profile.module:115
 msgid "Delete field"
 msgstr "מחק שדה"
 
-#: modules/profile/profile.module:121
+#: modules/profile/profile.module:122
 msgid "Profile autocomplete"
 msgstr "השלמת פרופיל אוטומטית"
 

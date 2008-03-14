@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-trigger\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-12-22 21:48+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -33,37 +33,37 @@ msgstr ""
 msgid "Action %action has been unassigned."
 msgstr "הפעולה %action כעת ללא השמה."
 
-#: modules/trigger/trigger.admin.inc:143
+#: modules/trigger/trigger.admin.inc:144
 msgid "Trigger: "
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:153
+#: modules/trigger/trigger.admin.inc:154
 msgid "unassign"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:163 modules/trigger/trigger.module:409
+#: modules/trigger/trigger.admin.inc:164 modules/trigger/trigger.module:411
 msgid "Choose an action"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:170
+#: modules/trigger/trigger.admin.inc:171
 msgid "Assign"
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:175
+#: modules/trigger/trigger.admin.inc:176
 msgid "No available actions for this trigger."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:190
-msgid "The action you choose is already assigned to that trigger."
+#: modules/trigger/trigger.admin.inc:192
+msgid "The action you chose is already assigned to that trigger."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:216
+#: modules/trigger/trigger.admin.inc:218
 msgid ""
 "You have added an action that changes a the property of a post. A Save post "
 "action has been added so that the property change will be saved."
 msgstr ""
 
-#: modules/trigger/trigger.admin.inc:236
+#: modules/trigger/trigger.admin.inc:238
 msgid "Operation"
 msgstr "פעולה"
 
@@ -86,8 +86,8 @@ msgstr ""
 #: modules/trigger/trigger.module:19
 msgid ""
 "Below you can assign actions to run when certain content-related triggers "
-"happen. For example, you could remove a post from the front page when the "
-"post is updated."
+"happen. For example, you could send an e-mail to an administrator when a "
+"post is created or updated."
 msgstr ""
 
 #: modules/trigger/trigger.module:21
@@ -130,7 +130,9 @@ msgstr ""
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@trigger"
 "\">Trigger module</a>."
-msgstr "למידע נוסף על הגדרות והתאמות קרא בספר השימוש של<a href=\"@trigger\">רכיב trigger</a>."
+msgstr ""
+"למידע נוסף על הגדרות והתאמות קרא בספר השימוש של<a href=\"@trigger\">רכיב "
+"trigger</a>."
 
 #: modules/trigger/trigger.module:39
 msgid "Triggers"
@@ -175,4 +177,3 @@ msgstr ""
 #: modules/trigger/trigger.install:55
 msgid "The weight of the trigger assignment in relation to other triggers."
 msgstr ""
-

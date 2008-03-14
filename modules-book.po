@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
+"POT-Creation-Date: 2008-02-15 13:50+0100\n"
 "PO-Revision-Date: 2007-02-26 11:58+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -161,26 +161,26 @@ msgstr "גרסה להדפסה"
 msgid "Show a printer-friendly version of this book page and its sub-pages."
 msgstr "הצג תצוגה ידידותית למדפסת של עמוד זה בספר ושל עמודי המשנה שלו."
 
-#: modules/book/book.module:180;190
+#: modules/book/book.module:180;189
 msgid "Book navigation"
 msgstr "ניווט בספר"
 
-#: modules/book/book.module:224
+#: modules/book/book.module:223
 #, fuzzy
 msgid "Show block on all pages"
 msgstr "הצג תיבות בעמודים מסויימים"
 
-#: modules/book/book.module:225
+#: modules/book/book.module:224
 #, fuzzy
 msgid "Show block only on book pages"
 msgstr "הצג תיבות בעמודים מסויימים"
 
-#: modules/book/book.module:229
+#: modules/book/book.module:228
 #, fuzzy
 msgid "Book navigation block display"
 msgstr "ניווט בספר"
 
-#: modules/book/book.module:232
+#: modules/book/book.module:231
 msgid ""
 "If <em>Show block on all pages</em> is selected, the block will contain the "
 "automatically generated menus for all of the site's books. If <em>Show block "
@@ -191,57 +191,57 @@ msgid ""
 "addition to selectively display this block."
 msgstr ""
 
-#: modules/book/book.module:303
+#: modules/book/book.module:302
 msgid "Change book (update list of parents)"
 msgstr ""
 
-#: modules/book/book.module:338
+#: modules/book/book.module:337
 #, fuzzy
 msgid "This is the top-level page in this book."
 msgstr "עמוד אב בספר."
 
-#: modules/book/book.module:341
+#: modules/book/book.module:340
 #, fuzzy
 msgid "This will be the top-level page in this book."
 msgstr "עמוד אב בספר."
 
-#: modules/book/book.module:345
+#: modules/book/book.module:344
 #, fuzzy
 msgid "No book selected."
 msgstr "לא נבחרו רכיבים."
 
-#: modules/book/book.module:352
+#: modules/book/book.module:351
 msgid ""
 "The parent page in the book. The maximum depth for a book and all child "
 "pages is !maxdepth. Some pages in the selected book may not be available as "
 "parents if selecting them would exceed this limit."
 msgstr ""
 
-#: modules/book/book.module:370
+#: modules/book/book.module:369
 #, fuzzy
 msgid "Book outline"
 msgstr "מתאר"
 
-#: modules/book/book.module:392
+#: modules/book/book.module:391
 msgid "Pages at a given level are ordered first by weight and then by title."
 msgstr "עמודים ברמה נתונה מסודרים ראשית לפי משקלם, ואז לפי כותרת."
 
-#: modules/book/book.module:409
+#: modules/book/book.module:408
 #, fuzzy
 msgid "create a new book"
 msgstr "צור ספרים חדשים"
 
-#: modules/book/book.module:423
+#: modules/book/book.module:422
 msgid "Your page will be a part of the selected book."
 msgstr ""
 
-#: modules/book/book.module:760
+#: modules/book/book.module:763
 msgid ""
 "%title is part of a book outline, and has associated child pages. If you "
 "proceed with deletion, the child pages will be relocated automatically."
 msgstr ""
 
-#: modules/book/book.module:1003
+#: modules/book/book.module:1006
 msgid ""
 "The book module is suited for creating structured, multi-page hypertexts "
 "such as site resource guides, manuals, and Frequently Asked Questions "
@@ -251,7 +251,7 @@ msgid ""
 "contents menu."
 msgstr ""
 
-#: modules/book/book.module:1004
+#: modules/book/book.module:1007
 msgid ""
 "Pages in the book hierarchy have navigation elements at the bottom of the "
 "page for moving through the text. These links lead to the previous and next "
@@ -261,14 +261,14 @@ msgid ""
 "administration page</a>."
 msgstr ""
 
-#: modules/book/book.module:1005
+#: modules/book/book.module:1008
 msgid ""
 "Users can select the <em>printer-friendly version</em> link visible at the "
 "bottom of a book page to generate a printer-friendly display of the page and "
 "all of its subsections. "
 msgstr ""
 
-#: modules/book/book.module:1006
+#: modules/book/book.module:1009
 msgid ""
 "Users with the <em>administer book outlines</em> permission can add a post "
 "of any content type to a book, by selecting the appropriate book while "
@@ -276,14 +276,14 @@ msgid ""
 "<em>outline</em> tab."
 msgstr ""
 
-#: modules/book/book.module:1007
+#: modules/book/book.module:1010
 msgid ""
 "Administrators can view a list of all books on the <a href=\"@admin-node-book"
 "\">book administration page</a>. The <em>Outline</em> page for each book "
 "allows section titles to be edited or rearranged."
 msgstr ""
 
-#: modules/book/book.module:1008
+#: modules/book/book.module:1011
 #, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@book"
@@ -292,7 +292,7 @@ msgstr ""
 "למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
 "הגדרת התצורה וההתאמה."
 
-#: modules/book/book.module:1011
+#: modules/book/book.module:1014
 msgid ""
 "The book module offers a means to organize a collection of related posts, "
 "collectively known as a book. When viewed, these posts automatically display "
@@ -300,7 +300,7 @@ msgid ""
 "creating and reviewing structured content."
 msgstr ""
 
-#: modules/book/book.module:1013
+#: modules/book/book.module:1016
 #, fuzzy
 msgid ""
 "The outline feature allows you to include posts in the <a href=\"@book"
@@ -373,8 +373,4 @@ msgstr ""
 
 #: modules/book/book.install:275
 msgid "The book ID is the {book}.nid of the top-level page."
-msgstr ""
-
-#: modules/book/book.js:0
-msgid "Updating parents..."
 msgstr ""
