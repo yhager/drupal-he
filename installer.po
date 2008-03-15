@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: installer\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-14 08:08+0200\n"
+"PO-Revision-Date: 2008-03-15 08:43+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: install.php:111
 msgid "Requirements problem"
-msgstr ""
+msgstr "בעיה בדרישות קדם"
 
 #: install.php:201
 msgid "Database configuration"
@@ -121,7 +121,7 @@ msgstr "אם יש יותר מיישום אחד שחולק את מסד הנתונ
 
 #: install.php:327;474;1079
 msgid "Save and continue"
-msgstr ""
+msgstr "שמור והמשך"
 
 #: install.php:355
 msgid ""
@@ -144,7 +144,6 @@ msgstr ""
 "התקנת PHP שלך אינה תומכת בשרת מסוג זה."
 
 #: install.php:382
-#, fuzzy
 msgid ""
 "In order for Drupal to work, and to continue with the installation process, "
 "you must resolve all permission issues reported above. We were able to "
@@ -153,14 +152,7 @@ msgid ""
 "drupal.org/node/258\">Installation and upgrading handbook</a>. If you are "
 "unsure what any of this means you should probably contact your hosting "
 "provider."
-msgstr ""
-"בעיה בהתחברות למסד הנתונים מסוג MySQL שלך. הוא מדווח את השגיאה הבאה: <br /"
-"><span dir=\"ltr\">%error </span><ul> <li> האם אתה בטוח שסיפקת את שם המשתמש "
-"והסיסמא הנכונים?</li><li> האם אתה בטוח שכתובת המחשב המארח את מסד הנתונים "
-"נכונה?</li><li> האם אתה בטוח ששרת בסיס הנתונים רץ כרגע?</li></ul> לפרטים "
-"נוספים תוכל לקרוא את <a href=\"http://drupal.org/node/258\">חוברת ההתקנה "
-"והשדרוג</a> של דרופל. אם אינך בטוח על מה מדובר כאן, כדאי שתיצור קשר עם ספק "
-"האכסון שלך."
+msgstr "כדי שדרופל תוכל לעבוד, ושתוכל להמשיך בתהליך ההתקנה, עליך לפתור את בעיות ההרשאות שדווחו לעיל. הצלחנו לקבל הרשאות לפקודות הבאות: %<span dir=\"ltr\">commands</span>. לעזרה נוספת בהגדרת שרת מסד הנתונים, ראה את <a href=\"http://drupal.org/node/258\">המדריך להתקנה ושדרוג</a> של דרופל. אם אינך בטוח על מה מדובר כאן, כדאי שתיצור קשר עם ספק האחסון שלך."
 
 #: install.php:444
 msgid "Select an installation profile"
@@ -216,7 +208,7 @@ msgstr "המשך התקנה באנגלית"
 
 #: install.php:516
 msgid "Return to choose a language"
-msgstr ""
+msgstr "חזור לבחירת שפה"
 
 #: install.php:519
 msgid "Install Drupal in English"
@@ -224,11 +216,11 @@ msgstr "התקן את דרופל באנגלית"
 
 #: install.php:519
 msgid "Learn how to install Drupal in other languages"
-msgstr ""
+msgstr "למד איך להתקין את דרופל בשפות אחרות"
 
 #: install.php:566
 msgid "(@language)"
-msgstr "(@language)"
+msgstr ""
 
 #: install.php:572
 msgid "(built-in)"
@@ -279,33 +271,29 @@ msgstr "התקנת @drupal"
 
 #: install.php:641
 msgid "The installation has encountered an error."
-msgstr ""
+msgstr "קרתה שגיאה בזמן ההתקנה."
 
 #: install.php:697;934
 msgid "Configure site"
 msgstr "הגדר את האתר"
 
 #: install.php:703
-#, fuzzy
 msgid ""
 "All necessary changes to %dir and %file have been made, so you should remove "
 "write permissions to them now in order to avoid security risks. If you are "
 "unsure how to do so, please consult the <a href=\"@handbook_url\">on-line "
 "handbook</a>."
-msgstr ""
-"כל השינויים הדרושים לקובץ <span dir=\"ltr\">%file</span> נעשו, לכן כדאי לבטל "
-"את הרשאות הכתיבה לקובץ זה. המנעות מביטול הרשאות הכתיבה לקובץ זה תיצור סיכון "
-"אבטחה."
+msgstr "כל השינויים הדרושים לספריה <span dir=\"ltr\">%dir</span> ולקובץ <span dir=\"ltr\">%file</span> נעשו. משיקולי אבטחה, מומלץ לבטל את הרשאות הכתיבה לקובץ זה. אם אינך בטוח כיצד לעשות זאת, קרא את <a href=\"@handbook_url\">המדריך המקוון</a>."
 
 #: install.php:706
 msgid ""
 "All necessary changes to %dir and %file have been made. They have been set "
 "to read-only for security."
-msgstr ""
+msgstr "כל השינויים הדרושים לספריה <span dir=\"ltr\">%dir</span> ולקובץ <span dir=\"ltr\">%file</span> נעשו. הם הועברו למצב של קריאה בלבד משיקולי אבטחה."
 
 #: install.php:714
 msgid "Your server has been successfully tested to support this feature."
-msgstr ""
+msgstr "השרת נבדק ונמצא שתומך באפשרות זו."
 
 #: install.php:714
 msgid ""
@@ -316,7 +304,7 @@ msgstr ""
 
 #: install.php:714
 msgid "Testing clean URLs..."
-msgstr ""
+msgstr "בודק כתובות נקיות..."
 
 #: install.php:779
 msgid "@drupal installation complete"
@@ -337,18 +325,17 @@ msgid "You may now visit <a href=\"@url\">your new site</a>."
 msgstr "תוכל כעת לגלוש אל <a href=\"@url\">האתר החדש שלך</a>."
 
 #: install.php:887
-#, fuzzy
 msgid ""
 "The @drupal installer requires write permissions to %file during the "
 "installation process. If you are unsure how to grant file permissions, "
 "please consult the <a href=\"@handbook_url\">on-line handbook</a>."
 msgstr ""
 "מערכת ההתקנה של @drupal צריכה הרשאות כתיבה לקובץ <span dir=\"ltr\">%file</"
-"span> בזמן תהליך ההתקנה."
+"span> בזמן תהליך ההתקנה. אם אינך יודע כיצד לתת הרשאות לקבצים, קרא את <a href=\"@handbook_url\">המדריך המקוון</a>."
 
 #: install.php:902;914
 msgid "Currently using !item !version"
-msgstr "כרגע מתוקנת !item !version."
+msgstr "כרגע מתוקנת !item !version"
 
 #: install.php:928
 msgid "Choose profile"
@@ -356,7 +343,7 @@ msgstr "בחר פרופיל התקנה"
 
 #: install.php:930
 msgid "Verify requirements"
-msgstr ""
+msgstr "בדיקת הרשאות"
 
 #: install.php:931
 msgid "Set up database"
@@ -479,7 +466,7 @@ msgstr "הודעות עדכונים"
 
 #: install.php:1071
 msgid "Check for updates automatically"
-msgstr ""
+msgstr "בדוק לעדכונים באופן אוטומטי"
 
 #: install.php:1073
 msgid ""
@@ -537,27 +524,27 @@ msgstr "חובה למלא שדה זה."
 
 #: (duplicate) includes/form.inc:2166 ;2169
 msgid "!title: !required"
-msgstr "!title: !required"
+msgstr ""
 
 #: (duplicate) includes/form.inc:2406
 msgid "Processing"
-msgstr ""
+msgstr "מעבד"
 
 #: (duplicate) includes/form.inc:2407
 msgid "Initializing."
-msgstr ""
+msgstr "מאתחל."
 
 #: (duplicate) includes/form.inc:2408
 msgid "Remaining @remaining of @total."
-msgstr ""
+msgstr "נשארו @remaining מתוך @total."
 
 #: (duplicate) includes/form.inc:2409
 msgid "An error has occurred."
-msgstr ""
+msgstr "קרתה שגיאה."
 
 #: (duplicate) includes/form.inc:2482
 msgid "Please continue to <a href=\"@error_url\">the error page</a>"
-msgstr ""
+msgstr "אנא המשך ל<a href=\"@error_url\">עמוד השגיאה</a>"
 
 #: includes/install.inc:237
 msgid "Failed to modify %settings, please verify the file permissions."
@@ -578,7 +565,6 @@ msgid "PHP MySQL support not enabled."
 msgstr "אין תמיכה של PHP ב-MySQL."
 
 #: includes/install.mysql.inc:44 includes/install.mysqli.inc:39
-#, fuzzy
 msgid ""
 "Failed to connect to your MySQL database server. MySQL reports the following "
 "message: %error.<ul><li>Are you sure you have the correct username and "
@@ -592,12 +578,11 @@ msgstr ""
 "><span dir=\"ltr\">%error </span><ul> <li> האם אתה בטוח שסיפקת את שם המשתמש "
 "והסיסמא הנכונים?</li><li> האם אתה בטוח שכתובת המחשב המארח את מסד הנתונים "
 "נכונה?</li><li> האם אתה בטוח ששרת בסיס הנתונים רץ כרגע?</li></ul> לפרטים "
-"נוספים תוכל לקרוא את <a href=\"http://drupal.org/node/258\">חוברת ההתקנה "
+"נוספים תוכל לקרוא את <a href=\"http://drupal.org/node/258\">מדריך ההתקנה "
 "והשדרוג</a> של דרופל. אם אינך בטוח על מה מדובר כאן, כדאי שתיצור קשר עם ספק "
-"האכסון שלך."
+"האחסון שלך."
 
 #: includes/install.mysql.inc:50 includes/install.mysqli.inc:45
-#, fuzzy
 msgid ""
 "Failed to select your database on your MySQL database server, which means "
 "the connection username and password are valid, but there is a problem "
@@ -613,11 +598,10 @@ msgstr ""
 ">%error. <ul><li> האם אתה בטוח ששם מסד הנתונים נכון?</li><li> האם אתה בטוח "
 "שמסד הנתונים קיים?</li><li> האם אתה בטוח שלמשתמש זה יש הרשאות מתאימות לגישה "
 "למסד הנתונים?</li></ul> לעזרה נוספת, ראה <a href=\"http://drupal.org/node/258"
-"\"> חוברת ההדרכה להתקנה ושדרוג</a>. אם אינך בטוח במה מדובר, פנה לספק האכסון "
+"\"> מדריך ההתקנה והשדרוג</a>. אם אינך בטוח במה מדובר, פנה לספק האחסון "
 "שלך."
 
 #: includes/install.mysql.inc:60 includes/install.mysqli.inc:55
-#, fuzzy
 msgid ""
 "Failed to create a test table on your MySQL database server with the command "
 "%query. MySQL reports the following message: %error.<ul><li>Are you sure the "
@@ -626,13 +610,11 @@ msgid ""
 "node/258\">Installation and upgrading handbook</a>. If you are unsure what "
 "these terms mean you should probably contact your hosting provider."
 msgstr ""
-"בעיה בהתחברות למסד הנתונים מסוג MySQL שלך. הוא מדווח את השגיאה הבאה: <br /"
-"><span dir=\"ltr\">%error </span><ul> <li> האם אתה בטוח שסיפקת את שם המשתמש "
-"והסיסמא הנכונים?</li><li> האם אתה בטוח שכתובת המחשב המארח את מסד הנתונים "
-"נכונה?</li><li> האם אתה בטוח ששרת בסיס הנתונים רץ כרגע?</li></ul> לפרטים "
-"נוספים תוכל לקרוא את <a href=\"http://drupal.org/node/258\">חוברת ההתקנה "
-"והשדרוג</a> של דרופל. אם אינך בטוח על מה מדובר כאן, כדאי שתיצור קשר עם ספק "
-"האכסון שלך."
+"בעיה ביצירת טבלת בדיקה במסד הנתונים מסוג MySQL שלך בעזרת הפקודה <span dir=\"ltr\">%query</span>. הוא מדווח את השגיאה הבאה: <br /><span dir=\"ltr\">%error </span> "
+"<ul> <li> "
+" האם אתה בטוח שלמשתמש שהגדרת יש הרשאות ליצירת טבלאות ומסדי נתונים?"
+"</li></ul> "
+" לפרטים נוספים תוכל לקרוא את <a href=\"http://drupal.org/node/258\">מדריך ההתקנה והשדרוג</a> של דרופל. אם אינך בטוח על מה מדובר כאן, כדאי שתיצור קשר עם ספק האחסון שלך."
 
 #: includes/install.mysql.inc:71 includes/install.mysqli.inc:66
 msgid ""
@@ -664,14 +646,13 @@ msgstr ""
 
 #: includes/install.mysqli.inc:24
 msgid "PHP MySQLi support not enabled."
-msgstr ""
+msgstr "PHP אינו תומך ב MySQLi."
 
 #: includes/install.pgsql.inc:24
 msgid "PHP PostgreSQL support not enabled."
-msgstr ""
+msgstr "PHP אינו תומך ב PostgreSQL."
 
 #: includes/install.pgsql.inc:51
-#, fuzzy
 msgid ""
 "Failed to connect to your PostgreSQL database server. PostgreSQL reports the "
 "following message: %error.<ul><li>Are you sure you have the correct username "
@@ -682,13 +663,13 @@ msgid ""
 "upgrading handbook</a>. If you are unsure what these terms mean you should "
 "probably contact your hosting provider."
 msgstr ""
-"בעיה בהתחברות למסד הנתונים מסוג MySQL שלך. הוא מדווח את השגיאה הבאה: <br /"
+"בעיה בהתחברות למסד הנתונים מסוג PostgreSQL שלך. הוא מדווח את השגיאה הבאה: <br /"
 "><span dir=\"ltr\">%error </span><ul> <li> האם אתה בטוח שסיפקת את שם המשתמש "
 "והסיסמא הנכונים?</li><li> האם אתה בטוח שכתובת המחשב המארח את מסד הנתונים "
 "נכונה?</li><li> האם אתה בטוח ששרת בסיס הנתונים רץ כרגע?</li></ul> לפרטים "
 "נוספים תוכל לקרוא את <a href=\"http://drupal.org/node/258\">חוברת ההתקנה "
 "והשדרוג</a> של דרופל. אם אינך בטוח על מה מדובר כאן, כדאי שתיצור קשר עם ספק "
-"האכסון שלך."
+"האחסון שלך."
 
 #: includes/install.pgsql.inc:61
 #, fuzzy
@@ -701,7 +682,7 @@ msgid ""
 "you are unsure what these terms mean you should probably contact your "
 "hosting provider."
 msgstr ""
-"בעיה בהתחברות למסד הנתונים מסוג MySQL שלך. הוא מדווח את השגיאה הבאה: <br /"
+"בעיה בהתחברות למסד הנתונים מסוג PostgreSQL שלך. הוא מדווח את השגיאה הבאה: <br /"
 "><span dir=\"ltr\">%error </span><ul> <li> האם אתה בטוח שסיפקת את שם המשתמש "
 "והסיסמא הנכונים?</li><li> האם אתה בטוח שכתובת המחשב המארח את מסד הנתונים "
 "נכונה?</li><li> האם אתה בטוח ששרת בסיס הנתונים רץ כרגע?</li></ul> לפרטים "
@@ -807,7 +788,7 @@ msgstr "ייבא תרגום ממשק"
 
 #: (duplicate) includes/locale.inc:2515
 msgid "Starting import"
-msgstr ""
+msgstr "מתחיל בייבוא"
 
 #: (duplicate) includes/locale.inc:2516
 msgid "Error importing interface translations"
@@ -826,10 +807,9 @@ msgid ""
 msgstr "יש לתקן את השגיאה הבאה לפני שתוכל להמשיך בתהליך ההתקנה"
 
 #: includes/theme.maintenance.inc:125
-#, fuzzy
 msgid "Please check the error messages and <a href=\"!url\">try again</a>."
 msgstr ""
-"רכיב אחד או יותר חסרים. אנא בדוק את הודעות השגיאה ו<a href=\"!url\">נסה שוב</"
+"אנא בדוק את הודעות השגיאה ו<a href=\"!url\">נסה שוב</"
 "a>."
 
 #: includes/theme.maintenance.inc:130
@@ -846,7 +826,7 @@ msgid ""
 "most cases may be safely ignored"
 msgstr ""
 "יש לקרוא בתשומת לב את האזהרות הבאות לגבי תהליך ההתקנה, אולם ברוב המקרים אין "
-"להן משמעות מעשית."
+"להן משמעות מעשית"
 
 #: includes/theme.maintenance.inc:137
 msgid ""
@@ -854,7 +834,7 @@ msgid ""
 "cases may be safely ignored"
 msgstr ""
 "יש לקרוא בתשומת לב את האזהרה הבאה לגבי תהליך ההתקנה, אולם ברוב המקרים אין לה "
-"משמעות מעשית."
+"משמעות מעשית"
 
 #: (duplicate) includes/unicode.inc:48
 msgid ""
@@ -917,7 +897,7 @@ msgstr "ספרית Unicode"
 
 #: (duplicate) modules/menu/menu.install:12
 msgid "Navigation"
-msgstr ""
+msgstr "ניווט"
 
 #: (duplicate) modules/menu/menu.install:12
 msgid ""
@@ -928,7 +908,7 @@ msgstr ""
 
 #: (duplicate) modules/menu/menu.install:13
 msgid "Primary links"
-msgstr ""
+msgstr "קישורים ראשיים"
 
 #: (duplicate) modules/menu/menu.install:13
 msgid ""
@@ -939,7 +919,7 @@ msgstr ""
 
 #: (duplicate) modules/menu/menu.install:14
 msgid "Secondary links"
-msgstr ""
+msgstr "קישורים משניים"
 
 #: (duplicate) modules/menu/menu.install:14
 msgid ""
@@ -958,7 +938,7 @@ msgstr "שרת אינטרנט"
 
 #: (duplicate) modules/system/system.install:36
 msgid "PHP"
-msgstr "PHP"
+msgstr ""
 
 #: (duplicate) modules/system/system.install:40
 msgid "Your PHP installation is too old. Drupal requires at least PHP %version."
@@ -983,7 +963,7 @@ msgstr ""
 
 #: (duplicate) modules/system/system.install:66
 msgid "PHP memory limit"
-msgstr ""
+msgstr "מגבלת זיכרון של PHP"
 
 #: (duplicate) modules/system/system.install:73
 msgid ""
@@ -1030,13 +1010,10 @@ msgid "Not protected"
 msgstr "לא מוגן"
 
 #: (duplicate) modules/system/system.install:112
-#, fuzzy
 msgid ""
 "The directory %file is not protected from modifications and poses a security "
 "risk. You must change the directory's permissions to be non-writable. "
-msgstr ""
-"הקובץ %file אינו מוגן משינויי כתיבה, ולכן זהו סיכון אבטחה. חובה לשנות את "
-"הרשאות הכתיבה כך לא ניתן יהיה לכתוב את הקובץ."
+msgstr "הספריה %file אינה מוגנת משינויי כתיבה, ולכן זהו סיכון אבטחה. יש לשנות את הרשאות הכתיבה של הספריה כך שלא ניתן יהיה לכתוב אליה"
 
 #: (duplicate) modules/system/system.install:115
 msgid ""
@@ -1064,13 +1041,10 @@ msgstr ""
 "השמירה</a>."
 
 #: (duplicate) modules/system/system.install:157
-#, fuzzy
 msgid ""
 "Cron has not run. Please visit the <a href=\"@status\">status report</a> for "
 "more information."
-msgstr ""
-"נתגלתה לפחות בעיה אחת עם התקנת דרופל. בדוק את <a href=\"@status\">דו\"ח "
-"המצב</a> לקבלת מידע נוסף."
+msgstr "כרון לא הורץ. אנא בדוק את <a href=\"@status\">דו\"ח המצב</a> למידע נוסף."
 
 #: (duplicate) modules/system/system.install:162
 msgid "Never run"
@@ -1078,7 +1052,7 @@ msgstr "לא הורץ מעולם"
 
 #: (duplicate) modules/system/system.install:163
 msgid "Cron has not run."
-msgstr ""
+msgstr "לא הורץ תהליך כרון."
 
 #: (duplicate) modules/system/system.install:166
 msgid "Last run !time ago"
@@ -1086,7 +1060,7 @@ msgstr "ריצה אחרונה לפני !time"
 
 #: (duplicate) modules/system/system.install:169
 msgid "Cron has not run recently."
-msgstr ""
+msgstr "כרון לא רץ לאחרונה."
 
 #: (duplicate) modules/system/system.install:174
 msgid "Cron maintenance tasks"
@@ -1185,7 +1159,7 @@ msgstr ""
 
 #: (duplicate) modules/system/system.install:286
 msgid "HTTP request status"
-msgstr ""
+msgstr "מצב בקשת HTTP"
 
 #: (duplicate) modules/system/system.install:287
 msgid "Fails"
