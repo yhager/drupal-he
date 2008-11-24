@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Drupal 6.0\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2008-11-24 08:18+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -467,16 +467,15 @@ msgstr ""
 
 #: includes/install.inc:727
 msgid "Currently using !item !version"
-msgstr "כרגע מתוקנת !item !version."
+msgstr "כרגע מותקן !item !version"
 
 #: includes/locale.inc:48;279
-#, fuzzy
 msgid "Right to left"
-msgstr "חזור להגדרות ברירת המחדל"
+msgstr "מימין לשמאל"
 
 #: includes/locale.inc:48;279
 msgid "Left to right"
-msgstr ""
+msgstr "משמאל לימין"
 
 #: includes/locale.inc:90
 msgid "Code"
@@ -487,14 +486,12 @@ msgid "English name"
 msgstr "שם אנגלי"
 
 #: includes/locale.inc:90
-#, fuzzy
 msgid "Native name"
-msgstr "שם האתר"
+msgstr "שם מקורי"
 
 #: includes/locale.inc:90;275
-#, fuzzy
 msgid "Direction"
-msgstr "בחירה מרשימה"
+msgstr "כיוון"
 
 #: includes/locale.inc:122
 msgid "Configuration saved."
