@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-system\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-02-26 09:09+0200\n"
+"PO-Revision-Date: 2008-12-25 11:00+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -27,15 +27,15 @@ msgstr ""
 
 #: modules/system/system.admin.inc:58;79
 msgid "You do not have any administrative items."
-msgstr ""
+msgstr "אין פריטים לניהול"
 
 #: modules/system/system.admin.inc:118
 msgid "Get help"
-msgstr "קבל עזרה"
+msgstr "קבלת עזרה"
 
 #: modules/system/system.admin.inc:158
 msgid "System default"
-msgstr "ברירת המחדל"
+msgstr "ברירת המחדל של המערכת"
 
 #: modules/system/system.admin.inc:166 modules/system/system.module:258
 msgid "Administration theme"
@@ -52,13 +52,13 @@ msgstr ""
 
 #: modules/system/system.admin.inc:173
 msgid "Use administration theme for content editing"
-msgstr ""
+msgstr "השתמש בעיצוב עמודי הניהול לעריכת תוכן"
 
 #: modules/system/system.admin.inc:174
 msgid ""
 "Use the administration theme when editing existing posts or creating new "
 "ones."
-msgstr ""
+msgstr "השתמש בערכת העיצוב המשמשת לעמודי הניהול גם לצורך עריכת תכנים קיימים, או יצירה של תכנים חדשים."
 
 #: modules/system/system.admin.inc:209 modules/system/system.module:704
 msgid "Screenshot for %theme theme"
@@ -309,7 +309,7 @@ msgstr "סיסמה"
 msgid ""
 "Your site's motto, tag line, or catchphrase (often displayed alongside the "
 "title of the site)."
-msgstr ""
+msgstr "המסר של האתר, משפט קצר המנוסח בקפידה ומתאר באופן תמציתי את האתר (מוצג לרוב יחד עם כותרת האתר)."
 
 #: modules/system/system.admin.inc:1149
 msgid "Mission"
@@ -319,7 +319,7 @@ msgstr "משימה"
 msgid ""
 "Your site's mission or focus statement (often prominently displayed on the "
 "front page)."
-msgstr ""
+msgstr "המטרה של האתר, או הצהרת הכוונות שלו (לרוב מוצג בעמוד הראשי במקום בולט)."
 
 #: modules/system/system.admin.inc:1155
 msgid "Footer message"
@@ -351,7 +351,7 @@ msgstr "עמוד הבית מציג תוכן מכתובת URL יחסית זו. א
 
 #: modules/system/system.admin.inc:1196
 msgid "The path '@path' is either invalid or you do not have access to it."
-msgstr ""
+msgstr "התיקיה '@path' אינה קיימת או שאין גישה אליה."
 
 #: modules/system/system.admin.inc:1210
 msgid "Default 403 (access denied) page"
@@ -403,13 +403,13 @@ msgid ""
 "and unloading (exit) of enabled modules when serving a cached page. This "
 "results in an additional performance boost but can cause unwanted side "
 "effects."
-msgstr ""
+msgstr "מצב זכרון המטמון הרגיל מתאים לרוב האתרים ואין לו תופעות לוואי. המצב האגריסיבי גורם לדרופל לדלג על טעינה (boot) והורדת (exit) מודולים מופעלים כאשר מוצג עמוד מתוך המטמון. זה מאיץ את הביצועים הכללים, אולם עלול לגרום לתופעות לוואי בלתי רצויות."
 
 #: modules/system/system.admin.inc:1261
 msgid ""
 "<strong class=\"error\">The following enabled modules are incompatible with "
 "aggressive mode caching and will not function properly: %modules</strong>"
-msgstr ""
+msgstr "<strong class=\"error\">המודולים הבאים מופעלים, ואינם מתאימים לעבודה עם מטמון אגרסיבי. מודולים אלו לא יעבדו כראוי במצב מטמון אגרסיבי: %modules</strong>"
 
 #: modules/system/system.admin.inc:1264
 msgid ""
@@ -417,7 +417,7 @@ msgid ""
 "aggressive caching policy.</strong> Please note, if you use aggressive "
 "caching and enable new modules, you will need to check this page again to "
 "ensure compatibility."
-msgstr ""
+msgstr "<strong class=\"ok\">כרגע, כל המודולים המופעלים תואמים מדיניות מטמון אגרסיבית.</strong> שים לב, אם תשתמש במצב מטמון אגרסיבי ויופעלו מודולים נוספים, יהיה עליך לבדוק עמוד זה שוב כדי לוודא תאימות."
 
 #: modules/system/system.admin.inc:1268
 msgid "Page cache"
@@ -429,7 +429,7 @@ msgid ""
 "can store and send compressed cached pages requested by <em>anonymous</em> "
 "users. By caching a web page, Drupal does not have to construct the page "
 "each time it is viewed."
-msgstr ""
+msgstr "הפעלת מטמון העמודים תגרום לשיפור ביצועים משמעותי. דרופל יכול לאחסן ולשלוח עמודים מכווצים היישר מזכרון המטמון למשתמשים <em>לא רשומים</em>. בצורה זו, דרופל אינו צריך לבנות את העמוד מחדש בכל פעם שהוא נצפה."
 
 #: modules/system/system.admin.inc:1274
 msgid "Caching mode"
@@ -441,7 +441,7 @@ msgstr "רגיל (מומלץ, ללא תופעות לוואי)"
 
 #: modules/system/system.admin.inc:1276
 msgid "Aggressive (experts only, possible side effects)"
-msgstr "אגרסיבי (מומחים בלבד, תופעות לוואי אפשריות)"
+msgstr "אגרסיבי (מומחים בלבד, יכולות להופיע תופעות לוואי)"
 
 #: modules/system/system.admin.inc:1284
 msgid "Minimum cache lifetime"
@@ -454,22 +454,22 @@ msgid ""
 "elapse before the cache is emptied and recreated, and is applied to both "
 "page and block caches. A larger minimum cache lifetime offers better "
 "performance, but users will not see new content for a longer period of time."
-msgstr ""
+msgstr "באתרים עמוסים, רצוי לעתים לקבוע זמן חיים מינימלי לזכרון המטמון. זמן זה הוא הזמן המינימלי שיעבור לפני שתוכן המטמון יימחק וייבנה מחדש. זמן זה מתייחס לעמודים ולבלוקים כאחד. זמן מינימלי גדול ייתן ביצועים טובים יותר, אבל תדירות העדכונים תפחת, ולהפך."
 
 #: modules/system/system.admin.inc:1291
 msgid "Page compression"
-msgstr ""
+msgstr "כיווץ דפים"
 
 #: modules/system/system.admin.inc:1294
 msgid ""
 "By default, Drupal compresses the pages it caches in order to save bandwidth "
 "and improve download times. This option should be disabled when using a "
 "webserver that performs compression."
-msgstr ""
+msgstr "דרופל מכווץ את הדפים במטמון לצורך חסכון בתעבורה ושיפור זמן ההורדה. זוהי התנהגות ברירת המחדל. אם שרת ה web מבצע גם הוא כיווץ לדפים, יש לבטל אפשרות זו."
 
 #: modules/system/system.admin.inc:1299;1305
 msgid "Block cache"
-msgstr "זכרון מטמון לתיבות"
+msgstr "זכרון מטמון לבלוקים"
 
 #: modules/system/system.admin.inc:1300
 msgid ""
@@ -477,17 +477,17 @@ msgid ""
 "preventing blocks from being reconstructed on each page load. If the page "
 "cache is also enabled, performance increases from enabling the block cache "
 "will mainly benefit authenticated users."
-msgstr ""
+msgstr "הפעלת מטמון לבלוקים תתן שיפור ביצועים לכל המשתמשים בכך שנמנעת בניית הבלוקים בכל עמוד מחדש. אם גם זכרון המטמון לדפים מופעל, אפשרות זו תשפיע בעיקר על משתמשים רשומים."
 
 #: modules/system/system.admin.inc:1307
 msgid "Enabled (recommended)"
-msgstr ""
+msgstr "מופעל (מומלץ)"
 
 #: modules/system/system.admin.inc:1309
 msgid ""
 "Note that block caching is inactive when modules defining content access "
 "restrictions are enabled."
-msgstr ""
+msgstr "יש לשים לב שמטמון הבלוקים לא מופעל אם מופעלים מודולים המנהלים הגבלות גישה לתוכן."
 
 #: modules/system/system.admin.inc:1314
 msgid "Bandwidth optimizations"
@@ -506,27 +506,27 @@ msgstr ""
 
 #: modules/system/system.admin.inc:1322
 msgid "Optimize CSS files"
-msgstr ""
+msgstr "מיטוב קבצי CSS"
 
 #: modules/system/system.admin.inc:1326
 msgid ""
 "This option can interfere with theme development and should only be enabled "
 "in a production environment."
-msgstr ""
+msgstr "אפשרות זו עלולה להפריע בזמן פיתוח עיצובים ומומלץ להפעיל אותה רק באתרים חיים."
 
 #: modules/system/system.admin.inc:1330
 msgid "Optimize JavaScript files"
-msgstr ""
+msgstr "מיטוב קבצי Javascript"
 
 #: modules/system/system.admin.inc:1334
 msgid ""
 "This option can interfere with module development and should only be enabled "
 "in a production environment."
-msgstr ""
+msgstr "אפשרות זו עלולה להפריע בזמן פיתוח עיצובים ומומלץ להפעיל אותה רק באתרים חיים."
 
 #: modules/system/system.admin.inc:1339;1345
 msgid "Clear cached data"
-msgstr ""
+msgstr "ניקוי מטמון"
 
 #: modules/system/system.admin.inc:1340
 msgid ""
@@ -535,7 +535,7 @@ msgid ""
 "information has been cached. To refresh all cached data on your site, click "
 "the button below. <em>Warning: high-traffic sites will experience "
 "performance slowdowns while cached data is rebuilt.</em>"
-msgstr ""
+msgstr "זכרון המטמון משפר ביצועים, אך עלול להפריע בעת חיפוש בעיות במודולים, עיצובים או תרגומים. כדי לרענן את כל המטמון באתר, יש ללחוץ על הכפתור למטה. <em>אזהרה: אתרים עמוסים עלולים לחוות ירידות ביצועים בזמן שהמטמון נבנה מחדש.</em>"
 
 #: modules/system/system.admin.inc:1375
 msgid "File system path"
@@ -560,11 +560,11 @@ msgstr ""
 
 #: modules/system/system.admin.inc:1384
 msgid "Temporary directory"
-msgstr "תיקיה זמנית"
+msgstr "ספריה זמנית"
 
 #: modules/system/system.admin.inc:1387
 msgid "A file system path where uploaded files will be stored during previews."
-msgstr ""
+msgstr "ספרית קבצים שבה יאוחסנו קבצים לצורך תצוגה מקדימה."
 
 #: modules/system/system.admin.inc:1393
 msgid "Download method"
@@ -584,7 +584,7 @@ msgid ""
 "grained access controls over file downloads. Changing the download method "
 "will modify all download paths and may cause unexpected problems on an "
 "existing site."
-msgstr ""
+msgstr "האפשרות ה<em>ציבורית</em> היא המומלצת, אלא אם כן יש לאכוף גישה לקבצים באורח פרטני. שינוי שיטת ההורדה יגרום לשינוי בכל כתובות הקבצים להורדה ועלול לגרום לבעיות בלתי צפויות באתר קיים."
 
 #: modules/system/system.admin.inc:1413
 msgid "Select an image processing toolkit"
@@ -616,7 +616,7 @@ msgstr "כל הטקסט"
 
 #: modules/system/system.admin.inc:1447
 msgid "Global setting for the default display of content items in each feed."
-msgstr ""
+msgstr "הגדרות כלליות לתצוגת ברירת המחדל לתכנים בכל ערוץ."
 
 #: modules/system/system.admin.inc:1490
 msgid "Custom format"
@@ -624,7 +624,7 @@ msgstr "תבנית מותאמת"
 
 #: modules/system/system.admin.inc:1494 modules/system/system.module:550
 msgid "Locale settings"
-msgstr "הגדרות מיקום"
+msgstr "הגדרות איזוריות"
 
 #: modules/system/system.admin.inc:1499
 msgid "Default time zone"
@@ -648,7 +648,7 @@ msgstr ""
 
 #: modules/system/system.admin.inc:1515
 msgid "First day of week"
-msgstr "יום ראשון בשבוע"
+msgstr "היום הראשון בשבוע"
 
 #: modules/system/system.admin.inc:1518
 msgid "The first day of the week for calendar views."
@@ -675,7 +675,7 @@ msgid ""
 "A user-defined short date format. See the <a href=\"@url\">PHP manual</a> "
 "for available options. This format is currently set to display as <span>%"
 "date</span>."
-msgstr ""
+msgstr "מבנה תאריך קצר המוגדר ע\"י המשתמש. ראה את <a href=\"@url\">המדריך למשתמש של PHP</a> לאפשרויות. המבנה הנוכחי הוא <span>%date</span>."
 
 #: modules/system/system.admin.inc:1554
 msgid "Medium date format"
@@ -694,7 +694,7 @@ msgid ""
 "A user-defined medium date format. See the <a href=\"@url\">PHP manual</a> "
 "for available options. This format is currently set to display as <span>%"
 "date</span>."
-msgstr ""
+msgstr "מבנה תאריך בינוני המוגדר ע\"י המשתמש. ראה את <a href=\"@url\">המדריך למשתמש של PHP</a> לאפשרויות. המבנה הנוכחי הוא <span>%date</span>."
 
 #: modules/system/system.admin.inc:1577
 msgid "Long date format"
@@ -713,7 +713,7 @@ msgid ""
 "A user-defined long date format. See the <a href=\"@url\">PHP manual</a> for "
 "available options. This format is currently set to display as <span>%date</"
 "span>."
-msgstr ""
+msgstr "מבנה תאריך ארוך המוגדר ע\"י המשתמש. ראה את <a href=\"@url\">המדריך למשתמש של PHP</a> לאפשרויות. המבנה הנוכחי הוא <span>%date</span>."
 
 #: modules/system/system.admin.inc:1636
 msgid "Site status"
@@ -721,11 +721,11 @@ msgstr "מצב האתר"
 
 #: modules/system/system.admin.inc:1638
 msgid "Online"
-msgstr "מקוון"
+msgstr "מקוון (פעיל)"
 
 #: modules/system/system.admin.inc:1638
 msgid "Off-line"
-msgstr "לא מקוון"
+msgstr "לא מקוון (לא פעיל)"
 
 #: modules/system/system.admin.inc:1639
 msgid ""
@@ -735,7 +735,7 @@ msgid ""
 "maintenance; all other visitors will see the site off-line message "
 "configured below. Authorized users can log in during \"Off-line\" mode "
 "directly via the <a href=\"@user-login\">user login</a> page."
-msgstr ""
+msgstr "כאשר האתר \"מקוון\", כל הגולשים יוכלו לגלוש באתר באופן רגיל. כאשר האתר \"לא מקוון\", רק משתמשים עם ההרשאה \"administer site configuration\" יוכלו לגשת לאתר לביצוע משימות תחזוקה. כל הגולשים האחרים יראו את ההודעה למטה. משתמשים מורשים יוכלו להכנס לאתר בזמן שהוא לא מקוון דרך <a href=\"@user-login\">עמוד הכניסה</a>."
 
 #: modules/system/system.admin.inc:1644
 msgid "Site off-line message"
@@ -743,7 +743,7 @@ msgstr "הודעה כאשר האתר לא מקוון"
 
 #: modules/system/system.admin.inc:1646
 msgid "Message to show visitors when the site is in off-line mode."
-msgstr "הודעה להראות למבקרים כאשר האתר נמצא במצב לא מקוון."
+msgstr "הודעה שייראו הגולשים כאשר האתר נמצא במצב לא מקוון."
 
 #: modules/system/system.admin.inc:1661 modules/system/system.module:443
 msgid "Clean URLs"
@@ -766,15 +766,15 @@ msgid ""
 "\"Page not found\" error, you will need to change the configuration of your "
 "server. The <a href=\"@handbook\">handbook page on Clean URLs</a> has "
 "additional troubleshooting information."
-msgstr ""
+msgstr "לפני הפעלת כתובות נקיות יש לבצע בדיקה כדי לראות אם השרת תומך באפשרות זו. אם העמוד הזה מוצג שוב לאחר לחיצה על \"בדיקת אפשרות כתובות נקיות\", הבדיקה הצליחה והאפשרות למעלה מופעלת. אם מופיעה שגיאת \"עמוד לא נמצא\", סימן שיש לשנות את הגדרות השרת. ישנו מידע נוסף <a href=\"@handbook\">במדריך לכתובות נקיות</a>."
 
 #: modules/system/system.admin.inc:1675
 msgid "<a href=\"@clean_url\">Run the clean url test</a>."
-msgstr ""
+msgstr "<a href=\"@clean_url\">בדיקת אפשרות כתובות נקיות</a>."
 
 #: modules/system/system.admin.inc:1678 modules/system/system.js:0
 msgid "Your server has been successfully tested to support this feature."
-msgstr ""
+msgstr "השרת נבדק ונמצא תומך באפשרות זו."
 
 #: modules/system/system.admin.inc:1716
 msgid "Cron ran successfully."
@@ -914,17 +914,17 @@ msgstr "גרסה זו אינה תואמת לגרסת !core_version של דרופ
 
 #: modules/system/system.admin.inc:2050;2180
 msgid "Incompatible with this version of PHP"
-msgstr ""
+msgstr "לא תואם לגרסה זו של PHP"
 
 #: modules/system/system.admin.inc:2055
 msgid ""
 "This module requires PHP version @php_required and is incompatible with PHP "
 "version !php_version."
-msgstr ""
+msgstr "מודול זה דורש גרסה @php_required של PHP, ואינו תואם את גרסה !php_version."
 
 #: modules/system/system.admin.inc:2123
 msgid "No modules are available to uninstall."
-msgstr "אין רכיבים זמינים להסרה."
+msgstr "אין מודולים זמינים להסרה."
 
 #: modules/system/system.admin.inc:2149;2207
 msgid "Screenshot"
@@ -934,7 +934,7 @@ msgstr "צילום מסך"
 msgid ""
 "This theme requires PHP version @php_required and is incompatible with PHP "
 "version !php_version."
-msgstr ""
+msgstr "עיצוב זה דורש גרסה @php_required של PHP, ואינו תואם את גרסה !php_version."
 
 #: modules/system/system.admin.inc:833
 msgid "You must enable the @dependencies module to install @module."
