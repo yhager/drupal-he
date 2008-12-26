@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: modules-system\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-12-25 11:00+0200\n"
+"PO-Revision-Date: 2008-12-26 13:04+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -735,7 +735,7 @@ msgid ""
 "maintenance; all other visitors will see the site off-line message "
 "configured below. Authorized users can log in during \"Off-line\" mode "
 "directly via the <a href=\"@user-login\">user login</a> page."
-msgstr "כאשר האתר \"מקוון\", כל הגולשים יוכלו לגלוש באתר באופן רגיל. כאשר האתר \"לא מקוון\", רק משתמשים עם ההרשאה \"administer site configuration\" יוכלו לגשת לאתר לביצוע משימות תחזוקה. כל הגולשים האחרים יראו את ההודעה למטה. משתמשים מורשים יוכלו להכנס לאתר בזמן שהוא לא מקוון דרך <a href=\"@user-login\">עמוד הכניסה</a>."
+msgstr "כאשר האתר \"מקוון\", כל הגולשים יוכלו לגלוש באתר באופן רגיל. כאשר האתר \"לא מקוון\", רק משתמשים עם ההרשאה \"administer site configuration\" יוכלו לגשת לאתר לביצוע משימות תחזוקה. כל הגולשים האחרים ייראו את ההודעה למטה. משתמשים מורשים יוכלו להכנס לאתר בזמן שהוא לא מקוון דרך <a href=\"@user-login\">עמוד הכניסה</a>."
 
 #: modules/system/system.admin.inc:1644
 msgid "Site off-line message"
@@ -1239,22 +1239,22 @@ msgstr "סוג הפעולה"
 
 #: modules/system/system.module:1330
 msgid "Actions available to Drupal:"
-msgstr ""
+msgstr "פעולות זמינות לדרופל:"
 
 #: modules/system/system.module:1356
 msgid "Make a new advanced action available"
-msgstr ""
+msgstr "יצירת פעולה זמינה חדשה"
 
 #: modules/system/system.module:1368
 msgid "Create"
-msgstr "נוצר"
+msgstr "יצירה"
 
 #: modules/system/system.module:1435
 msgid ""
 "A unique description for this advanced action. This description will be "
 "displayed in the interface of modules that integrate with actions, such as "
 "Trigger module."
-msgstr ""
+msgstr "תיאור ייחודי של פעולה זו. תיאור זה יוצג בממשק של המודולים המקושרים אל הפעולות, כמו המודול Trigger."
 
 #: modules/system/system.module:1491
 msgid "The action has been successfully saved."
@@ -1270,11 +1270,11 @@ msgstr "לא ניתן לבטל פעולה זו."
 
 #: modules/system/system.module:1527
 msgid "Action %action was deleted"
-msgstr ""
+msgstr "הפעולה %action נמחקה"
 
 #: modules/system/system.module:1539
 msgid "Deleted orphaned action (%action)."
-msgstr ""
+msgstr "הפעולה היתומה %action נמחקה."
 
 #: modules/system/system.module:1575
 msgid "Recipient"
@@ -1284,7 +1284,7 @@ msgstr "נמען"
 msgid ""
 "The email address to which the message should be sent OR enter %author if "
 "you would like to send an e-mail to the author of the original post."
-msgstr ""
+msgstr "כתובת אימייל שאליה יש לשלוח את ההודעה. לחלופין, ניתן להשתמש ב %author כדי לשלוח אימייל ליוצר התוכן."
 
 #: modules/system/system.module:1585
 msgid "The subject of the message."
@@ -1296,6 +1296,9 @@ msgid ""
 "site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all "
 "variables will be available in all contexts."
 msgstr ""
+"ההודעה למשלוח. ניתן להשתמש במשתנים הבאים: "
+" %site_name, %username, %node_url, %node_type, %title, %teaser, %body."
+"לא כל המשתנים יהיו זמינים בכל ההקשרים."
 
 #: modules/system/system.module:1606
 msgid "Please enter a valid email address or %author."
@@ -1307,32 +1310,34 @@ msgid ""
 "following variables: %site_name, %username, %node_url, %node_type, %title, %"
 "teaser, %body. Not all variables will be available in all contexts."
 msgstr ""
+"ההודעה שיש להציג למשתמש הנוכחי. ניתן להשתמש במשתנים הבאים: %site_name, %username, %node_url, %node_type, %title, %"
+"teaser, %body. לא כל המשתנים יהיו זמינים בכל ההקשרים."
 
 #: modules/system/system.module:1812
 msgid ""
 "The URL to which the user should be redirected. This can be an internal URL "
 "like node/1234 or an external URL like http://drupal.org."
-msgstr ""
+msgstr "כתובת URL אליה יופנה המשתמש. ניתן להשתמש בכתובת פנימית כגון node/1234 או חיצונית כגון http://drupal.org.il."
 
 #: modules/system/system.module:1875;1875
 msgid "Powered by Drupal, an open source content management system"
-msgstr ""
+msgstr "מריץ דרופל, מערכת ניהול תוכן הכתובה בקוד פתוח"
 
 #: modules/system/system.module:1224
 msgid "Could not delete temporary file \"%path\" during garbage collection"
-msgstr ""
+msgstr "לא ניתן למחוק את הקובץ הזמני \"%path\" בזמן ביצוע נקיון מערכת"
 
 #: modules/system/system.module:1526
 msgid "Deleted action %aid (%action)"
-msgstr ""
+msgstr "הפעולה %aid (%action) נמחקה"
 
 #: modules/system/system.module:1653
 msgid "Cannot use %author token in this context."
-msgstr ""
+msgstr "לא ניתן להשתמש במשתנה %author בהקשר זה."
 
 #: modules/system/system.module:1684
 msgid "Sent email to %recipient"
-msgstr ""
+msgstr "נשלחה הודעה ל %recipient"
 
 #: modules/system/system.module:1687
 msgid "Unable to send email to %recipient"
@@ -1352,7 +1357,7 @@ msgstr "ניהול פעולות"
 
 #: modules/system/system.module:158
 msgid "access site reports"
-msgstr ""
+msgstr "גישה לדו\"חות"
 
 #: modules/system/system.module:158
 msgid "select different theme"
@@ -1452,7 +1457,7 @@ msgstr "מחק פעולה."
 
 #: modules/system/system.module:359
 msgid "Remove orphans"
-msgstr ""
+msgstr "מחק יתומים"
 
 #: modules/system/system.module:366
 msgid "Site information"
@@ -1476,14 +1481,14 @@ msgstr ""
 
 #: modules/system/system.module:382
 msgid "Logging and alerts"
-msgstr ""
+msgstr "יומני רישום והתראות"
 
 #: modules/system/system.module:383
 msgid ""
 "Settings for logging and alerts modules. Various modules can route Drupal's "
 "system events to different destination, such as syslog, database, email, ..."
 "etc."
-msgstr ""
+msgstr "הגדרות למודול הרישום וההתראות. מודולים שונים יכולים לנתב את הודעות המערכת למקומות שונים כמו syslog, בסיס הנתונים, דוא\"ל ועוד."
 
 #: modules/system/system.module:389
 msgid "Performance"
@@ -2264,7 +2269,7 @@ msgstr "לא הורץ מעולם"
 
 #: (duplicate) modules/system/system.install:163
 msgid "Cron has not run."
-msgstr ""
+msgstr "‏cron לא רץ."
 
 #: (duplicate) modules/system/system.install:166
 msgid "Last run !time ago"
@@ -2272,7 +2277,7 @@ msgstr "ריצה אחרונה לפני !time"
 
 #: (duplicate) modules/system/system.install:169
 msgid "Cron has not run recently."
-msgstr ""
+msgstr "‏cron לא רץ לאחרונה"
 
 #: (duplicate) modules/system/system.install:174
 msgid "Cron maintenance tasks"
@@ -2334,7 +2339,7 @@ msgid ""
 "The update.php script is accessible to everyone without authentication "
 "check, which is a security risk. You must change the $update_free_access "
 "value in your settings.php back to FALSE."
-msgstr ""
+msgstr "בעית אבטחה: הקובץ update.php זמין לכולם ללא בדיקות הרשאה. יש לשנות את המשתנה $update_free_access בקובץ settings.php בחזרה ל FALSE."
 
 #: (duplicate) modules/system/system.install:264
 msgid "Access to update.php"
@@ -2342,7 +2347,7 @@ msgstr "גישה ל update.php"
 
 #: (duplicate) modules/system/system.install:275
 msgid "Not enabled"
-msgstr "לא מאופשר"
+msgstr "מנותק"
 
 #: (duplicate) modules/system/system.install:277
 msgid ""
@@ -2351,11 +2356,11 @@ msgid ""
 "\">module administration page</a> in order to stay up-to-date on new "
 "releases. For more information please read the <a href=\"@update\">Update "
 "status handbook page</a>."
-msgstr ""
+msgstr "הודעות עדכונים מנותקות. <strong>מומלץ ביותר</strong> להפעיל את מודול העדכונים מתוך <a href=\"@module\">עמוד ניהול המודולים</a>, כדי לקבל מידע על גרסאות חדשות. למידע נוסף, ניתן לקרוא <a href=\"@update\">במדריך העדכונים</a>."
 
 #: (duplicate) modules/system/system.install:286
 msgid "HTTP request status"
-msgstr ""
+msgstr "מצב בקשות HTTP"
 
 #: (duplicate) modules/system/system.install:287
 msgid "Fails"
@@ -2368,7 +2373,7 @@ msgid ""
 "webserver configuration or PHP settings, and should be resolved in order to "
 "download information about available updates, fetch aggregator feeds, sign "
 "in via OpenID, or use other network-dependent services."
-msgstr ""
+msgstr "הגדרות הרשת של המערכת שלך לא מאפשרות לדרופל לגשת לעמודי web, ולכן פעולת המערכת נפגמת. הסיבות יכולות להיות בהגדרות השרת, או הגדרות PHP. יש לפתור בעיה זו כדי לקבל מידע שוטף על עדכונים זמינים, קריאה של ערוצי חדשות, שימוש ב OpenID, או שימוש אחר בשירותי רשת שונים."
 
 #: (duplicate) modules/system/system.install:293
 msgid "Update notifications"
@@ -2376,12 +2381,12 @@ msgstr "אפשרויות עדכון"
 
 #: modules/system/system.js:0
 msgid "Testing clean URLs..."
-msgstr ""
+msgstr "בודק כתובות נקיות..."
 
 #: modules/system/system.js:0
 msgid ""
 "Your system configuration does not currently support this feature. The <a "
 "href=\"http://drupal.org/node/15365\">handbook page on Clean URLs</a> has "
 "additional troubleshooting information."
-msgstr ""
+msgstr "המערכת לא תומכת באפשרות זו. ניתן לקרוא <a href=\"http://drupal.org/node/15365\">במדריך הכתובות הנקיות</a> על הדרכים האפשריות לתיקון."
 
