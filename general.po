@@ -667,7 +667,7 @@ msgstr "סיווג"
 #: modules/contact/contact.admin.inc:18;63
 #: modules/system/system.admin.inc:2149
 msgid "Selected"
-msgstr "עיצוב נבחר"
+msgstr "סיווג נבחר"
 
 #: modules/contact/contact.admin.inc:83 modules/profile/profile.admin.inc:301
 msgid "You must enter a category."
