@@ -1,21 +1,21 @@
-# translation of general.po to Hebrew
+# translation of modules-contact.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2009.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-contact\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-14 11:52+0200\n"
-"Last-Translator: Zohar Stolar <zohar@linnovate.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"PO-Revision-Date: 2009-01-01 12:58+0200\n"
+"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
+"Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: modules/contact/contact.admin.inc:18;47
 msgid "Recipients"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: modules/contact/contact.module:18
 msgid "A link to your site's <a href=\"@contact\">contact page</a> from the main <em>Navigation</em> menu is created, but is disabled by default. Create a similar link on another menu by adding a menu item pointing to the path \"contact\""
-msgstr "קישור ל<a href=\"@contact\">דף יצירת קשר</a> התווסף לתפריט הניווט הראשי, אך הוא איננו מאופשר כברירת מחדל. ניתן ליצור קישור דומה בתפריטים אחרים, שיובילו לנתיב \"contact\"."
+msgstr "נוצר קישור <a href=\"@contact\">דף יצירת קשר</a> מתפריט <em>הניווט</em>, אך הוא מנותק כברירת מחדל. אפשר ליצור קישור נוסף בתפריט אחר ע\"י יצירת פריט בתפריט המצביע אל \"/contact\""
 
 #: modules/contact/contact.module:19
 msgid "Customize the <a href=\"@contact\">contact page</a> with additional information (like physical location, mailing address, and telephone number) using the <a href=\"@contact-settings\">contact form settings page</a>. The <a href=\"@contact-settings\">settings page</a> also provides configuration options for the maximum number of contact form submissions a user may perform per hour, and the default status of users' personal contact forms."
@@ -212,7 +212,7 @@ msgstr "הרשה/י לחברים אחרים ליצור איתך קשר בדוא�
 
 #: modules/contact/contact.module:168;174
 msgid "[!category] !subject"
-msgstr "[!category] !subject"
+msgstr ""
 
 #: modules/contact/contact.module:169
 msgid "!name sent a message using the contact form at !form."
@@ -244,29 +244,25 @@ msgstr "צור דף יצירת קשר כללי וקבע נושאים עבורו.
 
 #: modules/contact/contact.module:67
 msgid "Edit contact category"
-msgstr "עדכן נושא ליצירת קשר"
+msgstr "עדכון נושא ליצירת קשר"
 
 #: modules/contact/contact.module:74
 msgid "Delete contact"
-msgstr "מחק נושא"
+msgstr "מחיקת נושא"
 
 #: modules/contact/contact.module:0
 #: modules/contact/contact.module:20
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@contact"
 "\">Contact module</a>."
-msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
+msgstr "למידע נוסף על הגדרות והתאמות קרא במדריך למשתמש של <a href=\"@contact\">מודול יצירת קשר</a>."
 
 msgid "contact"
-msgstr "צור קשר"
+msgstr "יצירת קשר"
 
 #: modules/contact/contact.install:35
-#, fuzzy
 msgid "Primary Key: Unique category ID."
-msgstr "Primary Key: מזהה ייחודי לקטגוריה"
+msgstr "Primary Key: מזהה ייחודי לקטגוריה."
 
 #: modules/contact/contact.install:48
 msgid "Comma-separated list of recipient e-mail addresses."
@@ -285,17 +281,14 @@ msgid "Flag to indicate whether or not category is selected by default. (1 = Yes
 msgstr "האם קטגוריה זו היא קטגורית ברירת המחדל (1 = כן, 0 = לא)"
 
 #: modules/contact/contact.module:39
-#, fuzzy
 msgid "administer site-wide contact form"
-msgstr "גישה לטופס יצירת קשר כללי באתר"
+msgstr "ניהול טופס יצירת קשר כללי"
 
 #: modules/contact/contact.install:29
-#, fuzzy
 msgid "Contact form category settings."
-msgstr "טופס יצירת קשר: הנושא %category התווסף."
+msgstr "הגדרות נושא בטופס יצירת קשר."
 
 #: modules/contact/contact.install:42
-#, fuzzy
 msgid "Category name."
-msgstr "סיווג"
+msgstr "שם הנושא."
 

@@ -1,14 +1,14 @@
 # translation of modules-block.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008, 2009.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-block\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-02-25 23:46+0200\n"
+"PO-Revision-Date: 2009-01-01 12:26+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,37 +23,37 @@ msgstr "אזור"
 
 #: modules/block/block-admin-display-form.tpl.php:57
 msgid "No blocks in this region"
-msgstr ""
+msgstr "אין בלוקים באיזור זה"
 
 #: modules/block/block.admin.inc:85
 msgid "Save blocks"
-msgstr "שמירת תיבות"
+msgstr "שמירת בלוקים"
 
 #: modules/block/block.admin.inc:100
 msgid "The block settings have been updated."
-msgstr "הגדרת התיבות עודכנה."
+msgstr "הגדרות הבלוק עודכנו."
 
 #: modules/block/block.admin.inc:151
 msgid "Block specific settings"
-msgstr "הגדרות מיוחדות לתיבה זו"
+msgstr "הגדרות מיוחדות לבלוק זה"
 
 #: modules/block/block.admin.inc:156
 msgid "Block title"
-msgstr "כותרת התיבה"
+msgstr "כותרת הבלוק"
 
 #: modules/block/block.admin.inc:158
 msgid "The title of the block as shown to the user."
-msgstr "כותרת התיבה כפי שמוצגת באתר"
+msgstr "כותרת הבלוק כפי שמוצגת באתר."
 
 #: modules/block/block.admin.inc:158
 msgid ""
 "Override the default title for the block. Use <em>&lt;none&gt;</em> to "
 "display no title, or leave blank to use the default block title."
-msgstr ""
+msgstr "שכתוב כותרת ברירת המחדל לבלוק. ניתן להשתמש ב<em>&lt;none&gt;</em> כדי לבטל את תצוגת הכותרת, הוא להשאיר ריק כדי להשתמש בברירת המחדל."
 
 #: modules/block/block.admin.inc:174
 msgid "'%name' block"
-msgstr "תיבה: '%name'"
+msgstr "בלוק: '%name'"
 
 #: modules/block/block.admin.inc:180
 msgid "User specific visibility settings"
@@ -65,37 +65,35 @@ msgstr "הגדרות תצוגה מותאמות"
 
 #: modules/block/block.admin.inc:187
 msgid "Users cannot control whether or not they see this block."
-msgstr "חברים אינם יכולים לקבוע האם התיבה תוצג או לא."
+msgstr "משתמשים אינם יכולים לקבוע האם הבלוק יוצג או לא."
 
 #: modules/block/block.admin.inc:188
 msgid "Show this block by default, but let individual users hide it."
-msgstr "הצג את התיבה כברירת מחדל, אך אפשר לחברים לבחור להחביא אותה."
+msgstr "הצגת את הבלוק כברירת מחדל, אך משתמשים יכולים לבחור להחביא אותו."
 
 #: modules/block/block.admin.inc:189
 msgid "Hide this block by default but let individual users show it."
-msgstr "החבא את התיבה כברירת מחדל ואפשר לחברים לבחור להציג אותה."
+msgstr "החבאת הבלוק כברירת מחדל אך משתמשים יכולים לבחור להציג אותו."
 
 #: modules/block/block.admin.inc:191
 msgid ""
 "Allow individual users to customize the visibility of this block in their "
 "account settings."
-msgstr ""
-"מאפשר לחברים לקבוע באופן אישי האם התיבה תהיה גלויה אצלם. הדבר מתבצע על ידי "
-"כניסה להגדרת החשבון האישי שלהם."
+msgstr "מאפשר למשתמשים לקבוע בהגדרות החשבון שלהם אם הבלוק יהיה גלוי אצלם או לא."
 
 #: modules/block/block.admin.inc:208
 msgid "Role specific visibility settings"
-msgstr "הגדרות תצוגה מותאמות אישית"
+msgstr "הגדרות תצוגה מותאמות לפי תפקיד"
 
 #: modules/block/block.admin.inc:213
 msgid "Show block for specific roles"
-msgstr "הצג תיבות לתפקידים מסוימים"
+msgstr "הצגת הבלוק לתפקידים מסוימים"
 
 #: modules/block/block.admin.inc:216
 msgid ""
 "Show this block only for the selected role(s). If you select no roles, the "
 "block will be visible to all users."
-msgstr ""
+msgstr "הצגת הבלוק רק לתפקידים הנבחרים. אם לא נבחר אף תפקיד, הבלוק יהיה מוצג לכל המשתמשים."
 
 #: modules/block/block.admin.inc:221
 msgid "Page specific visibility settings"
@@ -115,25 +113,25 @@ msgid ""
 "Example paths are %blog for the blog page and %blog-wildcard for every "
 "personal blog. %front is the front page."
 msgstr ""
-"יש להכניס מיקום אחד לשורה. יש להשתמש במיקומי דרופל. ניתן להשתמש ב'*'. דוגמה "
+"יש להכניס כתובת דרופל אחת לשורה. ניתן להשתמש ב'*'. דוגמה "
 "למיקומים: '<em>%blog</em>' עבור עמוד הבלוגים ו-'<em>%blog-wildcard</em>'  "
-"עבור כל בלוג. '<em>%front</em>' הוא העמוד הראשי."
+"עבור כל בלוג אישי. '<em>%front</em>' הוא העמוד הראשי."
 
 #: modules/block/block.admin.inc:236
 msgid ""
 "Show if the following PHP code returns <code>TRUE</code> (PHP-mode, experts "
 "only)."
-msgstr ""
+msgstr "מוצג רק אם קוד ה PHP למטה מחזיר <code>TRUE</code> (מצב PHP, מומחים בלבד)."
 
 #: modules/block/block.admin.inc:237
 msgid ""
 "If the PHP-mode is chosen, enter PHP code between %php. Note that executing "
 "incorrect PHP-code can break your Drupal site."
-msgstr ""
+msgstr "אם נבחר מצב PHP, יש להכניס את הקוד בין %php. יש לשים לב שקוד PHP לא תקין יכול לשבור את אתר הדרופל שלך."
 
 #: modules/block/block.admin.inc:241
 msgid "Show block on specific pages"
-msgstr "הצג תיבות בעמודים מסויימים"
+msgstr "הצגת בלוקים בעמודים מסויימים"
 
 #: modules/block/block.admin.inc:247
 msgid "Pages"
@@ -141,27 +139,27 @@ msgstr "עמודים"
 
 #: modules/block/block.admin.inc:255
 msgid "Save block"
-msgstr "שמור תיבה"
+msgstr "שמירת הבלוק"
 
 #: modules/block/block.admin.inc:264;293
 msgid "Please ensure that each block description is unique."
-msgstr "יש לוודא שלכל תיבה תיאור ייחודי לה."
+msgstr "יש לוודא שלכל בלוק תיאור ייחודי."
 
 #: modules/block/block.admin.inc:277
 msgid "The block configuration has been saved."
-msgstr "תצורת התיבה נשמרה."
+msgstr "תצורת הבלוק נשמרה."
 
 #: modules/block/block.admin.inc:314
 msgid "The block has been created."
-msgstr "התיבה נוצרה."
+msgstr "הבלוק נוצר."
 
 #: modules/block/block.admin.inc:329
 msgid "Are you sure you want to delete the block %name?"
-msgstr "האם אתם מעוניינים למחוק יחידת מידע בשם %name ?"
+msgstr "האמנם למחוק את הבלוק %name ?"
 
 #: modules/block/block.admin.inc:338
 msgid "The block %name has been removed."
-msgstr "התיבה %name נמחקה."
+msgstr "הבלוק %name נמחק."
 
 #: modules/block/block.module:70
 msgid ""
@@ -184,58 +182,55 @@ msgstr ""
 
 #: modules/block/block.module:72
 msgid "When working with blocks, remember that:"
-msgstr ""
+msgstr "כשעובדים עם בלוקים, יש לזכור כי:"
 
 #: modules/block/block.module:73
 msgid ""
 "since not all themes implement the same regions, or display regions in the "
 "same way, blocks are positioned on a per-theme basis."
-msgstr ""
+msgstr "כיוון שלא כל העיצובים מממשים את אותם האיזורים, או מציגים אותם באותה צורה, הבלוקים מוצגים לכל עיצוב בנפרד."
 
 #: modules/block/block.module:74
 msgid "disabled blocks, or blocks not in a region, are never shown."
-msgstr ""
+msgstr "בלוקים מבוטלים, או בלוקים שלא נמצאים באיזור כלשהוא, לא מוצגים לעולם."
 
 #: modules/block/block.module:75
 msgid ""
 "when throttle module is enabled, throttled blocks (blocks with the "
 "<em>Throttle</em> checkbox selected) are hidden during high server loads."
-msgstr ""
+msgstr "כשמודול המצערת מופעל, הבלוקים התואמים (אלו שנבחרה עבורם האפשרות <em>מצערת</em>) לא יוצגו בזמן עומס גבוה על השרת."
 
 #: modules/block/block.module:76
 msgid "blocks can be configured to be visible only on certain pages."
-msgstr ""
+msgstr "ניתן להגדיר את הבלוקים כך שיוצגו רק בעמודים מסוימים."
 
 #: modules/block/block.module:77
 msgid ""
 "blocks can be configured to be visible only when specific conditions are "
 "true."
-msgstr ""
+msgstr "ניתן להגדיר בלוקים כך שיוצגו רק אם מתקיימים תנאים מסוימים."
 
 #: modules/block/block.module:78
 msgid "blocks can be configured to be visible only for certain user roles."
-msgstr ""
+msgstr "ניתן להגדיר בלוקים כך שיוצגו רק לתפקידים מסוימים."
 
 #: modules/block/block.module:79
 msgid ""
 "when allowed by an administrator, specific blocks may be enabled or disabled "
 "on a per-user basis using the <em>My account</em> page."
-msgstr ""
+msgstr "אם מנהל האתר נתן הרשאה מתאימה, משתמשים יכולים לקבוע אם יוצגו עבורם בלוקים מסוימים בעמוד <em>החשבון שלי</em>."
 
 #: modules/block/block.module:80
 msgid ""
 "some dynamic blocks, such as those generated by modules, will be displayed "
 "only on certain pages."
-msgstr ""
+msgstr "מספר בלוקים דינמים, כמו אלו שמיוצרים ע\"י מודולים, יוצגו רק בעמודים מסוימים."
 
 #: modules/block/block.module:81
-#, fuzzy
 msgid ""
 "For more information, see the online handbook entry for <a href=\"@block"
 "\">Block module</a>."
-msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
+msgstr "מידע נוסף נמצא במדריך למשתמש עבור <a href=\"@block\">מודול הבלוקים</a>."
 
 #: modules/block/block.module:85
 msgid ""
@@ -266,62 +261,57 @@ msgid ""
 msgstr ""
 
 #: modules/block/block.module:92
-#, fuzzy
 msgid ""
 "Use this page to create a new custom block. New blocks are disabled by "
 "default, and must be moved to a region on the <a href=\"@blocks\">blocks "
 "administration page</a> to be visible."
-msgstr ""
-"יש להכניס את השם של התפריט החדש. זכרו לאפשר את התיבה החדשה שנוצרה <a href="
-"\"@blocks\">בעמוד ניהול התיבות</a>"
+msgstr "ניתן להשתמש בעמוד זה להגדרת בלוק מותאם. בלוקים חדשים לא מוצגים כברירת מחדל, ויש להעבירם לאיזור מתאים <a href=\"@blocks\">בעמוד ניהול הבלוקים</a> כדי שיוצגו."
 
 #: modules/block/block.module:272
 msgid ""
 "The block %info was assigned to the invalid region %region and has been "
 "disabled."
-msgstr ""
+msgstr "הבלוק %info מוגדר לאיזור %region אשר לא תקף, ולכן לא יוצג."
 
 #: modules/block/block.module:311
 msgid "Block description"
-msgstr "תיאור התיבה"
+msgstr "תיאור הבלוק"
 
 #: modules/block/block.module:314
 msgid ""
 "A brief description of your block. Used on the <a href=\"@overview\">block "
 "overview page</a>."
-msgstr ""
-"תיאור קצר של התיבה. משמש לתיאור התיבה <a href=\"@overview\">ברשימת התיבות</"
-"a>. "
+msgstr "תיאור קצר של הבלוק. משמש בעמוד <a href=\"overview\">רשימת הבלוקים</a>."
 
 #: modules/block/block.module:321
 msgid "Block body"
-msgstr "תוכן התיבה"
+msgstr "תוכן הבלוק"
 
 #: modules/block/block.module:324
 msgid "The content of the block as shown to the user."
-msgstr "תוכן התיבה כפי שמוצג באתר"
+msgstr "תוכן הבלוק כפי שמוצג באתר."
 
 #: modules/block/block.module:357
 msgid "Block configuration"
-msgstr "הגדרת תיבות"
+msgstr "הגדרת בלוקים"
 
 #: modules/block/block.module:113
 msgid "administer blocks"
-msgstr "ניהול תיבות"
+msgstr "ניהול בלוקים"
 
 #: modules/block/block.module:113
 msgid "use PHP for block visibility"
-msgstr ""
+msgstr "שימוש ב PHP לצורך קביעת תצוגת בלוקים"
 
 #: modules/block/block.module:121
 msgid "Blocks"
-msgstr "תיבות"
+msgstr "בלוקים"
 
 #: modules/block/block.module:122
 msgid ""
 "Configure what block content appears in your site's sidebars and other "
 "regions."
-msgstr ""
+msgstr "הגדרת הבלוקים המופיעים בפסים הצדדים ובאיזורים נוספים."
 
 #: modules/block/block.module:133
 msgid "JavaScript List Form"
@@ -329,100 +319,100 @@ msgstr ""
 
 #: modules/block/block.module:139
 msgid "Configure block"
-msgstr "הגדרות תיבה"
+msgstr "הגדרת הבלוק"
 
 #: modules/block/block.module:146
 msgid "Delete block"
-msgstr "מחיקת תיבה"
+msgstr "מחיקת בלוק "
 
 #: modules/block/block.module:153
 msgid "Add block"
-msgstr "הוסף תיבה"
+msgstr "הוספת בלוק"
 
 #: modules/block/block.module:0
 msgid "block"
-msgstr "תיבה"
+msgstr "בלוק"
 
 #: modules/block/block.install:9
 msgid "Stores block settings, such as region and visibility settings."
-msgstr ""
+msgstr "שומר את הגדרות הבלוק, כמו איזור והגדרות תצוגה."
 
 #: modules/block/block.install:14
 msgid "Primary Key: Unique block ID."
-msgstr ""
+msgstr "מפתח ראשי: מזהה ייחודי לבלוק."
 
 #: modules/block/block.install:21
 msgid ""
 "The module from which the block originates; for example, 'user' for the "
 "Who's Online block, and 'block' for any custom blocks."
-msgstr ""
+msgstr "המודול שממנו מגיע הבלוק, לדוגמא 'user' עבור הבלוק \"מי מחובר\", או 'block' לבלוקים מיוחדים."
 
 #: modules/block/block.install:28
 msgid "Unique ID for block within a module."
-msgstr ""
+msgstr "מזהה הבלוק במודול."
 
 #: modules/block/block.install:35
 msgid "The theme under which the block settings apply."
-msgstr ""
+msgstr "העיצוב שאליו מתיחסות הגדרות הבלוק."
 
 #: modules/block/block.install:42
 msgid "Block enabled status. (1 = enabled, 0 = disabled)"
-msgstr ""
+msgstr "מצב הבלוק (1 = מופעל, 0 = מבוטל)"
 
 #: modules/block/block.install:49
 msgid "Block weight within region."
-msgstr ""
+msgstr "משקל הבלוק באיזור."
 
 #: modules/block/block.install:56
 msgid "Theme region within which the block is set."
-msgstr ""
+msgstr "האיזור בעיצוב שבו מוגדר הבלוק."
 
 #: modules/block/block.install:63
 msgid ""
 "Flag to indicate how users may control visibility of the block. (0 = Users "
 "cannot control, 1 = On by default, but can be hidden, 2 = Hidden by default, "
 "but can be shown)"
-msgstr ""
+msgstr "דגל שמגדיר איך משתמשים שולטים על תצוגת הבלוק (0 = לא יכולים, 1 = דולק כברירת המחדל, אפשר לכבות, 2 = כבוי כברירת המחדל, אפשר להדליק)"
 
 #: modules/block/block.install:70
 msgid ""
 "Flag to indicate whether or not to remove block when website traffic is "
 "high. (1 = throttle, 0 = do not throttle)"
-msgstr ""
+msgstr "דגל שמגדיר אם לבטל את הבלוק בשעת עומס (1 = לבטל, 0 = לא לבטל)"
 
 #: modules/block/block.install:77
 msgid ""
 "Flag to indicate how to show blocks on pages. (0 = Show on all pages except "
 "listed pages, 1 = Show only on listed pages, 2 = Use custom PHP code to "
 "determine visibility)"
-msgstr ""
+msgstr "דגל שמגדיר איך להציג את הבלוק (0 = בכל העמודים פרט לרשומים, 1 = רק ברשומים, 2 = לפי קוד PHP)"
 
 #: modules/block/block.install:82
 msgid ""
 "Contents of the \"Pages\" block; contains either a list of paths on which to "
 "include/exclude the block or PHP code, depending on \"visibility\" setting."
-msgstr ""
+msgstr "רשימת עמודים לתצוגה או ביטול של הבלוק, או קוד PHP שיכריע. תלוי בהגדרות \"תצוגה\"."
 
 #: modules/block/block.install:89
 msgid ""
 "Custom title for the block. (Empty string will use block default title, "
 "<none> will remove the title, text will cause block to use specified title.)"
-msgstr ""
+msgstr "כותרת שונה לבלוק (ריקה תשתמש בברירת המחדל, <none> - ללא כותרת)"
 
 #: modules/block/block.install:96
 msgid ""
 "Binary flag to indicate block cache mode. (-1: Do not cache, 1: Cache per "
 "role, 2: Cache per user, 4: Cache per page, 8: Block cache global) See "
 "BLOCK_CACHE_* constants in block.module for more detailed information."
-msgstr ""
+msgstr "דגל בינארי שאומר איך להתייחס לבלוק בזכרון המטמון (-1: לא להכניס למטמון, 1: פר תפקיד, 2: פר משתמש, 4: פר עמוד, 8: גלובלי). ראה את הקבועים BLOCK_CACHE_* בקובץ block.module למידע נוסף."
 
 #: modules/block/block.install:109
 msgid "Sets up access permissions for blocks based on user roles"
-msgstr ""
+msgstr "הגדרת הרשאות גישה לבלוקים לפי תפקידים"
 
 #: modules/block/block.install:115
 msgid "The block's origin module, from {blocks}.module."
-msgstr ""
+msgstr "המודול שממנו מגיע בלוק זה, מתוך {blocks}.module."
 
 #: modules/block/block.install:121
 msgid "The block's unique delta within module, from {blocks}.delta."
@@ -434,7 +424,7 @@ msgstr ""
 
 #: modules/block/block.install:141
 msgid "Stores contents of custom-made blocks."
-msgstr ""
+msgstr "שומר תוכן של בלוקים מותאמים."
 
 #: modules/block/block.install:147
 msgid "The block's {blocks}.bid."
@@ -442,11 +432,11 @@ msgstr ""
 
 #: modules/block/block.install:153
 msgid "Block contents."
-msgstr "תוכן התיבה."
+msgstr "תוכן הבלוק."
 
 #: modules/block/block.install:160
 msgid "Block description."
-msgstr "תיאור התיבה."
+msgstr "תיאור הבלוק."
 
 #: modules/block/block.install:167
 msgid "Block body's {filter_formats}.format; for example, 1 = Filtered HTML."
@@ -463,5 +453,5 @@ msgstr ""
 msgid ""
 "The changes to these blocks will not be saved until the <em>Save blocks</em> "
 "button is clicked."
-msgstr ""
+msgstr "השינויים בבלוקים אלה יישמרו רק בלחיצה על הכפתור <em>שמירת בלוקים</em>."
 

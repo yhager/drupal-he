@@ -1,16 +1,16 @@
 # translation of general.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008, 2009.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: general\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2009-01-01 10:32+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,9 +19,8 @@ msgstr ""
 
 #: includes/actions.inc:46;275;297;329;337
 #: modules/trigger/trigger.admin.inc:87
-#, fuzzy
 msgid "actions"
-msgstr "פעולות אפשריות"
+msgstr "פעולות"
 
 #: includes/common.inc:335 modules/system/system.admin.inc:1645
 msgid ""
@@ -33,23 +32,23 @@ msgstr ""
 
 #: includes/common.inc:1090 modules/upload/upload.admin.inc:98;107;136;145
 msgid "MB"
-msgstr ""
+msgstr "מ\"ב"
 
 #: includes/common.inc:3468 modules/dblog/dblog.admin.inc:36;36
 #: modules/system/system.module:1653;1687
 #: modules/update/update.report.inc:57;57
 msgid "error"
-msgstr "שגיאות"
+msgstr "שגיאה"
 
 #: includes/common.inc:3469 modules/dblog/dblog.admin.inc:35;35
 #: modules/update/update.report.inc:63;63
 msgid "warning"
-msgstr "אזהרות"
+msgstr "אזהרה"
 
 #: includes/common.inc:609 includes/image.inc:95 includes/unicode.inc:151;184
 #: modules/php/php.module:0
 msgid "php"
-msgstr ""
+msgstr "php"
 
 #: (duplicate) includes/file.inc:109 modules/system/system.install:198
 msgid "The directory %directory does not exist."
@@ -57,7 +56,7 @@ msgstr "הספריה %directory לא קיימת."
 
 #: includes/file.inc:122;226 modules/system/system.module:1224
 msgid "file system"
-msgstr ""
+msgstr "מערכת קבצים"
 
 #: includes/file.inc:136 modules/user/user.pages.inc:261;330
 #: modules/user/user.module:1768;2277
@@ -66,16 +65,15 @@ msgstr "אבטחה"
 
 #: includes/form.inc:1568 modules/user/user.module:657;1249
 msgid "Password"
-msgstr "ססמה"
+msgstr "סיסמה"
 
 #: (duplicate) includes/form.inc:691 ;697 modules/filter/filter.module:526
-msgid ""
-"An illegal choice has been detected. Please contact the site administrator."
+msgid "An illegal choice has been detected. Please contact the site administrator."
 msgstr "בחירה לא חוקית זוהתה בטופס. אנא פנו למנהל האתר."
 
 #: (duplicate) includes/form.inc:2406 modules/node/node.admin.inc:365
 msgid "Processing"
-msgstr ""
+msgstr "מעבד"
 
 #: includes/form.inc:692;698 modules/filter/filter.module:527
 msgid "form"
@@ -90,7 +88,7 @@ msgstr "בחירה לא חוקית %choice בשדה %name בטופס."
 #: modules/system/system.admin.inc:253;276;768
 #: modules/system/system.module:1016
 msgid "Save configuration"
-msgstr "שמור תצורה"
+msgstr "שמירת הגדרות"
 
 #: includes/locale.inc:86;1984 modules/aggregator/aggregator.admin.inc:30;41
 #: modules/book/book.admin.inc:215 modules/comment/comment.admin.inc:71
@@ -102,7 +100,7 @@ msgstr "שמור תצורה"
 #: modules/translation/translation.pages.inc:38
 #: modules/user/user.admin.inc:185;891 modules/user/user.module:1400;2299
 msgid "edit"
-msgstr "עדכן"
+msgstr "עריכה"
 
 #: includes/locale.inc:86;1985 modules/block/block.admin.inc:79
 #: modules/book/book.admin.inc:216 modules/comment/comment.module:823
@@ -112,7 +110,7 @@ msgstr "עדכן"
 #: modules/profile/profile.admin.inc:31 modules/system/system.module:1321
 #: modules/user/user.admin.inc:891
 msgid "delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: (duplicate) includes/locale.inc:90 modules/comment/comment.module:552
 #: modules/locale/locale.module:266 modules/menu/menu.admin.inc:176;293
@@ -154,11 +152,11 @@ msgstr "משקל"
 #: modules/translation/translation.pages.inc:27
 #: modules/user/user.admin.inc:139;886;913;950
 msgid "Operations"
-msgstr "פעולות אפשריות"
+msgstr "פעולות"
 
 #: includes/locale.inc:166 modules/locale/locale.module:99
 msgid "Add language"
-msgstr "הוסף שפה"
+msgstr "הוספת שפה"
 
 #: includes/locale.inc:403
 #: modules/aggregator/aggregator.admin.inc:102;142;275;306
@@ -173,7 +171,7 @@ msgstr "הוסף שפה"
 #: modules/upload/upload.module:530 modules/user/user.admin.inc:870
 #: modules/user/user.pages.inc:244;311 modules/user/user.module:1059
 msgid "Delete"
-msgstr "מחק"
+msgstr "מחיקה"
 
 #: includes/locale.inc:403 modules/aggregator/aggregator.admin.inc:191
 #: modules/block/block.admin.inc:329 modules/comment/comment.admin.inc:190;249
@@ -191,7 +189,7 @@ msgstr "ביטול"
 
 #: includes/locale.inc:458 modules/comment/comment.module:1622
 msgid "Save settings"
-msgstr "שמור הגדרות"
+msgstr "שמירת הגדרות"
 
 #: includes/locale.inc:489;557;1970 modules/locale/locale.module:232;251;278
 #: modules/node/node.admin.inc:567 modules/path/path.admin.inc:36
@@ -203,12 +201,12 @@ msgstr "שפה"
 #: modules/filter/filter.module:455 modules/forum/forum-submitted.tpl.php:27
 #: modules/translation/translation.pages.inc:48
 msgid "n/a"
-msgstr ""
+msgstr "לא זמין"
 
 #: includes/locale.inc:546;573 modules/locale/locale.module:139
 #: modules/search/search.module:159;1048;1068;169 modules/search/search.info:0
 msgid "Search"
-msgstr "חפש"
+msgstr "חיפוש"
 
 #: includes/locale.inc:559 modules/locale/locale.module:252
 msgid "All languages"
@@ -223,14 +221,13 @@ msgid "Export"
 msgstr "ייצוא"
 
 #: includes/locale.inc:1970 modules/locale/locale.module:584;87
-#, fuzzy
 msgid "Languages"
-msgstr "שפה"
+msgstr "שפות"
 
 #: includes/locale.inc:423;662;942;999;1816;1820;2161;2164;2167;2170
 #: modules/locale/locale.module:510;0
 msgid "locale"
-msgstr "מיקום"
+msgstr "איזור"
 
 #: includes/mail.inc:134 modules/contact/contact.admin.inc:115;121;148
 #: modules/contact/contact.pages.inc:146;231
@@ -251,11 +248,11 @@ msgstr "בית"
 
 #: includes/pager.inc:396 modules/book/book-navigation.tpl.php:40
 msgid "Go to previous page"
-msgstr "לעמוד הקודם"
+msgstr "מעבר לעמוד הקודם"
 
 #: includes/pager.inc:397 modules/book/book-navigation.tpl.php:46
 msgid "Go to next page"
-msgstr "לעמוד הבא"
+msgstr "מעבר לעמוד הבא"
 
 #: includes/theme.inc:1377 modules/comment/comment.module:1683;1708
 msgid "new"
@@ -263,7 +260,7 @@ msgstr "חדש"
 
 #: includes/theme.inc:1555 modules/user/user.module:819
 msgid "View user profile."
-msgstr "הצג מידע נוסף על החבר."
+msgstr "הצגת פרופיל המשתמש"
 
 #: includes/theme.inc:1576 modules/comment/comment.module:1340;1349;1451
 #: modules/node/node.pages.inc:183 modules/system/system.admin.inc:1162
@@ -307,9 +304,8 @@ msgstr "כתובת URL"
 #: modules/system/system.module:1461
 #: modules/taxonomy/taxonomy.admin.inc:37;185;414;715;760
 #: modules/user/user.pages.inc:240
-#, fuzzy
 msgid "Save"
-msgstr "שמירת כלל"
+msgstr "שמירה"
 
 #: modules/aggregator/aggregator.admin.inc:174;338
 #: modules/blogapi/blogapi.module:233;289 modules/book/book.admin.inc:118;214
@@ -319,7 +315,7 @@ msgstr "שמירת כלל"
 #: modules/node/content_types.inc:335 modules/node/node.pages.inc:453
 #: modules/profile/profile.admin.inc:345;387
 msgid "view"
-msgstr "הצג"
+msgstr "הצגה"
 
 #: modules/aggregator/aggregator.admin.inc:189
 #: modules/comment/comment.admin.inc:189 modules/contact/contact.admin.inc:138
@@ -354,11 +350,11 @@ msgstr "תיאור"
 
 #: modules/aggregator/aggregator.pages.inc:364 modules/node/node.module:1687
 msgid "read more"
-msgstr "הצג את ההמשך"
+msgstr "להמשך קריאה"
 
 #: modules/aggregator/aggregator.module:99 modules/contact/contact.module:59
 msgid "Add category"
-msgstr "הוסף נושא"
+msgstr "הוספת נושא"
 
 #: modules/aggregator/aggregator.module:124 modules/block/block.module:128
 #: modules/book/book.module:86 modules/contact/contact.module:53
@@ -379,26 +375,26 @@ msgstr "הגדרות"
 
 #: modules/aggregator/aggregator.module:157 modules/node/node.module:1467
 msgid "RSS feed"
-msgstr "מקור רסס"
+msgstr "מקור RSS"
 
 #: modules/aggregator/aggregator.module:180;208 modules/node/node.module:1511
 #: modules/user/user.module:1053
 msgid "View"
-msgstr "הצג"
+msgstr "הצגה"
 
 #: modules/aggregator/aggregator.module:193;221
 #: modules/filter/filter.module:120 modules/locale/locale.module:106
 #: modules/system/system.module:283
 msgid "Configure"
-msgstr "הגדר"
+msgstr "הגדרה"
 
 #: modules/aggregator/aggregator.info:0
 msgid "Aggregator"
-msgstr ""
+msgstr "צובר"
 
 #: modules/aggregator/aggregator.info:0
 msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
-msgstr ""
+msgstr "צובר תכנים מערוצי סינדיקציה (RSS, RDF ו Atom)."
 
 #: modules/aggregator/aggregator.info:0 modules/blog/blog.info:0
 #: modules/blogapi/blogapi.info:0 modules/book/book.info:0
@@ -420,7 +416,7 @@ msgstr "ליבה - רשות"
 #: modules/block/block-admin-display-form.tpl.php:41
 #: modules/block/block.info:0
 msgid "Block"
-msgstr "תיבה"
+msgstr "בלוק"
 
 #: modules/block/block-admin-display-form.tpl.php:45
 #: modules/system/system.admin.inc:2020 modules/throttle/throttle.module:11
@@ -431,7 +427,7 @@ msgstr "מצערת"
 #: modules/block/block.admin.inc:77 modules/filter/filter.admin.inc:34
 #: modules/system/system.admin.inc:219 modules/system/system.module:1320
 msgid "configure"
-msgstr "הגדר"
+msgstr "הגדרה"
 
 #: (duplicate) modules/block/block.admin.inc:358
 #: modules/comment/comment.module:500;552;584 modules/locale/locale.module:266
@@ -459,7 +455,7 @@ msgstr "יומן"
 
 #: modules/blog/blog.info:0
 msgid "Enables keeping easily and regularly updated user web pages or blogs."
-msgstr ""
+msgstr "מאפשר כתיבה ועדכון של דפי משתמשים או בלוגים."
 
 #: modules/blogapi/blogapi.module:233;289 modules/book/book.admin.inc:118
 #: modules/comment/comment.admin.inc:111;280;286
@@ -471,13 +467,13 @@ msgstr "תוכן"
 
 #: modules/blogapi/blogapi.module:582 modules/blogapi/blogapi.info:0
 msgid "Blog API"
-msgstr "API ליומן"
+msgstr "API לבלוגים"
 
 #: modules/blogapi/blogapi.info:0
 msgid ""
 "Allows users to post content using applications that support XML-RPC blog "
 "APIs."
-msgstr ""
+msgstr "מאפשר למשתמשים לפרסם תכנים בבלוג באמצעות יישומים התומכים בממשק XML-RPC."
 
 #: modules/book/book.admin.inc:17 modules/book/book.module:418
 #: modules/book/book.info:0
@@ -491,11 +487,11 @@ msgstr "אב"
 #: modules/book/book.module:349 modules/menu/menu.admin.inc:312
 #: modules/menu/menu.module:398
 msgid "Parent item"
-msgstr "שורת אב"
+msgstr "פריט אב"
 
 #: modules/book/book.info:0
 msgid "Allows users to structure site pages in a hierarchy or outline."
-msgstr ""
+msgstr "מאפשר למשתמשים לבנות דפים בצורה היררכית."
 
 #: modules/color/color.module:230 modules/comment/comment.pages.inc:60
 #: modules/comment/comment.module:1387;1391;1394
@@ -509,7 +505,7 @@ msgstr "תצוגה מקדימה"
 #: modules/system/system.module:1017;1040;1050
 #: modules/update/update.settings.inc:94
 msgid "Reset to defaults"
-msgstr "חזור להגדרות ברירת המחדל"
+msgstr "איפוס הגדרות"
 
 #: modules/color/color.info:0
 msgid "Color"
@@ -517,7 +513,7 @@ msgstr "צבע"
 
 #: modules/color/color.info:0
 msgid "Allows the user to change the color scheme of certain themes."
-msgstr "מאפשר לשנות את סכמת הצבעים של חלק מערכות העיצוב"
+msgstr "מאפשר לשנות את סכמת הצבעים של חלק מערכות העיצוב."
 
 #: modules/comment/comment.admin.inc:40 modules/node/node.admin.inc:472
 #: modules/user/user.admin.inc:149
@@ -527,7 +523,7 @@ msgstr "אפשרויות עדכון"
 #: modules/comment/comment.admin.inc:48 modules/node/node.admin.inc:487
 #: modules/user/user.admin.inc:114;164
 msgid "Update"
-msgstr "עדכן"
+msgstr "עדכון"
 
 #: modules/comment/comment.admin.inc:54 modules/comment/comment.module:1357
 #: modules/contact/contact.pages.inc:55;187 modules/forum/forum.module:299
@@ -575,13 +571,12 @@ msgstr "כתובת דואר אלקטרוני"
 
 #: modules/comment/comment.module:1316;1343;1351
 #: modules/profile/profile.module:337
-msgid ""
-"The content of this field is kept private and will not be shown publicly."
+msgid "The content of this field is kept private and will not be shown publicly."
 msgstr "ערך מאפיין זה ישאר פרטי ולא יוצג באופן ציבורי."
 
 #: modules/comment/comment.module:1328 modules/node/node.pages.inc:187
 msgid "Authored on"
-msgstr "בתאריך"
+msgstr "נכתב בתאריך"
 
 #: modules/comment/comment.module:1330 modules/node/node.admin.inc:565
 #: modules/translation/translation.pages.inc:27
@@ -612,7 +607,7 @@ msgstr "תגובה"
 #: modules/comment/comment.module:1658 modules/openid/openid.module:425
 #: modules/user/user.module:1396;2293
 msgid "Error saving user account."
-msgstr ""
+msgstr "שגיאה בשמירת חשבון המשתמש."
 
 #: modules/comment/comment.module:1856 modules/forum/forum.admin.inc:204
 msgid "Date - newest first"
@@ -624,14 +619,13 @@ msgstr "תאריך - ישן תחילה"
 
 #: modules/comment/comment.module:2068 modules/node/node.module:2704
 msgid "Keywords"
-msgstr ""
+msgstr "מילות מפתח"
 
 #: modules/comment/comment.module:2058;2098
 #: modules/node/node.module:2585;2594;2603;2612;2621;2630;2639;2649;2729
 #: modules/system/system.module:1684 modules/user/user.module:2235;2245
-#, fuzzy
 msgid "action"
-msgstr "פעולות אפשריות"
+msgstr "פעולה"
 
 #: modules/comment/comment.module:418;624 modules/node/node.module:138
 msgid "1 comment"
@@ -676,7 +670,7 @@ msgstr "חובה להכניס סיווג."
 #: modules/contact/contact.pages.inc:63 modules/forum/forum.module:381
 #: modules/taxonomy/taxonomy.module:418
 msgid "- Please choose -"
-msgstr ""
+msgstr "- נא לבחור -"
 
 #: modules/contact/contact.pages.inc:81;192
 #: modules/dblog/dblog.admin.inc:50;98;148
@@ -738,18 +732,16 @@ msgid "Reset"
 msgstr "איתחול"
 
 #: modules/dblog/dblog.module:46 modules/dblog/dblog.info:0
-#, fuzzy
 msgid "Database logging"
-msgstr "שם מסד הנתונים"
+msgstr "כתיבת יומן לבסיס הנתונים"
 
 #: modules/dblog/dblog.module:75 modules/statistics/statistics.module:127
 msgid "Details"
 msgstr "פירוט"
 
 #: modules/dblog/dblog.info:0
-#, fuzzy
 msgid "Logs and records system events to the database."
-msgstr "רושם ומקליט פעילויות שבוצעו במערכת."
+msgstr "רושם ומקליט אירועים לבסיס הנתונים."
 
 #: modules/filter/filter.admin.inc:69;102;362
 #: modules/node/content_types.inc:15;72 modules/profile/profile.admin.inc:147
@@ -767,7 +759,7 @@ msgstr "תפקידים"
 #: modules/filter/filter.module:216;217;218;219;220;221
 #: modules/system/system.module:0
 msgid "Header"
-msgstr ""
+msgstr "כותרת"
 
 #: modules/filter/filter.module:114 modules/node/node.module:1492;1515
 #: modules/user/user.module:1069
@@ -791,15 +783,14 @@ msgid "Replies"
 msgstr "תגובות"
 
 #: modules/forum/forum.module:763;825 modules/tracker/tracker.pages.inc:48
-#, fuzzy
 msgid "1 new"
 msgid_plural "@count new"
-msgstr[0] "חדש"
-msgstr[1] "חדש"
+msgstr[0] "אחד חדש"
+msgstr[1] "@count חדשים"
 
 #: modules/forum/forum.install:83 modules/taxonomy/taxonomy.install:91
 msgid "Primary Key: The {node}.vid of the node."
-msgstr ""
+msgstr "מפתח ראשי: ה {node}.vid של פריט התוכן."
 
 #: modules/forum/forum.info:0
 msgid "Enables threaded discussions about general topics."
@@ -814,9 +805,8 @@ msgid "Manages the display of online help."
 msgstr "מטפל בתצוגת העזרה המקוונת."
 
 #: modules/locale/locale.module:280 modules/node/node.admin.inc:167;232;502
-#, fuzzy
 msgid "Language neutral"
-msgstr "שם שפה"
+msgstr "שפה נייטרלית"
 
 #: modules/locale/locale.module:119 modules/system/system.module:1147
 msgid "Confirm"
@@ -855,26 +845,24 @@ msgid "Locale"
 msgstr "תרגום"
 
 #: modules/locale/locale.info:0
-#, fuzzy
 msgid ""
 "Adds language handling functionality and enables the translation of the user "
 "interface to languages other than English."
-msgstr "מאפשר את תרגום ממשק המשתמש מאנגלית לשפות אחרות."
+msgstr "מוסיף אפשרויות לניהול שפות ומאפשר תרגום ממשק המשתמש לשפות שאינן אנגלית."
 
 #: modules/menu/menu.admin.inc:258;274 modules/path/path.info:0
 msgid "Path"
-msgstr "מיקום"
+msgstr "כתובת"
 
 #: modules/menu/menu.admin.inc:338 modules/system/system.admin.inc:1192
 msgid ""
 "The menu system stores system paths only, but will use the URL alias for "
 "display. %link_path has been stored as %normal_path"
-msgstr ""
+msgstr "מערכת התפריטים שומרת כתובות בלבד, אבל תציג קיצורי דרך אם קיימים. %link_path נשמר כ %normal_path"
 
 #: modules/menu/menu.admin.inc:354 modules/path/path.admin.inc:143
-msgid ""
-"The path '@link_path' is either invalid or you do not have access to it."
-msgstr ""
+msgid "The path '@link_path' is either invalid or you do not have access to it."
+msgstr "הכתובת '@link_path' אינה תקפה, או שאין לך גישה אליה."
 
 #: modules/menu/menu.admin.inc:493;575 modules/menu/menu.module:0
 #: modules/node/content_types.inc:404
@@ -882,19 +870,18 @@ msgid "menu"
 msgstr "תפריט"
 
 #: (duplicate) modules/menu/menu.install:12 modules/user/user.module:685;735
-#, fuzzy
 msgid "Navigation"
-msgstr "שמור תצורה"
+msgstr "ניווט"
 
 #: (duplicate) modules/menu/menu.install:13
 #: modules/system/system.admin.inc:385
 msgid "Primary links"
-msgstr ""
+msgstr "קישורים ראשיים"
 
 #: (duplicate) modules/menu/menu.install:14
 #: modules/system/system.admin.inc:386
 msgid "Secondary links"
-msgstr ""
+msgstr "קישורים משניים"
 
 #: modules/menu/menu.info:0
 msgid "Menu"
@@ -907,12 +894,12 @@ msgstr "מאפשר למנהלי המערכת להתאים את תפריט הני
 #: modules/node/content_types.inc:59 modules/node/node.module:591
 #: modules/user/user.admin.inc:263;283;303;323;348;373;398
 msgid "Body"
-msgstr "תוכן"
+msgstr "גוף התוכן"
 
 #: modules/node/content_types.inc:69
 #: modules/taxonomy/taxonomy.admin.inc:118;658
 msgid "Identification"
-msgstr ""
+msgstr "זיהוי"
 
 #: modules/node/node.admin.inc:38 modules/poll/poll.module:250
 msgid "Unlimited"
@@ -983,7 +970,7 @@ msgstr "רק מנהלי האתר יכולים לצרף חברים חדשים ל�
 
 #: modules/openid/openid.info:0
 msgid "Allows users to log into your site using OpenID."
-msgstr ""
+msgstr "מאפשר למשתמשים להכנס לאתר בעזרת OpenID."
 
 #: modules/path/path.admin.inc:31 modules/system/system.info:0
 msgid "System"
@@ -996,13 +983,12 @@ msgstr ""
 "באתר למיקום ידידותי יותר."
 
 #: modules/php/php.info:0
-#, fuzzy
 msgid "PHP filter"
-msgstr "מסנן HTML"
+msgstr "מסנן PHP"
 
 #: modules/php/php.info:0
 msgid "Allows embedded PHP code/snippets to be evaluated."
-msgstr ""
+msgstr "מאפשר להריץ קטעי קוד PHP."
 
 #: modules/ping/ping.info:0
 msgid "Ping"
@@ -1059,9 +1045,8 @@ msgid "Syslog"
 msgstr ""
 
 #: modules/syslog/syslog.info:0
-#, fuzzy
 msgid "Logs and records system events to syslog."
-msgstr "רושם ומקליט פעילויות שבוצעו במערכת."
+msgstr "רושם ומקליט אירועים שקרו במערכת."
 
 #: modules/system/system.admin.inc:1136 modules/user/user.module:1432
 msgid "E-mail address"
@@ -1069,7 +1054,7 @@ msgstr "כתובת דואר אלקטרוני"
 
 #: modules/system/system.module:594 modules/user/user.module:2151
 msgid "Medium"
-msgstr ""
+msgstr "בינוני"
 
 #: modules/system/system.module:1526 modules/user/user.pages.inc:66;98;134
 #: modules/user/user.module:1314;1351;1400;1577;2299;0
@@ -1087,12 +1072,12 @@ msgstr "רכיבים"
 #: modules/system/system.module:0 themes/chameleon/chameleon.info:0
 #: themes/chameleon/marvin/marvin.info:0
 msgid "Left sidebar"
-msgstr ""
+msgstr "פס צד שמאלי"
 
 #: modules/system/system.module:0 themes/chameleon/chameleon.info:0
 #: themes/chameleon/marvin/marvin.info:0
 msgid "Right sidebar"
-msgstr ""
+msgstr "פס צד ימני"
 
 #: (duplicate) modules/system/system.install:232
 #: modules/update/update.report.inc:82 modules/update/update.module:274
@@ -1136,14 +1121,12 @@ msgid "Enables tracking of recent posts for users."
 msgstr "מאפשר מעקב אחר הפרסומים האחרונים של חברים באתר."
 
 #: modules/translation/translation.info:0
-#, fuzzy
 msgid "Content translation"
-msgstr "ייבא תרגום"
+msgstr "תרגום תוכן"
 
 #: modules/translation/translation.info:0
-#, fuzzy
 msgid "Allows content to be translated into different languages."
-msgstr "מאפשר להגיש תוכן לאתר ולהציגו בעמודים."
+msgstr "מאפשר לתרגם תוכן לשפות שונות."
 
 #: modules/trigger/trigger.module:57 modules/user/user.module:566;944
 msgid "Users"
@@ -1157,18 +1140,17 @@ msgstr ""
 msgid ""
 "Enables actions to be fired on certain system events, such as when new "
 "content is created."
-msgstr ""
+msgstr "מאפשר הרצת פעולות כתגובה על אירועי מערכת, לדוגמא, יצירת תוכן חדש."
 
 #: modules/update/update.info:0
-#, fuzzy
 msgid "Update status"
-msgstr "מצב האתר"
+msgstr "מצב עדכונים"
 
 #: modules/update/update.info:0
 msgid ""
 "Checks the status of available updates for Drupal and your installed modules "
 "and themes."
-msgstr ""
+msgstr "בודק האם ישנם עדכונים זמינים עבור המודולים והעיצובים המותקנים באתר."
 
 #: modules/upload/upload.info:0
 msgid "Upload"
@@ -1189,33 +1171,31 @@ msgstr "ים כחול"
 
 #: themes/bluemarine/bluemarine.info:0
 msgid "Table-based multi-column theme with a marine and ash color scheme."
-msgstr ""
+msgstr "עיצוב מרובה עמודות ומבוסס טבלאות, עם ערכת צבעים של ים ואפר."
 
 #: themes/chameleon/chameleon.info:0
-#, fuzzy
 msgid "Chameleon"
 msgstr "זיקית"
 
 #: themes/chameleon/chameleon.info:0
 msgid "Minimalist tabled theme with light colors."
-msgstr ""
+msgstr "עיצוב מינימליסטי מבוסס טבלאות עם צבעים בהירים."
 
 #: themes/chameleon/marvin/marvin.info:0
 msgid "Marvin"
-msgstr ""
+msgstr "מרבין"
 
 #: themes/chameleon/marvin/marvin.info:0
 msgid "Boxy tabled theme in all grays."
-msgstr ""
+msgstr "עיצוב טבלאי קופסתי אפרפר."
 
 #: themes/garland/garland.info:0
-#, fuzzy
 msgid "Garland"
-msgstr "גרינלנדית"
+msgstr "גרלנד"
 
 #: themes/garland/garland.info:0
 msgid "Tableless, recolorable, multi-column, fluid width theme (default)."
-msgstr ""
+msgstr "עיצוב ללא טבלאות, מרובה עמודות, בעל רוחב משתנה (ברירת מחדל)"
 
 #: themes/garland/color/color.inc:8 themes/garland/minnelli/color/color.inc:8
 msgid "Blue Lagoon (Default)"
@@ -1287,25 +1267,17 @@ msgstr "ראש הברווז"
 
 #: themes/garland/minnelli/minnelli.info:0
 msgid "Minnelli"
-msgstr ""
+msgstr "מינלי"
 
 #: themes/garland/minnelli/minnelli.info:0
 msgid "Tableless, recolorable, multi-column, fixed width theme."
-msgstr ""
+msgstr "עיצוב ללא טבלאות, מרובה עמודות, בעל רוחב קבוע. תומך בשינוי צבעים."
 
 #: themes/pushbutton/pushbutton.info:0
 msgid "Pushbutton"
-msgstr ""
+msgstr "לחצכפתור"
 
 #: themes/pushbutton/pushbutton.info:0
 msgid "Tabled, multi-column theme in blue and orange tones."
-msgstr ""
+msgstr "עיצוב טבלאי, מרובה עמודות, בצבעים כחולים וכתומים."
 
-#~ msgid "Page"
-#~ msgstr "עמוד"
-
-#~ msgid "User settings"
-#~ msgstr "הגדרות חברי האתר"
-
-#~ msgid "Unknown"
-#~ msgstr "לא ידוע"

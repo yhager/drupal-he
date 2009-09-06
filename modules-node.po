@@ -1,16 +1,16 @@
-# translation of general.po to Hebrew
+# translation of modules-node.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
+"Project-Id-Version: modules-node\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
+"PO-Revision-Date: 2008-12-29 17:26+0200\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,7 +27,7 @@ msgid ""
 "part of the list on the <em>create content</em> page. It is recommended that "
 "this name begin with a capital letter and contain only letters, numbers, and "
 "<strong>spaces</strong>. This name must be unique."
-msgstr ""
+msgstr "השם המוצג של סוג תוכן זה. שם זה יוצג ברשימה בעמוד <em>יצירת תוכן</em>. מומלץ להשתמש בשם המכיל אותיות, ספרות <strong>וכן רווחים</strong>. שם זה צריך להיות ייחודי."
 
 #: modules/node/content_types.inc:86
 msgid ""
@@ -36,19 +36,19 @@ msgid ""
 "type. This name must contain only lowercase letters, numbers, and "
 "underscores. Underscores will be converted into hyphens when constructing "
 "the URL of the <em>create content</em> page. This name must be unique."
-msgstr ""
+msgstr "השם הפנימי של סוג התוכן. שם זה יהיה בשימוש ע\"י המערכת ביצירת ה URL של עמוד <em>יצירת התוכן<em> מסוג זה. שם זה חייב להכיל אותיות קטנות באנגלית, ספרות וקוים תחתיים בלבד. קוים תחתיים יהפכו למקפים ביצירת ה URL הנ\"ל. שם זה חייב להיות ייחודי."
 
 #: modules/node/content_types.inc:98
 msgid ""
 "The machine-readable name of this content type. This field cannot be "
 "modified for system-defined content types."
-msgstr ""
+msgstr "השם הפנימי של סוג תוכן זה. לא ניתן לשנות שדה זה עבור סוגי תוכן המוגדרים ע\"י המערכת."
 
 #: modules/node/content_types.inc:106
 msgid ""
 "A brief description of this content type. This text will be displayed as "
 "part of the list on the <em>create content</em> page."
-msgstr ""
+msgstr "תיאור קצר של סוג התוכן. תיאור זה יופיע ברשימה בעמוד <em>יצירת תוכן</em>."
 
 #: modules/node/content_types.inc:111
 #, fuzzy
@@ -57,37 +57,36 @@ msgstr "הגדרות טופס עריכת תוכן"
 
 #: modules/node/content_types.inc:116
 msgid "Title field label"
-msgstr ""
+msgstr "תוית שדה הכותרת"
 
 #: modules/node/content_types.inc:125
-#, fuzzy
 msgid "This content type does not have a title field."
-msgstr "אין סוגי תוכן זמינים"
+msgstr "אין כותרת לסוג תוכן זה."
 
 #: modules/node/content_types.inc:129
 msgid "Body field label"
-msgstr ""
+msgstr "תוית שדה התוכן"
 
 #: modules/node/content_types.inc:132
 msgid ""
 "To omit the body field for this content type, remove any text and leave this "
 "field blank."
-msgstr ""
+msgstr "כדי לבטל את שדה התוכן בסוג תוכן זה, ניתן להשאיר שדה זה ריק."
 
 #: modules/node/content_types.inc:136
 msgid "Minimum number of words"
-msgstr ""
+msgstr "מספר מילים מינימלי"
 
 #: modules/node/content_types.inc:139
 msgid ""
 "The minimum number of words for the body field to be considered valid for "
 "this content type. This can be useful to rule out submissions that do not "
 "meet the site's standards, such as short test posts."
-msgstr ""
+msgstr "מספר המילים המינימלי הדרוש כדי שתוכן מסוג זה ייחשב תקף. ניתן להשתמש בזה לאכיפת מדיניות האתר, וכדי למנוע תכנים קצרים, כגון הודעות בדיקה למיניהן."
 
 #: modules/node/content_types.inc:143
 msgid "Explanation or submission guidelines"
-msgstr ""
+msgstr "הסברים לעורך התוכן"
 
 #: modules/node/content_types.inc:145
 #, fuzzy
@@ -99,109 +98,94 @@ msgstr ""
 "אותם."
 
 #: modules/node/content_types.inc:149
-#, fuzzy
 msgid "Workflow settings"
-msgstr "הגדרות כלליות"
+msgstr "תהליכים"
 
 #: modules/node/content_types.inc:154
-#, fuzzy
 msgid "Default options"
-msgstr "ברירת מחדל לאזור זמן"
+msgstr "ברירת מחדל"
 
 #: modules/node/content_types.inc:158 modules/node/node.pages.inc:212
 msgid "Promoted to front page"
-msgstr "קדם לעמוד הראשי"
+msgstr "קידום לעמוד הראשי"
 
 #: modules/node/content_types.inc:159 modules/node/node.pages.inc:217
 msgid "Sticky at top of lists"
-msgstr "הדבק לראש רשימות"
+msgstr "הדבקה לראש רשימות"
 
 #: modules/node/content_types.inc:160 modules/node/node.pages.inc:156
 msgid "Create new revision"
-msgstr "צור גרסה חדשה"
+msgstr "יצירת גרסה חדשה"
 
 #: modules/node/content_types.inc:162
-#, fuzzy
 msgid ""
 "Users with the <em>administer nodes</em> permission will be able to override "
 "these options."
-msgstr "חברים עם הרשאת <em>ניהול תגובות</em> יוכלו לעקוף הגדרה זו."
+msgstr "משתמשים עם הרשאת <em>ניהול תוכן</em> יוכלו לשנות הגדרות אלו."
 
 #: modules/node/content_types.inc:192
-#, fuzzy
 msgid "Save content type"
-msgstr "הוסף סוג תוכן"
+msgstr "שמירת סוג תוכן"
 
 #: modules/node/content_types.inc:200;282
-#, fuzzy
 msgid "Delete content type"
-msgstr "הוסף סוג תוכן"
+msgstr "מחיקת סוג תוכן"
 
 #: modules/node/content_types.inc:231
-#, fuzzy
 msgid "The machine-readable name %type is already taken."
-msgstr "הכינוי %name כבר תפוס."
+msgstr "השם הפנימי %type כבר נמצא בשימוש."
 
 #: modules/node/content_types.inc:234
 msgid ""
 "The machine-readable name must contain only lowercase letters, numbers, and "
 "underscores."
-msgstr ""
+msgstr "השם הפנימי צריך להכיל אותיות באנגלית, ספרות וקוים תחתיים בלבד."
 
 #: modules/node/content_types.inc:239
 msgid "Invalid machine-readable name. Please enter a name other than %invalid."
-msgstr ""
+msgstr "שם פנימי לא תקף. אנא השתמש בשם שאינו %invalid."
 
 #: modules/node/content_types.inc:246
-#, fuzzy
 msgid "The human-readable name %name is already taken."
-msgstr "הכינוי %name כבר תפוס."
+msgstr "השם המוצג %name כבר נמצא בשימוש."
 
 #: modules/node/content_types.inc:326
-#, fuzzy
 msgid "The content type %name has been reset to its default values."
-msgstr "אפשרויות התצורה הוחזרו למצבן ההתחלתי."
+msgstr "הגדרות סוג התוכן %name אופסו להגדרות ברירת המחדל."
 
 #: modules/node/content_types.inc:331
-#, fuzzy
 msgid "The content type %name has been updated."
-msgstr "הסיווג %term עודכן."
+msgstr "סוג התוכן %name עודכן."
 
 #: modules/node/content_types.inc:334
-#, fuzzy
 msgid "The content type %name has been added."
-msgstr "שורת התפריט %title נוספה."
+msgstr "נוסף סוג התוכן %name."
 
 #: modules/node/content_types.inc:383
-#, fuzzy
 msgid "Are you sure you want to delete the content type %type?"
-msgstr "האמנם ברצונך למחוק את התגובה '%title'?"
+msgstr "האמנם למחוק את סוג התוכן %type?"
 
 #: modules/node/content_types.inc:403
-#, fuzzy
 msgid "The content type %name has been deleted."
-msgstr "שורת התפריט %title נמחקה."
+msgstr "סוג התוכן %name נמחק."
 
 #: modules/node/content_types.inc:335 modules/node/node.module:0
 msgid "node"
 msgstr "פריט תוכן"
 
 #: modules/node/content_types.inc:335
-#, fuzzy
 msgid "Added content type %name."
-msgstr "הוסף סוג תוכן"
+msgstr "נוסף סוג תוכן %name."
 
 #: modules/node/content_types.inc:404
-#, fuzzy
 msgid "Deleted content type %name."
-msgstr "נמחק הסיווג %name."
+msgstr "נמחק סוג תוכן %name."
 
 #: modules/node/content_types.inc:350
 msgid "Changed the content type of 1 post from %old-type to %type."
-msgid_plural ""
-"Changed the content type of @count posts from %old-type to %type."
-msgstr[0] ""
-msgstr[1] ""
+msgid_plural "Changed the content type of @count posts from %old-type to %type."
+msgstr[0] "סוג התוכן של פריט תוכן אחד השתנה מ%old-type ל%type."
+msgstr[1] "סוג התוכן של @count פריטים השתנה מ%old-type ל%type."
 
 #: modules/node/content_types.inc:388
 msgid ""
@@ -212,8 +196,8 @@ msgid_plural ""
 "<strong>Warning:</strong> there are currently @count %type posts on your "
 "site. They may not be able to be displayed or edited correctly, once you "
 "have removed this content type."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<strong>אזהרה:</strong> ישנו כרגע פריט תוכן מסוג %type באתר. לאחר מחיקת סוג התוכן לא ניתן יהיה לצפות או לערוך פריט זה כראוי."
+msgstr[1] "<strong>אזהרה:</strong> ישנם כרגע @count פריטי תוכן מסוג %type באתר. לאחר מחיקת סוג התוכן לא ניתן יהיה לצפות או לערוך פריטים אלה כראוי."
 
 #: modules/node/node.admin.inc:16
 msgid ""
@@ -233,11 +217,11 @@ msgstr ""
 
 #: modules/node/node.admin.inc:21
 msgid "Node access status"
-msgstr "מצב גישה "
+msgstr "מצב גישה לתוכן"
 
 #: modules/node/node.admin.inc:26;70;80 modules/node/node.module:1425
 msgid "Rebuild permissions"
-msgstr "בנה הרשאות מחדש"
+msgstr "בנה מחדש הרשאות"
 
 #: modules/node/node.admin.inc:31
 msgid "Number of posts on main page"
@@ -310,7 +294,7 @@ msgstr ""
 
 #: modules/node/node.admin.inc:55
 msgid "Preview post"
-msgstr "תצוגה מקדימה של פרסום"
+msgstr "תצוגה מקדימה"
 
 #: modules/node/node.admin.inc:58
 msgid "Must users preview posts before submitting?"
@@ -330,27 +314,27 @@ msgstr "כל התגובות לתגובה זו יאבדו. לא ניתן לבטל
 
 #: modules/node/node.admin.inc:98
 msgid "Publish"
-msgstr "פרסם"
+msgstr "פרסום"
 
 #: modules/node/node.admin.inc:103
 msgid "Unpublish"
-msgstr "בטל פרסום"
+msgstr "ביטול פרסום"
 
 #: modules/node/node.admin.inc:108
 msgid "Promote to front page"
-msgstr "קדם לעמוד הראשי"
+msgstr "קידום לעמוד הראשי"
 
 #: modules/node/node.admin.inc:113
 msgid "Demote from front page"
-msgstr "הוצא מהעמוד הראשי"
+msgstr "הוצאה מהעמוד הראשי"
 
 #: modules/node/node.admin.inc:118
 msgid "Make sticky"
-msgstr "הצמד לראש רשימות"
+msgstr "הצמדה לראש רשימות"
 
 #: modules/node/node.admin.inc:123
 msgid "Remove stickiness"
-msgstr "בטל הצמדה לראש רשימות"
+msgstr "ביטול הצמדה לראש רשימות"
 
 #: modules/node/node.admin.inc:143;500
 msgid "published"
@@ -377,14 +361,12 @@ msgid "not sticky"
 msgstr "לא נצמד"
 
 #: modules/node/node.admin.inc:154
-#, fuzzy
 msgid "Up to date translation"
-msgstr "ייבא תרגום"
+msgstr "תרגום עדכני"
 
 #: modules/node/node.admin.inc:155
-#, fuzzy
 msgid "Outdated translation"
-msgstr "שמור תרגום"
+msgstr "תרגום לא עדכני"
 
 #: modules/node/node.admin.inc:159
 msgid "type"
@@ -456,8 +438,7 @@ msgstr "הודעה ליומן הפעילות"
 msgid ""
 "An explanation of the additions or updates being made to help other authors "
 "understand your motivations."
-msgstr ""
-"הסבר לתוספות והשינויים שנעשים, כדי שאחרים יוכלו להבין את הסיבות לשינויים."
+msgstr "הסבר לתוספות והשינויים שנעשים, כדי שאחרים יוכלו להבין את הסיבות לשינויים."
 
 #: modules/node/node.pages.inc:171
 msgid "Authoring information"
@@ -554,8 +535,7 @@ msgstr "העתק גרסה מ%date."
 
 #: modules/node/node.pages.inc:584
 #, fuzzy
-msgid ""
-"@type %title has been reverted back to the revision from %revision-date."
+msgid "@type %title has been reverted back to the revision from %revision-date."
 msgstr "%title שוחזרה לגרסה קודמת מתאריך %revision-date"
 
 #: modules/node/node.pages.inc:590
@@ -643,7 +623,7 @@ msgid ""
 "Below is a list of all the content types on your site. All posts that exist "
 "on your site are instances of one of these content types."
 msgstr ""
-"רשימה זו מכילה את כל פריטי התוכן באתר. כל הפרסומים באתר הינם מופעים של פריטי "
+"רשימה זו מכילה את כל סוגי התוכן באתר. כל הפרסומים באתר הינם מופעים של סוגי "
 "תוכן אלה."
 
 #: modules/node/node.module:49
@@ -655,8 +635,7 @@ msgid ""
 msgstr ""
 
 #: modules/node/node.module:51
-msgid ""
-"The revisions let you track differences between multiple versions of a post."
+msgid "The revisions let you track differences between multiple versions of a post."
 msgstr "'מעקב שינויים' מאפשר הבחנה בין גרסאות התוכן השונות של פרסום מסויים."
 
 #: modules/node/node.module:260
@@ -679,8 +658,7 @@ msgid "The body of your @type is too short. You need at least %words words."
 msgstr "התוכן שהזנת ל@type קצר מדי. יש להזין לפחות %words מילים."
 
 #: modules/node/node.module:789
-msgid ""
-"This content has been modified by another user, changes cannot be saved."
+msgid "This content has been modified by another user, changes cannot be saved."
 msgstr "תוכן זה עודכן על ידי חבר אחר, לא ניתן לשמור את השינויים."
 
 #: modules/node/node.module:798
@@ -1022,8 +1000,7 @@ msgstr ""
 msgid ""
 "Manage posts by content type, including default status, front page "
 "promotion, etc."
-msgstr ""
-"ניהול פרסומים לפי סוג התוכן, כולל מצב ברירת מחדל, קידום לעמוד ראשי ועוד."
+msgstr "ניהול פרסומים לפי סוג התוכן, כולל מצב ברירת מחדל, קידום לעמוד ראשי ועוד."
 
 #: modules/node/node.module:1447
 msgid "Add content type"
@@ -1273,8 +1250,7 @@ msgid "The label displayed for the title field on the edit form."
 msgstr "הוראות מילוי טופס המשוב"
 
 #: modules/node/node.install:288
-msgid ""
-"Boolean indicating whether this type uses the {node_revisions}.body field."
+msgid "Boolean indicating whether this type uses the {node_revisions}.body field."
 msgstr ""
 
 #: modules/node/node.install:294
@@ -1310,9 +1286,3 @@ msgid ""
 "from the current type name if the locked field is 0."
 msgstr ""
 
-#, fuzzy
-#~ msgid "Edit %title"
-#~ msgstr "עדכן %title"
-
-#~ msgid "Submit @name"
-#~ msgstr "הכנס @name"
