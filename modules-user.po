@@ -1,14 +1,14 @@
 # translation of modules-user.po to Hebrew
 # Amnon Levav <amnon@levavie.com>, 2006.
 # Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
+# Yuval Hager <yuval@avramzon.net>, 2007, 2008, 2009.
 # Hebrew translation of דרופל ישראל
 # Copyright (c) 2006 ליאור <lior@linnovate.net>
 msgid ""
 msgstr ""
 "Project-Id-Version: modules-user\n"
 "POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-03-14 07:51+0200\n"
+"PO-Revision-Date: 2009-09-25 08:28+0300\n"
 "Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
 "Language-Team: Hebrew <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -725,7 +725,7 @@ msgstr "כדי לשנות את סיסמת החבר הנוכחית, יש להכנ
 
 #: modules/user/user.module:1447
 msgid "Provide a password for the new account in both fields."
-msgstr "רשום את הססמה של החשבון החדש פעמיים."
+msgstr "רשום את הסיסמה של החשבון החדש פעמיים."
 
 #: modules/user/user.module:1457
 msgid "Blocked"
@@ -1344,7 +1344,7 @@ msgstr "חשבון משתמש"
 
 #: modules/user/user.module:925
 msgid "Reset password"
-msgstr "איפוס ססמה"
+msgstr "איפוס סיסמה"
 
 #: modules/user/user.module:935
 msgid "User management"
