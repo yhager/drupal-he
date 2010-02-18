@@ -1,157 +1,603 @@
-# translation of modules-node.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  node.module,v 1.947.2.19 2009/09/23 09:09:30 goba
+#  content_types.inc,v 1.50.2.3 2009/09/14 11:51:23 goba
+#  node.admin.inc,v 1.19.2.3 2009/06/08 16:45:34 goba
+#  node.pages.inc,v 1.28.2.4 2009/04/27 11:35:01 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-node\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2008-12-29 17:26+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <en@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2010-02-04 19:19+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/node/node.module:1356
+msgid "Read more"
+msgstr "הצג את ההמשך"
+
+#: modules/node/node.module:1114
+msgid "Log"
+msgstr "יומן פעילות"
+
+#: modules/node/content_types.inc:143
+msgid "Explanation or submission guidelines"
+msgstr "הסבר או הנחיות שליחה"
+
+#: modules/node/node.admin.inc:155
+msgid "category"
+msgstr "נושא"
+
+#: modules/node/node.module:798
+msgid "The username %name does not exist."
+msgstr "המשתמש %name לא קיים במערכת."
+
+#: modules/node/node.module:1843,1895
+msgid "Advanced search"
+msgstr "חיפוש מתקדם"
+
+#: modules/node/node.admin.inc:151
+msgid "type"
+msgstr "סוג"
+
+#: modules/node/node.pages.inc:505
+msgid "Are you sure you want to delete %title?"
+msgstr "האמנם ברצונך למחוק את '%title'?"
+
+#: modules/node/node.module:1759
+msgid "RSS"
+msgstr "רסס (RSS)"
+
+#: modules/node/content_types.inc:116
+msgid "Title field label"
+msgstr "תגית שדה הכותרת"
+
+#: modules/node/content_types.inc:129
+msgid "Body field label"
+msgstr "תווית שדה הגוף"
+
+#: modules/node/node.module:1545,1555
+msgid "Revisions"
+msgstr "גרסאות"
+
+#: modules/node/node.pages.inc:163
+msgid "Log message"
+msgstr "מסר ליומן הפעילות"
+
+#: modules/node/content_types.inc:335
+msgid "node"
+msgstr "פריט תוכן"
+
+#: modules/node/node.module:1120
+msgid "access content"
+msgstr "גישה לתוכן"
+
+#: modules/node/node.module:1469
+msgid "Create content"
+msgstr "יצירת תוכן"
+
+#: modules/node/node.pages.inc:174
+msgid "Authoring information"
+msgstr "מידע על המחבר"
+
+#: modules/node/node.pages.inc:192
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr ""
+"תבנית: %time. השאר ריק על מנת להשתמש בזמן "
+"שליחת הטופס."
+
+#: modules/node/node.pages.inc:186
+msgid "Leave blank for %anonymous."
+msgstr "השאר ריק עבור %anonymous."
+
+#: modules/node/node.admin.inc:611
+msgid "Are you sure you want to delete these items?"
+msgstr "האמנם ברצונך למחוק פריטי תוכן אלו?"
+
+#: modules/node/node.admin.inc:621
+msgid "The items have been deleted."
+msgstr "פריטי התוכן נמחקו."
+
+#: modules/node/node.admin.inc:513
+msgid "No items selected."
+msgstr "לא נבחרו פריטים."
+
+#: modules/node/node.admin.inc:135,492
+msgid "published"
+msgstr "פורסם"
+
+#: modules/node/node.pages.inc:203
+msgid "Publishing options"
+msgstr "אפשרויות פרסום"
+
+#: modules/node/node.pages.inc:574
+msgid "Revert"
+msgstr "שחזר"
+
+#: modules/node/node.module:1623,1629,1630
+msgid "Syndicate"
+msgstr "שלב תכנים"
+
+#: modules/node/node.module:1120
+msgid "view revisions"
+msgstr "צפיה בגרסאות"
+
+#: modules/node/node.pages.inc:528
+msgid "Revisions for %title"
+msgstr "גרסאות של %title"
+
+#: modules/node/node.pages.inc:548,554
+msgid "!date by !username"
+msgstr "!date מאת !username"
+
+#: modules/node/node.pages.inc:557
+msgid "revert"
+msgstr "שחזר"
+
+#: modules/node/node.pages.inc:530
+msgid "Revision"
+msgstr "גרסה"
+
+#: modules/node/node.pages.inc:551
+msgid "current revision"
+msgstr "גרסה נוכחית"
+
+#: modules/node/node.admin.inc:33
+msgid "Length of trimmed posts"
+msgstr "אורך פרסומים חתוכים"
+
+#: modules/node/node.admin.inc:36
+msgid "200 characters"
+msgstr "200 תווים"
+
+#: modules/node/node.admin.inc:37
+msgid "400 characters"
+msgstr "400 תווים"
+
+#: modules/node/node.admin.inc:38
+msgid "600 characters"
+msgstr "600 תווים"
+
+#: modules/node/node.admin.inc:39
+msgid "800 characters"
+msgstr "800 תווים"
+
+#: modules/node/node.admin.inc:40
+msgid "1000 characters"
+msgstr "1000 תווים"
+
+#: modules/node/node.admin.inc:41
+msgid "1200 characters"
+msgstr "1200 תווים"
+
+#: modules/node/node.admin.inc:42
+msgid "1400 characters"
+msgstr "1400 תווים"
+
+#: modules/node/node.admin.inc:43
+msgid "1600 characters"
+msgstr "1600 תווים"
+
+#: modules/node/node.admin.inc:44
+msgid "1800 characters"
+msgstr "1800 תווים"
+
+#: modules/node/node.admin.inc:45
+msgid "2000 characters"
+msgstr "2000 תווים"
+
+#: modules/node/node.admin.inc:47
+msgid ""
+"The maximum number of characters used in the trimmed version of a "
+"post. Drupal will use this setting to determine at which offset long "
+"posts should be trimmed. The trimmed version of a post is typically "
+"used as a teaser when displaying the post on the main page, in XML "
+"feeds, etc. To disable teasers, set to 'Unlimited'. Note that this "
+"setting will only affect new or updated content and will not affect "
+"existing teasers."
+msgstr ""
+"מספר התווים המקסימלי המשמש בזמן יצירת "
+"גרסה מקוצצת של פרסום. דרופל ישתמש "
+"בהגדרה זו כדי לקבוע באיזה מקום לחתוך "
+"פרסומים ארוכים. הגרסה החתוכה של פרסום "
+"משמשת בדרך כלל בתור תקציר בזמן הצגת "
+"הפרסום בעמוד הראשי, בהזנות XML, וכו'. כדי "
+"להשבית תקצירים, יש לסמן \"ללא הגבלה\". "
+"שים לב שהגדרה זו תשפיע רק על תוכן חדש "
+"או מעודכן ולא על תקצירים קיימים."
+
+#: modules/node/node.module:978
+msgid "@type: deleted %title."
+msgstr "@type: %title נמחק."
+
+#: modules/node/node.module:1094
+msgid "Revision of %title from %date"
+msgstr "גרסה של %title מ-%date"
+
+#: modules/node/node.module:2683
+msgid "The username of the user to which you would like to assign ownership."
+msgstr "שם המשתמש לו תרצה להקצות בעלות."
+
+#: modules/node/node.module:2722
+msgid "Please enter a valid username."
+msgstr "יש להזין שם משתמש תקין."
+
+#: modules/node/node.module:1120
+msgid "administer nodes"
+msgstr "ניהול פריטי תוכן"
+
+#: modules/node/node.admin.inc:136,492
+msgid "not published"
+msgstr "לא פורסם"
+
+#: modules/node/node.admin.inc:140
+msgid "not sticky"
+msgstr "לא דביק"
+
+#: modules/node/node.admin.inc:139
+msgid "sticky"
+msgstr "דביק"
+
+#: modules/node/node.admin.inc:138
+msgid "not promoted"
+msgstr "לא קודם"
+
+#: modules/node/node.admin.inc:137
+msgid "promoted"
+msgstr "קודם"
+
+#: modules/node/content_types.inc:154
+msgid "Default options"
+msgstr "אפשרויות ברירת מחדל"
 
 #: modules/node/content_types.inc:42
 msgid "No content types available."
 msgstr "אין סוגי תוכן זמינים"
 
-#: modules/node/content_types.inc:75
-msgid ""
-"The human-readable name of this content type. This text will be displayed as "
-"part of the list on the <em>create content</em> page. It is recommended that "
-"this name begin with a capital letter and contain only letters, numbers, and "
-"<strong>spaces</strong>. This name must be unique."
-msgstr "השם המוצג של סוג תוכן זה. שם זה יוצג ברשימה בעמוד <em>יצירת תוכן</em>. מומלץ להשתמש בשם המכיל אותיות, ספרות <strong>וכן רווחים</strong>. שם זה צריך להיות ייחודי."
+#: modules/node/node.admin.inc:361
+msgid "The update has encountered an error."
+msgstr "העדכון נתקל בשגיאה."
 
-#: modules/node/content_types.inc:86
-msgid ""
-"The machine-readable name of this content type. This text will be used for "
-"constructing the URL of the <em>create content</em> page for this content "
-"type. This name must contain only lowercase letters, numbers, and "
-"underscores. Underscores will be converted into hyphens when constructing "
-"the URL of the <em>create content</em> page. This name must be unique."
-msgstr "השם הפנימי של סוג התוכן. שם זה יהיה בשימוש ע\"י המערכת ביצירת ה URL של עמוד <em>יצירת התוכן<em> מסוג זה. שם זה חייב להכיל אותיות קטנות באנגלית, ספרות וקוים תחתיים בלבד. קוים תחתיים יהפכו למקפים ביצירת ה URL הנ\"ל. שם זה חייב להיות ייחודי."
+#: modules/node/node.admin.inc:428
+msgid "1 item successfully processed:"
+msgid_plural "@count items successfully processed:"
+msgstr[0] ""
+msgstr[1] ""
 
-#: modules/node/content_types.inc:98
-msgid ""
-"The machine-readable name of this content type. This field cannot be "
-"modified for system-defined content types."
-msgstr "השם הפנימי של סוג תוכן זה. לא ניתן לשנות שדה זה עבור סוגי תוכן המוגדרים ע\"י המערכת."
+#: modules/node/node.admin.inc:90
+msgid "Publish"
+msgstr "פרסם"
 
-#: modules/node/content_types.inc:106
-msgid ""
-"A brief description of this content type. This text will be displayed as "
-"part of the list on the <em>create content</em> page."
-msgstr "תיאור קצר של סוג התוכן. תיאור זה יופיע ברשימה בעמוד <em>יצירת תוכן</em>."
-
-#: modules/node/content_types.inc:111
-#, fuzzy
-msgid "Submission form settings"
-msgstr "הגדרות טופס עריכת תוכן"
-
-#: modules/node/content_types.inc:116
-msgid "Title field label"
-msgstr "תוית שדה הכותרת"
-
-#: modules/node/content_types.inc:125
-msgid "This content type does not have a title field."
-msgstr "אין כותרת לסוג תוכן זה."
-
-#: modules/node/content_types.inc:129
-msgid "Body field label"
-msgstr "תוית שדה התוכן"
-
-#: modules/node/content_types.inc:132
-msgid ""
-"To omit the body field for this content type, remove any text and leave this "
-"field blank."
-msgstr "כדי לבטל את שדה התוכן בסוג תוכן זה, ניתן להשאיר שדה זה ריק."
-
-#: modules/node/content_types.inc:136
-msgid "Minimum number of words"
-msgstr "מספר מילים מינימלי"
-
-#: modules/node/content_types.inc:139
-msgid ""
-"The minimum number of words for the body field to be considered valid for "
-"this content type. This can be useful to rule out submissions that do not "
-"meet the site's standards, such as short test posts."
-msgstr "מספר המילים המינימלי הדרוש כדי שתוכן מסוג זה ייחשב תקף. ניתן להשתמש בזה לאכיפת מדיניות האתר, וכדי למנוע תכנים קצרים, כגון הודעות בדיקה למיניהן."
-
-#: modules/node/content_types.inc:143
-msgid "Explanation or submission guidelines"
-msgstr "הסברים לעורך התוכן"
-
-#: modules/node/content_types.inc:145
-#, fuzzy
-msgid ""
-"This text will be displayed at the top of the submission form for this "
-"content type. It is useful for helping or instructing your users."
-msgstr ""
-"הודעה זו מוצגת בראש טופס ההצטרפות. היא שימושית כדי לעזור למצטרפים או להנחות "
-"אותם."
-
-#: modules/node/content_types.inc:149
-msgid "Workflow settings"
-msgstr "תהליכים"
-
-#: modules/node/content_types.inc:154
-msgid "Default options"
-msgstr "ברירת מחדל"
-
-#: modules/node/content_types.inc:158 modules/node/node.pages.inc:212
-msgid "Promoted to front page"
-msgstr "קידום לעמוד הראשי"
-
-#: modules/node/content_types.inc:159 modules/node/node.pages.inc:217
-msgid "Sticky at top of lists"
-msgstr "הדבקה לראש רשימות"
-
-#: modules/node/content_types.inc:160 modules/node/node.pages.inc:156
-msgid "Create new revision"
-msgstr "יצירת גרסה חדשה"
-
-#: modules/node/content_types.inc:162
-msgid ""
-"Users with the <em>administer nodes</em> permission will be able to override "
-"these options."
-msgstr "משתמשים עם הרשאת <em>ניהול תוכן</em> יוכלו לשנות הגדרות אלו."
+#: modules/node/node.admin.inc:95
+msgid "Unpublish"
+msgstr "בטל פרסום"
 
 #: modules/node/content_types.inc:192
 msgid "Save content type"
-msgstr "שמירת סוג תוכן"
+msgstr "שמור סוג תוכן"
 
-#: modules/node/content_types.inc:200;282
-msgid "Delete content type"
-msgstr "מחיקת סוג תוכן"
+#: modules/node/node.pages.inc:574
+msgid "Are you sure you want to revert to the revision from %revision-date?"
+msgstr ""
+"האם אתה בטוח שאתה רוצה לחזור למהדורה "
+"מתאריך %revision-date?"
 
-#: modules/node/content_types.inc:231
-msgid "The machine-readable name %type is already taken."
-msgstr "השם הפנימי %type כבר נמצא בשימוש."
+#: modules/node/node.pages.inc:594
+msgid "Are you sure you want to delete the revision from %revision-date?"
+msgstr ""
+"האם אתה בטוח שאתה רוצה למחוק את "
+"המהדורה מתאריך %revision-date?"
 
-#: modules/node/content_types.inc:234
+#: modules/node/node.module:1120
+msgid "revert revisions"
+msgstr "חזור אחורה בגרסאות"
+
+#: modules/node/node.pages.inc:601
+msgid "@type: deleted %title revision %revision."
+msgstr "@type: נמחקה %title מגרסה %revision."
+
+#: modules/node/node.pages.inc:438
+msgid "Preview trimmed version"
+msgstr "גרסה מקוצרת"
+
+#: modules/node/node.pages.inc:440
+msgid "Preview full version"
+msgstr "תצוגה מקדימה של גירסה מלאה"
+
+#: modules/node/node.module:785
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr ""
+"התוכן שהזנת ל@type קצר מדי. יש להזין "
+"לפחות %words מילים."
+
+#: modules/node/node.module:789
 msgid ""
-"The machine-readable name must contain only lowercase letters, numbers, and "
-"underscores."
-msgstr "השם הפנימי צריך להכיל אותיות באנגלית, ספרות וקוים תחתיים בלבד."
+"This content has been modified by another user, changes cannot be "
+"saved."
+msgstr ""
+"תוכן זה עודכן על ידי חבר אחר, לא ניתן "
+"לשמור את השינויים."
 
-#: modules/node/content_types.inc:239
-msgid "Invalid machine-readable name. Please enter a name other than %invalid."
-msgstr "שם פנימי לא תקף. אנא השתמש בשם שאינו %invalid."
+#: modules/node/node.admin.inc:212
+msgid "Show only items where"
+msgstr "הצג רק פריטי תוכן שבהם"
 
-#: modules/node/content_types.inc:246
-msgid "The human-readable name %name is already taken."
-msgstr "השם המוצג %name כבר נמצא בשימוש."
+#: modules/node/node.pages.inc:466
+msgid "@type: updated %title."
+msgstr "@type: %title עודכן."
 
-#: modules/node/content_types.inc:326
-msgid "The content type %name has been reset to its default values."
-msgstr "הגדרות סוג התוכן %name אופסו להגדרות ברירת המחדל."
+#: modules/node/node.pages.inc:462
+msgid "@type: added %title."
+msgstr "@type: נוסף '%title'."
+
+#: modules/node/content_types.inc:403
+msgid "The content type %name has been deleted."
+msgstr "סוג התוכן %name נמחק."
+
+#: modules/node/content_types.inc:404
+msgid "Deleted content type %name."
+msgstr "סוג תוכן %name נמחק."
+
+#: modules/node/node.admin.inc:100
+msgid "Promote to front page"
+msgstr "קדם לדף הראשי"
+
+#: modules/node/node.module:1854
+msgid "Containing any of the words"
+msgstr "מכיל אחת מהמילים"
+
+#: modules/node/node.module:1860
+msgid "Containing the phrase"
+msgstr "מכיל את הביטוי"
+
+#: modules/node/node.module:1866
+msgid "Containing none of the words"
+msgstr "לא מכיל אף אחת מהמילים"
+
+#: modules/node/node.module:1875
+msgid "Only in the category(s)"
+msgstr "רק בנושא(ים)"
+
+#: modules/node/node.module:1888
+msgid "Only of the type(s)"
+msgstr "רק מסוג(ים)"
+
+#: modules/node/node.module:1159
+msgid "Content ranking"
+msgstr "דרוג תוכן"
+
+#: modules/node/node.module:1163
+msgid ""
+"The following numbers control which properties the content search "
+"should favor when ordering the results. Higher numbers mean more "
+"influence, zero means the property is ignored. Changing these numbers "
+"does not require the search index to be rebuilt. Changes take effect "
+"immediately."
+msgstr ""
+"המספרים הבאים קובעים את סידור פריטי "
+"התוכן בתוצאות החיפוש. תכונות עם משקל "
+"גבוה ישפיעו יותר. תכונות עם משקל אפס לא "
+"ישפיעו כלל. שינוי משקלות אלו לא דורש "
+"בניה מחדש של המפתח. השינויים משפיעים "
+"מייד."
+
+#: modules/node/node.module:1166
+msgid "Keyword relevance"
+msgstr "רלוונטיות מילות החיפוש"
+
+#: modules/node/node.module:1167
+msgid "Recently posted"
+msgstr "פורסם לאחרונה"
+
+#: modules/node/node.module:1169
+msgid "Number of comments"
+msgstr "מספר התגובות"
+
+#: modules/node/node.module:1172
+msgid "Number of views"
+msgstr "מספר הצפיות"
+
+#: modules/node/node.module:1322
+msgid "Factor"
+msgstr "תכונה"
+
+#: modules/node/node.module:2388
+msgid "The content access permissions have been rebuilt."
+msgstr "הרשאות הגישה לתוכן נבנו מחדש."
+
+#: modules/node/node.module:2495
+msgid "When either saving a new post or updating an existing post"
+msgstr "בשמירת פוסט חדש או בעידכון פוסט קיים"
+
+#: modules/node/node.module:2498
+msgid "After saving a new post"
+msgstr "אחרי שמירת פוסט חדש"
+
+#: modules/node/node.module:2501
+msgid "After saving an updated post"
+msgstr "אחרי שמירת פוסט מעודכן"
+
+#: modules/node/node.module:2504
+msgid "After deleting a post"
+msgstr "אחרי מחיקת פוסט"
+
+#: modules/node/node.module:2507
+msgid "When content is viewed by an authenticated user"
+msgstr "כאשר תוכן נצפה על ידי משתמש מאומת"
+
+#: modules/node/node.module:2521
+msgid "Publish post"
+msgstr "פרסם"
+
+#: modules/node/node.module:2531
+msgid "Unpublish post"
+msgstr "בטל פרסום"
+
+#: modules/node/node.module:2541
+msgid "Make post sticky"
+msgstr "הפוך פרסום לדביק"
+
+#: modules/node/node.module:2551
+msgid "Make post unsticky"
+msgstr "הפוך פרסום ללא דביק"
+
+#: modules/node/node.module:2561
+msgid "Promote post to front page"
+msgstr "קדם את הפרסום לדף הראשי"
+
+#: modules/node/node.module:2571
+msgid "Remove post from front page"
+msgstr "הסר פרסום מדף ראשי"
+
+#: modules/node/node.module:2581
+msgid "Change the author of a post"
+msgstr "שנה את מחבר הפרסום"
+
+#: modules/node/node.module:2592
+msgid "Save post"
+msgstr "שמור פרסום"
+
+#: modules/node/node.module:2600
+msgid "Unpublish post containing keyword(s)"
+msgstr "בטל את הפרסום המכיל מיל(ו)ת המפתח"
+
+#: modules/node/node.module:2615
+msgid "Set @type %title to published."
+msgstr "הפוך את @type %title למפורסם."
+
+#: modules/node/node.module:2624,2759
+msgid "Set @type %title to unpublished."
+msgstr "הגדר את @type %title להיות לא מפורסם."
+
+#: modules/node/node.module:2633
+msgid "Set @type %title to sticky."
+msgstr "קבע @type %title לדביק."
+
+#: modules/node/node.module:2642
+msgid "Set @type %title to unsticky."
+msgstr "קבע @type %title ללא דביק."
+
+#: modules/node/node.module:2651
+msgid "Promoted @type %title to front page."
+msgstr "@type %title קודם לדף הראשי."
+
+#: modules/node/node.module:2660
+msgid "Removed @type %title from front page."
+msgstr "@type %title הוסר מדף הפתיחה."
+
+#: modules/node/node.module:2669
+msgid "Saved @type %title"
+msgstr "@type %title נשמר"
+
+#: modules/node/node.module:2679
+msgid "Changed owner of @type %title to uid %name."
+msgstr "בעלים של @type %title שונה ל-%name."
+
+#: modules/node/node.module:2736
+msgid ""
+"The post will be unpublished if it contains any of the character "
+"sequences above. Use a comma-separated list of character sequences. "
+"Example: funny, bungee jumping, \"Company, Inc.\". Character sequences "
+"are case-sensitive."
+msgstr ""
+
+#: modules/node/node.admin.inc:146
+msgid "Up to date translation"
+msgstr "תרגום מעודכן"
+
+#: modules/node/node.admin.inc:147
+msgid "Outdated translation"
+msgstr "תרגום מיושן"
+
+#: modules/node/node.admin.inc:230
+msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
+msgstr "<em>and</em> כטשר <strong>%a</strong> הוא <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:233
+msgid "<strong>%a</strong> is <strong>%b</strong>"
+msgstr "<strong>%a</strong> הוא <strong>%b</strong>"
+
+#: modules/node/node.pages.inc:57
+msgid "Create @name"
+msgstr "צור @name"
+
+#: modules/node/node.module:979
+msgid "@type %title has been deleted."
+msgstr "@type %title נמחק."
+
+#: modules/node/content_types.inc:200,282
+msgid "Delete content type"
+msgstr "מחק סוג תוכן"
+
+#: modules/node/content_types.inc:136
+msgid "Minimum number of words"
+msgstr "מספר מינימלי של מילים"
+
+#: modules/node/node.pages.inc:149
+msgid "Revision information"
+msgstr "מידע מהדורה"
+
+#: modules/node/node.pages.inc:463
+msgid "@type %title has been created."
+msgstr "@type %title נוצר."
+
+#: modules/node/node.pages.inc:467
+msgid "@type %title has been updated."
+msgstr "@type %title עודכן."
+
+#: modules/node/node.pages.inc:477
+msgid "The post could not be saved."
+msgstr "לא ניתן לשמור את הפרסום."
+
+#: modules/node/node.module:1771
+msgid ""
+"For more information, please refer to the <a href=\"@help\">help "
+"section</a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. "
+"You may also post at the <a href=\"@forum\">Drupal forum</a>, or view "
+"the wide range of <a href=\"@support\">other support options</a> "
+"available."
+msgstr ""
+"למידע נוסף תוכל לבקר<a href=\"@help\"> באיזור "
+"העזרה</a>, או לחלופין<a href=\"@handbook\"> בספרי "
+"ההדרכה המקוונים של דרופל</a>. תוכל גם "
+"לשלוח הודעות<a href=\"@forum\"> בפורום של "
+"דרופל</a>, או לצפות במגוון רחב של <a "
+"href=\"@support\"> אפשרויות נוספות לקבלת "
+"תמיכה</a>."
+
+#: modules/node/node.module:2480
+msgid "Submitted by !username on @datetime"
+msgstr "נשלח על ידי !username ב-@datetime"
+
+#: modules/node/node.admin.inc:52
+msgid "Preview post"
+msgstr "תצוגה מקדימה של פרסום"
+
+#: modules/node/node.admin.inc:55
+msgid "Must users preview posts before submitting?"
+msgstr ""
+"האם חובה להציג את הפרסומים בתצוגה "
+"מקדימה לפני הגשתם?"
+
+#: modules/node/node.pages.inc:166
+msgid ""
+"An explanation of the additions or updates being made to help other "
+"authors understand your motivations."
+msgstr ""
+"הסבר לתוספות והשינויים שנעשים, כדי "
+"שאחרים יוכלו להבין את הסיבות לשינויים."
+
+#: modules/node/content_types.inc:139
+msgid ""
+"The minimum number of words for the body field to be considered valid "
+"for this content type. This can be useful to rule out submissions that "
+"do not meet the site's standards, such as short test posts."
+msgstr ""
 
 #: modules/node/content_types.inc:331
 msgid "The content type %name has been updated."
@@ -159,1130 +605,502 @@ msgstr "סוג התוכן %name עודכן."
 
 #: modules/node/content_types.inc:334
 msgid "The content type %name has been added."
-msgstr "נוסף סוג התוכן %name."
+msgstr "סוג התוכן %name התווסף."
+
+#: modules/node/content_types.inc:75
+msgid ""
+"The human-readable name of this content type. This text will be "
+"displayed as part of the list on the <em>create content</em> page. It "
+"is recommended that this name begin with a capital letter and contain "
+"only letters, numbers, and <strong>spaces</strong>. This name must be "
+"unique."
+msgstr ""
+"שם ממשק המשתמש של סוג תוכן זה. טקסט זה "
+"יוצג כחלק מהרשימה בדף <em>צור תוכן</em>. "
+"מומלץ כי שם זה יתחיל באות גדולה ויכיל "
+"רק אותיות, ספרות <strong>ורווחים</strong>. שם "
+"זה צריך להיות ייחודי."
+
+#: modules/node/content_types.inc:86
+msgid ""
+"The machine-readable name of this content type. This text will be used "
+"for constructing the URL of the <em>create content</em> page for this "
+"content type. This name must contain only lowercase letters, numbers, "
+"and underscores. Underscores will be converted into hyphens when "
+"constructing the URL of the <em>create content</em> page. This name "
+"must be unique."
+msgstr ""
+"שם המכונה של סוג תוכן זה. טקסט זה ישמש "
+"ליצירת כתובת ה-URL של דףof the <em>צור "
+"תוכן</em> עבור סוג תוכן זה. שם זה צריל "
+"להיות מורכב רק מאותיות קטנות, ספרות "
+"וקווים  תחתיים. בעת בניית כתובת ה-URL של "
+"דף <em>צור תוכן</em> יומרו הקווים התחתיים "
+"למקפים. על שם זה להיות ייחודי."
+
+#: modules/node/content_types.inc:98
+msgid ""
+"The machine-readable name of this content type. This field cannot be "
+"modified for system-defined content types."
+msgstr ""
+"שם המכונה של סוד תוכן זה. לא ניתן לשנות "
+"שדבה זה עבור סוגי תוכן שהוגדרו על ידי "
+"המערכת."
+
+#: modules/node/content_types.inc:106
+msgid ""
+"A brief description of this content type. This text will be displayed "
+"as part of the list on the <em>create content</em> page."
+msgstr ""
+"תיאור קצר של סוג תוכן זה. הטקסט יוצג "
+"כחלק מהרשימה בדף <em>צור תוכן</em>."
+
+#: modules/node/content_types.inc:111
+msgid "Submission form settings"
+msgstr "הגדרות טופס שליחה"
+
+#: modules/node/content_types.inc:125
+msgid "This content type does not have a title field."
+msgstr "לסוג תוכן זה לא קיים שדה כותרת."
+
+#: modules/node/content_types.inc:132
+msgid ""
+"To omit the body field for this content type, remove any text and "
+"leave this field blank."
+msgstr ""
+"להשמתת שדה הגוף עבור סוג תוכן זה, הסר "
+"כל טקסט והשאר את השדה ריק."
+
+#: modules/node/content_types.inc:145
+msgid ""
+"This text will be displayed at the top of the submission form for this "
+"content type. It is useful for helping or instructing your users."
+msgstr ""
+"טקסט זה יוצג בראש טופז ההגשה של סוג "
+"תוכן זה. שימושי להדרכה או סיוע "
+"למשתמשים."
+
+#: modules/node/content_types.inc:149
+msgid "Workflow settings"
+msgstr "הגדרות workflow"
+
+#: modules/node/content_types.inc:162
+msgid ""
+"Users with the <em>administer nodes</em> permission will be able to "
+"override these options."
+msgstr ""
+"משתמשים עם הרשאות <em>ניהול פריטי "
+"תוכן</em> יוכלו לדרוס אפשרויות אלו."
+
+#: modules/node/content_types.inc:231
+msgid "The machine-readable name %type is already taken."
+msgstr "שם המכונה %type כבר תפוס."
+
+#: modules/node/content_types.inc:234
+msgid ""
+"The machine-readable name must contain only lowercase letters, "
+"numbers, and underscores."
+msgstr ""
+"על שם המכונה להיות מורכב רק מאותיות "
+"קטנות, ספרות וקווים תחתיים."
+
+#: modules/node/content_types.inc:239
+msgid ""
+"Invalid machine-readable name. Please enter a name other than "
+"%invalid."
+msgstr ""
+"שם מכונה לא חוקי. יש להזין שם השונה "
+"מ-%invalid."
+
+#: modules/node/content_types.inc:246
+msgid "The human-readable name %name is already taken."
+msgstr "שם ממשק המשתמש %name כבר תפוס."
+
+#: modules/node/content_types.inc:326
+msgid "The content type %name has been reset to its default values."
+msgstr ""
+"סוג התוכן %name הוחזר לערכי ברירת המחדל "
+"שלו."
 
 #: modules/node/content_types.inc:383
 msgid "Are you sure you want to delete the content type %type?"
-msgstr "האמנם למחוק את סוג התוכן %type?"
-
-#: modules/node/content_types.inc:403
-msgid "The content type %name has been deleted."
-msgstr "סוג התוכן %name נמחק."
-
-#: modules/node/content_types.inc:335 modules/node/node.module:0
-msgid "node"
-msgstr "פריט תוכן"
+msgstr ""
+"האם אתה בטוח שאתה רוצה למחוק את סוג "
+"התוכן %type?"
 
 #: modules/node/content_types.inc:335
 msgid "Added content type %name."
-msgstr "נוסף סוג תוכן %name."
-
-#: modules/node/content_types.inc:404
-msgid "Deleted content type %name."
-msgstr "נמחק סוג תוכן %name."
+msgstr "סוג תוכן %name התווסף."
 
 #: modules/node/content_types.inc:350
 msgid "Changed the content type of 1 post from %old-type to %type."
 msgid_plural "Changed the content type of @count posts from %old-type to %type."
-msgstr[0] "סוג התוכן של פריט תוכן אחד השתנה מ%old-type ל%type."
-msgstr[1] "סוג התוכן של @count פריטים השתנה מ%old-type ל%type."
-
-#: modules/node/content_types.inc:388
-msgid ""
-"<strong>Warning:</strong> there is currently 1 %type post on your site. It "
-"may not be able to be displayed or edited correctly, once you have removed "
-"this content type."
-msgid_plural ""
-"<strong>Warning:</strong> there are currently @count %type posts on your "
-"site. They may not be able to be displayed or edited correctly, once you "
-"have removed this content type."
-msgstr[0] "<strong>אזהרה:</strong> ישנו כרגע פריט תוכן מסוג %type באתר. לאחר מחיקת סוג התוכן לא ניתן יהיה לצפות או לערוך פריט זה כראוי."
-msgstr[1] "<strong>אזהרה:</strong> ישנם כרגע @count פריטי תוכן מסוג %type באתר. לאחר מחיקת סוג התוכן לא ניתן יהיה לצפות או לערוך פריטים אלה כראוי."
-
-#: modules/node/node.admin.inc:16
-msgid ""
-"If the site is experiencing problems with permissions to content, you may "
-"have to rebuild the permissions cache. Possible causes for permission "
-"problems are disabling modules or configuration changes to permissions. "
-"Rebuilding will remove all privileges to posts, and replace them with "
-"permissions based on the current modules and settings."
-msgstr ""
-
-#: modules/node/node.admin.inc:17
-msgid ""
-"Rebuilding may take some time if there is a lot of content or complex "
-"permission settings. After rebuilding has completed posts will automatically "
-"use the new permissions."
-msgstr ""
-
-#: modules/node/node.admin.inc:21
-msgid "Node access status"
-msgstr "מצב גישה לתוכן"
-
-#: modules/node/node.admin.inc:26;70;80 modules/node/node.module:1425
-msgid "Rebuild permissions"
-msgstr "בנה מחדש הרשאות"
-
-#: modules/node/node.admin.inc:31
-msgid "Number of posts on main page"
-msgstr "מספר הפרסומים בעמוד הראשי"
-
-#: modules/node/node.admin.inc:33
-msgid ""
-"The default maximum number of posts to display per page on overview pages "
-"such as the main page."
-msgstr "ברירת המחדל למספר הפרסומים שיוצגו בעמודי סקירה כמו העמוד הראשי."
-
-#: modules/node/node.admin.inc:36
-msgid "Length of trimmed posts"
-msgstr "אורך פרסומים חתוכים"
-
-#: modules/node/node.admin.inc:39
-msgid "200 characters"
-msgstr "200 תווים"
-
-#: modules/node/node.admin.inc:40
-msgid "400 characters"
-msgstr "400 תווים"
-
-#: modules/node/node.admin.inc:41
-msgid "600 characters"
-msgstr "600 תווים"
-
-#: modules/node/node.admin.inc:42
-msgid "800 characters"
-msgstr "800 תווים"
-
-#: modules/node/node.admin.inc:43
-msgid "1000 characters"
-msgstr "1000 תווים"
-
-#: modules/node/node.admin.inc:44
-msgid "1200 characters"
-msgstr "1200 תווים"
-
-#: modules/node/node.admin.inc:45
-msgid "1400 characters"
-msgstr "1400 תווים"
-
-#: modules/node/node.admin.inc:46
-msgid "1600 characters"
-msgstr "1600 תווים"
-
-#: modules/node/node.admin.inc:47
-msgid "1800 characters"
-msgstr "1800 תווים"
-
-#: modules/node/node.admin.inc:48
-msgid "2000 characters"
-msgstr "2000 תווים"
-
-#: modules/node/node.admin.inc:50
-msgid ""
-"The maximum number of characters used in the trimmed version of a post. "
-"Drupal will use this setting to determine at which offset long posts should "
-"be trimmed. The trimmed version of a post is typically used as a teaser when "
-"displaying the post on the main page, in XML feeds, etc. To disable teasers, "
-"set to 'Unlimited'. Note that this setting will only affect new or updated "
-"content and will not affect existing teasers."
-msgstr ""
-"מספר התווים המקסימלי המשמש בזמן יצירת גרסה מקוצצת של פרסום. דרופל ישתמש "
-"בהגדרה זו כדי לקבוע באיזה מקום לחתוך פרסומים ארוכים. הגרסה החתוכה של פרסום "
-"משמשת בדרך כלל בתור תקציר בזמן הצגת הפרסום בעמוד הראשי, בהזנות XML, וכו'. "
-"כדי לבטל את החיתוך לתקצירים, יש לסמן \"ללא הגבלה\". שים לב שהגדרה זו תשפיע "
-"רק על תוכן חדש או מעודכן ולא על תקצירים קיימים. "
-
-#: modules/node/node.admin.inc:55
-msgid "Preview post"
-msgstr "תצוגה מקדימה"
-
-#: modules/node/node.admin.inc:58
-msgid "Must users preview posts before submitting?"
-msgstr "האם חובה להציג את הפרסומים בתצוגה מקדימה לפני הגשתם?"
-
-#: modules/node/node.admin.inc:79
-#, fuzzy
-msgid "Are you sure you want to rebuild the permissions on site content?"
-msgstr "האמנם ברצונך לבנות מחדש את הרשאות הפרסום באתר?"
-
-#: modules/node/node.admin.inc:80
-#, fuzzy
-msgid ""
-"This action rebuilds all permissions on site content, and may be a lengthy "
-"process. This action cannot be undone."
-msgstr "כל התגובות לתגובה זו יאבדו. לא ניתן לבטל פעולה זו לאחר אישור ביצועה."
-
-#: modules/node/node.admin.inc:98
-msgid "Publish"
-msgstr "פרסום"
-
-#: modules/node/node.admin.inc:103
-msgid "Unpublish"
-msgstr "ביטול פרסום"
-
-#: modules/node/node.admin.inc:108
-msgid "Promote to front page"
-msgstr "קידום לעמוד הראשי"
-
-#: modules/node/node.admin.inc:113
-msgid "Demote from front page"
-msgstr "הוצאה מהעמוד הראשי"
-
-#: modules/node/node.admin.inc:118
-msgid "Make sticky"
-msgstr "הצמדה לראש רשימות"
-
-#: modules/node/node.admin.inc:123
-msgid "Remove stickiness"
-msgstr "ביטול הצמדה לראש רשימות"
-
-#: modules/node/node.admin.inc:143;500
-msgid "published"
-msgstr "פורסם"
-
-#: modules/node/node.admin.inc:144;500
-msgid "not published"
-msgstr "לא פורסם"
-
-#: modules/node/node.admin.inc:145
-msgid "promoted"
-msgstr "קודם"
-
-#: modules/node/node.admin.inc:146
-msgid "not promoted"
-msgstr "לא קודם"
-
-#: modules/node/node.admin.inc:147
-msgid "sticky"
-msgstr "נצמד"
-
-#: modules/node/node.admin.inc:148
-msgid "not sticky"
-msgstr "לא נצמד"
-
-#: modules/node/node.admin.inc:154
-msgid "Up to date translation"
-msgstr "תרגום עדכני"
-
-#: modules/node/node.admin.inc:155
-msgid "Outdated translation"
-msgstr "תרגום לא עדכני"
-
-#: modules/node/node.admin.inc:159
-msgid "type"
-msgstr "סוג"
-
-#: modules/node/node.admin.inc:163
-msgid "category"
-msgstr "נושא"
-
-#: modules/node/node.admin.inc:168
-#, fuzzy
-msgid "language"
-msgstr "שפה"
-
-#: modules/node/node.admin.inc:220
-msgid "Show only items where"
-msgstr "הצג רק פריטי תוכן שבהם"
-
-#: modules/node/node.admin.inc:238
-msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
-msgstr ""
-
-#: modules/node/node.admin.inc:241
-msgid "<strong>%a</strong> is <strong>%b</strong>"
-msgstr ""
-
-#: modules/node/node.admin.inc:369
-#, fuzzy
-msgid "The update has encountered an error."
-msgstr "העדכון בוצע."
-
-#: modules/node/node.admin.inc:435
-msgid "An error occurred and processing did not complete."
-msgstr ""
-
-#: modules/node/node.admin.inc:521
-msgid "No items selected."
-msgstr "לא נבחרו פריטים."
-
-#: modules/node/node.admin.inc:619
-msgid "Are you sure you want to delete these items?"
-msgstr "האמנם ברצונך למחוק פריטי תוכן אלו?"
-
-#: modules/node/node.admin.inc:629
-msgid "The items have been deleted."
-msgstr "פריטי התוכן נמחקו."
-
-#: modules/node/node.admin.inc:436
-msgid "1 item successfully processed:"
-msgid_plural "@count items successfully processed:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: modules/node/node.pages.inc:57
-#, fuzzy
-msgid "Create @name"
-msgstr "יצירת תוכן"
-
-#: modules/node/node.pages.inc:147
-#, fuzzy
-msgid "Revision information"
-msgstr "מידע נוסף"
-
-#: modules/node/node.pages.inc:161
-msgid "Log message"
-msgstr "הודעה ליומן הפעילות"
-
-#: modules/node/node.pages.inc:163
+#: modules/node/content_types.inc:388
 msgid ""
-"An explanation of the additions or updates being made to help other authors "
-"understand your motivations."
-msgstr "הסבר לתוספות והשינויים שנעשים, כדי שאחרים יוכלו להבין את הסיבות לשינויים."
+"<strong>Warning:</strong> there is currently 1 %type post on your "
+"site. It may not be able to be displayed or edited correctly, once you "
+"have removed this content type."
+msgid_plural ""
+"<strong>Warning:</strong> there are currently @count %type posts on "
+"your site. They may not be able to be displayed or edited correctly, "
+"once you have removed this content type."
+msgstr[0] ""
+msgstr[1] ""
 
-#: modules/node/node.pages.inc:171
-msgid "Authoring information"
-msgstr "מידע על המחבר"
+#: modules/node/node.admin.inc:13
+msgid ""
+"If the site is experiencing problems with permissions to content, you "
+"may have to rebuild the permissions cache. Possible causes for "
+"permission problems are disabling modules or configuration changes to "
+"permissions. Rebuilding will remove all privileges to posts, and "
+"replace them with permissions based on the current modules and "
+"settings."
+msgstr ""
+"אם יש באתר בעיות הרשאות תוכן, יתכן "
+"ותצטרך לבנות מחדש את מטמון ההרשאות. "
+"גורמים אפשריים לבעיות הרשאה הינם "
+"השבתת מודולים או שינויי תצורה להרשאות. "
+"בנייה מחדש תסיר את כל ההרשאות לפרסומים "
+"ותחליף אותם בהרשאות המבוססות על "
+"המודולים וההגדרות הנוכחיים."
 
-#: modules/node/node.pages.inc:183
-msgid "Leave blank for %anonymous."
-msgstr "השאר ריק עבור %anonymous."
-
-#: modules/node/node.pages.inc:189
-msgid "Format: %time. Leave blank to use the time of form submission."
-msgstr "תבנית: %time. השאר ריק על מנת להשתמש בזמן שליחת הטופס."
-
-#: modules/node/node.pages.inc:200
-msgid "Publishing options"
-msgstr "אפשרויות פרסום"
-
-#: modules/node/node.pages.inc:280
-msgid "Show summary in full view"
+#: modules/node/node.admin.inc:14
+msgid ""
+"Rebuilding may take some time if there is a lot of content or complex "
+"permission settings. After rebuilding has completed posts will "
+"automatically use the new permissions."
 msgstr ""
 
-#: modules/node/node.pages.inc:433
-#, fuzzy
+#: modules/node/node.admin.inc:18
+msgid "Node access status"
+msgstr "מצב גישה"
+
+#: modules/node/node.admin.inc:28
+msgid "Number of posts on main page"
+msgstr "מספר הפרסומים בעמוד הראשי"
+
+#: modules/node/node.admin.inc:30
+msgid ""
+"The default maximum number of posts to display per page on overview "
+"pages such as the main page."
+msgstr ""
+"ברירת המחדל למספר הפרסומים שיוצגו "
+"בעמודי סקירה כמו העמוד הראשי."
+
+#: modules/node/node.admin.inc:72
+msgid "Are you sure you want to rebuild the permissions on site content?"
+msgstr ""
+"האם אתה בטוח שאתה רוצה לבנות מחדש את "
+"ההרשאות על תוכן האתר?"
+
+#: modules/node/node.admin.inc:73
+msgid ""
+"This action rebuilds all permissions on site content, and may be a "
+"lengthy process. This action cannot be undone."
+msgstr ""
+"פעולה זו בונה מחדש את כל ההרשאות על "
+"תודן האתר ועלולה לארוך זמן רב. לא ניתן "
+"לבטל פעולה זו."
+
+#: modules/node/node.admin.inc:105
+msgid "Demote from front page"
+msgstr "הוצא מהדף הראשי"
+
+#: modules/node/node.admin.inc:110
+msgid "Make sticky"
+msgstr "הפוך לדביק"
+
+#: modules/node/node.admin.inc:115
+msgid "Remove stickiness"
+msgstr "בטל הצמדה לראש רשימות"
+
+#: modules/node/node.admin.inc:160
+msgid "language"
+msgstr "שפה"
+
+#: modules/node/node.admin.inc:427
+msgid "An error occurred and processing did not complete."
+msgstr "ארעה שגיאה והעיבוד לא הסתיים."
+
+#: modules/node/node.pages.inc:284
+msgid "Show summary in full view"
+msgstr "הצג סיכום בהיבט מלא"
+
+#: modules/node/node.pages.inc:437
 msgid ""
 "The trimmed version of your post shows what your post looks like when "
-"promoted to the main page or when exported for syndication.<span class=\"no-"
-"js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the "
-"quotes) to fine-tune where your post gets split.</span>"
+"promoted to the main page or when exported for syndication.<span "
+"class=\"no-js\"> You can insert the delimiter \"&lt;!--break--&gt;\" "
+"(without the quotes) to fine-tune where your post gets split.</span>"
 msgstr ""
-"הגרסה המקוצרת של הפרסום שלך מראה איך הפרסום שלך ייראה כשיוצג בעמוד הראשי או "
-"כשיוצג בערוצי תוכן אחרים (רסס). תוכל להכניס את המפריד  \"&lt;!--break--&gt;"
-"\" (ללא הגרשיים) כדי להגדיר בצורה מדויקת יותר היכן יתבצע החיתוך."
+"הגרסה המקוצרת של הפרסום מראה כיצד "
+"הפרסום שלך יראה כאשר הוא מקודם לעמוד "
+"ראשי או כאשר הוא מיוצא לסינדיקציה.<span "
+"class=\"no-js\"> אתה יכול להכניס את התו המפריד "
+"\"&lt;!--break--&gt;\" (ללא הגרשיים) כדי לעדן את "
+"המקום בו הפרסום שלך מפוצל.</span>"
 
-#: modules/node/node.pages.inc:434
-msgid "Preview trimmed version"
-msgstr "גרסה מקוצרת"
-
-#: modules/node/node.pages.inc:436
-msgid "Preview full version"
-msgstr "גרסה מלאה"
-
-#: modules/node/node.pages.inc:459
-#, fuzzy
-msgid "@type %title has been created."
-msgstr "%title נמחק."
-
-#: modules/node/node.pages.inc:463
-#, fuzzy
-msgid "@type %title has been updated."
-msgstr "שורת התפריט %title עודכנה."
-
-#: modules/node/node.pages.inc:473
-#, fuzzy
-msgid "The post could not be saved."
-msgstr "לא ניתן ליצור את הקובץ."
-
-#: modules/node/node.pages.inc:501
-msgid "Are you sure you want to delete %title?"
-msgstr "האמנם ברצונך למחוק את '%title'?"
-
-#: modules/node/node.pages.inc:524
-msgid "Revisions for %title"
-msgstr "גרסאות של %title"
-
-#: modules/node/node.pages.inc:526
-msgid "Revision"
-msgstr "גרסה"
-
-#: modules/node/node.pages.inc:544;550
-msgid "!date by !username"
-msgstr "!date מאת !username"
-
-#: modules/node/node.pages.inc:547
-msgid "current revision"
-msgstr "גרסה נוכחית"
-
-#: modules/node/node.pages.inc:553
-msgid "revert"
-msgstr "שחזר"
-
-#: modules/node/node.pages.inc:570
-#, fuzzy
-msgid "Are you sure you want to revert to the revision from %revision-date?"
-msgstr "האמנם ברצונך למחוק את קבוצת הדיון %name?"
-
-#: modules/node/node.pages.inc:570
-#, fuzzy
-msgid "Revert"
-msgstr "שחזר"
-
-#: modules/node/node.pages.inc:576
+#: modules/node/node.pages.inc:580
 msgid "Copy of the revision from %date."
 msgstr "העתק גרסה מ%date."
 
-#: modules/node/node.pages.inc:584
-#, fuzzy
-msgid "@type %title has been reverted back to the revision from %revision-date."
-msgstr "%title שוחזרה לגרסה קודמת מתאריך %revision-date"
+#: modules/node/node.pages.inc:588
+msgid ""
+"@type %title has been reverted back to the revision from "
+"%revision-date."
+msgstr "@type %title הוחזר למהדורה מתאריך %revision-date."
 
-#: modules/node/node.pages.inc:590
-#, fuzzy
-msgid "Are you sure you want to delete the revision from %revision-date?"
-msgstr "האמנם ברצונך למחוק את קבוצת הדיון %name?"
-
-#: modules/node/node.pages.inc:598
-#, fuzzy
+#: modules/node/node.pages.inc:602
 msgid "Revision from %revision-date of @type %title has been deleted."
-msgstr "שורת התפריט %title נמחקה."
+msgstr ""
+"מהדורה מתאריך %revision-date מסוג @type %title "
+"נמחקה."
 
-#: modules/node/node.pages.inc:458
-msgid "@type: added %title."
-msgstr "@type: נוסף '%title'."
-
-#: modules/node/node.pages.inc:462
-msgid "@type: updated %title."
-msgstr "@type: %title עודכן."
-
-#: modules/node/node.pages.inc:583
+#: modules/node/node.pages.inc:587
 msgid "@type: reverted %title revision %revision."
 msgstr "@type: שוחזרה %title לגרסה %revision."
 
-#: modules/node/node.pages.inc:597
-msgid "@type: deleted %title revision %revision."
-msgstr "@type: נמחקה %title מגרסה %revision."
-
 #: modules/node/node.module:29
-#, fuzzy
 msgid "The content access permissions need to be rebuilt."
-msgstr "טבלת ההרשאות לפרסומים נבנתה מחדש."
+msgstr ""
+"יש צורך לבנות מחדש את הרשאות הגישה "
+"לתוכן."
 
 #: modules/node/node.module:32
 msgid ""
-"The content access permissions need to be rebuilt. Please visit <a href="
-"\"@node_access_rebuild\">this page</a>."
+"The content access permissions need to be rebuilt. Please visit <a "
+"href=\"@node_access_rebuild\">this page</a>."
 msgstr ""
+"יש צורך לבנות מחדש את הרשאות הגישה "
+"לתוכן. בקר ב-<a href=\"@node_access_rebuild\">דף זה</a>."
 
 #: modules/node/node.module:39
 msgid ""
 "The node module manages content on your site, and stores all posts "
 "(regardless of type) as a \"node\". In addition to basic publishing "
-"settings, including whether the post has been published, promoted to the "
-"site front page, or should remain present (or sticky) at the top of lists, "
-"the node module also records basic information about the author of a post. "
-"Optional revision control over edits is available. For additional "
-"functionality, the node module is often extended by other modules."
+"settings, including whether the post has been published, promoted to "
+"the site front page, or should remain present (or sticky) at the top "
+"of lists, the node module also records basic information about the "
+"author of a post. Optional revision control over edits is available. "
+"For additional functionality, the node module is often extended by "
+"other modules."
 msgstr ""
 
 #: modules/node/node.module:40
 msgid ""
-"Though each post on your site is a node, each post is also of a particular "
-"<a href=\"@content-type\">content type</a>. <a href=\"@content-type"
-"\">Content types</a> are used to define the characteristics of a post, "
-"including the title and description of the fields displayed on its add and "
-"edit pages. Each content type may have different default settings for "
-"<em>Publishing options</em> and other workflow controls. By default, the two "
-"content types in a standard Drupal installation are <em>Page</em> and "
-"<em>Story</em>. Use the <a href=\"@content-type\">content types page</a> to "
-"add new or edit existing content types. Additional content types also become "
-"available as you enable additional core, contributed and custom modules."
+"Though each post on your site is a node, each post is also of a "
+"particular <a href=\"@content-type\">content type</a>. <a "
+"href=\"@content-type\">Content types</a> are used to define the "
+"characteristics of a post, including the title and description of the "
+"fields displayed on its add and edit pages. Each content type may have "
+"different default settings for <em>Publishing options</em> and other "
+"workflow controls. By default, the two content types in a standard "
+"Drupal installation are <em>Page</em> and <em>Story</em>. Use the <a "
+"href=\"@content-type\">content types page</a> to add new or edit "
+"existing content types. Additional content types also become available "
+"as you enable additional core, contributed and custom modules."
 msgstr ""
 
 #: modules/node/node.module:41
 msgid ""
 "The administrative <a href=\"@content\">content page</a> allows you to "
-"review and manage your site content. The <a href=\"@post-settings\">post "
-"settings page</a> sets certain options for the display of posts. The node "
-"module makes a number of permissions available for each content type, which "
-"may be set by role on the <a href=\"@permissions\">permissions page</a>."
+"review and manage your site content. The <a "
+"href=\"@post-settings\">post settings page</a> sets certain options "
+"for the display of posts. The node module makes a number of "
+"permissions available for each content type, which may be set by role "
+"on the <a href=\"@permissions\">permissions page</a>."
 msgstr ""
+"<a href=\"@content\">דף התוכן</a> הניהולי מאפשר "
+"לך לסקור ולנהל את התוכן שלך. <a "
+"href=\"@post-settings\">דף הגדרות הפרסום</a> מגדיר "
+"אפשרויות מסוימות לתצוגת פרסומים. "
+"מודול פריט התוכן מאפשר מספר סוגי "
+"הרשאות לכל סוג תוכן, אותן ניתן לקבוע "
+"לפי תפקיד ב-<a href=\"@permissions\">דף ההרשאות</a>."
 
 #: modules/node/node.module:42
-#, fuzzy
 msgid ""
-"For more information, see the online handbook entry for <a href=\"@node"
-"\">Node module</a>."
+"For more information, see the online handbook entry for <a "
+"href=\"@node\">Node module</a>."
 msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
+"למידע נוסף, קרא במדריך המקוון על <a "
+"href=\"@node\">מודול פריטי התוכן</a>."
 
 #: modules/node/node.module:47
 msgid ""
-"Below is a list of all the content types on your site. All posts that exist "
-"on your site are instances of one of these content types."
+"Below is a list of all the content types on your site. All posts that "
+"exist on your site are instances of one of these content types."
 msgstr ""
-"רשימה זו מכילה את כל סוגי התוכן באתר. כל הפרסומים באתר הינם מופעים של סוגי "
-"תוכן אלה."
+"להלן רשימה זו של כל סוגי התוכן באתר. כל "
+"הפרסומים באתר הינם מופעים של אחד או "
+"יותר מסוגי תוכן אלה."
 
 #: modules/node/node.module:49
 msgid ""
-"To create a new content type, enter the human-readable name, the machine-"
-"readable name, and all other relevant fields that are on this page. Once "
-"created, users of your site will be able to create posts that are instances "
-"of this content type."
+"To create a new content type, enter the human-readable name, the "
+"machine-readable name, and all other relevant fields that are on this "
+"page. Once created, users of your site will be able to create posts "
+"that are instances of this content type."
 msgstr ""
+"ליצירת סוג תוכן חדש, הזן את שמו, שם "
+"המכונה שלוף וכל שאר השדות הרלוונטיים "
+"שבעמוד זה. ברגע שיווצר, עוכלו משתמשים "
+"של האתר שלך ליצור פרבומים שהם מופעים "
+"של סוג תוכן זה."
 
 #: modules/node/node.module:51
-msgid "The revisions let you track differences between multiple versions of a post."
-msgstr "'מעקב שינויים' מאפשר הבחנה בין גרסאות התוכן השונות של פרסום מסויים."
+msgid ""
+"The revisions let you track differences between multiple versions of a "
+"post."
+msgstr ""
+"'מעקב שינויים' מאפשר הבחנה בין גרסאות "
+"התוכן השונות של פרסום מסויים."
 
 #: modules/node/node.module:260
 msgid ""
 "You specified that the summary should not be shown when this post is "
-"displayed in full view. This setting is ignored when the summary is empty."
+"displayed in full view. This setting is ignored when the summary is "
+"empty."
 msgstr ""
+"ציינת שאין להציג את התקציר כאשר פרסום "
+"זה מוצג במלואו. לא תהיה התייחסות "
+"להגדרה זו כאשר התקציר ריק."
 
 #: modules/node/node.module:264
 msgid ""
 "You specified that the summary should not be shown when this post is "
-"displayed in full view. This setting has been ignored since you have not "
-"defined a summary for the post. (To define a summary, insert the delimiter "
-"\"&lt;!--break--&gt;\" (without the quotes) in the Body of the post to "
-"indicate the end of the summary and the start of the main content.)"
+"displayed in full view. This setting has been ignored since you have "
+"not defined a summary for the post. (To define a summary, insert the "
+"delimiter \"&lt;!--break--&gt;\" (without the quotes) in the Body of "
+"the post to indicate the end of the summary and the start of the main "
+"content.)"
 msgstr ""
+"ציינת כי אין להראות את התקציר כאשר "
+"פרסום זה מוצג בתצוגה מלאה. התעלמנו "
+"מהגדרה זו מפני שלא הגדרת תקציר לפרסום. "
+"(להגדרת תקציר, הזן את המפריד "
+"\"&lt;!--break--&gt;\" (ללא הגרשיים) לגום הפרסום "
+"כדי לציין את סיום התקציר ותחילת התוכן "
+"העיקרי.)"
 
-#: modules/node/node.module:785
-msgid "The body of your @type is too short. You need at least %words words."
-msgstr "התוכן שהזנת ל@type קצר מדי. יש להזין לפחות %words מילים."
-
-#: modules/node/node.module:789
-msgid "This content has been modified by another user, changes cannot be saved."
-msgstr "תוכן זה עודכן על ידי חבר אחר, לא ניתן לשמור את השינויים."
-
-#: modules/node/node.module:798
-msgid "The username %name does not exist."
-msgstr "המשתמש %name לא קיים במערכת."
-
-#: modules/node/node.module:981
-#, fuzzy
-msgid "@type %title has been deleted."
-msgstr "%title נמחק."
-
-#: modules/node/node.module:1096
-msgid "Revision of %title from %date"
-msgstr "גרסה של %title מ-%date"
-
-#: modules/node/node.module:1116
-msgid "Log"
-msgstr "יומן פעילות"
-
-#: modules/node/node.module:1161
-msgid "Content ranking"
-msgstr "דרוג תוכן"
-
-#: modules/node/node.module:1165
-msgid ""
-"The following numbers control which properties the content search should "
-"favor when ordering the results. Higher numbers mean more influence, zero "
-"means the property is ignored. Changing these numbers does not require the "
-"search index to be rebuilt. Changes take effect immediately."
-msgstr ""
-"המספרים הבאים קובעים את סידור פריטי התוכן בתוצאות החיפוש. תכונות עם משקל "
-"גבוה ישפיעו יותר. תכונות עם משקל אפס לא ישפיעו כלל. שינוי משקלות אלו לא דורש "
-"בניה מחדש של המפתח. השינויים משפיעים מייד."
-
-#: modules/node/node.module:1168
-msgid "Keyword relevance"
-msgstr "רלוונטיות מילות החיפוש"
-
-#: modules/node/node.module:1169
-msgid "Recently posted"
-msgstr "פורסם לאחרונה"
-
-#: modules/node/node.module:1171
-msgid "Number of comments"
-msgstr "מספר התגובות"
-
-#: modules/node/node.module:1174
-msgid "Number of views"
-msgstr "מספר הצפיות"
-
-#: modules/node/node.module:1314
-msgid "Factor"
-msgstr "תכונה"
-
-#: modules/node/node.module:1348
-msgid "Read more"
-msgstr "הצג את ההמשך"
-
-#: modules/node/node.module:1352
-#, fuzzy
+#: modules/node/node.module:1360
 msgid "Read the rest of !title."
-msgstr "הצג את ההמשך."
+msgstr "המשך קריאת !title."
 
-#: modules/node/node.module:1610;1616;1617
-msgid "Syndicate"
-msgstr "שלב תכנים"
-
-#: modules/node/node.module:1731
-msgid "RSS"
-msgstr "רסס (RSS)"
-
-#: modules/node/node.module:1735
+#: modules/node/node.module:1763
 msgid ""
-"<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow "
-"these steps to set up and start using your website:</p>"
+"<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please "
+"follow these steps to set up and start using your website:</p>"
 msgstr ""
-"<h1 class=\"title\"> ברוך הבא לאתר דרופל החדש שלך! </h1><p> אנא עקוב אחר "
-"הצעדים הבאים כדי להגדיר את האתר ולהתחיל להשתמש בו: </p>"
+"<h1 class=\"title\"> ברוך הבא לאתר דרופל החדש "
+"שלך! </h1><p> אנא עקוב אחר הצעדים הבאים כדי "
+"להגדיר את האתר ולהתחיל להשתמש בו: </p>"
 
-#: modules/node/node.module:1738
+#: modules/node/node.module:1766
 msgid ""
-"<strong>Configure your website</strong> Once logged in, visit the <a href="
-"\"@admin\">administration section</a>, where you can <a href=\"@config"
-"\">customize and configure</a> all aspects of your website."
+"<strong>Configure your website</strong> Once logged in, visit the <a "
+"href=\"@admin\">administration section</a>, where you can <a "
+"href=\"@config\">customize and configure</a> all aspects of your "
+"website."
 msgstr ""
-"<strong> הגדר את האתר שלך</strong> לאחר שנכנסת למערכת, הכנס אל <a href="
-"\"@admin\"> איזור הניהול</a> , שם תוכל<a href=\"@config\"> להתאים ולהגדיר</"
-"a> את האתר שלך."
+"<strong> הגדר את האתר שלך</strong> לאחר שנכנסת "
+"למערכת, הכנס אל <a href=\"@admin\"> איזור "
+"הניהול</a> , שם תוכל<a href=\"@config\"> להתאים "
+"ולהגדיר</a> את האתר שלך."
 
-#: modules/node/node.module:1739
+#: modules/node/node.module:1767
 msgid ""
-"<strong>Enable additional functionality</strong> Next, visit the <a href="
-"\"@modules\">module list</a> and enable features which suit your specific "
-"needs. You can find additional modules in the <a href=\"@download_modules"
-"\">Drupal modules download section</a>."
+"<strong>Enable additional functionality</strong> Next, visit the <a "
+"href=\"@modules\">module list</a> and enable features which suit your "
+"specific needs. You can find additional modules in the <a "
+"href=\"@download_modules\">Drupal modules download section</a>."
 msgstr ""
-"<strong> הפעל תכונות נוספות</strong> כעת, בקר בעמוד <a href=\"@modules\"> "
-"רשימת הרכיבים</a>  והפעל תכונות שמתאימות לצרכים שלך. תוכל למצוא רכיבים "
-"נוספים להתקנה<a href=\"@download_modules\"> בעמוד ההורדות של דרופל</a>."
+"<strong> הפעל תכונות נוספות</strong> כעת, בקר "
+"בעמוד <a href=\"@modules\"> רשימת הרכיבים</a>  "
+"והפעל תכונות שמתאימות לצרכים שלך. תוכל "
+"למצוא רכיבים נוספים להתקנה<a "
+"href=\"@download_modules\"> בעמוד ההורדות של "
+"דרופל</a>."
 
-#: modules/node/node.module:1740
+#: modules/node/node.module:1768
 msgid ""
-"<strong>Customize your website design</strong> To change the \"look and feel"
-"\" of your website, visit the <a href=\"@themes\">themes section</a>. You "
-"may choose from one of the included themes or download additional themes "
-"from the <a href=\"@download_themes\">Drupal themes download section</a>."
+"<strong>Customize your website design</strong> To change the \"look "
+"and feel\" of your website, visit the <a href=\"@themes\">themes "
+"section</a>. You may choose from one of the included themes or "
+"download additional themes from the <a "
+"href=\"@download_themes\">Drupal themes download section</a>."
 msgstr ""
-"<strong> התאם את עיצוב האתר שלך</strong> כדי לשנות את הדרך בה האתר נראה, בקר "
-"את<a href=\"@themes\"> איזור העיצובים</a> . תוכל לבחור עיצוב מתוך הקיימים או "
-"להוריד עיצובים נוספים <a href=\"@download_themes\"> באיזור הורדות העיצובים "
-"של דרופל</a>."
+"<strong> התאם את עיצוב האתר שלך</strong> כדי "
+"לשנות את הדרך בה האתר נראה, בקר את<a "
+"href=\"@themes\"> איזור העיצובים</a> . תוכל "
+"לבחור עיצוב מתוך הקיימים או להוריד "
+"עיצובים נוספים <a href=\"@download_themes\"> באיזור "
+"הורדות העיצובים של דרופל</a>."
 
-#: modules/node/node.module:1741
+#: modules/node/node.module:1769
 msgid ""
-"<strong>Start posting content</strong> Finally, you can <a href=\"@content"
-"\">create content</a> for your website. This message will disappear once you "
-"have promoted a post to the front page."
+"<strong>Start posting content</strong> Finally, you can <a "
+"href=\"@content\">create content</a> for your website. This message "
+"will disappear once you have promoted a post to the front page."
 msgstr ""
-"<strong> פרסם תוכן</strong> לבסוף, תוכל<a href=\"@content\"> ליצור תוכן</a> "
-"לאתר שלך. הודעה זו לא תופיע לאחר שתקדם תוכן לעמוד הראשי."
-
-#: modules/node/node.module:1743
-msgid ""
-"For more information, please refer to the <a href=\"@help\">help section</"
-"a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also "
-"post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of "
-"<a href=\"@support\">other support options</a> available."
-msgstr ""
-"למידע נוסף תוכל לבקר<a href=\"@help\"> באיזור העזרה</a>, או לחלופין<a href="
-"\"@handbook\"> בספרי ההדרכה המקוונים של דרופל</a>. תוכל גם לשלוח הודעות<a "
-"href=\"@forum\"> בפורום של דרופל</a>, או לצפות במגוון רחב של <a href="
-"\"@support\"> אפשרויות נוספות לקבלת תמיכה</a>."
-
-#: modules/node/node.module:1815;1867
-msgid "Advanced search"
-msgstr "חיפוש מתקדם"
-
-#: modules/node/node.module:1826
-msgid "Containing any of the words"
-msgstr "מכיל אחת מהמילים"
-
-#: modules/node/node.module:1832
-msgid "Containing the phrase"
-msgstr "מכיל את הביטוי"
-
-#: modules/node/node.module:1838
-msgid "Containing none of the words"
-msgstr "לא מכיל אף אחת מהמילים"
-
-#: modules/node/node.module:1847
-msgid "Only in the category(s)"
-msgstr "רק בנושא(ים)"
-
-#: modules/node/node.module:1860
-msgid "Only of the type(s)"
-msgstr "רק מסוג(ים)"
-
-#: modules/node/node.module:2282
-#, fuzzy
-msgid "Rebuilding content access permissions"
-msgstr "בנה הרשאות מחדש"
+"<strong>התחל לפרסם תוכן</strong> לבסוף, תוכל <a "
+"href=\"@content\">ליצור תוכן</a> עבור האתר שלך. "
+"מסר זה לא יופיע יותר לאחר שתקדם פרסום "
+"לדף הראשי."
 
 #: modules/node/node.module:2312
-#, fuzzy
+msgid "Rebuilding content access permissions"
+msgstr "בונה מחדש הרשאות גישה לתוכן"
+
+#: modules/node/node.module:2342
 msgid "Content permissions have been rebuilt."
-msgstr "פריטי התוכן נמחקו."
+msgstr "הרשאות התוכן נבנו מחדש"
 
-#: modules/node/node.module:2358
-#, fuzzy
-msgid "The content access permissions have been rebuilt."
-msgstr "טבלת ההרשאות לפרסומים נבנתה מחדש."
-
-#: modules/node/node.module:2362
-#, fuzzy
+#: modules/node/node.module:2392
 msgid "The content access permissions have not been properly rebuilt."
-msgstr "טבלת ההרשאות לפרסומים נבנתה מחדש."
+msgstr "הרשאות הגישה לתוכן לא נבנו מחדש כהלכה."
 
-#: modules/node/node.module:2450
-#, fuzzy
-msgid "Submitted by !username on @datetime"
-msgstr "הוגש ע\"י !a ביום @b."
-
-#: modules/node/node.module:2465
-msgid "When either saving a new post or updating an existing post"
-msgstr ""
-
-#: modules/node/node.module:2468
-msgid "After saving a new post"
-msgstr ""
-
-#: modules/node/node.module:2471
-msgid "After saving an updated post"
-msgstr ""
-
-#: modules/node/node.module:2474
-msgid "After deleting a post"
-msgstr ""
-
-#: modules/node/node.module:2477
-#, fuzzy
-msgid "When content is viewed by an authenticated user"
-msgstr "מצערת אוטומטית עבור משתמשים מזוהים"
-
-#: modules/node/node.module:2491
-#, fuzzy
-msgid "Publish post"
-msgstr "פרסם"
-
-#: modules/node/node.module:2501
-#, fuzzy
-msgid "Unpublish post"
-msgstr "בטל פרסום"
-
-#: modules/node/node.module:2511
-#, fuzzy
-msgid "Make post sticky"
-msgstr "הצמד לראש רשימות"
-
-#: modules/node/node.module:2521
-#, fuzzy
-msgid "Make post unsticky"
-msgstr "הצמד לראש רשימות"
-
-#: modules/node/node.module:2531
-#, fuzzy
-msgid "Promote post to front page"
-msgstr "קדם לעמוד הראשי"
-
-#: modules/node/node.module:2541
-#, fuzzy
-msgid "Remove post from front page"
-msgstr "הוצא מהעמוד הראשי"
-
-#: modules/node/node.module:2551
-msgid "Change the author of a post"
-msgstr ""
-
-#: modules/node/node.module:2562
-#, fuzzy
-msgid "Save post"
-msgstr "שמירת תיבות"
-
-#: modules/node/node.module:2570
-msgid "Unpublish post containing keyword(s)"
-msgstr ""
-
-#: modules/node/node.module:2653
-msgid "The username of the user to which you would like to assign ownership."
-msgstr ""
-
-#: modules/node/node.module:2692
-#, fuzzy
-msgid "Please enter a valid username."
-msgstr "חובה להכניס שם משתמש."
-
-#: modules/node/node.module:2706
-msgid ""
-"The post will be unpublished if it contains any of the character sequences "
-"above. Use a comma-separated list of character sequences. Example: funny, "
-"bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
-msgstr ""
-
-#: modules/node/node.module:980
-msgid "@type: deleted %title."
-msgstr "@type: %title נמחק."
-
-#: modules/node/node.module:2585
-msgid "Set @type %title to published."
-msgstr ""
-
-#: modules/node/node.module:2594;2729
-msgid "Set @type %title to unpublished."
-msgstr ""
-
-#: modules/node/node.module:2603
-msgid "Set @type %title to sticky."
-msgstr ""
-
-#: modules/node/node.module:2612
-msgid "Set @type %title to unsticky."
-msgstr ""
-
-#: modules/node/node.module:2621
-#, fuzzy
-msgid "Promoted @type %title to front page."
-msgstr "קדם לעמוד הראשי"
-
-#: modules/node/node.module:2630
-#, fuzzy
-msgid "Removed @type %title from front page."
-msgstr "הוצא מהעמוד הראשי"
-
-#: modules/node/node.module:2639
-#, fuzzy
-msgid "Saved @type %title"
-msgstr "עדכן %title"
-
-#: modules/node/node.module:2649
-msgid "Changed owner of @type %title to uid %name."
-msgstr ""
-
-#: modules/node/node.module:1122
+#: modules/node/node.module:1120
 msgid "administer content types"
 msgstr "ניהול סוגי תוכן"
 
-#: modules/node/node.module:1122
-msgid "administer nodes"
-msgstr "ניהול פריטי תוכן"
-
-#: modules/node/node.module:1122
-msgid "access content"
-msgstr "גישה לתוכן"
-
-#: modules/node/node.module:1122
-msgid "view revisions"
-msgstr "צפיה בגרסאות"
-
-#: modules/node/node.module:1122
-msgid "revert revisions"
-msgstr "חזור אחורה בגרסאות"
-
-#: modules/node/node.module:1403
+#: modules/node/node.module:1411
 msgid "View, edit, and delete your site's content."
 msgstr "הצג, עדכן ומחק תוכן באתר."
 
-#: modules/node/node.module:1417
+#: modules/node/node.module:1425
 msgid "Post settings"
 msgstr "הגדרות פרסומים"
 
-#: modules/node/node.module:1418
+#: modules/node/node.module:1426
 msgid ""
-"Control posting behavior, such as teaser length, requiring previews before "
-"posting, and the number of posts on the front page."
+"Control posting behavior, such as teaser length, requiring previews "
+"before posting, and the number of posts on the front page."
 msgstr ""
-"ניהול מאפייני הפרסום, כמו אורך התקציר, דרישה לצפייה מקדימה לפני פרסום ומספר "
+"שלוט על התנהגות הפרסום, כגון אורך טיזר, "
+"דרישה לצפייה מקדימה לפני פרסום ומספר "
 "הפרסומים בעמוד הראשי."
 
-#: modules/node/node.module:1436
+#: modules/node/node.module:1444
 msgid ""
 "Manage posts by content type, including default status, front page "
 "promotion, etc."
-msgstr "ניהול פרסומים לפי סוג התוכן, כולל מצב ברירת מחדל, קידום לעמוד ראשי ועוד."
+msgstr ""
+"ניהול פרסומים לפי סוג התוכן, כולל מצב "
+"ברירת מחדל, קידום לדף הראשי ועוד."
 
-#: modules/node/node.module:1447
+#: modules/node/node.module:1455
 msgid "Add content type"
 msgstr "הוסף סוג תוכן"
 
-#: modules/node/node.module:1460
-msgid "Create content"
-msgstr "יצירת תוכן"
-
-#: modules/node/node.module:1534;1544
-msgid "Revisions"
-msgstr "גרסאות"
-
-#: modules/node/node.module:1551
-#, fuzzy
+#: modules/node/node.module:1564
 msgid "Revert to earlier revision"
-msgstr "חזור אחורה בגרסאות"
+msgstr "חזור למהדורה מוקדמת יותר"
 
-#: modules/node/node.module:1561
-#, fuzzy
+#: modules/node/node.module:1574
 msgid "Delete earlier revision"
-msgstr "נמחקה %title גרסה %revision."
-
-#: modules/node/node.install:9
-#, fuzzy
-msgid "The base table for nodes."
-msgstr "מספר שחרורי נעילות טבלה"
-
-#: modules/node/node.install:12
-msgid "The primary identifier for a node."
-msgstr ""
-
-#: modules/node/node.install:17
-msgid "The current {node_revisions}.vid version identifier."
-msgstr ""
-
-#: modules/node/node.install:23
-#, fuzzy
-msgid "The {node_type}.type of this node."
-msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
-
-#: modules/node/node.install:29
-#, fuzzy
-msgid "The {languages}.language of this node."
-msgstr "השפה %language (%locale) נוספה."
-
-#: modules/node/node.install:35
-msgid "The title of this node, always treated a non-markup plain text."
-msgstr ""
-
-#: modules/node/node.install:41
-msgid ""
-"The {users}.uid that owns this node; initially, this is the user that "
-"created it."
-msgstr ""
-
-#: modules/node/node.install:46
-msgid ""
-"Boolean indicating whether the node is published (visible to non-"
-"administrators)."
-msgstr ""
-
-#: modules/node/node.install:51
-msgid "The Unix timestamp when the node was created."
-msgstr ""
-
-#: modules/node/node.install:56
-msgid "The Unix timestamp when the node was most recently saved."
-msgstr ""
-
-#: modules/node/node.install:61
-msgid ""
-"Whether comments are allowed on this node: 0 = no, 1 = read only, 2 = read/"
-"write."
-msgstr ""
-
-#: modules/node/node.install:66
-msgid "Boolean indicating whether the node should displayed on the front page."
-msgstr ""
-
-#: modules/node/node.install:71
-msgid ""
-"Previously, a boolean indicating whether the node was \"in moderation\"; "
-"mostly no longer used."
-msgstr ""
-
-#: modules/node/node.install:76
-msgid ""
-"Boolean indicating whether the node should be displayed at the top of lists "
-"in which it appears."
-msgstr ""
-
-#: modules/node/node.install:81
-msgid ""
-"The translation set id for this node, which equals the node id of the source "
-"post in each set."
-msgstr ""
-
-#: modules/node/node.install:87
-msgid "A boolean indicating whether this translation page needs to be updated."
-msgstr ""
-
-#: modules/node/node.install:111
-msgid ""
-"Identifies which realm/grant pairs a user must possess in order to view, "
-"update, or delete specific nodes."
-msgstr ""
-
-#: modules/node/node.install:114
-msgid "The {node}.nid this record affects."
-msgstr ""
-
-#: modules/node/node.install:120
-msgid ""
-"The grant ID a user must possess in the specified realm to gain this row's "
-"privileges on the node."
-msgstr ""
-
-#: modules/node/node.install:126
-msgid ""
-"The realm in which the user must possess the grant ID. Each node access node "
-"can define one or more realms."
-msgstr ""
-
-#: modules/node/node.install:132
-msgid ""
-"Boolean indicating whether a user with the realm/grant pair can view this "
-"node."
-msgstr ""
-
-#: modules/node/node.install:139
-msgid ""
-"Boolean indicating whether a user with the realm/grant pair can edit this "
-"node."
-msgstr ""
-
-#: modules/node/node.install:146
-msgid ""
-"Boolean indicating whether a user with the realm/grant pair can delete this "
-"node."
-msgstr ""
-
-#: modules/node/node.install:157
-#, fuzzy
-msgid "Access statistics for {node}s."
-msgstr "רושם סטטיסטיקות גישה לאתר שלך."
-
-#: modules/node/node.install:160
-msgid "The {node}.nid for these statistics."
-msgstr ""
-
-#: modules/node/node.install:165
-#, fuzzy
-msgid "The total number of times the {node} has been viewed."
-msgstr "מספר הפריטים שיכללו בערוץ כברירת מחדל."
-
-#: modules/node/node.install:172
-#, fuzzy
-msgid "The total number of times the {node} has been viewed today."
-msgstr "מספר הפעמים בהם השרת נאלץ לחכות לנעילה."
-
-#: modules/node/node.install:179
-#, fuzzy
-msgid "The most recent time the {node} has been viewed."
-msgstr "התפריט %title נמחק."
-
-#: modules/node/node.install:189
-msgid "Stores information about each saved version of a {node}."
-msgstr ""
-
-#: modules/node/node.install:192
-#, fuzzy
-msgid "The {node} this version belongs to."
-msgstr "עמוד אב בספר."
-
-#: modules/node/node.install:198
-msgid "The primary identifier for this version."
-msgstr ""
-
-#: modules/node/node.install:203
-msgid "The {users}.uid that created this version."
-msgstr ""
-
-#: modules/node/node.install:208
-#, fuzzy
-msgid "The title of this version."
-msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
-
-#: modules/node/node.install:214
-#, fuzzy
-msgid "The body of this version."
-msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
-
-#: modules/node/node.install:219
-#, fuzzy
-msgid "The teaser of this version."
-msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
-
-#: modules/node/node.install:224
-msgid "The log entry explaining the changes in this version."
-msgstr ""
-
-#: modules/node/node.install:229
-msgid "A Unix timestamp indicating when this version was created."
-msgstr ""
-
-#: modules/node/node.install:234
-#, fuzzy
-msgid "The input format used by this version's body."
-msgstr "עודכנו הגדרות מבני קלט."
-
-#: modules/node/node.install:247
-#, fuzzy
-msgid "Stores information about all defined {node} types."
-msgstr "מידע נוסף על אפשרויות מבנה קלט"
-
-#: modules/node/node.install:250
-#, fuzzy
-msgid "The machine-readable name of this type."
-msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
-
-#: modules/node/node.install:255
-#, fuzzy
-msgid "The human-readable name of this type."
-msgstr "שם הסיווג. לדוגמה: \"אקולוגיה\"."
-
-#: modules/node/node.install:261
-msgid "The module that implements this type."
-msgstr ""
-
-#: modules/node/node.install:266
-#, fuzzy
-msgid "A brief description of this type."
-msgstr "תיאור הסיווג."
-
-#: modules/node/node.install:271
-msgid "Help information shown to the user when creating a {node} of this type."
-msgstr ""
-
-#: modules/node/node.install:276
-msgid "Boolean indicating whether this type uses the {node}.title field."
-msgstr ""
-
-#: modules/node/node.install:282
-#, fuzzy
-msgid "The label displayed for the title field on the edit form."
-msgstr "הוראות מילוי טופס המשוב"
-
-#: modules/node/node.install:288
-msgid "Boolean indicating whether this type uses the {node_revisions}.body field."
-msgstr ""
-
-#: modules/node/node.install:294
-#, fuzzy
-msgid "The label displayed for the body field on the edit form."
-msgstr "הוראות מילוי טופס המשוב"
-
-#: modules/node/node.install:300
-msgid "The minimum number of words the body must contain."
-msgstr ""
-
-#: modules/node/node.install:306
-msgid ""
-"A boolean indicating whether this type is defined by a module (FALSE) or by "
-"a user via a module like the Content Construction Kit (TRUE)."
-msgstr ""
-
-#: modules/node/node.install:312
-msgid ""
-"A boolean indicating whether this type has been modified by an "
-"administrator; currently not used in any way."
-msgstr ""
-
-#: modules/node/node.install:318
-msgid ""
-"A boolean indicating whether the administrator can change the machine name "
-"of this type."
-msgstr ""
-
-#: modules/node/node.install:324
-msgid ""
-"The original machine-readable name of this node type. This may be different "
-"from the current type name if the locked field is 0."
-msgstr ""
+msgstr "מחק מהדורה מוקדמת יותר"
 

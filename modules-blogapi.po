@@ -1,204 +1,314 @@
-# translation of general.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from file: blogapi.module,v 1.115.2.5 2008/10/08 20:12:17 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2010-02-04 19:19+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/blogapi/blogapi.module:684
+msgid "Wrong username or password."
+msgstr "שם משתמש או סיסמה שגויים."
+
+#: modules/blogapi/blogapi.module:785
+msgid ""
+"The maximum size of all files a user can have on the site (in "
+"megabytes)."
+msgstr ""
+"הגודל המירבי של סך הקבצים באתר לכל "
+"משתמש (במגה-בתים)."
+
+#: modules/blogapi/blogapi.module:777
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr ""
+"הגודל המירבי (במגה-בתים) של קובץ אותו "
+"יכול משתמש להעלות."
+
+#: modules/blogapi/blogapi.module:720
+msgid "File settings"
+msgstr "הגדרות קובץ"
+
+#: modules/blogapi/blogapi.module:44
+msgid "Returns information about an author in the system."
+msgstr "מחזיר מידע אודות מחבר במערכת."
+
+#: modules/blogapi/blogapi.module:49,74
+msgid "Creates a new post, and optionally publishes it."
+msgstr "יוצר פרסום חדש עם אפשרות לפרסומו."
+
+#: modules/blogapi/blogapi.module:54
+msgid "Updates the information about an existing post."
+msgstr "מעדכן את המידע אודות פרסום קיים."
+
+#: modules/blogapi/blogapi.module:59,84
+msgid "Returns information about a specific post."
+msgstr "מחזיר מידע עבור פרסום ספציפי."
+
+#: modules/blogapi/blogapi.module:64
+msgid "Deletes a post."
+msgstr "מוחק פרסום."
+
+#: modules/blogapi/blogapi.module:69,99
+msgid "Returns a list of the most recent posts in the system."
+msgstr ""
+"מחזיר רשימה של הפרסומים האחרונים "
+"במערכת."
+
+#: modules/blogapi/blogapi.module:79
+msgid "Updates information about an existing post."
+msgstr "מעדכן מידע על פרסום קיים."
+
+#: modules/blogapi/blogapi.module:89
+msgid "Uploads a file to your webserver."
+msgstr "מעלה קובץ לשרת האתר שלך."
+
+#: modules/blogapi/blogapi.module:94,114
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr ""
+"מחזיר את רשימת הסיווגים אליהם מוקצה "
+"הפרסום."
+
+#: modules/blogapi/blogapi.module:104
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the "
+"system."
+msgstr ""
+
+#: modules/blogapi/blogapi.module:119
+msgid "Sets the categories for a post."
+msgstr "קובע סיווגים לפרסום."
+
+#: modules/blogapi/blogapi.module:124
+msgid ""
+"Retrieve information about the XML-RPC methods supported by the "
+"server."
+msgstr ""
+"אחזר מידע לגבי שיטות XML-RPC הנתמכות על "
+"ידי השרת."
+
+#: modules/blogapi/blogapi.module:129
+msgid ""
+"Retrieve information about the text formatting plugins supported by "
+"the server."
+msgstr ""
+"אחזר מידע אודות plugins לעיצוב טקסט "
+"הנתמכים על ידי השרת."
+
+#: modules/blogapi/blogapi.module:243,304
+msgid "Error storing post."
+msgstr "שגיאה בעת שמירת הפרסום"
+
+#: modules/blogapi/blogapi.module:265,644
+msgid "You do not have permission to update this post."
+msgstr "אין לך הרשאות לעדכון פרסום זה."
+
+#: modules/blogapi/blogapi.module:426
+msgid ""
+"It is not possible to upload the file, because it exceeded the maximum "
+"filesize of @maxsize."
+msgstr ""
+"לא ניתן להעלות את הקובץ מפני שהוא חורג "
+"מגודל הקובץ המירבי @maxsize."
+
+#: modules/blogapi/blogapi.module:430
+msgid ""
+"The file can not be attached to this post, because the disk quota of "
+"@quota has been reached."
+msgstr ""
+"לא ניתן לצרף את הקובץ לפרסום מפני "
+"שהגעת למגבלת שטח הדיסק @quota."
+
+#: modules/blogapi/blogapi.module:446
+msgid ""
+"It is not possible to upload the file, because it is only possible to "
+"upload files with the following extensions: @extensions"
+msgstr ""
+"לא ניתן להעלות את הקובץ, מפני שניתן "
+"להעלות רק קבצים בעלי הסיומות הבאות: "
+"@extensions"
+
+#: modules/blogapi/blogapi.module:456
+msgid "No file sent."
+msgstr "אף קובץ לא נשלח."
+
+#: modules/blogapi/blogapi.module:460
+msgid "Error storing file."
+msgstr "שגיאה בעת שמירת הקובץ."
+
+#: modules/blogapi/blogapi.module:635
+msgid "Invalid post."
+msgstr "פרסום שגוי"
+
+#: modules/blogapi/blogapi.module:738
+msgid "The default maximum file size a user can upload."
+msgstr ""
+"ברירת המחדל של גודל הקובץ המירבי "
+"שמשתמש יכול להעלות."
+
+#: modules/blogapi/blogapi.module:815,794
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi/blogapi.module:27
+msgid "administer content with blog api"
+msgstr "נהל תוכן עם API הבלוג"
 
 #: modules/blogapi/blogapi.module:15
 msgid ""
-"The Blog API module allows your site's users to access and post to their "
-"blogs from external blogging clients. External blogging clients are "
-"available for a wide range of desktop operating systems, and generally "
-"provide a feature-rich graphical environment for creating and editing posts."
+"The Blog API module allows your site's users to access and post to "
+"their blogs from external blogging clients. External blogging clients "
+"are available for a wide range of desktop operating systems, and "
+"generally provide a feature-rich graphical environment for creating "
+"and editing posts."
 msgstr ""
+"מודול API הבלוג מאפשר למשתמשי האתר שלך "
+"לגשת לבלוגים שלהם ולכתוב בהם דרך "
+"לקוחות חיצוניים. לקוחות בלוגים "
+"חיצוניים זמינים במגוון רב של מערכות "
+"הפעלה ומספקים בדרך כלל סביבה גרפית "
+"עשירה ליצירה ןעריכת פרסומים."
 
 #: modules/blogapi/blogapi.module:16
 msgid ""
-"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS "
-"X and Microsoft Windows, can be used with Blog API. Blog API also supports "
-"<a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api"
-"\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable "
-"Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr"
-"\">Flickr's</a> \"post to blog\") that support these APIs may also be "
-"compatible."
+"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both "
+"Mac OS X and Microsoft Windows, can be used with Blog API. Blog API "
+"also supports <a href=\"@blogger-api\">Blogger API</a>, <a "
+"href=\"@metaweblog-api\">MetaWeblog API</a>, and most of the <a "
+"href=\"@movabletype-api\">Movable Type API</a>. Blogging clients and "
+"other services (e.g. <a href=\"@flickr\">Flickr's</a> \"post to "
+"blog\") that support these APIs may also be compatible."
 msgstr ""
+"ניתן להשתמש ב-<a href=\"@ecto-link\">Ecto</a>, לקוח "
+"בלוג הקיים גם עבור Mac OS X וגם עבור Microsoft "
+"Windows, עם API הבלוג. API הבלוג תומך גם ב-<a "
+"href=\"@blogger-api\">Blogger API</a>, <a "
+"href=\"@metaweblog-api\">MetaWeblog API</a>, ורוב ה-<a "
+"href=\"@movabletype-api\">Movable Type API</a>. לקוחות בלוג "
+"ושרותים אחרים (כלומר <a href=\"@flickr\">של "
+"Flicker</a> \"פרסם לבלוג\") התומכים ב-API אלו "
+"עשויים גם להיות תואמים."
 
 #: modules/blogapi/blogapi.module:17
 msgid ""
-"Select the content types available to external clients on the <a href="
-"\"@blogapi-settings\">Blog API settings page</a>. If supported and "
-"available, each content type will be displayed as a separate \"blog\" by the "
-"external client."
+"Select the content types available to external clients on the <a "
+"href=\"@blogapi-settings\">Blog API settings page</a>. If supported "
+"and available, each content type will be displayed as a separate "
+"\"blog\" by the external client."
 msgstr ""
 
 #: modules/blogapi/blogapi.module:18
-#, fuzzy
 msgid ""
-"For more information, see the online handbook entry for <a href=\"@blogapi"
-"\">Blog API module</a>."
+"For more information, see the online handbook entry for <a "
+"href=\"@blogapi\">Blog API module</a>."
 msgstr ""
-"למידע נוסף, קרא את ספר ההגדרה וההתאמה ב<a href=\"@watchdog\">עמוד כלב "
-"השמירה</a>."
+"למידע נוסף, קרא במדריך המקוון על <a "
+"href=\"@blogapi\">מודול API הבלוג</a>."
 
 #: modules/blogapi/blogapi.module:39
 msgid "Returns a list of blogs to which an author has posting privileges."
 msgstr ""
-
-#: modules/blogapi/blogapi.module:44
-msgid "Returns information about an author in the system."
-msgstr ""
-
-#: modules/blogapi/blogapi.module:49;74
-msgid "Creates a new post, and optionally publishes it."
-msgstr ""
-
-#: modules/blogapi/blogapi.module:54
-#, fuzzy
-msgid "Updates the information about an existing post."
-msgstr "מידע נוסף על אפשרויות מבנה קלט"
-
-#: modules/blogapi/blogapi.module:59;84
-#, fuzzy
-msgid "Returns information about a specific post."
-msgstr "מידע נוסף על אפשרויות מבנה קלט"
-
-#: modules/blogapi/blogapi.module:64
-#, fuzzy
-msgid "Deletes a post."
-msgstr "מחק מיקום"
-
-#: modules/blogapi/blogapi.module:69;99
-msgid "Returns a list of the most recent posts in the system."
-msgstr ""
-
-#: modules/blogapi/blogapi.module:79
-#, fuzzy
-msgid "Updates information about an existing post."
-msgstr "מידע נוסף על אפשרויות מבנה קלט"
-
-#: modules/blogapi/blogapi.module:89
-msgid "Uploads a file to your webserver."
-msgstr ""
-
-#: modules/blogapi/blogapi.module:94;114
-msgid "Returns a list of all categories to which the post is assigned."
-msgstr ""
-
-#: modules/blogapi/blogapi.module:104
-msgid ""
-"Returns a bandwidth-friendly list of the most recent posts in the system."
-msgstr ""
+"מחזיר רשימת בלוגים אליהם יש למחבר "
+"הרשאות פרסום."
 
 #: modules/blogapi/blogapi.module:109
 msgid "Returns a list of all categories defined in the blog."
 msgstr ""
-
-#: modules/blogapi/blogapi.module:119
-#, fuzzy
-msgid "Sets the categories for a post."
-msgstr "מאפשר סיווג תוכן לפי נושאים."
-
-#: modules/blogapi/blogapi.module:124
-msgid "Retrieve information about the XML-RPC methods supported by the server."
-msgstr ""
-
-#: modules/blogapi/blogapi.module:129
-#, fuzzy
-msgid ""
-"Retrieve information about the text formatting plugins supported by the "
-"server."
-msgstr "מידע נוסף על אפשרויות מבנה קלט"
+"מחזיר את רשימת כל הסיווגים המוגדרים "
+"בבלוג."
 
 #: modules/blogapi/blogapi.module:134
 msgid ""
-"Publish (rebuild) all of the static files related to an entry from your "
-"blog. Equivalent to saving an entry in the system (but without the ping)."
+"Publish (rebuild) all of the static files related to an entry from "
+"your blog. Equivalent to saving an entry in the system (but without "
+"the ping)."
 msgstr ""
 
 #: modules/blogapi/blogapi.module:216
 msgid "You do not have permission to create this type of post."
+msgstr "אין לך הרשאות ליצירת פרסום מסוג זה."
+
+#: modules/blogapi/blogapi.module:338
+msgid ""
+"You do not have permission to publish this type of post. Please save "
+"it as a draft instead."
 msgstr ""
+"אין לך הרשאות לפרסם סוג כזה של פרסום. "
+"שמור אותו כטיוטה."
 
-#: modules/blogapi/blogapi.module:238;293
-msgid "Error storing post."
-msgstr "שגיאה בעת שמירת הפרסום"
-
-#: modules/blogapi/blogapi.module:260;502
-msgid "You do not have permission to update this post."
+#: modules/blogapi/blogapi.module:341
+msgid ""
+"You do not have permission to save this post as a draft. Please "
+"publish it instead."
 msgstr ""
+"אין לך הרשאה לשמור פרסום זה כטיוטה. "
+"עליך לפרסם אותו."
 
-#: modules/blogapi/blogapi.module:378
-msgid "No file sent."
-msgstr "אף קובץ לא נשלח."
+#: modules/blogapi/blogapi.module:584
+msgid "Invalid categories submitted."
+msgstr "נשלחו סיווגים לא חוקיים."
 
-#: modules/blogapi/blogapi.module:382
-msgid "Error storing file."
-msgstr "שגיאה בעת שמירת הקובץ."
+#: modules/blogapi/blogapi.module:593
+msgid "A category from the @vocabulary_name vocabulary is required."
+msgstr "נדרש סיווג מאוצר המילים@vocabulary_name."
 
-#: modules/blogapi/blogapi.module:497
-msgid "Invalid post."
-msgstr "פרסום שגוי"
+#: modules/blogapi/blogapi.module:597
+msgid "You may only choose one category from the @vocabulary_name vocabulary."
+msgstr ""
+"ניתן לבחור רק סיווג אחד מאור מילים "
+"@vocabulary_name."
 
-#: modules/blogapi/blogapi.module:537
+#: modules/blogapi/blogapi.module:602
+msgid "Error saving categories. This feature is not available."
+msgstr ""
+"שגיאה בשמירת סיווגים. תכונה זו לא "
+"זמינה."
+
+#: modules/blogapi/blogapi.module:680
 msgid "You do not have permission to edit this blog."
-msgstr ""
+msgstr "אין לך הרשאה לערוך את הבלוג הזה."
 
-#: modules/blogapi/blogapi.module:541
-msgid "Wrong username or password."
-msgstr "שם משתמש או סיסמה שגויים."
-
-#: modules/blogapi/blogapi.module:564
+#: modules/blogapi/blogapi.module:707
 msgid "Enable for external blogging clients"
-msgstr ""
+msgstr "הפעל ללקוחות חיצוניים הרושמים לבלוג"
 
-#: modules/blogapi/blogapi.module:568
+#: modules/blogapi/blogapi.module:711
 msgid ""
-"Select the content types available to external blogging clients via Blog "
-"API. If supported, each enabled content type will be displayed as a separate "
-"\"blog\" by the external client."
+"Select the content types available to external blogging clients via "
+"Blog API. If supported, each enabled content type will be displayed as "
+"a separate \"blog\" by the external client."
 msgstr ""
+"בחר את סוגי התוכן הזמינים לרושמים "
+"לבלוג חיצוניים גרך API הבלוג. כל סוג "
+"תוכן נתמך יוצג כבלוג נפרד על ידי הלקוח "
+"החיצוני."
 
-#: modules/blogapi/blogapi.module:597;576
-msgid "RSD"
-msgstr "RSD"
-
-#: modules/blogapi/blogapi.module:715
+#: modules/blogapi/blogapi.module:933
 msgid ""
-"Blog API module is not configured to support the %type content type, or you "
-"don't have sufficient permissions to post this type of content."
+"Blog API module is not configured to support the %type content type, "
+"or you don't have sufficient permissions to post this type of content."
 msgstr ""
+"מודול API הבלוג לא מוגדר לתמיכה בסוג "
+"התוכן %type, או שאין לך הרשאות מתאימות "
+"לפרסם סוג תוכן זה."
 
-#: modules/blogapi/blogapi.module:233
-#, fuzzy
+#: modules/blogapi/blogapi.module:238
 msgid "@type: added %title using blog API."
-msgstr "@type: נוסף '%title'."
+msgstr "@type: נוסף %title בעזרת API הבלוג."
 
-#: modules/blogapi/blogapi.module:289
-#, fuzzy
+#: modules/blogapi/blogapi.module:300
 msgid "@type: updated %title using Blog API."
-msgstr "@type: %title עודכן."
+msgstr "@type: עודכן %title על ידי שימוש ב-API הבלוג."
 
-#: modules/blogapi/blogapi.module:27
-msgid "administer content with blog api"
-msgstr ""
-
-#: modules/blogapi/blogapi.module:583
+#: modules/blogapi/blogapi.module:801
 msgid "Configure the content types available to external blogging clients."
 msgstr ""
+"קבע את תצורת סוגי התוכן הזמינים לרושמי "
+"בלוג חיצוניים."
 
-#: modules/blogapi/blogapi.module:0
-msgid "blogapi"
-msgstr "ממשקי תוכנה ליומן"

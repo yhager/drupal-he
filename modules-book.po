@@ -1,47 +1,112 @@
-# translation of general.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  book.pages.inc,v 1.5.2.1 2008/08/13 23:59:13 drumm
+#  book.module,v 1.454.2.6 2009/02/25 11:47:37 goba
+#  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
+#  book.admin.inc,v 1.8.2.3 2008/10/22 19:26:01 goba
+#  book.install,v 1.20.2.1 2009/01/06 15:46:36 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2010-02-04 19:18+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/book/book.pages.inc:199
+msgid "Remove"
+msgstr "הסרה"
+
+#: modules/book/book.module:391
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr ""
+"עמודים ברמה נתונה מסודרים ראשית לפי "
+"משקלם, ואז לפי כותרת."
 
 #: modules/book/book-navigation.tpl.php:40
 msgid "‹ "
 msgstr "‹ "
 
 #: modules/book/book-navigation.tpl.php:43
-msgid "Go to parent page"
+msgid "up"
 msgstr "לעמוד האב"
 
 #: modules/book/book-navigation.tpl.php:43
-msgid "up"
+msgid "Go to parent page"
 msgstr "לעמוד האב"
 
 #: modules/book/book-navigation.tpl.php:46
 msgid " ›"
 msgstr " ›"
 
+#: modules/book/book.module:122
+msgid "Outline"
+msgstr "מתאר"
+
+#: modules/book/book.module:64
+msgid "Printer-friendly version"
+msgstr "גירסה להדפסה"
+
+#: modules/book/book.module:132
+msgid "Remove from outline"
+msgstr "הסר ממתאר"
+
+#: modules/book/book.pages.inc:52
+msgid "Unknown export format."
+msgstr "מבנה לא מוכר לייצוא"
+
+#: modules/book/book.module:79,108
+msgid "Books"
+msgstr "ספרים"
+
+#: modules/book/book.module:180,189
+msgid "Book navigation"
+msgstr "ניווט בספר"
+
+#: modules/book/book.module:302
+msgid "Change book (update list of parents)"
+msgstr "שנה ספר(עדכן רשימת אבות)"
+
+#: modules/book/book.module:408
+msgid "create a new book"
+msgstr "צור ספר חדש"
+
 #: modules/book/book.admin.inc:15
-#, fuzzy
 msgid "edit order and titles"
-msgstr "עדכן %title"
+msgstr "ערוך סדר וכותרות"
+
+#: modules/book/book.module:80
+msgid "Manage your site's book outlines."
+msgstr "נהל את מתארי הספרים של האתר שלך."
+
+#: modules/book/book.module:228
+msgid "Book navigation block display"
+msgstr "תצוגת בלוק לניווט בספר"
+
+#: modules/book/book.pages.inc:126
+msgid "Add to book outline"
+msgstr "הוסף למתאר ספר"
+
+#: modules/book/book.module:369
+msgid "Book outline"
+msgstr "מתאר הספר"
+
+#: modules/book/book.module:340
+msgid "This will be the top-level page in this book."
+msgstr "זה יהיה דף הרמה העליונה בספר זה."
+
+#: modules/book/book.module:422
+msgid "Your page will be a part of the selected book."
+msgstr "הדף שלך יהיה חלק מהספר הנבחר."
 
 #: modules/book/book.admin.inc:33
-#, fuzzy
 msgid "Allowed book outline types"
-msgstr "הוסף למתאר ספר"
+msgstr "סוגי מתארי ספר מותרים"
 
 #: modules/book/book.admin.inc:36
 msgid ""
@@ -49,301 +114,276 @@ msgid ""
 "allowed to add to the book hierarchy. Users with the %outline-perm "
 "permission can add all content types."
 msgstr ""
-
-#: modules/book/book.admin.inc:36 modules/book/book.module:43
-#, fuzzy
-msgid "add content to books"
-msgstr "הוסף סוג תוכן"
-
-#: modules/book/book.admin.inc:36 modules/book/book.module:43
-#, fuzzy
-msgid "administer book outlines"
-msgstr "עדכן מתאר ספר"
+"בחר סוגי תוכן שעבורם משתמשים עם ההרשאה "
+"%add-perm יוכלו להוסיף להיררכיית הספר. "
+"משתמשים עם ההרשאה %outline-perm יכולים "
+"להוסיף את כל סוגי התוכן."
 
 #: modules/book/book.admin.inc:41
-#, fuzzy
 msgid "Default child page type"
-msgstr "ברירת המחדל לעמוד ראשי"
+msgstr "ברירת המחדל של סוג דף הבן"
 
-#: modules/book/book.admin.inc:44;60
+#: modules/book/book.admin.inc:44,60
 msgid ""
-"The content type for the %add-child link must be one of those selected as an "
-"allowed book outline type."
+"The content type for the %add-child link must be one of those selected "
+"as an allowed book outline type."
 msgstr ""
-
-#: modules/book/book.admin.inc:44;60 modules/book/book.module:57
-msgid "Add child page"
-msgstr "הוסף עמוד בן"
+"סוג התוכן לקישור %add-child חייב להיות אחד "
+"מאלו שנבחר כסוג מתאר ספר מותר בשימוש."
 
 #: modules/book/book.admin.inc:78
 msgid "Save book pages"
 msgstr "שמור עמודי ספר"
 
-#: modules/book/book.admin.inc:116
-msgid "Title changed from %original to %current."
+#: modules/book/book.admin.inc:90
+msgid ""
+"This book has been modified by another user, the changes could not be "
+"saved."
 msgstr ""
+"ספר זה שונה על ידי משתמש אחר, לא ניתן "
+"לשמור את השינויים."
 
-#: modules/book/book.admin.inc:123
+#: modules/book/book.admin.inc:128
+msgid "Title changed from %original to %current."
+msgstr "כותרת שונתה מ-%original ל-%current."
+
+#: modules/book/book.admin.inc:135
 msgid "Updated book %title."
 msgstr "עודכן הספר '%title'."
 
-#: modules/book/book.admin.inc:118
-#, fuzzy
+#: modules/book/book.admin.inc:130
 msgid "book: updated %title."
-msgstr "%type: עודכן הספר %title."
-
-#: modules/book/book.pages.inc:52
-msgid "Unknown export format."
-msgstr "מבנה לא מוכר לייצוא"
+msgstr "ספר: %title עודכן."
 
 #: modules/book/book.pages.inc:126
 msgid "Update book outline"
 msgstr "עדכן מתאר ספר"
 
-#: modules/book/book.pages.inc:126
-msgid "Add to book outline"
-msgstr "הוסף למתאר ספר"
-
 #: modules/book/book.pages.inc:132
 msgid "Remove from book outline"
-msgstr "הסר ממתאר ספר"
+msgstr "הסר ממתאר הספר"
 
 #: modules/book/book.pages.inc:160
-#, fuzzy
 msgid "No changes were made"
-msgstr "שינוי שם המשתמש שלך"
+msgstr "לא נעשו שינויים"
 
 #: modules/book/book.pages.inc:169
 msgid ""
 "The post has been added to the selected book. You may now position it "
 "relative to other pages."
 msgstr ""
+"הפרסום נוסף לספר הנבחר. כעת ניתן למקם "
+"אותו יחסית לדפים אחרים."
 
 #: modules/book/book.pages.inc:173
 msgid "The book outline has been updated."
 msgstr "מתאר הספר עודכן."
 
 #: modules/book/book.pages.inc:177
-#, fuzzy
 msgid "There was an error adding the post to the book."
-msgstr "הפרסום נוסף לספר."
+msgstr "ארעה שגיאה בהוספת הפרסום לספר."
 
 #: modules/book/book.pages.inc:193
 msgid ""
-"%title has associated child pages, which will be relocated automatically to "
-"maintain their connection to the book. To recreate the hierarchy (as it was "
-"before removing this page), %title may be added again using the Outline tab, "
-"and each of its former child pages will need to be relocated manually."
+"%title has associated child pages, which will be relocated "
+"automatically to maintain their connection to the book. To recreate "
+"the hierarchy (as it was before removing this page), %title may be "
+"added again using the Outline tab, and each of its former child pages "
+"will need to be relocated manually."
 msgstr ""
+"ל-%title משוייכים דפים בנים שיועברו למקום "
+"אחר באופן אוטומטי כדי לשמור על הקשר "
+"שלהם לספר. ליצירת ההיררכייה מחדש (כפי "
+"שהייתה לפני מחיקת דף זה), ניתן להוסיף "
+"שוב את %title באמצעות לשונית המתאר ויהיה "
+"צורך למקם מחדש את כל אחד מהדפים הבנים "
+"באופן ידני."
 
 #: modules/book/book.pages.inc:196
 msgid "%title may be added to hierarchy again using the Outline tab."
 msgstr ""
+"ניתן להוסיף שוב את %title להיררכיה בעזרת "
+"לשונית המתאר."
 
 #: modules/book/book.pages.inc:199
-#, fuzzy
 msgid "Are you sure you want to remove %title from the book hierarchy?"
-msgstr "האם אתם מעוניינים למחוק יחידת מידע בשם %name ?"
-
-#: modules/book/book.pages.inc:199
-msgid "Remove"
 msgstr ""
+"האם אתה בטוח שאתה רוצה למחוק את %title "
+"מהיררכיית הספר?"
 
 #: modules/book/book.pages.inc:213
 msgid "The post has been removed from the book."
 msgstr "הפרסום הוסר מהספר."
 
-#: modules/book/book.module:64
-msgid "Printer-friendly version"
-msgstr "גרסה להדפסה"
-
 #: modules/book/book.module:66
 msgid "Show a printer-friendly version of this book page and its sub-pages."
-msgstr "הצג תצוגה ידידותית למדפסת של עמוד זה בספר ושל עמודי המשנה שלו."
-
-#: modules/book/book.module:180;189
-msgid "Book navigation"
-msgstr "ניווט בספר"
+msgstr ""
+"הצג גירסה להדפסה של עמוד זה בספר ושל "
+"עמודי המשנה שלו."
 
 #: modules/book/book.module:223
-#, fuzzy
 msgid "Show block on all pages"
-msgstr "הצג תיבות בעמודים מסויימים"
+msgstr "הצג בלוק בכל הדפים"
 
 #: modules/book/book.module:224
-#, fuzzy
 msgid "Show block only on book pages"
-msgstr "הצג תיבות בעמודים מסויימים"
-
-#: modules/book/book.module:228
-#, fuzzy
-msgid "Book navigation block display"
-msgstr "ניווט בספר"
+msgstr "הצג בלוק רק בדפי ספר"
 
 #: modules/book/book.module:231
 msgid ""
-"If <em>Show block on all pages</em> is selected, the block will contain the "
-"automatically generated menus for all of the site's books. If <em>Show block "
-"only on book pages</em> is selected, the block will contain only the one "
-"menu corresponding to the current page's book. In this case, if the current "
-"page is not in a book, no block will be displayed. The <em>Page specific "
-"visibility settings</em> or other visibility settings can be used in "
-"addition to selectively display this block."
+"If <em>Show block on all pages</em> is selected, the block will "
+"contain the automatically generated menus for all of the site's books. "
+"If <em>Show block only on book pages</em> is selected, the block will "
+"contain only the one menu corresponding to the current page's book. In "
+"this case, if the current page is not in a book, no block will be "
+"displayed. The <em>Page specific visibility settings</em> or other "
+"visibility settings can be used in addition to selectively display "
+"this block."
 msgstr ""
-
-#: modules/book/book.module:302
-msgid "Change book (update list of parents)"
-msgstr ""
+"אם נבחר <em>הצג בלוק בכל הדפים</em>, הבלוק "
+"יכיל את כל התפריטים המיוצרים אוטומטית "
+"עבור כל ספרי האתר. אם נבחר <em>הצג בלוק "
+"רק בדפי ספר</em>, הבלוק יכיל רק תפריט אחד "
+"המתאים לספר של הדף הנוכחי. במקרה זה, אם "
+"הדף הנוכחי איננו ספר, לא יוצג אף בלוק. "
+"ניתן להשתמש גם ב-<em>הגדרות ניראות "
+"ספציפיות לדף</em> או הגדרות ניראות אחרות "
+"כדי להציג את הבלוק הזה באופן סלקטיבי."
 
 #: modules/book/book.module:337
-#, fuzzy
 msgid "This is the top-level page in this book."
-msgstr "עמוד אב בספר."
-
-#: modules/book/book.module:340
-#, fuzzy
-msgid "This will be the top-level page in this book."
-msgstr "עמוד אב בספר."
+msgstr "זהו הדף העליון בספר זה."
 
 #: modules/book/book.module:344
-#, fuzzy
 msgid "No book selected."
-msgstr "לא נבחרו רכיבים."
+msgstr "לא נבחר ספר."
 
 #: modules/book/book.module:351
 msgid ""
-"The parent page in the book. The maximum depth for a book and all child "
-"pages is !maxdepth. Some pages in the selected book may not be available as "
-"parents if selecting them would exceed this limit."
+"The parent page in the book. The maximum depth for a book and all "
+"child pages is !maxdepth. Some pages in the selected book may not be "
+"available as parents if selecting them would exceed this limit."
 msgstr ""
-
-#: modules/book/book.module:369
-#, fuzzy
-msgid "Book outline"
-msgstr "מתאר"
-
-#: modules/book/book.module:391
-msgid "Pages at a given level are ordered first by weight and then by title."
-msgstr "עמודים ברמה נתונה מסודרים ראשית לפי משקלם, ואז לפי כותרת."
-
-#: modules/book/book.module:408
-#, fuzzy
-msgid "create a new book"
-msgstr "צור ספרים חדשים"
-
-#: modules/book/book.module:422
-msgid "Your page will be a part of the selected book."
-msgstr ""
+"דף האב בספר. העומק המרבי לספר וכל דפי "
+"הבנים הינו !maxdepth. יתכן וחלק מהדפים בספר "
+"הבחור לא יהיו זמינים כאבות, אם בחירה "
+"בהם תגרום לחריגה ממגבלה זו."
 
 #: modules/book/book.module:763
 msgid ""
-"%title is part of a book outline, and has associated child pages. If you "
-"proceed with deletion, the child pages will be relocated automatically."
+"%title is part of a book outline, and has associated child pages. If "
+"you proceed with deletion, the child pages will be relocated "
+"automatically."
 msgstr ""
+"%title הינו חלק ממתאר של ספר ומשוייכים "
+"אליו דפים בנים. אם תאשר את המחיקה, "
+"הדפים הבנים יועברו למקום אחר באופן "
+"אוטומטי."
 
 #: modules/book/book.module:1006
 msgid ""
-"The book module is suited for creating structured, multi-page hypertexts "
-"such as site resource guides, manuals, and Frequently Asked Questions "
-"(FAQs). It permits a document to have chapters, sections, subsections, etc. "
-"Authors with suitable permissions can add pages to a collaborative book, "
-"placing them into the existing document by adding them to a table of "
-"contents menu."
+"The book module is suited for creating structured, multi-page "
+"hypertexts such as site resource guides, manuals, and Frequently Asked "
+"Questions (FAQs). It permits a document to have chapters, sections, "
+"subsections, etc. Authors with suitable permissions can add pages to a "
+"collaborative book, placing them into the existing document by adding "
+"them to a table of contents menu."
 msgstr ""
 
 #: modules/book/book.module:1007
 msgid ""
-"Pages in the book hierarchy have navigation elements at the bottom of the "
-"page for moving through the text. These links lead to the previous and next "
-"pages in the book, and to the level above the current page in the book's "
-"structure. More comprehensive navigation may be provided by enabling the "
-"<em>book navigation block</em> on the <a href=\"@admin-block\">blocks "
-"administration page</a>."
+"Pages in the book hierarchy have navigation elements at the bottom of "
+"the page for moving through the text. These links lead to the previous "
+"and next pages in the book, and to the level above the current page in "
+"the book's structure. More comprehensive navigation may be provided by "
+"enabling the <em>book navigation block</em> on the <a "
+"href=\"@admin-block\">blocks administration page</a>."
 msgstr ""
+"לדפים בהיררכיית הספר יש רכיבי ניווט "
+"בתחתית הדף כדי לנווט בטקסט. קישורים "
+"אלו מובילים לדף הבא ולדף הקודם בספר, "
+"ולרמה שמעל הדף הנוכחי במבנה הספר. ניתן "
+"להשיג ניווט מקיף יותר על-ידי הפעלת "
+"<em>בלוק ניווט הספר</em> ב-<a href=\"@admin-block\">דף "
+"ניהול הבלוקים</a>."
 
 #: modules/book/book.module:1008
 msgid ""
-"Users can select the <em>printer-friendly version</em> link visible at the "
-"bottom of a book page to generate a printer-friendly display of the page and "
-"all of its subsections. "
+"Users can select the <em>printer-friendly version</em> link visible at "
+"the bottom of a book page to generate a printer-friendly display of "
+"the page and all of its subsections. "
 msgstr ""
 
 #: modules/book/book.module:1009
 msgid ""
-"Users with the <em>administer book outlines</em> permission can add a post "
-"of any content type to a book, by selecting the appropriate book while "
-"editing the post or by using the interface available on the post's "
-"<em>outline</em> tab."
+"Users with the <em>administer book outlines</em> permission can add a "
+"post of any content type to a book, by selecting the appropriate book "
+"while editing the post or by using the interface available on the "
+"post's <em>outline</em> tab."
 msgstr ""
+"משתמשים בעלי ההרשאה <em>נוהול מתארי "
+"ספרים</em> יכולים להוסיף לספר, פרסום מכל "
+"סוג תוכן שהוא על ידי בחירת הספר המתאים "
+"תוך עריכת הפרסום או על ידי שימוש בממשק "
+"הזמין בלשונית ה<em>מתאר</em> של הפרסום."
 
 #: modules/book/book.module:1010
 msgid ""
-"Administrators can view a list of all books on the <a href=\"@admin-node-book"
-"\">book administration page</a>. The <em>Outline</em> page for each book "
-"allows section titles to be edited or rearranged."
+"Administrators can view a list of all books on the <a "
+"href=\"@admin-node-book\">book administration page</a>. The "
+"<em>Outline</em> page for each book allows section titles to be edited "
+"or rearranged."
 msgstr ""
+"מנהלים יכולים לצפות ברשימת כל הספרים "
+"ב- <a href=\"@admin-node-book\">דף ניהול הספרים</a>. "
+"דף ה<em>מתאר</em> עבור כל ספר מאפשר לערוך "
+"או לסדר מחדש את כותרות המקטעים."
 
 #: modules/book/book.module:1011
-#, fuzzy
 msgid ""
-"For more information, see the online handbook entry for <a href=\"@book"
-"\">Book module</a>."
+"For more information, see the online handbook entry for <a "
+"href=\"@book\">Book module</a>."
 msgstr ""
-"למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
-"הגדרת התצורה וההתאמה."
+"למידע נוסף, קרא במדריך המקוון על  <a "
+"href=\"@book\">מודול הספרים</a>."
 
 #: modules/book/book.module:1014
 msgid ""
-"The book module offers a means to organize a collection of related posts, "
-"collectively known as a book. When viewed, these posts automatically display "
-"links to adjacent book pages, providing a simple navigation system for "
-"creating and reviewing structured content."
+"The book module offers a means to organize a collection of related "
+"posts, collectively known as a book. When viewed, these posts "
+"automatically display links to adjacent book pages, providing a simple "
+"navigation system for creating and reviewing structured content."
 msgstr ""
+"מודול הספר מציע אמצעי לארגן אוסף "
+"פרסומים הקשורים זה לזה, המוכרים באופן "
+"קולקטיבי כספר. בעת צפייה בפרסומים אלו, "
+"הם מציגים באופן אוטומטי קישורים "
+"לעמודים סמוכים בספר, ובכך מאפשרים "
+"מערכת ניווט פשוטה ליצירה ובחינה של "
+"תוכן מובנה."
 
 #: modules/book/book.module:1016
-#, fuzzy
 msgid ""
-"The outline feature allows you to include posts in the <a href=\"@book"
-"\">book hierarchy</a>, as well as move them within the hierarchy or to <a "
-"href=\"@book-admin\">reorder an entire book</a>."
+"The outline feature allows you to include posts in the <a "
+"href=\"@book\">book hierarchy</a>, as well as move them within the "
+"hierarchy or to <a href=\"@book-admin\">reorder an entire book</a>."
 msgstr ""
-"שימוש במתאר מאפשר לך לכלול פרסומים אחרים באתר בתוך <a href=\"@book\">מתאר של "
-"ספר</a>."
+"תכונת המתאר מאפשרת לך לכלול פרסומים ב<a "
+"href=\"@book\">היררכיית הספרים</a>, וגם להזיזם "
+"בתוך ההיררכייה או <a href=\"@book-admin\">לסדר "
+"מחדש ספר שלם</a>."
 
 #: modules/book/book.module:43
 msgid "create new books"
 msgstr "צור ספרים חדשים"
 
 #: modules/book/book.module:43
-#, fuzzy
 msgid "access printer-friendly version"
-msgstr "צפייה בגרסה להדפסה"
-
-#: modules/book/book.module:79;108
-msgid "Books"
-msgstr "ספרים"
-
-#: modules/book/book.module:80
-#, fuzzy
-msgid "Manage your site's book outlines."
-msgstr "ניהול התוכן באתר."
+msgstr "גישה לגירסה להדפסה"
 
 #: modules/book/book.module:99
 msgid "Re-order book pages and change titles"
-msgstr ""
-
-#: modules/book/book.module:122
-msgid "Outline"
-msgstr "מתאר"
-
-#: modules/book/book.module:132
-#, fuzzy
-msgid "Remove from outline"
-msgstr "הסר ממתאר ספר"
-
-#: modules/book/book.module:0
-msgid "book"
-msgstr "ספר"
+msgstr "סדר מחדש דפי ספרים ןשנה כותרות"
 
 #: modules/book/book.install:29
 msgid "Book page"
@@ -351,26 +391,16 @@ msgstr "עמוד ספר"
 
 #: modules/book/book.install:31
 msgid ""
-"A <em>book page</em> is a page of content, organized into a collection of "
-"related entries collectively known as a <em>book</em>. A <em>book page</em> "
-"automatically displays links to adjacent pages, providing a simple "
-"navigation system for organizing and reviewing structured content."
+"A <em>book page</em> is a page of content, organized into a collection "
+"of related entries collectively known as a <em>book</em>. A <em>book "
+"page</em> automatically displays links to adjacent pages, providing a "
+"simple navigation system for organizing and reviewing structured "
+"content."
 msgstr ""
+"<em>דף ספר</em> הינו דף תוכן המאורגן כאוסף "
+"כניסות הקשורות זו לזו ומכונות ביחד "
+"<em>ספר</em>. <em>דף ספר</em> מציג באופן "
+"אוטומטי קישורים לדפים סמוכים ובכך "
+"מספק מערכת ניווט פשוטה לארגון ומעבר על "
+"תוכן מובנה."
 
-#: modules/book/book.install:254
-msgid ""
-"Stores book outline information. Uniquely connects each node in the outline "
-"to a link in {menu_links}"
-msgstr ""
-
-#: modules/book/book.install:261
-msgid "The book page's {menu_links}.mlid."
-msgstr ""
-
-#: modules/book/book.install:268
-msgid "The book page's {node}.nid."
-msgstr ""
-
-#: modules/book/book.install:275
-msgid "The book ID is the {book}.nid of the top-level page."
-msgstr ""

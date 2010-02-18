@@ -1,21 +1,57 @@
-# translation of modules-help.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  help.module,v 1.78.2.1 2008/04/09 21:11:48 goba
+#  help.admin.inc,v 1.5 2007/11/25 11:11:17 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-help\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2008-02-25 23:45+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <en@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2009-12-16 09:46+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/help/help.module:41
+msgid ""
+"This guide provides context sensitive help on the use and "
+"configuration of <a href=\"@drupal\">Drupal</a> and its modules, and "
+"is a supplement to the more extensive online <a "
+"href=\"@handbook\">Drupal handbook</a>. The online handbook may "
+"contain more up-to-date information, is annotated with helpful "
+"user-contributed comments, and serves as the definitive reference "
+"point for all Drupal documentation."
+msgstr ""
+"מדריך זה מספק עזרה תלויית הקשר אודות "
+"השימוש והגדרת התצורה של <a "
+"href=\"@drupal\">דרופל</a> והמודולים שלו, והינו "
+"תוספת ל-<a href=\"@handbook\">מדריך דרופל</a> "
+"המקוון הנרחב. יתכן והמדריך המקוון מכיל "
+"מידע מעודכן יותר והוא כולל גם הערות "
+"שנתרמו על-ידי משתמשים ומשמש כמקור "
+"המוסמך לכל התיעוד של דרופל."
+
+#: modules/help/help.module:44
+msgid ""
+"The help module provides context sensitive help on the use and "
+"configuration of <a href=\"@drupal\">Drupal</a> and its modules, and "
+"is a supplement to the more extensive online <a "
+"href=\"@handbook\">Drupal handbook</a>. The online handbook may "
+"contain more up-to-date information, is annotated with helpful "
+"user-contributed comments, and serves as the definitive reference "
+"point for all Drupal documentation."
+msgstr ""
+
+#: modules/help/help.module:45
+msgid ""
+"For more information, see the online handbook entry for <a "
+"href=\"@help\">Help module</a>."
+msgstr ""
+"למידע נוסף, קרא במדריך המקוון על <a "
+"href=\"@help\">מודול העזרה</a>."
 
 #: modules/help/help.admin.inc:15
 msgid "Help topics"
@@ -23,7 +59,7 @@ msgstr "נושאים לעזרה"
 
 #: modules/help/help.admin.inc:15
 msgid "Help is available on the following items:"
-msgstr ""
+msgstr "עזרה זמינה לפריטים הבאים:"
 
 #: modules/help/help.admin.inc:30
 msgid "No help is available for module %module."
@@ -32,37 +68,4 @@ msgstr "אין עזרה לרכיב %module."
 #: modules/help/help.admin.inc:41
 msgid "@module administration pages"
 msgstr "עמודי ניהול לרכיב @module"
-
-#: modules/help/help.module:40
-msgid ""
-"This guide provides context sensitive help on the use and configuration of "
-"<a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to the "
-"more extensive online <a href=\"@handbook\">Drupal handbook</a>. The online "
-"handbook may contain more up-to-date information, is annotated with helpful "
-"user-contributed comments, and serves as the definitive reference point for "
-"all Drupal documentation."
-msgstr ""
-
-#: modules/help/help.module:43
-msgid ""
-"The help module provides context sensitive help on the use and configuration "
-"of <a href=\"@drupal\">Drupal</a> and its modules, and is a supplement to "
-"the more extensive online <a href=\"@handbook\">Drupal handbook</a>. The "
-"online handbook may contain more up-to-date information, is annotated with "
-"helpful user-contributed comments, and serves as the definitive reference "
-"point for all Drupal documentation."
-msgstr ""
-
-#: modules/help/help.module:44
-#, fuzzy
-msgid ""
-"For more information, see the online handbook entry for <a href=\"@help"
-"\">Help module</a>."
-msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
-
-#: modules/help/help.module:0
-msgid "help"
-msgstr "עזרה"
 

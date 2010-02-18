@@ -1,85 +1,110 @@
-# translation of modules-php.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007, 2008.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  php.module,v 1.8.2.1 2008/02/05 09:29:50 goba
+#  php.install,v 1.1 2007/04/24 10:54:34 dries
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-php\n"
-"POT-Creation-Date: 2007-12-20 11:52+0100\n"
-"PO-Revision-Date: 2008-02-25 23:45+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <en@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2010-02-04 19:19+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: modules/php/php.module:16
 msgid ""
 "The PHP filter adds the ability to include PHP code in posts. PHP is a "
-"general-purpose scripting language widely-used for web development; the "
-"content management system used by this website has been developed using PHP."
+"general-purpose scripting language widely-used for web development; "
+"the content management system used by this website has been developed "
+"using PHP."
 msgstr ""
+"מסנן PHP מוסיף את היכולת לכלול קוד PHP "
+"בפרסומים. PHP היא שפת scripting כללית הנמצאת "
+"בשימוש נרחב בפיתוח אתרים; מערכת ניהול "
+"התוכן הנמצאת בשימוש באתר זה פותחה "
+"באמצעות PHP."
 
 #: modules/php/php.module:17
 msgid ""
-"Through the PHP filter, users with the proper permission may include custom "
-"PHP code within a page of the site. While this is a powerful and flexible "
-"feature if used by a trusted user with PHP experience, it is a significant "
-"and dangerous security risk in the hands of a malicious user. Even a trusted "
-"user may accidentally compromise the site by entering malformed or incorrect "
-"PHP code. Only the most trusted users should be granted permission to use "
-"the PHP filter, and all PHP code added through the PHP filter should be "
-"carefully examined before use."
+"Through the PHP filter, users with the proper permission may include "
+"custom PHP code within a page of the site. While this is a powerful "
+"and flexible feature if used by a trusted user with PHP experience, it "
+"is a significant and dangerous security risk in the hands of a "
+"malicious user. Even a trusted user may accidentally compromise the "
+"site by entering malformed or incorrect PHP code. Only the most "
+"trusted users should be granted permission to use the PHP filter, and "
+"all PHP code added through the PHP filter should be carefully examined "
+"before use."
 msgstr ""
 
-#: modules/php/php.module:18;61
+#: modules/php/php.module:18,61
 msgid ""
-"<a href=\"@drupal\">Drupal.org</a> offers <a href=\"@php-snippets\">some "
-"example PHP snippets</a>, or you can create your own with some PHP "
-"experience and knowledge of the Drupal system."
+"<a href=\"@drupal\">Drupal.org</a> offers <a "
+"href=\"@php-snippets\">some example PHP snippets</a>, or you can "
+"create your own with some PHP experience and knowledge of the Drupal "
+"system."
 msgstr ""
+"<a href=\"@drupal\">Drupal.org</a> מציע <a "
+"href=\"@php-snippets\">דוגמאות לקטעי קוד PHP</a>, או "
+"שאתה יכול ליצור דוגמאות משלך בהתבסס על "
+"נסיונך עם PHP והכרותך עם מערכת דרופל."
 
 #: modules/php/php.module:19
-#, fuzzy
 msgid ""
-"For more information, see the online handbook entry for <a href=\"@php\">PHP "
-"module</a>."
+"For more information, see the online handbook entry for <a "
+"href=\"@php\">PHP module</a>."
 msgstr ""
-"למידע נוסף על הגדרות והתאמות קרא בספר השימוש ב<a href=\"@search\">עמוד "
-"החיפוש</a>."
+"למידע נוסף, קרא במדריך המקוון על <a "
+"href=\"@php\">מודול ה-PHP</a>."
 
 #: modules/php/php.module:32
 msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
-msgstr "באפשרותך לשלוח קוד PHP. עליך לכלול תגי &lt;?php ?&gt;."
+msgstr ""
+"באפשרותך לשלוח קוד PHP. עליך לכלול תגי "
+"&lt;?php ?&gt;."
 
 #: modules/php/php.module:34
 msgid "Using custom PHP code"
-msgstr ""
+msgstr "שימוש בקוד PHP מותאם אישית"
 
 #: modules/php/php.module:35
 msgid ""
-"Custom PHP code may be embedded in some types of site content, including "
-"posts and blocks. While embedding PHP code inside a post or block is a "
-"powerful and flexible feature when used by a trusted user with PHP "
-"experience, it is a significant and dangerous security risk when used "
-"improperly. Even a small mistake when posting PHP code may accidentally "
-"compromise your site."
+"Custom PHP code may be embedded in some types of site content, "
+"including posts and blocks. While embedding PHP code inside a post or "
+"block is a powerful and flexible feature when used by a trusted user "
+"with PHP experience, it is a significant and dangerous security risk "
+"when used improperly. Even a small mistake when posting PHP code may "
+"accidentally compromise your site."
 msgstr ""
+"ניתן להטביע קוד PHP מותאם אישית בחלק "
+"מסוגי התוכן של האתר, כולל פרסומים "
+"ובלוקים. בעוד הטבעת קוד PHP בתוך פרסום "
+"או בלוק היא תכונה חזקה וגמישה כשהיא "
+"מבוצעת על ידי משתמש שניתן לסמוך עליו "
+"בעל נסיון ב-PHP, היא עלולה להוות סיכון "
+"אבטחה משמעותי כאשר משתמשים בה שלא "
+"כהלכה. אפילו שגיאה קטנה בעת פרסום קוד "
+"PHP עלולה בטעות לסכן את האתר שלך."
 
 #: modules/php/php.module:36
 msgid ""
-"If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP code "
-"within posts. Experimenting with PHP may corrupt your database, render your "
-"site inoperable, or significantly compromise security."
+"If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP "
+"code within posts. Experimenting with PHP may corrupt your database, "
+"render your site inoperable, or significantly compromise security."
 msgstr ""
+"אם אינך מכיר PHP, SQL או את דרופל, הימנע "
+"משימוש בקוד PHP מותאם אישית בפרסומים. "
+"ניסויים ב-PHP עלולים לגרום לנזק למזד "
+"הנתונים שלך, להפוך את האתר שלך לבלתי "
+"שמיש, או לגרום לבעיות אבטחה חמורות."
 
 #: modules/php/php.module:37
 msgid "Notes:"
-msgstr ""
+msgstr "הערות:"
 
 #: modules/php/php.module:38
 msgid ""
@@ -89,58 +114,78 @@ msgstr ""
 
 #: modules/php/php.module:39
 msgid "Statements must be correctly terminated with semicolons."
-msgstr ""
+msgstr "יש לסיים פקודות כהלכה עם נקודה-פסיק."
 
 #: modules/php/php.module:40
 msgid ""
-"Global variables used within your PHP code retain their values after your "
-"script executes."
+"Global variables used within your PHP code retain their values after "
+"your script executes."
 msgstr ""
+"משתנים כלליים הנמצאים בשימוש בקוד PHP "
+"שומרים על ערכייהם לאחר סיום ריצת קובץ "
+"ה-script."
 
 #: modules/php/php.module:41
 msgid ""
-"<code>register_globals</code> is <strong>turned off</strong>. If you need to "
-"use forms, understand and use the functions in <a href=\"@formapi\">the "
-"Drupal Form API</a>."
+"<code>register_globals</code> is <strong>turned off</strong>. If you "
+"need to use forms, understand and use the functions in <a "
+"href=\"@formapi\">the Drupal Form API</a>."
 msgstr ""
+"הקוד של <code>register_globals</code> <strong>כבוי</strong>. "
+"אם ברצונך להשתמש בטפסים, למד והשתמש "
+"בפונקציות <a href=\"@formapi\">ב-API של טפסי "
+"דרופל</a>."
 
 #: modules/php/php.module:42
 msgid ""
-"Use a <code>print</code> or <code>return</code> statement in your code to "
-"output content."
+"Use a <code>print</code> or <code>return</code> statement in your code "
+"to output content."
 msgstr ""
+"השתמש בפקודת <code>print</code> or <code>return</code> "
+"בקוד כדי להוציא תוכן כפלט."
 
 #: modules/php/php.module:43
 msgid ""
 "Develop and test your PHP code using a separate test script and sample "
 "database before deploying on a production site."
 msgstr ""
+"פתח ובדוק את קוד ה-PHP שלך בקובץ script "
+"נסיוני ומסד נתונים לדוגמה, לפני פריזה "
+"באתר ייצור."
 
 #: modules/php/php.module:44
 msgid ""
-"Consider including your custom PHP code within a site-specific module or "
-"<code>template.php</code> file rather than embedding it directly into a post "
-"or block."
+"Consider including your custom PHP code within a site-specific module "
+"or <code>template.php</code> file rather than embedding it directly "
+"into a post or block."
 msgstr ""
 
 #: modules/php/php.module:45
 msgid ""
-"Be aware that the ability to embed PHP code within content is provided by "
-"the PHP Filter module. If this module is disabled or deleted, then blocks "
-"and posts with embedded PHP may display, rather than execute, the PHP code."
+"Be aware that the ability to embed PHP code within content is provided "
+"by the PHP Filter module. If this module is disabled or deleted, then "
+"blocks and posts with embedded PHP may display, rather than execute, "
+"the PHP code."
 msgstr ""
+"שים לב כי היכולת להטמיע קוד PHP בתוך "
+"תוכן מסופקת על ידי מודול מסנן PHP. במידה "
+"ומודול זה מושבת או נמחק, בלוקים "
+"ופרסומים הכוללים PHP מוטבע, עשויים "
+"להציג את הקוד במקום להפעיל אותו."
 
 #: modules/php/php.module:46
 msgid ""
-"A basic example: <em>Creating a \"Welcome\" block that greets visitors with "
-"a simple message.</em>"
+"A basic example: <em>Creating a \"Welcome\" block that greets visitors "
+"with a simple message.</em>"
 msgstr ""
+"דוגמה בסיסית: <em>יצירת בלוק \"ברוכים "
+"הבאים\" המברך מבקרים במסר פשוט.</em>"
 
 #: modules/php/php.module:47
 msgid ""
-"<p>Add a custom block to your site, named \"Welcome\". With its input format "
-"set to \"PHP code\" (or another format supporting PHP input), add the "
-"following in the Block body:</p>\n"
+"<p>Add a custom block to your site, named \"Welcome\". With its input "
+"format set to \"PHP code\" (or another format supporting PHP input), "
+"add the following in the Block body:</p>\n"
 "<pre>\n"
 "print t('Welcome visitor! Thank you for visiting.');\n"
 "</pre>"
@@ -152,8 +197,8 @@ msgid ""
 "<pre>\n"
 "global $user;\n"
 "if ($user->uid) {\n"
-"  print t('Welcome @name! Thank you for visiting.', array('@name' => $user-"
-">name));\n"
+"  print t('Welcome @name! Thank you for visiting.', array('@name' => "
+"$user->name));\n"
 "}\n"
 "else {\n"
 "  print t('Welcome visitor! Thank you for visiting.');\n"
@@ -167,9 +212,11 @@ msgstr "PHP evaluator"
 
 #: modules/php/php.module:80
 msgid ""
-"Executes a piece of PHP code. The usage of this filter should be restricted "
-"to administrators only!"
-msgstr "מריץ פיסת קוד PHP. יש להגביל את השימוש במסנן זה למנהל האתר בלבד!"
+"Executes a piece of PHP code. The usage of this filter should be "
+"restricted to administrators only!"
+msgstr ""
+"מבצע פיסת קוד PHP. יש להגביל את השימוש "
+"במסנן זה למנהלים בלבד!"
 
 #: modules/php/php.install:20
 msgid "A !php-code input format has been created."
@@ -177,9 +224,14 @@ msgstr "נוצר מסנן !php-code."
 
 #: modules/php/php.install:28
 msgid ""
-"The PHP module has been disabled. Please note that any existing content that "
-"was using the PHP filter will now be visible in plain text. This might pose "
-"a security risk by exposing sensitive information, if any, used in the PHP "
-"code."
+"The PHP module has been disabled. Please note that any existing "
+"content that was using the PHP filter will now be visible in plain "
+"text. This might pose a security risk by exposing sensitive "
+"information, if any, used in the PHP code."
 msgstr ""
+"מודול ה-PHP הושבת. שים לב כי כל תוכן קיים "
+"שהשתמש במסנן PHP יופיע כטקסט פשוט. דבר "
+"זה עלול להוות סיכון אבטחה בכך שיחזוף "
+"מידע רגיש, אם יש כזה הנמצא בשימוש קוד "
+"ה-PHP."
 

@@ -1,185 +1,226 @@
-# translation of modules-translation.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  translation.pages.inc,v 1.2.2.1 2008/09/30 10:50:43 goba
+#  translation.module,v 1.23.2.4 2009/01/14 23:34:07 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: modules-translation\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-12-22 21:51+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2010-02-04 19:17+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-
-#: modules/translation/translation.pages.inc:41
-msgid "outdated"
-msgstr "לא מעודכן"
-
-#: modules/translation/translation.pages.inc:50
-msgid "add translation"
-msgstr "הוסף תרגום"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: modules/translation/translation.pages.inc:52
 msgid "Not translated"
 msgstr "לא מתורגם"
 
-#: modules/translation/translation.pages.inc:57
-msgid "Translations of %title"
-msgstr "תרגומים של %title"
-
-#: modules/translation/translation.module:34
-msgid ""
-"The content translation module allows content to be translated into "
-"different languages. Working with the <a href=\"@locale\">locale module</a> "
-"(which manages enabled languages and provides translation for the site "
-"interface), the content translation module is key to creating and "
-"maintaining translated site content."
-msgstr ""
-
-#: modules/translation/translation.module:35
-msgid "Configuring content translation and translation-enabled content types:"
-msgstr ""
-
-#: modules/translation/translation.module:36
-msgid ""
-"Assign the <em>translate content</em> permission to the appropriate user "
-"roles at the <a href=\"@permissions\">Permissions configuration page</a>."
-msgstr ""
-
-#: modules/translation/translation.module:37
-msgid ""
-"Add and enable desired languages at the <a href=\"@languages\">Languages "
-"configuration page</a>."
-msgstr ""
-
-#: modules/translation/translation.module:38
-msgid ""
-"Determine which <a href=\"@content-types\">content types</a> should support "
-"translation features. To enable translation support for a content type, edit "
-"the type and at the <em>Multilingual support</em> drop down, select "
-"<em>Enabled, with translation</em>. (<em>Multilingual support</em> is "
-"located within <em>Workflow settings</em>.) Be sure to save each content "
-"type after enabling multilingual support."
-msgstr ""
-
-#: modules/translation/translation.module:39
-msgid "Working with translation-enabled content types:"
-msgstr ""
-
-#: modules/translation/translation.module:40
-msgid ""
-"Use the <em>Language</em> drop down to select the appropriate language when "
-"creating or editing posts."
-msgstr ""
-
-#: modules/translation/translation.module:41
-msgid ""
-"Provide new or edit current translations for existing posts via the "
-"<em>Translation</em> tab. Only visible while viewing a post as a user with "
-"the <em>translate content</em> permission, this tab allows translations to "
-"be added or edited using a specialized editing form that also displays the "
-"content being translated."
-msgstr ""
-
-#: modules/translation/translation.module:42
-msgid ""
-"Update translations as needed, so that they accurately reflect changes in "
-"the content of the original post. The translation status flag provides a "
-"simple method for tracking outdated translations. After editing a post, for "
-"example, select the <em>Flag translations as outdated</em> check box to mark "
-"all of its translations as outdated and in need of revision. Individual "
-"translations may be marked for revision by selecting the <em>This "
-"translation needs to be updated</em> check box on the translation editing "
-"form."
-msgstr ""
-
-#: modules/translation/translation.module:43
-msgid ""
-"The <a href=\"@content-node\">Content management administration page</a> "
-"displays the language of each post, and also allows filtering by language or "
-"translation status."
-msgstr ""
-
-#: modules/translation/translation.module:44
-msgid ""
-"Use the <a href=\"@blocks\">language switcher block</a> provided by locale "
-"module to allow users to select a language. If available, both the site "
-"interface and site content are presented in the language selected."
-msgstr ""
-
-#: modules/translation/translation.module:45
-msgid ""
-"For more information, see the online handbook entry for <a href="
-"\"@translation\">Translation module</a>."
-msgstr ""
-"למידע נוסף בבקשה קרא את ספר ההדרכה של<a href=\"@translation\">רכיב התרגומים</"
-"a>."
-
-#: modules/translation/translation.module:48
-msgid ""
-"Translations of a piece of content are managed with translation sets. Each "
-"translation set has one source post and any number of translations in any of "
-"the <a href=\"!languages\">enabled languages</a>. All translations are "
-"tracked to be up to date or outdated based on whether the source post was "
-"modified significantly."
-msgstr ""
-
-#: modules/translation/translation.module:102
-msgid "Enabled, with translation"
-msgstr "מופעל, עם תרגום"
-
-#: modules/translation/translation.module:104
-msgid ""
-"Enable multilingual support for this content type. If enabled, a language "
-"selection field will be added to the editing form, allowing you to select "
-"from one of the <a href=\"!languages\">enabled languages</a>. You can also "
-"turn on translation for this content type, which lets you have content "
-"translated to any of the enabled languages. If disabled, new posts are saved "
-"with the default language. Existing content will not be affected by changing "
-"this option."
-msgstr ""
-
-#: modules/translation/translation.module:127
-msgid "Translation settings"
-msgstr "הגדרות תרגום"
-
-#: modules/translation/translation.module:138
-msgid "Flag translations as outdated"
-msgstr "סמן תרגומים כלא מעודכנים"
-
-#: modules/translation/translation.module:140
-msgid ""
-"If you made a significant change, which means translations should be "
-"updated, you can flag all translations of this post as outdated. This will "
-"not change any other property of those posts, like whether they are "
-"published or not."
-msgstr ""
-
-#: modules/translation/translation.module:147
-msgid "This translation needs to be updated"
-msgstr ""
-
-#: modules/translation/translation.module:149
-msgid ""
-"When this option is checked, this translation needs to be updated because "
-"the source post has changed. Uncheck when the translation is up to date "
-"again."
-msgstr ""
-
-#: modules/translation/translation.module:89
-msgid "translate content"
-msgstr "תרגם תוכן"
-
 #: modules/translation/translation.module:59
 msgid "Translate"
 msgstr "תרגם"
 
-#: modules/translation/translation.module:0
-msgid "translation"
-msgstr "תרגום"
+#: modules/translation/translation.pages.inc:41
+msgid "outdated"
+msgstr "לא מעודכן"
+
+#: modules/translation/translation.pages.inc:43
+msgid "<strong>@language_name</strong> (source)"
+msgstr "<strong>@language_name</strong> (מקור)"
+
+#: modules/translation/translation.pages.inc:50
+msgid "add translation"
+msgstr "הוסף תרגום"
+
+#: modules/translation/translation.pages.inc:57
+msgid "Translations of %title"
+msgstr "תרגומים של %title"
+
+#: modules/translation/translation.module:99
+msgid "Enabled, with translation"
+msgstr "מופעל, עם תרגום"
+
+#: modules/translation/translation.module:34
+msgid ""
+"The content translation module allows content to be translated into "
+"different languages. Working with the <a href=\"@locale\">locale "
+"module</a> (which manages enabled languages and provides translation "
+"for the site interface), the content translation module is key to "
+"creating and maintaining translated site content."
+msgstr ""
+"מודול תרגום התוכן מאפשר תרגום תוכן "
+"לשפות שונות. יחד עם <a href=\"@locale\">מודול "
+"האזור</a> (המנהל שפות מופעלות ומספק "
+"תרגום לממשק האתר), מודול תרגום התוכן "
+"הינו מפתח ליצירה וניהול תוכן מתורגם של "
+"האתר."
+
+#: modules/translation/translation.module:35
+msgid "Configuring content translation and translation-enabled content types:"
+msgstr ""
+"הגדרת תרגום תוכן וסוגי תוכן מאופשרי "
+"תרגום:"
+
+#: modules/translation/translation.module:36
+msgid ""
+"Assign the <em>translate content</em> permission to the appropriate "
+"user roles at the <a href=\"@permissions\">Permissions configuration "
+"page</a>."
+msgstr ""
+"שבץ את ההרשאה <em>תרגם תוכן</em> לתפקידי "
+"המשתמשים המתאימים ב-<a href=\"@permissions\">דף "
+"תצורת הרשאות</a>."
+
+#: modules/translation/translation.module:37
+msgid ""
+"Add and enable desired languages at the <a "
+"href=\"@languages\">Languages configuration page</a>."
+msgstr ""
+"הוסף והפעל שפות ב-<a href=\"@languages\">דף הגדרת "
+"שפות</a>."
+
+#: modules/translation/translation.module:38
+msgid ""
+"Determine which <a href=\"@content-types\">content types</a> should "
+"support translation features. To enable translation support for a "
+"content type, edit the type and at the <em>Multilingual support</em> "
+"drop down, select <em>Enabled, with translation</em>. "
+"(<em>Multilingual support</em> is located within <em>Workflow "
+"settings</em>.) Be sure to save each content type after enabling "
+"multilingual support."
+msgstr ""
+
+#: modules/translation/translation.module:39
+msgid "Working with translation-enabled content types:"
+msgstr "עבודה עם סוגי תוכן מאופשרי תרגום:"
+
+#: modules/translation/translation.module:40
+msgid ""
+"Use the <em>Language</em> drop down to select the appropriate language "
+"when creating or editing posts."
+msgstr ""
+"השתמש ברשימה הנפתחת <em>שפה</em> כדי לבחור "
+"את השפה המתאימה בעת יצירה או עריכה של "
+"פרסומים."
+
+#: modules/translation/translation.module:41
+msgid ""
+"Provide new or edit current translations for existing posts via the "
+"<em>Translation</em> tab. Only visible while viewing a post as a user "
+"with the <em>translate content</em> permission, this tab allows "
+"translations to be added or edited using a specialized editing form "
+"that also displays the content being translated."
+msgstr ""
+"ספק או ערוך תרגומים קיימים עבור "
+"פרסומים קיימים באמצעות לשונית "
+"ה-<em>תרגום</em>. נראית רק כאשר צופים "
+"בתרגום כמשתמש בעל הרשאת <em>תרגם "
+"תוכן</em>, לשונית זו מאפשרת הוספה או "
+"עריכת תרגומים באמצעות טופס עריכה "
+"מיוחד המציג גם את התוכן לתרגום."
+
+#: modules/translation/translation.module:42
+msgid ""
+"Update translations as needed, so that they accurately reflect changes "
+"in the content of the original post. The translation status flag "
+"provides a simple method for tracking outdated translations. After "
+"editing a post, for example, select the <em>Flag translations as "
+"outdated</em> check box to mark all of its translations as outdated "
+"and in need of revision. Individual translations may be marked for "
+"revision by selecting the <em>This translation needs to be "
+"updated</em> check box on the translation editing form."
+msgstr ""
+
+#: modules/translation/translation.module:43
+msgid ""
+"The <a href=\"@content-node\">Content management administration "
+"page</a> displays the language of each post, and also allows filtering "
+"by language or translation status."
+msgstr ""
+"<a href=\"@content-node\">דף ניהול התוכן</a> מציג את "
+"השפה של כל פרסום, ומאפשר סינון לפי שפה "
+"או סטטוס תרגום."
+
+#: modules/translation/translation.module:44
+msgid ""
+"Use the <a href=\"@blocks\">language switcher block</a> provided by "
+"locale module to allow users to select a language. If available, both "
+"the site interface and site content are presented in the language "
+"selected."
+msgstr ""
+"השתמש ב-<a href=\"@blocks\">בלוק החלפת שפה</a> "
+"המסופק על ידי מודול האזור כדי לאפשר "
+"למשתמשים לבחור שפה. במידת האפשר, הן "
+"ממשק האתר והן תוכנו מוצגים בשפה "
+"הבחורה."
+
+#: modules/translation/translation.module:45
+msgid ""
+"For more information, see the online handbook entry for <a "
+"href=\"@translation\">Translation module</a>."
+msgstr ""
+"למידע נוסף בבקשה קרא את ספר ההדרכה של<a "
+"href=\"@translation\">רכיב התרגומים</a>."
+
+#: modules/translation/translation.module:48
+msgid ""
+"Translations of a piece of content are managed with translation sets. "
+"Each translation set has one source post and any number of "
+"translations in any of the <a href=\"!languages\">enabled "
+"languages</a>. All translations are tracked to be up to date or "
+"outdated based on whether the source post was modified significantly."
+msgstr ""
+
+#: modules/translation/translation.module:101
+msgid ""
+"Enable multilingual support for this content type. If enabled, a "
+"language selection field will be added to the editing form, allowing "
+"you to select from one of the <a href=\"!languages\">enabled "
+"languages</a>. You can also turn on translation for this content type, "
+"which lets you have content translated to any of the enabled "
+"languages. If disabled, new posts are saved with the default language. "
+"Existing content will not be affected by changing this option."
+msgstr ""
+
+#: modules/translation/translation.module:124
+msgid "Translation settings"
+msgstr "הגדרות תרגום"
+
+#: modules/translation/translation.module:135
+msgid "Flag translations as outdated"
+msgstr "סמן תרגומים כלא מעודכנים"
+
+#: modules/translation/translation.module:137
+msgid ""
+"If you made a significant change, which means translations should be "
+"updated, you can flag all translations of this post as outdated. This "
+"will not change any other property of those posts, like whether they "
+"are published or not."
+msgstr ""
+"אם עשית שינוי משמעותי, דהיינו יש צורך "
+"בעדכון כל התרגומים, ניתן לסמן את כל "
+"התרגומים של פרסום זה כלא מעודכנים. דבר "
+"זה לא ישנה שום תכונה אחרת של הפרסומים "
+"הללו, כגון האם הם מפורסמים או לא."
+
+#: modules/translation/translation.module:144
+msgid "This translation needs to be updated"
+msgstr "יש לעדכן תרגום זה"
+
+#: modules/translation/translation.module:146
+msgid ""
+"When this option is checked, this translation needs to be updated "
+"because the source post has changed. Uncheck when the translation is "
+"up to date again."
+msgstr ""
+"כאשר אפשרות זו בחורה, יש לעדכן את "
+"התרגום מפני שפרסום המקור השתנה. בטל את "
+"הסימון כאשר התרגום חוזר להיות מעודכן."
+
+#: modules/translation/translation.module:86
+msgid "translate content"
+msgstr "תרגם תוכן"
+

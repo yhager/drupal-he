@@ -1,79 +1,144 @@
-# translation of general.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  poll.module,v 1.263.2.4 2009/09/14 10:16:54 goba
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2009-12-16 09:47+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: modules/poll/poll-bar.tpl.php:25 modules/poll/poll.pages.inc:20
-#, fuzzy
-msgid "1 vote"
-msgid_plural "@count votes"
-msgstr[0] "הצבעה"
-msgstr[1] "הצבעה"
-
-#: modules/poll/poll-results-block.tpl.php:26
-#: modules/poll/poll-results.tpl.php:24
-msgid "Total votes: @votes"
-msgstr ""
-
-#: modules/poll/poll.pages.inc:20
-msgid "open"
-msgstr "פתוח"
+#: modules/poll/poll.module:251
+msgid "Closed"
+msgstr "סגור"
 
 #: modules/poll/poll.pages.inc:20
 msgid "closed"
 msgstr "סגור"
 
+#: modules/poll/poll.module:175
+msgid "Question"
+msgstr "שאלה"
+
+#: modules/poll/poll.module:271
+msgid "Poll duration"
+msgstr "משך סקר"
+
+#: modules/poll/poll.module:87
+msgid "Votes"
+msgstr "הצבעות"
+
+#: modules/poll/poll.module:671
+msgid "Choice"
+msgstr "בחירה"
+
+#: modules/poll/poll.module:508,98
+msgid "Results"
+msgstr "תוצאות"
+
+#: modules/poll/poll.module:506
+msgid "Older polls"
+msgstr "סקרים ישנים יותר"
+
+#: modules/poll/poll.module:506
+msgid "View the list of polls on this site."
+msgstr "הצג את רשימת הסקרים באתר."
+
+#: modules/poll/poll.module:257
+msgid "Poll settings"
+msgstr "הגדרות סקר"
+
+#: modules/poll/poll.module:385
+msgid "You must fill in at least two choices."
+msgstr "יש למלא לפחות שתי ברירות."
+
+#: modules/poll/poll.pages.inc:20
+msgid "open"
+msgstr "פתוח"
+
 #: modules/poll/poll.pages.inc:32
 msgid ""
-"This table lists all the recorded votes for this poll. If anonymous users "
-"are allowed to vote, they will be identified by the IP address of the "
-"computer they used when they voted."
+"This table lists all the recorded votes for this poll. If anonymous "
+"users are allowed to vote, they will be identified by the IP address "
+"of the computer they used when they voted."
 msgstr ""
 
-#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:571
-msgid "Vote"
-msgstr "הצבע"
+#: modules/poll/poll.module:754
+msgid "Cancel your vote"
+msgstr "בטל את הצבעתך"
+
+#: modules/poll/poll.module:508
+msgid "View the current poll results."
+msgstr "הצג את תוצאות הסקר הנוכחי."
+
+#: modules/poll/poll.module:57
+msgid "vote on polls"
+msgstr "הצבעה על סקרים"
+
+#: modules/poll/poll.module:57
+msgid "cancel own vote"
+msgstr "בטל את הצבעתך"
+
+#: modules/poll/poll.module:57
+msgid "inspect all votes"
+msgstr "בדוק את כל ההצבעות"
+
+#: modules/poll/poll.module:611
+msgid "Your vote was recorded."
+msgstr "הצבעתך נשמרה."
+
+#: modules/poll/poll.module:307
+msgid "Choice @n"
+msgstr "אפשרות @n"
+
+#: modules/poll/poll.module:238
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more "
+"choices."
+msgstr ""
+"אם כמות התיבות אינה מספיקה, לחץ כאן "
+"להוספת אפשרויות נוספות."
+
+#: modules/poll/poll.module:237
+msgid "More choices"
+msgstr "אפשרויות נוספות"
+
+#: modules/poll/poll.module:109
+msgid "Javascript Choice Form"
+msgstr "טופס בחירה ב-Javascript"
 
 #: modules/poll/poll.module:16
 msgid ""
-"The poll module can be used to create simple polls for site users. A poll is "
-"a simple, multiple choice questionnaire which displays the cumulative "
-"results of the answers to the poll. Having polls on the site is a good way "
-"to receive feedback from community members."
+"The poll module can be used to create simple polls for site users. A "
+"poll is a simple, multiple choice questionnaire which displays the "
+"cumulative results of the answers to the poll. Having polls on the "
+"site is a good way to receive feedback from community members."
 msgstr ""
 
 #: modules/poll/poll.module:17
 msgid ""
 "When creating a poll, enter the question being posed, as well as the "
-"potential choices (and beginning vote counts for each choice). The status "
-"and duration (length of time the poll remains active for new votes) can also "
-"be specified. Use the <a href=\"@poll\">poll</a> menu item to view all "
-"current polls. To vote in or view the results of a specific poll, click on "
-"the poll itself."
+"potential choices (and beginning vote counts for each choice). The "
+"status and duration (length of time the poll remains active for new "
+"votes) can also be specified. Use the <a href=\"@poll\">poll</a> menu "
+"item to view all current polls. To vote in or view the results of a "
+"specific poll, click on the poll itself."
 msgstr ""
 
 #: modules/poll/poll.module:18
-#, fuzzy
 msgid ""
-"For more information, see the online handbook entry for <a href=\"@poll"
-"\">Poll module</a>."
+"For more information, see the online handbook entry for <a "
+"href=\"@poll\">Poll module</a>."
 msgstr ""
-"למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
-"הגדרת התצורה וההתאמה."
+"למידע נוסף, קרא במדריך המקוון על <a "
+"href=\"@poll\">מודול הסקר</a>."
 
 #: modules/poll/poll.module:133
 msgid "Most recent poll"
@@ -81,37 +146,10 @@ msgstr "סקר אחרון"
 
 #: modules/poll/poll.module:174
 msgid ""
-"A <em>poll</em> is a question with a set of possible responses. A <em>poll</"
-"em>, once created, automatically provides a simple running count of the "
-"number of votes received for each response."
+"A <em>poll</em> is a question with a set of possible responses. A "
+"<em>poll</em>, once created, automatically provides a simple running "
+"count of the number of votes received for each response."
 msgstr ""
-
-#: modules/poll/poll.module:175
-#, fuzzy
-msgid "Question"
-msgstr "תיאור"
-
-#: modules/poll/poll.module:237
-#, fuzzy
-msgid "More choices"
-msgstr "צריך ברירות נוספות"
-
-#: modules/poll/poll.module:238
-#, fuzzy
-msgid ""
-"If the amount of boxes above isn't enough, click here to add more choices."
-msgstr ""
-"אם כמות הברירות שלמעלה אינה מספיקה, אפשר להציג ברירות נוספות על ידי סימון "
-"תיבה זו ולחיצה על כפתור \"תצוגה מקדימה\"."
-
-#: modules/poll/poll.module:251
-msgid "Closed"
-msgstr "סגור"
-
-#: modules/poll/poll.module:257
-#, fuzzy
-msgid "Poll settings"
-msgstr "הגדרות פרסומים"
 
 #: modules/poll/poll.module:263
 msgid "Poll status"
@@ -121,191 +159,55 @@ msgstr "מצב סקר"
 msgid "When a poll is closed, visitors can no longer vote for it."
 msgstr "כשסקר נסגר, אי אפשר יותר להצביע עליו."
 
-#: modules/poll/poll.module:271
-msgid "Poll duration"
-msgstr "משך סקר"
-
 #: modules/poll/poll.module:274
 msgid "After this period, the poll will be closed automatically."
 msgstr "לאחר תקופה זו, הסקר ייסגר אוטומטית."
 
-#: modules/poll/poll.module:306
-#, fuzzy
-msgid "Choice @n"
-msgstr "ברירות"
-
-#: modules/poll/poll.module:314
-#, fuzzy
+#: modules/poll/poll.module:315
 msgid "Votes for choice @n"
-msgstr "צריך ברירות נוספות"
+msgstr "הצבעות עבור אפשרות @n"
 
-#: modules/poll/poll.module:385
+#: modules/poll/poll.module:380
 msgid "Negative values are not allowed."
 msgstr "ערכים שליליים אינם מורשים."
 
-#: modules/poll/poll.module:390
-msgid "You must fill in at least two choices."
-msgstr "יש למלא לפחות שתי ברירות."
-
-#: modules/poll/poll.module:511
-#, fuzzy
-msgid "Older polls"
-msgstr "סקרים"
-
-#: modules/poll/poll.module:511
-msgid "View the list of polls on this site."
-msgstr "הצג את רשימת הסקרים באתר."
-
-#: modules/poll/poll.module:513;98
-msgid "Results"
-msgstr ""
-
-#: modules/poll/poll.module:513
-msgid "View the current poll results."
-msgstr "הצג את תוצאות הסקר הנוכחי."
-
-#: modules/poll/poll.module:593
+#: modules/poll/poll.module:588
 msgid ""
 "Your vote could not be recorded because you did not select any of the "
 "choices."
 msgstr ""
+"ההצבעה שלך לא נקלטה מפני שלא בחרת אף "
+"אחת מהאפשרויות."
 
-#: modules/poll/poll.module:616
-msgid "Your vote was recorded."
-msgstr "הצבעתך נשמרה."
+#: modules/poll/poll.module:667
+msgid "Add another choice"
+msgstr "הוסף אפשרות נוספת"
 
 #: modules/poll/poll.module:672
-#, fuzzy
-msgid "Add another choice"
-msgstr "צריך ברירות נוספות"
-
-#: modules/poll/poll.module:676
-#, fuzzy
-msgid "Choice"
-msgstr "ברירות"
-
-#: modules/poll/poll.module:677
-#, fuzzy
 msgid "Vote count"
-msgstr "חשבון משתמש"
-
-#: modules/poll/poll.module:759
-msgid "Cancel your vote"
-msgstr ""
+msgstr "ספירת קולות"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "create poll content"
-msgstr "יצירת תוכן"
+msgstr "צור תוכן לסקר"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "delete own poll content"
-msgstr "ניהול יומן רשת עצמי"
+msgstr "מחוק את תוכן הסקר שלך"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "delete any poll content"
-msgstr "ניהול יומן רשת עצמי"
+msgstr "מחק כל תכולת סקר"
 
 #: modules/poll/poll.module:57
 msgid "edit any poll content"
-msgstr ""
+msgstr "ערוך תוכן של סקר כלשהו"
 
 #: modules/poll/poll.module:57
-#, fuzzy
 msgid "edit own poll content"
-msgstr "ניהול יומן רשת עצמי"
-
-#: modules/poll/poll.module:57
-msgid "vote on polls"
-msgstr "הצבעה על סקרים"
-
-#: modules/poll/poll.module:57
-msgid "cancel own vote"
-msgstr ""
-
-#: modules/poll/poll.module:57
-msgid "inspect all votes"
-msgstr ""
+msgstr "ערוך את תוכן הסקר שלך"
 
 #: modules/poll/poll.module:79
-#, fuzzy
 msgid "Polls"
-msgstr "סקר"
+msgstr "סקרים"
 
-#: modules/poll/poll.module:87
-#, fuzzy
-msgid "Votes"
-msgstr "הצבע"
-
-#: modules/poll/poll.module:109
-msgid "Javascript Choice Form"
-msgstr ""
-
-#: modules/poll/poll.module:0
-msgid "poll"
-msgstr "סקר"
-
-#: modules/poll/poll.install:25
-msgid "Stores poll-specific information for poll nodes."
-msgstr ""
-
-#: modules/poll/poll.install:32
-msgid "The poll's {node}.nid."
-msgstr ""
-
-#: modules/poll/poll.install:38
-msgid ""
-"The number of seconds past {node}.created during which the poll is open."
-msgstr ""
-
-#: modules/poll/poll.install:45
-msgid "Boolean indicating whether or not the poll is open."
-msgstr ""
-
-#: modules/poll/poll.install:52
-#, fuzzy
-msgid "Stores information about all choices for all {poll}s."
-msgstr "מידע נוסף על אפשרויות מבנה קלט"
-
-#: modules/poll/poll.install:58
-msgid "Unique identifier for a poll choice."
-msgstr ""
-
-#: modules/poll/poll.install:65
-#, fuzzy
-msgid "The {node}.nid this choice belongs to."
-msgstr "עמוד אב בספר."
-
-#: modules/poll/poll.install:72
-msgid "The text for this choice."
-msgstr ""
-
-#: modules/poll/poll.install:78
-msgid "The total number of votes this choice has received by all users."
-msgstr ""
-
-#: modules/poll/poll.install:84
-msgid "The sort order of this choice among all choices for the same node."
-msgstr ""
-
-#: modules/poll/poll.install:94
-msgid "Stores per-{users} votes for each {poll}."
-msgstr ""
-
-#: modules/poll/poll.install:100
-msgid "The {poll} node this vote is for."
-msgstr ""
-
-#: modules/poll/poll.install:107
-msgid "The {users}.uid this vote is from unless the voter was anonymous."
-msgstr ""
-
-#: modules/poll/poll.install:113
-msgid "The {users}'s vote for this poll."
-msgstr ""
-
-#: modules/poll/poll.install:120
-msgid "The IP address this vote is from unless the voter was logged in."
-msgstr ""

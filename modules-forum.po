@@ -1,141 +1,116 @@
-# translation of general.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  forum.module,v 1.448.2.7 2009/06/03 18:27:48 goba
+#  forum.admin.inc,v 1.8.2.1 2009/05/26 08:13:00 goba
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  forum-topic-navigation.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Drupal 6.0\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2007-02-26 11:58+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <he@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2010-02-04 19:19+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: modules/forum/forum-list.tpl.php:38
-msgid "Topics"
-msgstr "נושאים"
+#: modules/forum/forum.module:106
+msgid "Add container"
+msgstr "הוסף ספרייה"
 
-#: modules/forum/forum-list.tpl.php:39
-msgid "Posts"
-msgstr "הודעות"
+#: modules/forum/forum.admin.inc:229
+msgid "edit container"
+msgstr "עדכן תיקיה"
 
-#: modules/forum/forum-list.tpl.php:40
-#, fuzzy
-msgid "Last post"
-msgstr "עדכון אחרון"
-
-#: modules/forum/forum-submitted.tpl.php:21
-msgid "@time ago<br />by !author"
-msgstr "לפני @time <br />ע\"י !author"
-
-#: modules/forum/forum-topic-navigation.tpl.php:29
-#, fuzzy
-msgid "Go to previous forum topic"
-msgstr "לעמוד הקודם"
-
-#: modules/forum/forum-topic-navigation.tpl.php:32
-#, fuzzy
-msgid "Go to next forum topic"
-msgstr "הוסף נושא חדש."
+#: modules/forum/forum.admin.inc:232
+msgid "edit forum"
+msgstr "עדכן קבוצת דיון"
 
 #: modules/forum/forum.admin.inc:38
 msgid "Forum name"
 msgstr "שם קבוצת הדיון"
 
-#: modules/forum/forum.admin.inc:41
-msgid "Short but meaningful name for this collection of threaded discussions."
-msgstr ""
-
-#: modules/forum/forum.admin.inc:47
-#, fuzzy
-msgid "Description and guidelines for discussions within this forum."
-msgstr "צור נושא חדש לדיון בקבוצות הדיון."
-
-#: modules/forum/forum.admin.inc:54
-msgid ""
-"Forums are displayed in ascending order by weight (forums with equal weights "
-"are displayed alphabetically)."
-msgstr ""
-
-#: modules/forum/forum.admin.inc:75
-#, fuzzy
-msgid "forum container"
-msgstr "עדכן תיקיה"
-
-#: modules/forum/forum.admin.inc:79 modules/forum/forum.module:0
+#: modules/forum/forum.admin.inc:79
 msgid "forum"
 msgstr "קבוצת דיון"
-
-#: modules/forum/forum.admin.inc:90
-#, fuzzy
-msgid "Created new @type %term."
-msgstr "נוצר סיווג חדש - %term."
-
-#: modules/forum/forum.admin.inc:93
-#, fuzzy
-msgid "The @type %term has been updated."
-msgstr "הסיווג %term עודכן."
-
-#: modules/forum/forum.admin.inc:116
-msgid "Container name"
-msgstr "שם תיקיה"
-
-#: modules/forum/forum.admin.inc:120
-msgid "Short but meaningful name for this collection of related forums."
-msgstr ""
-
-#: modules/forum/forum.admin.inc:128
-msgid "Description and guidelines for forums within this container."
-msgstr ""
-
-#: modules/forum/forum.admin.inc:136
-msgid ""
-"Containers are displayed in ascending order by weight (containers with equal "
-"weights are displayed alphabetically)."
-msgstr ""
 
 #: modules/forum/forum.admin.inc:168
 msgid "Are you sure you want to delete the forum %name?"
 msgstr "האמנם ברצונך למחוק את קבוצת הדיון %name?"
 
-#: modules/forum/forum.admin.inc:168
-#, fuzzy
-msgid ""
-"Deleting a forum or container will also delete its sub-forums, if any. To "
-"delete posts in this forum, visit <a href=\"@content\">content "
-"administration</a> first. This action cannot be undone."
-msgstr ""
-"מחיקת סיווג תמחק את כל סיווגי הבן שלו, אם ישנם כאלו. לא ניתן לבטל פעולה זו. "
-
 #: modules/forum/forum.admin.inc:176
-#, fuzzy
 msgid ""
-"The forum %term and all sub-forums and associated posts have been deleted."
-msgstr "התגובה וכל התשובות המקושרות אליה נמחקו."
+"The forum %term and all sub-forums and associated posts have been "
+"deleted."
+msgstr ""
+"הפורום %term וכל תתי הפורומים והפרסומים "
+"הקשורים נמחקו."
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr ""
+"פורום: %term וכל תתי הפורומים והפרסומים "
+"הקשורים נמחקו."
+
+#: modules/forum/forum.module:115
+msgid "Add forum"
+msgstr "הוסף פורום"
+
+#: modules/forum/forum.module:561
+msgid "Created"
+msgstr "נוצר"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "פרסום אחרון"
+
+#: modules/forum/forum.module:562
+msgid "Last reply"
+msgstr "מענה אחרון"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "נושאים"
+
+#: modules/forum/forum.module:559
+msgid "Topic"
+msgstr "נושא"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "הודעות"
+
+#: modules/forum/forum.module:724
+msgid "No forums defined"
+msgstr "לא הוגדרו קבוצות דיון"
+
+#: modules/forum/forum.module:810
+msgid "This topic has been moved"
+msgstr "הנושא הועבר"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "עבור לנושא הקודם בפורום"
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "עבור לנושא הבא של הפורום"
+
+#: modules/forum/forum.module:140
+msgid "Edit container"
+msgstr "ערוך ספרייה"
 
 #: modules/forum/forum.admin.inc:192
 msgid "Hot topic threshold"
 msgstr "סף נושא חם"
 
-#: modules/forum/forum.admin.inc:195
-#, fuzzy
-msgid "The number of posts a topic must have to be considered \"hot\"."
-msgstr "מספר ההודעות שנושא בקבוצת הדיון צריך להכיל כדי להיחשב לנושא חם."
-
 #: modules/forum/forum.admin.inc:199
 msgid "Topics per page"
 msgstr "נושאים לעמוד"
-
-#: modules/forum/forum.admin.inc:202
-#, fuzzy
-msgid "Default number of forum topics displayed per page."
-msgstr "מספר הפריטים שיכללו בערוץ כברירת מחדל."
 
 #: modules/forum/forum.admin.inc:204
 msgid "Posts - most active first"
@@ -143,295 +118,379 @@ msgstr "כמות הודעות - נושאים פעילים תחילה"
 
 #: modules/forum/forum.admin.inc:204
 msgid "Posts - least active first"
-msgstr "כמות הודעות - נושאים שאינם פעילים תחילה"
+msgstr ""
+"כמות הודעות - נושאים שאינם פעילים "
+"תחילה"
+
+#: modules/forum/forum.module:410,432
+msgid "New forum topics"
+msgstr "חדש בקבוצות הדיון"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "מספר הנושאים"
+
+#: modules/forum/forum.module:409,425
+msgid "Active forum topics"
+msgstr "חדש בקבוצות הדיון"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "קרא את הנושאים האחרונים של הפורום."
+
+#: modules/forum/forum.module:94
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr ""
+"שלוט על פורומים וההיררכייה שלהם ושנה "
+"הגדרות פורומים."
+
+#: modules/forum/forum.module:148
+msgid "Edit forum"
+msgstr "ערוך פורום"
 
 #: modules/forum/forum.admin.inc:206
 msgid "Default order"
 msgstr "סדר ברירת מחדל לתצוגה"
 
-#: modules/forum/forum.admin.inc:209
-#, fuzzy
-msgid "Default display order for topics."
-msgstr "ברירת מחדל לסדר תצוגה של נושאים"
-
-#: modules/forum/forum.admin.inc:230
-msgid "edit container"
-msgstr "עדכן תיקיה"
-
-#: modules/forum/forum.admin.inc:233
-msgid "edit forum"
-msgstr "עדכן קבוצת דיון"
-
-#: modules/forum/forum.admin.inc:245
+#: modules/forum/forum.module:367
 msgid ""
-"There are no existing containers or forums. Containers and forums may be "
-"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
-"\">add forum</a> pages."
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
 msgstr ""
 
-#: modules/forum/forum.admin.inc:286
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of "
+"the forums below it."
+msgstr ""
+"הפריט %forum הוא רך ספרייה לפורומים. יש "
+"לבחור את אחד הפורומים שנמצא תחתיו."
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "השאר העתק צל"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the "
+"new forum."
+msgstr ""
+"אם נושא זה מועבר לקבוצת דיון אחרת, "
+"סימון אפשרות זו מאפשר לשמור קישור "
+"מהנושא בקבוצת הדיון הישנה אל קבוצת "
+"הדיון החדשה."
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "שם תיקיה"
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "ספריית פורומים"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "יצר @type %term חדש."
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "ה-@type %term עודכן."
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "לפני @time <br />ע\"י !author"
+
+#: modules/forum/forum.module:328
+msgid "create forum topics"
+msgstr "יצירת נושאים"
+
+#: modules/forum/forum.module:328
+msgid "edit own forum topics"
+msgstr "עריכת הודעות עצמית"
+
+#: modules/forum/forum.module:328
+msgid "administer forums"
+msgstr "ניהול קבוצות דיון"
+
+#: modules/forum/forum.module:675
+msgid "Post new @node_type"
+msgstr "פרסם @node_type חדש"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr ""
+"שם קצר אך בעל משמעות לאוסף הדיונים "
+"המשורשרים הזה."
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "תיאור והנחיות לדיונים בפורום זה."
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"פורומים מסודרים לפי משקל בסדר עולה  "
+"(פורומים בעלי משקל זהה מסודרים לפי סדר "
+"אלפבתי)"
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr ""
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "תיאור והנחיות לפורומים בספרייה זו."
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with "
+"equal weights are displayed alphabetically)."
+msgstr ""
+"ספריות מוצגות על פי משקל בסדר עולה "
+"(ספריות בעלות משקל זהה מוצגות לפי סדר "
+"אלפבתי)."
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. "
+"To delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"מחיקת פורום או ספרייה תמחק גם את כל "
+"תתי-הפורומים, אם קיימים. למחיקת "
+"פרסומים מפורום, בקר קודם ב-<a "
+"href=\"@content\">ניהול תוכן</a>. לא ניתן לבטל "
+"פעולה זו."
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr ""
+"מספר הפרסומים שצריך להיות לנושא כדי "
+"שיחשב \"חם\"."
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr ""
+"מספר ברירת מחדל של נושאי פורום המוצגים "
+"בדף."
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "ברירת מחדל לסדר תצוגה לנושאים."
+
+#: modules/forum/forum.admin.inc:244
+msgid ""
+"There are no existing containers or forums. Containers and forums may "
+"be added using the <a href=\"@container\">add container</a> and <a "
+"href=\"@forum\">add forum</a> pages."
+msgstr ""
+"לא קיימים ספריות או פורומים. ניתן "
+"להוסיפם תוך שימוש ב-<a href=\"@container\">הוסף "
+"ספרייה</a> ו- <a href=\"@forum\">הוסף פורום</a> pages."
+
+#: modules/forum/forum.admin.inc:285
 msgid ""
 "Containers are usually placed at the top (root) level, but may also be "
 "placed inside another container or forum."
 msgstr ""
+"ספריות ממוקמות בדרך כלל ברמה העליונה "
+"(שורש), אך ניתן למקמן גם בתוך ספרייה "
+"אחרת או בתוך פורום."
 
-#: modules/forum/forum.admin.inc:289
+#: modules/forum/forum.admin.inc:288
 msgid ""
-"Forums may be placed at the top (root) level, or inside another container or "
-"forum."
+"Forums may be placed at the top (root) level, or inside another "
+"container or forum."
 msgstr ""
-
-#: modules/forum/forum.admin.inc:177
-msgid "forum: deleted %term and all its sub-forums and associated posts."
-msgstr ""
+"ניתן למקם פורומים ברמה העליונה (שורש) "
+"או בתוך ספרייה או פורום אחרים."
 
 #: modules/forum/forum.module:15
 msgid ""
 "The forum module lets you create threaded discussion forums with "
-"functionality similar to other message board systems. Forums are useful "
-"because they allow community members to discuss topics with one another "
-"while ensuring those conversations are archived for later reference. The <a "
-"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
-"em> on the Navigation menu) creates the initial post of a new threaded "
-"discussion, or thread."
+"functionality similar to other message board systems. Forums are "
+"useful because they allow community members to discuss topics with one "
+"another while ensuring those conversations are archived for later "
+"reference. The <a href=\"@create-topic\">forum topic</a> menu item "
+"(under <em>Create content</em> on the Navigation menu) creates the "
+"initial post of a new threaded discussion, or thread."
 msgstr ""
+"מודול בפורום מאפשר לך יצירת פורומי "
+"דיון משורשרים בעלי תכונות הדומות "
+"למערכות הודעות אחרות. פורומים הם "
+"שימושיים מפני שהם מאפשרים לחברי "
+"הקהילה לדון בינהם בנושאים שונים תוך "
+"הבטחה שהדיונים ישמרו לעיון עתידי. פריט "
+"התפריט <a href=\"@create-topic\">נושא פורום</a> (תחת "
+"<em>צור תוכן</em> בתפריט הניווט) יוצר את "
+"הפרסום הראשוני של דיון משורשר חדש, או "
+"שרשור חדשה."
 
 #: modules/forum/forum.module:16
 msgid ""
-"A threaded discussion occurs as people leave comments on a forum topic (or "
-"on other comments within that topic). A forum topic is contained within a "
-"forum, which may hold many similar or related forum topics. Forums are "
-"(optionally) nested within a container, which may hold many similar or "
-"related forums. Both containers and forums may be nested within other "
-"containers and forums, and provide structure for your message board. By "
-"carefully planning this structure, you make it easier for users to find and "
-"comment on a specific forum topic."
+"A threaded discussion occurs as people leave comments on a forum topic "
+"(or on other comments within that topic). A forum topic is contained "
+"within a forum, which may hold many similar or related forum topics. "
+"Forums are (optionally) nested within a container, which may hold many "
+"similar or related forums. Both containers and forums may be nested "
+"within other containers and forums, and provide structure for your "
+"message board. By carefully planning this structure, you make it "
+"easier for users to find and comment on a specific forum topic."
 msgstr ""
+"דיון משורשר מתרחש כאשר אנשים מפרסמים "
+"תגובות לנושא פורום (או לתגובות אחרות "
+"בנושא). נושא פורום מוכל בתוך פורום "
+"היכול להכיל נושאי פורום קשורים או "
+"דומים רבים. פורומים יכולים להיות "
+"מוכלים בספריים העשוייה להכיל פורומים "
+"קשורים או דומים רבים. הן ספריות והן "
+"פורומים יכולים להיות מקוננים בתוך "
+"ספריות ופורומים אחרים, ולספק מבנה ללוח "
+"ההודעות שלך. על ידי תכנון קפדני של מבנה "
+"זה, תוכל להקל על משתמשים למצוא ולהגיב "
+"על נושא פורום ספציפי."
 
 #: modules/forum/forum.module:17
 msgid "When administering a forum, note that:"
-msgstr ""
+msgstr "בעת ניהול פורום, שים לב כי:"
 
 #: modules/forum/forum.module:18
 msgid ""
 "a forum topic (and all of its comments) may be moved between forums by "
 "selecting a different forum while editing a forum topic."
 msgstr ""
+"ניתן להעביר נושא פורום (ואת כל ההערות "
+"שלו) בין פורומים על-ידי בחירת פורום אחר "
+"בעת עריכת נושא הפורום."
 
 #: modules/forum/forum.module:19
 msgid ""
-"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
-"option creates a link in the original forum pointing to the new location."
+"when moving a forum topic between forums, the <em>Leave shadow "
+"copy</em> option creates a link in the original forum pointing to the "
+"new location."
 msgstr ""
 
 #: modules/forum/forum.module:20
 msgid ""
-"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
-"forum topic will lock (prevent new comments) on the thread."
+"selecting <em>Read only</em> under <em>Comment settings</em> while "
+"editing a forum topic will lock (prevent new comments) on the thread."
 msgstr ""
+"בחירת <em>קריאה בלבד</em> תחת<em>הגדרות "
+"תגובה</em> בעת עריכת נושא פורום ינעל את "
+"השרשור (ימנע תגובות חדשות)."
 
 #: modules/forum/forum.module:21
 msgid ""
-"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
-"forum topic will hide all existing comments on the thread, and prevent new "
-"ones."
+"selecting <em>Disabled</em> under <em>Comment settings</em> while "
+"editing a forum topic will hide all existing comments on the thread, "
+"and prevent new ones."
 msgstr ""
+"בחירת <em>מושבת</em> תחת <em>הגדרות "
+"תגובות</em> בעת עריכת נושא פורום, יסתיר "
+"את כל התגובות הקיימות בשרשור וימנע "
+"כתיבת תגובות חדשות."
 
 #: modules/forum/forum.module:22
-#, fuzzy
 msgid ""
-"For more information, see the online handbook entry for <a href=\"@forum"
-"\">Forum module</a>."
+"For more information, see the online handbook entry for <a "
+"href=\"@forum\">Forum module</a>."
 msgstr ""
-"למידע נוסף בבקשה קרא את <a href=\"@taxonomy\">עמוד הסיווגים</a> של מדריך "
-"הגדרת התצורה וההתאמה."
+"למידע נוסף, קרא במדריך המקוון על <a "
+"href=\"@forum\">מודול הפורום</a>."
 
 #: modules/forum/forum.module:25
 msgid ""
-"This page displays a list of existing forums and containers. Containers "
-"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
-"initial post to a threaded discussion). To provide structure, both "
-"containers and forums may be placed inside other containers and forums. To "
-"rearrange forums and containers, grab a drag-and-drop handle under the "
-"<em>Name</em> column and drag the forum or container to a new location in "
-"the list. (Grab a handle by clicking and holding the mouse while hovering "
-"over a handle icon.) Remember that your changes will not be saved until you "
-"click the <em>Save</em> button at the bottom of the page."
+"This page displays a list of existing forums and containers. "
+"Containers (optionally) hold forums, and forums hold forum topics (a "
+"forum topic is the initial post to a threaded discussion). To provide "
+"structure, both containers and forums may be placed inside other "
+"containers and forums. To rearrange forums and containers, grab a "
+"drag-and-drop handle under the <em>Name</em> column and drag the forum "
+"or container to a new location in the list. (Grab a handle by clicking "
+"and holding the mouse while hovering over a handle icon.) Remember "
+"that your changes will not be saved until you click the <em>Save</em> "
+"button at the bottom of the page."
 msgstr ""
+"דף זה מציג רשימת פורומים וספריות "
+"קיימים. ספריות יכולות להכיל פורומים, "
+"ופורומים מכילים נושאי פורום (נושא "
+"פורום הינו הפרסום הראשוני של דיון "
+"משורשר). כדי לספק מבנה, ניתן למקם "
+"ספריות ופורומים בתוך ספריות ופורומים "
+"אחרים. לארגון מחדש של פורומים וספריות, "
+"תפוס נקודת אחיזה של גרור ושחרר תחת "
+"עמודת ה-<em>שם</em> וגרור את הפורום או "
+"הספרייה למיקום חדש ברשימה. (תפוס נקודת "
+"אחיזה על ידי לחיצה והחזקת העכבר כאשר "
+"הוא מעל סמל ידית.) זכור כי השינויים שלך "
+"ישמרו רק לאחר שתלחץ על לחצן <em>שמירה</em> "
+"בתחתית הדף."
 
 #: modules/forum/forum.module:27
 msgid ""
-"By grouping related or similar forums, containers help organize forums. For "
-"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
-"\"Vegetables\", respectively."
+"By grouping related or similar forums, containers help organize "
+"forums. For example, a container named \"Food\" may hold two forums "
+"named \"Fruit\" and \"Vegetables\", respectively."
 msgstr ""
+"ספריות מסייעות לארגון פורומים על ידי "
+"קיבוץ פורומים קשורים או דומים. לדוגמה "
+"ספרייה בשם 'מזון' יכולה להכיל פורומים "
+"בשם 'פירות' ו-'ירקות'."
 
 #: modules/forum/forum.module:29
 msgid ""
-"A forum holds related or similar forum topics (a forum topic is the initial "
-"post to a threaded discussion). For example, a forum named \"Fruit\" may "
-"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+"A forum holds related or similar forum topics (a forum topic is the "
+"initial post to a threaded discussion). For example, a forum named "
+"\"Fruit\" may contain forum topics titled \"Apples\" and \"Bananas\", "
+"respectively."
 msgstr ""
+"פורום מכיל נושאי פורום קשורים או דומים "
+"(נושא פורום הינו הפרסום הראשון בשרשור "
+"דיון). לדוגמה, פורום בשם 'פירות' יכול "
+"להכיל נושאי פורום עם הכותרות 'תפוחים, "
+"ו-'בננות'."
 
 #: modules/forum/forum.module:31
 msgid ""
-"These settings allow you to adjust the display of your forum topics. The "
-"content types available for use within a forum may be selected by editing "
-"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
-"vocabulary page</a>."
+"These settings allow you to adjust the display of your forum topics. "
+"The content types available for use within a forum may be selected by "
+"editing the <em>Content types</em> on the <a "
+"href=\"@forum-vocabulary\">forum vocabulary page</a>."
 msgstr ""
 
-#: modules/forum/forum.module:230
-msgid ""
-"The item %forum is only a container for forums. Please select one of the "
-"forums below it."
-msgstr ""
-
-#: modules/forum/forum.module:296
-#, fuzzy
+#: modules/forum/forum.module:302
 msgid "Forum topic"
-msgstr "נושא דיון"
+msgstr "נושא הפורום"
 
-#: modules/forum/forum.module:298
+#: modules/forum/forum.module:304
 msgid ""
-"A <em>forum topic</em> is the initial post to a new discussion thread within "
-"a forum."
+"A <em>forum topic</em> is the initial post to a new discussion thread "
+"within a forum."
 msgstr ""
+"<em>נושא פורום</em> הינו הפרסום הראשוני "
+"בשרשור דיון בתוך פורום."
 
-#: modules/forum/forum.module:361
-msgid ""
-"This is the designated forum vocabulary. Some of the normal vocabulary "
-"options have been removed."
+#: modules/forum/forum.module:682
+msgid "You are not allowed to post new content in the forum."
+msgstr "אסור לך לפרסם תוכן חדש בפורום."
+
+#: modules/forum/forum.module:686
+msgid "<a href=\"@login\">Login</a> to post new content in the forum."
 msgstr ""
+"<a href=\"@login\">Login</a> לפרסום תוכן חדש "
+"בפורום."
 
-#: modules/forum/forum.module:403;419
-msgid "Active forum topics"
-msgstr "חדש בקבוצות הדיון"
-
-#: modules/forum/forum.module:404;426
-msgid "New forum topics"
-msgstr "חדש בקבוצות הדיון"
-
-#: modules/forum/forum.module:408
-msgid "Number of topics"
-msgstr "מספר הנושאים"
-
-#: modules/forum/forum.module:435
-msgid "Read the latest forum topics."
-msgstr ""
-
-#: modules/forum/forum.module:454
-msgid "Leave shadow copy"
-msgstr "השאר העתק צל"
-
-#: modules/forum/forum.module:454
-msgid ""
-"If you move this topic, you can leave a link in the old forum to the new "
-"forum."
-msgstr ""
-"אם נושא זה מועבר לקבוצת דיון אחרת, סימון אפשרות זו מאפשר לשמור קישור מהנושא "
-"בקבוצת הדיון הישנה אל קבוצת הדיון החדשה."
-
-#: modules/forum/forum.module:561
-msgid "Topic"
-msgstr "נושא"
-
-#: modules/forum/forum.module:563
-msgid "Created"
-msgstr "נוצר"
-
-#: modules/forum/forum.module:564
-msgid "Last reply"
-msgstr "תשובה אחרונה"
-
-#: modules/forum/forum.module:677
-#, fuzzy
-msgid "Post new @node_type"
-msgstr "פרסום תגובה חדשה"
-
-#: modules/forum/forum.module:684
-#, fuzzy
-msgid "You are not allowed to post new content in forum."
-msgstr "אינכם מורשים לפרסם הודעת יומן חדשה."
-
-#: modules/forum/forum.module:688
-#, fuzzy
-msgid "<a href=\"@login\">Login</a> to post new content in forum."
-msgstr "<a href=\"@login\">הזדהו</a> לפרסום תגובות"
-
-#: modules/forum/forum.module:726
-msgid "No forums defined"
-msgstr "לא הוגדרו קבוצות דיון"
-
-#: modules/forum/forum.module:812
-msgid "This topic has been moved"
-msgstr "הנושא הועבר"
-
-#: modules/forum/forum.module:322
-msgid "create forum topics"
-msgstr "יצירת נושאים"
-
-#: modules/forum/forum.module:322
-#, fuzzy
+#: modules/forum/forum.module:328
 msgid "delete own forum topics"
-msgstr "עריכת הודעות עצמית"
+msgstr "מחק את הנושאים שלך מהפורום."
 
-#: modules/forum/forum.module:322
-#, fuzzy
+#: modules/forum/forum.module:328
 msgid "delete any forum topic"
-msgstr "עריכת הודעות עצמית"
+msgstr "מחק נושא כלשהו מהפורום"
 
-#: modules/forum/forum.module:322
-msgid "edit own forum topics"
-msgstr "עריכת הודעות עצמית"
-
-#: modules/forum/forum.module:322
-#, fuzzy
+#: modules/forum/forum.module:328
 msgid "edit any forum topic"
-msgstr "עריכת הודעות עצמית"
+msgstr "ערוך כל נושא של הפורום"
 
-#: modules/forum/forum.module:322
-msgid "administer forums"
-msgstr "ניהול קבוצות דיון"
-
-#: modules/forum/forum.module:86;93 modules/forum/forum.install:27;116
-#, fuzzy
-msgid "Forums"
-msgstr "פורום"
-
-#: modules/forum/forum.module:94
-msgid "Control forums and their hierarchy and change forum settings."
-msgstr ""
-
-#: modules/forum/forum.module:106
-#, fuzzy
-msgid "Add container"
-msgstr "עדכן תיקיה"
-
-#: modules/forum/forum.module:114
-#, fuzzy
-msgid "Add forum"
-msgstr "עדכן קבוצת דיון"
-
-#: modules/forum/forum.module:136
-#, fuzzy
-msgid "Edit container"
-msgstr "עדכן תיקיה"
-
-#: modules/forum/forum.module:143
-#, fuzzy
-msgid "Edit forum"
-msgstr "עדכן קבוצת דיון"
-
-#: modules/forum/forum.install:69
-msgid "Stores the relationship of nodes to forum terms."
-msgstr ""
-
-#: modules/forum/forum.install:76
-#, fuzzy
-msgid "The {node}.nid of the node."
-msgstr "שם התפריט."
-
-#: modules/forum/forum.install:90
-msgid "The {term_data}.tid of the forum term assigned to the node."
-msgstr ""

@@ -1,21 +1,49 @@
-# translation of misc.po to Hebrew
-# Amnon Levav <amnon@levavie.com>, 2006.
-# Haggai Eran <haggai.eran@gmail.com>, 2006.
-# Yuval Hager <yuval@avramzon.net>, 2007, 2008, 2009.
-# Hebrew translation of דרופל ישראל
-# Copyright (c) 2006 ליאור <lior@linnovate.net>
+# Hebrew translation of Drupal (6.15)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  tableselect.js,v 1.8 2007/11/19 12:15:16 goba
+#  teaser.js,v 1.12.2.1 2009/05/20 11:50:54 goba
+#  tabledrag.js,v 1.13.2.5 2009/06/18 12:24:24 goba
+#  drupal.js,v 1.41.2.4 2009/07/21 08:59:10 goba
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: misc\n"
-"POT-Creation-Date: 2008-02-15 13:50+0100\n"
-"PO-Revision-Date: 2009-01-01 10:35+0200\n"
-"Last-Translator: Yuval Hager <yuval@avramzon.net>\n"
-"Language-Team: Hebrew <en@li.org>\n"
+"Project-Id-Version: Drupal (6.15)\n"
+"POT-Creation-Date: 2010-02-18 12:35+0000\n"
+"PO-Revision-Date: 2009-09-15 10:14+0000\n"
+"Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: misc/tableselect.js:0
+msgid "Select all rows in this table"
+msgstr "בחר את כל השורות בטבלה"
+
+#: misc/tableselect.js:0
+msgid "Deselect all rows in this table"
+msgstr "בטל בחירת כל השורות בטבלה"
+
+#: misc/teaser.js:0
+msgid "Join summary"
+msgstr "סיכום הצטרפויות"
+
+#: misc/teaser.js:0
+msgid "Split summary at cursor"
+msgstr "פצל סיכום בסמן"
+
+#: misc/tabledrag.js:0
+msgid "Drag to re-order"
+msgstr "גרור לסידור"
+
+#: misc/tabledrag.js:0
+msgid ""
+"Changes made in this table will not be saved until the form is "
+"submitted."
+msgstr ""
+"שינויים בטבלה זו לא ישמרו עד לשליחת "
+"הטופס."
 
 #: misc/drupal.js:0
 msgid "Unspecified error"
@@ -27,9 +55,6 @@ msgid ""
 "@uri\n"
 "@text"
 msgstr ""
-"קרתה שגיאה. \n"
-"@uri\n"
-"@text"
 
 #: misc/drupal.js:0
 msgid ""
@@ -37,39 +62,10 @@ msgid ""
 "@uri\n"
 "(no information available)."
 msgstr ""
-"קרתה שגיאה. \n"
-"@uri\n"
-"(אין מידע נוסף)."
 
 #: misc/drupal.js:0
 msgid ""
 "An HTTP error @status occurred. \n"
 "@uri"
 msgstr ""
-"קרתה שגיאת HTTP @status. \n"
-"@uri"
-
-#: misc/tabledrag.js:0
-msgid "Drag to re-order"
-msgstr "ניתן לגרור לסידור מחדש"
-
-#: misc/tabledrag.js:0
-msgid "Changes made in this table will not be saved until the form is submitted."
-msgstr "שינויים בטבלה זו יישמרו רק בעת שליחת הטופס."
-
-#: misc/tableselect.js:0
-msgid "Select all rows in this table"
-msgstr "בחירת את כל השורות בטבלה"
-
-#: misc/tableselect.js:0
-msgid "Deselect all rows in this table"
-msgstr "ביטול בחירת כל השורות בטבלה"
-
-#: misc/teaser.js:0;0
-msgid "Split summary at cursor"
-msgstr "פיצול לתקציר במקום בו נמצא הסמן"
-
-#: misc/teaser.js:0;0
-msgid "Join summary"
-msgstr "חיבור התקציר"
 
